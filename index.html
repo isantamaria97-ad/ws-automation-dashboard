@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Automation Dashboard · EVB</title>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.4/dist/chart.umd.min.js"></script>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --bg: #0f1117;
+      --surface: #1a1d27;
+      --border: #2a2d3d;
+      --text: #e4e6f0;
+      --muted: #6b7280;
+      --accent: #6366f1;
+      --green: #22c55e;
+      --yellow: #eab308;
+      --red: #ef4444;
+      --blue: #3b82f6;
+      --radius: 10px;
+    }
+
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      font-size: 14px;
+      line-height: 1.5;
+      min-height: 100vh;
+    }
+
+    header {
+      background: var(--surface);
+      border-bottom: 1px solid var(--border);
+      padding: 16px 32px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+    }
+    header h1 { font-size: 18px; font-weight: 600; letter-spacing: -0.3px; }
+    header h1 span { color: var(--accent); }
+    #last-updated { color: var(--muted); font-size: 12px; }
+
+    main {
+      max-width: 1280px;
+      margin: 0 auto;
+      padding: 28px 32px;
+      display: flex;
+      flex-direction: column;
+      gap: 32px;
+    }
+
+    section > h2 {
+      font-size: 13px;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.8px;
+      color: var(--muted);
+      margin-bottom: 14px;
+    }
+
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+      gap: 14px;
+    }
+    .card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 18px 20px;
+    }
+    .card .label {
+      font-size: 11px;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.6px;
+      color: var(--muted);
+      margin-bottom: 8px;
+    }
+    .card .value {
+      font-size: 32px;
+      font-weight: 700;
+      line-height: 1;
+    }
+    .card .value.green  { color: var(--green); }
+    .card .value.yellow { color: var(--yellow); }
+    .card .value.red    { color: var(--red); }
+    .card .value.blue   { color: var(--blue); }
+    .card .value.accent { color: var(--accent); }
+
+    .charts-row {
+      display: grid;
+      grid-template-columns: 280px 1fr;
+      gap: 20px;
+      align-items: start;
+    }
+    .chart-box {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 20px;
+    }
+    .chart-box h3 {
+      font-size: 13px;
+      font-weight: 600;
+      color: var(--muted);
+      margin-bottom: 16px;
+    }
+    .chart-box canvas { display: block; }
+
+    .table-wrap {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      overflow: hidden;
+    }
+    table { width: 100%; border-collapse: collapse; }
+    thead tr { background: #13161f; border-bottom: 1px solid var(--border); }
+    th {
+      padding: 10px 16px;
+      text-align: left;
+      font-size: 11px;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.6px;
+      color: var(--muted);
+    }
+    td {
+      padding: 10px 16px;
+      border-bottom: 1px solid var(--border);
+      vertical-align: middle;
+    }
+    tr:last-child td { border-bottom: none; }
+    tr:hover td { background: rgba(255,255,255,.025); }
+
+    .key-link {
+      color: var(--accent);
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 12px;
+      white-space: nowrap;
+    }
+    .key-link:hover { text-decoration: underline; }
+
+    .badge {
+      display: inline-block;
+      padding: 2px 8px;
+      border-radius: 999px;
+      font-size: 11px;
+      font-weight: 600;
+      white-space: nowrap;
+    }
+    .badge.todo     { background: rgba(107,114,128,.2); color: #9ca3af; }
+    .badge.progress { background: rgba(59,130,246,.2);  color: #60a5fa; }
+    .badge.done     { background: rgba(34,197,94,.2);   color: #4ade80; }
+    .badge.other    { background: rgba(107,114,128,.2); color: #9ca3af; }
+
+    .run-bar {
+      display: flex;
+      height: 6px;
+      border-radius: 3px;
+      overflow: hidden;
+      min-width: 80px;
+      background: var(--border);
+    }
+    .run-bar span { display: block; }
+
+    #loading, #error {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 40vh;
+      font-size: 16px;
+      color: var(--muted);
+    }
+    #error { color: var(--red); }
+    #content { display: none; }
+
+    @media (max-width: 768px) {
+      header { padding: 14px 16px; }
+      main   { padding: 20px 16px; gap: 24px; }
+      .charts-row { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Automation Dashboard · <span>EVB</span></h1>
+  <span id="last-updated">Loading…</span>
+</header>
+
+<div id="loading">Fetching dashboard data…</div>
+<div id="error" style="display:none"></div>
+
+<main id="content">
+
+  <section>
+    <h2>Jira · AT QA Tickets</h2>
+    <div class="cards" id="jira-cards"></div>
+  </section>
+
+  <section>
+    <h2>Overview</h2>
+    <div class="charts-row">
+      <div class="chart-box">
+        <h3>Jira status distribution</h3>
+        <canvas id="jira-donut" width="240" height="240"></canvas>
+      </div>
+      <div class="chart-box" style="flex:1">
+        <h3>Recent Testmo runs (last 10)</h3>
+        <canvas id="testmo-bar" height="220"></canvas>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Tickets</h2>
+    <div class="table-wrap">
+      <table>
+        <thead>
+          <tr>
+            <th>Key</th>
+            <th>Summary</th>
+            <th>Status</th>
+            <th>Assignee</th>
+            <th>Updated</th>
+          </tr>
+        </thead>
+        <tbody id="jira-tbody"></tbody>
+      </table>
+    </div>
+  </section>
+
+  <section>
+    <h2>Testmo · Test Cases</h2>
+    <div class="cards" id="testmo-cards"></div>
+  </section>
+
+  <section>
+    <h2>Recent Runs</h2>
+    <div class="table-wrap">
+      <table>
+        <thead>
+          <tr>
+            <th>Run</th>
+            <th>Results</th>
+            <th>Passed</th>
+            <th>Failed</th>
+            <th>Pending</th>
+            <th>Date</th>
+          </tr>
+        </thead>
+        <tbody id="testmo-tbody"></tbody>
+      </table>
+    </div>
+  </section>
+
+</main>
+
+<script>
+  const STATUS_CLASS = { 'To Do': 'todo', 'In Progress': 'progress', 'Done': 'done' };
+
+  function badge(text, cls) {
+    return `<span class="badge ${cls || 'other'}">${text}</span>`;
+  }
+  function fmtDate(iso) {
+    if (!iso) return '—';
+    return new Date(iso).toLocaleDateString('en-GB', { day: '2-digit', month: 'short', year: 'numeric' });
+  }
+  function card(label, value, colorClass) {
+    return `<div class="card"><div class="label">${label}</div><div class="value ${colorClass || ''}">${value}</div></div>`;
+  }
+  function runBar(passed, failed, pending, total) {
+    if (!total) return '<div class="run-bar"></div>';
+    const pct = n => ((n / total) * 100).toFixed(1) + '%';
+    return `<div class="run-bar">
+      <span style="width:${pct(passed)};background:#22c55e"></span>
+      <span style="width:${pct(failed)};background:#ef4444"></span>
+      <span style="width:${pct(pending)};background:#6b7280"></span>
+    </div>`;
+  }
+  function esc(str) {
+    return String(str)
+      .replace(/&/g,'&amp;').replace(/</g,'&lt;')
+      .replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+  }
+  function trunc(str, max) {
+    return str.length > max ? str.slice(0, max) + '…' : str;
+  }
+
+  async function main() {
+    const loading = document.getElementById('loading');
+    const errorEl = document.getElementById('error');
+    const content = document.getElementById('content');
+    try {
+      const resp = await fetch('data.json?_=' + Date.now());
+      if (!resp.ok) throw new Error(`HTTP ${resp.status}`);
+      const d = await resp.json();
+
+      loading.style.display = 'none';
+      content.style.display = 'block';
+      document.getElementById('last-updated').textContent =
+        'Updated ' + new Date(d.lastUpdated).toLocaleString();
+
+      renderJira(d.jira);
+      renderTestmo(d.testmo);
+      renderCharts(d);
+    } catch (err) {
+      loading.style.display = 'none';
+      errorEl.style.display = 'flex';
+      errorEl.textContent = 'Could not load data.json — ' + err.message;
+    }
+  }
+
+  function renderJira({ summary, tickets }) {
+    const byStatus = summary.byStatus || {};
+    const todo       = byStatus['To Do'] || 0;
+    const inProgress = byStatus['In Progress'] || 0;
+    const done       = byStatus['Done'] || 0;
+
+    document.getElementById('jira-cards').innerHTML =
+      card('Total', summary.total, 'accent') +
+      card('To Do', todo, '') +
+      card('In Progress', inProgress, 'blue') +
+      card('Done', done, 'green');
+
+    const tbody = document.getElementById('jira-tbody');
+    if (!tickets.length) {
+      tbody.innerHTML = '<tr><td colspan="5" style="color:var(--muted);text-align:center;padding:24px">No tickets found</td></tr>';
+      return;
+    }
+    tbody.innerHTML = tickets.map(t => `
+      <tr>
+        <td><a class="key-link" href="${t.url}" target="_blank" rel="noopener">${t.key}</a></td>
+        <td>${esc(t.summary)}</td>
+        <td>${badge(t.status, STATUS_CLASS[t.status] || 'other')}</td>
+        <td style="color:var(--muted)">${esc(t.assignee)}</td>
+        <td style="color:var(--muted);white-space:nowrap">${fmtDate(t.updated)}</td>
+      </tr>`).join('');
+  }
+
+  function renderTestmo({ summary, recentRuns }) {
+    document.getElementById('testmo-cards').innerHTML =
+      card('Total Cases', summary.totalCases, 'accent') +
+      card('Automated', summary.automatedCases, 'green') +
+      card('Manual', summary.manualCases, '') +
+      card('Total Runs', summary.totalRuns, 'blue');
+
+    const tbody = document.getElementById('testmo-tbody');
+    if (!recentRuns || !recentRuns.length) {
+      tbody.innerHTML = '<tr><td colspan="6" style="color:var(--muted);text-align:center;padding:24px">No runs found</td></tr>';
+      return;
+    }
+    tbody.innerHTML = recentRuns.map(r => {
+      const total = r.total || (r.passed + r.failed + r.pending) || 0;
+      return `<tr>
+        <td style="font-weight:600">${esc(r.name)}</td>
+        <td>${runBar(r.passed, r.failed, r.pending, total)}</td>
+        <td><span style="color:var(--green)">${r.passed}</span></td>
+        <td><span style="color:var(--red)">${r.failed}</span></td>
+        <td style="color:var(--muted)">${r.pending}</td>
+        <td style="color:var(--muted);white-space:nowrap">${fmtDate(r.created_at)}</td>
+      </tr>`;
+    }).join('');
+  }
+
+  function renderCharts(d) {
+    const byStatus = d.jira.summary.byStatus || {};
+    const labels = Object.keys(byStatus);
+    const values = labels.map(k => byStatus[k]);
+    const COLORS = ['#6b7280','#3b82f6','#22c55e','#f59e0b','#ef4444','#8b5cf6'];
+
+    new Chart(document.getElementById('jira-donut'), {
+      type: 'doughnut',
+      data: {
+        labels,
+        datasets: [{ data: values, backgroundColor: COLORS.slice(0, labels.length), borderWidth: 0, hoverOffset: 6 }],
+      },
+      options: {
+        plugins: { legend: { position: 'bottom', labels: { color: '#9ca3af', font: { size: 12 }, padding: 12 } } },
+        cutout: '62%',
+      },
+    });
+
+    const runs = (d.testmo.recentRuns || []).slice().reverse();
+    new Chart(document.getElementById('testmo-bar'), {
+      type: 'bar',
+      data: {
+        labels: runs.map(r => trunc(r.name, 28)),
+        datasets: [
+          { label: 'Passed',  data: runs.map(r => r.passed),  backgroundColor: '#22c55e' },
+          { label: 'Failed',  data: runs.map(r => r.failed),  backgroundColor: '#ef4444' },
+          { label: 'Pending', data: runs.map(r => r.pending), backgroundColor: '#6b7280' },
+        ],
+      },
+      options: {
+        responsive: true,
+        maintainAspectRatio: false,
+        scales: {
+          x: { stacked: true, ticks: { color: '#9ca3af', font: { size: 11 } }, grid: { color: '#2a2d3d' } },
+          y: { stacked: true, ticks: { color: '#9ca3af', font: { size: 11 } }, grid: { color: '#2a2d3d' } },
+        },
+        plugins: { legend: { labels: { color: '#9ca3af', font: { size: 12 } } } },
+      },
+    });
+  }
+
+  main();
+</script>
+</body>
+</html>
