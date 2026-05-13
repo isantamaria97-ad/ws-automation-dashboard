@@ -1,0 +1,60 @@
+name: Update Testmo Runs Data
+
+on:
+  schedule:
+    - cron: '*/30 * * * *'   # every 30 minutes
+  workflow_dispatch:
+    inputs:
+      run_ids:
+        description: "Comma-separated run IDs (overrides repo var)"
+        required: false
+      group_id:
+        description: "Run group_id to filter by (overrides repo var)"
+        required: false
+
+permissions:
+  contents: write
+
+jobs:
+  fetch-and-commit:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Verify TESTMO_API_TOKEN is present
+        env:
+          TESTMO_API_TOKEN: ${{ secrets.TESTMO_API_TOKEN }}
+        run: |
+          if [ -z "$TESTMO_API_TOKEN" ]; then
+            echo "::error::Secret TESTMO_API_TOKEN is empty. Add it under Settings → Secrets and variables → Actions → Secrets."
+            exit 1
+          fi
+          echo "  TESTMO_API_TOKEN length: ${#TESTMO_API_TOKEN}"
+
+      - name: Fetch Testmo run data
+        env:
+          TESTMO_API_TOKEN: ${{ secrets.TESTMO_API_TOKEN }}
+          TESTMO_BASE_URL: ${{ vars.TESTMO_BASE_URL || 'https://applydigital.testmo.net' }}
+          TESTMO_PROJECT_ID: ${{ vars.TESTMO_PROJECT_ID || '9' }}
+          TESTMO_RUN_IDS: ${{ github.event.inputs.run_ids || vars.TESTMO_RUN_IDS || '1726' }}
+          TESTMO_GROUP_ID: ${{ github.event.inputs.group_id || vars.TESTMO_GROUP_ID || '' }}
+          TESTMO_MILESTONE_ID: ${{ vars.TESTMO_MILESTONE_ID || '' }}
+          OUTPUT_PATH: testmo/data.json
+        run: python3 scripts/fetch_testmo_runs.py
+
+      - name: Commit updated testmo/data.json
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add testmo/data.json
+          git diff --staged --quiet && echo "No changes" || \
+            git commit -m "chore: update testmo run data [skip ci]"
+          git push

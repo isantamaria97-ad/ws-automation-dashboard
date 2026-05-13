@@ -195,7 +195,14 @@
 
 <header>
   <h1>Automation Dashboard · <span>EVB</span></h1>
-  <span id="last-updated">Loading…</span>
+  <div style="display:flex;align-items:center;gap:12px">
+    <a href="testmo/" style="color:var(--muted);font-size:12px;text-decoration:none;padding:6px 10px;border:1px solid var(--border);border-radius:6px"
+       onmouseover="this.style.color='var(--text)';this.style.borderColor='var(--accent)'"
+       onmouseout="this.style.color='var(--muted)';this.style.borderColor='var(--border)'">
+      Testmo runs →
+    </a>
+    <span id="last-updated">Loading…</span>
+  </div>
 </header>
 
 <div id="loading">Fetching dashboard data…</div>
