@@ -14,10 +14,33 @@ except ImportError:
     print("ERROR: 'requests' not installed. Run: pip install requests", file=sys.stderr)
     sys.exit(1)
 
+
+def _required_env(name: str) -> str:
+    """Fail fast with a clear message when a required secret is empty or still a placeholder.
+
+    In GitHub Actions, `${{ secrets.X }}` resolves to an empty string when the secret
+    is missing or stored under the wrong tab (Variables vs Secrets).
+    """
+    v = (os.environ.get(name) or "").strip()
+    if not v:
+        print(
+            f"ERROR: {name} is empty. In GitHub: Settings → Secrets and variables → Actions → Secrets "
+            f"(not Variables). Locally: check .env.",
+            file=sys.stderr,
+        )
+        sys.exit(2)
+    low = v.lower()
+    if low.startswith("your_") or low.endswith("_here") or "placeholder" in low:
+        print(f"ERROR: {name} still has a placeholder value ({v!r}). Replace it with a real token.",
+              file=sys.stderr)
+        sys.exit(2)
+    return v
+
+
 # ── Jira ────────────────────────────────────────────────────────────────────
 JIRA_BASE = "https://reigncl.atlassian.net"
-JIRA_EMAIL = os.environ["JIRA_EMAIL"]
-JIRA_TOKEN = os.environ["JIRA_API_TOKEN"]
+JIRA_EMAIL = _required_env("JIRA_EMAIL")
+JIRA_TOKEN = _required_env("JIRA_API_TOKEN")
 _jira_creds = b64encode(f"{JIRA_EMAIL}:{JIRA_TOKEN}".encode()).decode()
 JIRA_HEADERS = {
     "Authorization": f"Basic {_jira_creds}",
@@ -28,7 +51,7 @@ JIRA_JQL = 'project = EVB AND issuetype = "AT QA" AND "Epic Link" = EVB-32 ORDER
 
 # ── Testmo ───────────────────────────────────────────────────────────────────
 TESTMO_BASE = "https://applydigital.testmo.net"
-TESTMO_TOKEN = os.environ["TESTMO_API_TOKEN"]
+TESTMO_TOKEN = _required_env("TESTMO_API_TOKEN")
 TESTMO_PROJECT_ID = os.environ.get("TESTMO_PROJECT_ID", "9")
 # Automation source to scope runs to (17 = "e2etests"). Set "" to disable filter.
 TESTMO_AUTOMATION_SOURCE_ID = os.environ.get("TESTMO_AUTOMATION_SOURCE_ID", "17")
