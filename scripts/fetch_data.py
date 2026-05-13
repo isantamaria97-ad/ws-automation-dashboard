@@ -3,6 +3,7 @@
 
 import json
 import os
+import re
 import sys
 from base64 import b64encode
 from datetime import datetime, timezone
@@ -28,6 +29,13 @@ JIRA_JQL = 'project = EVB AND issuetype = "AT QA" AND "Epic Link" = EVB-32 ORDER
 # ── Testmo ───────────────────────────────────────────────────────────────────
 TESTMO_BASE = "https://applydigital.testmo.net"
 TESTMO_TOKEN = os.environ["TESTMO_API_TOKEN"]
+TESTMO_PROJECT_ID = os.environ.get("TESTMO_PROJECT_ID", "9")
+# Automation source to scope runs to (17 = "e2etests"). Set "" to disable filter.
+TESTMO_AUTOMATION_SOURCE_ID = os.environ.get("TESTMO_AUTOMATION_SOURCE_ID", "17")
+# Regex applied to run name (case-insensitive). Defaults to Chile B2B Web nightly smokes.
+TESTMO_RUN_NAME_PATTERN = os.environ.get("TESTMO_RUN_NAME_PATTERN", r"^CL.*B2B Web")
+# Root folder for case-coverage scope (717 = "Flujos B2B WEB > Chile"). Set "" to disable filter.
+TESTMO_SCOPE_FOLDER_ID = os.environ.get("TESTMO_SCOPE_FOLDER_ID", "717")
 TESTMO_HEADERS = {
     "Authorization": f"Bearer {TESTMO_TOKEN}",
     "Accept": "application/json",
@@ -37,13 +45,18 @@ TESTMO_HEADERS = {
 # ── helpers ──────────────────────────────────────────────────────────────────
 
 def paginate_jira(jql: str, fields: str) -> list:
-    items, start = [], 0
-    max_results = 100
+    """Uses the new /rest/api/3/search/jql endpoint (token-paginated, no total).
+    The legacy /rest/api/3/search returns 410 Gone as of 2025."""
+    items: list = []
+    next_token: str | None = None
     while True:
+        params: dict = {"jql": jql, "maxResults": 100, "fields": fields}
+        if next_token:
+            params["nextPageToken"] = next_token
         r = requests.get(
-            f"{JIRA_BASE}/rest/api/3/search",
+            f"{JIRA_BASE}/rest/api/3/search/jql",
             headers=JIRA_HEADERS,
-            params={"jql": jql, "startAt": start, "maxResults": max_results, "fields": fields},
+            params=params,
             timeout=30,
         )
         if r.status_code == 400:
@@ -55,31 +68,33 @@ def paginate_jira(jql: str, fields: str) -> list:
         data = r.json()
         batch = data.get("issues", [])
         items.extend(batch)
-        start += len(batch)
-        if start >= data.get("total", 0) or not batch:
+        if data.get("isLast") or not batch:
+            break
+        next_token = data.get("nextPageToken")
+        if not next_token:
             break
     return items
 
 
 def paginate_testmo(endpoint: str, params: dict | None = None) -> list:
-    items, page = [], 1
+    """Testmo wraps list responses in {'result': [...], 'page', 'last_page', ...}.
+    Default page size is 100; sending per_page=N fails for most N, so we don't set it."""
+    items: list = []
+    page = 1
     base_params = params or {}
     while True:
         r = requests.get(
             f"{TESTMO_BASE}{endpoint}",
             headers=TESTMO_HEADERS,
-            params={**base_params, "page": page, "per_page": 100},
+            params={**base_params, "page": page},
             timeout=30,
         )
         r.raise_for_status()
         data = r.json()
-        batch = data.get("data", data) if isinstance(data, dict) else data
-        if not batch:
-            break
+        batch = data.get("result", []) if isinstance(data, dict) else (data or [])
         items.extend(batch)
-        meta = data.get("meta", {}) if isinstance(data, dict) else {}
-        last_page = meta.get("last_page", meta.get("total_pages", 1))
-        if page >= last_page or len(batch) < 100:
+        last_page = data.get("last_page", 1) if isinstance(data, dict) else 1
+        if page >= last_page or not batch:
             break
         page += 1
     return items
@@ -122,45 +137,112 @@ def fetch_jira_tickets() -> list:
 # ── Testmo ───────────────────────────────────────────────────────────────────
 
 def fetch_testmo_runs() -> list:
-    print("  Fetching Testmo runs…")
-    raw = paginate_testmo("/api/v1/runs")
+    """Fetches automation runs from project and filters to the scope of interest.
+
+    The dashboard tracks one specific automation stream (Chile B2B Web nightly).
+    Testmo's UI uses `?group_id=` to slice within a manual run, but that filter
+    isn't exposed via the REST API — instead we scope by source_id + run name.
+    """
+    src = TESTMO_AUTOMATION_SOURCE_ID
+    name_re = re.compile(TESTMO_RUN_NAME_PATTERN, re.IGNORECASE) if TESTMO_RUN_NAME_PATTERN else None
+    print(f"  Fetching Testmo automation runs (project {TESTMO_PROJECT_ID}, "
+          f"source={src or '*'}, name~={TESTMO_RUN_NAME_PATTERN or '*'})…")
+    raw = paginate_testmo(f"/api/v1/projects/{TESTMO_PROJECT_ID}/automation/runs")
+
     runs = []
     for r in raw:
-        counts = r.get("result_counts") or {}
+        if src and str(r.get("source_id")) != src:
+            continue
+        if name_re and not name_re.search(r.get("name", "")):
+            continue
         runs.append({
             "id": r.get("id"),
             "name": r.get("name", ""),
-            "status": r.get("status", ""),
+            "source_id": r.get("source_id"),
+            "milestone_id": r.get("milestone_id"),
+            "status": r.get("status"),
             "is_completed": r.get("is_completed", False),
+            "elapsed_ms": r.get("elapsed"),
             "created_at": r.get("created_at", ""),
-            "updated_at": r.get("updated_at", ""),
-            "passed": r.get("passed_count", 0) or counts.get("passed", 0),
-            "failed": r.get("failed_count", 0) or counts.get("failed", 0),
-            "pending": r.get("untested_count", 0) or counts.get("untested", 0),
-            "total": r.get("count", 0) or r.get("total_count", 0),
+            "completed_at": r.get("completed_at", ""),
+            "passed": r.get("success_count", 0),
+            "failed": r.get("failure_count", 0),
+            "pending": r.get("untested_count", 0),
+            "completed": r.get("completed_count", 0),
+            "total": r.get("total_count", 0),
         })
-    print(f"  → {len(runs)} runs")
+    print(f"  → {len(runs)} runs (filtered from {len(raw)} total)")
     return runs
 
 
+def fetch_testmo_folders() -> list:
+    """Returns the full folder list for the project (used to build path/scope filter)."""
+    print(f"  Fetching Testmo folders…")
+    raw = paginate_testmo(f"/api/v1/projects/{TESTMO_PROJECT_ID}/folders")
+    print(f"  → {len(raw)} folders")
+    return raw
+
+
+def build_folder_lookups(folders: list) -> tuple[dict, dict, dict]:
+    """Returns (by_id, kids, path_strings). Path skips the root for brevity."""
+    by_id = {f["id"]: f for f in folders}
+    kids: dict[int | None, list[int]] = {}
+    for f in folders:
+        kids.setdefault(f.get("parent_id"), []).append(f["id"])
+
+    paths: dict[int, str] = {}
+    for fid in by_id:
+        parts = []
+        cur = fid
+        # depth guard in case of cycles
+        for _ in range(20):
+            if cur is None:
+                break
+            node = by_id.get(cur)
+            if not node:
+                break
+            parts.append(node["name"])
+            cur = node.get("parent_id")
+        paths[fid] = " > ".join(reversed(parts))
+    return by_id, kids, paths
+
+
+def descendants_of(root_id: int, kids: dict) -> set[int]:
+    out, stack = {root_id}, [root_id]
+    while stack:
+        n = stack.pop()
+        for c in kids.get(n, []):
+            if c not in out:
+                out.add(c)
+                stack.append(c)
+    return out
+
+
 def fetch_testmo_cases() -> list:
-    print("  Fetching Testmo cases…")
+    """Fetches all project cases. The caller filters/categorizes by folder."""
+    print(f"  Fetching Testmo cases (project {TESTMO_PROJECT_ID})…")
     try:
-        raw = paginate_testmo("/api/v1/cases", {"expand": "automation_links"})
+        raw = paginate_testmo(f"/api/v1/projects/{TESTMO_PROJECT_ID}/cases")
     except requests.HTTPError as e:
         print(f"  ⚠  Could not fetch cases ({e}) — skipping")
         return []
-    cases = []
-    for c in raw:
-        links = c.get("automation_links") or []
-        cases.append({
-            "id": c.get("id"),
-            "name": c.get("name", ""),
-            "is_automated": bool(links),
-            "automation_links_count": len(links),
-        })
-    print(f"  → {len(cases)} cases")
-    return cases
+    print(f"  → {len(raw)} cases")
+    return raw
+
+
+def coverage_bucket(case: dict) -> str:
+    """Maps a case to an automation-coverage bucket using custom_automated as source of truth.
+
+    Testmo's `has_automation` flag isn't populated in this project even when CI runs exist,
+    so the QA-curated `custom_automated` field is the only reliable signal:
+      1 → automated, 0 → not automated, null → unclassified (needs triage).
+    """
+    v = case.get("custom_automated")
+    if v == 1:
+        return "automated"
+    if v == 0:
+        return "notAutomated"
+    return "unclassified"
 
 
 # ── main ─────────────────────────────────────────────────────────────────────
@@ -172,15 +254,92 @@ def main():
     tickets = fetch_jira_tickets()
 
     print("Testmo:")
-    runs = fetch_testmo_runs()
-    cases = fetch_testmo_cases()
+    folders = fetch_testmo_folders()
+    by_id, kids, paths = build_folder_lookups(folders)
 
+    scope_root = int(TESTMO_SCOPE_FOLDER_ID) if TESTMO_SCOPE_FOLDER_ID else None
+    in_scope: set[int] | None = descendants_of(scope_root, kids) if scope_root else None
+    scope_name = paths.get(scope_root, "") if scope_root else "(no filter)"
+
+    all_cases = fetch_testmo_cases()
+    if in_scope is None:
+        cases = all_cases
+    else:
+        cases = [c for c in all_cases if c.get("folder_id") in in_scope]
+        print(f"  → {len(cases)} cases in scope ‘{scope_name}’ (of {len(all_cases)} project-wide)")
+
+    runs = fetch_testmo_runs()
+
+    # ── Jira summary ─────────────────────────────────────────────────────────
     status_counts: dict[str, int] = {}
     for t in tickets:
         status_counts[t["status"]] = status_counts.get(t["status"], 0) + 1
 
-    recent_runs = sorted(runs, key=lambda r: r.get("created_at", ""), reverse=True)[:10]
-    automated = sum(1 for c in cases if c["is_automated"])
+    # ── Coverage buckets ─────────────────────────────────────────────────────
+    bucket_counts = {"automated": 0, "notAutomated": 0, "unclassified": 0}
+    folder_stats: dict[int, dict] = {}
+    for c in cases:
+        b = coverage_bucket(c)
+        bucket_counts[b] += 1
+        fid = c.get("folder_id")
+        if fid is None:
+            continue
+        fs = folder_stats.setdefault(fid, {"automated": 0, "notAutomated": 0, "unclassified": 0, "total": 0})
+        fs[b] += 1
+        fs["total"] += 1
+
+    # Roll up to feature-level folders. Each immediate child of scope_root
+    # (e.g. "Test Funcionales", "Test No Funcionales") tends to be a wrapper —
+    # descend one extra level so we surface real feature folders (Login, Checkout…).
+    coverage_by_folder = []
+    if scope_root:
+        feature_ids: list[tuple[int, int]] = []  # (folder_id, group_id_for_grouping)
+        for child_id in kids.get(scope_root, []):
+            grandchildren = kids.get(child_id, [])
+            if grandchildren:
+                for gid in grandchildren:
+                    feature_ids.append((gid, child_id))
+            else:
+                feature_ids.append((child_id, child_id))
+        for fid, group_id in feature_ids:
+            sub = descendants_of(fid, kids)
+            agg = {"automated": 0, "notAutomated": 0, "unclassified": 0, "total": 0}
+            for sid in sub:
+                fs = folder_stats.get(sid)
+                if not fs:
+                    continue
+                for k in agg:
+                    agg[k] += fs[k]
+            if agg["total"]:
+                coverage_by_folder.append({
+                    "folderId": fid,
+                    "name": by_id[fid]["name"],
+                    "group": by_id[group_id]["name"],
+                    **agg,
+                })
+        coverage_by_folder.sort(key=lambda x: (x["group"], -x["total"]))
+
+    # ── Runs summary ─────────────────────────────────────────────────────────
+    sorted_runs = sorted(runs, key=lambda r: r.get("created_at", ""), reverse=True)
+    recent_runs = sorted_runs[:10]
+    latest = sorted_runs[0] if sorted_runs else {}
+    total_passed = sum(r["passed"] for r in runs)
+    total_failed = sum(r["failed"] for r in runs)
+    total_executed = total_passed + total_failed
+    pass_rate = (total_passed / total_executed * 100) if total_executed else 0.0
+
+    # ── Slim case list for the payload (drop verbose custom_steps/description) ──
+    slim_cases = [
+        {
+            "id": c.get("id"),
+            "name": c.get("name", ""),
+            "folderId": c.get("folder_id"),
+            "folderPath": paths.get(c.get("folder_id"), ""),
+            "bucket": coverage_bucket(c),
+            "priority": c.get("custom_priority"),
+        }
+        for c in cases
+    ]
 
     payload = {
         "lastUpdated": datetime.now(timezone.utc).isoformat(),
@@ -192,14 +351,31 @@ def main():
             "tickets": tickets,
         },
         "testmo": {
-            "summary": {
-                "totalRuns": len(runs),
-                "totalCases": len(cases),
-                "automatedCases": automated,
-                "manualCases": len(cases) - automated,
+            "scope": {
+                "projectId": TESTMO_PROJECT_ID,
+                "automationSourceId": TESTMO_AUTOMATION_SOURCE_ID,
+                "runNamePattern": TESTMO_RUN_NAME_PATTERN,
+                "scopeFolderId": TESTMO_SCOPE_FOLDER_ID,
+                "scopeFolderName": scope_name,
             },
-            "recentRuns": recent_runs,
-            "cases": cases,
+            "coverage": {
+                "total": len(cases),
+                **bucket_counts,
+                "automatedPct": round(bucket_counts["automated"] / len(cases) * 100, 1) if cases else 0.0,
+                "byFolder": coverage_by_folder,
+            },
+            "runs": {
+                "total": len(runs),
+                "latestPassed": latest.get("passed", 0),
+                "latestFailed": latest.get("failed", 0),
+                "latestPending": latest.get("pending", 0),
+                "latestTotal": latest.get("total", 0),
+                "latestRunName": latest.get("name", ""),
+                "latestRunDate": latest.get("created_at", ""),
+                "passRate": round(pass_rate, 1),
+                "recent": recent_runs,
+            },
+            "cases": slim_cases,
         },
     }
 

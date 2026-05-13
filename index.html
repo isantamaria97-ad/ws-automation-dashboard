@@ -110,7 +110,11 @@
       color: var(--muted);
       margin-bottom: 16px;
     }
-    .chart-box canvas { display: block; }
+    .chart-wrap {
+      position: relative;
+      height: 260px;
+    }
+    .chart-wrap canvas { display: block; }
 
     .table-wrap {
       background: var(--surface);
@@ -200,50 +204,42 @@
 <main id="content">
 
   <section>
-    <h2>Jira · AT QA Tickets</h2>
-    <div class="cards" id="jira-cards"></div>
-  </section>
-
-  <section>
-    <h2>Overview</h2>
-    <div class="charts-row">
+    <h2>Automation Coverage · <span id="scope-folder" style="color:var(--text);text-transform:none;letter-spacing:normal;font-weight:600"></span></h2>
+    <div class="cards" id="coverage-cards"></div>
+    <div class="charts-row" style="margin-top:14px">
       <div class="chart-box">
-        <h3>Jira status distribution</h3>
-        <canvas id="jira-donut" width="240" height="240"></canvas>
+        <h3>Coverage breakdown</h3>
+        <div class="chart-wrap"><canvas id="coverage-donut"></canvas></div>
       </div>
       <div class="chart-box" style="flex:1">
-        <h3>Recent Testmo runs (last 10)</h3>
-        <canvas id="testmo-bar" height="220"></canvas>
+        <h3>By feature</h3>
+        <div class="table-wrap" style="border:none">
+          <table>
+            <thead>
+              <tr>
+                <th>Feature</th>
+                <th style="width:35%">Coverage</th>
+                <th style="text-align:right">Automated</th>
+                <th style="text-align:right">Not automated</th>
+                <th style="text-align:right">Unclassified</th>
+                <th style="text-align:right">Total</th>
+              </tr>
+            </thead>
+            <tbody id="coverage-tbody"></tbody>
+          </table>
+        </div>
       </div>
     </div>
   </section>
 
   <section>
-    <h2>Tickets</h2>
-    <div class="table-wrap">
-      <table>
-        <thead>
-          <tr>
-            <th>Key</th>
-            <th>Summary</th>
-            <th>Status</th>
-            <th>Assignee</th>
-            <th>Updated</th>
-          </tr>
-        </thead>
-        <tbody id="jira-tbody"></tbody>
-      </table>
+    <h2>Automation Runs · <span id="scope-runs" style="color:var(--muted);font-weight:400;text-transform:none;letter-spacing:normal"></span></h2>
+    <div class="cards" id="runs-cards"></div>
+    <div class="chart-box" style="margin-top:14px">
+      <h3>Recent runs (last 10)</h3>
+      <div class="chart-wrap"><canvas id="runs-bar"></canvas></div>
     </div>
-  </section>
-
-  <section>
-    <h2>Testmo · Test Cases</h2>
-    <div class="cards" id="testmo-cards"></div>
-  </section>
-
-  <section>
-    <h2>Recent Runs</h2>
-    <div class="table-wrap">
+    <div class="table-wrap" style="margin-top:14px">
       <table>
         <thead>
           <tr>
@@ -255,7 +251,30 @@
             <th>Date</th>
           </tr>
         </thead>
-        <tbody id="testmo-tbody"></tbody>
+        <tbody id="runs-tbody"></tbody>
+      </table>
+    </div>
+  </section>
+
+  <section>
+    <h2>Jira · AT QA Tickets</h2>
+    <div class="cards" id="jira-cards"></div>
+    <div class="chart-box" style="margin-top:14px;max-width:360px">
+      <h3>Status distribution</h3>
+      <div class="chart-wrap" style="height:200px"><canvas id="jira-donut"></canvas></div>
+    </div>
+    <div class="table-wrap" style="margin-top:14px">
+      <table>
+        <thead>
+          <tr>
+            <th>Key</th>
+            <th>Summary</th>
+            <th>Status</th>
+            <th>Assignee</th>
+            <th>Updated</th>
+          </tr>
+        </thead>
+        <tbody id="jira-tbody"></tbody>
       </table>
     </div>
   </section>
@@ -307,8 +326,9 @@
       document.getElementById('last-updated').textContent =
         'Updated ' + new Date(d.lastUpdated).toLocaleString();
 
+      renderCoverage(d.testmo);
+      renderRuns(d.testmo);
       renderJira(d.jira);
-      renderTestmo(d.testmo);
       renderCharts(d);
     } catch (err) {
       loading.style.display = 'none';
@@ -344,25 +364,79 @@
       </tr>`).join('');
   }
 
-  function renderTestmo({ summary, recentRuns }) {
-    document.getElementById('testmo-cards').innerHTML =
-      card('Total Cases', summary.totalCases, 'accent') +
-      card('Automated', summary.automatedCases, 'green') +
-      card('Manual', summary.manualCases, '') +
-      card('Total Runs', summary.totalRuns, 'blue');
+  function coverageBar(automated, notAutomated, unclassified, total) {
+    if (!total) return '<div class="run-bar"></div>';
+    const pct = n => ((n / total) * 100).toFixed(1) + '%';
+    return `<div class="run-bar">
+      <span style="width:${pct(automated)};background:#22c55e"     title="Automated: ${automated}"></span>
+      <span style="width:${pct(notAutomated)};background:#6b7280"  title="Not automated: ${notAutomated}"></span>
+      <span style="width:${pct(unclassified)};background:#eab308"  title="Unclassified: ${unclassified}"></span>
+    </div>`;
+  }
 
-    const tbody = document.getElementById('testmo-tbody');
-    if (!recentRuns || !recentRuns.length) {
+  function renderCoverage({ scope, coverage }) {
+    document.getElementById('scope-folder').textContent =
+      (scope && scope.scopeFolderName) ? scope.scopeFolderName : 'all cases';
+
+    const c = coverage;
+    document.getElementById('coverage-cards').innerHTML =
+      card('Total Cases',     c.total, 'accent') +
+      card('Automated',       c.automated + ' (' + c.automatedPct + '%)', c.automated > 0 ? 'green' : '') +
+      card('Not Automated',   c.notAutomated, '') +
+      card('Unclassified',    c.unclassified, c.unclassified > 0 ? 'yellow' : '');
+
+    const tbody = document.getElementById('coverage-tbody');
+    const rows = c.byFolder || [];
+    if (!rows.length) {
+      tbody.innerHTML = '<tr><td colspan="6" style="color:var(--muted);text-align:center;padding:24px">No cases in scope</td></tr>';
+      return;
+    }
+    let lastGroup = null;
+    tbody.innerHTML = rows.map(f => {
+      const groupHeader = f.group !== lastGroup
+        ? `<tr><td colspan="6" style="background:#13161f;color:var(--muted);font-size:11px;text-transform:uppercase;letter-spacing:.6px;padding:6px 16px">${esc(f.group)}</td></tr>`
+        : '';
+      lastGroup = f.group;
+      const pct = f.total ? ((f.automated / f.total) * 100).toFixed(0) : 0;
+      return groupHeader + `<tr>
+        <td style="font-weight:600">${esc(f.name)}</td>
+        <td>${coverageBar(f.automated, f.notAutomated, f.unclassified, f.total)}</td>
+        <td style="text-align:right;color:var(--green);font-weight:600">${f.automated}</td>
+        <td style="text-align:right;color:var(--muted)">${f.notAutomated}</td>
+        <td style="text-align:right;color:${f.unclassified ? 'var(--yellow)' : 'var(--muted)'}">${f.unclassified}</td>
+        <td style="text-align:right;font-weight:600">${f.total}</td>
+      </tr>`;
+    }).join('');
+  }
+
+  function renderRuns({ scope, runs }) {
+    const passRateClass = runs.passRate >= 95 ? 'green' : runs.passRate >= 80 ? 'yellow' : 'red';
+    document.getElementById('runs-cards').innerHTML =
+      card('Total Runs',      runs.total, 'accent') +
+      card('Latest Passed',   runs.latestPassed, 'green') +
+      card('Latest Failed',   runs.latestFailed, runs.latestFailed > 0 ? 'red' : '') +
+      card('Pass Rate',       runs.passRate + '%', passRateClass);
+
+    if (scope) {
+      const bits = [];
+      if (scope.automationSourceId) bits.push(`source ${scope.automationSourceId}`);
+      if (scope.runNamePattern)     bits.push(`name ~ /${scope.runNamePattern}/i`);
+      document.getElementById('scope-runs').textContent = bits.length ? bits.join(' · ') : '';
+    }
+
+    const tbody = document.getElementById('runs-tbody');
+    const recent = runs.recent || [];
+    if (!recent.length) {
       tbody.innerHTML = '<tr><td colspan="6" style="color:var(--muted);text-align:center;padding:24px">No runs found</td></tr>';
       return;
     }
-    tbody.innerHTML = recentRuns.map(r => {
+    tbody.innerHTML = recent.map(r => {
       const total = r.total || (r.passed + r.failed + r.pending) || 0;
       return `<tr>
         <td style="font-weight:600">${esc(r.name)}</td>
         <td>${runBar(r.passed, r.failed, r.pending, total)}</td>
-        <td><span style="color:var(--green)">${r.passed}</span></td>
-        <td><span style="color:var(--red)">${r.failed}</span></td>
+        <td style="color:var(--green)">${r.passed}</td>
+        <td style="color:var(--red)">${r.failed}</td>
         <td style="color:var(--muted)">${r.pending}</td>
         <td style="color:var(--muted);white-space:nowrap">${fmtDate(r.created_at)}</td>
       </tr>`;
@@ -370,25 +444,29 @@
   }
 
   function renderCharts(d) {
-    const byStatus = d.jira.summary.byStatus || {};
-    const labels = Object.keys(byStatus);
-    const values = labels.map(k => byStatus[k]);
-    const COLORS = ['#6b7280','#3b82f6','#22c55e','#f59e0b','#ef4444','#8b5cf6'];
-
-    new Chart(document.getElementById('jira-donut'), {
+    // Coverage donut (top section)
+    const cov = d.testmo.coverage;
+    new Chart(document.getElementById('coverage-donut'), {
       type: 'doughnut',
       data: {
-        labels,
-        datasets: [{ data: values, backgroundColor: COLORS.slice(0, labels.length), borderWidth: 0, hoverOffset: 6 }],
+        labels: ['Automated', 'Not automated', 'Unclassified'],
+        datasets: [{
+          data: [cov.automated, cov.notAutomated, cov.unclassified],
+          backgroundColor: ['#22c55e', '#6b7280', '#eab308'],
+          borderWidth: 0, hoverOffset: 6,
+        }],
       },
       options: {
+        responsive: true,
+        maintainAspectRatio: false,
         plugins: { legend: { position: 'bottom', labels: { color: '#9ca3af', font: { size: 12 }, padding: 12 } } },
         cutout: '62%',
       },
     });
 
-    const runs = (d.testmo.recentRuns || []).slice().reverse();
-    new Chart(document.getElementById('testmo-bar'), {
+    // Runs bar (middle section)
+    const runs = (d.testmo.runs.recent || []).slice().reverse();
+    new Chart(document.getElementById('runs-bar'), {
       type: 'bar',
       data: {
         labels: runs.map(r => trunc(r.name, 28)),
@@ -406,6 +484,25 @@
           y: { stacked: true, ticks: { color: '#9ca3af', font: { size: 11 } }, grid: { color: '#2a2d3d' } },
         },
         plugins: { legend: { labels: { color: '#9ca3af', font: { size: 12 } } } },
+      },
+    });
+
+    // Jira donut (bottom section)
+    const byStatus = d.jira.summary.byStatus || {};
+    const labels = Object.keys(byStatus);
+    const values = labels.map(k => byStatus[k]);
+    const COLORS = ['#6b7280','#3b82f6','#22c55e','#f59e0b','#ef4444','#8b5cf6'];
+    new Chart(document.getElementById('jira-donut'), {
+      type: 'doughnut',
+      data: {
+        labels,
+        datasets: [{ data: values, backgroundColor: COLORS.slice(0, labels.length), borderWidth: 0, hoverOffset: 6 }],
+      },
+      options: {
+        responsive: true,
+        maintainAspectRatio: false,
+        plugins: { legend: { position: 'bottom', labels: { color: '#9ca3af', font: { size: 12 }, padding: 12 } } },
+        cutout: '62%',
       },
     });
   }
