@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Testmo Runs · EVB</title>
+  <title>Ejecuciones de Testmo · EVB</title>
   <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.4/dist/chart.umd.min.js"></script>
   <style>
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
@@ -176,6 +176,140 @@
     .chart-center .big { font-size: 28px; font-weight: 700; }
     .chart-center .sub { font-size: 12px; color: var(--muted); margin-top: 2px; }
 
+    .cases-panel {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 0;
+      overflow: hidden;
+    }
+    .cases-toolbar {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      padding: 14px 20px;
+      border-bottom: 1px solid var(--border);
+      flex-wrap: wrap;
+    }
+    .cases-toolbar input[type="search"] {
+      background: var(--surface-2);
+      color: var(--text);
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      padding: 7px 11px;
+      font-size: 13px;
+      min-width: 220px;
+      flex: 1;
+      max-width: 320px;
+    }
+    .cases-toolbar input[type="search"]:focus { outline: 2px solid var(--accent); outline-offset: 1px; }
+    .filter-pill {
+      background: var(--surface-2);
+      color: var(--muted);
+      border: 1px solid var(--border);
+      border-radius: 999px;
+      padding: 5px 12px;
+      font-size: 12px;
+      font-weight: 600;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      transition: border-color .15s, color .15s, background .15s;
+    }
+    .filter-pill:hover { color: var(--text); }
+    .filter-pill .pill-dot {
+      width: 8px; height: 8px; border-radius: 50%;
+      display: inline-block;
+    }
+    .filter-pill .pill-count {
+      color: var(--muted);
+      font-weight: 500;
+      font-variant-numeric: tabular-nums;
+    }
+    .filter-pill[aria-pressed="true"] {
+      color: var(--text);
+      border-color: var(--accent);
+      background: rgba(99,102,241,.12);
+    }
+    .filter-pill[aria-pressed="true"] .pill-count { color: var(--text); }
+
+    .cases-table-wrap {
+      overflow-x: auto;
+    }
+    table.cases { width: 100%; border-collapse: collapse; font-size: 13px; }
+    table.cases thead {
+      background: var(--surface-2);
+      position: sticky;
+      top: 0;
+      z-index: 1;
+    }
+    table.cases th {
+      padding: 9px 16px;
+      text-align: left;
+      font-size: 11px;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.6px;
+      color: var(--muted);
+      border-bottom: 1px solid var(--border);
+    }
+    table.cases td {
+      padding: 9px 16px;
+      border-bottom: 1px solid var(--border);
+      vertical-align: middle;
+    }
+    table.cases tr:last-child td { border-bottom: none; }
+    table.cases tr:hover td { background: rgba(255,255,255,.02); }
+    .status-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      padding: 3px 9px;
+      border-radius: 999px;
+      font-size: 11px;
+      font-weight: 600;
+      white-space: nowrap;
+    }
+    .status-badge .dot { width: 7px; height: 7px; border-radius: 50%; }
+    .cases-empty {
+      padding: 32px 20px;
+      text-align: center;
+      color: var(--muted);
+      font-size: 13px;
+    }
+    .cases-pager {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+      padding: 12px 20px;
+      border-top: 1px solid var(--border);
+      background: var(--surface-2);
+      font-size: 12px;
+      color: var(--muted);
+    }
+    .cases-pager .pager-info { font-variant-numeric: tabular-nums; }
+    .cases-pager .pager-controls { display: flex; gap: 6px; }
+    .pager-btn {
+      background: var(--surface);
+      color: var(--text);
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      padding: 5px 11px;
+      font-size: 12px;
+      font-weight: 600;
+      cursor: pointer;
+      min-width: 32px;
+    }
+    .pager-btn:hover:not([disabled]) { border-color: var(--accent); }
+    .pager-btn[disabled] { opacity: 0.4; cursor: not-allowed; }
+    .pager-btn[aria-current="page"] {
+      background: rgba(99,102,241,.15);
+      border-color: var(--accent);
+      color: var(--text);
+    }
+
     #loading, #error, #empty {
       display: flex;
       align-items: center;
@@ -202,39 +336,67 @@
 <body>
 
 <header>
-  <h1>Testmo Runs · <span>EVB</span></h1>
+  <h1>Ejecuciones de Testmo · <span>EVB</span></h1>
   <div class="header-right">
-    <a class="nav-link" href="../">← Automation dashboard</a>
-    <span id="last-updated">Loading…</span>
+    <a class="nav-link" href="../">← Dashboard de automatización</a>
+    <span id="last-updated">Cargando…</span>
   </div>
 </header>
 
-<div id="loading">Fetching run data…</div>
+<div id="loading">Cargando datos…</div>
 <div id="error" style="display:none"></div>
-<div id="empty" style="display:none">No runs configured. Set TESTMO_RUN_IDS or TESTMO_GROUP_ID in the workflow.</div>
+<div id="empty" style="display:none">No hay ejecuciones configuradas. Define TESTMO_RUN_IDS o TESTMO_GROUP_ID en el workflow.</div>
 
 <main id="content">
 
   <section class="run-picker">
-    <label for="run-select">Run</label>
+    <label for="run-select">Ejecución</label>
     <select id="run-select"></select>
-    <a id="run-link" class="run-link" href="#" target="_blank" rel="noopener">Open in Testmo ↗</a>
+    <a id="run-link" class="run-link" href="#" target="_blank" rel="noopener">Abrir en Testmo ↗</a>
   </section>
 
   <section>
-    <h2>Run status</h2>
+    <h2>Estado de la ejecución</h2>
     <div class="status-panel">
       <div class="status-summary">
-        <div class="completed-pct" id="completed-pct">0% completed</div>
-        <div class="remaining-label" id="remaining-label">0 of 0 remaining</div>
+        <div class="completed-pct" id="completed-pct">0% completado</div>
+        <div class="remaining-label" id="remaining-label">0 de 0 pendientes</div>
         <div class="status-legend" id="legend"></div>
       </div>
       <div class="chart-wrap">
         <canvas id="status-pie"></canvas>
         <div class="chart-center">
           <div class="big" id="chart-center-pct">0%</div>
-          <div class="sub">completed</div>
+          <div class="sub">completado</div>
         </div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Casos de prueba</h2>
+    <div class="cases-panel">
+      <div class="cases-toolbar">
+        <div id="filter-pills" style="display:flex;gap:6px;flex-wrap:wrap"></div>
+        <input id="case-search" type="search" placeholder="Filtrar por nombre…" />
+      </div>
+      <div class="cases-table-wrap">
+        <table class="cases">
+          <thead>
+            <tr>
+              <th style="width:46%">Nombre</th>
+              <th>Estado</th>
+              <th>Actualizado</th>
+              <th style="text-align:right">ID</th>
+            </tr>
+          </thead>
+          <tbody id="cases-tbody"></tbody>
+        </table>
+        <div id="cases-empty" class="cases-empty" style="display:none"></div>
+      </div>
+      <div id="cases-pager" class="cases-pager" style="display:none">
+        <span class="pager-info" id="pager-info"></span>
+        <div class="pager-controls" id="pager-controls"></div>
       </div>
     </div>
   </section>
@@ -246,15 +408,30 @@
   // Anything not in these buckets (untested, skipped, never-recorded) is
   // collapsed into the implicit "remaining" slice in the donut.
   const STATUSES = [
-    { key: 'passed',  label: 'Passed',  color: '#5cb85c' },
-    { key: 'failed',  label: 'Failed',  color: '#d9534f' },
-    { key: 'retest',  label: 'Retest',  color: '#f0ad4e' },
-    { key: 'blocked', label: 'Blocked', color: '#9e9e9e' },
+    { key: 'passed',  label: 'Aprobado',  color: '#5cb85c', statusId: 2 },
+    { key: 'failed',  label: 'Fallido',   color: '#d9534f', statusId: 3 },
+    { key: 'retest',  label: 'Reintento', color: '#f0ad4e', statusId: 4 },
+    { key: 'blocked', label: 'Bloqueado', color: '#9e9e9e', statusId: 5 },
   ];
   const REMAINING_COLOR = '#3f4452';
+  // statusId → color (covers Untested/Skipped too for the table badges)
+  const STATUS_COLOR_BY_ID = {
+    1: '#3b82f6', 2: '#5cb85c', 3: '#d9534f',
+    4: '#f0ad4e', 5: '#9e9e9e', 6: '#8b5cf6',
+  };
+  // statusId → Spanish label, used to localize the status field that comes
+  // from the Python script (which serializes Testmo's English defaults).
+  const STATUS_LABEL_BY_ID = {
+    1: 'Sin probar', 2: 'Aprobado', 3: 'Fallido',
+    4: 'Reintento', 5: 'Bloqueado', 6: 'Omitido',
+  };
 
   let chart = null;
   let runs = [];
+  let currentRun = null;
+  let activeStatusFilter = 'all';  // 'all' | statusId number
+  let currentPage = 1;
+  const PAGE_SIZE = 10;
 
   function esc(s) {
     return String(s)
@@ -277,7 +454,7 @@
 
       loading.style.display = 'none';
       document.getElementById('last-updated').textContent =
-        'Updated ' + new Date(d.lastUpdated).toLocaleString();
+        'Actualizado ' + new Date(d.lastUpdated).toLocaleString('es-ES');
 
       runs = d.runs || [];
       if (!runs.length) {
@@ -288,18 +465,19 @@
       content.style.display = 'flex';
       const sel = document.getElementById('run-select');
       sel.innerHTML = runs.map((r, i) =>
-        `<option value="${i}">${esc(r.name || ('Run ' + r.id))} · #${r.id}</option>`
+        `<option value="${i}">${esc(r.name || ('Ejecución ' + r.id))} · #${r.id}</option>`
       ).join('');
       sel.addEventListener('change', () => render(runs[+sel.value]));
       render(runs[0]);
     } catch (err) {
       loading.style.display = 'none';
       errorEl.style.display = 'flex';
-      errorEl.textContent = 'Could not load data.json — ' + err.message;
+      errorEl.textContent = 'No se pudo cargar data.json — ' + err.message;
     }
   }
 
   function render(run) {
+    currentRun = run;
     document.getElementById('run-link').href = run.url || '#';
 
     const total = run.total || 0;
@@ -308,12 +486,16 @@
     const remaining = Math.max(0, total - completed);
     const completedPct = total ? Math.round((completed / total) * 100) : 0;
 
-    document.getElementById('completed-pct').textContent = completedPct + '% completed';
-    document.getElementById('remaining-label').textContent = `${remaining} of ${total} remaining`;
+    document.getElementById('completed-pct').textContent = completedPct + '% completado';
+    document.getElementById('remaining-label').textContent = `${remaining} de ${total} pendientes`;
     document.getElementById('chart-center-pct').textContent = completedPct + '%';
 
     renderLegend(run, total);
     renderPie(run, total, remaining);
+    activeStatusFilter = 'all';
+    currentPage = 1;
+    renderFilterPills(run);
+    renderCases(run);
   }
 
   function renderLegend(run, total) {
@@ -324,14 +506,14 @@
         <div class="legend-swatch" style="background:${s.color}"></div>
         <div class="legend-text">
           <div class="count">${v} ${s.label}</div>
-          <div class="sub">${p}% set to ${s.label}</div>
+          <div class="sub">${p}% marcado como ${s.label}</div>
         </div>
       </div>`;
     }).join('');
   }
 
   function renderPie(run, total, remaining) {
-    const labels = STATUSES.map(s => s.label).concat(['Remaining']);
+    const labels = STATUSES.map(s => s.label).concat(['Pendiente']);
     const colors = STATUSES.map(s => s.color).concat([REMAINING_COLOR]);
     const values = STATUSES.map(s => run[s.key] || 0).concat([remaining]);
     // Show a faint full ring when total is 0 so the donut is never invisible.
@@ -360,6 +542,143 @@
       },
     });
   }
+
+  function renderFilterPills(run) {
+    const cases = run.cases || [];
+    const countByStatus = cases.reduce((acc, c) => {
+      acc[c.statusId] = (acc[c.statusId] || 0) + 1;
+      return acc;
+    }, {});
+
+    const pills = [{ id: 'all', label: 'Todos', color: '#9ca3af', count: cases.length }]
+      .concat(STATUSES.map(s => ({
+        id: s.statusId, label: s.label, color: s.color, count: countByStatus[s.statusId] || 0,
+      })));
+
+    const host = document.getElementById('filter-pills');
+    host.innerHTML = pills.map(p => `
+      <button class="filter-pill" data-status="${p.id}" aria-pressed="${activeStatusFilter == p.id}">
+        ${p.id === 'all' ? '' : `<span class="pill-dot" style="background:${p.color}"></span>`}
+        ${esc(p.label)}
+        <span class="pill-count">${p.count}</span>
+      </button>
+    `).join('');
+
+    host.querySelectorAll('.filter-pill').forEach(btn => {
+      btn.addEventListener('click', () => {
+        const v = btn.dataset.status;
+        activeStatusFilter = (v === 'all') ? 'all' : Number(v);
+        currentPage = 1;
+        host.querySelectorAll('.filter-pill').forEach(b =>
+          b.setAttribute('aria-pressed', String(b.dataset.status == String(activeStatusFilter)))
+        );
+        renderCases(currentRun);
+      });
+    });
+  }
+
+  function renderCases(run) {
+    const cases = run.cases || [];
+    const search = (document.getElementById('case-search').value || '').toLowerCase().trim();
+
+    const filtered = cases.filter(c => {
+      if (activeStatusFilter !== 'all' && c.statusId !== activeStatusFilter) return false;
+      if (search && !(c.name || '').toLowerCase().includes(search)) return false;
+      return true;
+    });
+
+    const tbody = document.getElementById('cases-tbody');
+    const emptyEl = document.getElementById('cases-empty');
+    const pagerEl = document.getElementById('cases-pager');
+
+    if (!cases.length) {
+      tbody.innerHTML = '';
+      pagerEl.style.display = 'none';
+      emptyEl.style.display = 'block';
+      emptyEl.textContent = 'Aún no hay casos ejecutados. La tabla se actualizará cuando QA registre resultados.';
+      return;
+    }
+    if (!filtered.length) {
+      tbody.innerHTML = '';
+      pagerEl.style.display = 'none';
+      emptyEl.style.display = 'block';
+      emptyEl.textContent = 'Ningún caso coincide con el filtro.';
+      return;
+    }
+    emptyEl.style.display = 'none';
+
+    const totalPages = Math.max(1, Math.ceil(filtered.length / PAGE_SIZE));
+    if (currentPage > totalPages) currentPage = totalPages;
+    const start = (currentPage - 1) * PAGE_SIZE;
+    const pageItems = filtered.slice(start, start + PAGE_SIZE);
+
+    tbody.innerHTML = pageItems.map(c => {
+      const color = STATUS_COLOR_BY_ID[c.statusId] || '#9ca3af';
+      const statusLabel = STATUS_LABEL_BY_ID[c.statusId] || c.status;
+      const updated = c.updatedAt
+        ? new Date(c.updatedAt).toLocaleString('es-ES', { day: '2-digit', month: 'short', hour: '2-digit', minute: '2-digit' })
+        : '—';
+      return `<tr>
+        <td>${esc(c.name)}</td>
+        <td><span class="status-badge" style="background:${color}22;color:${color}">
+          <span class="dot" style="background:${color}"></span>${esc(statusLabel)}
+        </span></td>
+        <td style="color:var(--muted);white-space:nowrap">${updated}</td>
+        <td style="text-align:right;color:var(--muted);font-variant-numeric:tabular-nums">#${c.caseId ?? '—'}</td>
+      </tr>`;
+    }).join('');
+
+    renderPager(filtered.length, totalPages, start, pageItems.length);
+  }
+
+  function renderPager(totalItems, totalPages, start, pageCount) {
+    const pagerEl = document.getElementById('cases-pager');
+    pagerEl.style.display = (totalPages > 1) ? 'flex' : 'none';
+    if (totalPages <= 1) return;
+
+    document.getElementById('pager-info').textContent =
+      `${start + 1}–${start + pageCount} de ${totalItems}`;
+
+    const controls = document.getElementById('pager-controls');
+    const pages = pageRange(currentPage, totalPages);
+    const buttons = [
+      `<button class="pager-btn" data-page="prev" ${currentPage === 1 ? 'disabled' : ''}>‹</button>`,
+    ].concat(pages.map(p =>
+      p === '…'
+        ? `<span class="pager-btn" style="background:none;border:none;cursor:default">…</span>`
+        : `<button class="pager-btn" data-page="${p}" aria-current="${p === currentPage ? 'page' : ''}">${p}</button>`
+    )).concat([
+      `<button class="pager-btn" data-page="next" ${currentPage === totalPages ? 'disabled' : ''}>›</button>`,
+    ]);
+    controls.innerHTML = buttons.join('');
+    controls.querySelectorAll('.pager-btn[data-page]').forEach(btn => {
+      btn.addEventListener('click', () => {
+        const v = btn.dataset.page;
+        if (v === 'prev') currentPage = Math.max(1, currentPage - 1);
+        else if (v === 'next') currentPage = Math.min(totalPages, currentPage + 1);
+        else currentPage = Number(v);
+        renderCases(currentRun);
+      });
+    });
+  }
+
+  // Renders compact pagination like "1 2 3 … 12" with the current page in the middle.
+  function pageRange(current, total) {
+    if (total <= 7) return Array.from({ length: total }, (_, i) => i + 1);
+    const pages = new Set([1, total, current, current - 1, current + 1]);
+    const sorted = [...pages].filter(p => p >= 1 && p <= total).sort((a, b) => a - b);
+    const out = [];
+    for (let i = 0; i < sorted.length; i++) {
+      if (i > 0 && sorted[i] - sorted[i - 1] > 1) out.push('…');
+      out.push(sorted[i]);
+    }
+    return out;
+  }
+
+  document.getElementById('case-search').addEventListener('input', () => {
+    currentPage = 1;
+    if (currentRun) renderCases(currentRun);
+  });
 
   main();
 </script>

@@ -80,7 +80,8 @@ def paginate(endpoint: str, params: dict | None = None) -> list:
         batch = data.get("result", []) if isinstance(data, dict) else (data or [])
         items.extend(batch)
         last_page = data.get("last_page", 1) if isinstance(data, dict) else 1
-        if page >= last_page or not batch:
+        # Testmo returns last_page=None when the total is 0.
+        if not batch or last_page is None or page >= last_page:
             break
         page += 1
     return items
@@ -98,6 +99,36 @@ def list_project_runs() -> list:
     if TESTMO_MILESTONE_ID:
         params["milestone_id"] = TESTMO_MILESTONE_ID
     return paginate(f"/api/v1/projects/{TESTMO_PROJECT_ID}/runs", params or None)
+
+
+def list_run_results(run_id: int | str) -> list[dict]:
+    """Results = status-change events on tests in the run. Each test can have
+    multiple result rows; only the one with is_latest=true reflects current status.
+    Returns the latest result per test (deduped client-side)."""
+    raw = paginate(f"/api/v1/runs/{run_id}/results")
+    by_test: dict[int, dict] = {}
+    for r in raw:
+        if not r.get("is_latest"):
+            continue
+        tid = r.get("test_id")
+        if tid is None:
+            continue
+        by_test[tid] = r
+    return list(by_test.values())
+
+
+_CASE_NAME_CACHE: dict[int, str] | None = None
+
+def case_name_lookup() -> dict[int, str]:
+    """Fetches project cases once and caches a {case_id: name} map."""
+    global _CASE_NAME_CACHE
+    if _CASE_NAME_CACHE is not None:
+        return _CASE_NAME_CACHE
+    print(f"  Fetching case name lookup (project {TESTMO_PROJECT_ID})…")
+    raw = paginate(f"/api/v1/projects/{TESTMO_PROJECT_ID}/cases")
+    _CASE_NAME_CACHE = {c["id"]: c.get("name", "") for c in raw if "id" in c}
+    print(f"  → {len(_CASE_NAME_CACHE)} cases cached")
+    return _CASE_NAME_CACHE
 
 
 def resolve_run_ids() -> list[int]:
@@ -166,6 +197,34 @@ def normalize_run(run: dict) -> dict:
     }
 
 
+def fetch_run_cases(run_id: int | str) -> list[dict]:
+    """Returns one row per executed test in the run: id, name, status, etc.
+    Tests that have never been touched don't appear (Testmo doesn't create a
+    result row until someone records a status)."""
+    print(f"    Fetching results for run {run_id}…")
+    results = list_run_results(run_id)
+    if not results:
+        print(f"    → 0 executed tests (table empty until QA records results)")
+        return []
+    names = case_name_lookup()
+    rows = []
+    for r in results:
+        sid = r.get("status_id")
+        rows.append({
+            "caseId": r.get("case_id"),
+            "testId": r.get("test_id"),
+            "name": names.get(r.get("case_id"), f"Case #{r.get('case_id')}"),
+            "statusId": sid,
+            "status": STATUS_LABELS.get(sid, f"Status {sid}"),
+            "note": r.get("note") or "",
+            "assigneeId": r.get("assignee_id"),
+            "updatedAt": r.get("created_at"),
+        })
+    rows.sort(key=lambda x: (x["statusId"] or 999, x["name"].lower()))
+    print(f"    → {len(rows)} executed tests")
+    return rows
+
+
 def main():
     out_path = os.environ.get("OUTPUT_PATH", "testmo/data.json")
 
@@ -178,7 +237,9 @@ def main():
     for rid in run_ids:
         try:
             print(f"  Fetching run {rid}…")
-            runs.append(normalize_run(get_run(rid)))
+            run = normalize_run(get_run(rid))
+            run["cases"] = fetch_run_cases(rid)
+            runs.append(run)
         except requests.HTTPError as e:
             print(f"  ⚠  Run {rid}: {e} — skipping")
 
