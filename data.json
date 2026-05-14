@@ -1,10 +1,10 @@
 {
-  "lastUpdated": "2026-05-13T21:24:44.438392+00:00",
+  "lastUpdated": "2026-05-14T02:55:10.268141+00:00",
   "jira": {
     "summary": {
       "total": 21,
       "byStatus": {
-        "PO Review": 1,
+        "Releasing": 1,
         "To Do": 20
       }
     },
@@ -13,10 +13,10 @@
         "key": "EVB-33",
         "url": "https://reigncl.atlassian.net/browse/EVB-33",
         "summary": "[QA-Automation][B2B-Chile] Login - Usuario Inv\u00e1lido",
-        "status": "PO Review",
+        "status": "Releasing",
         "statusCategory": "indeterminate",
         "assignee": "Luis Soto",
-        "updated": "2026-05-13T15:33:29.839-0300",
+        "updated": "2026-05-13T18:33:00.605-0300",
         "priority": "Medium",
         "labels": []
       },
