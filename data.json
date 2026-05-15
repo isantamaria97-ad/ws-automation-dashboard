@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-15T17:25:52.744782+00:00",
+  "lastUpdated": "2026-05-15T20:58:39.322076+00:00",
   "jira": {
     "summary": {
       "total": 21,
@@ -252,10 +252,10 @@
     },
     "coverage": {
       "total": 232,
-      "automated": 1,
-      "notAutomated": 174,
+      "automated": 2,
+      "notAutomated": 173,
       "unclassified": 57,
-      "automatedPct": 0.4,
+      "automatedPct": 0.9,
       "byFolder": [
         {
           "folderId": 20464,
@@ -315,8 +315,8 @@
           "folderId": 738,
           "name": "Login",
           "group": "Test Funcionales",
-          "automated": 1,
-          "notAutomated": 14,
+          "automated": 2,
+          "notAutomated": 13,
           "unclassified": 0,
           "total": 15
         },
@@ -2279,7 +2279,7 @@
         "name": "Usuario Invalido",
         "folderId": 738,
         "folderPath": "Flujos  B2B WEB > Chile > Test Funcionales > Login",
-        "bucket": "notAutomated",
+        "bucket": "automated",
         "priority": 1
       },
       {
