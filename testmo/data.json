@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-18T15:59:25.136100+00:00",
+  "lastUpdated": "2026-05-18T16:00:35.921919+00:00",
   "scope": {
     "baseUrl": "https://applydigital.testmo.net",
     "projectId": "9",
@@ -18,20 +18,20 @@
       "created_at": "2026-05-13T18:58:45.698Z",
       "updated_at": "2026-05-13T19:00:52.788Z",
       "closed_at": null,
-      "elapsed_ms": 203000000,
+      "elapsed_ms": 226000000,
       "total": 317,
-      "completed": 5,
-      "remaining": 312,
+      "completed": 6,
+      "remaining": 311,
       "passed": 0,
       "failed": 0,
       "retest": 0,
       "blocked": 0,
-      "untested": 5,
+      "untested": 6,
       "skipped": 0,
       "statusCounts": {
         "Untested": {
           "id": 1,
-          "count": 5
+          "count": 6
         },
         "Passed": {
           "id": 2,
@@ -147,6 +147,16 @@
           "note": "",
           "assigneeId": 136,
           "updatedAt": "2026-05-18T15:53:59.914Z"
+        },
+        {
+          "caseId": 35019,
+          "testId": 1546478,
+          "name": "Validar login con email",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": 136,
+          "updatedAt": "2026-05-18T16:00:07.012Z"
         },
         {
           "caseId": 35007,
