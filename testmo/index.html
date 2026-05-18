@@ -480,6 +480,16 @@
     currentRun = run;
     document.getElementById('run-link').href = run.url || '#';
 
+    // Derive per-status counts from the cases array (not run summary fields).
+    // Testmo's status*_count on the run object is inconsistent with /results data;
+    // the case list is the source of truth.
+    const cases = run.cases || [];
+    STATUSES.forEach(s => { run[s.key] = 0; });
+    cases.forEach(c => {
+      const match = STATUSES.find(s => s.statusId === c.statusId);
+      if (match) run[match.key]++;
+    });
+
     const total = run.total || 0;
     const tracked = STATUSES.reduce((sum, s) => sum + (run[s.key] || 0), 0);
     const completed = tracked;
