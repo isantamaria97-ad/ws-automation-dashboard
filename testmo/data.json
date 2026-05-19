@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-19T00:53:15.746396+00:00",
+  "lastUpdated": "2026-05-19T01:07:00.575602+00:00",
   "scope": {
     "baseUrl": "https://applydigital.testmo.net",
     "projectId": "9",
@@ -20,18 +20,18 @@
       "closed_at": null,
       "elapsed_ms": 494000000,
       "total": 317,
-      "completed": 30,
-      "remaining": 287,
+      "completed": 46,
+      "remaining": 271,
       "passed": 0,
       "failed": 0,
       "retest": 0,
       "blocked": 0,
-      "untested": 30,
+      "untested": 46,
       "skipped": 0,
       "statusCounts": {
         "Untested": {
           "id": 1,
-          "count": 30
+          "count": 46
         },
         "Passed": {
           "id": 2,
@@ -129,6 +129,16 @@
       "url": "https://applydigital.testmo.net/runs/view/1726",
       "cases": [
         {
+          "caseId": 35024,
+          "testId": 1546481,
+          "name": "Agregar favoritos en un cliente sin favoritos",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-19T00:55:59.284Z"
+        },
+        {
           "caseId": 35256,
           "testId": 1546636,
           "name": "Boton hacia arriba - NNav",
@@ -139,6 +149,126 @@
           "updatedAt": "2026-05-19T00:51:26.245Z"
         },
         {
+          "caseId": 35186,
+          "testId": 1546593,
+          "name": "Busqueda por tipo de empaque",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "<figure class=\"image\"><img src=\"/attachments/view/10003\" alt=\"10003\" /></figure>",
+          "assigneeId": null,
+          "updatedAt": "2026-05-19T01:04:00.074Z"
+        },
+        {
+          "caseId": 35191,
+          "testId": 1546598,
+          "name": "B\u00fasqueda de productos con errores ortogr\u00e1ficos",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "<figure class=\"image\"><img src=\"/attachments/view/10005\" alt=\"10005\" /></figure>",
+          "assigneeId": null,
+          "updatedAt": "2026-05-19T01:05:05.747Z"
+        },
+        {
+          "caseId": 35193,
+          "testId": 1546600,
+          "name": "B\u00fasqueda de productos con m\u00faltiples palabras claves",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "<figure class=\"image\"><img src=\"/attachments/view/10007\" alt=\"10007\" /></figure>",
+          "assigneeId": null,
+          "updatedAt": "2026-05-19T01:05:43.546Z"
+        },
+        {
+          "caseId": 35185,
+          "testId": 1546592,
+          "name": "B\u00fasqueda de productos en favoritos",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "<figure class=\"image\"></figure>",
+          "assigneeId": null,
+          "updatedAt": "2026-05-19T01:03:26.772Z"
+        },
+        {
+          "caseId": 35192,
+          "testId": 1546599,
+          "name": "B\u00fasqueda de productos inexistentes",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "<figure class=\"image\"><img src=\"/attachments/view/10006\" alt=\"10006\" /></figure>",
+          "assigneeId": null,
+          "updatedAt": "2026-05-19T01:05:15.770Z"
+        },
+        {
+          "caseId": 35190,
+          "testId": 1546597,
+          "name": "B\u00fasqueda de productos por sku",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "<figure class=\"image\"><img src=\"/attachments/view/10004\" alt=\"10004\" /></figure>",
+          "assigneeId": null,
+          "updatedAt": "2026-05-19T01:04:43.634Z"
+        },
+        {
+          "caseId": 35182,
+          "testId": 1546589,
+          "name": "B\u00fasqueda por categoria",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-19T00:58:41.798Z"
+        },
+        {
+          "caseId": 35180,
+          "testId": 1546587,
+          "name": "B\u00fasqueda por marca",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-19T00:57:14.862Z"
+        },
+        {
+          "caseId": 35189,
+          "testId": 1546596,
+          "name": "B\u00fasqueda por Nivel de Az\u00facar",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-19T01:04:16.625Z"
+        },
+        {
+          "caseId": 35183,
+          "testId": 1546590,
+          "name": "B\u00fasqueda por subcategor\u00edas",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "<figure class=\"image\"><img src=\"/attachments/view/10001\" alt=\"10001\" /></figure>",
+          "assigneeId": null,
+          "updatedAt": "2026-05-19T01:00:36.140Z"
+        },
+        {
+          "caseId": 35187,
+          "testId": 1546594,
+          "name": "B\u00fasqueda por tama\u00f1o",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-19T01:04:06.010Z"
+        },
+        {
+          "caseId": 35181,
+          "testId": 1546588,
+          "name": "B\u00fasqueda por tipo de producto",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "<figure class=\"image\"><img src=\"/attachments/view/10000\" alt=\"10000\" /></figure>",
+          "assigneeId": null,
+          "updatedAt": "2026-05-19T00:58:10.928Z"
+        },
+        {
           "caseId": 74024,
           "testId": 1546782,
           "name": "Cat\u00e1logo: Ocultar Fecha Entrega y Selector Locales",
@@ -147,6 +277,16 @@
           "note": "",
           "assigneeId": null,
           "updatedAt": "2026-05-19T00:52:41.333Z"
+        },
+        {
+          "caseId": 35026,
+          "testId": 1546483,
+          "name": "Eliminar favoritos",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-19T00:56:39.890Z"
         },
         {
           "caseId": 35014,
@@ -197,6 +337,16 @@
           "note": "",
           "assigneeId": 136,
           "updatedAt": "2026-05-19T00:47:25.329Z"
+        },
+        {
+          "caseId": 35188,
+          "testId": 1546595,
+          "name": "Validar cantidad de productos (Resultado de b\u00fasqueda)",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-19T01:04:10.882Z"
         },
         {
           "caseId": 35049,
@@ -427,6 +577,16 @@
           "note": "",
           "assigneeId": null,
           "updatedAt": "2026-05-19T00:45:57.772Z"
+        },
+        {
+          "caseId": 35025,
+          "testId": 1546482,
+          "name": "Visualizar favoritos cargados en la cuenta",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-19T00:56:18.736Z"
         }
       ]
     }
