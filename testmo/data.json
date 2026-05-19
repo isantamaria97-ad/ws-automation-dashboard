@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-19T20:24:15.065764+00:00",
+  "lastUpdated": "2026-05-19T21:52:05.391492+00:00",
   "scope": {
     "baseUrl": "https://applydigital.testmo.net",
     "projectId": "9",
@@ -20,18 +20,18 @@
       "closed_at": null,
       "elapsed_ms": 494000000,
       "total": 317,
-      "completed": 46,
-      "remaining": 271,
+      "completed": 51,
+      "remaining": 266,
       "passed": 0,
       "failed": 0,
       "retest": 0,
       "blocked": 0,
-      "untested": 46,
+      "untested": 51,
       "skipped": 0,
       "statusCounts": {
         "Untested": {
           "id": 1,
-          "count": 46
+          "count": 51
         },
         "Passed": {
           "id": 2,
@@ -339,6 +339,26 @@
           "updatedAt": "2026-05-19T00:47:25.329Z"
         },
         {
+          "caseId": 35046,
+          "testId": 1546496,
+          "name": "Validar cambiar contrase\u00f1a",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-19T20:41:38.425Z"
+        },
+        {
+          "caseId": 35047,
+          "testId": 1546497,
+          "name": "Validar cambiar tel\u00e9fono de contacto",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-19T20:41:42.577Z"
+        },
+        {
           "caseId": 35188,
           "testId": 1546595,
           "name": "Validar cantidad de productos (Resultado de b\u00fasqueda)",
@@ -369,6 +389,26 @@
           "updatedAt": "2026-05-19T00:49:59.496Z"
         },
         {
+          "caseId": 35044,
+          "testId": 1546494,
+          "name": "Validar edici\u00f3n de email a clientes  con login via  tel\u00e9fono",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-19T20:41:32.250Z"
+        },
+        {
+          "caseId": 35045,
+          "testId": 1546495,
+          "name": "Validar edici\u00f3n de nombre",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-19T20:41:35.288Z"
+        },
+        {
           "caseId": 35208,
           "testId": 1546612,
           "name": "Validar el loader de inicio de sesi\u00f3n",
@@ -387,6 +427,16 @@
           "note": "",
           "assigneeId": 136,
           "updatedAt": "2026-05-18T16:00:48.064Z"
+        },
+        {
+          "caseId": 35075,
+          "testId": 1546520,
+          "name": "Validar elementos de la pantalla",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-19T20:42:36.703Z"
         },
         {
           "caseId": 35130,
