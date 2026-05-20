@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-20T03:48:28.346595+00:00",
+  "lastUpdated": "2026-05-20T06:59:51.966978+00:00",
   "scope": {
     "baseUrl": "https://applydigital.testmo.net",
     "projectId": "9",
@@ -20,18 +20,18 @@
       "closed_at": null,
       "elapsed_ms": 494000000,
       "total": 317,
-      "completed": 68,
-      "remaining": 249,
+      "completed": 93,
+      "remaining": 224,
       "passed": 0,
       "failed": 0,
       "retest": 0,
       "blocked": 0,
-      "untested": 68,
+      "untested": 93,
       "skipped": 0,
       "statusCounts": {
         "Untested": {
           "id": 1,
-          "count": 68
+          "count": 93
         },
         "Passed": {
           "id": 2,
@@ -419,6 +419,26 @@
           "updatedAt": "2026-05-19T00:34:45.734Z"
         },
         {
+          "caseId": 35098,
+          "testId": 1546534,
+          "name": "Validar  se visualice el modal de Recomendados",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-20T03:50:07.891Z"
+        },
+        {
+          "caseId": 35095,
+          "testId": 1546531,
+          "name": "Validar \"Continuar pedido\"",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-20T03:49:47.958Z"
+        },
+        {
           "caseId": 35062,
           "testId": 1546507,
           "name": "Validar badge de agregar y quitar productos",
@@ -427,6 +447,16 @@
           "note": "",
           "assigneeId": null,
           "updatedAt": "2026-05-20T03:46:52.726Z"
+        },
+        {
+          "caseId": 35258,
+          "testId": 1546638,
+          "name": "Validar bloqueo de girar pantalla en dispositivos",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-20T03:54:24.090Z"
         },
         {
           "caseId": 35114,
@@ -609,6 +639,16 @@
           "updatedAt": "2026-05-19T20:42:36.703Z"
         },
         {
+          "caseId": 35147,
+          "testId": 1546563,
+          "name": "Validar la navegaci\u00f3n desde Carrito",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-20T03:50:51.476Z"
+        },
+        {
           "caseId": 35130,
           "testId": 1546552,
           "name": "Validar la navegaci\u00f3n desde Catalogo",
@@ -619,6 +659,26 @@
           "updatedAt": "2026-05-19T00:51:03.472Z"
         },
         {
+          "caseId": 35145,
+          "testId": 1546561,
+          "name": "Validar la navegaci\u00f3n desde Facturas",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-20T03:52:19.422Z"
+        },
+        {
+          "caseId": 35138,
+          "testId": 1546554,
+          "name": "Validar la navegaci\u00f3n desde Favoritos",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-20T03:50:42.864Z"
+        },
+        {
           "caseId": 35129,
           "testId": 1546551,
           "name": "Validar la navegaci\u00f3n desde home",
@@ -627,6 +687,86 @@
           "note": "",
           "assigneeId": null,
           "updatedAt": "2026-05-19T00:50:52.609Z"
+        },
+        {
+          "caseId": 35140,
+          "testId": 1546556,
+          "name": "Validar la navegaci\u00f3n desde men\u00fa hamburguesa",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-20T03:51:29.604Z"
+        },
+        {
+          "caseId": 35174,
+          "testId": 1546581,
+          "name": "Validar la navegaci\u00f3n desde Mi perfil",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-20T03:52:37.275Z"
+        },
+        {
+          "caseId": 35139,
+          "testId": 1546555,
+          "name": "Validar la navegaci\u00f3n desde Pedidos",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-20T03:50:45.866Z"
+        },
+        {
+          "caseId": 35178,
+          "testId": 1546585,
+          "name": "Validar la navegaci\u00f3n interna de \"cambiar contrase\u00f1a\" en Mi perfil",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-20T03:54:13.048Z"
+        },
+        {
+          "caseId": 35176,
+          "testId": 1546583,
+          "name": "Validar la navegaci\u00f3n interna de \"cambiar email\" en Mi perfil",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-20T03:52:43.210Z"
+        },
+        {
+          "caseId": 35175,
+          "testId": 1546582,
+          "name": "Validar la navegaci\u00f3n interna de \"cambiar nombre\" en Mi perfil",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-20T03:52:39.689Z"
+        },
+        {
+          "caseId": 35177,
+          "testId": 1546584,
+          "name": "Validar la navegaci\u00f3n interna de \"cambiar telefono\" en Mi perfil",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-20T03:52:48.306Z"
+        },
+        {
+          "caseId": 35094,
+          "testId": 1546530,
+          "name": "Validar la vista de  carrito con productos agregados",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-20T03:49:37.689Z"
         },
         {
           "caseId": 35034,
@@ -699,6 +839,66 @@
           "updatedAt": "2026-05-18T16:16:35.456Z"
         },
         {
+          "caseId": 35144,
+          "testId": 1546560,
+          "name": "Validar los \"Ver m\u00e1s\" de carrousel de Ofertas",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-20T03:51:47.124Z"
+        },
+        {
+          "caseId": 35143,
+          "testId": 1546559,
+          "name": "Validar los \"Ver m\u00e1s\" de catalogo desde el home",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-20T03:51:43.771Z"
+        },
+        {
+          "caseId": 35142,
+          "testId": 1546558,
+          "name": "Validar los \"Ver m\u00e1s\" de productos Mas pedidos",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-20T03:51:37.157Z"
+        },
+        {
+          "caseId": 35141,
+          "testId": 1546557,
+          "name": "Validar los \"Ver m\u00e1s\" de productos Recomendados",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-20T03:51:40.863Z"
+        },
+        {
+          "caseId": 35146,
+          "testId": 1546562,
+          "name": "Validar los go back de las pantallas de Cat\u00e1logo",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-20T03:50:38.242Z"
+        },
+        {
+          "caseId": 35137,
+          "testId": 1546553,
+          "name": "Validar los go back de las pantallas de Home",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-20T03:50:35.469Z"
+        },
+        {
           "caseId": 35083,
           "testId": 1546521,
           "name": "Validar navbar (superior)y tabbar (inferior)",
@@ -729,6 +929,16 @@
           "updatedAt": "2026-05-19T00:41:12.253Z"
         },
         {
+          "caseId": 35099,
+          "testId": 1546535,
+          "name": "Validar que el segundo paso se visualice el drawer",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-20T03:50:13.816Z"
+        },
+        {
           "caseId": 35209,
           "testId": 1546613,
           "name": "Validar que la app posea actualizaci\u00f3n",
@@ -737,6 +947,36 @@
           "note": "",
           "assigneeId": 136,
           "updatedAt": "2026-05-18T15:44:09.635Z"
+        },
+        {
+          "caseId": 35259,
+          "testId": 1546639,
+          "name": "Validar que la configuraci\u00f3n del telefono no permita mostrar letras gigantes",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-20T03:54:28.446Z"
+        },
+        {
+          "caseId": 35172,
+          "testId": 1546579,
+          "name": "Validar que la distintas navegaciones sean correctas",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-20T03:52:16.401Z"
+        },
+        {
+          "caseId": 35257,
+          "testId": 1546637,
+          "name": "Validar volver arriba en fav y catalogo",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-20T03:54:17.766Z"
         },
         {
           "caseId": 35052,
@@ -797,6 +1037,16 @@
           "note": "",
           "assigneeId": null,
           "updatedAt": "2026-05-19T00:45:57.772Z"
+        },
+        {
+          "caseId": 35097,
+          "testId": 1546533,
+          "name": "Visualizar el modal de \"Eliminar producto\"",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-20T03:49:59.759Z"
         },
         {
           "caseId": 35025,
