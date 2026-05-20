@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-20T03:25:01.611022+00:00",
+  "lastUpdated": "2026-05-20T03:48:28.346595+00:00",
   "scope": {
     "baseUrl": "https://applydigital.testmo.net",
     "projectId": "9",
@@ -20,18 +20,18 @@
       "closed_at": null,
       "elapsed_ms": 494000000,
       "total": 317,
-      "completed": 51,
-      "remaining": 266,
+      "completed": 68,
+      "remaining": 249,
       "passed": 0,
       "failed": 0,
       "retest": 0,
       "blocked": 0,
-      "untested": 51,
+      "untested": 68,
       "skipped": 0,
       "statusCounts": {
         "Untested": {
           "id": 1,
-          "count": 51
+          "count": 68
         },
         "Passed": {
           "id": 2,
@@ -129,6 +129,16 @@
       "url": "https://applydigital.testmo.net/runs/view/1726",
       "cases": [
         {
+          "caseId": 35023,
+          "testId": 1546480,
+          "name": "Agregar bundles con descuento",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-20T03:46:12.236Z"
+        },
+        {
           "caseId": 35024,
           "testId": 1546481,
           "name": "Agregar favoritos en un cliente sin favoritos",
@@ -137,6 +147,66 @@
           "note": "",
           "assigneeId": null,
           "updatedAt": "2026-05-19T00:55:59.284Z"
+        },
+        {
+          "caseId": 35022,
+          "testId": 1546479,
+          "name": "Agregar productos con descuentos",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-20T03:46:03.571Z"
+        },
+        {
+          "caseId": 35086,
+          "testId": 1546522,
+          "name": "Agregar productos desde carrousel - M\u00e1s pedidos",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-20T03:47:44.546Z"
+        },
+        {
+          "caseId": 35088,
+          "testId": 1546524,
+          "name": "Agregar productos desde carrousel - Ofertas",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-20T03:47:51.951Z"
+        },
+        {
+          "caseId": 35065,
+          "testId": 1546510,
+          "name": "Agregar productos desde carrousel - Recomendados",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-20T03:47:33.902Z"
+        },
+        {
+          "caseId": 35064,
+          "testId": 1546509,
+          "name": "Agregar productos desde cat\u00e1logo y subcategor\u00edas",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-20T03:47:13.154Z"
+        },
+        {
+          "caseId": 35036,
+          "testId": 1546486,
+          "name": "Agregar productos sin descuentos",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-20T03:46:07.108Z"
         },
         {
           "caseId": 35256,
@@ -289,6 +359,26 @@
           "updatedAt": "2026-05-19T00:56:39.890Z"
         },
         {
+          "caseId": 35087,
+          "testId": 1546523,
+          "name": "Vaciar carrito",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-20T03:46:15.755Z"
+        },
+        {
+          "caseId": 35067,
+          "testId": 1546512,
+          "name": "Vaciar carrito una vez que existan productos",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-20T03:46:43.015Z"
+        },
+        {
           "caseId": 35014,
           "testId": 1546474,
           "name": "Validaciones de Campos Alfanumericos",
@@ -327,6 +417,16 @@
           "note": "",
           "assigneeId": 136,
           "updatedAt": "2026-05-19T00:34:45.734Z"
+        },
+        {
+          "caseId": 35062,
+          "testId": 1546507,
+          "name": "Validar badge de agregar y quitar productos",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-20T03:46:52.726Z"
         },
         {
           "caseId": 35114,
@@ -369,6 +469,56 @@
           "updatedAt": "2026-05-19T01:04:10.882Z"
         },
         {
+          "caseId": 35090,
+          "testId": 1546526,
+          "name": "Validar carrito con productos",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-20T03:45:43.753Z"
+        },
+        {
+          "caseId": 35092,
+          "testId": 1546528,
+          "name": "Validar carrito cuando agrego productos",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-20T03:45:53.563Z"
+        },
+        {
+          "caseId": 35093,
+          "testId": 1546529,
+          "name": "Validar carrito cuando quito productos",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-20T03:45:57.984Z"
+        },
+        {
+          "caseId": 35091,
+          "testId": 1546527,
+          "name": "Validar carrito sin productos",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-20T03:45:48.489Z"
+        },
+        {
+          "caseId": 35066,
+          "testId": 1546511,
+          "name": "Validar carrito vacio",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-20T03:45:36.465Z"
+        },
+        {
           "caseId": 35049,
           "testId": 1546499,
           "name": "Validar cliente sin Productos Recomendados",
@@ -409,6 +559,16 @@
           "updatedAt": "2026-05-19T20:41:35.288Z"
         },
         {
+          "caseId": 35063,
+          "testId": 1546508,
+          "name": "Validar el drawer de agregar y quitar productos",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-20T03:47:01.926Z"
+        },
+        {
           "caseId": 35208,
           "testId": 1546612,
           "name": "Validar el loader de inicio de sesi\u00f3n",
@@ -427,6 +587,16 @@
           "note": "",
           "assigneeId": 136,
           "updatedAt": "2026-05-18T16:00:48.064Z"
+        },
+        {
+          "caseId": 35089,
+          "testId": 1546525,
+          "name": "Validar el modal de retornabilidad",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-20T03:47:56.594Z"
         },
         {
           "caseId": 35075,
