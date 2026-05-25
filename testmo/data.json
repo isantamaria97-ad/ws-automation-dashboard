@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-25T18:21:18.657114+00:00",
+  "lastUpdated": "2026-05-25T20:06:49.021328+00:00",
   "scope": {
     "baseUrl": "https://applydigital.testmo.net",
     "projectId": "9",
@@ -20,18 +20,18 @@
       "closed_at": null,
       "elapsed_ms": 494000000,
       "total": 317,
-      "completed": 93,
-      "remaining": 224,
+      "completed": 137,
+      "remaining": 180,
       "passed": 0,
       "failed": 0,
       "retest": 0,
       "blocked": 0,
-      "untested": 93,
+      "untested": 137,
       "skipped": 0,
       "statusCounts": {
         "Untested": {
           "id": 1,
-          "count": 93
+          "count": 137
         },
         "Passed": {
           "id": 2,
@@ -209,6 +209,16 @@
           "updatedAt": "2026-05-20T03:46:07.108Z"
         },
         {
+          "caseId": 35206,
+          "testId": 1546610,
+          "name": "Aumento de cupo de cliente sin credito suficiente",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-25T19:39:18.038Z"
+        },
+        {
           "caseId": 35256,
           "testId": 1546636,
           "name": "Boton hacia arriba - NNav",
@@ -379,6 +389,16 @@
           "updatedAt": "2026-05-20T03:46:43.015Z"
         },
         {
+          "caseId": 35689,
+          "testId": 1546744,
+          "name": "Validaciones de Campos Alfanumericos",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-25T19:41:25.958Z"
+        },
+        {
           "caseId": 35014,
           "testId": 1546474,
           "name": "Validaciones de Campos Alfanumericos",
@@ -439,6 +459,16 @@
           "updatedAt": "2026-05-20T03:49:47.958Z"
         },
         {
+          "caseId": 35228,
+          "testId": 1546625,
+          "name": "Validar \"resumen de productos\"",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-25T19:38:40.445Z"
+        },
+        {
           "caseId": 35062,
           "testId": 1546507,
           "name": "Validar badge de agregar y quitar productos",
@@ -457,6 +487,16 @@
           "note": "",
           "assigneeId": null,
           "updatedAt": "2026-05-20T03:54:24.090Z"
+        },
+        {
+          "caseId": 35597,
+          "testId": 1546703,
+          "name": "Validar b\u00fasqueda de productos",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-25T19:42:04.126Z"
         },
         {
           "caseId": 35114,
@@ -497,6 +537,16 @@
           "note": "",
           "assigneeId": null,
           "updatedAt": "2026-05-19T01:04:10.882Z"
+        },
+        {
+          "caseId": 35210,
+          "testId": 1546614,
+          "name": "Validar cantidad de productos maximos y minimos",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-25T19:36:21.792Z"
         },
         {
           "caseId": 35090,
@@ -549,6 +599,26 @@
           "updatedAt": "2026-05-20T03:45:36.465Z"
         },
         {
+          "caseId": 35010,
+          "testId": 1546470,
+          "name": "Validar centro de ayuda",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-25T19:40:05.753Z"
+        },
+        {
+          "caseId": 35207,
+          "testId": 1546611,
+          "name": "Validar cliente sin credito disponible",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-25T19:39:14.021Z"
+        },
+        {
           "caseId": 35049,
           "testId": 1546499,
           "name": "Validar cliente sin Productos Recomendados",
@@ -557,6 +627,26 @@
           "note": "",
           "assigneeId": null,
           "updatedAt": "2026-05-19T00:40:27.671Z"
+        },
+        {
+          "caseId": 35204,
+          "testId": 1546608,
+          "name": "Validar clientes con credito disponible",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-25T19:38:56.777Z"
+        },
+        {
+          "caseId": 35205,
+          "testId": 1546609,
+          "name": "Validar clientes con pago contraentrega",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-25T19:39:21.699Z"
         },
         {
           "caseId": 35164,
@@ -599,6 +689,16 @@
           "updatedAt": "2026-05-20T03:47:01.926Z"
         },
         {
+          "caseId": 35656,
+          "testId": 1546738,
+          "name": "Validar el loader de inicio de sesi\u00f3n",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-25T19:40:49.831Z"
+        },
+        {
           "caseId": 35208,
           "testId": 1546612,
           "name": "Validar el loader de inicio de sesi\u00f3n",
@@ -607,6 +707,16 @@
           "note": "",
           "assigneeId": 136,
           "updatedAt": "2026-05-18T15:49:46.816Z"
+        },
+        {
+          "caseId": 35688,
+          "testId": 1546743,
+          "name": "Validar el login -Copiar y Pegar- desde Portapapeles",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-25T19:41:10.518Z"
         },
         {
           "caseId": 35013,
@@ -629,6 +739,16 @@
           "updatedAt": "2026-05-20T03:47:56.594Z"
         },
         {
+          "caseId": 35224,
+          "testId": 1546621,
+          "name": "Validar elementos de checkout",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-25T19:38:27.507Z"
+        },
+        {
           "caseId": 35075,
           "testId": 1546520,
           "name": "Validar elementos de la pantalla",
@@ -637,6 +757,36 @@
           "note": "",
           "assigneeId": null,
           "updatedAt": "2026-05-19T20:42:36.703Z"
+        },
+        {
+          "caseId": 35225,
+          "testId": 1546622,
+          "name": "Validar fecha de entrega",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-25T19:38:32.027Z"
+        },
+        {
+          "caseId": 35012,
+          "testId": 1546472,
+          "name": "Validar Go back hacia Login",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-25T19:40:16.251Z"
+        },
+        {
+          "caseId": 35606,
+          "testId": 1546708,
+          "name": "Validar icono de notificaciones",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-25T19:42:12.281Z"
         },
         {
           "caseId": 35147,
@@ -779,6 +929,16 @@
           "updatedAt": "2026-05-19T00:50:30.506Z"
         },
         {
+          "caseId": 35711,
+          "testId": 1546751,
+          "name": "Validar loader de inicio de sesi\u00f3n",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-25T19:41:28.810Z"
+        },
+        {
           "caseId": 35199,
           "testId": 1546606,
           "name": "Validar loader de inicio de sesi\u00f3n",
@@ -787,6 +947,16 @@
           "note": "",
           "assigneeId": 136,
           "updatedAt": "2026-05-19T00:25:16.861Z"
+        },
+        {
+          "caseId": 35691,
+          "testId": 1546746,
+          "name": "Validar login con contrase\u00f1a incorrecta",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-25T19:41:03.361Z"
         },
         {
           "caseId": 35017,
@@ -799,6 +969,16 @@
           "updatedAt": "2026-05-18T15:53:59.914Z"
         },
         {
+          "caseId": 35692,
+          "testId": 1546747,
+          "name": "Validar login con email",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-25T19:41:08.074Z"
+        },
+        {
           "caseId": 35019,
           "testId": 1546478,
           "name": "Validar login con email",
@@ -807,6 +987,16 @@
           "note": "",
           "assigneeId": 136,
           "updatedAt": "2026-05-18T16:00:07.012Z"
+        },
+        {
+          "caseId": 35687,
+          "testId": 1546742,
+          "name": "Validar login con email no registrado",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-25T19:41:13.535Z"
         },
         {
           "caseId": 35009,
@@ -819,6 +1009,16 @@
           "updatedAt": "2026-05-18T16:02:24.922Z"
         },
         {
+          "caseId": 35685,
+          "testId": 1546740,
+          "name": "Validar Login con recupero de contrase\u00f1a",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-25T19:41:00.132Z"
+        },
+        {
           "caseId": 35007,
           "testId": 1546467,
           "name": "Validar Login con recupero de contrase\u00f1a",
@@ -827,6 +1027,46 @@
           "note": "",
           "assigneeId": 136,
           "updatedAt": "2026-05-18T15:51:10.899Z"
+        },
+        {
+          "caseId": 35705,
+          "testId": 1546749,
+          "name": "Validar login con telefono",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-25T19:41:05.593Z"
+        },
+        {
+          "caseId": 35700,
+          "testId": 1546748,
+          "name": "Validar login con username no confirmado",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-25T19:41:15.793Z"
+        },
+        {
+          "caseId": 35710,
+          "testId": 1546750,
+          "name": "Validar login con usuario inactivo",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-25T19:41:18.131Z"
+        },
+        {
+          "caseId": 35686,
+          "testId": 1546741,
+          "name": "Validar login sin conexi\u00f3n de internet",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-25T19:41:20.418Z"
         },
         {
           "caseId": 35008,
@@ -899,6 +1139,26 @@
           "updatedAt": "2026-05-20T03:50:35.469Z"
         },
         {
+          "caseId": 35226,
+          "testId": 1546623,
+          "name": "Validar Metodo de pago",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-25T19:38:35.332Z"
+        },
+        {
+          "caseId": 35576,
+          "testId": 1546684,
+          "name": "Validar navbar (superior)y tabbar (inferior)",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-25T19:42:00.851Z"
+        },
+        {
           "caseId": 35083,
           "testId": 1546521,
           "name": "Validar navbar (superior)y tabbar (inferior)",
@@ -907,6 +1167,16 @@
           "note": "",
           "assigneeId": null,
           "updatedAt": "2026-05-19T00:46:52.095Z"
+        },
+        {
+          "caseId": 35655,
+          "testId": 1546737,
+          "name": "Validar pantalla de bienvenida",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-25T19:40:47.343Z"
         },
         {
           "caseId": 35203,
@@ -919,6 +1189,76 @@
           "updatedAt": "2026-05-18T15:48:20.091Z"
         },
         {
+          "caseId": 35690,
+          "testId": 1546745,
+          "name": "Validar persistencia de inicio de sesi\u00f3n",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-25T19:41:23.373Z"
+        },
+        {
+          "caseId": 35194,
+          "testId": 1546601,
+          "name": "Validar productos disponibles (detalle)",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-25T19:36:16.359Z"
+        },
+        {
+          "caseId": 35195,
+          "testId": 1546602,
+          "name": "Validar productos No Disponibles",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-25T19:36:18.851Z"
+        },
+        {
+          "caseId": 35542,
+          "testId": 1546657,
+          "name": "Validar que el cliente con productos Mas Pedidos",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-25T19:41:35.765Z"
+        },
+        {
+          "caseId": 35074,
+          "testId": 1546519,
+          "name": "Validar que el cliente de desloguee",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-25T19:40:31.699Z"
+        },
+        {
+          "caseId": 35544,
+          "testId": 1546659,
+          "name": "Validar que el cliente no posea Mas Pedidos",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-25T19:41:39.500Z"
+        },
+        {
+          "caseId": 35545,
+          "testId": 1546660,
+          "name": "Validar que el cliente posea Productos  Recomendados",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-25T19:41:44.551Z"
+        },
+        {
           "caseId": 35051,
           "testId": 1546501,
           "name": "Validar que el cliente posea Productos  Recomendados",
@@ -927,6 +1267,16 @@
           "note": "",
           "assigneeId": 136,
           "updatedAt": "2026-05-19T00:41:12.253Z"
+        },
+        {
+          "caseId": 35543,
+          "testId": 1546658,
+          "name": "Validar que el cliente sin Productos Recomendados",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-25T19:41:41.934Z"
         },
         {
           "caseId": 35099,
@@ -969,6 +1319,26 @@
           "updatedAt": "2026-05-20T03:52:16.401Z"
         },
         {
+          "caseId": 35165,
+          "testId": 1546572,
+          "name": "Validar tienda sin facturas",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-25T19:37:14.715Z"
+        },
+        {
+          "caseId": 35227,
+          "testId": 1546624,
+          "name": "Validar ver productos",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-25T19:38:37.756Z"
+        },
+        {
           "caseId": 35257,
           "testId": 1546637,
           "name": "Validar volver arriba en fav y catalogo",
@@ -977,6 +1347,16 @@
           "note": "",
           "assigneeId": null,
           "updatedAt": "2026-05-20T03:54:17.766Z"
+        },
+        {
+          "caseId": 35546,
+          "testId": 1546661,
+          "name": "Verificar clientes con ofertas",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-25T19:41:47.193Z"
         },
         {
           "caseId": 35052,
@@ -989,6 +1369,16 @@
           "updatedAt": "2026-05-19T00:43:47.170Z"
         },
         {
+          "caseId": 35547,
+          "testId": 1546662,
+          "name": "Verificar clientes sin ofertas",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-25T19:41:49.675Z"
+        },
+        {
           "caseId": 35053,
           "testId": 1546503,
           "name": "Verificar clientes sin ofertas",
@@ -997,6 +1387,16 @@
           "note": "",
           "assigneeId": null,
           "updatedAt": "2026-05-19T00:44:04.219Z"
+        },
+        {
+          "caseId": 35548,
+          "testId": 1546663,
+          "name": "Verificar Display de locales",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-25T19:41:51.646Z"
         },
         {
           "caseId": 35054,
@@ -1009,6 +1409,16 @@
           "updatedAt": "2026-05-19T00:45:00.207Z"
         },
         {
+          "caseId": 35549,
+          "testId": 1546664,
+          "name": "Verificar icono carrito",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-25T19:41:55.801Z"
+        },
+        {
           "caseId": 35055,
           "testId": 1546505,
           "name": "Verificar icono carrito",
@@ -1019,6 +1429,26 @@
           "updatedAt": "2026-05-19T00:45:34.576Z"
         },
         {
+          "caseId": 35011,
+          "testId": 1546471,
+          "name": "Verificar las FAQS",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-25T19:40:12.713Z"
+        },
+        {
+          "caseId": 35598,
+          "testId": 1546704,
+          "name": "Verificar men\u00fa hamburguesa y su comportamiento",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-25T19:42:09.775Z"
+        },
+        {
           "caseId": 35115,
           "testId": 1546543,
           "name": "Verificar men\u00fa hamburguesa y su comportamiento",
@@ -1027,6 +1457,16 @@
           "note": "",
           "assigneeId": null,
           "updatedAt": "2026-05-19T00:49:42.070Z"
+        },
+        {
+          "caseId": 35550,
+          "testId": 1546665,
+          "name": "Verificar men\u00fa hamburguesa y sus elementos",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-25T19:41:58.197Z"
         },
         {
           "caseId": 35056,
