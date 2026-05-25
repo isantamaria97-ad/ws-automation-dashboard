@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-25T20:06:49.021328+00:00",
+  "lastUpdated": "2026-05-25T21:40:03.879130+00:00",
   "scope": {
     "baseUrl": "https://applydigital.testmo.net",
     "projectId": "9",
@@ -131,7 +131,7 @@
         {
           "caseId": 35023,
           "testId": 1546480,
-          "name": "Agregar bundles con descuento",
+          "name": "Agregar Bundles Con Descuento",
           "statusId": 2,
           "status": "Passed",
           "note": "",
@@ -141,7 +141,7 @@
         {
           "caseId": 35024,
           "testId": 1546481,
-          "name": "Agregar favoritos en un cliente sin favoritos",
+          "name": "Agregar Favoritos En Un Cliented Sin Favoritos",
           "statusId": 2,
           "status": "Passed",
           "note": "",
@@ -151,7 +151,7 @@
         {
           "caseId": 35022,
           "testId": 1546479,
-          "name": "Agregar productos con descuentos",
+          "name": "Agregar Productos Con Descuentos",
           "statusId": 2,
           "status": "Passed",
           "note": "",
@@ -161,7 +161,7 @@
         {
           "caseId": 35086,
           "testId": 1546522,
-          "name": "Agregar productos desde carrousel - M\u00e1s pedidos",
+          "name": "Agregar Productos Desde Carrousel - M\u00e1s Pedidos",
           "statusId": 2,
           "status": "Passed",
           "note": "",
@@ -171,7 +171,7 @@
         {
           "caseId": 35088,
           "testId": 1546524,
-          "name": "Agregar productos desde carrousel - Ofertas",
+          "name": "Agregar Productos Desde Carrousel - Ofertas",
           "statusId": 2,
           "status": "Passed",
           "note": "",
@@ -181,7 +181,7 @@
         {
           "caseId": 35065,
           "testId": 1546510,
-          "name": "Agregar productos desde carrousel - Recomendados",
+          "name": "Agregar Productos Desde Carrousel - Recomendados",
           "statusId": 2,
           "status": "Passed",
           "note": "",
@@ -191,7 +191,7 @@
         {
           "caseId": 35064,
           "testId": 1546509,
-          "name": "Agregar productos desde cat\u00e1logo y subcategor\u00edas",
+          "name": "Agregar Productos Desde Cat\u00e1logo y Subcategor\u00edas",
           "statusId": 2,
           "status": "Passed",
           "note": "",
@@ -201,7 +201,7 @@
         {
           "caseId": 35036,
           "testId": 1546486,
-          "name": "Agregar productos sin descuentos",
+          "name": "Agregar Productos Sin Descuentos",
           "statusId": 2,
           "status": "Passed",
           "note": "",
@@ -211,7 +211,7 @@
         {
           "caseId": 35206,
           "testId": 1546610,
-          "name": "Aumento de cupo de cliente sin credito suficiente",
+          "name": "Aumento De Cupo De Cliented Sin Creditor Suficiente",
           "statusId": 2,
           "status": "Passed",
           "note": "",
@@ -221,7 +221,7 @@
         {
           "caseId": 35256,
           "testId": 1546636,
-          "name": "Boton hacia arriba - NNav",
+          "name": "Boton Hacia Arriba - Nnav",
           "statusId": 2,
           "status": "Passed",
           "note": "",
@@ -231,7 +231,7 @@
         {
           "caseId": 35186,
           "testId": 1546593,
-          "name": "Busqueda por tipo de empaque",
+          "name": "Busqueda Por Tipo De Empaque",
           "statusId": 2,
           "status": "Passed",
           "note": "<figure class=\"image\"><img src=\"/attachments/view/10003\" alt=\"10003\" /></figure>",
@@ -241,7 +241,7 @@
         {
           "caseId": 35191,
           "testId": 1546598,
-          "name": "B\u00fasqueda de productos con errores ortogr\u00e1ficos",
+          "name": "B\u00fasqueda De Productos Con Errores Ortogr\u00e1ficos",
           "statusId": 2,
           "status": "Passed",
           "note": "<figure class=\"image\"><img src=\"/attachments/view/10005\" alt=\"10005\" /></figure>",
@@ -251,7 +251,7 @@
         {
           "caseId": 35193,
           "testId": 1546600,
-          "name": "B\u00fasqueda de productos con m\u00faltiples palabras claves",
+          "name": "B\u00fasqueda De Productos Con M\u00faltiples Palabras Claves",
           "statusId": 2,
           "status": "Passed",
           "note": "<figure class=\"image\"><img src=\"/attachments/view/10007\" alt=\"10007\" /></figure>",
@@ -261,7 +261,7 @@
         {
           "caseId": 35185,
           "testId": 1546592,
-          "name": "B\u00fasqueda de productos en favoritos",
+          "name": "B\u00fasqueda De Productos En Favoritos",
           "statusId": 2,
           "status": "Passed",
           "note": "<figure class=\"image\"></figure>",
@@ -271,7 +271,7 @@
         {
           "caseId": 35192,
           "testId": 1546599,
-          "name": "B\u00fasqueda de productos inexistentes",
+          "name": "B\u00fasqueda De Productos Inexistentes",
           "statusId": 2,
           "status": "Passed",
           "note": "<figure class=\"image\"><img src=\"/attachments/view/10006\" alt=\"10006\" /></figure>",
@@ -281,7 +281,7 @@
         {
           "caseId": 35190,
           "testId": 1546597,
-          "name": "B\u00fasqueda de productos por sku",
+          "name": "B\u00fasqueda De Productos Por Sku",
           "statusId": 2,
           "status": "Passed",
           "note": "<figure class=\"image\"><img src=\"/attachments/view/10004\" alt=\"10004\" /></figure>",
@@ -291,7 +291,7 @@
         {
           "caseId": 35182,
           "testId": 1546589,
-          "name": "B\u00fasqueda por categoria",
+          "name": "B\u00fasqueda Por Categorial",
           "statusId": 2,
           "status": "Passed",
           "note": "",
@@ -301,7 +301,7 @@
         {
           "caseId": 35180,
           "testId": 1546587,
-          "name": "B\u00fasqueda por marca",
+          "name": "B\u00fasqueda Por Marca",
           "statusId": 2,
           "status": "Passed",
           "note": "",
@@ -311,7 +311,7 @@
         {
           "caseId": 35189,
           "testId": 1546596,
-          "name": "B\u00fasqueda por Nivel de Az\u00facar",
+          "name": "B\u00fasqueda Por Nivel De Az\u00facar",
           "statusId": 2,
           "status": "Passed",
           "note": "",
@@ -321,7 +321,7 @@
         {
           "caseId": 35183,
           "testId": 1546590,
-          "name": "B\u00fasqueda por subcategor\u00edas",
+          "name": "B\u00fasqueda Por Subcategor\u00edas",
           "statusId": 2,
           "status": "Passed",
           "note": "<figure class=\"image\"><img src=\"/attachments/view/10001\" alt=\"10001\" /></figure>",
@@ -331,7 +331,7 @@
         {
           "caseId": 35187,
           "testId": 1546594,
-          "name": "B\u00fasqueda por tama\u00f1o",
+          "name": "B\u00fasqueda Por Tama\u00f1o",
           "statusId": 2,
           "status": "Passed",
           "note": "",
@@ -341,7 +341,7 @@
         {
           "caseId": 35181,
           "testId": 1546588,
-          "name": "B\u00fasqueda por tipo de producto",
+          "name": "B\u00fasqueda Por Tipo De Productor",
           "statusId": 2,
           "status": "Passed",
           "note": "<figure class=\"image\"><img src=\"/attachments/view/10000\" alt=\"10000\" /></figure>",
@@ -351,7 +351,7 @@
         {
           "caseId": 74024,
           "testId": 1546782,
-          "name": "Cat\u00e1logo: Ocultar Fecha Entrega y Selector Locales",
+          "name": "Cat\u00e1logo: Ocular Fecha Entrega y Selector Locales",
           "statusId": 2,
           "status": "Passed",
           "note": "",
@@ -361,7 +361,7 @@
         {
           "caseId": 35026,
           "testId": 1546483,
-          "name": "Eliminar favoritos",
+          "name": "Eliminar Favoritos",
           "statusId": 2,
           "status": "Passed",
           "note": "",
@@ -371,7 +371,7 @@
         {
           "caseId": 35087,
           "testId": 1546523,
-          "name": "Vaciar carrito",
+          "name": "Vaciar Carrito",
           "statusId": 2,
           "status": "Passed",
           "note": "",
@@ -381,7 +381,7 @@
         {
           "caseId": 35067,
           "testId": 1546512,
-          "name": "Vaciar carrito una vez que existan productos",
+          "name": "Vaciar Carrito Una Vez Que Existan Productos",
           "statusId": 2,
           "status": "Passed",
           "note": "",
@@ -391,7 +391,7 @@
         {
           "caseId": 35689,
           "testId": 1546744,
-          "name": "Validaciones de Campos Alfanumericos",
+          "name": "Validaciones De Campos Alfanumericos",
           "statusId": 2,
           "status": "Passed",
           "note": "",
@@ -401,7 +401,7 @@
         {
           "caseId": 35014,
           "testId": 1546474,
-          "name": "Validaciones de Campos Alfanumericos",
+          "name": "Validaciones De Campos Alfanumericos",
           "statusId": 2,
           "status": "Passed",
           "note": "",
@@ -411,7 +411,7 @@
         {
           "caseId": 35171,
           "testId": 1546578,
-          "name": "Validaci\u00f3n de navegaci\u00f3n de Home",
+          "name": "Validaci\u00f3n De Navegaci\u00f3n De Home",
           "statusId": 2,
           "status": "Passed",
           "note": "",
@@ -421,7 +421,7 @@
         {
           "caseId": 35048,
           "testId": 1546498,
-          "name": "Validar  cliente con Mas Pedidos",
+          "name": "Validar  Cliented Con Mas Pedidos",
           "statusId": 2,
           "status": "Passed",
           "note": "",
@@ -431,7 +431,7 @@
         {
           "caseId": 35050,
           "testId": 1546500,
-          "name": "Validar  cliente no posea Mas Pedidos",
+          "name": "Validar  Cliented No Posea Mas Pedidos",
           "statusId": 2,
           "status": "Passed",
           "note": "",
@@ -441,7 +441,7 @@
         {
           "caseId": 35098,
           "testId": 1546534,
-          "name": "Validar  se visualice el modal de Recomendados",
+          "name": "Validar  Se Visualice El Modal De Recomendados",
           "statusId": 2,
           "status": "Passed",
           "note": "",
@@ -451,7 +451,7 @@
         {
           "caseId": 35095,
           "testId": 1546531,
-          "name": "Validar \"Continuar pedido\"",
+          "name": "Validar \"continuar Pedido\"",
           "statusId": 2,
           "status": "Passed",
           "note": "",
@@ -461,7 +461,7 @@
         {
           "caseId": 35228,
           "testId": 1546625,
-          "name": "Validar \"resumen de productos\"",
+          "name": "Validar \"resume De Productos\"",
           "statusId": 2,
           "status": "Passed",
           "note": "",
@@ -471,7 +471,7 @@
         {
           "caseId": 35062,
           "testId": 1546507,
-          "name": "Validar badge de agregar y quitar productos",
+          "name": "Validar Badge De Agregar y Quitar Productos",
           "statusId": 2,
           "status": "Passed",
           "note": "",
@@ -481,7 +481,7 @@
         {
           "caseId": 35258,
           "testId": 1546638,
-          "name": "Validar bloqueo de girar pantalla en dispositivos",
+          "name": "Validar Bloqueo De Girar Pantalla En Dispositivos",
           "statusId": 2,
           "status": "Passed",
           "note": "",
@@ -491,7 +491,7 @@
         {
           "caseId": 35597,
           "testId": 1546703,
-          "name": "Validar b\u00fasqueda de productos",
+          "name": "Validar B\u00fasqueda De Productos",
           "statusId": 2,
           "status": "Passed",
           "note": "",
@@ -501,7 +501,7 @@
         {
           "caseId": 35114,
           "testId": 1546542,
-          "name": "Validar b\u00fasqueda de productos",
+          "name": "Validar B\u00fasqueda De Productos",
           "statusId": 2,
           "status": "Passed",
           "note": "",
@@ -511,7 +511,7 @@
         {
           "caseId": 35046,
           "testId": 1546496,
-          "name": "Validar cambiar contrase\u00f1a",
+          "name": "Validar Cambiar Contrase\u00f1a",
           "statusId": 2,
           "status": "Passed",
           "note": "",
@@ -521,7 +521,7 @@
         {
           "caseId": 35047,
           "testId": 1546497,
-          "name": "Validar cambiar tel\u00e9fono de contacto",
+          "name": "Validar Cambiar Tel\u00e9fono De Contactor",
           "statusId": 2,
           "status": "Passed",
           "note": "",
@@ -531,7 +531,7 @@
         {
           "caseId": 35188,
           "testId": 1546595,
-          "name": "Validar cantidad de productos (Resultado de b\u00fasqueda)",
+          "name": "Validar Cantidad De Productos (resultado De B\u00fasqueda)",
           "statusId": 2,
           "status": "Passed",
           "note": "",
@@ -541,7 +541,7 @@
         {
           "caseId": 35210,
           "testId": 1546614,
-          "name": "Validar cantidad de productos maximos y minimos",
+          "name": "Validar Cantidad De Productos Maximos y Minimos",
           "statusId": 2,
           "status": "Passed",
           "note": "",
@@ -551,7 +551,7 @@
         {
           "caseId": 35090,
           "testId": 1546526,
-          "name": "Validar carrito con productos",
+          "name": "Validar Carrito Con Productos",
           "statusId": 2,
           "status": "Passed",
           "note": "",
@@ -561,7 +561,7 @@
         {
           "caseId": 35092,
           "testId": 1546528,
-          "name": "Validar carrito cuando agrego productos",
+          "name": "Validar Carrito Cuando Agrego Productos",
           "statusId": 2,
           "status": "Passed",
           "note": "",
@@ -571,7 +571,7 @@
         {
           "caseId": 35093,
           "testId": 1546529,
-          "name": "Validar carrito cuando quito productos",
+          "name": "Validar Carrito Cuando Quito Productos",
           "statusId": 2,
           "status": "Passed",
           "note": "",
@@ -581,7 +581,7 @@
         {
           "caseId": 35091,
           "testId": 1546527,
-          "name": "Validar carrito sin productos",
+          "name": "Validar Carrito Sin Productos",
           "statusId": 2,
           "status": "Passed",
           "note": "",
@@ -591,7 +591,7 @@
         {
           "caseId": 35066,
           "testId": 1546511,
-          "name": "Validar carrito vacio",
+          "name": "Validar Carrito Vacio",
           "statusId": 2,
           "status": "Passed",
           "note": "",
@@ -601,7 +601,7 @@
         {
           "caseId": 35010,
           "testId": 1546470,
-          "name": "Validar centro de ayuda",
+          "name": "Validar Centro De Ayuda",
           "statusId": 2,
           "status": "Passed",
           "note": "",
@@ -611,7 +611,7 @@
         {
           "caseId": 35207,
           "testId": 1546611,
-          "name": "Validar cliente sin credito disponible",
+          "name": "Validar Cliented Sin Creditor Disponible",
           "statusId": 2,
           "status": "Passed",
           "note": "",
@@ -621,7 +621,7 @@
         {
           "caseId": 35049,
           "testId": 1546499,
-          "name": "Validar cliente sin Productos Recomendados",
+          "name": "Validar Cliented Sin Productos Recomendados",
           "statusId": 2,
           "status": "Passed",
           "note": "",
@@ -631,7 +631,7 @@
         {
           "caseId": 35204,
           "testId": 1546608,
-          "name": "Validar clientes con credito disponible",
+          "name": "Validar Clientes Con Creditor Disponible",
           "statusId": 2,
           "status": "Passed",
           "note": "",
@@ -641,7 +641,7 @@
         {
           "caseId": 35205,
           "testId": 1546609,
-          "name": "Validar clientes con pago contraentrega",
+          "name": "Validar Clientes Con Pago Contraentrega",
           "statusId": 2,
           "status": "Passed",
           "note": "",
@@ -651,7 +651,7 @@
         {
           "caseId": 35164,
           "testId": 1546571,
-          "name": "Validar clientes que contengan solo la seccion de catalogo en home",
+          "name": "Validar Clientes Que Contengan Solo La Seccion De Catalogo En Home",
           "statusId": 2,
           "status": "Passed",
           "note": "",
@@ -661,7 +661,7 @@
         {
           "caseId": 35044,
           "testId": 1546494,
-          "name": "Validar edici\u00f3n de email a clientes  con login via  tel\u00e9fono",
+          "name": "Validar Edici\u00f3n De Email a Clientes  Con Login via  Tel\u00e9fono",
           "statusId": 2,
           "status": "Passed",
           "note": "",
@@ -671,7 +671,7 @@
         {
           "caseId": 35045,
           "testId": 1546495,
-          "name": "Validar edici\u00f3n de nombre",
+          "name": "Validar Edici\u00f3n De Nombre",
           "statusId": 2,
           "status": "Passed",
           "note": "",
@@ -681,7 +681,7 @@
         {
           "caseId": 35063,
           "testId": 1546508,
-          "name": "Validar el drawer de agregar y quitar productos",
+          "name": "Validar El Drawer De Agregar y Quitar Productos",
           "statusId": 2,
           "status": "Passed",
           "note": "",
@@ -691,7 +691,7 @@
         {
           "caseId": 35656,
           "testId": 1546738,
-          "name": "Validar el loader de inicio de sesi\u00f3n",
+          "name": "Validar El Loader De Inicio De Sesi\u00f3n",
           "statusId": 2,
           "status": "Passed",
           "note": "",
@@ -701,7 +701,7 @@
         {
           "caseId": 35208,
           "testId": 1546612,
-          "name": "Validar el loader de inicio de sesi\u00f3n",
+          "name": "Validar El Loader De Inicio De Sesi\u00f3n",
           "statusId": 2,
           "status": "Passed",
           "note": "",
@@ -711,7 +711,7 @@
         {
           "caseId": 35688,
           "testId": 1546743,
-          "name": "Validar el login -Copiar y Pegar- desde Portapapeles",
+          "name": "Validar El Login -Copiar y Pegar- Desde Portapapeles",
           "statusId": 2,
           "status": "Passed",
           "note": "",
@@ -721,7 +721,7 @@
         {
           "caseId": 35013,
           "testId": 1546473,
-          "name": "Validar el login -Copiar y Pegar- desde Portapapeles",
+          "name": "Validar El Login -Copiar y Pegar- Desde Portapapeles",
           "statusId": 2,
           "status": "Passed",
           "note": "",
@@ -731,7 +731,7 @@
         {
           "caseId": 35089,
           "testId": 1546525,
-          "name": "Validar el modal de retornabilidad",
+          "name": "Validar El Modal De Retornabilidad",
           "statusId": 2,
           "status": "Passed",
           "note": "",
@@ -741,7 +741,7 @@
         {
           "caseId": 35224,
           "testId": 1546621,
-          "name": "Validar elementos de checkout",
+          "name": "Validar Elementos De Checkout",
           "statusId": 2,
           "status": "Passed",
           "note": "",
@@ -751,7 +751,7 @@
         {
           "caseId": 35075,
           "testId": 1546520,
-          "name": "Validar elementos de la pantalla",
+          "name": "Validar Elementos De La Pantalla",
           "statusId": 2,
           "status": "Passed",
           "note": "",
@@ -761,7 +761,7 @@
         {
           "caseId": 35225,
           "testId": 1546622,
-          "name": "Validar fecha de entrega",
+          "name": "Validar Fecha De Entrega",
           "statusId": 2,
           "status": "Passed",
           "note": "",
@@ -771,7 +771,7 @@
         {
           "caseId": 35012,
           "testId": 1546472,
-          "name": "Validar Go back hacia Login",
+          "name": "Validar Go Back Hacia Login",
           "statusId": 2,
           "status": "Passed",
           "note": "",
@@ -781,7 +781,7 @@
         {
           "caseId": 35606,
           "testId": 1546708,
-          "name": "Validar icono de notificaciones",
+          "name": "Validar Icono De Notificaciones",
           "statusId": 2,
           "status": "Passed",
           "note": "",
@@ -791,7 +791,7 @@
         {
           "caseId": 35147,
           "testId": 1546563,
-          "name": "Validar la navegaci\u00f3n desde Carrito",
+          "name": "Validar La Navegaci\u00f3n Desde Carrito",
           "statusId": 2,
           "status": "Passed",
           "note": "",
@@ -801,7 +801,7 @@
         {
           "caseId": 35130,
           "testId": 1546552,
-          "name": "Validar la navegaci\u00f3n desde Catalogo",
+          "name": "Validar La Navegaci\u00f3n Desde Catalogo",
           "statusId": 2,
           "status": "Passed",
           "note": "",
@@ -811,7 +811,7 @@
         {
           "caseId": 35145,
           "testId": 1546561,
-          "name": "Validar la navegaci\u00f3n desde Facturas",
+          "name": "Validar La Navegaci\u00f3n Desde Facturas",
           "statusId": 2,
           "status": "Passed",
           "note": "",
@@ -821,7 +821,7 @@
         {
           "caseId": 35138,
           "testId": 1546554,
-          "name": "Validar la navegaci\u00f3n desde Favoritos",
+          "name": "Validar La Navegaci\u00f3n Desde Favoritos",
           "statusId": 2,
           "status": "Passed",
           "note": "",
@@ -831,7 +831,7 @@
         {
           "caseId": 35129,
           "testId": 1546551,
-          "name": "Validar la navegaci\u00f3n desde home",
+          "name": "Validar La Navegaci\u00f3n Desde Home",
           "statusId": 2,
           "status": "Passed",
           "note": "",
@@ -841,7 +841,7 @@
         {
           "caseId": 35140,
           "testId": 1546556,
-          "name": "Validar la navegaci\u00f3n desde men\u00fa hamburguesa",
+          "name": "Validar La Navegaci\u00f3n Desde Men\u00fa Hamburguesa",
           "statusId": 2,
           "status": "Passed",
           "note": "",
@@ -851,7 +851,7 @@
         {
           "caseId": 35174,
           "testId": 1546581,
-          "name": "Validar la navegaci\u00f3n desde Mi perfil",
+          "name": "Validar La Navegaci\u00f3n Desde Mi Perfil",
           "statusId": 2,
           "status": "Passed",
           "note": "",
@@ -861,7 +861,7 @@
         {
           "caseId": 35139,
           "testId": 1546555,
-          "name": "Validar la navegaci\u00f3n desde Pedidos",
+          "name": "Validar La Navegaci\u00f3n Desde Pedidos",
           "statusId": 2,
           "status": "Passed",
           "note": "",
@@ -871,7 +871,7 @@
         {
           "caseId": 35178,
           "testId": 1546585,
-          "name": "Validar la navegaci\u00f3n interna de \"cambiar contrase\u00f1a\" en Mi perfil",
+          "name": "Validar La Navegaci\u00f3n Internal De \"cambiar Contrase\u00f1a\" En Mi Perfil",
           "statusId": 2,
           "status": "Passed",
           "note": "",
@@ -881,7 +881,7 @@
         {
           "caseId": 35176,
           "testId": 1546583,
-          "name": "Validar la navegaci\u00f3n interna de \"cambiar email\" en Mi perfil",
+          "name": "Validar La Navegaci\u00f3n Internal De \"cambiar Email\" En Mi Perfil",
           "statusId": 2,
           "status": "Passed",
           "note": "",
@@ -891,7 +891,7 @@
         {
           "caseId": 35175,
           "testId": 1546582,
-          "name": "Validar la navegaci\u00f3n interna de \"cambiar nombre\" en Mi perfil",
+          "name": "Validar La Navegaci\u00f3n Internal De \"cambiar Nombre\" En Mi Perfil",
           "statusId": 2,
           "status": "Passed",
           "note": "",
@@ -901,7 +901,7 @@
         {
           "caseId": 35177,
           "testId": 1546584,
-          "name": "Validar la navegaci\u00f3n interna de \"cambiar telefono\" en Mi perfil",
+          "name": "Validar La Navegaci\u00f3n Internal De \"cambiar Telefono\" En Mi Perfil",
           "statusId": 2,
           "status": "Passed",
           "note": "",
@@ -911,7 +911,7 @@
         {
           "caseId": 35094,
           "testId": 1546530,
-          "name": "Validar la vista de  carrito con productos agregados",
+          "name": "Validar La Vista De  Carrito Con Productos Agregados",
           "statusId": 2,
           "status": "Passed",
           "note": "",
@@ -921,7 +921,7 @@
         {
           "caseId": 35034,
           "testId": 1546485,
-          "name": "Validar las APIs intervinientes",
+          "name": "Validar Las Apis Intervinientes",
           "statusId": 2,
           "status": "Passed",
           "note": "",
@@ -931,7 +931,7 @@
         {
           "caseId": 35711,
           "testId": 1546751,
-          "name": "Validar loader de inicio de sesi\u00f3n",
+          "name": "Validar Loader De Inicio De Sesi\u00f3n",
           "statusId": 2,
           "status": "Passed",
           "note": "",
@@ -941,7 +941,7 @@
         {
           "caseId": 35199,
           "testId": 1546606,
-          "name": "Validar loader de inicio de sesi\u00f3n",
+          "name": "Validar Loader De Inicio De Sesi\u00f3n",
           "statusId": 2,
           "status": "Passed",
           "note": "",
@@ -951,7 +951,7 @@
         {
           "caseId": 35691,
           "testId": 1546746,
-          "name": "Validar login con contrase\u00f1a incorrecta",
+          "name": "Validar Login Con Contrase\u00f1a Incorrect",
           "statusId": 2,
           "status": "Passed",
           "note": "",
@@ -961,7 +961,7 @@
         {
           "caseId": 35017,
           "testId": 1546477,
-          "name": "Validar login con contrase\u00f1a incorrecta",
+          "name": "Validar Login Con Contrase\u00f1a Incorrect",
           "statusId": 2,
           "status": "Passed",
           "note": "",
@@ -971,7 +971,7 @@
         {
           "caseId": 35692,
           "testId": 1546747,
-          "name": "Validar login con email",
+          "name": "Validar Login Con Email",
           "statusId": 2,
           "status": "Passed",
           "note": "",
@@ -981,7 +981,7 @@
         {
           "caseId": 35019,
           "testId": 1546478,
-          "name": "Validar login con email",
+          "name": "Validar Login Con Email",
           "statusId": 2,
           "status": "Passed",
           "note": "",
@@ -991,7 +991,7 @@
         {
           "caseId": 35687,
           "testId": 1546742,
-          "name": "Validar login con email no registrado",
+          "name": "Validar Login Con Email No Registrado",
           "statusId": 2,
           "status": "Passed",
           "note": "",
@@ -1001,7 +1001,7 @@
         {
           "caseId": 35009,
           "testId": 1546469,
-          "name": "Validar login con email no registrado",
+          "name": "Validar Login Con Email No Registrado",
           "statusId": 2,
           "status": "Passed",
           "note": "",
@@ -1011,7 +1011,7 @@
         {
           "caseId": 35685,
           "testId": 1546740,
-          "name": "Validar Login con recupero de contrase\u00f1a",
+          "name": "Validar Login Con Recupero De Contrase\u00f1a",
           "statusId": 2,
           "status": "Passed",
           "note": "",
@@ -1021,7 +1021,7 @@
         {
           "caseId": 35007,
           "testId": 1546467,
-          "name": "Validar Login con recupero de contrase\u00f1a",
+          "name": "Validar Login Con Recupero De Contrase\u00f1a",
           "statusId": 2,
           "status": "Passed",
           "note": "",
@@ -1031,7 +1031,7 @@
         {
           "caseId": 35705,
           "testId": 1546749,
-          "name": "Validar login con telefono",
+          "name": "Validar Login Con Telefono",
           "statusId": 2,
           "status": "Passed",
           "note": "",
@@ -1041,7 +1041,7 @@
         {
           "caseId": 35700,
           "testId": 1546748,
-          "name": "Validar login con username no confirmado",
+          "name": "Validar Login Con Username No Confirmado",
           "statusId": 2,
           "status": "Passed",
           "note": "",
@@ -1051,7 +1051,7 @@
         {
           "caseId": 35710,
           "testId": 1546750,
-          "name": "Validar login con usuario inactivo",
+          "name": "Validar Login Con Usuario Inactivo",
           "statusId": 2,
           "status": "Passed",
           "note": "",
@@ -1061,7 +1061,7 @@
         {
           "caseId": 35686,
           "testId": 1546741,
-          "name": "Validar login sin conexi\u00f3n de internet",
+          "name": "Validar Login Sin Conexi\u00f3n De Internet",
           "statusId": 2,
           "status": "Passed",
           "note": "",
@@ -1071,7 +1071,7 @@
         {
           "caseId": 35008,
           "testId": 1546468,
-          "name": "Validar login sin conexi\u00f3n de internet",
+          "name": "Validar Login Sin Conexi\u00f3n De Internet",
           "statusId": 2,
           "status": "Passed",
           "note": "",
@@ -1081,7 +1081,7 @@
         {
           "caseId": 35144,
           "testId": 1546560,
-          "name": "Validar los \"Ver m\u00e1s\" de carrousel de Ofertas",
+          "name": "Validar Los \"ver M\u00e1s\" De Carrousel De Ofertas",
           "statusId": 2,
           "status": "Passed",
           "note": "",
@@ -1091,7 +1091,7 @@
         {
           "caseId": 35143,
           "testId": 1546559,
-          "name": "Validar los \"Ver m\u00e1s\" de catalogo desde el home",
+          "name": "Validar Los \"ver M\u00e1s\" De Catalogo Desde El Home",
           "statusId": 2,
           "status": "Passed",
           "note": "",
@@ -1101,7 +1101,7 @@
         {
           "caseId": 35142,
           "testId": 1546558,
-          "name": "Validar los \"Ver m\u00e1s\" de productos Mas pedidos",
+          "name": "Validar Los \"ver M\u00e1s\" De Productos Mas Pedidos",
           "statusId": 2,
           "status": "Passed",
           "note": "",
@@ -1111,7 +1111,7 @@
         {
           "caseId": 35141,
           "testId": 1546557,
-          "name": "Validar los \"Ver m\u00e1s\" de productos Recomendados",
+          "name": "Validar Los \"ver M\u00e1s\" De Productos Recomendados",
           "statusId": 2,
           "status": "Passed",
           "note": "",
@@ -1121,7 +1121,7 @@
         {
           "caseId": 35146,
           "testId": 1546562,
-          "name": "Validar los go back de las pantallas de Cat\u00e1logo",
+          "name": "Validar Los Go Back De Las Pantallas De Cat\u00e1logo",
           "statusId": 2,
           "status": "Passed",
           "note": "",
@@ -1131,7 +1131,7 @@
         {
           "caseId": 35137,
           "testId": 1546553,
-          "name": "Validar los go back de las pantallas de Home",
+          "name": "Validar Los Go Back De Las Pantallas De Home",
           "statusId": 2,
           "status": "Passed",
           "note": "",
@@ -1141,7 +1141,7 @@
         {
           "caseId": 35226,
           "testId": 1546623,
-          "name": "Validar Metodo de pago",
+          "name": "Validar Metodo De Pago",
           "statusId": 2,
           "status": "Passed",
           "note": "",
@@ -1151,7 +1151,7 @@
         {
           "caseId": 35576,
           "testId": 1546684,
-          "name": "Validar navbar (superior)y tabbar (inferior)",
+          "name": "Validar Navbar (superior)y Tabbar (Inferior)",
           "statusId": 2,
           "status": "Passed",
           "note": "",
@@ -1161,7 +1161,7 @@
         {
           "caseId": 35083,
           "testId": 1546521,
-          "name": "Validar navbar (superior)y tabbar (inferior)",
+          "name": "Validar Navbar (superior)y Tabbar (Inferior)",
           "statusId": 2,
           "status": "Passed",
           "note": "",
@@ -1171,7 +1171,7 @@
         {
           "caseId": 35655,
           "testId": 1546737,
-          "name": "Validar pantalla de bienvenida",
+          "name": "Validar Pantalla De Bienvenida",
           "statusId": 2,
           "status": "Passed",
           "note": "",
@@ -1181,7 +1181,7 @@
         {
           "caseId": 35203,
           "testId": 1546607,
-          "name": "Validar pantalla de bienvenida",
+          "name": "Validar Pantalla De Bienvenida",
           "statusId": 2,
           "status": "Passed",
           "note": "",
@@ -1191,7 +1191,7 @@
         {
           "caseId": 35690,
           "testId": 1546745,
-          "name": "Validar persistencia de inicio de sesi\u00f3n",
+          "name": "Validar Persistencia De Inicio De Sesi\u00f3n",
           "statusId": 2,
           "status": "Passed",
           "note": "",
@@ -1201,7 +1201,7 @@
         {
           "caseId": 35194,
           "testId": 1546601,
-          "name": "Validar productos disponibles (detalle)",
+          "name": "Validar Productos Disponibles (Detalle)",
           "statusId": 2,
           "status": "Passed",
           "note": "",
@@ -1211,7 +1211,7 @@
         {
           "caseId": 35195,
           "testId": 1546602,
-          "name": "Validar productos No Disponibles",
+          "name": "Validar Productos No Disponibles",
           "statusId": 2,
           "status": "Passed",
           "note": "",
@@ -1221,7 +1221,7 @@
         {
           "caseId": 35542,
           "testId": 1546657,
-          "name": "Validar que el cliente con productos Mas Pedidos",
+          "name": "Validar Que El Cliented Con Productos Mas Pedidos",
           "statusId": 2,
           "status": "Passed",
           "note": "",
@@ -1231,7 +1231,7 @@
         {
           "caseId": 35074,
           "testId": 1546519,
-          "name": "Validar que el cliente de desloguee",
+          "name": "Validar Que El Cliented De Desloguee",
           "statusId": 2,
           "status": "Passed",
           "note": "",
@@ -1241,7 +1241,7 @@
         {
           "caseId": 35544,
           "testId": 1546659,
-          "name": "Validar que el cliente no posea Mas Pedidos",
+          "name": "Validar Que El Cliented No Posea Mas Pedidos",
           "statusId": 2,
           "status": "Passed",
           "note": "",
@@ -1251,7 +1251,7 @@
         {
           "caseId": 35545,
           "testId": 1546660,
-          "name": "Validar que el cliente posea Productos  Recomendados",
+          "name": "Validar Que El Cliented Posea Productos  Recomendados",
           "statusId": 2,
           "status": "Passed",
           "note": "",
@@ -1261,7 +1261,7 @@
         {
           "caseId": 35051,
           "testId": 1546501,
-          "name": "Validar que el cliente posea Productos  Recomendados",
+          "name": "Validar Que El Cliented Posea Productos  Recomendados",
           "statusId": 2,
           "status": "Passed",
           "note": "",
@@ -1271,7 +1271,7 @@
         {
           "caseId": 35543,
           "testId": 1546658,
-          "name": "Validar que el cliente sin Productos Recomendados",
+          "name": "Validar Que El Cliented Sin Productos Recomendados",
           "statusId": 2,
           "status": "Passed",
           "note": "",
@@ -1281,7 +1281,7 @@
         {
           "caseId": 35099,
           "testId": 1546535,
-          "name": "Validar que el segundo paso se visualice el drawer",
+          "name": "Validar Que El Segundo Paso Se Visualice El Drawer",
           "statusId": 2,
           "status": "Passed",
           "note": "",
@@ -1291,7 +1291,7 @@
         {
           "caseId": 35209,
           "testId": 1546613,
-          "name": "Validar que la app posea actualizaci\u00f3n",
+          "name": "Validar Que La App Posea Actualizaci\u00f3n",
           "statusId": 2,
           "status": "Passed",
           "note": "",
@@ -1301,7 +1301,7 @@
         {
           "caseId": 35259,
           "testId": 1546639,
-          "name": "Validar que la configuraci\u00f3n del telefono no permita mostrar letras gigantes",
+          "name": "Validar Que La Configuraci\u00f3n Del Telefono No Permit Mostrar Letras Gigantes",
           "statusId": 2,
           "status": "Passed",
           "note": "",
@@ -1311,7 +1311,7 @@
         {
           "caseId": 35172,
           "testId": 1546579,
-          "name": "Validar que la distintas navegaciones sean correctas",
+          "name": "Validar Que La Distintas Navegaciones Sean Correctas",
           "statusId": 2,
           "status": "Passed",
           "note": "",
@@ -1321,7 +1321,7 @@
         {
           "caseId": 35165,
           "testId": 1546572,
-          "name": "Validar tienda sin facturas",
+          "name": "Validar Tienda Sin Facturas",
           "statusId": 2,
           "status": "Passed",
           "note": "",
@@ -1331,7 +1331,7 @@
         {
           "caseId": 35227,
           "testId": 1546624,
-          "name": "Validar ver productos",
+          "name": "Validar Ver Productos",
           "statusId": 2,
           "status": "Passed",
           "note": "",
@@ -1341,7 +1341,7 @@
         {
           "caseId": 35257,
           "testId": 1546637,
-          "name": "Validar volver arriba en fav y catalogo",
+          "name": "Validar Volver Arriba En Fav y Catalogo",
           "statusId": 2,
           "status": "Passed",
           "note": "",
@@ -1351,7 +1351,7 @@
         {
           "caseId": 35546,
           "testId": 1546661,
-          "name": "Verificar clientes con ofertas",
+          "name": "Verificar Clientes Con Ofertas",
           "statusId": 2,
           "status": "Passed",
           "note": "",
@@ -1361,7 +1361,7 @@
         {
           "caseId": 35052,
           "testId": 1546502,
-          "name": "Verificar clientes con ofertas",
+          "name": "Verificar Clientes Con Ofertas",
           "statusId": 2,
           "status": "Passed",
           "note": "",
@@ -1371,7 +1371,7 @@
         {
           "caseId": 35547,
           "testId": 1546662,
-          "name": "Verificar clientes sin ofertas",
+          "name": "Verificar Clientes Sin Ofertas",
           "statusId": 2,
           "status": "Passed",
           "note": "",
@@ -1381,7 +1381,7 @@
         {
           "caseId": 35053,
           "testId": 1546503,
-          "name": "Verificar clientes sin ofertas",
+          "name": "Verificar Clientes Sin Ofertas",
           "statusId": 2,
           "status": "Passed",
           "note": "",
@@ -1391,7 +1391,7 @@
         {
           "caseId": 35548,
           "testId": 1546663,
-          "name": "Verificar Display de locales",
+          "name": "Verificar Display De Locales",
           "statusId": 2,
           "status": "Passed",
           "note": "",
@@ -1401,7 +1401,7 @@
         {
           "caseId": 35054,
           "testId": 1546504,
-          "name": "Verificar Display de locales",
+          "name": "Verificar Display De Locales",
           "statusId": 2,
           "status": "Passed",
           "note": "",
@@ -1411,7 +1411,7 @@
         {
           "caseId": 35549,
           "testId": 1546664,
-          "name": "Verificar icono carrito",
+          "name": "Verificar Icono Carrito",
           "statusId": 2,
           "status": "Passed",
           "note": "",
@@ -1421,7 +1421,7 @@
         {
           "caseId": 35055,
           "testId": 1546505,
-          "name": "Verificar icono carrito",
+          "name": "Verificar Icono Carrito",
           "statusId": 2,
           "status": "Passed",
           "note": "",
@@ -1431,7 +1431,7 @@
         {
           "caseId": 35011,
           "testId": 1546471,
-          "name": "Verificar las FAQS",
+          "name": "Verificar Las FAQS",
           "statusId": 2,
           "status": "Passed",
           "note": "",
@@ -1441,7 +1441,7 @@
         {
           "caseId": 35598,
           "testId": 1546704,
-          "name": "Verificar men\u00fa hamburguesa y su comportamiento",
+          "name": "Verificar Men\u00fa Hamburguesa y Su Comportamiento",
           "statusId": 2,
           "status": "Passed",
           "note": "",
@@ -1451,7 +1451,7 @@
         {
           "caseId": 35115,
           "testId": 1546543,
-          "name": "Verificar men\u00fa hamburguesa y su comportamiento",
+          "name": "Verificar Men\u00fa Hamburguesa y Su Comportamiento",
           "statusId": 2,
           "status": "Passed",
           "note": "",
@@ -1461,7 +1461,7 @@
         {
           "caseId": 35550,
           "testId": 1546665,
-          "name": "Verificar men\u00fa hamburguesa y sus elementos",
+          "name": "Verificar Men\u00fa Hamburguesa y Sus Elementos",
           "statusId": 2,
           "status": "Passed",
           "note": "",
@@ -1471,7 +1471,7 @@
         {
           "caseId": 35056,
           "testId": 1546506,
-          "name": "Verificar men\u00fa hamburguesa y sus elementos",
+          "name": "Verificar Men\u00fa Hamburguesa y Sus Elementos",
           "statusId": 2,
           "status": "Passed",
           "note": "",
@@ -1481,7 +1481,7 @@
         {
           "caseId": 35097,
           "testId": 1546533,
-          "name": "Visualizar el modal de \"Eliminar producto\"",
+          "name": "Visualizar El Modal De \"eliminar Productor\"",
           "statusId": 2,
           "status": "Passed",
           "note": "",
@@ -1491,7 +1491,7 @@
         {
           "caseId": 35025,
           "testId": 1546482,
-          "name": "Visualizar favoritos cargados en la cuenta",
+          "name": "Visualizar Favoritos Cargados En La Cuenta",
           "statusId": 2,
           "status": "Passed",
           "note": "",
