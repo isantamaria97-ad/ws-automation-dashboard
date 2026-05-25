@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-25T14:50:08.991604+00:00",
+  "lastUpdated": "2026-05-25T17:42:09.587982+00:00",
   "jira": {
     "summary": {
       "total": 21,
@@ -251,9 +251,9 @@
       "scopeFolderName": "Flujos  B2B WEB > Chile"
     },
     "coverage": {
-      "total": 232,
+      "total": 231,
       "automated": 2,
-      "notAutomated": 173,
+      "notAutomated": 172,
       "unclassified": 57,
       "automatedPct": 0.9,
       "byFolder": [
@@ -289,9 +289,9 @@
           "name": "Cat\u00e1logo",
           "group": "Test Funcionales",
           "automated": 0,
-          "notAutomated": 21,
+          "notAutomated": 20,
           "unclassified": 0,
-          "total": 21
+          "total": 20
         },
         {
           "folderId": 749,
@@ -2223,14 +2223,6 @@
         "name": "Productos con ofertas \"Home\"",
         "folderId": 743,
         "folderPath": "Flujos  B2B WEB > Chile > Test Funcionales > Promociones / Ofertas",
-        "bucket": "notAutomated",
-        "priority": 2
-      },
-      {
-        "id": 3445,
-        "name": "CL - Mi cat\u00e1logo",
-        "folderId": 740,
-        "folderPath": "Flujos  B2B WEB > Chile > Test Funcionales > Cat\u00e1logo",
         "bucket": "notAutomated",
         "priority": 2
       },
