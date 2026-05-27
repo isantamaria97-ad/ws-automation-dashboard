@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-27T19:58:53.196275+00:00",
+  "lastUpdated": "2026-05-27T21:53:55.794167+00:00",
   "scope": {
     "baseUrl": "https://applydigital.testmo.net",
     "projectId": "9",
@@ -20,18 +20,18 @@
       "closed_at": null,
       "elapsed_ms": 494000000,
       "total": 317,
-      "completed": 137,
-      "remaining": 180,
+      "completed": 160,
+      "remaining": 157,
       "passed": 0,
       "failed": 0,
       "retest": 0,
       "blocked": 0,
-      "untested": 137,
+      "untested": 160,
       "skipped": 0,
       "statusCounts": {
         "Untested": {
           "id": 1,
-          "count": 137
+          "count": 160
         },
         "Passed": {
           "id": 2,
@@ -147,6 +147,16 @@
           "note": "",
           "assigneeId": null,
           "updatedAt": "2026-05-19T00:55:59.284Z"
+        },
+        {
+          "caseId": 35028,
+          "testId": 1546484,
+          "name": "Agregar Local Con ID Cliented",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-27T21:40:04.080Z"
         },
         {
           "caseId": 35022,
@@ -469,6 +479,26 @@
           "updatedAt": "2026-05-25T19:38:40.445Z"
         },
         {
+          "caseId": 35647,
+          "testId": 1546729,
+          "name": "Validar Agregar Local",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-27T21:43:46.704Z"
+        },
+        {
+          "caseId": 35637,
+          "testId": 1546719,
+          "name": "Validar Aumento De Cupo De Locales Sin Cr\u00e9dito Disponible",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-27T21:43:42.895Z"
+        },
+        {
           "caseId": 35062,
           "testId": 1546507,
           "name": "Validar Badge De Agregar y Quitar Productos",
@@ -757,6 +787,26 @@
           "note": "",
           "assigneeId": null,
           "updatedAt": "2026-05-19T20:42:36.703Z"
+        },
+        {
+          "caseId": 35649,
+          "testId": 1546731,
+          "name": "Validar Eliminar Local (un Solo Local)",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-27T21:43:56.915Z"
+        },
+        {
+          "caseId": 35648,
+          "testId": 1546730,
+          "name": "Validar Eliminar Local Cuando Es Local Default",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-27T21:43:54.041Z"
         },
         {
           "caseId": 35225,
@@ -1119,6 +1169,66 @@
           "updatedAt": "2026-05-20T03:51:40.863Z"
         },
         {
+          "caseId": 35068,
+          "testId": 1546513,
+          "name": "Validar Los Datos Correspondientes a Locales Con Creditor Disponible",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-27T21:43:19.033Z"
+        },
+        {
+          "caseId": 35565,
+          "testId": 1546680,
+          "name": "Validar Los Datos Correspondientes a Locales Con Creditor Disponible",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-27T21:41:36.158Z"
+        },
+        {
+          "caseId": 35149,
+          "testId": 1546565,
+          "name": "Validar Los Datos Correspondientes a Locales Con Creditor No Disponible",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-27T21:43:30.559Z"
+        },
+        {
+          "caseId": 35566,
+          "testId": 1546681,
+          "name": "Validar Los Datos Correspondientes a Locales Con Creditor No Disponible",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-27T21:42:25.603Z"
+        },
+        {
+          "caseId": 35069,
+          "testId": 1546514,
+          "name": "Validar Los Datos Correspondientes a Locales Contado",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-27T21:43:25.564Z"
+        },
+        {
+          "caseId": 35567,
+          "testId": 1546682,
+          "name": "Validar Los Datos Correspondientes a Locales Contado",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-27T21:42:28.256Z"
+        },
+        {
           "caseId": 35146,
           "testId": 1546562,
           "name": "Validar Los Go Back De Las Pantallas De Cat\u00e1logo",
@@ -1479,6 +1589,66 @@
           "updatedAt": "2026-05-19T00:45:57.772Z"
         },
         {
+          "caseId": 35620,
+          "testId": 1546715,
+          "name": "Verificar Visualizar El Detalle De Pedido",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-27T21:44:35.472Z"
+        },
+        {
+          "caseId": 35529,
+          "testId": 1546650,
+          "name": "Visualizar  Dos o Mas Locales a ID Client",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-27T21:41:29.872Z"
+        },
+        {
+          "caseId": 35037,
+          "testId": 1546487,
+          "name": "Visualizar Detalles De Pedidos Con Productos y Bundles",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-27T21:45:24.385Z"
+        },
+        {
+          "caseId": 35611,
+          "testId": 1546711,
+          "name": "Visualizar Detalles De Pedidos Con Productos y Bundles",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-27T21:44:14.643Z"
+        },
+        {
+          "caseId": 40497,
+          "testId": 1546774,
+          "name": "Visualizar Dos o Mas Locales a ID Client",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-27T21:42:19.538Z"
+        },
+        {
+          "caseId": 35148,
+          "testId": 1546564,
+          "name": "Visualizar Dos o Mas Locales a ID Client",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-27T21:42:15.545Z"
+        },
+        {
           "caseId": 35097,
           "testId": 1546533,
           "name": "Visualizar El Modal De \"eliminar Productor\"",
@@ -1497,6 +1667,66 @@
           "note": "",
           "assigneeId": null,
           "updatedAt": "2026-05-19T00:56:18.736Z"
+        },
+        {
+          "caseId": 35528,
+          "testId": 1546649,
+          "name": "Visualizar Local Asociado a ID Client",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-27T21:40:36.542Z"
+        },
+        {
+          "caseId": 35617,
+          "testId": 1546714,
+          "name": "Visualizar Los Estados De Los Pedidos",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-27T21:44:30.142Z"
+        },
+        {
+          "caseId": 35039,
+          "testId": 1546489,
+          "name": "Visualizar Los Productos Descartables",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-27T21:45:49.846Z"
+        },
+        {
+          "caseId": 35613,
+          "testId": 1546713,
+          "name": "Visualizar Los Productos Descartables",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-27T21:44:25.851Z"
+        },
+        {
+          "caseId": 35038,
+          "testId": 1546488,
+          "name": "Visualizar Pedidos Con Productos En Descuento",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-27T21:45:27.878Z"
+        },
+        {
+          "caseId": 35612,
+          "testId": 1546712,
+          "name": "Visualizar Pedidos Con Productos En Descuento",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-27T21:44:17.770Z"
         }
       ]
     }
