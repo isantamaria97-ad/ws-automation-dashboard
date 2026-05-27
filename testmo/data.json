@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-27T21:53:55.794167+00:00",
+  "lastUpdated": "2026-05-27T23:08:48.334336+00:00",
   "scope": {
     "baseUrl": "https://applydigital.testmo.net",
     "projectId": "9",
@@ -16,22 +16,22 @@
       "project_id": 9,
       "is_closed": false,
       "created_at": "2026-05-13T18:58:45.698Z",
-      "updated_at": "2026-05-13T19:00:52.788Z",
+      "updated_at": "2026-05-27T22:39:35.083Z",
       "closed_at": null,
       "elapsed_ms": 494000000,
-      "total": 317,
-      "completed": 160,
-      "remaining": 157,
+      "total": 314,
+      "completed": 183,
+      "remaining": 131,
       "passed": 0,
       "failed": 0,
       "retest": 0,
       "blocked": 0,
-      "untested": 160,
+      "untested": 183,
       "skipped": 0,
       "statusCounts": {
         "Untested": {
           "id": 1,
-          "count": 160
+          "count": 183
         },
         "Passed": {
           "id": 2,
@@ -369,6 +369,16 @@
           "updatedAt": "2026-05-19T00:52:41.333Z"
         },
         {
+          "caseId": 35746,
+          "testId": 1546768,
+          "name": "Detalle De Productos Pedidos",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-27T22:34:47.947Z"
+        },
+        {
           "caseId": 35026,
           "testId": 1546483,
           "name": "Eliminar Favoritos",
@@ -377,6 +387,16 @@
           "note": "",
           "assigneeId": null,
           "updatedAt": "2026-05-19T00:56:39.890Z"
+        },
+        {
+          "caseId": 35016,
+          "testId": 1546476,
+          "name": "Splash Screen - Configuraciones",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-27T22:40:03.401Z"
         },
         {
           "caseId": 35087,
@@ -449,6 +469,26 @@
           "updatedAt": "2026-05-19T00:34:45.734Z"
         },
         {
+          "caseId": 35125,
+          "testId": 1546547,
+          "name": "Validar  Que El Nombre De Pedido Se Edite",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-27T22:35:26.631Z"
+        },
+        {
+          "caseId": 35621,
+          "testId": 1546716,
+          "name": "Validar  Que El Nombre De Pedido Se Edite",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-27T22:34:04.992Z"
+        },
+        {
           "caseId": 35098,
           "testId": 1546534,
           "name": "Validar  Se Visualice El Modal De Recomendados",
@@ -459,6 +499,26 @@
           "updatedAt": "2026-05-20T03:50:07.891Z"
         },
         {
+          "caseId": 35126,
+          "testId": 1546548,
+          "name": "Validar \"compartir Pedido\"",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-27T22:35:29.773Z"
+        },
+        {
+          "caseId": 35622,
+          "testId": 1546717,
+          "name": "Validar \"compartir Pedido\"",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-27T22:34:31.665Z"
+        },
+        {
           "caseId": 35095,
           "testId": 1546531,
           "name": "Validar \"continuar Pedido\"",
@@ -467,6 +527,36 @@
           "note": "",
           "assigneeId": null,
           "updatedAt": "2026-05-20T03:49:47.958Z"
+        },
+        {
+          "caseId": 35244,
+          "testId": 1546628,
+          "name": "Validar \"repetir Pedido\"  Con Productos Con Cambio De Precio",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-27T22:35:40.327Z"
+        },
+        {
+          "caseId": 35127,
+          "testId": 1546549,
+          "name": "Validar \"repetir Pedido\"  Con Productos Disponibles",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-27T22:35:33.445Z"
+        },
+        {
+          "caseId": 35243,
+          "testId": 1546627,
+          "name": "Validar \"repetir Pedido\"  Con Productos No Disponibles",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-27T22:35:36.322Z"
         },
         {
           "caseId": 35228,
@@ -537,6 +627,26 @@
           "note": "",
           "assigneeId": 136,
           "updatedAt": "2026-05-19T00:47:25.329Z"
+        },
+        {
+          "caseId": 35150,
+          "testId": 1546566,
+          "name": "Validar B\u00fasqueda Por ID Usando El Filtro",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-27T22:34:59.277Z"
+        },
+        {
+          "caseId": 35151,
+          "testId": 1546567,
+          "name": "Validar B\u00fasqueda Por Nombre",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-27T22:35:19.504Z"
         },
         {
           "caseId": 35046,
@@ -627,6 +737,16 @@
           "note": "",
           "assigneeId": null,
           "updatedAt": "2026-05-20T03:45:36.465Z"
+        },
+        {
+          "caseId": 35518,
+          "testId": 1546641,
+          "name": "Validar Centro De Ayuda",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-27T22:40:18.643Z"
         },
         {
           "caseId": 35010,
@@ -817,6 +937,16 @@
           "note": "",
           "assigneeId": null,
           "updatedAt": "2026-05-25T19:38:32.027Z"
+        },
+        {
+          "caseId": 35520,
+          "testId": 1546643,
+          "name": "Validar Go Back Hacia Login",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-27T22:40:23.974Z"
         },
         {
           "caseId": 35012,
@@ -1249,6 +1379,16 @@
           "updatedAt": "2026-05-20T03:50:35.469Z"
         },
         {
+          "caseId": 35128,
+          "testId": 1546550,
+          "name": "Validar Los Productos Pedidos",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-27T22:35:43.057Z"
+        },
+        {
           "caseId": 35226,
           "testId": 1546623,
           "name": "Validar Metodo De Pago",
@@ -1297,6 +1437,16 @@
           "note": "",
           "assigneeId": 136,
           "updatedAt": "2026-05-18T15:48:20.091Z"
+        },
+        {
+          "caseId": 35635,
+          "testId": 1546718,
+          "name": "Validar Pedidos Standard",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-27T22:34:51.860Z"
         },
         {
           "caseId": 35690,
@@ -1459,6 +1609,26 @@
           "updatedAt": "2026-05-20T03:54:17.766Z"
         },
         {
+          "caseId": 35122,
+          "testId": 1546544,
+          "name": "Verificar  Filtrar  Por Period (Mes)",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-27T22:20:49.884Z"
+        },
+        {
+          "caseId": 35123,
+          "testId": 1546545,
+          "name": "Verificar \"limpiar Filtros\"",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-27T22:22:01.487Z"
+        },
+        {
           "caseId": 35546,
           "testId": 1546661,
           "name": "Verificar Clientes Con Ofertas",
@@ -1537,6 +1707,16 @@
           "note": "",
           "assigneeId": null,
           "updatedAt": "2026-05-19T00:45:34.576Z"
+        },
+        {
+          "caseId": 35519,
+          "testId": 1546642,
+          "name": "Verificar Las FAQS",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-27T22:40:21.384Z"
         },
         {
           "caseId": 35011,
@@ -1649,6 +1829,16 @@
           "updatedAt": "2026-05-27T21:42:15.545Z"
         },
         {
+          "caseId": 35124,
+          "testId": 1546546,
+          "name": "Visualizar El Detalle De Pedido",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-27T22:35:22.906Z"
+        },
+        {
           "caseId": 35097,
           "testId": 1546533,
           "name": "Visualizar El Modal De \"eliminar Productor\"",
@@ -1677,6 +1867,16 @@
           "note": "",
           "assigneeId": null,
           "updatedAt": "2026-05-27T21:40:36.542Z"
+        },
+        {
+          "caseId": 35043,
+          "testId": 1546493,
+          "name": "Visualizar Los Estados De Los Pedidos",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-27T22:16:00.974Z"
         },
         {
           "caseId": 35617,
@@ -1727,6 +1927,36 @@
           "note": "",
           "assigneeId": null,
           "updatedAt": "2026-05-27T21:44:17.770Z"
+        },
+        {
+          "caseId": 35042,
+          "testId": 1546492,
+          "name": "Visualizar Pedidos De Clientes Con Cr\u00e9dito Disponible",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-27T22:15:56.017Z"
+        },
+        {
+          "caseId": 35040,
+          "testId": 1546490,
+          "name": "Visualizar Pedidos De Clientes Contado",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-27T22:15:50.214Z"
+        },
+        {
+          "caseId": 35041,
+          "testId": 1546491,
+          "name": "Visualizar Pedidos De Clientes Sin Cr\u00e9dito Disponible",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-27T22:15:53.478Z"
         }
       ]
     }
