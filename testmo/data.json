@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-28T17:05:04.156082+00:00",
+  "lastUpdated": "2026-05-28T19:52:06.863192+00:00",
   "scope": {
     "baseUrl": "https://applydigital.testmo.net",
     "projectId": "9",
@@ -25,13 +25,13 @@
       "passed": 0,
       "failed": 0,
       "retest": 15,
-      "blocked": 0,
-      "untested": 290,
+      "blocked": 8,
+      "untested": 282,
       "skipped": 0,
       "statusCounts": {
         "Untested": {
           "id": 1,
-          "count": 290
+          "count": 282
         },
         "Passed": {
           "id": 2,
@@ -47,7 +47,7 @@
         },
         "Blocked": {
           "id": 5,
-          "count": 0
+          "count": 8
         },
         "Skipped": {
           "id": 6,
@@ -2069,86 +2069,6 @@
           "updatedAt": "2026-05-18T16:16:35.456Z"
         },
         {
-          "caseId": 35558,
-          "testId": 1546673,
-          "name": "Validar Los \"ver M\u00e1s\" De Carrousel De Ofertas",
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-05-28T16:05:56.476Z"
-        },
-        {
-          "caseId": 35144,
-          "testId": 1546560,
-          "name": "Validar Los \"ver M\u00e1s\" De Carrousel De Ofertas",
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-05-20T03:51:47.124Z"
-        },
-        {
-          "caseId": 35557,
-          "testId": 1546672,
-          "name": "Validar Los \"ver M\u00e1s\" De Catalogo Desde El Home",
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-05-28T16:05:53.653Z"
-        },
-        {
-          "caseId": 35143,
-          "testId": 1546559,
-          "name": "Validar Los \"ver M\u00e1s\" De Catalogo Desde El Home",
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-05-20T03:51:43.771Z"
-        },
-        {
-          "caseId": 35556,
-          "testId": 1546671,
-          "name": "Validar Los \"ver M\u00e1s\" De Productos Mas Pedidos",
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-05-28T16:05:50.891Z"
-        },
-        {
-          "caseId": 35142,
-          "testId": 1546558,
-          "name": "Validar Los \"ver M\u00e1s\" De Productos Mas Pedidos",
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-05-20T03:51:37.157Z"
-        },
-        {
-          "caseId": 35555,
-          "testId": 1546670,
-          "name": "Validar Los \"ver M\u00e1s\" De Productos Recomendados",
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-05-28T16:05:48.377Z"
-        },
-        {
-          "caseId": 35141,
-          "testId": 1546557,
-          "name": "Validar Los \"ver M\u00e1s\" De Productos Recomendados",
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-05-20T03:51:40.863Z"
-        },
-        {
           "caseId": 35068,
           "testId": 1546513,
           "name": "Validar Los Datos Correspondientes a Locales Con Creditor Disponible",
@@ -3177,6 +3097,86 @@
           "note": "<p>No se pueden cargar facturas</p>",
           "assigneeId": null,
           "updatedAt": "2026-05-28T16:33:11.204Z"
+        },
+        {
+          "caseId": 35144,
+          "testId": 1546560,
+          "name": "Validar Los \"ver M\u00e1s\" De Carrousel De Ofertas",
+          "statusId": 6,
+          "status": "Skipped",
+          "note": "<p>Se hizo retest despu\u00e9s del reporte de este bug:</p><ul><li><a href=\"https://reigncl.atlassian.net/browse/EEC-4112\">https://reigncl.atlassian.net/browse/EEC-4112</a></li></ul><p>Se marca como skipped.</p>",
+          "assigneeId": null,
+          "updatedAt": "2026-05-28T18:25:36.073Z"
+        },
+        {
+          "caseId": 35558,
+          "testId": 1546673,
+          "name": "Validar Los \"ver M\u00e1s\" De Carrousel De Ofertas",
+          "statusId": 6,
+          "status": "Skipped",
+          "note": "<p>Se hizo retest despu\u00e9s del reporte de este bug:</p><ul><li><a href=\"https://reigncl.atlassian.net/browse/EEC-4112\">https://reigncl.atlassian.net/browse/EEC-4112</a></li></ul><p>Se marca como skipped.</p>",
+          "assigneeId": null,
+          "updatedAt": "2026-05-28T18:19:10.054Z"
+        },
+        {
+          "caseId": 35143,
+          "testId": 1546559,
+          "name": "Validar Los \"ver M\u00e1s\" De Catalogo Desde El Home",
+          "statusId": 6,
+          "status": "Skipped",
+          "note": "<p>Se hizo retest despu\u00e9s del reporte de este bug:</p><ul><li><a href=\"https://reigncl.atlassian.net/browse/EEC-4112\">https://reigncl.atlassian.net/browse/EEC-4112</a></li></ul><p>Se marca como skipped.</p>",
+          "assigneeId": null,
+          "updatedAt": "2026-05-28T18:25:31.965Z"
+        },
+        {
+          "caseId": 35557,
+          "testId": 1546672,
+          "name": "Validar Los \"ver M\u00e1s\" De Catalogo Desde El Home",
+          "statusId": 6,
+          "status": "Skipped",
+          "note": "<p>Se hizo retest despu\u00e9s del reporte de este bug:</p><ul><li><a href=\"https://reigncl.atlassian.net/browse/EEC-4112\">https://reigncl.atlassian.net/browse/EEC-4112</a></li></ul><p>Se marca como skipped.</p>",
+          "assigneeId": null,
+          "updatedAt": "2026-05-28T18:19:05.483Z"
+        },
+        {
+          "caseId": 35142,
+          "testId": 1546558,
+          "name": "Validar Los \"ver M\u00e1s\" De Productos Mas Pedidos",
+          "statusId": 6,
+          "status": "Skipped",
+          "note": "<p>Se hizo retest despu\u00e9s del reporte de este bug:</p><ul><li><a href=\"https://reigncl.atlassian.net/browse/EEC-4112\">https://reigncl.atlassian.net/browse/EEC-4112</a></li></ul><p>Se marca como skipped.</p>",
+          "assigneeId": null,
+          "updatedAt": "2026-05-28T18:25:28.001Z"
+        },
+        {
+          "caseId": 35556,
+          "testId": 1546671,
+          "name": "Validar Los \"ver M\u00e1s\" De Productos Mas Pedidos",
+          "statusId": 6,
+          "status": "Skipped",
+          "note": "<p>Se hizo retest despu\u00e9s del reporte de este bug:</p><ul><li><a href=\"https://reigncl.atlassian.net/browse/EEC-4112\">https://reigncl.atlassian.net/browse/EEC-4112</a></li></ul><p>Se marca como skipped.</p>",
+          "assigneeId": null,
+          "updatedAt": "2026-05-28T18:19:01.778Z"
+        },
+        {
+          "caseId": 35141,
+          "testId": 1546557,
+          "name": "Validar Los \"ver M\u00e1s\" De Productos Recomendados",
+          "statusId": 6,
+          "status": "Skipped",
+          "note": "<p>Se hizo retest despu\u00e9s del reporte de este bug:</p><ul><li><a href=\"https://reigncl.atlassian.net/browse/EEC-4112\">https://reigncl.atlassian.net/browse/EEC-4112</a></li></ul><p>Se marca como skipped.</p>",
+          "assigneeId": null,
+          "updatedAt": "2026-05-28T18:22:10.218Z"
+        },
+        {
+          "caseId": 35555,
+          "testId": 1546670,
+          "name": "Validar Los \"ver M\u00e1s\" De Productos Recomendados",
+          "statusId": 6,
+          "status": "Skipped",
+          "note": "<p>Se hizo retest despu\u00e9s del reporte de este bug:</p><ul><li><a href=\"https://reigncl.atlassian.net/browse/EEC-4112\">https://reigncl.atlassian.net/browse/EEC-4112</a></li></ul><p>Se marca como skipped.</p>",
+          "assigneeId": null,
+          "updatedAt": "2026-05-28T18:18:56.624Z"
         }
       ]
     }
