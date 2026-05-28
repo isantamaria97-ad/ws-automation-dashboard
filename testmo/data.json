@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-28T16:30:00.403085+00:00",
+  "lastUpdated": "2026-05-28T17:05:04.156082+00:00",
   "scope": {
     "baseUrl": "https://applydigital.testmo.net",
     "projectId": "9",
@@ -20,18 +20,18 @@
       "closed_at": null,
       "elapsed_ms": 494000000,
       "total": 314,
-      "completed": 276,
-      "remaining": 38,
+      "completed": 305,
+      "remaining": 9,
       "passed": 0,
       "failed": 0,
-      "retest": 0,
+      "retest": 15,
       "blocked": 0,
-      "untested": 276,
+      "untested": 290,
       "skipped": 0,
       "statusCounts": {
         "Untested": {
           "id": 1,
-          "count": 276
+          "count": 290
         },
         "Passed": {
           "id": 2,
@@ -43,7 +43,7 @@
         },
         "Retest": {
           "id": 4,
-          "count": 0
+          "count": 15
         },
         "Blocked": {
           "id": 5,
@@ -128,6 +128,16 @@
       },
       "url": "https://applydigital.testmo.net/runs/view/1726",
       "cases": [
+        {
+          "caseId": 40929,
+          "testId": 1546780,
+          "name": "Activar Login Biometrico",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-28T16:43:53.951Z"
+        },
         {
           "caseId": 35523,
           "testId": 1546645,
@@ -649,6 +659,16 @@
           "updatedAt": "2026-05-28T16:16:23.777Z"
         },
         {
+          "caseId": 35736,
+          "testId": 1546763,
+          "name": "Tienda Sin Chequers",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-28T16:34:33.063Z"
+        },
+        {
           "caseId": 35087,
           "testId": 1546523,
           "name": "Vaciar Carrito",
@@ -747,6 +767,16 @@
           "note": "",
           "assigneeId": 136,
           "updatedAt": "2026-05-19T00:34:45.734Z"
+        },
+        {
+          "caseId": 35733,
+          "testId": 1546760,
+          "name": "Validar  Label De Cheque En El Men\u00fa",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-28T16:34:48.573Z"
         },
         {
           "caseId": 35125,
@@ -897,6 +927,16 @@
           "note": "",
           "assigneeId": null,
           "updatedAt": "2026-05-20T03:46:52.726Z"
+        },
+        {
+          "caseId": 35222,
+          "testId": 1546619,
+          "name": "Validar Banner",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-28T16:57:09.197Z"
         },
         {
           "caseId": 35713,
@@ -1599,6 +1639,16 @@
           "updatedAt": "2026-05-25T19:42:12.281Z"
         },
         {
+          "caseId": 35198,
+          "testId": 1546605,
+          "name": "Validar La Creaci\u00f3n De Dos Ordenes",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-28T16:56:09.153Z"
+        },
+        {
           "caseId": 35610,
           "testId": 1546710,
           "name": "Validar La Navegaci\u00f3n Desde Carrito",
@@ -1809,6 +1859,16 @@
           "updatedAt": "2026-05-20T03:49:37.689Z"
         },
         {
+          "caseId": 35220,
+          "testId": 1546617,
+          "name": "Validar Label De Primer Compra En Carrito",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-28T16:56:18.165Z"
+        },
+        {
           "caseId": 35535,
           "testId": 1546651,
           "name": "Validar Las Apis Intervinientes",
@@ -1929,6 +1989,16 @@
           "updatedAt": "2026-05-18T15:51:10.899Z"
         },
         {
+          "caseId": 35106,
+          "testId": 1546538,
+          "name": "Validar Login Con Telefono",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-28T16:43:56.881Z"
+        },
+        {
           "caseId": 35705,
           "testId": 1546749,
           "name": "Validar Login Con Telefono",
@@ -1939,6 +2009,16 @@
           "updatedAt": "2026-05-25T19:41:05.593Z"
         },
         {
+          "caseId": 35101,
+          "testId": 1546537,
+          "name": "Validar Login Con Username No Confirmado",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-28T16:43:59.983Z"
+        },
+        {
           "caseId": 35700,
           "testId": 1546748,
           "name": "Validar Login Con Username No Confirmado",
@@ -1947,6 +2027,16 @@
           "note": "",
           "assigneeId": null,
           "updatedAt": "2026-05-25T19:41:15.793Z"
+        },
+        {
+          "caseId": 35179,
+          "testId": 1546586,
+          "name": "Validar Login Con Usuario Inactivo",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-28T16:44:02.634Z"
         },
         {
           "caseId": 35710,
@@ -2169,6 +2259,16 @@
           "updatedAt": "2026-05-27T22:35:43.057Z"
         },
         {
+          "caseId": 35221,
+          "testId": 1546618,
+          "name": "Validar Mensaje Final En Thank You Page",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-28T16:56:22.864Z"
+        },
+        {
           "caseId": 35226,
           "testId": 1546623,
           "name": "Validar Metodo De Pago",
@@ -2177,6 +2277,16 @@
           "note": "",
           "assigneeId": null,
           "updatedAt": "2026-05-25T19:38:35.332Z"
+        },
+        {
+          "caseId": 35219,
+          "testId": 1546616,
+          "name": "Validar Modal De Bienvenida En Home",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-28T16:56:14.190Z"
         },
         {
           "caseId": 35576,
@@ -2227,6 +2337,16 @@
           "note": "",
           "assigneeId": null,
           "updatedAt": "2026-05-27T22:34:51.860Z"
+        },
+        {
+          "caseId": 35015,
+          "testId": 1546475,
+          "name": "Validar Persistencia De Inicio De Sesi\u00f3n",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-28T16:44:05.912Z"
         },
         {
           "caseId": 35690,
@@ -2389,6 +2509,16 @@
           "updatedAt": "2026-05-25T19:41:41.934Z"
         },
         {
+          "caseId": 35197,
+          "testId": 1546604,
+          "name": "Validar Que El Costumer Este Habilitado Para Regalo De Primer Compra",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-28T16:57:14.783Z"
+        },
+        {
           "caseId": 35591,
           "testId": 1546697,
           "name": "Validar Que El Segundo Paso Se Visualice El Carrousel De Recomendados",
@@ -2457,6 +2587,16 @@
           "note": "",
           "assigneeId": null,
           "updatedAt": "2026-05-20T03:52:16.401Z"
+        },
+        {
+          "caseId": 35734,
+          "testId": 1546761,
+          "name": "Validar Secci\u00f3n Mis Chequers En El Men\u00fa",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-28T16:34:54.504Z"
         },
         {
           "caseId": 35718,
@@ -2887,6 +3027,156 @@
           "note": "",
           "assigneeId": null,
           "updatedAt": "2026-05-27T22:15:53.478Z"
+        },
+        {
+          "caseId": 35739,
+          "testId": 1546766,
+          "name": "Jerarquia De Etiquetas",
+          "statusId": 5,
+          "status": "Blocked",
+          "note": "<p>No existen cheques para probar funcionalidad</p>",
+          "assigneeId": null,
+          "updatedAt": "2026-05-28T16:41:20.232Z"
+        },
+        {
+          "caseId": 40894,
+          "testId": 1546777,
+          "name": "Mis Chequers Por Vencer: Push y Mensaje",
+          "statusId": 5,
+          "status": "Blocked",
+          "note": "<p>No existen cheques para probar funcionalidad</p>",
+          "assigneeId": null,
+          "updatedAt": "2026-05-28T16:41:26.722Z"
+        },
+        {
+          "caseId": 35777,
+          "testId": 1546773,
+          "name": "Mis Pagos App \"vista Detalle\"",
+          "statusId": 5,
+          "status": "Blocked",
+          "note": "<p>Se consultar\u00e1 si Mis Pagos est\u00e1 OFF en prod</p>",
+          "assigneeId": null,
+          "updatedAt": "2026-05-28T16:40:35.124Z"
+        },
+        {
+          "caseId": 35743,
+          "testId": 1546767,
+          "name": "Tienda Con Chequers (recepcionados, Protestados Por Vencer))",
+          "statusId": 5,
+          "status": "Blocked",
+          "note": "<p>No existen cheques para probar funcionalidad</p>",
+          "assigneeId": null,
+          "updatedAt": "2026-05-28T16:41:23.429Z"
+        },
+        {
+          "caseId": 35737,
+          "testId": 1546764,
+          "name": "Tienda Con Chequers Recepcionados",
+          "statusId": 5,
+          "status": "Blocked",
+          "note": "<p>No existen cheques para probar funcionalidad</p>",
+          "assigneeId": null,
+          "updatedAt": "2026-05-28T16:41:11.942Z"
+        },
+        {
+          "caseId": 35738,
+          "testId": 1546765,
+          "name": "Tienda Con Chequers Recepcionados y Por Vencer",
+          "statusId": 5,
+          "status": "Blocked",
+          "note": "<p>No existen cheques para probar funcionalidad</p>",
+          "assigneeId": null,
+          "updatedAt": "2026-05-28T16:41:15.875Z"
+        },
+        {
+          "caseId": 35717,
+          "testId": 1546757,
+          "name": "Validar Compartir Detalle De Factura",
+          "statusId": 5,
+          "status": "Blocked",
+          "note": "<p>No se pueden cargar facturas</p>",
+          "assigneeId": null,
+          "updatedAt": "2026-05-28T16:34:19.681Z"
+        },
+        {
+          "caseId": 35154,
+          "testId": 1546570,
+          "name": "Validar Compartir Detalle De Factura",
+          "statusId": 5,
+          "status": "Blocked",
+          "note": "<p>No se pueden cargar facturas</p>",
+          "assigneeId": null,
+          "updatedAt": "2026-05-28T16:33:06.811Z"
+        },
+        {
+          "caseId": 35716,
+          "testId": 1546756,
+          "name": "Validar El Detalle De Las Facturas",
+          "statusId": 5,
+          "status": "Blocked",
+          "note": "<p>No se pueden cargar facturas</p>",
+          "assigneeId": null,
+          "updatedAt": "2026-05-28T16:34:14.996Z"
+        },
+        {
+          "caseId": 35153,
+          "testId": 1546569,
+          "name": "Validar El Detalle De Las Facturas",
+          "statusId": 5,
+          "status": "Blocked",
+          "note": "<p>No se pueden cargar facturas</p>",
+          "assigneeId": null,
+          "updatedAt": "2026-05-28T16:32:59.853Z"
+        },
+        {
+          "caseId": 35715,
+          "testId": 1546755,
+          "name": "Validar El Listado De Facturas Disponibles",
+          "statusId": 5,
+          "status": "Blocked",
+          "note": "<p>No se pueden cargar facturas</p>",
+          "assigneeId": null,
+          "updatedAt": "2026-05-28T16:34:10.962Z"
+        },
+        {
+          "caseId": 35152,
+          "testId": 1546568,
+          "name": "Validar El Listado De Facturas Disponibles",
+          "statusId": 5,
+          "status": "Blocked",
+          "note": "<p>No se pueden cargar facturas</p>",
+          "assigneeId": null,
+          "updatedAt": "2026-05-28T16:32:55.037Z"
+        },
+        {
+          "caseId": 35735,
+          "testId": 1546762,
+          "name": "Validar Modal Informativo",
+          "statusId": 5,
+          "status": "Blocked",
+          "note": "<p>No existen cheques para probar funcionalidad</p>",
+          "assigneeId": null,
+          "updatedAt": "2026-05-28T16:41:06.031Z"
+        },
+        {
+          "caseId": 35732,
+          "testId": 1546759,
+          "name": "Validar Que Los Filtros Se Visualicen Exitosamente",
+          "statusId": 5,
+          "status": "Blocked",
+          "note": "<p>No se pueden cargar facturas</p>",
+          "assigneeId": null,
+          "updatedAt": "2026-05-28T16:34:23.360Z"
+        },
+        {
+          "caseId": 35260,
+          "testId": 1546640,
+          "name": "Validar Que Los Filtros Se Visualicen Exitosamente",
+          "statusId": 5,
+          "status": "Blocked",
+          "note": "<p>No se pueden cargar facturas</p>",
+          "assigneeId": null,
+          "updatedAt": "2026-05-28T16:33:11.204Z"
         }
       ]
     }
