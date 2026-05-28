@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-28T19:52:06.863192+00:00",
+  "lastUpdated": "2026-05-28T21:08:23.750236+00:00",
   "scope": {
     "baseUrl": "https://applydigital.testmo.net",
     "projectId": "9",
@@ -20,18 +20,18 @@
       "closed_at": null,
       "elapsed_ms": 494000000,
       "total": 314,
-      "completed": 305,
-      "remaining": 9,
+      "completed": 314,
+      "remaining": 0,
       "passed": 0,
       "failed": 0,
-      "retest": 15,
+      "retest": 7,
       "blocked": 8,
-      "untested": 282,
+      "untested": 299,
       "skipped": 0,
       "statusCounts": {
         "Untested": {
           "id": 1,
-          "count": 282
+          "count": 299
         },
         "Passed": {
           "id": 2,
@@ -43,7 +43,7 @@
         },
         "Retest": {
           "id": 4,
-          "count": 15
+          "count": 7
         },
         "Blocked": {
           "id": 5,
@@ -529,6 +529,26 @@
           "updatedAt": "2026-05-28T16:16:46.818Z"
         },
         {
+          "caseId": 40895,
+          "testId": 1546778,
+          "name": "EAN: Acceso Searchbar",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-28T20:52:36.247Z"
+        },
+        {
+          "caseId": 40899,
+          "testId": 1546779,
+          "name": "EAN: Productor No Encontrado",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-28T20:52:39.151Z"
+        },
+        {
           "caseId": 35526,
           "testId": 1546648,
           "name": "Eliminar Favoritos",
@@ -547,6 +567,16 @@
           "note": "",
           "assigneeId": null,
           "updatedAt": "2026-05-19T00:56:39.890Z"
+        },
+        {
+          "caseId": 43090,
+          "testId": 1546781,
+          "name": "Express: Alerts",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-28T20:57:18.174Z"
         },
         {
           "caseId": 35751,
@@ -1169,6 +1199,16 @@
           "updatedAt": "2026-05-20T03:45:36.465Z"
         },
         {
+          "caseId": 35100,
+          "testId": 1546536,
+          "name": "Validar Carritos Transparentes",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-28T20:53:42.502Z"
+        },
+        {
           "caseId": 35593,
           "testId": 1546699,
           "name": "Validar Carritos Transparentes En WEB B2B y APP B2B",
@@ -1279,6 +1319,26 @@
           "updatedAt": "2026-05-19T00:49:59.496Z"
         },
         {
+          "caseId": 35717,
+          "testId": 1546757,
+          "name": "Validar Compartir Detalle De Factura",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "<p>Se valida con tienda <a href=\"tel:1003877\">1003877</a></p>",
+          "assigneeId": null,
+          "updatedAt": "2026-05-28T20:52:19.034Z"
+        },
+        {
+          "caseId": 35154,
+          "testId": 1546570,
+          "name": "Validar Compartir Detalle De Factura",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "<p>Se valida con tienda <a href=\"tel:1003877\">1003877</a></p>",
+          "assigneeId": null,
+          "updatedAt": "2026-05-28T20:51:04.789Z"
+        },
+        {
           "caseId": 35072,
           "testId": 1546517,
           "name": "Validar Dias De Atencion y Horarios En Clientes De Cochabamba",
@@ -1359,6 +1419,26 @@
           "updatedAt": "2026-05-28T15:57:18.729Z"
         },
         {
+          "caseId": 35716,
+          "testId": 1546756,
+          "name": "Validar El Detalle De Las Facturas",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "<p>Se valida con tienda <a href=\"tel:1003877\">1003877</a></p>",
+          "assigneeId": null,
+          "updatedAt": "2026-05-28T20:52:15.370Z"
+        },
+        {
+          "caseId": 35153,
+          "testId": 1546569,
+          "name": "Validar El Detalle De Las Facturas",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "<p>Se valida con tienda <a href=\"tel:1003877\">1003877</a></p>",
+          "assigneeId": null,
+          "updatedAt": "2026-05-28T20:50:33.444Z"
+        },
+        {
           "caseId": 35560,
           "testId": 1546675,
           "name": "Validar El Drawer De Agregar y Quitar Productos",
@@ -1377,6 +1457,26 @@
           "note": "",
           "assigneeId": null,
           "updatedAt": "2026-05-20T03:47:01.926Z"
+        },
+        {
+          "caseId": 35715,
+          "testId": 1546755,
+          "name": "Validar El Listado De Facturas Disponibles",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "<p>Se valida con tienda <a href=\"tel:1003877\">1003877</a></p>",
+          "assigneeId": null,
+          "updatedAt": "2026-05-28T20:52:11.559Z"
+        },
+        {
+          "caseId": 35152,
+          "testId": 1546568,
+          "name": "Validar El Listado De Facturas Disponibles",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "<p>Se valida con tienda <a href=\"tel:1003877\">1003877</a></p>",
+          "assigneeId": null,
+          "updatedAt": "2026-05-28T20:50:17.917Z"
         },
         {
           "caseId": 35656,
@@ -1437,6 +1537,16 @@
           "note": "",
           "assigneeId": null,
           "updatedAt": "2026-05-20T03:47:56.594Z"
+        },
+        {
+          "caseId": 35249,
+          "testId": 1546629,
+          "name": "Validar El Orden Del Carrito",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-28T20:57:10.159Z"
         },
         {
           "caseId": 35112,
@@ -2329,6 +2439,16 @@
           "updatedAt": "2026-05-25T19:36:16.359Z"
         },
         {
+          "caseId": 35173,
+          "testId": 1546580,
+          "name": "Validar Productos No Disponibles",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-28T20:53:48.598Z"
+        },
+        {
           "caseId": 35651,
           "testId": 1546733,
           "name": "Validar Productos No Disponibles",
@@ -2469,6 +2589,16 @@
           "updatedAt": "2026-05-20T03:50:13.816Z"
         },
         {
+          "caseId": 35654,
+          "testId": 1546736,
+          "name": "Validar Que La App Posea Actualizaci\u00f3n",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-28T20:51:52.165Z"
+        },
+        {
           "caseId": 35209,
           "testId": 1546613,
           "name": "Validar Que La App Posea Actualizaci\u00f3n",
@@ -2507,6 +2637,26 @@
           "note": "",
           "assigneeId": null,
           "updatedAt": "2026-05-20T03:52:16.401Z"
+        },
+        {
+          "caseId": 35732,
+          "testId": 1546759,
+          "name": "Validar Que Los Filtros Se Visualicen Exitosamente",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "<p>Se valida con tienda <a href=\"tel:1003877\">1003877</a></p>",
+          "assigneeId": null,
+          "updatedAt": "2026-05-28T20:52:21.860Z"
+        },
+        {
+          "caseId": 35260,
+          "testId": 1546640,
+          "name": "Validar Que Los Filtros Se Visualicen Exitosamente",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-28T20:51:35.386Z"
         },
         {
           "caseId": 35734,
@@ -2567,6 +2717,16 @@
           "note": "",
           "assigneeId": null,
           "updatedAt": "2026-05-20T03:54:17.766Z"
+        },
+        {
+          "caseId": 35223,
+          "testId": 1546620,
+          "name": "Ver Detalle De Productos En Carrito",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-28T20:57:06.515Z"
         },
         {
           "caseId": 35122,
@@ -2647,6 +2807,16 @@
           "note": "",
           "assigneeId": null,
           "updatedAt": "2026-05-19T00:45:00.207Z"
+        },
+        {
+          "caseId": 35096,
+          "testId": 1546532,
+          "name": "Verificar El Click Aticon-Close",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-28T20:53:27.838Z"
         },
         {
           "caseId": 35589,
@@ -3009,66 +3179,6 @@
           "updatedAt": "2026-05-28T16:41:15.875Z"
         },
         {
-          "caseId": 35717,
-          "testId": 1546757,
-          "name": "Validar Compartir Detalle De Factura",
-          "statusId": 5,
-          "status": "Blocked",
-          "note": "<p>No se pueden cargar facturas</p>",
-          "assigneeId": null,
-          "updatedAt": "2026-05-28T16:34:19.681Z"
-        },
-        {
-          "caseId": 35154,
-          "testId": 1546570,
-          "name": "Validar Compartir Detalle De Factura",
-          "statusId": 5,
-          "status": "Blocked",
-          "note": "<p>No se pueden cargar facturas</p>",
-          "assigneeId": null,
-          "updatedAt": "2026-05-28T16:33:06.811Z"
-        },
-        {
-          "caseId": 35716,
-          "testId": 1546756,
-          "name": "Validar El Detalle De Las Facturas",
-          "statusId": 5,
-          "status": "Blocked",
-          "note": "<p>No se pueden cargar facturas</p>",
-          "assigneeId": null,
-          "updatedAt": "2026-05-28T16:34:14.996Z"
-        },
-        {
-          "caseId": 35153,
-          "testId": 1546569,
-          "name": "Validar El Detalle De Las Facturas",
-          "statusId": 5,
-          "status": "Blocked",
-          "note": "<p>No se pueden cargar facturas</p>",
-          "assigneeId": null,
-          "updatedAt": "2026-05-28T16:32:59.853Z"
-        },
-        {
-          "caseId": 35715,
-          "testId": 1546755,
-          "name": "Validar El Listado De Facturas Disponibles",
-          "statusId": 5,
-          "status": "Blocked",
-          "note": "<p>No se pueden cargar facturas</p>",
-          "assigneeId": null,
-          "updatedAt": "2026-05-28T16:34:10.962Z"
-        },
-        {
-          "caseId": 35152,
-          "testId": 1546568,
-          "name": "Validar El Listado De Facturas Disponibles",
-          "statusId": 5,
-          "status": "Blocked",
-          "note": "<p>No se pueden cargar facturas</p>",
-          "assigneeId": null,
-          "updatedAt": "2026-05-28T16:32:55.037Z"
-        },
-        {
           "caseId": 35735,
           "testId": 1546762,
           "name": "Validar Modal Informativo",
@@ -3077,26 +3187,6 @@
           "note": "<p>No existen cheques para probar funcionalidad</p>",
           "assigneeId": null,
           "updatedAt": "2026-05-28T16:41:06.031Z"
-        },
-        {
-          "caseId": 35732,
-          "testId": 1546759,
-          "name": "Validar Que Los Filtros Se Visualicen Exitosamente",
-          "statusId": 5,
-          "status": "Blocked",
-          "note": "<p>No se pueden cargar facturas</p>",
-          "assigneeId": null,
-          "updatedAt": "2026-05-28T16:34:23.360Z"
-        },
-        {
-          "caseId": 35260,
-          "testId": 1546640,
-          "name": "Validar Que Los Filtros Se Visualicen Exitosamente",
-          "statusId": 5,
-          "status": "Blocked",
-          "note": "<p>No se pueden cargar facturas</p>",
-          "assigneeId": null,
-          "updatedAt": "2026-05-28T16:33:11.204Z"
         },
         {
           "caseId": 35144,
