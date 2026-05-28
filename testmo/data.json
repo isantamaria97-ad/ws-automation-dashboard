@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-28T21:49:37.360310+00:00",
+  "lastUpdated": "2026-05-28T22:08:02.261340+00:00",
   "scope": {
     "baseUrl": "https://applydigital.testmo.net",
     "projectId": "9",
@@ -24,14 +24,14 @@
       "remaining": 0,
       "passed": 0,
       "failed": 0,
-      "retest": 7,
+      "retest": 0,
       "blocked": 8,
-      "untested": 299,
+      "untested": 306,
       "skipped": 0,
       "statusCounts": {
         "Untested": {
           "id": 1,
-          "count": 299
+          "count": 306
         },
         "Passed": {
           "id": 2,
@@ -43,7 +43,7 @@
         },
         "Retest": {
           "id": 4,
-          "count": 7
+          "count": 0
         },
         "Blocked": {
           "id": 5,
@@ -589,6 +589,36 @@
           "updatedAt": "2026-05-28T16:16:36.775Z"
         },
         {
+          "caseId": 35739,
+          "testId": 1546766,
+          "name": "Jerarquia De Etiquetas",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "<figure class=\"image\"><img src=\"/attachments/view/10069\" alt=\"10069\" /></figure>",
+          "assigneeId": null,
+          "updatedAt": "2026-05-28T22:02:13.597Z"
+        },
+        {
+          "caseId": 40894,
+          "testId": 1546777,
+          "name": "Mis Chequers Por Vencer: Push y Mensaje",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-28T22:03:17.978Z"
+        },
+        {
+          "caseId": 35777,
+          "testId": 1546773,
+          "name": "Mis Pagos App \"vista Detalle\"",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-28T22:03:38.271Z"
+        },
+        {
           "caseId": 40893,
           "testId": 1546776,
           "name": "Modal Cr\u00e9dito Preaprobado: Datos Generales",
@@ -687,6 +717,36 @@
           "note": "",
           "assigneeId": null,
           "updatedAt": "2026-05-28T16:16:23.777Z"
+        },
+        {
+          "caseId": 35743,
+          "testId": 1546767,
+          "name": "Tienda Con Chequers (recepcionados, Protestados Por Vencer))",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "<figure class=\"image\"><img src=\"/attachments/view/10070\" alt=\"10070\" /></figure>",
+          "assigneeId": null,
+          "updatedAt": "2026-05-28T22:02:40.326Z"
+        },
+        {
+          "caseId": 35737,
+          "testId": 1546764,
+          "name": "Tienda Con Chequers Recepcionados",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-28T22:01:45.595Z"
+        },
+        {
+          "caseId": 35738,
+          "testId": 1546765,
+          "name": "Tienda Con Chequers Recepcionados y Por Vencer",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-28T22:01:51.927Z"
         },
         {
           "caseId": 35736,
@@ -2319,6 +2379,16 @@
           "updatedAt": "2026-05-28T16:56:14.190Z"
         },
         {
+          "caseId": 35735,
+          "testId": 1546762,
+          "name": "Validar Modal Informativo",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "<p>Reprobado. Se comporta como se espera</p><figure class=\"image\"><img src=\"/attachments/view/10068\" alt=\"10068\" /></figure>",
+          "assigneeId": null,
+          "updatedAt": "2026-05-28T22:01:30.800Z"
+        },
+        {
           "caseId": 35576,
           "testId": 1546684,
           "name": "Validar Navbar (superior)y Tabbar (Inferior)",
@@ -3117,76 +3187,6 @@
           "note": "",
           "assigneeId": null,
           "updatedAt": "2026-05-27T22:15:53.478Z"
-        },
-        {
-          "caseId": 35739,
-          "testId": 1546766,
-          "name": "Jerarquia De Etiquetas",
-          "statusId": 5,
-          "status": "Blocked",
-          "note": "<p>No existen cheques para probar funcionalidad</p>",
-          "assigneeId": null,
-          "updatedAt": "2026-05-28T16:41:20.232Z"
-        },
-        {
-          "caseId": 40894,
-          "testId": 1546777,
-          "name": "Mis Chequers Por Vencer: Push y Mensaje",
-          "statusId": 5,
-          "status": "Blocked",
-          "note": "<p>No existen cheques para probar funcionalidad</p>",
-          "assigneeId": null,
-          "updatedAt": "2026-05-28T16:41:26.722Z"
-        },
-        {
-          "caseId": 35777,
-          "testId": 1546773,
-          "name": "Mis Pagos App \"vista Detalle\"",
-          "statusId": 5,
-          "status": "Blocked",
-          "note": "<p>Se consultar\u00e1 si Mis Pagos est\u00e1 OFF en prod</p>",
-          "assigneeId": null,
-          "updatedAt": "2026-05-28T16:40:35.124Z"
-        },
-        {
-          "caseId": 35743,
-          "testId": 1546767,
-          "name": "Tienda Con Chequers (recepcionados, Protestados Por Vencer))",
-          "statusId": 5,
-          "status": "Blocked",
-          "note": "<p>No existen cheques para probar funcionalidad</p>",
-          "assigneeId": null,
-          "updatedAt": "2026-05-28T16:41:23.429Z"
-        },
-        {
-          "caseId": 35737,
-          "testId": 1546764,
-          "name": "Tienda Con Chequers Recepcionados",
-          "statusId": 5,
-          "status": "Blocked",
-          "note": "<p>No existen cheques para probar funcionalidad</p>",
-          "assigneeId": null,
-          "updatedAt": "2026-05-28T16:41:11.942Z"
-        },
-        {
-          "caseId": 35738,
-          "testId": 1546765,
-          "name": "Tienda Con Chequers Recepcionados y Por Vencer",
-          "statusId": 5,
-          "status": "Blocked",
-          "note": "<p>No existen cheques para probar funcionalidad</p>",
-          "assigneeId": null,
-          "updatedAt": "2026-05-28T16:41:15.875Z"
-        },
-        {
-          "caseId": 35735,
-          "testId": 1546762,
-          "name": "Validar Modal Informativo",
-          "statusId": 5,
-          "status": "Blocked",
-          "note": "<p>No existen cheques para probar funcionalidad</p>",
-          "assigneeId": null,
-          "updatedAt": "2026-05-28T16:41:06.031Z"
         },
         {
           "caseId": 35144,
