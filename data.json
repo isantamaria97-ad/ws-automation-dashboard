@@ -1,14 +1,47 @@
 {
-  "lastUpdated": "2026-05-29T18:30:39.649768+00:00",
+  "lastUpdated": "2026-05-29T21:50:58.326005+00:00",
   "jira": {
     "summary": {
       "total": 21,
       "byStatus": {
-        "Releasing": 1,
-        "To Do": 20
+        "To Do": 20,
+        "Releasing": 1
       }
     },
     "tickets": [
+      {
+        "key": "EVB-37",
+        "url": "https://reigncl.atlassian.net/browse/EVB-37",
+        "summary": "[QA-Automation][B2B-Chile] Carro de compras - Agregar producto con oferta",
+        "status": "To Do",
+        "statusCategory": "new",
+        "assignee": "Luis Soto",
+        "updated": "2026-05-29T17:53:54.806-0300",
+        "priority": "Medium",
+        "labels": []
+      },
+      {
+        "key": "EVB-36",
+        "url": "https://reigncl.atlassian.net/browse/EVB-36",
+        "summary": "[QA-Automation][B2B-Chile] Carro de compras - Agregar producto con IVA",
+        "status": "To Do",
+        "statusCategory": "new",
+        "assignee": "Luis Soto",
+        "updated": "2026-05-29T17:53:47.986-0300",
+        "priority": "Medium",
+        "labels": []
+      },
+      {
+        "key": "EVB-35",
+        "url": "https://reigncl.atlassian.net/browse/EVB-35",
+        "summary": "[QA-Automation][B2B-Chile] Carro de compras - Agregar producto sin IVA",
+        "status": "To Do",
+        "statusCategory": "new",
+        "assignee": "Luis Soto",
+        "updated": "2026-05-29T17:53:40.387-0300",
+        "priority": "Medium",
+        "labels": []
+      },
       {
         "key": "EVB-33",
         "url": "https://reigncl.atlassian.net/browse/EVB-33",
@@ -164,28 +197,6 @@
         "labels": []
       },
       {
-        "key": "EVB-37",
-        "url": "https://reigncl.atlassian.net/browse/EVB-37",
-        "summary": "[QA-Automation][B2B-Chile] Carro de compras - Agregar producto con oferta",
-        "status": "To Do",
-        "statusCategory": "new",
-        "assignee": "Luis Soto",
-        "updated": "2026-05-13T15:22:49.378-0300",
-        "priority": "Medium",
-        "labels": []
-      },
-      {
-        "key": "EVB-36",
-        "url": "https://reigncl.atlassian.net/browse/EVB-36",
-        "summary": "[QA-Automation][B2B-Chile] Carro de compras - Agregar producto con IVA",
-        "status": "To Do",
-        "statusCategory": "new",
-        "assignee": "Luis Soto",
-        "updated": "2026-05-13T15:22:49.142-0300",
-        "priority": "Medium",
-        "labels": []
-      },
-      {
         "key": "EVB-46",
         "url": "https://reigncl.atlassian.net/browse/EVB-46",
         "summary": "[QA-Automation][B2B-Chile] Detalle de Producto - Landing y gestion de cantidades",
@@ -193,17 +204,6 @@
         "statusCategory": "new",
         "assignee": "Luis Soto",
         "updated": "2026-05-13T15:22:49.113-0300",
-        "priority": "Medium",
-        "labels": []
-      },
-      {
-        "key": "EVB-35",
-        "url": "https://reigncl.atlassian.net/browse/EVB-35",
-        "summary": "[QA-Automation][B2B-Chile] Carro de compras - Agregar producto sin IVA",
-        "status": "To Do",
-        "statusCategory": "new",
-        "assignee": "Luis Soto",
-        "updated": "2026-05-13T15:22:48.929-0300",
         "priority": "Medium",
         "labels": []
       },
