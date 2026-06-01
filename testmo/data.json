@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-01T08:25:20.921329+00:00",
+  "lastUpdated": "2026-06-01T14:29:42.125043+00:00",
   "scope": {
     "baseUrl": "https://applydigital.testmo.net",
     "projectId": "9",
@@ -14,10 +14,10 @@
       "milestone_id": null,
       "group_id": null,
       "project_id": 9,
-      "is_closed": false,
+      "is_closed": true,
       "created_at": "2026-05-13T18:58:45.698Z",
       "updated_at": "2026-05-27T22:39:35.083Z",
-      "closed_at": null,
+      "closed_at": "2026-06-01T13:59:25.181Z",
       "elapsed_ms": 494000000,
       "total": 314,
       "completed": 314,
