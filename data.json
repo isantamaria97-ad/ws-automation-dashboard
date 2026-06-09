@@ -1,15 +1,37 @@
 {
-  "lastUpdated": "2026-06-09T10:58:42.448588+00:00",
+  "lastUpdated": "2026-06-09T14:46:11.736548+00:00",
   "jira": {
     "summary": {
       "total": 21,
       "byStatus": {
-        "In Progress": 1,
-        "To Do": 19,
-        "Releasing": 1
+        "In Progress": 3,
+        "Releasing": 1,
+        "To Do": 17
       }
     },
     "tickets": [
+      {
+        "key": "EVB-37",
+        "url": "https://reigncl.atlassian.net/browse/EVB-37",
+        "summary": "[QA-Automation][B2B-Chile] Carro de compras - Agregar producto con oferta",
+        "status": "In Progress",
+        "statusCategory": "indeterminate",
+        "assignee": "Luis Soto",
+        "updated": "2026-06-09T10:54:19.760-0300",
+        "priority": "Medium",
+        "labels": []
+      },
+      {
+        "key": "EVB-35",
+        "url": "https://reigncl.atlassian.net/browse/EVB-35",
+        "summary": "[QA-Automation][B2B-Chile] Carro de compras - Agregar producto sin IVA",
+        "status": "In Progress",
+        "statusCategory": "indeterminate",
+        "assignee": "Luis Soto",
+        "updated": "2026-06-09T10:54:17.828-0300",
+        "priority": "Medium",
+        "labels": []
+      },
       {
         "key": "EVB-36",
         "url": "https://reigncl.atlassian.net/browse/EVB-36",
@@ -18,28 +40,6 @@
         "statusCategory": "indeterminate",
         "assignee": "Luis Soto",
         "updated": "2026-06-04T13:13:24.685-0300",
-        "priority": "Medium",
-        "labels": []
-      },
-      {
-        "key": "EVB-37",
-        "url": "https://reigncl.atlassian.net/browse/EVB-37",
-        "summary": "[QA-Automation][B2B-Chile] Carro de compras - Agregar producto con oferta",
-        "status": "To Do",
-        "statusCategory": "new",
-        "assignee": "Luis Soto",
-        "updated": "2026-06-03T10:53:14.304-0300",
-        "priority": "Medium",
-        "labels": []
-      },
-      {
-        "key": "EVB-35",
-        "url": "https://reigncl.atlassian.net/browse/EVB-35",
-        "summary": "[QA-Automation][B2B-Chile] Carro de compras - Agregar producto sin IVA",
-        "status": "To Do",
-        "statusCategory": "new",
-        "assignee": "Luis Soto",
-        "updated": "2026-06-03T10:52:46.115-0300",
         "priority": "Medium",
         "labels": []
       },
