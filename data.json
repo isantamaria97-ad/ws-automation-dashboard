@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-11T08:44:40.484045+00:00",
+  "lastUpdated": "2026-06-11T13:58:40.726518+00:00",
   "jira": {
     "summary": {
       "total": 21,
@@ -11,6 +11,17 @@
     },
     "tickets": [
       {
+        "key": "EVB-35",
+        "url": "https://reigncl.atlassian.net/browse/EVB-35",
+        "summary": "[QA-Automation][B2B-Chile] Carro de compras - Agregar producto frecuente",
+        "status": "In Progress",
+        "statusCategory": "indeterminate",
+        "assignee": "Luis Soto",
+        "updated": "2026-06-11T10:44:49.482-0300",
+        "priority": "Medium",
+        "labels": []
+      },
+      {
         "key": "EVB-37",
         "url": "https://reigncl.atlassian.net/browse/EVB-37",
         "summary": "[QA-Automation][B2B-Chile] Carro de compras - Agregar producto con oferta",
@@ -18,17 +29,6 @@
         "statusCategory": "indeterminate",
         "assignee": "Luis Soto",
         "updated": "2026-06-09T10:54:19.760-0300",
-        "priority": "Medium",
-        "labels": []
-      },
-      {
-        "key": "EVB-35",
-        "url": "https://reigncl.atlassian.net/browse/EVB-35",
-        "summary": "[QA-Automation][B2B-Chile] Carro de compras - Agregar producto sin IVA",
-        "status": "In Progress",
-        "statusCategory": "indeterminate",
-        "assignee": "Luis Soto",
-        "updated": "2026-06-09T10:54:17.828-0300",
         "priority": "Medium",
         "labels": []
       },
@@ -253,10 +253,10 @@
     },
     "coverage": {
       "total": 231,
-      "automated": 2,
-      "notAutomated": 172,
+      "automated": 5,
+      "notAutomated": 169,
       "unclassified": 57,
-      "automatedPct": 0.9,
+      "automatedPct": 2.2,
       "byFolder": [
         {
           "folderId": 20464,
@@ -325,8 +325,8 @@
           "folderId": 742,
           "name": "Carro de compras",
           "group": "Test Funcionales",
-          "automated": 0,
-          "notAutomated": 14,
+          "automated": 3,
+          "notAutomated": 11,
           "unclassified": 0,
           "total": 14
         },
@@ -1559,7 +1559,7 @@
         "name": "Productor Con Oferta",
         "folderId": 742,
         "folderPath": "Flujos  B2B WEB > Chile > Test Funcionales > Carro de compras",
-        "bucket": "notAutomated",
+        "bucket": "automated",
         "priority": 2
       },
       {
@@ -1567,7 +1567,7 @@
         "name": "Productor Con IVA",
         "folderId": 742,
         "folderPath": "Flujos  B2B WEB > Chile > Test Funcionales > Carro de compras",
-        "bucket": "notAutomated",
+        "bucket": "automated",
         "priority": 2
       },
       {
@@ -1575,7 +1575,7 @@
         "name": "Productor Con Sin IVA",
         "folderId": 742,
         "folderPath": "Flujos  B2B WEB > Chile > Test Funcionales > Carro de compras",
-        "bucket": "notAutomated",
+        "bucket": "automated",
         "priority": 2
       },
       {
