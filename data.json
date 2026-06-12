@@ -1,34 +1,23 @@
 {
-  "lastUpdated": "2026-06-12T18:04:58.003705+00:00",
+  "lastUpdated": "2026-06-12T21:41:46.053523+00:00",
   "jira": {
     "summary": {
       "total": 21,
       "byStatus": {
-        "PO Review": 3,
+        "Done": 3,
         "Releasing": 1,
         "To Do": 17
       }
     },
     "tickets": [
       {
-        "key": "EVB-37",
-        "url": "https://reigncl.atlassian.net/browse/EVB-37",
-        "summary": "[QA-Automation][B2B-Chile] Carro de compras - Agregar producto con oferta",
-        "status": "PO Review",
-        "statusCategory": "indeterminate",
-        "assignee": "Luis Soto",
-        "updated": "2026-06-11T11:15:20.331-0300",
-        "priority": "Medium",
-        "labels": []
-      },
-      {
         "key": "EVB-35",
         "url": "https://reigncl.atlassian.net/browse/EVB-35",
         "summary": "[QA-Automation][B2B-Chile] Carro de compras - Agregar producto frecuente",
-        "status": "PO Review",
-        "statusCategory": "indeterminate",
+        "status": "Done",
+        "statusCategory": "done",
         "assignee": "Luis Soto",
-        "updated": "2026-06-11T11:15:18.984-0300",
+        "updated": "2026-06-12T16:26:20.127-0300",
         "priority": "Medium",
         "labels": []
       },
@@ -36,10 +25,21 @@
         "key": "EVB-36",
         "url": "https://reigncl.atlassian.net/browse/EVB-36",
         "summary": "[QA-Automation][B2B-Chile] Carro de compras - Agregar producto con IVA",
-        "status": "PO Review",
-        "statusCategory": "indeterminate",
+        "status": "Done",
+        "statusCategory": "done",
         "assignee": "Luis Soto",
-        "updated": "2026-06-11T11:15:17.437-0300",
+        "updated": "2026-06-12T16:25:10.843-0300",
+        "priority": "Medium",
+        "labels": []
+      },
+      {
+        "key": "EVB-37",
+        "url": "https://reigncl.atlassian.net/browse/EVB-37",
+        "summary": "[QA-Automation][B2B-Chile] Carro de compras - Agregar producto con oferta",
+        "status": "Done",
+        "statusCategory": "done",
+        "assignee": "Luis Soto",
+        "updated": "2026-06-12T15:53:46.328-0300",
         "priority": "Medium",
         "labels": []
       },
