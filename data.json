@@ -1,2286 +1,730 @@
 {
-  "lastUpdated": "2026-06-18T08:45:18.165768+00:00",
+  "lastUpdated": "2026-06-18T13:57:52.002137+00:00",
   "jira": {
     "summary": {
-      "total": 21,
-      "byStatus": {
-        "Done": 3,
-        "Releasing": 1,
-        "To Do": 17
-      }
+      "total": 0,
+      "byStatus": {}
     },
-    "tickets": [
-      {
-        "key": "EVB-35",
-        "url": "https://reigncl.atlassian.net/browse/EVB-35",
-        "summary": "[QA-Automation][B2B-Chile] Carro de compras - Agregar producto frecuente",
-        "status": "Done",
-        "statusCategory": "done",
-        "assignee": "Luis Soto",
-        "updated": "2026-06-12T16:26:20.127-0300",
-        "priority": "Medium",
-        "labels": []
-      },
-      {
-        "key": "EVB-36",
-        "url": "https://reigncl.atlassian.net/browse/EVB-36",
-        "summary": "[QA-Automation][B2B-Chile] Carro de compras - Agregar producto con IVA",
-        "status": "Done",
-        "statusCategory": "done",
-        "assignee": "Luis Soto",
-        "updated": "2026-06-12T16:25:10.843-0300",
-        "priority": "Medium",
-        "labels": []
-      },
-      {
-        "key": "EVB-37",
-        "url": "https://reigncl.atlassian.net/browse/EVB-37",
-        "summary": "[QA-Automation][B2B-Chile] Carro de compras - Agregar producto con oferta",
-        "status": "Done",
-        "statusCategory": "done",
-        "assignee": "Luis Soto",
-        "updated": "2026-06-12T15:53:46.328-0300",
-        "priority": "Medium",
-        "labels": []
-      },
-      {
-        "key": "EVB-33",
-        "url": "https://reigncl.atlassian.net/browse/EVB-33",
-        "summary": "[QA-Automation][B2B-Chile] Login - Usuario Inv\u00e1lido",
-        "status": "Releasing",
-        "statusCategory": "indeterminate",
-        "assignee": "Luis Soto",
-        "updated": "2026-05-13T18:33:00.605-0300",
-        "priority": "Medium",
-        "labels": []
-      },
-      {
-        "key": "EVB-53",
-        "url": "https://reigncl.atlassian.net/browse/EVB-53",
-        "summary": "[QA-Automation][B2B-Chile] Carro de compras - Carrusel \"Otros clientes tambi\u00e9n llevan\"",
-        "status": "To Do",
-        "statusCategory": "new",
-        "assignee": "Luis Soto",
-        "updated": "2026-05-13T15:22:50.610-0300",
-        "priority": "Medium",
-        "labels": []
-      },
-      {
-        "key": "EVB-43",
-        "url": "https://reigncl.atlassian.net/browse/EVB-43",
-        "summary": "[QA-Automation][B2B-Chile] Checkout - Medio de pago sin cr\u00e9dito Embonor",
-        "status": "To Do",
-        "statusCategory": "new",
-        "assignee": "Luis Soto",
-        "updated": "2026-05-13T15:22:50.488-0300",
-        "priority": "Medium",
-        "labels": []
-      },
-      {
-        "key": "EVB-52",
-        "url": "https://reigncl.atlassian.net/browse/EVB-52",
-        "summary": "[QA-Automation][B2B-Chile] Checkout - Pago contra entrega y personalizaci\u00f3n de pedido",
-        "status": "To Do",
-        "statusCategory": "new",
-        "assignee": "Luis Soto",
-        "updated": "2026-05-13T15:22:50.395-0300",
-        "priority": "Medium",
-        "labels": []
-      },
-      {
-        "key": "EVB-42",
-        "url": "https://reigncl.atlassian.net/browse/EVB-42",
-        "summary": "[QA-Automation][B2B-Chile] Checkout - Medio de pago con cr\u00e9dito Embonor",
-        "status": "To Do",
-        "statusCategory": "new",
-        "assignee": "Luis Soto",
-        "updated": "2026-05-13T15:22:50.307-0300",
-        "priority": "Medium",
-        "labels": []
-      },
-      {
-        "key": "EVB-51",
-        "url": "https://reigncl.atlassian.net/browse/EVB-51",
-        "summary": "[QA-Automation][B2B-Chile] Detalle de Producto - Gesti\u00f3n de Favoritos (agregar y eliminar)",
-        "status": "To Do",
-        "statusCategory": "new",
-        "assignee": "Luis Soto",
-        "updated": "2026-05-13T15:22:50.211-0300",
-        "priority": "Medium",
-        "labels": []
-      },
-      {
-        "key": "EVB-41",
-        "url": "https://reigncl.atlassian.net/browse/EVB-41",
-        "summary": "[QA-Automation][B2B-Chile] Checkout - Fecha de despacho",
-        "status": "To Do",
-        "statusCategory": "new",
-        "assignee": "Luis Soto",
-        "updated": "2026-05-13T15:22:50.126-0300",
-        "priority": "Medium",
-        "labels": []
-      },
-      {
-        "key": "EVB-50",
-        "url": "https://reigncl.atlassian.net/browse/EVB-50",
-        "summary": "[QA-Automation][B2B-Chile] Home - Huincha, Banner principal y Acciones R\u00e1pidas",
-        "status": "To Do",
-        "statusCategory": "new",
-        "assignee": "Luis Soto",
-        "updated": "2026-05-13T15:22:49.990-0300",
-        "priority": "Medium",
-        "labels": []
-      },
-      {
-        "key": "EVB-40",
-        "url": "https://reigncl.atlassian.net/browse/EVB-40",
-        "summary": "[QA-Automation][B2B-Chile] Checkout - Datos de despacho",
-        "status": "To Do",
-        "statusCategory": "new",
-        "assignee": "Luis Soto",
-        "updated": "2026-05-13T15:22:49.899-0300",
-        "priority": "Medium",
-        "labels": []
-      },
-      {
-        "key": "EVB-49",
-        "url": "https://reigncl.atlassian.net/browse/EVB-49",
-        "summary": "[QA-Automation][B2B-Chile] Home - Nav bar: navegaci\u00f3n completa",
-        "status": "To Do",
-        "statusCategory": "new",
-        "assignee": "Luis Soto",
-        "updated": "2026-05-13T15:22:49.797-0300",
-        "priority": "Medium",
-        "labels": []
-      },
-      {
-        "key": "EVB-39",
-        "url": "https://reigncl.atlassian.net/browse/EVB-39",
-        "summary": "[QA-Automation][B2B-Chile] Carro de compras - CTA Continuar pedido",
-        "status": "To Do",
-        "statusCategory": "new",
-        "assignee": "Luis Soto",
-        "updated": "2026-05-13T15:22:49.723-0300",
-        "priority": "Medium",
-        "labels": []
-      },
-      {
-        "key": "EVB-48",
-        "url": "https://reigncl.atlassian.net/browse/EVB-48",
-        "summary": "[QA-Automation][B2B-Chile] Promociones y Ofertas - Validaci\u00f3n E2E (Home, Cat\u00e1logo, Carrito, Checkout)",
-        "status": "To Do",
-        "statusCategory": "new",
-        "assignee": "Luis Soto",
-        "updated": "2026-05-13T15:22:49.605-0300",
-        "priority": "Medium",
-        "labels": []
-      },
-      {
-        "key": "EVB-38",
-        "url": "https://reigncl.atlassian.net/browse/EVB-38",
-        "summary": "[QA-Automation][B2B-Chile] Carro de compras - C\u00e1lculo de montos y totales",
-        "status": "To Do",
-        "statusCategory": "new",
-        "assignee": "Luis Soto",
-        "updated": "2026-05-13T15:22:49.556-0300",
-        "priority": "Medium",
-        "labels": []
-      },
-      {
-        "key": "EVB-47",
-        "url": "https://reigncl.atlassian.net/browse/EVB-47",
-        "summary": "[QA-Automation][B2B-Chile] Carro de compras - Gesti\u00f3n de cantidades, eliminaci\u00f3n y vaciado",
-        "status": "To Do",
-        "statusCategory": "new",
-        "assignee": "Luis Soto",
-        "updated": "2026-05-13T15:22:49.430-0300",
-        "priority": "Medium",
-        "labels": []
-      },
-      {
-        "key": "EVB-46",
-        "url": "https://reigncl.atlassian.net/browse/EVB-46",
-        "summary": "[QA-Automation][B2B-Chile] Detalle de Producto - Landing y gestion de cantidades",
-        "status": "To Do",
-        "statusCategory": "new",
-        "assignee": "Luis Soto",
-        "updated": "2026-05-13T15:22:49.113-0300",
-        "priority": "Medium",
-        "labels": []
-      },
-      {
-        "key": "EVB-45",
-        "url": "https://reigncl.atlassian.net/browse/EVB-45",
-        "summary": "[QA-Automation][B2B-Chile] Cat\u00e1logo - Visualizaci\u00f3n, filtros y ordenamiento",
-        "status": "To Do",
-        "statusCategory": "new",
-        "assignee": "Luis Soto",
-        "updated": "2026-05-13T15:22:48.878-0300",
-        "priority": "Medium",
-        "labels": []
-      },
-      {
-        "key": "EVB-44",
-        "url": "https://reigncl.atlassian.net/browse/EVB-44",
-        "summary": "[QA-Automation][B2B-Chile] Checkout - Resumen de pedido",
-        "status": "To Do",
-        "statusCategory": "new",
-        "assignee": "Luis Soto",
-        "updated": "2026-05-13T15:22:48.552-0300",
-        "priority": "Medium",
-        "labels": []
-      },
-      {
-        "key": "EVB-34",
-        "url": "https://reigncl.atlassian.net/browse/EVB-34",
-        "summary": "[QA-Automation][B2B-Chile] Login - Login con tel\u00e9fono celular (Chile +569)",
-        "status": "To Do",
-        "statusCategory": "new",
-        "assignee": "Luis Soto",
-        "updated": "2026-05-13T15:22:48.549-0300",
-        "priority": "Medium",
-        "labels": []
-      }
-    ]
+    "tickets": []
   },
   "testmo": {
     "scope": {
-      "projectId": "9",
-      "automationSourceId": "17",
-      "runNamePattern": "^CL.*B2B Web",
-      "scopeFolderId": "717",
-      "scopeFolderName": "Flujos  B2B WEB > Chile"
+      "projectId": "44",
+      "automationSourceId": "",
+      "runNamePattern": "^Regression",
+      "scopeFolderId": "20991",
+      "scopeFolderName": "Regression"
     },
     "coverage": {
-      "total": 231,
-      "automated": 5,
-      "notAutomated": 169,
-      "unclassified": 57,
-      "automatedPct": 2.2,
-      "byFolder": [
+      "total": 65,
+      "automated": 65,
+      "notAutomated": 0,
+      "unclassified": 0,
+      "automatedPct": 100.0,
+      "byFolder": []
+    },
+    "runs": {
+      "total": 24,
+      "latestPassed": 65,
+      "latestFailed": 0,
+      "latestPending": 0,
+      "latestTotal": 65,
+      "latestRunName": "Regression 04/06/26",
+      "latestRunDate": "2026-06-04T18:20:30.245Z",
+      "passRate": 99.4,
+      "recent": [
         {
-          "folderId": 20464,
-          "name": "Carrito Compartido",
-          "group": "Test Funcionales",
-          "automated": 0,
-          "notAutomated": 0,
-          "unclassified": 57,
-          "total": 57
+          "id": 1775,
+          "name": "Regression 04/06/26",
+          "source_id": null,
+          "milestone_id": 219,
+          "config_id": 14,
+          "status": null,
+          "is_completed": false,
+          "elapsed_ms": null,
+          "created_at": "2026-06-04T18:20:30.245Z",
+          "completed_at": null,
+          "passed": 65,
+          "failed": 0,
+          "pending": 0,
+          "completed": 65,
+          "total": 65
         },
         {
-          "folderId": 739,
-          "name": "Home",
-          "group": "Test Funcionales",
-          "automated": 0,
-          "notAutomated": 27,
-          "unclassified": 0,
-          "total": 27
+          "id": 1774,
+          "name": "Regression 04/06/26",
+          "source_id": null,
+          "milestone_id": 219,
+          "config_id": 13,
+          "status": null,
+          "is_completed": false,
+          "elapsed_ms": null,
+          "created_at": "2026-06-04T18:20:30.235Z",
+          "completed_at": null,
+          "passed": 65,
+          "failed": 0,
+          "pending": 0,
+          "completed": 65,
+          "total": 65
         },
         {
-          "folderId": 743,
-          "name": "Promociones / Ofertas",
-          "group": "Test Funcionales",
-          "automated": 0,
-          "notAutomated": 25,
-          "unclassified": 0,
-          "total": 25
+          "id": 1773,
+          "name": "Regression 04/06/26",
+          "source_id": null,
+          "milestone_id": 219,
+          "config_id": 10,
+          "status": null,
+          "is_completed": false,
+          "elapsed_ms": null,
+          "created_at": "2026-06-04T18:20:30.225Z",
+          "completed_at": null,
+          "passed": 65,
+          "failed": 0,
+          "pending": 0,
+          "completed": 65,
+          "total": 65
         },
         {
-          "folderId": 740,
-          "name": "Cat\u00e1logo",
-          "group": "Test Funcionales",
-          "automated": 0,
-          "notAutomated": 20,
-          "unclassified": 0,
-          "total": 20
+          "id": 1772,
+          "name": "Regression 04/06/26",
+          "source_id": null,
+          "milestone_id": 219,
+          "config_id": 9,
+          "status": null,
+          "is_completed": false,
+          "elapsed_ms": null,
+          "created_at": "2026-06-04T18:20:30.212Z",
+          "completed_at": null,
+          "passed": 65,
+          "failed": 0,
+          "pending": 0,
+          "completed": 65,
+          "total": 65
         },
         {
-          "folderId": 749,
-          "name": "Mis Favoritos",
-          "group": "Test Funcionales",
-          "automated": 0,
-          "notAutomated": 19,
-          "unclassified": 0,
-          "total": 19
+          "id": 1738,
+          "name": "Regression 19/05/26",
+          "source_id": null,
+          "milestone_id": 217,
+          "config_id": 14,
+          "status": null,
+          "is_completed": false,
+          "elapsed_ms": null,
+          "created_at": "2026-05-19T13:01:59.378Z",
+          "completed_at": null,
+          "passed": 61,
+          "failed": 1,
+          "pending": 0,
+          "completed": 62,
+          "total": 62
         },
         {
-          "folderId": 741,
-          "name": "Detalle de Producto",
-          "group": "Test Funcionales",
-          "automated": 0,
-          "notAutomated": 19,
-          "unclassified": 0,
-          "total": 19
+          "id": 1737,
+          "name": "Regression 19/05/26",
+          "source_id": null,
+          "milestone_id": 217,
+          "config_id": 13,
+          "status": null,
+          "is_completed": false,
+          "elapsed_ms": null,
+          "created_at": "2026-05-19T13:01:59.370Z",
+          "completed_at": null,
+          "passed": 61,
+          "failed": 1,
+          "pending": 0,
+          "completed": 62,
+          "total": 62
         },
         {
-          "folderId": 738,
-          "name": "Login",
-          "group": "Test Funcionales",
-          "automated": 2,
-          "notAutomated": 13,
-          "unclassified": 0,
-          "total": 15
+          "id": 1736,
+          "name": "Regression 19/05/26",
+          "source_id": null,
+          "milestone_id": 217,
+          "config_id": 10,
+          "status": null,
+          "is_completed": false,
+          "elapsed_ms": null,
+          "created_at": "2026-05-19T13:01:59.363Z",
+          "completed_at": null,
+          "passed": 61,
+          "failed": 1,
+          "pending": 0,
+          "completed": 62,
+          "total": 62
         },
         {
-          "folderId": 742,
-          "name": "Carro de compras",
-          "group": "Test Funcionales",
-          "automated": 3,
-          "notAutomated": 11,
-          "unclassified": 0,
-          "total": 14
+          "id": 1735,
+          "name": "Regression 19/05/26",
+          "source_id": null,
+          "milestone_id": 217,
+          "config_id": 9,
+          "status": null,
+          "is_completed": false,
+          "elapsed_ms": null,
+          "created_at": "2026-05-19T13:01:59.352Z",
+          "completed_at": null,
+          "passed": 61,
+          "failed": 1,
+          "pending": 0,
+          "completed": 62,
+          "total": 62
         },
         {
-          "folderId": 66,
-          "name": "Tipos de Pedidos",
-          "group": "Test Funcionales",
-          "automated": 0,
-          "notAutomated": 8,
-          "unclassified": 0,
-          "total": 8
+          "id": 1719,
+          "name": "Regression",
+          "source_id": null,
+          "milestone_id": 215,
+          "config_id": 14,
+          "status": null,
+          "is_completed": false,
+          "elapsed_ms": null,
+          "created_at": "2026-05-06T12:48:23.193Z",
+          "completed_at": null,
+          "passed": 10,
+          "failed": 0,
+          "pending": 0,
+          "completed": 10,
+          "total": 10
         },
         {
-          "folderId": 745,
-          "name": "Mis pedidos",
-          "group": "Test Funcionales",
-          "automated": 0,
-          "notAutomated": 7,
-          "unclassified": 0,
-          "total": 7
-        },
-        {
-          "folderId": 744,
-          "name": "Checkout",
-          "group": "Test Funcionales",
-          "automated": 0,
-          "notAutomated": 7,
-          "unclassified": 0,
-          "total": 7
-        },
-        {
-          "folderId": 746,
-          "name": "Mi cuenta",
-          "group": "Test Funcionales",
-          "automated": 0,
-          "notAutomated": 4,
-          "unclassified": 0,
-          "total": 4
-        },
-        {
-          "folderId": 748,
-          "name": "Mi Local",
-          "group": "Test Funcionales",
-          "automated": 0,
-          "notAutomated": 3,
-          "unclassified": 0,
-          "total": 3
-        },
-        {
-          "folderId": 2182,
-          "name": "Mis Cheques",
-          "group": "Test Funcionales",
-          "automated": 0,
-          "notAutomated": 1,
-          "unclassified": 0,
-          "total": 1
-        },
-        {
-          "folderId": 7318,
-          "name": "Notification-Service",
-          "group": "Test No Funcionales",
-          "automated": 0,
-          "notAutomated": 1,
-          "unclassified": 0,
-          "total": 1
-        },
-        {
-          "folderId": 799,
-          "name": "Pruebas de ETL",
-          "group": "Test No Funcionales",
-          "automated": 0,
-          "notAutomated": 1,
-          "unclassified": 0,
-          "total": 1
-        },
-        {
-          "folderId": 7312,
-          "name": "Store-Front",
-          "group": "Test No Funcionales",
-          "automated": 0,
-          "notAutomated": 1,
-          "unclassified": 0,
-          "total": 1
-        },
-        {
-          "folderId": 7311,
-          "name": "GetProgrammingAndDeliveryDates",
-          "group": "Test No Funcionales",
-          "automated": 0,
-          "notAutomated": 1,
-          "unclassified": 0,
-          "total": 1
+          "id": 1718,
+          "name": "Regression",
+          "source_id": null,
+          "milestone_id": 215,
+          "config_id": 13,
+          "status": null,
+          "is_completed": false,
+          "elapsed_ms": null,
+          "created_at": "2026-05-06T12:48:23.187Z",
+          "completed_at": null,
+          "passed": 10,
+          "failed": 0,
+          "pending": 0,
+          "completed": 10,
+          "total": 10
         }
       ]
     },
-    "runs": {
-      "total": 0,
-      "latestPassed": 0,
-      "latestFailed": 0,
-      "latestPending": 0,
-      "latestTotal": 0,
-      "latestRunName": "",
-      "latestRunDate": "",
-      "passRate": 0.0,
-      "recent": []
-    },
     "cases": [
       {
-        "id": 110712,
-        "name": "Pedido Con Diferentes M\u00e9todos De Pago",
-        "folderId": 20464,
-        "folderPath": "Flujos  B2B WEB > Chile > Test Funcionales > Carrito Compartido",
-        "bucket": "unclassified",
-        "priority": 2
-      },
-      {
-        "id": 110711,
-        "name": "Pedido Con Env\u00edo",
-        "folderId": 20464,
-        "folderPath": "Flujos  B2B WEB > Chile > Test Funcionales > Carrito Compartido",
-        "bucket": "unclassified",
-        "priority": 2
-      },
-      {
-        "id": 110710,
-        "name": "Pedido Con Impuestos",
-        "folderId": 20464,
-        "folderPath": "Flujos  B2B WEB > Chile > Test Funcionales > Carrito Compartido",
-        "bucket": "unclassified",
-        "priority": 2
-      },
-      {
-        "id": 110709,
-        "name": "Pedido Con Productos Con Descuento",
-        "folderId": 20464,
-        "folderPath": "Flujos  B2B WEB > Chile > Test Funcionales > Carrito Compartido",
-        "bucket": "unclassified",
-        "priority": 2
-      },
-      {
-        "id": 110708,
-        "name": "Pedido Con Productos Agotados",
-        "folderId": 20464,
-        "folderPath": "Flujos  B2B WEB > Chile > Test Funcionales > Carrito Compartido",
-        "bucket": "unclassified",
-        "priority": 2
-      },
-      {
-        "id": 110707,
-        "name": "Error Al Cambiar El Estado Del Pedido",
-        "folderId": 20464,
-        "folderPath": "Flujos  B2B WEB > Chile > Test Funcionales > Carrito Compartido",
-        "bucket": "unclassified",
-        "priority": 2
-      },
-      {
-        "id": 110706,
-        "name": "Reactivaci\u00f3n De Un Carrito Despu\u00e9s De Completado",
-        "folderId": 20464,
-        "folderPath": "Flujos  B2B WEB > Chile > Test Funcionales > Carrito Compartido",
-        "bucket": "unclassified",
-        "priority": 2
-      },
-      {
-        "id": 110705,
-        "name": "Reactivaci\u00f3n De Un Carrito Despu\u00e9s De Cancelaci\u00f3n",
-        "folderId": 20464,
-        "folderPath": "Flujos  B2B WEB > Chile > Test Funcionales > Carrito Compartido",
-        "bucket": "unclassified",
-        "priority": 2
-      },
-      {
-        "id": 110704,
-        "name": "Actualizaci\u00f3n Visual Del Carrito Para El Vendedor",
-        "folderId": 20464,
-        "folderPath": "Flujos  B2B WEB > Chile > Test Funcionales > Carrito Compartido",
-        "bucket": "unclassified",
-        "priority": 2
-      },
-      {
-        "id": 110703,
-        "name": "Visualizaci\u00f3n Correct Del Carrito Compartido",
-        "folderId": 20464,
-        "folderPath": "Flujos  B2B WEB > Chile > Test Funcionales > Carrito Compartido",
-        "bucket": "unclassified",
-        "priority": 2
-      },
-      {
-        "id": 110702,
-        "name": "Vendedor Sin Permisos Intentando Modificar El Carrito",
-        "folderId": 20464,
-        "folderPath": "Flujos  B2B WEB > Chile > Test Funcionales > Carrito Compartido",
-        "bucket": "unclassified",
-        "priority": 2
-      },
-      {
-        "id": 110701,
-        "name": "Vendedor y Cliented Modificando El Carrito Simult\u00e1neamente",
-        "folderId": 20464,
-        "folderPath": "Flujos  B2B WEB > Chile > Test Funcionales > Carrito Compartido",
-        "bucket": "unclassified",
-        "priority": 2
-      },
-      {
-        "id": 110700,
-        "name": "M\u00faltiples Vendedores Modificando El Carrito Simult\u00e1neamente",
-        "folderId": 20464,
-        "folderPath": "Flujos  B2B WEB > Chile > Test Funcionales > Carrito Compartido",
-        "bucket": "unclassified",
-        "priority": 2
-      },
-      {
-        "id": 110699,
-        "name": "Validaci\u00f3n De Datos Al Modificar La Cantidad",
-        "folderId": 20464,
-        "folderPath": "Flujos  B2B WEB > Chile > Test Funcionales > Carrito Compartido",
-        "bucket": "unclassified",
-        "priority": 2
-      },
-      {
-        "id": 110698,
-        "name": "Validaci\u00f3n De Datos Al Agregar Productos",
-        "folderId": 20464,
-        "folderPath": "Flujos  B2B WEB > Chile > Test Funcionales > Carrito Compartido",
-        "bucket": "unclassified",
-        "priority": 2
-      },
-      {
-        "id": 110697,
-        "name": "Eliminaci\u00f3n De Productor Inexistente",
-        "folderId": 20464,
-        "folderPath": "Flujos  B2B WEB > Chile > Test Funcionales > Carrito Compartido",
-        "bucket": "unclassified",
-        "priority": 2
-      },
-      {
-        "id": 110696,
-        "name": "Adici\u00f3n De Productor Con Stock Insuficiente",
-        "folderId": 20464,
-        "folderPath": "Flujos  B2B WEB > Chile > Test Funcionales > Carrito Compartido",
-        "bucket": "unclassified",
-        "priority": 2
-      },
-      {
-        "id": 110695,
-        "name": "Modificaci\u00f3n De Cantidad De Productor Sin Stock",
-        "folderId": 20464,
-        "folderPath": "Flujos  B2B WEB > Chile > Test Funcionales > Carrito Compartido",
-        "bucket": "unclassified",
-        "priority": 2
-      },
-      {
-        "id": 110694,
-        "name": "Verificaci\u00f3n De Actualizaciones En Tiempo Real Para El Cliented",
-        "folderId": 20464,
-        "folderPath": "Flujos  B2B WEB > Chile > Test Funcionales > Carrito Compartido",
-        "bucket": "unclassified",
-        "priority": 2
-      },
-      {
-        "id": 110693,
-        "name": "Eliminaci\u00f3n De Un Productor Del Carrito Por El Vendedor",
-        "folderId": 20464,
-        "folderPath": "Flujos  B2B WEB > Chile > Test Funcionales > Carrito Compartido",
-        "bucket": "unclassified",
-        "priority": 2
-      },
-      {
-        "id": 110692,
-        "name": "Adici\u00f3n De Un Nuevo Productor Al Carrito Por El Vendedor",
-        "folderId": 20464,
-        "folderPath": "Flujos  B2B WEB > Chile > Test Funcionales > Carrito Compartido",
-        "bucket": "unclassified",
-        "priority": 2
-      },
-      {
-        "id": 110691,
-        "name": "Disminuci\u00f3n De Cantidad De Productor Por El Vendedor",
-        "folderId": 20464,
-        "folderPath": "Flujos  B2B WEB > Chile > Test Funcionales > Carrito Compartido",
-        "bucket": "unclassified",
-        "priority": 2
-      },
-      {
-        "id": 110690,
-        "name": "Aumento De Cantidad De Productor Por El Vendedor",
-        "folderId": 20464,
-        "folderPath": "Flujos  B2B WEB > Chile > Test Funcionales > Carrito Compartido",
-        "bucket": "unclassified",
-        "priority": 2
-      },
-      {
-        "id": 110689,
-        "name": "Verificaci\u00f3n De Acceso Del Vendedor Al Carrito Compartido",
-        "folderId": 20464,
-        "folderPath": "Flujos  B2B WEB > Chile > Test Funcionales > Carrito Compartido",
-        "bucket": "unclassified",
-        "priority": 2
-      },
-      {
-        "id": 110688,
-        "name": "P\u00e9rdida De Conexi\u00f3n - Vendedor Durant La Compra",
-        "folderId": 20464,
-        "folderPath": "Flujos  B2B WEB > Chile > Test Funcionales > Carrito Compartido",
-        "bucket": "unclassified",
-        "priority": 2
-      },
-      {
-        "id": 110687,
-        "name": "P\u00e9rdida De Conexi\u00f3n - Cliented Durant La Compra",
-        "folderId": 20464,
-        "folderPath": "Flujos  B2B WEB > Chile > Test Funcionales > Carrito Compartido",
-        "bucket": "unclassified",
-        "priority": 2
-      },
-      {
-        "id": 110686,
-        "name": "P\u00e9rdida De Conexi\u00f3n - Vendedor",
-        "folderId": 20464,
-        "folderPath": "Flujos  B2B WEB > Chile > Test Funcionales > Carrito Compartido",
-        "bucket": "unclassified",
-        "priority": 2
-      },
-      {
-        "id": 110685,
-        "name": "P\u00e9rdida De Conexi\u00f3n - Cliented",
-        "folderId": 20464,
-        "folderPath": "Flujos  B2B WEB > Chile > Test Funcionales > Carrito Compartido",
-        "bucket": "unclassified",
-        "priority": 2
-      },
-      {
-        "id": 110684,
-        "name": "Mensajes De Error - Vendedor",
-        "folderId": 20464,
-        "folderPath": "Flujos  B2B WEB > Chile > Test Funcionales > Carrito Compartido",
-        "bucket": "unclassified",
-        "priority": 2
-      },
-      {
-        "id": 110683,
-        "name": "Mensajes De Error - Cliented",
-        "folderId": 20464,
-        "folderPath": "Flujos  B2B WEB > Chile > Test Funcionales > Carrito Compartido",
-        "bucket": "unclassified",
-        "priority": 2
-      },
-      {
-        "id": 110682,
-        "name": "Error De Concurrencia - Vendedor",
-        "folderId": 20464,
-        "folderPath": "Flujos  B2B WEB > Chile > Test Funcionales > Carrito Compartido",
-        "bucket": "unclassified",
-        "priority": 2
-      },
-      {
-        "id": 110681,
-        "name": "Error De Concurrencia - Cliented",
-        "folderId": 20464,
-        "folderPath": "Flujos  B2B WEB > Chile > Test Funcionales > Carrito Compartido",
-        "bucket": "unclassified",
-        "priority": 2
-      },
-      {
-        "id": 110680,
-        "name": "Productor Agotado Durant La Modificaci\u00f3n Del Carrito",
-        "folderId": 20464,
-        "folderPath": "Flujos  B2B WEB > Chile > Test Funcionales > Carrito Compartido",
-        "bucket": "unclassified",
-        "priority": 2
-      },
-      {
-        "id": 110679,
-        "name": "Productor Agotado Durant La Compra",
-        "folderId": 20464,
-        "folderPath": "Flujos  B2B WEB > Chile > Test Funcionales > Carrito Compartido",
-        "bucket": "unclassified",
-        "priority": 2
-      },
-      {
-        "id": 110678,
-        "name": "Conflict De Modificaci\u00f3n Simult\u00e1nea - Vendedor y Vendedor",
-        "folderId": 20464,
-        "folderPath": "Flujos  B2B WEB > Chile > Test Funcionales > Carrito Compartido",
-        "bucket": "unclassified",
-        "priority": 2
-      },
-      {
-        "id": 110677,
-        "name": "Conflict De Modificaci\u00f3n Simult\u00e1nea - Cliented y Vendedor",
-        "folderId": 20464,
-        "folderPath": "Flujos  B2B WEB > Chile > Test Funcionales > Carrito Compartido",
-        "bucket": "unclassified",
-        "priority": 2
-      },
-      {
-        "id": 110676,
-        "name": "Creaci\u00f3n De Pedido Con Gran Cantidad De Productos",
-        "folderId": 20464,
-        "folderPath": "Flujos  B2B WEB > Chile > Test Funcionales > Carrito Compartido",
-        "bucket": "unclassified",
-        "priority": 2
-      },
-      {
-        "id": 110675,
-        "name": "Manejo De Errores Al Crear El Pedido",
-        "folderId": 20464,
-        "folderPath": "Flujos  B2B WEB > Chile > Test Funcionales > Carrito Compartido",
-        "bucket": "unclassified",
-        "priority": 2
-      },
-      {
-        "id": 110674,
-        "name": "Estado 'Completado' Del Pedido",
-        "folderId": 20464,
-        "folderPath": "Flujos  B2B WEB > Chile > Test Funcionales > Carrito Compartido",
-        "bucket": "unclassified",
-        "priority": 2
-      },
-      {
-        "id": 110673,
-        "name": "Estado 'Cancelado' Del Pedido",
-        "folderId": 20464,
-        "folderPath": "Flujos  B2B WEB > Chile > Test Funcionales > Carrito Compartido",
-        "bucket": "unclassified",
-        "priority": 2
-      },
-      {
-        "id": 110672,
-        "name": "Impact De Los Estados Del Pedido En La Visibilidad Del Carrito",
-        "folderId": 20464,
-        "folderPath": "Flujos  B2B WEB > Chile > Test Funcionales > Carrito Compartido",
-        "bucket": "unclassified",
-        "priority": 2
-      },
-      {
-        "id": 110671,
-        "name": "Notificaci\u00f3n De Actualizaciones Del Pedido Al Cliented",
-        "folderId": 20464,
-        "folderPath": "Flujos  B2B WEB > Chile > Test Funcionales > Carrito Compartido",
-        "bucket": "unclassified",
-        "priority": 2
-      },
-      {
-        "id": 110670,
-        "name": "Cambio De Estado Del Pedido Por El Vendedor",
-        "folderId": 20464,
-        "folderPath": "Flujos  B2B WEB > Chile > Test Funcionales > Carrito Compartido",
-        "bucket": "unclassified",
-        "priority": 2
-      },
-      {
-        "id": 110669,
-        "name": "Visibilidad Del Pedido Para El Vendedor",
-        "folderId": 20464,
-        "folderPath": "Flujos  B2B WEB > Chile > Test Funcionales > Carrito Compartido",
-        "bucket": "unclassified",
-        "priority": 2
-      },
-      {
-        "id": 110668,
-        "name": "Transici\u00f3n Del Carrito a 'Pedido Realizado'",
-        "folderId": 20464,
-        "folderPath": "Flujos  B2B WEB > Chile > Test Funcionales > Carrito Compartido",
-        "bucket": "unclassified",
-        "priority": 2
-      },
-      {
-        "id": 110667,
-        "name": "Creaci\u00f3n De Pedido Desde Carrito Compartido",
-        "folderId": 20464,
-        "folderPath": "Flujos  B2B WEB > Chile > Test Funcionales > Carrito Compartido",
-        "bucket": "unclassified",
-        "priority": 2
-      },
-      {
-        "id": 110666,
-        "name": "Error Al Agregar Un Productor",
-        "folderId": 20464,
-        "folderPath": "Flujos  B2B WEB > Chile > Test Funcionales > Carrito Compartido",
-        "bucket": "unclassified",
-        "priority": 2
-      },
-      {
-        "id": 110665,
-        "name": "Error Al Crear El Carrito",
-        "folderId": 20464,
-        "folderPath": "Flujos  B2B WEB > Chile > Test Funcionales > Carrito Compartido",
-        "bucket": "unclassified",
-        "priority": 2
-      },
-      {
-        "id": 110664,
-        "name": "Actualizaci\u00f3n Del Carrito Al Eliminar Un Productor",
-        "folderId": 20464,
-        "folderPath": "Flujos  B2B WEB > Chile > Test Funcionales > Carrito Compartido",
-        "bucket": "unclassified",
-        "priority": 2
-      },
-      {
-        "id": 110663,
-        "name": "Actualizaci\u00f3n Del Carrito Al Modificar La Cantidad De Un Productor",
-        "folderId": 20464,
-        "folderPath": "Flujos  B2B WEB > Chile > Test Funcionales > Carrito Compartido",
-        "bucket": "unclassified",
-        "priority": 2
-      },
-      {
-        "id": 110662,
-        "name": "Actualizaci\u00f3n Del Carrito Al Agregar Un Productor",
-        "folderId": 20464,
-        "folderPath": "Flujos  B2B WEB > Chile > Test Funcionales > Carrito Compartido",
-        "bucket": "unclassified",
-        "priority": 2
-      },
-      {
-        "id": 110661,
-        "name": "Visualizaci\u00f3n De Cambios Del Vendedor En Tiempo Real",
-        "folderId": 20464,
-        "folderPath": "Flujos  B2B WEB > Chile > Test Funcionales > Carrito Compartido",
-        "bucket": "unclassified",
-        "priority": 2
-      },
-      {
-        "id": 110660,
-        "name": "Visualizaci\u00f3n Correct De La Cantidad Del Productor",
-        "folderId": 20464,
-        "folderPath": "Flujos  B2B WEB > Chile > Test Funcionales > Carrito Compartido",
-        "bucket": "unclassified",
-        "priority": 2
-      },
-      {
-        "id": 110659,
-        "name": "Visualizaci\u00f3n Correct Del Precio Del Productor",
-        "folderId": 20464,
-        "folderPath": "Flujos  B2B WEB > Chile > Test Funcionales > Carrito Compartido",
-        "bucket": "unclassified",
-        "priority": 2
-      },
-      {
-        "id": 110658,
-        "name": "Visualizaci\u00f3n Correct Del Nombre Del Productor",
-        "folderId": 20464,
-        "folderPath": "Flujos  B2B WEB > Chile > Test Funcionales > Carrito Compartido",
-        "bucket": "unclassified",
-        "priority": 2
-      },
-      {
-        "id": 110657,
-        "name": "Agregar Un Productor Al Carrito",
-        "folderId": 20464,
-        "folderPath": "Flujos  B2B WEB > Chile > Test Funcionales > Carrito Compartido",
-        "bucket": "unclassified",
-        "priority": 2
-      },
-      {
-        "id": 110656,
-        "name": "Creaci\u00f3n Exitosa Del Carrito",
-        "folderId": 20464,
-        "folderPath": "Flujos  B2B WEB > Chile > Test Funcionales > Carrito Compartido",
-        "bucket": "unclassified",
-        "priority": 2
-      },
-      {
-        "id": 35827,
-        "name": "Inbox: Agregar Hora Al D\u00eda Creaci\u00f3n y Update",
-        "folderId": 7318,
-        "folderPath": "Flujos  B2B WEB > Chile > Test No Funcionales > Notification-Service",
-        "bucket": "notAutomated",
-        "priority": 2
-      },
-      {
-        "id": 35795,
-        "name": "Nuevo CD Incorporar LPZ-05",
-        "folderId": 799,
-        "folderPath": "Flujos  B2B WEB > Chile > Test No Funcionales > Pruebas de ETL",
-        "bucket": "notAutomated",
-        "priority": 2
-      },
-      {
-        "id": 35794,
-        "name": "D\u00eda Extra CL: Type Digital",
-        "folderId": 7311,
-        "folderPath": "Flujos  B2B WEB > Chile > Test No Funcionales > GetProgrammingAndDeliveryDates",
-        "bucket": "notAutomated",
-        "priority": 2
-      },
-      {
-        "id": 14927,
-        "name": "Mis Chequers: Nueva Secci\u00f3n",
-        "folderId": 2182,
-        "folderPath": "Flujos  B2B WEB > Chile > Test Funcionales > Mis Cheques",
-        "bucket": "notAutomated",
-        "priority": 2
-      },
-      {
-        "id": 14921,
-        "name": "Pedidos - Fuera De D\u00eda De Atenci\u00f3n",
-        "folderId": 745,
-        "folderPath": "Flujos  B2B WEB > Chile > Test Funcionales > Mis pedidos",
-        "bucket": "notAutomated",
-        "priority": 2
-      },
-      {
-        "id": 14835,
-        "name": "Mis Pedidos",
-        "folderId": 745,
-        "folderPath": "Flujos  B2B WEB > Chile > Test Funcionales > Mis pedidos",
-        "bucket": "notAutomated",
-        "priority": 2
-      },
-      {
-        "id": 14834,
-        "name": "Tag - Productor Sin Iva",
-        "folderId": 741,
-        "folderPath": "Flujos  B2B WEB > Chile > Test Funcionales > Detalle de Producto",
-        "bucket": "notAutomated",
-        "priority": 2
-      },
-      {
-        "id": 14740,
-        "name": "Promotions Cervezas",
-        "folderId": 743,
-        "folderPath": "Flujos  B2B WEB > Chile > Test Funcionales > Promociones / Ofertas",
-        "bucket": "notAutomated",
-        "priority": 2
-      },
-      {
-        "id": 14739,
-        "name": "Promotions LLEVAMASPAGAMENOS",
-        "folderId": 743,
-        "folderPath": "Flujos  B2B WEB > Chile > Test Funcionales > Promociones / Ofertas",
-        "bucket": "notAutomated",
-        "priority": 2
-      },
-      {
-        "id": 14738,
-        "name": "Promotions True Oferta Desde 2 Cajas",
-        "folderId": 743,
-        "folderPath": "Flujos  B2B WEB > Chile > Test Funcionales > Promociones / Ofertas",
-        "bucket": "notAutomated",
-        "priority": 2
-      },
-      {
-        "id": 14737,
-        "name": "Promotions True Lleva + Por -",
-        "folderId": 743,
-        "folderPath": "Flujos  B2B WEB > Chile > Test Funcionales > Promociones / Ofertas",
-        "bucket": "notAutomated",
-        "priority": 2
-      },
-      {
-        "id": 11642,
-        "name": "Escalan: L\u00edmite Superado Detalle Productor",
-        "folderId": 743,
-        "folderPath": "Flujos  B2B WEB > Chile > Test Funcionales > Promociones / Ofertas",
-        "bucket": "notAutomated",
-        "priority": 2
-      },
-      {
-        "id": 11407,
-        "name": "Store-Front",
-        "folderId": 7312,
-        "folderPath": "Flujos  B2B WEB > Chile > Test No Funcionales > Store-Front",
-        "bucket": "notAutomated",
-        "priority": 2
-      },
-      {
-        "id": 11406,
-        "name": "Login Con Tel\u00e9fono",
-        "folderId": 738,
-        "folderPath": "Flujos  B2B WEB > Chile > Test Funcionales > Login",
-        "bucket": "notAutomated",
-        "priority": 1
-      },
-      {
-        "id": 4898,
-        "name": "Congelados: Alberta M\u00ednimo De Compra Helados 3CF",
-        "folderId": 742,
-        "folderPath": "Flujos  B2B WEB > Chile > Test Funcionales > Carro de compras",
-        "bucket": "notAutomated",
-        "priority": 2
-      },
-      {
-        "id": 4889,
-        "name": "Filtro Con IVA Sin IVA",
-        "folderId": 740,
-        "folderPath": "Flujos  B2B WEB > Chile > Test Funcionales > Cat\u00e1logo",
-        "bucket": "notAutomated",
-        "priority": 2
-      },
-      {
-        "id": 3837,
-        "name": "Productos Con Ofertas \"checkout\"",
-        "folderId": 743,
-        "folderPath": "Flujos  B2B WEB > Chile > Test Funcionales > Promociones / Ofertas",
-        "bucket": "notAutomated",
-        "priority": 2
-      },
-      {
-        "id": 3836,
-        "name": "Productos Con Ofertas \"carrito De Compra\"",
-        "folderId": 743,
-        "folderPath": "Flujos  B2B WEB > Chile > Test Funcionales > Promociones / Ofertas",
-        "bucket": "notAutomated",
-        "priority": 2
-      },
-      {
-        "id": 3834,
-        "name": "Productos Con Ofertas \"detalle De Productor\"",
-        "folderId": 743,
-        "folderPath": "Flujos  B2B WEB > Chile > Test Funcionales > Promociones / Ofertas",
-        "bucket": "notAutomated",
-        "priority": 2
-      },
-      {
-        "id": 3833,
-        "name": "Productos Con Ofertas \"cat\u00e1logo\"",
-        "folderId": 743,
-        "folderPath": "Flujos  B2B WEB > Chile > Test Funcionales > Promociones / Ofertas",
-        "bucket": "notAutomated",
-        "priority": 2
-      },
-      {
-        "id": 3832,
-        "name": "Escalan De Descuento Aguas y Jugos (5to Descuento)",
-        "folderId": 743,
-        "folderPath": "Flujos  B2B WEB > Chile > Test Funcionales > Promociones / Ofertas",
-        "bucket": "notAutomated",
-        "priority": 2
-      },
-      {
-        "id": 3831,
-        "name": "Escalan De Descuento Aguas y Jugos (4to Descuento)",
-        "folderId": 743,
-        "folderPath": "Flujos  B2B WEB > Chile > Test Funcionales > Promociones / Ofertas",
-        "bucket": "notAutomated",
-        "priority": 2
-      },
-      {
-        "id": 3830,
-        "name": "Escalan De Descuento Aguas y Jugos (3er Descuento)",
-        "folderId": 743,
-        "folderPath": "Flujos  B2B WEB > Chile > Test Funcionales > Promociones / Ofertas",
-        "bucket": "notAutomated",
-        "priority": 2
-      },
-      {
-        "id": 3829,
-        "name": "Escalan De Descuento Aguas y Jugos (2do Descuento)",
-        "folderId": 743,
-        "folderPath": "Flujos  B2B WEB > Chile > Test Funcionales > Promociones / Ofertas",
-        "bucket": "notAutomated",
-        "priority": 2
-      },
-      {
-        "id": 3828,
-        "name": "Escalan De Descuento Aguas y Jugos (1er Descuento)",
-        "folderId": 743,
-        "folderPath": "Flujos  B2B WEB > Chile > Test Funcionales > Promociones / Ofertas",
-        "bucket": "notAutomated",
-        "priority": 2
-      },
-      {
-        "id": 3827,
-        "name": "Escalan De Descuento Desechables (5to Descuento)",
-        "folderId": 743,
-        "folderPath": "Flujos  B2B WEB > Chile > Test Funcionales > Promociones / Ofertas",
-        "bucket": "notAutomated",
-        "priority": 2
-      },
-      {
-        "id": 3825,
-        "name": "Escalan De Descuento Desechables (4er Descuento)",
-        "folderId": 743,
-        "folderPath": "Flujos  B2B WEB > Chile > Test Funcionales > Promociones / Ofertas",
-        "bucket": "notAutomated",
-        "priority": 2
-      },
-      {
-        "id": 3824,
-        "name": "Escalan De Descuento Desechables (3er Descuento)",
-        "folderId": 743,
-        "folderPath": "Flujos  B2B WEB > Chile > Test Funcionales > Promociones / Ofertas",
-        "bucket": "notAutomated",
-        "priority": 2
-      },
-      {
-        "id": 3823,
-        "name": "Escalan De Descuento Desechables (2do Descuento)",
-        "folderId": 743,
-        "folderPath": "Flujos  B2B WEB > Chile > Test Funcionales > Promociones / Ofertas",
-        "bucket": "notAutomated",
-        "priority": 2
-      },
-      {
-        "id": 3816,
-        "name": "Escalan De Descuento Desechables (1er Descuento)",
-        "folderId": 743,
-        "folderPath": "Flujos  B2B WEB > Chile > Test Funcionales > Promociones / Ofertas",
-        "bucket": "notAutomated",
-        "priority": 2
-      },
-      {
-        "id": 3815,
-        "name": "Escalan De Descuento Retornables (5to Descuento)",
-        "folderId": 743,
-        "folderPath": "Flujos  B2B WEB > Chile > Test Funcionales > Promociones / Ofertas",
-        "bucket": "notAutomated",
-        "priority": 2
-      },
-      {
-        "id": 3814,
-        "name": "Escalan De Descuento Retornables (4to Descuento)",
-        "folderId": 743,
-        "folderPath": "Flujos  B2B WEB > Chile > Test Funcionales > Promociones / Ofertas",
-        "bucket": "notAutomated",
-        "priority": 2
-      },
-      {
-        "id": 3813,
-        "name": "Escalan De Descuento Retornables (3er Descuento)",
-        "folderId": 743,
-        "folderPath": "Flujos  B2B WEB > Chile > Test Funcionales > Promociones / Ofertas",
-        "bucket": "notAutomated",
-        "priority": 2
-      },
-      {
-        "id": 3812,
-        "name": "Escalan De Descuento Retornables (2do Descuento)",
-        "folderId": 743,
-        "folderPath": "Flujos  B2B WEB > Chile > Test Funcionales > Promociones / Ofertas",
-        "bucket": "notAutomated",
-        "priority": 2
-      },
-      {
-        "id": 3811,
-        "name": "Editar Nombre De Local.",
-        "folderId": 748,
-        "folderPath": "Flujos  B2B WEB > Chile > Test Funcionales > Mi Local",
-        "bucket": "notAutomated",
-        "priority": 2
-      },
-      {
-        "id": 3810,
-        "name": "Editar Numero Correo Electr\u00f3nico.",
-        "folderId": 748,
-        "folderPath": "Flujos  B2B WEB > Chile > Test Funcionales > Mi Local",
-        "bucket": "notAutomated",
-        "priority": 2
-      },
-      {
-        "id": 3809,
-        "name": "Editar Numero De Tel\u00e9fono.",
-        "folderId": 748,
-        "folderPath": "Flujos  B2B WEB > Chile > Test Funcionales > Mi Local",
-        "bucket": "notAutomated",
-        "priority": 2
-      },
-      {
-        "id": 3808,
-        "name": "Seguimiento De Pedidos",
-        "folderId": 745,
-        "folderPath": "Flujos  B2B WEB > Chile > Test Funcionales > Mis pedidos",
-        "bucket": "notAutomated",
-        "priority": 2
-      },
-      {
-        "id": 3788,
-        "name": "Cambiar Local Predeterminado",
-        "folderId": 746,
-        "folderPath": "Flujos  B2B WEB > Chile > Test Funcionales > Mi cuenta",
-        "bucket": "notAutomated",
-        "priority": 2
-      },
-      {
-        "id": 3776,
-        "name": "Mi Cat\u00e1logo - Eliminar Productos De Favoritos",
-        "folderId": 749,
-        "folderPath": "Flujos  B2B WEB > Chile > Test Funcionales > Mis Favoritos",
-        "bucket": "notAutomated",
-        "priority": 2
-      },
-      {
-        "id": 3775,
-        "name": "Eliminar Productos De Favoritos",
-        "folderId": 749,
-        "folderPath": "Flujos  B2B WEB > Chile > Test Funcionales > Mis Favoritos",
-        "bucket": "notAutomated",
-        "priority": 2
-      },
-      {
-        "id": 3774,
-        "name": "Agregar Productos a Favoritos",
-        "folderId": 749,
-        "folderPath": "Flujos  B2B WEB > Chile > Test Funcionales > Mis Favoritos",
-        "bucket": "notAutomated",
-        "priority": 2
-      },
-      {
-        "id": 3773,
-        "name": "Validar + / - Cantidades",
-        "folderId": 749,
-        "folderPath": "Flujos  B2B WEB > Chile > Test Funcionales > Mis Favoritos",
-        "bucket": "notAutomated",
-        "priority": 2
-      },
-      {
-        "id": 3772,
-        "name": "Agregar Productos Al Carrito",
-        "folderId": 749,
-        "folderPath": "Flujos  B2B WEB > Chile > Test Funcionales > Mis Favoritos",
-        "bucket": "notAutomated",
-        "priority": 2
-      },
-      {
-        "id": 3771,
-        "name": "Paginador",
-        "folderId": 749,
-        "folderPath": "Flujos  B2B WEB > Chile > Test Funcionales > Mis Favoritos",
-        "bucket": "notAutomated",
-        "priority": 2
-      },
-      {
-        "id": 3770,
-        "name": "Filtro Rapido De Marcas",
-        "folderId": 749,
-        "folderPath": "Flujos  B2B WEB > Chile > Test Funcionales > Mis Favoritos",
-        "bucket": "notAutomated",
-        "priority": 2
-      },
-      {
-        "id": 3769,
-        "name": "Filtro Carrousel De Categorias.",
-        "folderId": 749,
-        "folderPath": "Flujos  B2B WEB > Chile > Test Funcionales > Mis Favoritos",
-        "bucket": "notAutomated",
-        "priority": 2
-      },
-      {
-        "id": 3768,
-        "name": "Buscador De Productos Por Nombre",
-        "folderId": 749,
-        "folderPath": "Flujos  B2B WEB > Chile > Test Funcionales > Mis Favoritos",
-        "bucket": "notAutomated",
-        "priority": 2
-      },
-      {
-        "id": 3767,
-        "name": "Buscador De Productos Por SKU",
-        "folderId": 749,
-        "folderPath": "Flujos  B2B WEB > Chile > Test Funcionales > Mis Favoritos",
-        "bucket": "notAutomated",
-        "priority": 2
-      },
-      {
-        "id": 3766,
-        "name": "Filtro Por Nivel De Az\u00facar",
-        "folderId": 749,
-        "folderPath": "Flujos  B2B WEB > Chile > Test Funcionales > Mis Favoritos",
-        "bucket": "notAutomated",
-        "priority": 2
-      },
-      {
-        "id": 3765,
-        "name": "Filtro Por Empaque",
-        "folderId": 749,
-        "folderPath": "Flujos  B2B WEB > Chile > Test Funcionales > Mis Favoritos",
-        "bucket": "notAutomated",
-        "priority": 2
-      },
-      {
-        "id": 3764,
-        "name": "Filtro Por Tama\u00f1o",
-        "folderId": 749,
-        "folderPath": "Flujos  B2B WEB > Chile > Test Funcionales > Mis Favoritos",
-        "bucket": "notAutomated",
-        "priority": 2
-      },
-      {
-        "id": 3763,
-        "name": "Filtro Por Marcas",
-        "folderId": 749,
-        "folderPath": "Flujos  B2B WEB > Chile > Test Funcionales > Mis Favoritos",
-        "bucket": "notAutomated",
-        "priority": 2
-      },
-      {
-        "id": 3762,
-        "name": "Filtro Retornabilidad",
-        "folderId": 749,
-        "folderPath": "Flujos  B2B WEB > Chile > Test Funcionales > Mis Favoritos",
-        "bucket": "notAutomated",
-        "priority": 2
-      },
-      {
-        "id": 3761,
-        "name": "Ordenar Por",
-        "folderId": 749,
-        "folderPath": "Flujos  B2B WEB > Chile > Test Funcionales > Mis Favoritos",
-        "bucket": "notAutomated",
-        "priority": 2
-      },
-      {
-        "id": 3760,
-        "name": "Ordenar y Filtrar",
-        "folderId": 749,
-        "folderPath": "Flujos  B2B WEB > Chile > Test Funcionales > Mis Favoritos",
-        "bucket": "notAutomated",
-        "priority": 2
-      },
-      {
-        "id": 3759,
-        "name": "Card De Productos",
-        "folderId": 749,
-        "folderPath": "Flujos  B2B WEB > Chile > Test Funcionales > Mis Favoritos",
-        "bucket": "notAutomated",
-        "priority": 2
-      },
-      {
-        "id": 3757,
-        "name": "Mi Cat\u00e1logo",
-        "folderId": 749,
-        "folderPath": "Flujos  B2B WEB > Chile > Test Funcionales > Mis Favoritos",
-        "bucket": "notAutomated",
-        "priority": 2
-      },
-      {
-        "id": 3756,
-        "name": "Editar Contrase\u00f1a",
-        "folderId": 746,
-        "folderPath": "Flujos  B2B WEB > Chile > Test Funcionales > Mi cuenta",
-        "bucket": "notAutomated",
-        "priority": 2
-      },
-      {
-        "id": 3755,
-        "name": "Editar Correo",
-        "folderId": 746,
-        "folderPath": "Flujos  B2B WEB > Chile > Test Funcionales > Mi cuenta",
-        "bucket": "notAutomated",
-        "priority": 2
-      },
-      {
-        "id": 3754,
-        "name": "Editar Cellar",
-        "folderId": 746,
-        "folderPath": "Flujos  B2B WEB > Chile > Test Funcionales > Mi cuenta",
-        "bucket": "notAutomated",
-        "priority": 2
-      },
-      {
-        "id": 3753,
-        "name": "Filtrar Pedido Por Fecha",
-        "folderId": 745,
-        "folderPath": "Flujos  B2B WEB > Chile > Test Funcionales > Mis pedidos",
-        "bucket": "notAutomated",
-        "priority": 2
-      },
-      {
-        "id": 3752,
-        "name": "Filtrar Pedido Por Nombre",
-        "folderId": 745,
-        "folderPath": "Flujos  B2B WEB > Chile > Test Funcionales > Mis pedidos",
-        "bucket": "notAutomated",
-        "priority": 2
-      },
-      {
-        "id": 3751,
-        "name": "Repetir Pedido",
-        "folderId": 745,
-        "folderPath": "Flujos  B2B WEB > Chile > Test Funcionales > Mis pedidos",
-        "bucket": "notAutomated",
-        "priority": 2
-      },
-      {
-        "id": 3750,
-        "name": "Detalle De Pedido",
-        "folderId": 745,
-        "folderPath": "Flujos  B2B WEB > Chile > Test Funcionales > Mis pedidos",
-        "bucket": "notAutomated",
-        "priority": 2
-      },
-      {
-        "id": 3735,
-        "name": "Resume De Pedido",
-        "folderId": 744,
-        "folderPath": "Flujos  B2B WEB > Chile > Test Funcionales > Checkout",
-        "bucket": "notAutomated",
-        "priority": 2
-      },
-      {
-        "id": 3734,
-        "name": "Personalizar Pedido",
-        "folderId": 744,
-        "folderPath": "Flujos  B2B WEB > Chile > Test Funcionales > Checkout",
-        "bucket": "notAutomated",
-        "priority": 2
-      },
-      {
-        "id": 3733,
-        "name": "Medio De Pago Pago Contra Entrega",
-        "folderId": 744,
-        "folderPath": "Flujos  B2B WEB > Chile > Test Funcionales > Checkout",
-        "bucket": "notAutomated",
-        "priority": 2
-      },
-      {
-        "id": 3732,
-        "name": "Medio De Pago Sin Creditor Embonor",
-        "folderId": 744,
-        "folderPath": "Flujos  B2B WEB > Chile > Test Funcionales > Checkout",
-        "bucket": "notAutomated",
-        "priority": 2
-      },
-      {
-        "id": 3731,
-        "name": "Medio De Pago Con Creditor Embonor",
-        "folderId": 744,
-        "folderPath": "Flujos  B2B WEB > Chile > Test Funcionales > Checkout",
-        "bucket": "notAutomated",
-        "priority": 2
-      },
-      {
-        "id": 3730,
-        "name": "Fecha De Despacho",
-        "folderId": 744,
-        "folderPath": "Flujos  B2B WEB > Chile > Test Funcionales > Checkout",
-        "bucket": "notAutomated",
-        "priority": 2
-      },
-      {
-        "id": 3729,
-        "name": "Datos De Despacho",
-        "folderId": 744,
-        "folderPath": "Flujos  B2B WEB > Chile > Test Funcionales > Checkout",
-        "bucket": "notAutomated",
-        "priority": 2
-      },
-      {
-        "id": 3723,
-        "name": "Escalan De Descuento Retornables (1er Descuento)",
-        "folderId": 743,
-        "folderPath": "Flujos  B2B WEB > Chile > Test Funcionales > Promociones / Ofertas",
-        "bucket": "notAutomated",
-        "priority": 2
-      },
-      {
-        "id": 3722,
-        "name": "Calculo De Productos.",
-        "folderId": 742,
-        "folderPath": "Flujos  B2B WEB > Chile > Test Funcionales > Carro de compras",
-        "bucket": "notAutomated",
-        "priority": 2
-      },
-      {
-        "id": 3721,
-        "name": "Carrousel \"otros Clientes Tambien Llevan\"",
-        "folderId": 742,
-        "folderPath": "Flujos  B2B WEB > Chile > Test Funcionales > Carro de compras",
-        "bucket": "notAutomated",
-        "priority": 2
-      },
-      {
-        "id": 3720,
-        "name": "CTA Seguir Buscando Productos",
-        "folderId": 742,
-        "folderPath": "Flujos  B2B WEB > Chile > Test Funcionales > Carro de compras",
-        "bucket": "notAutomated",
-        "priority": 2
-      },
-      {
-        "id": 3719,
-        "name": "CTA Continuar Pedido",
-        "folderId": 742,
-        "folderPath": "Flujos  B2B WEB > Chile > Test Funcionales > Carro de compras",
-        "bucket": "notAutomated",
-        "priority": 2
-      },
-      {
-        "id": 3718,
-        "name": "CTA Eliminar Productor Del Carrito De Compra",
-        "folderId": 742,
-        "folderPath": "Flujos  B2B WEB > Chile > Test Funcionales > Carro de compras",
-        "bucket": "notAutomated",
-        "priority": 2
-      },
-      {
-        "id": 3717,
-        "name": "CTA Disminuir Las Cantidades De Los Productos Del Carrito De Compra",
-        "folderId": 742,
-        "folderPath": "Flujos  B2B WEB > Chile > Test Funcionales > Carro de compras",
-        "bucket": "notAutomated",
-        "priority": 2
-      },
-      {
-        "id": 3716,
-        "name": "CTA Aumentar Las Cantidades De Los Productos Del Carrito De Compra",
-        "folderId": 742,
-        "folderPath": "Flujos  B2B WEB > Chile > Test Funcionales > Carro de compras",
-        "bucket": "notAutomated",
-        "priority": 2
-      },
-      {
-        "id": 3715,
-        "name": "CTA Vaciar Carrito De Compras",
-        "folderId": 742,
-        "folderPath": "Flujos  B2B WEB > Chile > Test Funcionales > Carro de compras",
-        "bucket": "notAutomated",
-        "priority": 2
-      },
-      {
-        "id": 3714,
-        "name": "Productos Sin IVA + Con IVA",
-        "folderId": 742,
-        "folderPath": "Flujos  B2B WEB > Chile > Test Funcionales > Carro de compras",
-        "bucket": "notAutomated",
-        "priority": 2
-      },
-      {
-        "id": 3713,
-        "name": "Productor Categor\u00eda Congelado",
-        "folderId": 742,
-        "folderPath": "Flujos  B2B WEB > Chile > Test Funcionales > Carro de compras",
-        "bucket": "notAutomated",
-        "priority": 2
-      },
-      {
-        "id": 3712,
-        "name": "Productor Con Oferta",
-        "folderId": 742,
-        "folderPath": "Flujos  B2B WEB > Chile > Test Funcionales > Carro de compras",
+        "id": 122037,
+        "name": "Verify Percent Coupon Reduces Order Total In Checkout Order Summary (UK)",
+        "folderId": 20991,
+        "folderPath": "Regression",
         "bucket": "automated",
         "priority": 2
       },
       {
-        "id": 3711,
-        "name": "Productor Con IVA",
-        "folderId": 742,
-        "folderPath": "Flujos  B2B WEB > Chile > Test Funcionales > Carro de compras",
+        "id": 122036,
+        "name": "Selecting A Different Colour Resets Size Variant Selection On PDP",
+        "folderId": 20991,
+        "folderPath": "Regression",
         "bucket": "automated",
         "priority": 2
       },
       {
-        "id": 3710,
-        "name": "Productor Con Sin IVA",
-        "folderId": 742,
-        "folderPath": "Flujos  B2B WEB > Chile > Test Funcionales > Carro de compras",
+        "id": 122035,
+        "name": "Verify Out Of Stock Top-Level Banner Is Visible On The Bag Page",
+        "folderId": 20991,
+        "folderPath": "Regression",
         "bucket": "automated",
         "priority": 2
       },
       {
-        "id": 3708,
-        "name": "Carrousel De Productos Similares - Agregar Productos a Mis Favoritos",
-        "folderId": 741,
-        "folderPath": "Flujos  B2B WEB > Chile > Test Funcionales > Detalle de Producto",
-        "bucket": "notAutomated",
-        "priority": 2
-      },
-      {
-        "id": 3707,
-        "name": "Carrousel De Productos Similares - Agregar Productos",
-        "folderId": 741,
-        "folderPath": "Flujos  B2B WEB > Chile > Test Funcionales > Detalle de Producto",
-        "bucket": "notAutomated",
-        "priority": 2
-      },
-      {
-        "id": 3706,
-        "name": "Eliminar De Mis Favoritos",
-        "folderId": 741,
-        "folderPath": "Flujos  B2B WEB > Chile > Test Funcionales > Detalle de Producto",
-        "bucket": "notAutomated",
-        "priority": 2
-      },
-      {
-        "id": 3705,
-        "name": "Validar + / - Cantidades",
-        "folderId": 741,
-        "folderPath": "Flujos  B2B WEB > Chile > Test Funcionales > Detalle de Producto",
-        "bucket": "notAutomated",
-        "priority": 2
-      },
-      {
-        "id": 3704,
-        "name": "Agregar a Mis Favoritos",
-        "folderId": 741,
-        "folderPath": "Flujos  B2B WEB > Chile > Test Funcionales > Detalle de Producto",
-        "bucket": "notAutomated",
-        "priority": 2
-      },
-      {
-        "id": 3703,
-        "name": "Detalle De Productos Otros",
-        "folderId": 741,
-        "folderPath": "Flujos  B2B WEB > Chile > Test Funcionales > Detalle de Producto",
-        "bucket": "notAutomated",
-        "priority": 2
-      },
-      {
-        "id": 3702,
-        "name": "Detalle De Productos Congelados",
-        "folderId": 741,
-        "folderPath": "Flujos  B2B WEB > Chile > Test Funcionales > Detalle de Producto",
-        "bucket": "notAutomated",
-        "priority": 2
-      },
-      {
-        "id": 3701,
-        "name": "Detalle De Productos Alimentos",
-        "folderId": 741,
-        "folderPath": "Flujos  B2B WEB > Chile > Test Funcionales > Detalle de Producto",
-        "bucket": "notAutomated",
-        "priority": 2
-      },
-      {
-        "id": 3700,
-        "name": "Detalle De Productos Deportivas y Energ\u00e9ticas",
-        "folderId": 741,
-        "folderPath": "Flujos  B2B WEB > Chile > Test Funcionales > Detalle de Producto",
-        "bucket": "notAutomated",
-        "priority": 2
-      },
-      {
-        "id": 3699,
-        "name": "Detalle De Productos Aguas y Jugos",
-        "folderId": 741,
-        "folderPath": "Flujos  B2B WEB > Chile > Test Funcionales > Detalle de Producto",
-        "bucket": "notAutomated",
-        "priority": 2
-      },
-      {
-        "id": 3692,
-        "name": "Detalle De Productos Categor\u00eda Bebidas",
-        "folderId": 741,
-        "folderPath": "Flujos  B2B WEB > Chile > Test Funcionales > Detalle de Producto",
-        "bucket": "notAutomated",
-        "priority": 2
-      },
-      {
-        "id": 3690,
-        "name": "Agregar Cantidad M\u00e1xima De Productos Categor\u00eda Otros",
-        "folderId": 741,
-        "folderPath": "Flujos  B2B WEB > Chile > Test Funcionales > Detalle de Producto",
-        "bucket": "notAutomated",
-        "priority": 2
-      },
-      {
-        "id": 3689,
-        "name": "Agregar Cantidad M\u00e1xima De Productos Categor\u00eda Congelados",
-        "folderId": 741,
-        "folderPath": "Flujos  B2B WEB > Chile > Test Funcionales > Detalle de Producto",
-        "bucket": "notAutomated",
-        "priority": 2
-      },
-      {
-        "id": 3688,
-        "name": "Agregar Cantidad M\u00e1xima De Productos Categor\u00eda Alimentos",
-        "folderId": 741,
-        "folderPath": "Flujos  B2B WEB > Chile > Test Funcionales > Detalle de Producto",
-        "bucket": "notAutomated",
-        "priority": 2
-      },
-      {
-        "id": 3687,
-        "name": "Agregar Cantidad M\u00e1xima De Productos Categor\u00eda Deportivas y Energ\u00e9ticas",
-        "folderId": 741,
-        "folderPath": "Flujos  B2B WEB > Chile > Test Funcionales > Detalle de Producto",
-        "bucket": "notAutomated",
-        "priority": 2
-      },
-      {
-        "id": 3686,
-        "name": "Agregar Cantidad M\u00e1xima De Productos Categor\u00eda Aguas y Jugos",
-        "folderId": 741,
-        "folderPath": "Flujos  B2B WEB > Chile > Test Funcionales > Detalle de Producto",
-        "bucket": "notAutomated",
-        "priority": 2
-      },
-      {
-        "id": 3684,
-        "name": "Agregar Cantidad M\u00e1xima De Productos Categor\u00eda Bebidas",
-        "folderId": 741,
-        "folderPath": "Flujos  B2B WEB > Chile > Test Funcionales > Detalle de Producto",
-        "bucket": "notAutomated",
-        "priority": 2
-      },
-      {
-        "id": 3683,
-        "name": "Landing Detalle Del Productor",
-        "folderId": 741,
-        "folderPath": "Flujos  B2B WEB > Chile > Test Funcionales > Detalle de Producto",
-        "bucket": "notAutomated",
-        "priority": 2
-      },
-      {
-        "id": 3682,
-        "name": "Mi Cat\u00e1logo - Eliminar Productos De Favoritos",
-        "folderId": 740,
-        "folderPath": "Flujos  B2B WEB > Chile > Test Funcionales > Cat\u00e1logo",
-        "bucket": "notAutomated",
-        "priority": 2
-      },
-      {
-        "id": 3681,
-        "name": "Eliminar Productos De Favoritos",
-        "folderId": 740,
-        "folderPath": "Flujos  B2B WEB > Chile > Test Funcionales > Cat\u00e1logo",
-        "bucket": "notAutomated",
-        "priority": 2
-      },
-      {
-        "id": 3680,
-        "name": "Agregar Productos a Favoritos",
-        "folderId": 740,
-        "folderPath": "Flujos  B2B WEB > Chile > Test Funcionales > Cat\u00e1logo",
-        "bucket": "notAutomated",
-        "priority": 2
-      },
-      {
-        "id": 3679,
-        "name": "+ / - Cantidades",
-        "folderId": 740,
-        "folderPath": "Flujos  B2B WEB > Chile > Test Funcionales > Cat\u00e1logo",
-        "bucket": "notAutomated",
-        "priority": 2
-      },
-      {
-        "id": 3678,
-        "name": "Agregar Productos Al Carrito",
-        "folderId": 740,
-        "folderPath": "Flujos  B2B WEB > Chile > Test Funcionales > Cat\u00e1logo",
-        "bucket": "notAutomated",
-        "priority": 2
-      },
-      {
-        "id": 3677,
-        "name": "Paginador",
-        "folderId": 740,
-        "folderPath": "Flujos  B2B WEB > Chile > Test Funcionales > Cat\u00e1logo",
-        "bucket": "notAutomated",
-        "priority": 2
-      },
-      {
-        "id": 3676,
-        "name": "Filtro Rapido De Marcas",
-        "folderId": 740,
-        "folderPath": "Flujos  B2B WEB > Chile > Test Funcionales > Cat\u00e1logo",
-        "bucket": "notAutomated",
-        "priority": 2
-      },
-      {
-        "id": 3675,
-        "name": "Filtro Carrousel De Categorias.",
-        "folderId": 740,
-        "folderPath": "Flujos  B2B WEB > Chile > Test Funcionales > Cat\u00e1logo",
-        "bucket": "notAutomated",
-        "priority": 2
-      },
-      {
-        "id": 3674,
-        "name": "Buscador De Productos Por Nombre",
-        "folderId": 740,
-        "folderPath": "Flujos  B2B WEB > Chile > Test Funcionales > Cat\u00e1logo",
-        "bucket": "notAutomated",
-        "priority": 2
-      },
-      {
-        "id": 3673,
-        "name": "Buscador De Productos Por SKU",
-        "folderId": 740,
-        "folderPath": "Flujos  B2B WEB > Chile > Test Funcionales > Cat\u00e1logo",
-        "bucket": "notAutomated",
-        "priority": 2
-      },
-      {
-        "id": 3672,
-        "name": "Filtro Por Nivel De Az\u00facar",
-        "folderId": 740,
-        "folderPath": "Flujos  B2B WEB > Chile > Test Funcionales > Cat\u00e1logo",
-        "bucket": "notAutomated",
-        "priority": 2
-      },
-      {
-        "id": 3671,
-        "name": "Filtro Por Empaque",
-        "folderId": 740,
-        "folderPath": "Flujos  B2B WEB > Chile > Test Funcionales > Cat\u00e1logo",
-        "bucket": "notAutomated",
-        "priority": 2
-      },
-      {
-        "id": 3670,
-        "name": "Filtro Por Tama\u00f1o",
-        "folderId": 740,
-        "folderPath": "Flujos  B2B WEB > Chile > Test Funcionales > Cat\u00e1logo",
-        "bucket": "notAutomated",
-        "priority": 2
-      },
-      {
-        "id": 3669,
-        "name": "Filtro Por Marcas",
-        "folderId": 740,
-        "folderPath": "Flujos  B2B WEB > Chile > Test Funcionales > Cat\u00e1logo",
-        "bucket": "notAutomated",
-        "priority": 2
-      },
-      {
-        "id": 3668,
-        "name": "Filtro Retornabilidad",
-        "folderId": 740,
-        "folderPath": "Flujos  B2B WEB > Chile > Test Funcionales > Cat\u00e1logo",
-        "bucket": "notAutomated",
-        "priority": 2
-      },
-      {
-        "id": 3667,
-        "name": "Ordenar Por",
-        "folderId": 740,
-        "folderPath": "Flujos  B2B WEB > Chile > Test Funcionales > Cat\u00e1logo",
-        "bucket": "notAutomated",
-        "priority": 2
-      },
-      {
-        "id": 3666,
-        "name": "Ordenar y Filtrar",
-        "folderId": 740,
-        "folderPath": "Flujos  B2B WEB > Chile > Test Funcionales > Cat\u00e1logo",
-        "bucket": "notAutomated",
-        "priority": 2
-      },
-      {
-        "id": 3665,
-        "name": "Card De Productos",
-        "folderId": 740,
-        "folderPath": "Flujos  B2B WEB > Chile > Test Funcionales > Cat\u00e1logo",
-        "bucket": "notAutomated",
-        "priority": 2
-      },
-      {
-        "id": 3664,
-        "name": "Carrousel Recomendado Para Tu Local (ver Mas)",
-        "folderId": 739,
-        "folderPath": "Flujos  B2B WEB > Chile > Test Funcionales > Home",
-        "bucket": "notAutomated",
-        "priority": 2
-      },
-      {
-        "id": 3663,
-        "name": "Carrousel Recomendado Para Tu Local (eliminar Productos De Favoritos)",
-        "folderId": 739,
-        "folderPath": "Flujos  B2B WEB > Chile > Test Funcionales > Home",
-        "bucket": "notAutomated",
-        "priority": 2
-      },
-      {
-        "id": 3662,
-        "name": "Carrousel Recomendado Para Tu Local (card De Productor)",
-        "folderId": 739,
-        "folderPath": "Flujos  B2B WEB > Chile > Test Funcionales > Home",
-        "bucket": "notAutomated",
-        "priority": 2
-      },
-      {
-        "id": 3659,
-        "name": "Carrousel Recomendado Para Tu Local (agregar Productos a Favoritos)",
-        "folderId": 739,
-        "folderPath": "Flujos  B2B WEB > Chile > Test Funcionales > Home",
-        "bucket": "notAutomated",
-        "priority": 2
-      },
-      {
-        "id": 3657,
-        "name": "Carrousel Recomendado Para Tu Local ( Agregar Productor a Favoritos).",
-        "folderId": 739,
-        "folderPath": "Flujos  B2B WEB > Chile > Test Funcionales > Home",
-        "bucket": "notAutomated",
-        "priority": 2
-      },
-      {
-        "id": 3656,
-        "name": "Carrousel Recomendado Para Tu Local ( + / -  Productos)",
-        "folderId": 739,
-        "folderPath": "Flujos  B2B WEB > Chile > Test Funcionales > Home",
-        "bucket": "notAutomated",
-        "priority": 2
-      },
-      {
-        "id": 3655,
-        "name": "Recomendado Para Tu Local (Navegar)",
-        "folderId": 739,
-        "folderPath": "Flujos  B2B WEB > Chile > Test Funcionales > Home",
-        "bucket": "notAutomated",
-        "priority": 2
-      },
-      {
-        "id": 3654,
-        "name": "Carrousel Vuelve a Pedirlos (ver Mas)",
-        "folderId": 739,
-        "folderPath": "Flujos  B2B WEB > Chile > Test Funcionales > Home",
-        "bucket": "notAutomated",
-        "priority": 2
-      },
-      {
-        "id": 3653,
-        "name": "Carrousel Vuelve a Pedirlos (eliminar Productos De Favoritos)",
-        "folderId": 739,
-        "folderPath": "Flujos  B2B WEB > Chile > Test Funcionales > Home",
-        "bucket": "notAutomated",
-        "priority": 2
-      },
-      {
-        "id": 3652,
-        "name": "Carrousel Vuelve a Pedirlos (agregar Productos a Favoritos)",
-        "folderId": 739,
-        "folderPath": "Flujos  B2B WEB > Chile > Test Funcionales > Home",
-        "bucket": "notAutomated",
-        "priority": 2
-      },
-      {
-        "id": 3650,
-        "name": "Carrousel Vuelve a Pedirlos (card De Productor)",
-        "folderId": 739,
-        "folderPath": "Flujos  B2B WEB > Chile > Test Funcionales > Home",
-        "bucket": "notAutomated",
-        "priority": 2
-      },
-      {
-        "id": 3648,
-        "name": "Carrousel Vuelve a Pedirlos ( Agregar Productor a Favoritos).",
-        "folderId": 739,
-        "folderPath": "Flujos  B2B WEB > Chile > Test Funcionales > Home",
-        "bucket": "notAutomated",
-        "priority": 2
-      },
-      {
-        "id": 3647,
-        "name": "Carrousel Vuelve a Pedirlos ( + / -  Productos)",
-        "folderId": 739,
-        "folderPath": "Flujos  B2B WEB > Chile > Test Funcionales > Home",
-        "bucket": "notAutomated",
-        "priority": 2
-      },
-      {
-        "id": 3623,
-        "name": "Carrousel Vuelve a Pedirlos (Navegar)",
-        "folderId": 739,
-        "folderPath": "Flujos  B2B WEB > Chile > Test Funcionales > Home",
-        "bucket": "notAutomated",
-        "priority": 2
-      },
-      {
-        "id": 3622,
-        "name": "Acciones R\u00e1pidas - Bot\u00f3n Ver Pedidos",
-        "folderId": 739,
-        "folderPath": "Flujos  B2B WEB > Chile > Test Funcionales > Home",
-        "bucket": "notAutomated",
-        "priority": 2
-      },
-      {
-        "id": 3620,
-        "name": "Acciones R\u00e1pidas - Bot\u00f3n Ver Favoritos",
-        "folderId": 739,
-        "folderPath": "Flujos  B2B WEB > Chile > Test Funcionales > Home",
-        "bucket": "notAutomated",
-        "priority": 2
-      },
-      {
-        "id": 3619,
-        "name": "Acciones R\u00e1pidas - Bot\u00f3n Ver Cat\u00e1logo",
-        "folderId": 739,
-        "folderPath": "Flujos  B2B WEB > Chile > Test Funcionales > Home",
-        "bucket": "notAutomated",
-        "priority": 2
-      },
-      {
-        "id": 3618,
-        "name": "Acciones R\u00e1pidas - Bot\u00f3n Ver Ofertas",
-        "folderId": 739,
-        "folderPath": "Flujos  B2B WEB > Chile > Test Funcionales > Home",
-        "bucket": "notAutomated",
-        "priority": 2
-      },
-      {
-        "id": 3617,
-        "name": "Banner Principal",
-        "folderId": 739,
-        "folderPath": "Flujos  B2B WEB > Chile > Test Funcionales > Home",
-        "bucket": "notAutomated",
-        "priority": 2
-      },
-      {
-        "id": 3616,
-        "name": "Huincha Home",
-        "folderId": 739,
-        "folderPath": "Flujos  B2B WEB > Chile > Test Funcionales > Home",
-        "bucket": "notAutomated",
-        "priority": 2
-      },
-      {
-        "id": 3615,
-        "name": "Nav Bar: Bot\u00f3n Carrito",
-        "folderId": 739,
-        "folderPath": "Flujos  B2B WEB > Chile > Test Funcionales > Home",
-        "bucket": "notAutomated",
-        "priority": 2
-      },
-      {
-        "id": 3614,
-        "name": "Nav Bar: Bot\u00f3n Centro De Ayuda",
-        "folderId": 739,
-        "folderPath": "Flujos  B2B WEB > Chile > Test Funcionales > Home",
-        "bucket": "notAutomated",
-        "priority": 2
-      },
-      {
-        "id": 3613,
-        "name": "Nav Bar: Bot\u00f3n Mi Cuenta",
-        "folderId": 739,
-        "folderPath": "Flujos  B2B WEB > Chile > Test Funcionales > Home",
-        "bucket": "notAutomated",
-        "priority": 2
-      },
-      {
-        "id": 3612,
-        "name": "Nav Bar: Selector De Tiendas",
-        "folderId": 739,
-        "folderPath": "Flujos  B2B WEB > Chile > Test Funcionales > Home",
-        "bucket": "notAutomated",
-        "priority": 2
-      },
-      {
-        "id": 3611,
-        "name": "Nav Bar: Bot\u00f3n Mis Favoritos",
-        "folderId": 739,
-        "folderPath": "Flujos  B2B WEB > Chile > Test Funcionales > Home",
-        "bucket": "notAutomated",
-        "priority": 2
-      },
-      {
-        "id": 3609,
-        "name": "Nav Bar: Bot\u00f3n Cat\u00e1logo",
-        "folderId": 739,
-        "folderPath": "Flujos  B2B WEB > Chile > Test Funcionales > Home",
-        "bucket": "notAutomated",
-        "priority": 2
-      },
-      {
-        "id": 3608,
-        "name": "Nav Bar: Bot\u00f3n De Inicio",
-        "folderId": 739,
-        "folderPath": "Flujos  B2B WEB > Chile > Test Funcionales > Home",
-        "bucket": "notAutomated",
-        "priority": 2
-      },
-      {
-        "id": 3607,
-        "name": "Contentful",
-        "folderId": 796,
-        "folderPath": "Flujos  B2B WEB > Chile > Test No Funcionales",
-        "bucket": "notAutomated",
-        "priority": 2
-      },
-      {
-        "id": 3606,
-        "name": "Caracteres Especiales Inv\u00e1lidos.",
-        "folderId": 738,
-        "folderPath": "Flujos  B2B WEB > Chile > Test Funcionales > Login",
-        "bucket": "notAutomated",
-        "priority": 2
-      },
-      {
-        "id": 3605,
-        "name": "Caracteres Especiales V\u00e1lidos:",
-        "folderId": 738,
-        "folderPath": "Flujos  B2B WEB > Chile > Test Funcionales > Login",
-        "bucket": "notAutomated",
-        "priority": 2
-      },
-      {
-        "id": 3604,
-        "name": "Campo Correo De Usuario Longitude M\u00e1xima",
-        "folderId": 738,
-        "folderPath": "Flujos  B2B WEB > Chile > Test Funcionales > Login",
-        "bucket": "notAutomated",
-        "priority": 2
-      },
-      {
-        "id": 3603,
-        "name": "Prueba De Servicio Auth-Service",
-        "folderId": 738,
-        "folderPath": "Flujos  B2B WEB > Chile > Test Funcionales > Login",
-        "bucket": "notAutomated",
-        "priority": 2
-      },
-      {
-        "id": 3602,
-        "name": "Campo Password Longitude M\u00e1xima",
-        "folderId": 738,
-        "folderPath": "Flujos  B2B WEB > Chile > Test Funcionales > Login",
-        "bucket": "notAutomated",
-        "priority": 2
-      },
-      {
-        "id": 3601,
-        "name": "Pruebas De Compatibilidad De Navegador:",
-        "folderId": 738,
-        "folderPath": "Flujos  B2B WEB > Chile > Test Funcionales > Login",
-        "bucket": "notAutomated",
-        "priority": 1
-      },
-      {
-        "id": 3448,
-        "name": "Productos Con Ofertas \"home\"",
-        "folderId": 743,
-        "folderPath": "Flujos  B2B WEB > Chile > Test Funcionales > Promociones / Ofertas",
-        "bucket": "notAutomated",
-        "priority": 2
-      },
-      {
-        "id": 3444,
-        "name": "Mi Cat\u00e1logo",
-        "folderId": 740,
-        "folderPath": "Flujos  B2B WEB > Chile > Test Funcionales > Cat\u00e1logo",
-        "bucket": "notAutomated",
-        "priority": 2
-      },
-      {
-        "id": 3441,
-        "name": "Centro De Ayuda",
-        "folderId": 738,
-        "folderPath": "Flujos  B2B WEB > Chile > Test Funcionales > Login",
-        "bucket": "notAutomated",
-        "priority": 2
-      },
-      {
-        "id": 3439,
-        "name": "Activa Tu Cuenta",
-        "folderId": 738,
-        "folderPath": "Flujos  B2B WEB > Chile > Test Funcionales > Login",
-        "bucket": "notAutomated",
-        "priority": 1
-      },
-      {
-        "id": 3437,
-        "name": "Mensajes De Error",
-        "folderId": 738,
-        "folderPath": "Flujos  B2B WEB > Chile > Test Funcionales > Login",
-        "bucket": "notAutomated",
-        "priority": 1
-      },
-      {
-        "id": 3436,
-        "name": "Login Rellenando Ning\u00fan Campo",
-        "folderId": 738,
-        "folderPath": "Flujos  B2B WEB > Chile > Test Funcionales > Login",
-        "bucket": "notAutomated",
-        "priority": 2
-      },
-      {
-        "id": 3435,
-        "name": "Usuario Invalid",
-        "folderId": 738,
-        "folderPath": "Flujos  B2B WEB > Chile > Test Funcionales > Login",
+        "id": 122034,
+        "name": "Verify Express Delivery Checkout Reaches Order Confirmation",
+        "folderId": 20991,
+        "folderPath": "Regression",
         "bucket": "automated",
-        "priority": 1
-      },
-      {
-        "id": 3434,
-        "name": "Login Rellenando Solo Un Campo",
-        "folderId": 738,
-        "folderPath": "Flujos  B2B WEB > Chile > Test Funcionales > Login",
-        "bucket": "notAutomated",
         "priority": 2
       },
       {
-        "id": 3411,
-        "name": "Usuario Valido",
-        "folderId": 738,
-        "folderPath": "Flujos  B2B WEB > Chile > Test Funcionales > Login",
+        "id": 122033,
+        "name": "Header Search - Search Box Can Be Hidden By Pressing The Escape Key",
+        "folderId": 20991,
+        "folderPath": "Regression",
         "bucket": "automated",
-        "priority": 1
-      },
-      {
-        "id": 417,
-        "name": "Compra Con Productos Congelados",
-        "folderId": 66,
-        "folderPath": "Flujos  B2B WEB > Chile > Test Funcionales > Tipos de Pedidos",
-        "bucket": "notAutomated",
-        "priority": 1
-      },
-      {
-        "id": 281,
-        "name": "Compra Con Productos Con Descuento Show True y Con Alcohol",
-        "folderId": 66,
-        "folderPath": "Flujos  B2B WEB > Chile > Test Funcionales > Tipos de Pedidos",
-        "bucket": "notAutomated",
         "priority": 2
       },
       {
-        "id": 280,
-        "name": "Compra Con Productos Con Duty Free y Sin Duty Free (tienda Zona Franca)",
-        "folderId": 66,
-        "folderPath": "Flujos  B2B WEB > Chile > Test Funcionales > Tipos de Pedidos",
-        "bucket": "notAutomated",
+        "id": 114354,
+        "name": "Percent Coupon Applied Successfully At Checkout In EU Locale",
+        "folderId": 20991,
+        "folderPath": "Regression",
+        "bucket": "automated",
         "priority": 2
       },
       {
-        "id": 279,
-        "name": "Compra Con Productos Con Duty Free (tienda Zona Franca)",
-        "folderId": 66,
-        "folderPath": "Flujos  B2B WEB > Chile > Test Funcionales > Tipos de Pedidos",
-        "bucket": "notAutomated",
+        "id": 114352,
+        "name": "Percent Coupon Applied Successfully At Checkout For Guest User",
+        "folderId": 20991,
+        "folderPath": "Regression",
+        "bucket": "automated",
         "priority": 2
       },
       {
-        "id": 278,
-        "name": "Compra Con Productos Con Alcohol",
-        "folderId": 66,
-        "folderPath": "Flujos  B2B WEB > Chile > Test Funcionales > Tipos de Pedidos",
-        "bucket": "notAutomated",
-        "priority": 1
-      },
-      {
-        "id": 277,
-        "name": "Compra Con Productos Con Descuento Show True y Show False",
-        "folderId": 66,
-        "folderPath": "Flujos  B2B WEB > Chile > Test Funcionales > Tipos de Pedidos",
-        "bucket": "notAutomated",
+        "id": 114351,
+        "name": "Verify E-Gift Card Order Confirmation Shows Correct E-Card Details",
+        "folderId": 20991,
+        "folderPath": "Regression",
+        "bucket": "automated",
         "priority": 2
       },
       {
-        "id": 276,
-        "name": "Compra Con Productos Con Descuento Show False",
-        "folderId": 66,
-        "folderPath": "Flujos  B2B WEB > Chile > Test Funcionales > Tipos de Pedidos",
-        "bucket": "notAutomated",
+        "id": 114348,
+        "name": "Verify All Payment Methods Are Available When No Gift Card Is In Cart",
+        "folderId": 20991,
+        "folderPath": "Regression",
+        "bucket": "automated",
         "priority": 2
       },
       {
-        "id": 275,
-        "name": "Compra Con Productos Con Descuento Show True",
-        "folderId": 66,
-        "folderPath": "Flujos  B2B WEB > Chile > Test Funcionales > Tipos de Pedidos",
-        "bucket": "notAutomated",
-        "priority": 1
+        "id": 114346,
+        "name": "Verify Currency Is Displayed Correctly Throughout Checkout And Order Confirmation - USD",
+        "folderId": 20991,
+        "folderPath": "Regression",
+        "bucket": "automated",
+        "priority": 2
       },
       {
-        "id": 263,
-        "name": "Recuperar Contrase\u00f1a",
-        "folderId": 738,
-        "folderPath": "Flujos  B2B WEB > Chile > Test Funcionales > Login",
-        "bucket": "notAutomated",
-        "priority": 1
+        "id": 114345,
+        "name": "Verify Currency Is Displayed Correctly Throughout Checkout And Order Confirmation - EUR",
+        "folderId": 20991,
+        "folderPath": "Regression",
+        "bucket": "automated",
+        "priority": 2
+      },
+      {
+        "id": 114344,
+        "name": "Verify Currency Is Displayed Correctly Throughout Checkout And Order Confirmation - GBP",
+        "folderId": 20991,
+        "folderPath": "Regression",
+        "bucket": "automated",
+        "priority": 2
+      },
+      {
+        "id": 114343,
+        "name": "Click And Collect Is Not Available In Non-GBP Checkout",
+        "folderId": 20991,
+        "folderPath": "Regression",
+        "bucket": "automated",
+        "priority": 2
+      },
+      {
+        "id": 114342,
+        "name": "Click And Collect - User Changes Collection Location During Checkout And Completes Order",
+        "folderId": 20991,
+        "folderPath": "Regression",
+        "bucket": "automated",
+        "priority": 2
+      },
+      {
+        "id": 114341,
+        "name": "Click And Collect - User Selects Parcel Stop Location And Confirms Collection Details",
+        "folderId": 20991,
+        "folderPath": "Regression",
+        "bucket": "automated",
+        "priority": 2
+      },
+      {
+        "id": 114340,
+        "name": "Click And Collect - User Selects White Stuff Store And Confirms Collection Details",
+        "folderId": 20991,
+        "folderPath": "Regression",
+        "bucket": "automated",
+        "priority": 2
+      },
+      {
+        "id": 114339,
+        "name": "Click And Collect Overlay - User Can Update Store Finder Location",
+        "folderId": 20991,
+        "folderPath": "Regression",
+        "bucket": "automated",
+        "priority": 2
+      },
+      {
+        "id": 114338,
+        "name": "Click And Collect Overlay - Map Is Displayed",
+        "folderId": 20991,
+        "folderPath": "Regression",
+        "bucket": "automated",
+        "priority": 2
+      },
+      {
+        "id": 114337,
+        "name": "Click And Collect Overlay - User Can Switch Between Store Locations",
+        "folderId": 20991,
+        "folderPath": "Regression",
+        "bucket": "automated",
+        "priority": 2
+      },
+      {
+        "id": 114336,
+        "name": "Click And Collect Overlay - Modal Is Displayed With Store Details",
+        "folderId": 20991,
+        "folderPath": "Regression",
+        "bucket": "automated",
+        "priority": 2
+      },
+      {
+        "id": 114335,
+        "name": "EU/US Checkout - Unsupported Country Shows Non-Deliverable Message And Blocks Continue",
+        "folderId": 20991,
+        "folderPath": "Regression",
+        "bucket": "automated",
+        "priority": 2
+      },
+      {
+        "id": 114334,
+        "name": "EU/US Checkout - Europe Standard Auto-Updates To UK Standard For UK Postcode",
+        "folderId": 20991,
+        "folderPath": "Regression",
+        "bucket": "automated",
+        "priority": 2
+      },
+      {
+        "id": 114333,
+        "name": "Verify EU/US Checkout Shows Zone-Based Delivery Options With From Pricing",
+        "folderId": 20991,
+        "folderPath": "Regression",
+        "bucket": "automated",
+        "priority": 2
+      },
+      {
+        "id": 114331,
+        "name": "Verify Physical Gift Card Limits Delivery Options And Shows Restriction Message",
+        "folderId": 20991,
+        "folderPath": "Regression",
+        "bucket": "automated",
+        "priority": 2
+      },
+      {
+        "id": 114330,
+        "name": "Verify Warehouse Stock Bag Shows Full UK Delivery Option Set",
+        "folderId": 20991,
+        "folderPath": "Regression",
+        "bucket": "automated",
+        "priority": 2
+      },
+      {
+        "id": 114329,
+        "name": "Verify Shipping Options - Home Delivery Express Is Selectable At Checkout",
+        "folderId": 20991,
+        "folderPath": "Regression",
+        "bucket": "automated",
+        "priority": 2
+      },
+      {
+        "id": 114328,
+        "name": "Verify Shipping Options - Home Delivery Standard Is Selectable At Checkout",
+        "folderId": 20991,
+        "folderPath": "Regression",
+        "bucket": "automated",
+        "priority": 2
+      },
+      {
+        "id": 114327,
+        "name": "Verify Signed-In User Saved Addresses Are Displayed In Delivery And Billing Sections",
+        "folderId": 20991,
+        "folderPath": "Regression",
+        "bucket": "automated",
+        "priority": 2
+      },
+      {
+        "id": 114326,
+        "name": "Verify Billing Section Allows Manual Entry Of A Different Billing Address",
+        "folderId": 20991,
+        "folderPath": "Regression",
+        "bucket": "automated",
+        "priority": 2
+      },
+      {
+        "id": 114325,
+        "name": "Verify Billing Section Is Auto-Populated From Shipping Address",
+        "folderId": 20991,
+        "folderPath": "Regression",
+        "bucket": "automated",
+        "priority": 2
+      },
+      {
+        "id": 114324,
+        "name": "Verify Adyen Terms And Conditions Must Be Accepted Before Payment",
+        "folderId": 20991,
+        "folderPath": "Regression",
+        "bucket": "automated",
+        "priority": 2
+      },
+      {
+        "id": 114323,
+        "name": "Verify Payment Failure Notice Is Displayed For Invalid Card",
+        "folderId": 20991,
+        "folderPath": "Regression",
+        "bucket": "automated",
+        "priority": 2
+      },
+      {
+        "id": 114322,
+        "name": "Verify Full Order Confirmation Flow For Guest User With Card Payment",
+        "folderId": 20991,
+        "folderPath": "Regression",
+        "bucket": "automated",
+        "priority": 2
+      },
+      {
+        "id": 114321,
+        "name": "Verify Cart Summary Is Displayed Correctly At Checkout",
+        "folderId": 20991,
+        "folderPath": "Regression",
+        "bucket": "automated",
+        "priority": 2
+      },
+      {
+        "id": 114320,
+        "name": "Header Search - Search Box Can Be Hidden By Clicking The X Icon",
+        "folderId": 20991,
+        "folderPath": "Regression",
+        "bucket": "automated",
+        "priority": 2
+      },
+      {
+        "id": 114319,
+        "name": "Header Search - Entering Search Term Displays Related Search Terms",
+        "folderId": 20991,
+        "folderPath": "Regression",
+        "bucket": "automated",
+        "priority": 2
+      },
+      {
+        "id": 114318,
+        "name": "Header Search - Entering Search Term Displays Related Products",
+        "folderId": 20991,
+        "folderPath": "Regression",
+        "bucket": "automated",
+        "priority": 2
+      },
+      {
+        "id": 114317,
+        "name": "Header Search - Pressing Enter In Search Box Redirects To Search Results Page",
+        "folderId": 20991,
+        "folderPath": "Regression",
+        "bucket": "automated",
+        "priority": 2
+      },
+      {
+        "id": 114316,
+        "name": "Verify PLP Images Are Loaded From Amplience CDN",
+        "folderId": 20991,
+        "folderPath": "Regression",
+        "bucket": "automated",
+        "priority": 2
+      },
+      {
+        "id": 114315,
+        "name": "PLP - User Can Click Alternative Colour To Navigate To That Product Variant PDP",
+        "folderId": 20991,
+        "folderPath": "Regression",
+        "bucket": "automated",
+        "priority": 2
+      },
+      {
+        "id": 114314,
+        "name": "PLP - User Can See Correct Product Price Per Locale",
+        "folderId": 20991,
+        "folderPath": "Regression",
+        "bucket": "automated",
+        "priority": 2
+      },
+      {
+        "id": 114313,
+        "name": "PLP - User Can Click Product Image To Navigate To PDP",
+        "folderId": 20991,
+        "folderPath": "Regression",
+        "bucket": "automated",
+        "priority": 2
+      },
+      {
+        "id": 114312,
+        "name": "PLP - User Can Click Product Name To Navigate To PDP",
+        "folderId": 20991,
+        "folderPath": "Regression",
+        "bucket": "automated",
+        "priority": 2
+      },
+      {
+        "id": 114310,
+        "name": "Verify User Can Navigate Using Breadcrumb On PDP Page",
+        "folderId": 20991,
+        "folderPath": "Regression",
+        "bucket": "automated",
+        "priority": 2
+      },
+      {
+        "id": 114309,
+        "name": "Verify PDP Displays 404 Error For Non-Existent Product",
+        "folderId": 20991,
+        "folderPath": "Regression",
+        "bucket": "automated",
+        "priority": 2
+      },
+      {
+        "id": 114308,
+        "name": "Verify User Can See Size Guide On PDP Page",
+        "folderId": 20991,
+        "folderPath": "Regression",
+        "bucket": "automated",
+        "priority": 2
+      },
+      {
+        "id": 114307,
+        "name": "Verify PDP Currency Is Displayed Correctly Per Locale",
+        "folderId": 20991,
+        "folderPath": "Regression",
+        "bucket": "automated",
+        "priority": 2
+      },
+      {
+        "id": 114306,
+        "name": "Verify PDP Variant Stock States Are Displayed Correctly",
+        "folderId": 20991,
+        "folderPath": "Regression",
+        "bucket": "automated",
+        "priority": 2
+      },
+      {
+        "id": 114305,
+        "name": "Verify PDP Accordion Content Expands And Collapses Correctly",
+        "folderId": 20991,
+        "folderPath": "Regression",
+        "bucket": "automated",
+        "priority": 2
+      },
+      {
+        "id": 114304,
+        "name": "Add To Bag - Checkout Button Navigates To Checkout",
+        "folderId": 20991,
+        "folderPath": "Regression",
+        "bucket": "automated",
+        "priority": 2
+      },
+      {
+        "id": 114303,
+        "name": "Add To Bag - View Bag Button Navigates To Bag Page",
+        "folderId": 20991,
+        "folderPath": "Regression",
+        "bucket": "automated",
+        "priority": 2
+      },
+      {
+        "id": 114302,
+        "name": "Add To Bag - Confirmation Modal Is Displayed With Correct Product Details",
+        "folderId": 20991,
+        "folderPath": "Regression",
+        "bucket": "automated",
+        "priority": 2
+      },
+      {
+        "id": 114301,
+        "name": "Verify Add To Bag Button Is Enabled After Selecting All Required Variants",
+        "folderId": 20991,
+        "folderPath": "Regression",
+        "bucket": "automated",
+        "priority": 2
+      },
+      {
+        "id": 114298,
+        "name": "Verify Gift Card Details Are Displayed Correctly In The Bag",
+        "folderId": 20991,
+        "folderPath": "Regression",
+        "bucket": "automated",
+        "priority": 2
+      },
+      {
+        "id": 114297,
+        "name": "Verify Bag Is Empty When User Changes Currency From GBP To USD",
+        "folderId": 20991,
+        "folderPath": "Regression",
+        "bucket": "automated",
+        "priority": 2
+      },
+      {
+        "id": 114296,
+        "name": "Verify Continue Shopping Button Redirects To Homepage",
+        "folderId": 20991,
+        "folderPath": "Regression",
+        "bucket": "automated",
+        "priority": 2
+      },
+      {
+        "id": 114295,
+        "name": "Verify Empty Basket Message Is Displayed After Removing All Items",
+        "folderId": 20991,
+        "folderPath": "Regression",
+        "bucket": "automated",
+        "priority": 2
+      },
+      {
+        "id": 114294,
+        "name": "Verify Item Is Removed When Decrease Button Is Clicked At Quantity One",
+        "folderId": 20991,
+        "folderPath": "Regression",
+        "bucket": "automated",
+        "priority": 2
+      },
+      {
+        "id": 114293,
+        "name": "Verify Increase And Decrease Functionality Of Item Quantity In Bag",
+        "folderId": 20991,
+        "folderPath": "Regression",
+        "bucket": "automated",
+        "priority": 2
+      },
+      {
+        "id": 114292,
+        "name": "Verify Order Summary Details On The Bag Page",
+        "folderId": 20991,
+        "folderPath": "Regression",
+        "bucket": "automated",
+        "priority": 2
+      },
+      {
+        "id": 114291,
+        "name": "Verify Display Of Bag Items",
+        "folderId": 20991,
+        "folderPath": "Regression",
+        "bucket": "automated",
+        "priority": 2
+      },
+      {
+        "id": 114290,
+        "name": "Email Address Persists When Navigating To Reset Password From Checkout Identity Page",
+        "folderId": 20991,
+        "folderPath": "Regression",
+        "bucket": "automated",
+        "priority": 2
+      },
+      {
+        "id": 114289,
+        "name": "Email Address Persists When Navigating To Reset Password From Login Page",
+        "folderId": 20991,
+        "folderPath": "Regression",
+        "bucket": "automated",
+        "priority": 2
+      },
+      {
+        "id": 114288,
+        "name": "User Cannot Submit Registration Form With Invalid Password",
+        "folderId": 20991,
+        "folderPath": "Regression",
+        "bucket": "automated",
+        "priority": 2
+      },
+      {
+        "id": 114287,
+        "name": "User Can Register A New Account",
+        "folderId": 20991,
+        "folderPath": "Regression",
+        "bucket": "automated",
+        "priority": 2
       }
     ]
   }
