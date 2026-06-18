@@ -38,7 +38,7 @@ def _required_env(name: str) -> str:
 
 
 # ── Jira ────────────────────────────────────────────────────────────────────
-JIRA_BASE = "https://reigncl.atlassian.net"
+JIRA_BASE = "https://e2x.atlassian.net"
 JIRA_EMAIL = _required_env("JIRA_EMAIL")
 JIRA_TOKEN = _required_env("JIRA_API_TOKEN")
 _jira_creds = b64encode(f"{JIRA_EMAIL}:{JIRA_TOKEN}".encode()).decode()
@@ -47,18 +47,18 @@ JIRA_HEADERS = {
     "Accept": "application/json",
 }
 # Try "Epic Link" first; script auto-retries with parent= if that fails
-JIRA_JQL = 'project = EVB AND issuetype = "AT QA" AND "Epic Link" = EVB-32 ORDER BY updated DESC'
+JIRA_JQL = 'project = WSC AND issuetype = "AT QA" ORDER BY updated DESC'
 
 # ── Testmo ───────────────────────────────────────────────────────────────────
 TESTMO_BASE = "https://applydigital.testmo.net"
 TESTMO_TOKEN = _required_env("TESTMO_API_TOKEN")
-TESTMO_PROJECT_ID = os.environ.get("TESTMO_PROJECT_ID", "9")
-# Automation source to scope runs to (17 = "e2etests"). Set "" to disable filter.
-TESTMO_AUTOMATION_SOURCE_ID = os.environ.get("TESTMO_AUTOMATION_SOURCE_ID", "17")
-# Regex applied to run name (case-insensitive). Defaults to Chile B2B Web nightly smokes.
-TESTMO_RUN_NAME_PATTERN = os.environ.get("TESTMO_RUN_NAME_PATTERN", r"^CL.*B2B Web")
-# Root folder for case-coverage scope (717 = "Flujos B2B WEB > Chile"). Set "" to disable filter.
-TESTMO_SCOPE_FOLDER_ID = os.environ.get("TESTMO_SCOPE_FOLDER_ID", "717")
+TESTMO_PROJECT_ID = os.environ.get("TESTMO_PROJECT_ID", "44")
+# Automation source to scope runs to. Set "" to use manual runs endpoint instead.
+TESTMO_AUTOMATION_SOURCE_ID = os.environ.get("TESTMO_AUTOMATION_SOURCE_ID", "")
+# Regex applied to run name (case-insensitive).
+TESTMO_RUN_NAME_PATTERN = os.environ.get("TESTMO_RUN_NAME_PATTERN", r"^Regression")
+# Root folder for case-coverage scope. Set "" to disable filter.
+TESTMO_SCOPE_FOLDER_ID = os.environ.get("TESTMO_SCOPE_FOLDER_ID", "20991")
 TESTMO_HEADERS = {
     "Authorization": f"Bearer {TESTMO_TOKEN}",
     "Accept": "application/json",
@@ -132,8 +132,8 @@ def fetch_jira_tickets() -> list:
         raw = paginate_jira(jql, "summary,status,assignee,updated,priority,labels")
     except ValueError as e:
         if str(e) == "JQL_EPIC_LINK_UNSUPPORTED":
-            print("  ⚠  'Epic Link' not found — retrying with parent = EVB-32")
-            jql = 'project = EVB AND issuetype = "AT QA" AND parent = EVB-32 ORDER BY updated DESC'
+            print("  ⚠  'Epic Link' not found — retrying without epic filter")
+            jql = 'project = WSC AND issuetype = "AT QA" ORDER BY updated DESC'
             raw = paginate_jira(jql, "summary,status,assignee,updated,priority,labels")
         else:
             raise
@@ -160,17 +160,25 @@ def fetch_jira_tickets() -> list:
 # ── Testmo ───────────────────────────────────────────────────────────────────
 
 def fetch_testmo_runs() -> list:
-    """Fetches automation runs from project and filters to the scope of interest.
+    """Fetches runs from project and filters to the scope of interest.
 
-    The dashboard tracks one specific automation stream (Chile B2B Web nightly).
-    Testmo's UI uses `?group_id=` to slice within a manual run, but that filter
-    isn't exposed via the REST API — instead we scope by source_id + run name.
+    Uses automation/runs endpoint when TESTMO_AUTOMATION_SOURCE_ID is set,
+    otherwise falls back to manual runs endpoint (for projects like Whitestuff
+    that don't use automation sources).
     """
     src = TESTMO_AUTOMATION_SOURCE_ID
     name_re = re.compile(TESTMO_RUN_NAME_PATTERN, re.IGNORECASE) if TESTMO_RUN_NAME_PATTERN else None
-    print(f"  Fetching Testmo automation runs (project {TESTMO_PROJECT_ID}, "
-          f"source={src or '*'}, name~={TESTMO_RUN_NAME_PATTERN or '*'})…")
-    raw = paginate_testmo(f"/api/v1/projects/{TESTMO_PROJECT_ID}/automation/runs")
+
+    if src:
+        endpoint = f"/api/v1/projects/{TESTMO_PROJECT_ID}/automation/runs"
+        print(f"  Fetching Testmo automation runs (project {TESTMO_PROJECT_ID}, "
+              f"source={src}, name~={TESTMO_RUN_NAME_PATTERN or '*'})…")
+    else:
+        endpoint = f"/api/v1/projects/{TESTMO_PROJECT_ID}/runs"
+        print(f"  Fetching Testmo manual runs (project {TESTMO_PROJECT_ID}, "
+              f"name~={TESTMO_RUN_NAME_PATTERN or '*'})…")
+
+    raw = paginate_testmo(endpoint)
 
     runs = []
     for r in raw:
@@ -183,11 +191,12 @@ def fetch_testmo_runs() -> list:
             "name": r.get("name", ""),
             "source_id": r.get("source_id"),
             "milestone_id": r.get("milestone_id"),
+            "config_id": r.get("config_id"),
             "status": r.get("status"),
-            "is_completed": r.get("is_completed", False),
+            "is_completed": r.get("is_closed", r.get("is_completed", False)),
             "elapsed_ms": r.get("elapsed"),
             "created_at": r.get("created_at", ""),
-            "completed_at": r.get("completed_at", ""),
+            "completed_at": r.get("closed_at", r.get("completed_at", "")),
             "passed": r.get("success_count", 0),
             "failed": r.get("failure_count", 0),
             "pending": r.get("untested_count", 0),
