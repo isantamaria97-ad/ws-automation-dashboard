@@ -47,7 +47,7 @@ JIRA_HEADERS = {
     "Accept": "application/json",
 }
 # Try "Epic Link" first; script auto-retries with parent= if that fails
-JIRA_JQL = 'project = WSC AND issuetype = "AT QA" ORDER BY updated DESC'
+JIRA_JQL = 'project = WSC AND labels = "Needs-QA" ORDER BY updated DESC'
 
 # ── Testmo ───────────────────────────────────────────────────────────────────
 TESTMO_BASE = "https://applydigital.testmo.net"
@@ -133,7 +133,7 @@ def fetch_jira_tickets() -> list:
     except ValueError as e:
         if str(e) == "JQL_EPIC_LINK_UNSUPPORTED":
             print("  ⚠  'Epic Link' not found — retrying without epic filter")
-            jql = 'project = WSC AND issuetype = "AT QA" ORDER BY updated DESC'
+            jql = 'project = WSC AND labels = "Needs-QA" ORDER BY updated DESC'
             raw = paginate_jira(jql, "summary,status,assignee,updated,priority,labels")
         else:
             raise
