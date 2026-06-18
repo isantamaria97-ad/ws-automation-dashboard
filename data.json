@@ -1,9 +1,10 @@
 {
-  "lastUpdated": "2026-06-18T14:26:38.288401+00:00",
+  "lastUpdated": "2026-06-18T15:58:10.288793+00:00",
   "jira": {
     "summary": {
       "total": 237,
       "byStatus": {
+        "IN UAT": 1,
         "Backlog": 6,
         "Finalizada": 168,
         "En curso": 2,
@@ -13,12 +14,26 @@
         "QA Approved": 18,
         "Tech Review": 5,
         "READY FOR RELEASE": 6,
-        "PENDING DEV DEPLOY": 12,
         "Listo": 4,
+        "PENDING DEV DEPLOY": 11,
         "Deprecated": 8
       }
     },
     "tickets": [
+      {
+        "key": "WSC-1479",
+        "url": "https://e2x.atlassian.net/browse/WSC-1479",
+        "summary": "Resource Discovery & CSP Audit",
+        "status": "IN UAT",
+        "statusCategory": "indeterminate",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-06-18T16:03:44.575+0100",
+        "priority": "Not Set",
+        "labels": [
+          "CSP",
+          "NO_QA_REQUIRED"
+        ]
+      },
       {
         "key": "WSC-1138",
         "url": "https://e2x.atlassian.net/browse/WSC-1138",
@@ -260,20 +275,6 @@
         "priority": "Not Set",
         "labels": [
           "FastFollow"
-        ]
-      },
-      {
-        "key": "WSC-1479",
-        "url": "https://e2x.atlassian.net/browse/WSC-1479",
-        "summary": "Resource Discovery & CSP Audit",
-        "status": "PENDING DEV DEPLOY",
-        "statusCategory": "new",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-06-17T17:39:50.680+0100",
-        "priority": "Not Set",
-        "labels": [
-          "CSP",
-          "NO_QA_REQUIRED"
         ]
       },
       {
@@ -2957,15 +2958,83 @@
       "byFolder": []
     },
     "runs": {
-      "total": 24,
-      "latestPassed": 65,
+      "total": 28,
+      "latestPassed": 0,
       "latestFailed": 0,
-      "latestPending": 0,
+      "latestPending": 65,
       "latestTotal": 65,
-      "latestRunName": "Regression 04/06/26",
-      "latestRunDate": "2026-06-04T18:20:30.245Z",
+      "latestRunName": "Regression",
+      "latestRunDate": "2026-06-18T14:56:48.342Z",
       "passRate": 99.4,
       "recent": [
+        {
+          "id": 1814,
+          "name": "Regression",
+          "source_id": null,
+          "milestone_id": 221,
+          "config_id": 14,
+          "status": null,
+          "is_completed": false,
+          "elapsed_ms": null,
+          "created_at": "2026-06-18T14:56:48.342Z",
+          "completed_at": null,
+          "passed": 0,
+          "failed": 0,
+          "pending": 65,
+          "completed": 0,
+          "total": 65
+        },
+        {
+          "id": 1813,
+          "name": "Regression",
+          "source_id": null,
+          "milestone_id": 221,
+          "config_id": 13,
+          "status": null,
+          "is_completed": false,
+          "elapsed_ms": null,
+          "created_at": "2026-06-18T14:56:48.334Z",
+          "completed_at": null,
+          "passed": 7,
+          "failed": 0,
+          "pending": 58,
+          "completed": 7,
+          "total": 65
+        },
+        {
+          "id": 1812,
+          "name": "Regression",
+          "source_id": null,
+          "milestone_id": 221,
+          "config_id": 10,
+          "status": null,
+          "is_completed": false,
+          "elapsed_ms": null,
+          "created_at": "2026-06-18T14:56:48.326Z",
+          "completed_at": null,
+          "passed": 0,
+          "failed": 0,
+          "pending": 65,
+          "completed": 0,
+          "total": 65
+        },
+        {
+          "id": 1811,
+          "name": "Regression",
+          "source_id": null,
+          "milestone_id": 221,
+          "config_id": 9,
+          "status": null,
+          "is_completed": false,
+          "elapsed_ms": null,
+          "created_at": "2026-06-18T14:56:48.319Z",
+          "completed_at": null,
+          "passed": 0,
+          "failed": 0,
+          "pending": 65,
+          "completed": 0,
+          "total": 65
+        },
         {
           "id": 1775,
           "name": "Regression 04/06/26",
@@ -3067,74 +3136,6 @@
           "pending": 0,
           "completed": 62,
           "total": 62
-        },
-        {
-          "id": 1736,
-          "name": "Regression 19/05/26",
-          "source_id": null,
-          "milestone_id": 217,
-          "config_id": 10,
-          "status": null,
-          "is_completed": false,
-          "elapsed_ms": null,
-          "created_at": "2026-05-19T13:01:59.363Z",
-          "completed_at": null,
-          "passed": 61,
-          "failed": 1,
-          "pending": 0,
-          "completed": 62,
-          "total": 62
-        },
-        {
-          "id": 1735,
-          "name": "Regression 19/05/26",
-          "source_id": null,
-          "milestone_id": 217,
-          "config_id": 9,
-          "status": null,
-          "is_completed": false,
-          "elapsed_ms": null,
-          "created_at": "2026-05-19T13:01:59.352Z",
-          "completed_at": null,
-          "passed": 61,
-          "failed": 1,
-          "pending": 0,
-          "completed": 62,
-          "total": 62
-        },
-        {
-          "id": 1719,
-          "name": "Regression",
-          "source_id": null,
-          "milestone_id": 215,
-          "config_id": 14,
-          "status": null,
-          "is_completed": false,
-          "elapsed_ms": null,
-          "created_at": "2026-05-06T12:48:23.193Z",
-          "completed_at": null,
-          "passed": 10,
-          "failed": 0,
-          "pending": 0,
-          "completed": 10,
-          "total": 10
-        },
-        {
-          "id": 1718,
-          "name": "Regression",
-          "source_id": null,
-          "milestone_id": 215,
-          "config_id": 13,
-          "status": null,
-          "is_completed": false,
-          "elapsed_ms": null,
-          "created_at": "2026-05-06T12:48:23.187Z",
-          "completed_at": null,
-          "passed": 10,
-          "failed": 0,
-          "pending": 0,
-          "completed": 10,
-          "total": 10
         }
       ]
     },
