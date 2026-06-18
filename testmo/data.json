@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-06-18T12:44:46.502027+00:00",
+  "lastUpdated": "2026-06-18T16:45:28.214418+00:00",
   "scope": {
     "baseUrl": "https://applydigital.testmo.net",
-    "projectId": "9",
+    "projectId": "44",
     "runIds": "1726",
     "groupId": null,
     "milestoneId": null
@@ -129,2029 +129,9 @@
       "url": "https://applydigital.testmo.net/runs/view/1726",
       "cases": [
         {
-          "caseId": 40929,
-          "testId": 1546780,
-          "name": "Activar Login Biometrico",
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-05-28T16:43:53.951Z"
-        },
-        {
-          "caseId": 35523,
-          "testId": 1546645,
-          "name": "Agregar Bundles Con Descuento",
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-05-28T15:59:16.441Z"
-        },
-        {
-          "caseId": 35023,
-          "testId": 1546480,
-          "name": "Agregar Bundles Con Descuento",
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-05-20T03:46:12.236Z"
-        },
-        {
-          "caseId": 35524,
-          "testId": 1546646,
-          "name": "Agregar Favoritos En Un Cliented Sin Favoritos",
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-05-28T13:57:49.966Z"
-        },
-        {
-          "caseId": 35024,
-          "testId": 1546481,
-          "name": "Agregar Favoritos En Un Cliented Sin Favoritos",
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-05-19T00:55:59.284Z"
-        },
-        {
-          "caseId": 35028,
-          "testId": 1546484,
-          "name": "Agregar Local Con ID Cliented",
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-05-27T21:40:04.080Z"
-        },
-        {
-          "caseId": 35022,
-          "testId": 1546479,
-          "name": "Agregar Productos Con Descuentos",
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-05-20T03:46:03.571Z"
-        },
-        {
-          "caseId": 35522,
-          "testId": 1546644,
-          "name": "Agregar Productos Con Descuentos Por Productor",
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-05-28T15:58:26.482Z"
-        },
-        {
-          "caseId": 35579,
-          "testId": 1546685,
-          "name": "Agregar Productos Desde Carrousel - M\u00e1s Pedidos",
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-05-28T16:00:47.758Z"
-        },
-        {
-          "caseId": 35086,
-          "testId": 1546522,
-          "name": "Agregar Productos Desde Carrousel - M\u00e1s Pedidos",
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-05-20T03:47:44.546Z"
-        },
-        {
-          "caseId": 35581,
-          "testId": 1546687,
-          "name": "Agregar Productos Desde Carrousel - Ofertas",
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-05-28T16:00:51.911Z"
-        },
-        {
-          "caseId": 35088,
-          "testId": 1546524,
-          "name": "Agregar Productos Desde Carrousel - Ofertas",
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-05-20T03:47:51.951Z"
-        },
-        {
-          "caseId": 35562,
-          "testId": 1546677,
-          "name": "Agregar Productos Desde Carrousel - Recomendados",
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-05-28T16:00:39.629Z"
-        },
-        {
-          "caseId": 35065,
-          "testId": 1546510,
-          "name": "Agregar Productos Desde Carrousel - Recomendados",
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-05-20T03:47:33.902Z"
-        },
-        {
-          "caseId": 35561,
-          "testId": 1546676,
-          "name": "Agregar Productos Desde Cat\u00e1logo y Subcategor\u00edas",
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-05-28T16:00:31.820Z"
-        },
-        {
-          "caseId": 35064,
-          "testId": 1546509,
-          "name": "Agregar Productos Desde Cat\u00e1logo y Subcategor\u00edas",
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-05-20T03:47:13.154Z"
-        },
-        {
-          "caseId": 35537,
-          "testId": 1546652,
-          "name": "Agregar Productos Sin Descuentos",
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-05-28T15:58:31.180Z"
-        },
-        {
-          "caseId": 35036,
-          "testId": 1546486,
-          "name": "Agregar Productos Sin Descuentos",
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-05-20T03:46:07.108Z"
-        },
-        {
-          "caseId": 35645,
-          "testId": 1546727,
-          "name": "Aumento De Cupo De Cliented Sin Creditor Suficiente",
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-05-28T16:17:06.991Z"
-        },
-        {
-          "caseId": 35206,
-          "testId": 1546610,
-          "name": "Aumento De Cupo De Cliented Sin Creditor Suficiente",
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-05-25T19:39:18.038Z"
-        },
-        {
-          "caseId": 35256,
-          "testId": 1546636,
-          "name": "Boton Hacia Arriba - Nnav",
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-05-19T00:51:26.245Z"
-        },
-        {
-          "caseId": 35196,
-          "testId": 1546603,
-          "name": "Busqueda De Productos BIB  En Clientes HORECA",
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-05-28T16:24:20.892Z"
-        },
-        {
-          "caseId": 35186,
-          "testId": 1546593,
-          "name": "Busqueda Por Tipo De Empaque",
-          "statusId": 2,
-          "status": "Passed",
-          "note": "<figure class=\"image\"><img src=\"/attachments/view/10003\" alt=\"10003\" /></figure>",
-          "assigneeId": null,
-          "updatedAt": "2026-05-19T01:04:00.074Z"
-        },
-        {
-          "caseId": 35191,
-          "testId": 1546598,
-          "name": "B\u00fasqueda De Productos Con Errores Ortogr\u00e1ficos",
-          "statusId": 2,
-          "status": "Passed",
-          "note": "<figure class=\"image\"><img src=\"/attachments/view/10005\" alt=\"10005\" /></figure>",
-          "assigneeId": null,
-          "updatedAt": "2026-05-19T01:05:05.747Z"
-        },
-        {
-          "caseId": 35193,
-          "testId": 1546600,
-          "name": "B\u00fasqueda De Productos Con M\u00faltiples Palabras Claves",
-          "statusId": 2,
-          "status": "Passed",
-          "note": "<figure class=\"image\"><img src=\"/attachments/view/10007\" alt=\"10007\" /></figure>",
-          "assigneeId": null,
-          "updatedAt": "2026-05-19T01:05:43.546Z"
-        },
-        {
-          "caseId": 35185,
-          "testId": 1546592,
-          "name": "B\u00fasqueda De Productos En Favoritos",
-          "statusId": 2,
-          "status": "Passed",
-          "note": "<figure class=\"image\"></figure>",
-          "assigneeId": null,
-          "updatedAt": "2026-05-19T01:03:26.772Z"
-        },
-        {
-          "caseId": 35192,
-          "testId": 1546599,
-          "name": "B\u00fasqueda De Productos Inexistentes",
-          "statusId": 2,
-          "status": "Passed",
-          "note": "<figure class=\"image\"><img src=\"/attachments/view/10006\" alt=\"10006\" /></figure>",
-          "assigneeId": null,
-          "updatedAt": "2026-05-19T01:05:15.770Z"
-        },
-        {
-          "caseId": 35184,
-          "testId": 1546591,
-          "name": "B\u00fasqueda De Productos No Disponibles",
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-05-28T16:24:16.281Z"
-        },
-        {
-          "caseId": 35190,
-          "testId": 1546597,
-          "name": "B\u00fasqueda De Productos Por Sku",
-          "statusId": 2,
-          "status": "Passed",
-          "note": "<figure class=\"image\"><img src=\"/attachments/view/10004\" alt=\"10004\" /></figure>",
-          "assigneeId": null,
-          "updatedAt": "2026-05-19T01:04:43.634Z"
-        },
-        {
-          "caseId": 35182,
-          "testId": 1546589,
-          "name": "B\u00fasqueda Por Categorial",
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-05-19T00:58:41.798Z"
-        },
-        {
-          "caseId": 35180,
-          "testId": 1546587,
-          "name": "B\u00fasqueda Por Marca",
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-05-19T00:57:14.862Z"
-        },
-        {
-          "caseId": 35189,
-          "testId": 1546596,
-          "name": "B\u00fasqueda Por Nivel De Az\u00facar",
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-05-19T01:04:16.625Z"
-        },
-        {
-          "caseId": 35183,
-          "testId": 1546590,
-          "name": "B\u00fasqueda Por Subcategor\u00edas",
-          "statusId": 2,
-          "status": "Passed",
-          "note": "<figure class=\"image\"><img src=\"/attachments/view/10001\" alt=\"10001\" /></figure>",
-          "assigneeId": null,
-          "updatedAt": "2026-05-19T01:00:36.140Z"
-        },
-        {
-          "caseId": 35187,
-          "testId": 1546594,
-          "name": "B\u00fasqueda Por Tama\u00f1o",
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-05-19T01:04:06.010Z"
-        },
-        {
-          "caseId": 35181,
-          "testId": 1546588,
-          "name": "B\u00fasqueda Por Tipo De Productor",
-          "statusId": 2,
-          "status": "Passed",
-          "note": "<figure class=\"image\"><img src=\"/attachments/view/10000\" alt=\"10000\" /></figure>",
-          "assigneeId": null,
-          "updatedAt": "2026-05-19T00:58:10.928Z"
-        },
-        {
-          "caseId": 74025,
-          "testId": 1546783,
-          "name": "Cat\u00e1logo: Ocular Fecha Entrega y Selector Locales",
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-05-28T13:57:44.228Z"
-        },
-        {
-          "caseId": 74024,
-          "testId": 1546782,
-          "name": "Cat\u00e1logo: Ocular Fecha Entrega y Selector Locales",
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-05-19T00:52:41.333Z"
-        },
-        {
-          "caseId": 35229,
-          "testId": 1546626,
-          "name": "Configurar Notificaciones Por Tienda",
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-05-28T16:23:33.846Z"
-        },
-        {
-          "caseId": 35746,
-          "testId": 1546768,
-          "name": "Detalle De Productos Pedidos",
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-05-27T22:34:47.947Z"
-        },
-        {
-          "caseId": 35749,
-          "testId": 1546769,
-          "name": "Drawer De Pago Disponible",
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-05-28T16:16:46.818Z"
-        },
-        {
-          "caseId": 40895,
-          "testId": 1546778,
-          "name": "EAN: Acceso Searchbar",
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-05-28T20:52:36.247Z"
-        },
-        {
-          "caseId": 40899,
-          "testId": 1546779,
-          "name": "EAN: Productor No Encontrado",
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-05-28T20:52:39.151Z"
-        },
-        {
-          "caseId": 35526,
-          "testId": 1546648,
-          "name": "Eliminar Favoritos",
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-05-28T13:57:55.954Z"
-        },
-        {
-          "caseId": 35026,
-          "testId": 1546483,
-          "name": "Eliminar Favoritos",
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-05-19T00:56:39.890Z"
-        },
-        {
-          "caseId": 43090,
-          "testId": 1546781,
-          "name": "Express: Alerts",
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-05-28T20:57:18.174Z"
-        },
-        {
-          "caseId": 35751,
-          "testId": 1546771,
-          "name": "Flujo De Pago Post-Flow",
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-05-28T16:16:36.775Z"
-        },
-        {
-          "caseId": 35739,
-          "testId": 1546766,
-          "name": "Jerarquia De Etiquetas",
-          "statusId": 2,
-          "status": "Passed",
-          "note": "<figure class=\"image\"><img src=\"/attachments/view/10069\" alt=\"10069\" /></figure>",
-          "assigneeId": null,
-          "updatedAt": "2026-05-28T22:02:13.597Z"
-        },
-        {
-          "caseId": 40894,
-          "testId": 1546777,
-          "name": "Mis Chequers Por Vencer: Push y Mensaje",
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-05-28T22:03:17.978Z"
-        },
-        {
-          "caseId": 35777,
-          "testId": 1546773,
-          "name": "Mis Pagos App \"vista Detalle\"",
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-05-28T22:03:38.271Z"
-        },
-        {
-          "caseId": 40893,
-          "testId": 1546776,
-          "name": "Modal Cr\u00e9dito Preaprobado: Datos Generales",
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-05-28T16:22:48.343Z"
-        },
-        {
-          "caseId": 40887,
-          "testId": 1546775,
-          "name": "Modal Cr\u00e9dito Preaprobado: Modal Felicidades",
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-05-28T16:22:41.969Z"
-        },
-        {
-          "caseId": 35169,
-          "testId": 1546576,
-          "name": "Notificaciones - Push",
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-05-28T16:23:28.541Z"
-        },
-        {
-          "caseId": 35170,
-          "testId": 1546577,
-          "name": "Notificaciones - Recordatorio",
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-05-28T16:23:31.545Z"
-        },
-        {
-          "caseId": 35168,
-          "testId": 1546575,
-          "name": "Notificaciones Con Deeplink a Carrito Abandonado",
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-05-28T16:23:25.597Z"
-        },
-        {
-          "caseId": 35166,
-          "testId": 1546573,
-          "name": "Notificaciones Push",
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-05-28T16:23:14.686Z"
-        },
-        {
-          "caseId": 35167,
-          "testId": 1546574,
-          "name": "Notificaciones Push Con Cambio De Local",
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-05-28T16:23:22.036Z"
-        },
-        {
-          "caseId": 35752,
-          "testId": 1546772,
-          "name": "Pantalla De Selecci\u00f3n De Bancos",
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-05-28T16:16:33.114Z"
-        },
-        {
-          "caseId": 35016,
-          "testId": 1546476,
-          "name": "Splash Screen - Configuraciones",
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-05-27T22:40:03.401Z"
-        },
-        {
-          "caseId": 35750,
-          "testId": 1546770,
-          "name": "Stickbar De Pago Pendiente",
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-05-28T16:16:23.777Z"
-        },
-        {
-          "caseId": 35743,
-          "testId": 1546767,
-          "name": "Tienda Con Chequers (recepcionados, Protestados Por Vencer))",
-          "statusId": 2,
-          "status": "Passed",
-          "note": "<figure class=\"image\"><img src=\"/attachments/view/10070\" alt=\"10070\" /></figure>",
-          "assigneeId": null,
-          "updatedAt": "2026-05-28T22:02:40.326Z"
-        },
-        {
-          "caseId": 35737,
-          "testId": 1546764,
-          "name": "Tienda Con Chequers Recepcionados",
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-05-28T22:01:45.595Z"
-        },
-        {
-          "caseId": 35738,
-          "testId": 1546765,
-          "name": "Tienda Con Chequers Recepcionados y Por Vencer",
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-05-28T22:01:51.927Z"
-        },
-        {
-          "caseId": 35736,
-          "testId": 1546763,
-          "name": "Tienda Sin Chequers",
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-05-28T16:34:33.063Z"
-        },
-        {
-          "caseId": 35087,
-          "testId": 1546523,
-          "name": "Vaciar Carrito",
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-05-20T03:46:15.755Z"
-        },
-        {
-          "caseId": 35580,
-          "testId": 1546686,
-          "name": "Vaciar Carrito Desde Button (no Desarrollado)",
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-05-28T15:59:43.258Z"
-        },
-        {
-          "caseId": 35564,
-          "testId": 1546679,
-          "name": "Vaciar Carrito Una Vez Que Existan Productos",
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-05-28T15:59:52.820Z"
-        },
-        {
-          "caseId": 35067,
-          "testId": 1546512,
-          "name": "Vaciar Carrito Una Vez Que Existan Productos",
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-05-20T03:46:43.015Z"
-        },
-        {
-          "caseId": 35251,
-          "testId": 1546631,
-          "name": "Valdiar Email Al Realizar Un Nuevo Registro",
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-05-28T16:22:58.698Z"
-        },
-        {
-          "caseId": 35689,
-          "testId": 1546744,
-          "name": "Validaciones De Campos Alfanumericos",
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-05-25T19:41:25.958Z"
-        },
-        {
-          "caseId": 35014,
-          "testId": 1546474,
-          "name": "Validaciones De Campos Alfanumericos",
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": 136,
-          "updatedAt": "2026-05-18T16:31:42.746Z"
-        },
-        {
-          "caseId": 35171,
-          "testId": 1546578,
-          "name": "Validaci\u00f3n De Navegaci\u00f3n De Home",
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-05-19T00:50:05.941Z"
-        },
-        {
-          "caseId": 35048,
-          "testId": 1546498,
-          "name": "Validar  Cliented Con Mas Pedidos",
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": 136,
-          "updatedAt": "2026-05-19T00:31:12.474Z"
-        },
-        {
-          "caseId": 35050,
-          "testId": 1546500,
-          "name": "Validar  Cliented No Posea Mas Pedidos",
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": 136,
-          "updatedAt": "2026-05-19T00:34:45.734Z"
-        },
-        {
-          "caseId": 35733,
-          "testId": 1546760,
-          "name": "Validar  Label De Cheque En El Men\u00fa",
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-05-28T16:34:48.573Z"
-        },
-        {
-          "caseId": 35125,
-          "testId": 1546547,
-          "name": "Validar  Que El Nombre De Pedido Se Edite",
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-05-27T22:35:26.631Z"
-        },
-        {
-          "caseId": 35621,
-          "testId": 1546716,
-          "name": "Validar  Que El Nombre De Pedido Se Edite",
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-05-27T22:34:04.992Z"
-        },
-        {
-          "caseId": 35098,
-          "testId": 1546534,
-          "name": "Validar  Se Visualice El Modal De Recomendados",
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-05-20T03:50:07.891Z"
-        },
-        {
-          "caseId": 35126,
-          "testId": 1546548,
-          "name": "Validar \"compartir Pedido\"",
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-05-27T22:35:29.773Z"
-        },
-        {
-          "caseId": 35622,
-          "testId": 1546717,
-          "name": "Validar \"compartir Pedido\"",
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-05-27T22:34:31.665Z"
-        },
-        {
-          "caseId": 35588,
-          "testId": 1546694,
-          "name": "Validar \"continuar Pedido\"",
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-05-28T16:02:36.067Z"
-        },
-        {
-          "caseId": 35095,
-          "testId": 1546531,
-          "name": "Validar \"continuar Pedido\"",
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-05-20T03:49:47.958Z"
-        },
-        {
-          "caseId": 35244,
-          "testId": 1546628,
-          "name": "Validar \"repetir Pedido\"  Con Productos Con Cambio De Precio",
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-05-27T22:35:40.327Z"
-        },
-        {
-          "caseId": 35127,
-          "testId": 1546549,
-          "name": "Validar \"repetir Pedido\"  Con Productos Disponibles",
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-05-27T22:35:33.445Z"
-        },
-        {
-          "caseId": 35243,
-          "testId": 1546627,
-          "name": "Validar \"repetir Pedido\"  Con Productos No Disponibles",
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-05-27T22:35:36.322Z"
-        },
-        {
-          "caseId": 35228,
-          "testId": 1546625,
-          "name": "Validar \"resume De Productos\"",
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-05-25T19:38:40.445Z"
-        },
-        {
-          "caseId": 35647,
-          "testId": 1546729,
-          "name": "Validar Agregar Local",
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-05-27T21:43:46.704Z"
-        },
-        {
-          "caseId": 35637,
-          "testId": 1546719,
-          "name": "Validar Aumento De Cupo De Locales Sin Cr\u00e9dito Disponible",
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-05-27T21:43:42.895Z"
-        },
-        {
-          "caseId": 35559,
-          "testId": 1546674,
-          "name": "Validar Badge De Agregar y Quitar Productos",
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-05-28T16:00:00.783Z"
-        },
-        {
-          "caseId": 35062,
-          "testId": 1546507,
-          "name": "Validar Badge De Agregar y Quitar Productos",
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-05-20T03:46:52.726Z"
-        },
-        {
-          "caseId": 35222,
-          "testId": 1546619,
-          "name": "Validar Banner",
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-05-28T16:57:09.197Z"
-        },
-        {
-          "caseId": 35713,
-          "testId": 1546753,
-          "name": "Validar Bloqueo De Girar Pantalla En Dispositivos",
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-05-28T16:06:31.852Z"
-        },
-        {
-          "caseId": 35258,
-          "testId": 1546638,
-          "name": "Validar Bloqueo De Girar Pantalla En Dispositivos",
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-05-20T03:54:24.090Z"
-        },
-        {
-          "caseId": 35597,
-          "testId": 1546703,
-          "name": "Validar B\u00fasqueda De Productos",
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-05-25T19:42:04.126Z"
-        },
-        {
-          "caseId": 35114,
-          "testId": 1546542,
-          "name": "Validar B\u00fasqueda De Productos",
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": 136,
-          "updatedAt": "2026-05-19T00:47:25.329Z"
-        },
-        {
-          "caseId": 35150,
-          "testId": 1546566,
-          "name": "Validar B\u00fasqueda Por ID Usando El Filtro",
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-05-27T22:34:59.277Z"
-        },
-        {
-          "caseId": 35151,
-          "testId": 1546567,
-          "name": "Validar B\u00fasqueda Por Nombre",
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-05-27T22:35:19.504Z"
-        },
-        {
-          "caseId": 35540,
-          "testId": 1546655,
-          "name": "Validar Cambiar Contrase\u00f1a",
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-05-28T13:58:12.040Z"
-        },
-        {
-          "caseId": 35046,
-          "testId": 1546496,
-          "name": "Validar Cambiar Contrase\u00f1a",
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-05-19T20:41:38.425Z"
-        },
-        {
-          "caseId": 35541,
-          "testId": 1546656,
-          "name": "Validar Cambiar Tel\u00e9fono De Contactor",
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-05-28T13:58:14.526Z"
-        },
-        {
-          "caseId": 35047,
-          "testId": 1546497,
-          "name": "Validar Cambiar Tel\u00e9fono De Contactor",
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-05-19T20:41:42.577Z"
-        },
-        {
-          "caseId": 35653,
-          "testId": 1546735,
-          "name": "Validar Cantidad De Productos (Otros)",
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-05-28T16:15:36.084Z"
-        },
-        {
-          "caseId": 35188,
-          "testId": 1546595,
-          "name": "Validar Cantidad De Productos (resultado De B\u00fasqueda)",
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-05-19T01:04:10.882Z"
-        },
-        {
-          "caseId": 35652,
-          "testId": 1546734,
-          "name": "Validar Cantidad De Productos Maximos y Minimos",
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-05-28T16:13:25.439Z"
-        },
-        {
-          "caseId": 35210,
-          "testId": 1546614,
-          "name": "Validar Cantidad De Productos Maximos y Minimos",
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-05-25T19:36:21.792Z"
-        },
-        {
-          "caseId": 35090,
-          "testId": 1546526,
-          "name": "Validar Carrito Con Productos",
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-05-20T03:45:43.753Z"
-        },
-        {
-          "caseId": 35585,
-          "testId": 1546691,
-          "name": "Validar Carrito Cuando Agrego Productos",
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-05-28T15:57:01.268Z"
-        },
-        {
-          "caseId": 35092,
-          "testId": 1546528,
-          "name": "Validar Carrito Cuando Agrego Productos",
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-05-20T03:45:53.563Z"
-        },
-        {
-          "caseId": 35584,
-          "testId": 1546690,
-          "name": "Validar Carrito Cuando No Tiene Productos",
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-05-28T15:56:47.408Z"
-        },
-        {
-          "caseId": 35093,
-          "testId": 1546529,
-          "name": "Validar Carrito Cuando Quito Productos",
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-05-20T03:45:57.984Z"
-        },
-        {
-          "caseId": 35583,
-          "testId": 1546689,
-          "name": "Validar Carrito Cuando Tiene Productos",
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-05-28T15:57:04.031Z"
-        },
-        {
-          "caseId": 35091,
-          "testId": 1546527,
-          "name": "Validar Carrito Sin Productos",
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-05-20T03:45:48.489Z"
-        },
-        {
-          "caseId": 35563,
-          "testId": 1546678,
-          "name": "Validar Carrito Vacio",
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-05-28T15:56:29.853Z"
-        },
-        {
-          "caseId": 35066,
-          "testId": 1546511,
-          "name": "Validar Carrito Vacio",
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-05-20T03:45:36.465Z"
-        },
-        {
-          "caseId": 35100,
-          "testId": 1546536,
-          "name": "Validar Carritos Transparentes",
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-05-28T20:53:42.502Z"
-        },
-        {
-          "caseId": 35593,
-          "testId": 1546699,
-          "name": "Validar Carritos Transparentes En WEB B2B y APP B2B",
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-05-28T16:03:42.371Z"
-        },
-        {
-          "caseId": 35518,
-          "testId": 1546641,
-          "name": "Validar Centro De Ayuda",
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-05-27T22:40:18.643Z"
-        },
-        {
-          "caseId": 35010,
-          "testId": 1546470,
-          "name": "Validar Centro De Ayuda",
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-05-25T19:40:05.753Z"
-        },
-        {
-          "caseId": 35646,
-          "testId": 1546728,
-          "name": "Validar Cliented Sin Creditor Disponible",
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-05-28T16:17:10.114Z"
-        },
-        {
-          "caseId": 35207,
-          "testId": 1546611,
-          "name": "Validar Cliented Sin Creditor Disponible",
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-05-25T19:39:14.021Z"
-        },
-        {
-          "caseId": 35049,
-          "testId": 1546499,
-          "name": "Validar Cliented Sin Productos Recomendados",
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-05-19T00:40:27.671Z"
-        },
-        {
-          "caseId": 35643,
-          "testId": 1546725,
-          "name": "Validar Clientes Con Creditor Disponible",
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-05-28T16:17:00.442Z"
-        },
-        {
-          "caseId": 35204,
-          "testId": 1546608,
-          "name": "Validar Clientes Con Creditor Disponible",
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-05-25T19:38:56.777Z"
-        },
-        {
-          "caseId": 35644,
-          "testId": 1546726,
-          "name": "Validar Clientes Con Pago Contraentrega",
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-05-28T16:17:03.117Z"
-        },
-        {
-          "caseId": 35205,
-          "testId": 1546609,
-          "name": "Validar Clientes Con Pago Contraentrega",
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-05-25T19:39:21.699Z"
-        },
-        {
-          "caseId": 35164,
-          "testId": 1546571,
-          "name": "Validar Clientes Que Contengan Solo La Seccion De Catalogo En Home",
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-05-19T00:49:59.496Z"
-        },
-        {
-          "caseId": 35717,
-          "testId": 1546757,
-          "name": "Validar Compartir Detalle De Factura",
-          "statusId": 2,
-          "status": "Passed",
-          "note": "<p>Se valida con tienda <a href=\"tel:1003877\">1003877</a></p>",
-          "assigneeId": null,
-          "updatedAt": "2026-05-28T20:52:19.034Z"
-        },
-        {
-          "caseId": 35154,
-          "testId": 1546570,
-          "name": "Validar Compartir Detalle De Factura",
-          "statusId": 2,
-          "status": "Passed",
-          "note": "<p>Se valida con tienda <a href=\"tel:1003877\">1003877</a></p>",
-          "assigneeId": null,
-          "updatedAt": "2026-05-28T20:51:04.789Z"
-        },
-        {
-          "caseId": 35072,
-          "testId": 1546517,
-          "name": "Validar Dias De Atencion y Horarios En Clientes De Cochabamba",
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-05-28T13:54:25.013Z"
-        },
-        {
-          "caseId": 35070,
-          "testId": 1546515,
-          "name": "Validar Dias De Atenci\u00f3n De Clientes De La Paz",
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-05-28T13:54:16.819Z"
-        },
-        {
-          "caseId": 35071,
-          "testId": 1546516,
-          "name": "Validar Dias De Atenci\u00f3n De Clientes De Santa Cruz",
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-05-28T13:54:19.833Z"
-        },
-        {
-          "caseId": 35538,
-          "testId": 1546653,
-          "name": "Validar Edici\u00f3n De Email a Clientes  Con Login via  Tel\u00e9fono",
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-05-28T13:58:05.960Z"
-        },
-        {
-          "caseId": 35044,
-          "testId": 1546494,
-          "name": "Validar Edici\u00f3n De Email a Clientes  Con Login via  Tel\u00e9fono",
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-05-19T20:41:32.250Z"
-        },
-        {
-          "caseId": 35539,
-          "testId": 1546654,
-          "name": "Validar Edici\u00f3n De Nombre",
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-05-28T13:58:09.285Z"
-        },
-        {
-          "caseId": 35045,
-          "testId": 1546495,
-          "name": "Validar Edici\u00f3n De Nombre",
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-05-19T20:41:35.288Z"
-        },
-        {
-          "caseId": 35586,
-          "testId": 1546692,
-          "name": "Validar El Contador De Carrito Cuando Quito Productos",
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-05-28T15:57:18.729Z"
-        },
-        {
-          "caseId": 35716,
-          "testId": 1546756,
-          "name": "Validar El Detalle De Las Facturas",
-          "statusId": 2,
-          "status": "Passed",
-          "note": "<p>Se valida con tienda <a href=\"tel:1003877\">1003877</a></p>",
-          "assigneeId": null,
-          "updatedAt": "2026-05-28T20:52:15.370Z"
-        },
-        {
-          "caseId": 35153,
-          "testId": 1546569,
-          "name": "Validar El Detalle De Las Facturas",
-          "statusId": 2,
-          "status": "Passed",
-          "note": "<p>Se valida con tienda <a href=\"tel:1003877\">1003877</a></p>",
-          "assigneeId": null,
-          "updatedAt": "2026-05-28T20:50:33.444Z"
-        },
-        {
-          "caseId": 35560,
-          "testId": 1546675,
-          "name": "Validar El Drawer De Agregar y Quitar Productos",
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-05-28T16:00:11.644Z"
-        },
-        {
-          "caseId": 35063,
-          "testId": 1546508,
-          "name": "Validar El Drawer De Agregar y Quitar Productos",
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-05-20T03:47:01.926Z"
-        },
-        {
-          "caseId": 35715,
-          "testId": 1546755,
-          "name": "Validar El Listado De Facturas Disponibles",
-          "statusId": 2,
-          "status": "Passed",
-          "note": "<p>Se valida con tienda <a href=\"tel:1003877\">1003877</a></p>",
-          "assigneeId": null,
-          "updatedAt": "2026-05-28T20:52:11.559Z"
-        },
-        {
-          "caseId": 35152,
-          "testId": 1546568,
-          "name": "Validar El Listado De Facturas Disponibles",
-          "statusId": 2,
-          "status": "Passed",
-          "note": "<p>Se valida con tienda <a href=\"tel:1003877\">1003877</a></p>",
-          "assigneeId": null,
-          "updatedAt": "2026-05-28T20:50:17.917Z"
-        },
-        {
-          "caseId": 35656,
-          "testId": 1546738,
-          "name": "Validar El Loader De Inicio De Sesi\u00f3n",
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-05-25T19:40:49.831Z"
-        },
-        {
-          "caseId": 35208,
-          "testId": 1546612,
-          "name": "Validar El Loader De Inicio De Sesi\u00f3n",
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": 136,
-          "updatedAt": "2026-05-18T15:49:46.816Z"
-        },
-        {
-          "caseId": 35688,
-          "testId": 1546743,
-          "name": "Validar El Login -Copiar y Pegar- Desde Portapapeles",
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-05-25T19:41:10.518Z"
-        },
-        {
-          "caseId": 35013,
-          "testId": 1546473,
-          "name": "Validar El Login -Copiar y Pegar- Desde Portapapeles",
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": 136,
-          "updatedAt": "2026-05-18T16:00:48.064Z"
-        },
-        {
-          "caseId": 35582,
-          "testId": 1546688,
-          "name": "Validar El Modal De Retornabilidad",
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-05-28T16:02:11.260Z"
-        },
-        {
-          "caseId": 35089,
-          "testId": 1546525,
-          "name": "Validar El Modal De Retornabilidad",
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-05-20T03:47:56.594Z"
-        },
-        {
-          "caseId": 35249,
-          "testId": 1546629,
-          "name": "Validar El Orden Del Carrito",
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-05-28T20:57:10.159Z"
-        },
-        {
-          "caseId": 35112,
-          "testId": 1546540,
-          "name": "Validar Elementos De  Registro Paso 2",
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-05-28T16:24:41.752Z"
-        },
-        {
-          "caseId": 35224,
-          "testId": 1546621,
-          "name": "Validar Elementos De Checkout",
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-05-25T19:38:27.507Z"
-        },
-        {
-          "caseId": 35569,
-          "testId": 1546683,
-          "name": "Validar Elementos De La Pantalla",
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-05-28T13:58:16.947Z"
-        },
-        {
-          "caseId": 35075,
-          "testId": 1546520,
-          "name": "Validar Elementos De La Pantalla",
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-05-19T20:42:36.703Z"
-        },
-        {
-          "caseId": 35594,
-          "testId": 1546700,
-          "name": "Validar Elementos De La Pantalla De Registro Paso 1",
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-05-28T13:57:12.987Z"
-        },
-        {
-          "caseId": 35595,
-          "testId": 1546701,
-          "name": "Validar Elementos De La Pantalla De Registro Paso 2",
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-05-28T13:57:15.621Z"
-        },
-        {
-          "caseId": 35596,
-          "testId": 1546702,
-          "name": "Validar Elementos De La Pantalla De Registro Paso 3",
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-05-28T13:57:18.276Z"
-        },
-        {
-          "caseId": 35217,
-          "testId": 1546615,
-          "name": "Validar Elementos De Registro - OTP Whatsapp",
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-05-28T16:28:01.669Z"
-        },
-        {
-          "caseId": 35111,
-          "testId": 1546539,
-          "name": "Validar Elementos De Registro Paso 1",
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-05-28T16:24:36.669Z"
-        },
-        {
-          "caseId": 35113,
-          "testId": 1546541,
-          "name": "Validar Elementos De Registro Paso 3",
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-05-28T16:24:49.644Z"
-        },
-        {
-          "caseId": 35649,
-          "testId": 1546731,
-          "name": "Validar Eliminar Local (un Solo Local)",
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-05-27T21:43:56.915Z"
-        },
-        {
-          "caseId": 35648,
-          "testId": 1546730,
-          "name": "Validar Eliminar Local Cuando Es Local Default",
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-05-27T21:43:54.041Z"
-        },
-        {
-          "caseId": 35252,
-          "testId": 1546632,
-          "name": "Validar Email Al Realizar Un Pedido",
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-05-28T16:23:00.812Z"
-        },
-        {
-          "caseId": 35250,
-          "testId": 1546630,
-          "name": "Validar Email Al Recuperar Contrase\u00f1a",
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-05-28T16:22:56.230Z"
-        },
-        {
-          "caseId": 35225,
-          "testId": 1546622,
-          "name": "Validar Fecha De Entrega",
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-05-25T19:38:32.027Z"
-        },
-        {
-          "caseId": 35073,
-          "testId": 1546518,
-          "name": "Validar Feriados En Clientes Bolivia",
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-05-28T13:54:28.941Z"
-        },
-        {
-          "caseId": 35684,
-          "testId": 1546739,
-          "name": "Validar Filtros y Ordenamientos",
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-05-28T13:57:58.232Z"
-        },
-        {
-          "caseId": 35520,
-          "testId": 1546643,
-          "name": "Validar Go Back Hacia Login",
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-05-27T22:40:23.974Z"
-        },
-        {
-          "caseId": 35012,
-          "testId": 1546472,
-          "name": "Validar Go Back Hacia Login",
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-05-25T19:40:16.251Z"
-        },
-        {
-          "caseId": 35606,
-          "testId": 1546708,
-          "name": "Validar Icono De Notificaciones",
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-05-25T19:42:12.281Z"
-        },
-        {
-          "caseId": 35198,
-          "testId": 1546605,
-          "name": "Validar La Creaci\u00f3n De Dos Ordenes",
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-05-28T16:56:09.153Z"
-        },
-        {
-          "caseId": 35610,
-          "testId": 1546710,
-          "name": "Validar La Navegaci\u00f3n Desde Carrito",
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-05-28T16:04:50.086Z"
-        },
-        {
-          "caseId": 35147,
-          "testId": 1546563,
-          "name": "Validar La Navegaci\u00f3n Desde Carrito",
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-05-20T03:50:51.476Z"
-        },
-        {
-          "caseId": 35600,
-          "testId": 1546706,
-          "name": "Validar La Navegaci\u00f3n Desde Catalogo",
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-05-28T13:57:40.040Z"
-        },
-        {
-          "caseId": 35130,
-          "testId": 1546552,
-          "name": "Validar La Navegaci\u00f3n Desde Catalogo",
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-05-19T00:51:03.472Z"
-        },
-        {
-          "caseId": 35605,
-          "testId": 1546707,
-          "name": "Validar La Navegaci\u00f3n Desde Facturas",
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-05-28T16:06:00.332Z"
-        },
-        {
-          "caseId": 35145,
-          "testId": 1546561,
-          "name": "Validar La Navegaci\u00f3n Desde Facturas",
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-05-20T03:52:19.422Z"
-        },
-        {
-          "caseId": 35552,
-          "testId": 1546667,
-          "name": "Validar La Navegaci\u00f3n Desde Favoritos",
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-05-28T16:04:41.280Z"
-        },
-        {
-          "caseId": 35138,
-          "testId": 1546554,
-          "name": "Validar La Navegaci\u00f3n Desde Favoritos",
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-05-20T03:50:42.864Z"
-        },
-        {
-          "caseId": 35599,
-          "testId": 1546705,
-          "name": "Validar La Navegaci\u00f3n Desde Home",
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-05-28T13:57:35.841Z"
-        },
-        {
-          "caseId": 35129,
-          "testId": 1546551,
-          "name": "Validar La Navegaci\u00f3n Desde Home",
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-05-19T00:50:52.609Z"
-        },
-        {
-          "caseId": 35554,
-          "testId": 1546669,
-          "name": "Validar La Navegaci\u00f3n Desde Men\u00fa Hamburguesa",
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-05-28T16:04:57.350Z"
-        },
-        {
-          "caseId": 35140,
-          "testId": 1546556,
-          "name": "Validar La Navegaci\u00f3n Desde Men\u00fa Hamburguesa",
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-05-20T03:51:29.604Z"
-        },
-        {
-          "caseId": 35174,
-          "testId": 1546581,
-          "name": "Validar La Navegaci\u00f3n Desde Mi Perfil",
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-05-20T03:52:37.275Z"
-        },
-        {
-          "caseId": 35553,
-          "testId": 1546668,
-          "name": "Validar La Navegaci\u00f3n Desde Pedidos",
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-05-28T16:04:47.598Z"
-        },
-        {
-          "caseId": 35139,
-          "testId": 1546555,
-          "name": "Validar La Navegaci\u00f3n Desde Pedidos",
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-05-20T03:50:45.866Z"
-        },
-        {
-          "caseId": 35178,
-          "testId": 1546585,
-          "name": "Validar La Navegaci\u00f3n Internal De \"cambiar Contrase\u00f1a\" En Mi Perfil",
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-05-20T03:54:13.048Z"
-        },
-        {
-          "caseId": 35176,
-          "testId": 1546583,
-          "name": "Validar La Navegaci\u00f3n Internal De \"cambiar Email\" En Mi Perfil",
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-05-20T03:52:43.210Z"
-        },
-        {
-          "caseId": 35175,
-          "testId": 1546582,
-          "name": "Validar La Navegaci\u00f3n Internal De \"cambiar Nombre\" En Mi Perfil",
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-05-20T03:52:39.689Z"
-        },
-        {
-          "caseId": 35177,
-          "testId": 1546584,
-          "name": "Validar La Navegaci\u00f3n Internal De \"cambiar Telefono\" En Mi Perfil",
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-05-20T03:52:48.306Z"
-        },
-        {
-          "caseId": 35587,
-          "testId": 1546693,
-          "name": "Validar La Vista De  Carrito Con Productos Agregados",
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-05-28T16:02:23.458Z"
-        },
-        {
-          "caseId": 35094,
-          "testId": 1546530,
-          "name": "Validar La Vista De  Carrito Con Productos Agregados",
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-05-20T03:49:37.689Z"
-        },
-        {
-          "caseId": 35220,
-          "testId": 1546617,
-          "name": "Validar Label De Primer Compra En Carrito",
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-05-28T16:56:18.165Z"
-        },
-        {
-          "caseId": 35535,
-          "testId": 1546651,
-          "name": "Validar Las Apis Intervinientes",
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-05-28T13:57:33.151Z"
-        },
-        {
-          "caseId": 35034,
-          "testId": 1546485,
-          "name": "Validar Las Apis Intervinientes",
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-05-19T00:50:30.506Z"
-        },
-        {
-          "caseId": 35711,
-          "testId": 1546751,
-          "name": "Validar Loader De Inicio De Sesi\u00f3n",
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-05-25T19:41:28.810Z"
-        },
-        {
-          "caseId": 35199,
-          "testId": 1546606,
-          "name": "Validar Loader De Inicio De Sesi\u00f3n",
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": 136,
-          "updatedAt": "2026-05-19T00:25:16.861Z"
-        },
-        {
-          "caseId": 35691,
-          "testId": 1546746,
-          "name": "Validar Login Con Contrase\u00f1a Incorrect",
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-05-25T19:41:03.361Z"
-        },
-        {
-          "caseId": 35017,
-          "testId": 1546477,
-          "name": "Validar Login Con Contrase\u00f1a Incorrect",
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": 136,
-          "updatedAt": "2026-05-18T15:53:59.914Z"
-        },
-        {
-          "caseId": 35692,
-          "testId": 1546747,
-          "name": "Validar Login Con Email",
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-05-25T19:41:08.074Z"
-        },
-        {
-          "caseId": 35019,
-          "testId": 1546478,
-          "name": "Validar Login Con Email",
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": 136,
-          "updatedAt": "2026-05-18T16:00:07.012Z"
-        },
-        {
-          "caseId": 35687,
-          "testId": 1546742,
-          "name": "Validar Login Con Email No Registrado",
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-05-25T19:41:13.535Z"
-        },
-        {
-          "caseId": 35009,
-          "testId": 1546469,
-          "name": "Validar Login Con Email No Registrado",
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": 136,
-          "updatedAt": "2026-05-18T16:02:24.922Z"
-        },
-        {
-          "caseId": 35685,
-          "testId": 1546740,
-          "name": "Validar Login Con Recupero De Contrase\u00f1a",
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-05-25T19:41:00.132Z"
-        },
-        {
           "caseId": 35007,
           "testId": 1546467,
-          "name": "Validar Login Con Recupero De Contrase\u00f1a",
+          "name": "Case #35007",
           "statusId": 2,
           "status": "Passed",
           "note": "",
@@ -2159,79 +139,9 @@
           "updatedAt": "2026-05-18T15:51:10.899Z"
         },
         {
-          "caseId": 35106,
-          "testId": 1546538,
-          "name": "Validar Login Con Telefono",
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-05-28T16:43:56.881Z"
-        },
-        {
-          "caseId": 35705,
-          "testId": 1546749,
-          "name": "Validar Login Con Telefono",
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-05-25T19:41:05.593Z"
-        },
-        {
-          "caseId": 35101,
-          "testId": 1546537,
-          "name": "Validar Login Con Username No Confirmado",
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-05-28T16:43:59.983Z"
-        },
-        {
-          "caseId": 35700,
-          "testId": 1546748,
-          "name": "Validar Login Con Username No Confirmado",
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-05-25T19:41:15.793Z"
-        },
-        {
-          "caseId": 35179,
-          "testId": 1546586,
-          "name": "Validar Login Con Usuario Inactivo",
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-05-28T16:44:02.634Z"
-        },
-        {
-          "caseId": 35710,
-          "testId": 1546750,
-          "name": "Validar Login Con Usuario Inactivo",
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-05-25T19:41:18.131Z"
-        },
-        {
-          "caseId": 35686,
-          "testId": 1546741,
-          "name": "Validar Login Sin Conexi\u00f3n De Internet",
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-05-25T19:41:20.418Z"
-        },
-        {
           "caseId": 35008,
           "testId": 1546468,
-          "name": "Validar Login Sin Conexi\u00f3n De Internet",
+          "name": "Case #35008",
           "statusId": 2,
           "status": "Passed",
           "note": "",
@@ -2239,699 +149,29 @@
           "updatedAt": "2026-05-18T16:16:35.456Z"
         },
         {
-          "caseId": 35068,
-          "testId": 1546513,
-          "name": "Validar Los Datos Correspondientes a Locales Con Creditor Disponible",
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-05-28T13:54:04.388Z"
-        },
-        {
-          "caseId": 35565,
-          "testId": 1546680,
-          "name": "Validar Los Datos Correspondientes a Locales Con Creditor Disponible",
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-05-27T21:41:36.158Z"
-        },
-        {
-          "caseId": 35149,
-          "testId": 1546565,
-          "name": "Validar Los Datos Correspondientes a Locales Con Creditor No Disponible",
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-05-28T13:54:13.818Z"
-        },
-        {
-          "caseId": 35566,
-          "testId": 1546681,
-          "name": "Validar Los Datos Correspondientes a Locales Con Creditor No Disponible",
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-05-27T21:42:25.603Z"
-        },
-        {
-          "caseId": 35069,
-          "testId": 1546514,
-          "name": "Validar Los Datos Correspondientes a Locales Contado",
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-05-28T13:54:08.198Z"
-        },
-        {
-          "caseId": 35567,
-          "testId": 1546682,
-          "name": "Validar Los Datos Correspondientes a Locales Contado",
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-05-27T21:42:28.256Z"
-        },
-        {
-          "caseId": 35609,
-          "testId": 1546709,
-          "name": "Validar Los Go Back De Las Pantallas De Cat\u00e1logo",
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-05-28T16:04:25.948Z"
-        },
-        {
-          "caseId": 35146,
-          "testId": 1546562,
-          "name": "Validar Los Go Back De Las Pantallas De Cat\u00e1logo",
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-05-20T03:50:38.242Z"
-        },
-        {
-          "caseId": 35551,
-          "testId": 1546666,
-          "name": "Validar Los Go Back De Las Pantallas De Home",
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-05-28T16:03:54.697Z"
-        },
-        {
-          "caseId": 35137,
-          "testId": 1546553,
-          "name": "Validar Los Go Back De Las Pantallas De Home",
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-05-20T03:50:35.469Z"
-        },
-        {
-          "caseId": 35128,
-          "testId": 1546550,
-          "name": "Validar Los Productos Pedidos",
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-05-27T22:35:43.057Z"
-        },
-        {
-          "caseId": 35221,
-          "testId": 1546618,
-          "name": "Validar Mensaje Final En Thank You Page",
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-05-28T16:56:22.864Z"
-        },
-        {
-          "caseId": 35226,
-          "testId": 1546623,
-          "name": "Validar Metodo De Pago",
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-05-25T19:38:35.332Z"
-        },
-        {
-          "caseId": 35219,
-          "testId": 1546616,
-          "name": "Validar Modal De Bienvenida En Home",
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-05-28T16:56:14.190Z"
-        },
-        {
-          "caseId": 35735,
-          "testId": 1546762,
-          "name": "Validar Modal Informativo",
-          "statusId": 2,
-          "status": "Passed",
-          "note": "<p>Reprobado. Se comporta como se espera</p><figure class=\"image\"><img src=\"/attachments/view/10068\" alt=\"10068\" /></figure>",
-          "assigneeId": null,
-          "updatedAt": "2026-05-28T22:01:30.800Z"
-        },
-        {
-          "caseId": 35576,
-          "testId": 1546684,
-          "name": "Validar Navbar (superior)y Tabbar (Inferior)",
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-05-25T19:42:00.851Z"
-        },
-        {
-          "caseId": 35083,
-          "testId": 1546521,
-          "name": "Validar Navbar (superior)y Tabbar (Inferior)",
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-05-19T00:46:52.095Z"
-        },
-        {
-          "caseId": 35655,
-          "testId": 1546737,
-          "name": "Validar Pantalla De Bienvenida",
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-05-25T19:40:47.343Z"
-        },
-        {
-          "caseId": 35203,
-          "testId": 1546607,
-          "name": "Validar Pantalla De Bienvenida",
+          "caseId": 35009,
+          "testId": 1546469,
+          "name": "Case #35009",
           "statusId": 2,
           "status": "Passed",
           "note": "",
           "assigneeId": 136,
-          "updatedAt": "2026-05-18T15:48:20.091Z"
+          "updatedAt": "2026-05-18T16:02:24.922Z"
         },
         {
-          "caseId": 35635,
-          "testId": 1546718,
-          "name": "Validar Pedidos Standard",
+          "caseId": 35010,
+          "testId": 1546470,
+          "name": "Case #35010",
           "statusId": 2,
           "status": "Passed",
           "note": "",
           "assigneeId": null,
-          "updatedAt": "2026-05-27T22:34:51.860Z"
-        },
-        {
-          "caseId": 35015,
-          "testId": 1546475,
-          "name": "Validar Persistencia De Inicio De Sesi\u00f3n",
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-05-28T16:44:05.912Z"
-        },
-        {
-          "caseId": 35690,
-          "testId": 1546745,
-          "name": "Validar Persistencia De Inicio De Sesi\u00f3n",
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-05-25T19:41:23.373Z"
-        },
-        {
-          "caseId": 35638,
-          "testId": 1546720,
-          "name": "Validar Productos - Detalle",
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-05-28T13:58:26.046Z"
-        },
-        {
-          "caseId": 35642,
-          "testId": 1546724,
-          "name": "Validar Productos Con Escalan De Descuentos",
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-05-28T13:58:37.794Z"
-        },
-        {
-          "caseId": 35641,
-          "testId": 1546723,
-          "name": "Validar Productos Con IVA",
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-05-28T13:58:34.759Z"
-        },
-        {
-          "caseId": 35650,
-          "testId": 1546732,
-          "name": "Validar Productos Disponibles (Detalle)",
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-05-28T16:13:17.047Z"
-        },
-        {
-          "caseId": 35194,
-          "testId": 1546601,
-          "name": "Validar Productos Disponibles (Detalle)",
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-05-25T19:36:16.359Z"
-        },
-        {
-          "caseId": 35173,
-          "testId": 1546580,
-          "name": "Validar Productos No Disponibles",
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-05-28T20:53:48.598Z"
-        },
-        {
-          "caseId": 35651,
-          "testId": 1546733,
-          "name": "Validar Productos No Disponibles",
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-05-28T16:13:21.541Z"
-        },
-        {
-          "caseId": 35639,
-          "testId": 1546721,
-          "name": "Validar Productos No Disponibles",
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-05-28T13:58:28.819Z"
-        },
-        {
-          "caseId": 35195,
-          "testId": 1546602,
-          "name": "Validar Productos No Disponibles",
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-05-25T19:36:18.851Z"
-        },
-        {
-          "caseId": 35640,
-          "testId": 1546722,
-          "name": "Validar Productos Sin IVA",
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-05-28T13:58:31.926Z"
-        },
-        {
-          "caseId": 35542,
-          "testId": 1546657,
-          "name": "Validar Que El Cliented Con Productos Mas Pedidos",
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-05-25T19:41:35.765Z"
-        },
-        {
-          "caseId": 35074,
-          "testId": 1546519,
-          "name": "Validar Que El Cliented De Desloguee",
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-05-25T19:40:31.699Z"
-        },
-        {
-          "caseId": 35544,
-          "testId": 1546659,
-          "name": "Validar Que El Cliented No Posea Mas Pedidos",
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-05-25T19:41:39.500Z"
-        },
-        {
-          "caseId": 35545,
-          "testId": 1546660,
-          "name": "Validar Que El Cliented Posea Productos  Recomendados",
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-05-25T19:41:44.551Z"
-        },
-        {
-          "caseId": 35051,
-          "testId": 1546501,
-          "name": "Validar Que El Cliented Posea Productos  Recomendados",
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": 136,
-          "updatedAt": "2026-05-19T00:41:12.253Z"
-        },
-        {
-          "caseId": 35543,
-          "testId": 1546658,
-          "name": "Validar Que El Cliented Sin Productos Recomendados",
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-05-25T19:41:41.934Z"
-        },
-        {
-          "caseId": 35197,
-          "testId": 1546604,
-          "name": "Validar Que El Costumer Este Habilitado Para Regalo De Primer Compra",
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-05-28T16:57:14.783Z"
-        },
-        {
-          "caseId": 35591,
-          "testId": 1546697,
-          "name": "Validar Que El Segundo Paso Se Visualice El Carrousel De Recomendados",
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-05-28T16:03:25.605Z"
-        },
-        {
-          "caseId": 35592,
-          "testId": 1546698,
-          "name": "Validar Que El Segundo Paso Se Visualice El Drawer",
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-05-28T16:03:34.859Z"
-        },
-        {
-          "caseId": 35099,
-          "testId": 1546535,
-          "name": "Validar Que El Segundo Paso Se Visualice El Drawer",
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-05-20T03:50:13.816Z"
-        },
-        {
-          "caseId": 35654,
-          "testId": 1546736,
-          "name": "Validar Que La App Posea Actualizaci\u00f3n",
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-05-28T20:51:52.165Z"
-        },
-        {
-          "caseId": 35209,
-          "testId": 1546613,
-          "name": "Validar Que La App Posea Actualizaci\u00f3n",
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": 136,
-          "updatedAt": "2026-05-18T15:44:09.635Z"
-        },
-        {
-          "caseId": 35714,
-          "testId": 1546754,
-          "name": "Validar Que La Configuraci\u00f3n Del Telefono No Permit Mostrar Letras Gigantes",
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-05-28T16:06:38.042Z"
-        },
-        {
-          "caseId": 35259,
-          "testId": 1546639,
-          "name": "Validar Que La Configuraci\u00f3n Del Telefono No Permit Mostrar Letras Gigantes",
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-05-20T03:54:28.446Z"
-        },
-        {
-          "caseId": 35172,
-          "testId": 1546579,
-          "name": "Validar Que La Distintas Navegaciones Sean Correctas",
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-05-20T03:52:16.401Z"
-        },
-        {
-          "caseId": 35732,
-          "testId": 1546759,
-          "name": "Validar Que Los Filtros Se Visualicen Exitosamente",
-          "statusId": 2,
-          "status": "Passed",
-          "note": "<p>Se valida con tienda <a href=\"tel:1003877\">1003877</a></p>",
-          "assigneeId": null,
-          "updatedAt": "2026-05-28T20:52:21.860Z"
-        },
-        {
-          "caseId": 35260,
-          "testId": 1546640,
-          "name": "Validar Que Los Filtros Se Visualicen Exitosamente",
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-05-28T20:51:35.386Z"
-        },
-        {
-          "caseId": 35734,
-          "testId": 1546761,
-          "name": "Validar Secci\u00f3n Mis Chequers En El Men\u00fa",
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-05-28T16:34:54.504Z"
-        },
-        {
-          "caseId": 35718,
-          "testId": 1546758,
-          "name": "Validar Tienda Sin Facturas",
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-05-28T16:06:53.348Z"
-        },
-        {
-          "caseId": 35165,
-          "testId": 1546572,
-          "name": "Validar Tienda Sin Facturas",
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-05-25T19:37:14.715Z"
-        },
-        {
-          "caseId": 35227,
-          "testId": 1546624,
-          "name": "Validar Ver Productos",
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-05-25T19:38:37.756Z"
-        },
-        {
-          "caseId": 35712,
-          "testId": 1546752,
-          "name": "Validar Volver Arriba En Fav y Catalogo",
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-05-28T16:06:04.304Z"
-        },
-        {
-          "caseId": 35257,
-          "testId": 1546637,
-          "name": "Validar Volver Arriba En Fav y Catalogo",
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-05-20T03:54:17.766Z"
-        },
-        {
-          "caseId": 35223,
-          "testId": 1546620,
-          "name": "Ver Detalle De Productos En Carrito",
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-05-28T20:57:06.515Z"
-        },
-        {
-          "caseId": 35122,
-          "testId": 1546544,
-          "name": "Verificar  Filtrar  Por Period (Mes)",
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-05-27T22:20:49.884Z"
-        },
-        {
-          "caseId": 35123,
-          "testId": 1546545,
-          "name": "Verificar \"limpiar Filtros\"",
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-05-27T22:22:01.487Z"
-        },
-        {
-          "caseId": 35546,
-          "testId": 1546661,
-          "name": "Verificar Clientes Con Ofertas",
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-05-25T19:41:47.193Z"
-        },
-        {
-          "caseId": 35052,
-          "testId": 1546502,
-          "name": "Verificar Clientes Con Ofertas",
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-05-19T00:43:47.170Z"
-        },
-        {
-          "caseId": 35547,
-          "testId": 1546662,
-          "name": "Verificar Clientes Sin Ofertas",
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-05-25T19:41:49.675Z"
-        },
-        {
-          "caseId": 35053,
-          "testId": 1546503,
-          "name": "Verificar Clientes Sin Ofertas",
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-05-19T00:44:04.219Z"
-        },
-        {
-          "caseId": 35548,
-          "testId": 1546663,
-          "name": "Verificar Display De Locales",
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-05-25T19:41:51.646Z"
-        },
-        {
-          "caseId": 35054,
-          "testId": 1546504,
-          "name": "Verificar Display De Locales",
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-05-19T00:45:00.207Z"
-        },
-        {
-          "caseId": 35096,
-          "testId": 1546532,
-          "name": "Verificar El Click Aticon-Close",
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-05-28T20:53:27.838Z"
-        },
-        {
-          "caseId": 35589,
-          "testId": 1546695,
-          "name": "Verificar El Click Aticon-Close",
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-05-28T16:02:53.417Z"
-        },
-        {
-          "caseId": 35549,
-          "testId": 1546664,
-          "name": "Verificar Icono Carrito",
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-05-25T19:41:55.801Z"
-        },
-        {
-          "caseId": 35055,
-          "testId": 1546505,
-          "name": "Verificar Icono Carrito",
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-05-19T00:45:34.576Z"
-        },
-        {
-          "caseId": 35519,
-          "testId": 1546642,
-          "name": "Verificar Las FAQS",
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-05-27T22:40:21.384Z"
+          "updatedAt": "2026-05-25T19:40:05.753Z"
         },
         {
           "caseId": 35011,
           "testId": 1546471,
-          "name": "Verificar Las FAQS",
+          "name": "Case #35011",
           "statusId": 2,
           "status": "Passed",
           "note": "",
@@ -2939,149 +179,109 @@
           "updatedAt": "2026-05-25T19:40:12.713Z"
         },
         {
-          "caseId": 35598,
-          "testId": 1546704,
-          "name": "Verificar Men\u00fa Hamburguesa y Su Comportamiento",
+          "caseId": 35012,
+          "testId": 1546472,
+          "name": "Case #35012",
           "statusId": 2,
           "status": "Passed",
           "note": "",
           "assigneeId": null,
-          "updatedAt": "2026-05-25T19:42:09.775Z"
+          "updatedAt": "2026-05-25T19:40:16.251Z"
         },
         {
-          "caseId": 35115,
-          "testId": 1546543,
-          "name": "Verificar Men\u00fa Hamburguesa y Su Comportamiento",
+          "caseId": 35013,
+          "testId": 1546473,
+          "name": "Case #35013",
           "statusId": 2,
           "status": "Passed",
           "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-05-19T00:49:42.070Z"
+          "assigneeId": 136,
+          "updatedAt": "2026-05-18T16:00:48.064Z"
         },
         {
-          "caseId": 35550,
-          "testId": 1546665,
-          "name": "Verificar Men\u00fa Hamburguesa y Sus Elementos",
+          "caseId": 35014,
+          "testId": 1546474,
+          "name": "Case #35014",
           "statusId": 2,
           "status": "Passed",
           "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-05-25T19:41:58.197Z"
+          "assigneeId": 136,
+          "updatedAt": "2026-05-18T16:31:42.746Z"
         },
         {
-          "caseId": 35056,
-          "testId": 1546506,
-          "name": "Verificar Men\u00fa Hamburguesa y Sus Elementos",
+          "caseId": 35015,
+          "testId": 1546475,
+          "name": "Case #35015",
           "statusId": 2,
           "status": "Passed",
           "note": "",
           "assigneeId": null,
-          "updatedAt": "2026-05-19T00:45:57.772Z"
+          "updatedAt": "2026-05-28T16:44:05.912Z"
         },
         {
-          "caseId": 35620,
-          "testId": 1546715,
-          "name": "Verificar Visualizar El Detalle De Pedido",
+          "caseId": 35016,
+          "testId": 1546476,
+          "name": "Case #35016",
           "statusId": 2,
           "status": "Passed",
           "note": "",
           "assigneeId": null,
-          "updatedAt": "2026-05-27T21:44:35.472Z"
+          "updatedAt": "2026-05-27T22:40:03.401Z"
         },
         {
-          "caseId": 35529,
-          "testId": 1546650,
-          "name": "Visualizar  Dos o Mas Locales a ID Client",
+          "caseId": 35017,
+          "testId": 1546477,
+          "name": "Case #35017",
           "statusId": 2,
           "status": "Passed",
           "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-05-27T21:41:29.872Z"
+          "assigneeId": 136,
+          "updatedAt": "2026-05-18T15:53:59.914Z"
         },
         {
-          "caseId": 35037,
-          "testId": 1546487,
-          "name": "Visualizar Detalles De Pedidos Con Productos y Bundles",
+          "caseId": 35019,
+          "testId": 1546478,
+          "name": "Case #35019",
           "statusId": 2,
           "status": "Passed",
           "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-05-27T21:45:24.385Z"
+          "assigneeId": 136,
+          "updatedAt": "2026-05-18T16:00:07.012Z"
         },
         {
-          "caseId": 35611,
-          "testId": 1546711,
-          "name": "Visualizar Detalles De Pedidos Con Productos y Bundles",
+          "caseId": 35022,
+          "testId": 1546479,
+          "name": "Case #35022",
           "statusId": 2,
           "status": "Passed",
           "note": "",
           "assigneeId": null,
-          "updatedAt": "2026-05-27T21:44:14.643Z"
+          "updatedAt": "2026-05-20T03:46:03.571Z"
         },
         {
-          "caseId": 40497,
-          "testId": 1546774,
-          "name": "Visualizar Dos o Mas Locales a ID Client",
+          "caseId": 35023,
+          "testId": 1546480,
+          "name": "Case #35023",
           "statusId": 2,
           "status": "Passed",
           "note": "",
           "assigneeId": null,
-          "updatedAt": "2026-05-28T13:54:01.459Z"
+          "updatedAt": "2026-05-20T03:46:12.236Z"
         },
         {
-          "caseId": 35148,
-          "testId": 1546564,
-          "name": "Visualizar Dos o Mas Locales a ID Client",
+          "caseId": 35024,
+          "testId": 1546481,
+          "name": "Case #35024",
           "statusId": 2,
           "status": "Passed",
           "note": "",
           "assigneeId": null,
-          "updatedAt": "2026-05-28T13:53:58.135Z"
-        },
-        {
-          "caseId": 35124,
-          "testId": 1546546,
-          "name": "Visualizar El Detalle De Pedido",
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-05-27T22:35:22.906Z"
-        },
-        {
-          "caseId": 35097,
-          "testId": 1546533,
-          "name": "Visualizar El Modal De \"eliminar Productor\"",
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-05-20T03:49:59.759Z"
-        },
-        {
-          "caseId": 35590,
-          "testId": 1546696,
-          "name": "Visualizar El or-Modal De \"eliminar Productor\"",
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-05-28T16:03:05.735Z"
-        },
-        {
-          "caseId": 35525,
-          "testId": 1546647,
-          "name": "Visualizar Favoritos Cargados En La Cuenta",
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-05-28T13:57:53.143Z"
+          "updatedAt": "2026-05-19T00:55:59.284Z"
         },
         {
           "caseId": 35025,
           "testId": 1546482,
-          "name": "Visualizar Favoritos Cargados En La Cuenta",
+          "name": "Case #35025",
           "statusId": 2,
           "status": "Passed",
           "note": "",
@@ -3089,59 +289,59 @@
           "updatedAt": "2026-05-19T00:56:18.736Z"
         },
         {
-          "caseId": 35528,
-          "testId": 1546649,
-          "name": "Visualizar Local Asociado a ID Client",
+          "caseId": 35026,
+          "testId": 1546483,
+          "name": "Case #35026",
           "statusId": 2,
           "status": "Passed",
           "note": "",
           "assigneeId": null,
-          "updatedAt": "2026-05-27T21:40:36.542Z"
+          "updatedAt": "2026-05-19T00:56:39.890Z"
         },
         {
-          "caseId": 35043,
-          "testId": 1546493,
-          "name": "Visualizar Los Estados De Los Pedidos",
+          "caseId": 35028,
+          "testId": 1546484,
+          "name": "Case #35028",
           "statusId": 2,
           "status": "Passed",
           "note": "",
           "assigneeId": null,
-          "updatedAt": "2026-05-27T22:16:00.974Z"
+          "updatedAt": "2026-05-27T21:40:04.080Z"
         },
         {
-          "caseId": 35617,
-          "testId": 1546714,
-          "name": "Visualizar Los Estados De Los Pedidos",
+          "caseId": 35034,
+          "testId": 1546485,
+          "name": "Case #35034",
           "statusId": 2,
           "status": "Passed",
           "note": "",
           "assigneeId": null,
-          "updatedAt": "2026-05-27T21:44:30.142Z"
+          "updatedAt": "2026-05-19T00:50:30.506Z"
         },
         {
-          "caseId": 35039,
-          "testId": 1546489,
-          "name": "Visualizar Los Productos Descartables",
+          "caseId": 35036,
+          "testId": 1546486,
+          "name": "Case #35036",
           "statusId": 2,
           "status": "Passed",
           "note": "",
           "assigneeId": null,
-          "updatedAt": "2026-05-27T21:45:49.846Z"
+          "updatedAt": "2026-05-20T03:46:07.108Z"
         },
         {
-          "caseId": 35613,
-          "testId": 1546713,
-          "name": "Visualizar Los Productos Descartables",
+          "caseId": 35037,
+          "testId": 1546487,
+          "name": "Case #35037",
           "statusId": 2,
           "status": "Passed",
           "note": "",
           "assigneeId": null,
-          "updatedAt": "2026-05-27T21:44:25.851Z"
+          "updatedAt": "2026-05-27T21:45:24.385Z"
         },
         {
           "caseId": 35038,
           "testId": 1546488,
-          "name": "Visualizar Pedidos Con Productos En Descuento",
+          "name": "Case #35038",
           "statusId": 2,
           "status": "Passed",
           "note": "",
@@ -3149,29 +349,19 @@
           "updatedAt": "2026-05-27T21:45:27.878Z"
         },
         {
-          "caseId": 35612,
-          "testId": 1546712,
-          "name": "Visualizar Pedidos Con Productos En Descuento",
+          "caseId": 35039,
+          "testId": 1546489,
+          "name": "Case #35039",
           "statusId": 2,
           "status": "Passed",
           "note": "",
           "assigneeId": null,
-          "updatedAt": "2026-05-27T21:44:17.770Z"
-        },
-        {
-          "caseId": 35042,
-          "testId": 1546492,
-          "name": "Visualizar Pedidos De Clientes Con Cr\u00e9dito Disponible",
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-05-27T22:15:56.017Z"
+          "updatedAt": "2026-05-27T21:45:49.846Z"
         },
         {
           "caseId": 35040,
           "testId": 1546490,
-          "name": "Visualizar Pedidos De Clientes Contado",
+          "name": "Case #35040",
           "statusId": 2,
           "status": "Passed",
           "note": "",
@@ -3181,7 +371,7 @@
         {
           "caseId": 35041,
           "testId": 1546491,
-          "name": "Visualizar Pedidos De Clientes Sin Cr\u00e9dito Disponible",
+          "name": "Case #35041",
           "statusId": 2,
           "status": "Passed",
           "note": "",
@@ -3189,69 +379,2819 @@
           "updatedAt": "2026-05-27T22:15:53.478Z"
         },
         {
-          "caseId": 35144,
-          "testId": 1546560,
-          "name": "Validar Los \"ver M\u00e1s\" De Carrousel De Ofertas",
-          "statusId": 6,
-          "status": "Skipped",
-          "note": "<p>Se hizo retest despu\u00e9s del reporte de este bug:</p><ul><li><a href=\"https://reigncl.atlassian.net/browse/EEC-4112\">https://reigncl.atlassian.net/browse/EEC-4112</a></li></ul><p>Se marca como skipped.</p>",
+          "caseId": 35042,
+          "testId": 1546492,
+          "name": "Case #35042",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
           "assigneeId": null,
-          "updatedAt": "2026-05-28T18:25:36.073Z"
+          "updatedAt": "2026-05-27T22:15:56.017Z"
         },
         {
-          "caseId": 35558,
-          "testId": 1546673,
-          "name": "Validar Los \"ver M\u00e1s\" De Carrousel De Ofertas",
-          "statusId": 6,
-          "status": "Skipped",
-          "note": "<p>Se hizo retest despu\u00e9s del reporte de este bug:</p><ul><li><a href=\"https://reigncl.atlassian.net/browse/EEC-4112\">https://reigncl.atlassian.net/browse/EEC-4112</a></li></ul><p>Se marca como skipped.</p>",
+          "caseId": 35043,
+          "testId": 1546493,
+          "name": "Case #35043",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
           "assigneeId": null,
-          "updatedAt": "2026-05-28T18:19:10.054Z"
+          "updatedAt": "2026-05-27T22:16:00.974Z"
         },
         {
-          "caseId": 35143,
-          "testId": 1546559,
-          "name": "Validar Los \"ver M\u00e1s\" De Catalogo Desde El Home",
-          "statusId": 6,
-          "status": "Skipped",
-          "note": "<p>Se hizo retest despu\u00e9s del reporte de este bug:</p><ul><li><a href=\"https://reigncl.atlassian.net/browse/EEC-4112\">https://reigncl.atlassian.net/browse/EEC-4112</a></li></ul><p>Se marca como skipped.</p>",
+          "caseId": 35044,
+          "testId": 1546494,
+          "name": "Case #35044",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
           "assigneeId": null,
-          "updatedAt": "2026-05-28T18:25:31.965Z"
+          "updatedAt": "2026-05-19T20:41:32.250Z"
         },
         {
-          "caseId": 35557,
-          "testId": 1546672,
-          "name": "Validar Los \"ver M\u00e1s\" De Catalogo Desde El Home",
-          "statusId": 6,
-          "status": "Skipped",
-          "note": "<p>Se hizo retest despu\u00e9s del reporte de este bug:</p><ul><li><a href=\"https://reigncl.atlassian.net/browse/EEC-4112\">https://reigncl.atlassian.net/browse/EEC-4112</a></li></ul><p>Se marca como skipped.</p>",
+          "caseId": 35045,
+          "testId": 1546495,
+          "name": "Case #35045",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
           "assigneeId": null,
-          "updatedAt": "2026-05-28T18:19:05.483Z"
+          "updatedAt": "2026-05-19T20:41:35.288Z"
         },
         {
-          "caseId": 35142,
-          "testId": 1546558,
-          "name": "Validar Los \"ver M\u00e1s\" De Productos Mas Pedidos",
-          "statusId": 6,
-          "status": "Skipped",
-          "note": "<p>Se hizo retest despu\u00e9s del reporte de este bug:</p><ul><li><a href=\"https://reigncl.atlassian.net/browse/EEC-4112\">https://reigncl.atlassian.net/browse/EEC-4112</a></li></ul><p>Se marca como skipped.</p>",
+          "caseId": 35046,
+          "testId": 1546496,
+          "name": "Case #35046",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
           "assigneeId": null,
-          "updatedAt": "2026-05-28T18:25:28.001Z"
+          "updatedAt": "2026-05-19T20:41:38.425Z"
         },
         {
-          "caseId": 35556,
-          "testId": 1546671,
-          "name": "Validar Los \"ver M\u00e1s\" De Productos Mas Pedidos",
-          "statusId": 6,
-          "status": "Skipped",
-          "note": "<p>Se hizo retest despu\u00e9s del reporte de este bug:</p><ul><li><a href=\"https://reigncl.atlassian.net/browse/EEC-4112\">https://reigncl.atlassian.net/browse/EEC-4112</a></li></ul><p>Se marca como skipped.</p>",
+          "caseId": 35047,
+          "testId": 1546497,
+          "name": "Case #35047",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
           "assigneeId": null,
-          "updatedAt": "2026-05-28T18:19:01.778Z"
+          "updatedAt": "2026-05-19T20:41:42.577Z"
+        },
+        {
+          "caseId": 35048,
+          "testId": 1546498,
+          "name": "Case #35048",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": 136,
+          "updatedAt": "2026-05-19T00:31:12.474Z"
+        },
+        {
+          "caseId": 35049,
+          "testId": 1546499,
+          "name": "Case #35049",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-19T00:40:27.671Z"
+        },
+        {
+          "caseId": 35050,
+          "testId": 1546500,
+          "name": "Case #35050",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": 136,
+          "updatedAt": "2026-05-19T00:34:45.734Z"
+        },
+        {
+          "caseId": 35051,
+          "testId": 1546501,
+          "name": "Case #35051",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": 136,
+          "updatedAt": "2026-05-19T00:41:12.253Z"
+        },
+        {
+          "caseId": 35052,
+          "testId": 1546502,
+          "name": "Case #35052",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-19T00:43:47.170Z"
+        },
+        {
+          "caseId": 35053,
+          "testId": 1546503,
+          "name": "Case #35053",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-19T00:44:04.219Z"
+        },
+        {
+          "caseId": 35054,
+          "testId": 1546504,
+          "name": "Case #35054",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-19T00:45:00.207Z"
+        },
+        {
+          "caseId": 35055,
+          "testId": 1546505,
+          "name": "Case #35055",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-19T00:45:34.576Z"
+        },
+        {
+          "caseId": 35056,
+          "testId": 1546506,
+          "name": "Case #35056",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-19T00:45:57.772Z"
+        },
+        {
+          "caseId": 35062,
+          "testId": 1546507,
+          "name": "Case #35062",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-20T03:46:52.726Z"
+        },
+        {
+          "caseId": 35063,
+          "testId": 1546508,
+          "name": "Case #35063",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-20T03:47:01.926Z"
+        },
+        {
+          "caseId": 35064,
+          "testId": 1546509,
+          "name": "Case #35064",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-20T03:47:13.154Z"
+        },
+        {
+          "caseId": 35065,
+          "testId": 1546510,
+          "name": "Case #35065",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-20T03:47:33.902Z"
+        },
+        {
+          "caseId": 35066,
+          "testId": 1546511,
+          "name": "Case #35066",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-20T03:45:36.465Z"
+        },
+        {
+          "caseId": 35067,
+          "testId": 1546512,
+          "name": "Case #35067",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-20T03:46:43.015Z"
+        },
+        {
+          "caseId": 35068,
+          "testId": 1546513,
+          "name": "Case #35068",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-28T13:54:04.388Z"
+        },
+        {
+          "caseId": 35069,
+          "testId": 1546514,
+          "name": "Case #35069",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-28T13:54:08.198Z"
+        },
+        {
+          "caseId": 35070,
+          "testId": 1546515,
+          "name": "Case #35070",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-28T13:54:16.819Z"
+        },
+        {
+          "caseId": 35071,
+          "testId": 1546516,
+          "name": "Case #35071",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-28T13:54:19.833Z"
+        },
+        {
+          "caseId": 35072,
+          "testId": 1546517,
+          "name": "Case #35072",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-28T13:54:25.013Z"
+        },
+        {
+          "caseId": 35073,
+          "testId": 1546518,
+          "name": "Case #35073",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-28T13:54:28.941Z"
+        },
+        {
+          "caseId": 35074,
+          "testId": 1546519,
+          "name": "Case #35074",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-25T19:40:31.699Z"
+        },
+        {
+          "caseId": 35075,
+          "testId": 1546520,
+          "name": "Case #35075",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-19T20:42:36.703Z"
+        },
+        {
+          "caseId": 35083,
+          "testId": 1546521,
+          "name": "Case #35083",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-19T00:46:52.095Z"
+        },
+        {
+          "caseId": 35086,
+          "testId": 1546522,
+          "name": "Case #35086",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-20T03:47:44.546Z"
+        },
+        {
+          "caseId": 35087,
+          "testId": 1546523,
+          "name": "Case #35087",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-20T03:46:15.755Z"
+        },
+        {
+          "caseId": 35088,
+          "testId": 1546524,
+          "name": "Case #35088",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-20T03:47:51.951Z"
+        },
+        {
+          "caseId": 35089,
+          "testId": 1546525,
+          "name": "Case #35089",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-20T03:47:56.594Z"
+        },
+        {
+          "caseId": 35090,
+          "testId": 1546526,
+          "name": "Case #35090",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-20T03:45:43.753Z"
+        },
+        {
+          "caseId": 35091,
+          "testId": 1546527,
+          "name": "Case #35091",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-20T03:45:48.489Z"
+        },
+        {
+          "caseId": 35092,
+          "testId": 1546528,
+          "name": "Case #35092",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-20T03:45:53.563Z"
+        },
+        {
+          "caseId": 35093,
+          "testId": 1546529,
+          "name": "Case #35093",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-20T03:45:57.984Z"
+        },
+        {
+          "caseId": 35094,
+          "testId": 1546530,
+          "name": "Case #35094",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-20T03:49:37.689Z"
+        },
+        {
+          "caseId": 35095,
+          "testId": 1546531,
+          "name": "Case #35095",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-20T03:49:47.958Z"
+        },
+        {
+          "caseId": 35096,
+          "testId": 1546532,
+          "name": "Case #35096",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-28T20:53:27.838Z"
+        },
+        {
+          "caseId": 35097,
+          "testId": 1546533,
+          "name": "Case #35097",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-20T03:49:59.759Z"
+        },
+        {
+          "caseId": 35098,
+          "testId": 1546534,
+          "name": "Case #35098",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-20T03:50:07.891Z"
+        },
+        {
+          "caseId": 35099,
+          "testId": 1546535,
+          "name": "Case #35099",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-20T03:50:13.816Z"
+        },
+        {
+          "caseId": 35100,
+          "testId": 1546536,
+          "name": "Case #35100",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-28T20:53:42.502Z"
+        },
+        {
+          "caseId": 35101,
+          "testId": 1546537,
+          "name": "Case #35101",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-28T16:43:59.983Z"
+        },
+        {
+          "caseId": 35106,
+          "testId": 1546538,
+          "name": "Case #35106",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-28T16:43:56.881Z"
+        },
+        {
+          "caseId": 35111,
+          "testId": 1546539,
+          "name": "Case #35111",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-28T16:24:36.669Z"
+        },
+        {
+          "caseId": 35112,
+          "testId": 1546540,
+          "name": "Case #35112",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-28T16:24:41.752Z"
+        },
+        {
+          "caseId": 35113,
+          "testId": 1546541,
+          "name": "Case #35113",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-28T16:24:49.644Z"
+        },
+        {
+          "caseId": 35114,
+          "testId": 1546542,
+          "name": "Case #35114",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": 136,
+          "updatedAt": "2026-05-19T00:47:25.329Z"
+        },
+        {
+          "caseId": 35115,
+          "testId": 1546543,
+          "name": "Case #35115",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-19T00:49:42.070Z"
+        },
+        {
+          "caseId": 35122,
+          "testId": 1546544,
+          "name": "Case #35122",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-27T22:20:49.884Z"
+        },
+        {
+          "caseId": 35123,
+          "testId": 1546545,
+          "name": "Case #35123",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-27T22:22:01.487Z"
+        },
+        {
+          "caseId": 35124,
+          "testId": 1546546,
+          "name": "Case #35124",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-27T22:35:22.906Z"
+        },
+        {
+          "caseId": 35125,
+          "testId": 1546547,
+          "name": "Case #35125",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-27T22:35:26.631Z"
+        },
+        {
+          "caseId": 35126,
+          "testId": 1546548,
+          "name": "Case #35126",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-27T22:35:29.773Z"
+        },
+        {
+          "caseId": 35127,
+          "testId": 1546549,
+          "name": "Case #35127",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-27T22:35:33.445Z"
+        },
+        {
+          "caseId": 35128,
+          "testId": 1546550,
+          "name": "Case #35128",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-27T22:35:43.057Z"
+        },
+        {
+          "caseId": 35129,
+          "testId": 1546551,
+          "name": "Case #35129",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-19T00:50:52.609Z"
+        },
+        {
+          "caseId": 35130,
+          "testId": 1546552,
+          "name": "Case #35130",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-19T00:51:03.472Z"
+        },
+        {
+          "caseId": 35137,
+          "testId": 1546553,
+          "name": "Case #35137",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-20T03:50:35.469Z"
+        },
+        {
+          "caseId": 35138,
+          "testId": 1546554,
+          "name": "Case #35138",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-20T03:50:42.864Z"
+        },
+        {
+          "caseId": 35139,
+          "testId": 1546555,
+          "name": "Case #35139",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-20T03:50:45.866Z"
+        },
+        {
+          "caseId": 35140,
+          "testId": 1546556,
+          "name": "Case #35140",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-20T03:51:29.604Z"
+        },
+        {
+          "caseId": 35145,
+          "testId": 1546561,
+          "name": "Case #35145",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-20T03:52:19.422Z"
+        },
+        {
+          "caseId": 35146,
+          "testId": 1546562,
+          "name": "Case #35146",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-20T03:50:38.242Z"
+        },
+        {
+          "caseId": 35147,
+          "testId": 1546563,
+          "name": "Case #35147",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-20T03:50:51.476Z"
+        },
+        {
+          "caseId": 35148,
+          "testId": 1546564,
+          "name": "Case #35148",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-28T13:53:58.135Z"
+        },
+        {
+          "caseId": 35149,
+          "testId": 1546565,
+          "name": "Case #35149",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-28T13:54:13.818Z"
+        },
+        {
+          "caseId": 35150,
+          "testId": 1546566,
+          "name": "Case #35150",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-27T22:34:59.277Z"
+        },
+        {
+          "caseId": 35151,
+          "testId": 1546567,
+          "name": "Case #35151",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-27T22:35:19.504Z"
+        },
+        {
+          "caseId": 35152,
+          "testId": 1546568,
+          "name": "Case #35152",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "<p>Se valida con tienda <a href=\"tel:1003877\">1003877</a></p>",
+          "assigneeId": null,
+          "updatedAt": "2026-05-28T20:50:17.917Z"
+        },
+        {
+          "caseId": 35153,
+          "testId": 1546569,
+          "name": "Case #35153",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "<p>Se valida con tienda <a href=\"tel:1003877\">1003877</a></p>",
+          "assigneeId": null,
+          "updatedAt": "2026-05-28T20:50:33.444Z"
+        },
+        {
+          "caseId": 35154,
+          "testId": 1546570,
+          "name": "Case #35154",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "<p>Se valida con tienda <a href=\"tel:1003877\">1003877</a></p>",
+          "assigneeId": null,
+          "updatedAt": "2026-05-28T20:51:04.789Z"
+        },
+        {
+          "caseId": 35164,
+          "testId": 1546571,
+          "name": "Case #35164",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-19T00:49:59.496Z"
+        },
+        {
+          "caseId": 35165,
+          "testId": 1546572,
+          "name": "Case #35165",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-25T19:37:14.715Z"
+        },
+        {
+          "caseId": 35166,
+          "testId": 1546573,
+          "name": "Case #35166",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-28T16:23:14.686Z"
+        },
+        {
+          "caseId": 35167,
+          "testId": 1546574,
+          "name": "Case #35167",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-28T16:23:22.036Z"
+        },
+        {
+          "caseId": 35168,
+          "testId": 1546575,
+          "name": "Case #35168",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-28T16:23:25.597Z"
+        },
+        {
+          "caseId": 35169,
+          "testId": 1546576,
+          "name": "Case #35169",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-28T16:23:28.541Z"
+        },
+        {
+          "caseId": 35170,
+          "testId": 1546577,
+          "name": "Case #35170",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-28T16:23:31.545Z"
+        },
+        {
+          "caseId": 35171,
+          "testId": 1546578,
+          "name": "Case #35171",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-19T00:50:05.941Z"
+        },
+        {
+          "caseId": 35172,
+          "testId": 1546579,
+          "name": "Case #35172",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-20T03:52:16.401Z"
+        },
+        {
+          "caseId": 35173,
+          "testId": 1546580,
+          "name": "Case #35173",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-28T20:53:48.598Z"
+        },
+        {
+          "caseId": 35174,
+          "testId": 1546581,
+          "name": "Case #35174",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-20T03:52:37.275Z"
+        },
+        {
+          "caseId": 35175,
+          "testId": 1546582,
+          "name": "Case #35175",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-20T03:52:39.689Z"
+        },
+        {
+          "caseId": 35176,
+          "testId": 1546583,
+          "name": "Case #35176",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-20T03:52:43.210Z"
+        },
+        {
+          "caseId": 35177,
+          "testId": 1546584,
+          "name": "Case #35177",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-20T03:52:48.306Z"
+        },
+        {
+          "caseId": 35178,
+          "testId": 1546585,
+          "name": "Case #35178",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-20T03:54:13.048Z"
+        },
+        {
+          "caseId": 35179,
+          "testId": 1546586,
+          "name": "Case #35179",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-28T16:44:02.634Z"
+        },
+        {
+          "caseId": 35180,
+          "testId": 1546587,
+          "name": "Case #35180",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-19T00:57:14.862Z"
+        },
+        {
+          "caseId": 35181,
+          "testId": 1546588,
+          "name": "Case #35181",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "<figure class=\"image\"><img src=\"/attachments/view/10000\" alt=\"10000\" /></figure>",
+          "assigneeId": null,
+          "updatedAt": "2026-05-19T00:58:10.928Z"
+        },
+        {
+          "caseId": 35182,
+          "testId": 1546589,
+          "name": "Case #35182",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-19T00:58:41.798Z"
+        },
+        {
+          "caseId": 35183,
+          "testId": 1546590,
+          "name": "Case #35183",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "<figure class=\"image\"><img src=\"/attachments/view/10001\" alt=\"10001\" /></figure>",
+          "assigneeId": null,
+          "updatedAt": "2026-05-19T01:00:36.140Z"
+        },
+        {
+          "caseId": 35184,
+          "testId": 1546591,
+          "name": "Case #35184",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-28T16:24:16.281Z"
+        },
+        {
+          "caseId": 35185,
+          "testId": 1546592,
+          "name": "Case #35185",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "<figure class=\"image\"></figure>",
+          "assigneeId": null,
+          "updatedAt": "2026-05-19T01:03:26.772Z"
+        },
+        {
+          "caseId": 35186,
+          "testId": 1546593,
+          "name": "Case #35186",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "<figure class=\"image\"><img src=\"/attachments/view/10003\" alt=\"10003\" /></figure>",
+          "assigneeId": null,
+          "updatedAt": "2026-05-19T01:04:00.074Z"
+        },
+        {
+          "caseId": 35187,
+          "testId": 1546594,
+          "name": "Case #35187",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-19T01:04:06.010Z"
+        },
+        {
+          "caseId": 35188,
+          "testId": 1546595,
+          "name": "Case #35188",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-19T01:04:10.882Z"
+        },
+        {
+          "caseId": 35189,
+          "testId": 1546596,
+          "name": "Case #35189",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-19T01:04:16.625Z"
+        },
+        {
+          "caseId": 35190,
+          "testId": 1546597,
+          "name": "Case #35190",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "<figure class=\"image\"><img src=\"/attachments/view/10004\" alt=\"10004\" /></figure>",
+          "assigneeId": null,
+          "updatedAt": "2026-05-19T01:04:43.634Z"
+        },
+        {
+          "caseId": 35191,
+          "testId": 1546598,
+          "name": "Case #35191",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "<figure class=\"image\"><img src=\"/attachments/view/10005\" alt=\"10005\" /></figure>",
+          "assigneeId": null,
+          "updatedAt": "2026-05-19T01:05:05.747Z"
+        },
+        {
+          "caseId": 35192,
+          "testId": 1546599,
+          "name": "Case #35192",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "<figure class=\"image\"><img src=\"/attachments/view/10006\" alt=\"10006\" /></figure>",
+          "assigneeId": null,
+          "updatedAt": "2026-05-19T01:05:15.770Z"
+        },
+        {
+          "caseId": 35193,
+          "testId": 1546600,
+          "name": "Case #35193",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "<figure class=\"image\"><img src=\"/attachments/view/10007\" alt=\"10007\" /></figure>",
+          "assigneeId": null,
+          "updatedAt": "2026-05-19T01:05:43.546Z"
+        },
+        {
+          "caseId": 35194,
+          "testId": 1546601,
+          "name": "Case #35194",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-25T19:36:16.359Z"
+        },
+        {
+          "caseId": 35195,
+          "testId": 1546602,
+          "name": "Case #35195",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-25T19:36:18.851Z"
+        },
+        {
+          "caseId": 35196,
+          "testId": 1546603,
+          "name": "Case #35196",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-28T16:24:20.892Z"
+        },
+        {
+          "caseId": 35197,
+          "testId": 1546604,
+          "name": "Case #35197",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-28T16:57:14.783Z"
+        },
+        {
+          "caseId": 35198,
+          "testId": 1546605,
+          "name": "Case #35198",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-28T16:56:09.153Z"
+        },
+        {
+          "caseId": 35199,
+          "testId": 1546606,
+          "name": "Case #35199",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": 136,
+          "updatedAt": "2026-05-19T00:25:16.861Z"
+        },
+        {
+          "caseId": 35203,
+          "testId": 1546607,
+          "name": "Case #35203",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": 136,
+          "updatedAt": "2026-05-18T15:48:20.091Z"
+        },
+        {
+          "caseId": 35204,
+          "testId": 1546608,
+          "name": "Case #35204",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-25T19:38:56.777Z"
+        },
+        {
+          "caseId": 35205,
+          "testId": 1546609,
+          "name": "Case #35205",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-25T19:39:21.699Z"
+        },
+        {
+          "caseId": 35206,
+          "testId": 1546610,
+          "name": "Case #35206",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-25T19:39:18.038Z"
+        },
+        {
+          "caseId": 35207,
+          "testId": 1546611,
+          "name": "Case #35207",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-25T19:39:14.021Z"
+        },
+        {
+          "caseId": 35208,
+          "testId": 1546612,
+          "name": "Case #35208",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": 136,
+          "updatedAt": "2026-05-18T15:49:46.816Z"
+        },
+        {
+          "caseId": 35209,
+          "testId": 1546613,
+          "name": "Case #35209",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": 136,
+          "updatedAt": "2026-05-18T15:44:09.635Z"
+        },
+        {
+          "caseId": 35210,
+          "testId": 1546614,
+          "name": "Case #35210",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-25T19:36:21.792Z"
+        },
+        {
+          "caseId": 35217,
+          "testId": 1546615,
+          "name": "Case #35217",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-28T16:28:01.669Z"
+        },
+        {
+          "caseId": 35219,
+          "testId": 1546616,
+          "name": "Case #35219",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-28T16:56:14.190Z"
+        },
+        {
+          "caseId": 35220,
+          "testId": 1546617,
+          "name": "Case #35220",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-28T16:56:18.165Z"
+        },
+        {
+          "caseId": 35221,
+          "testId": 1546618,
+          "name": "Case #35221",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-28T16:56:22.864Z"
+        },
+        {
+          "caseId": 35222,
+          "testId": 1546619,
+          "name": "Case #35222",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-28T16:57:09.197Z"
+        },
+        {
+          "caseId": 35223,
+          "testId": 1546620,
+          "name": "Case #35223",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-28T20:57:06.515Z"
+        },
+        {
+          "caseId": 35224,
+          "testId": 1546621,
+          "name": "Case #35224",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-25T19:38:27.507Z"
+        },
+        {
+          "caseId": 35225,
+          "testId": 1546622,
+          "name": "Case #35225",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-25T19:38:32.027Z"
+        },
+        {
+          "caseId": 35226,
+          "testId": 1546623,
+          "name": "Case #35226",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-25T19:38:35.332Z"
+        },
+        {
+          "caseId": 35227,
+          "testId": 1546624,
+          "name": "Case #35227",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-25T19:38:37.756Z"
+        },
+        {
+          "caseId": 35228,
+          "testId": 1546625,
+          "name": "Case #35228",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-25T19:38:40.445Z"
+        },
+        {
+          "caseId": 35229,
+          "testId": 1546626,
+          "name": "Case #35229",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-28T16:23:33.846Z"
+        },
+        {
+          "caseId": 35243,
+          "testId": 1546627,
+          "name": "Case #35243",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-27T22:35:36.322Z"
+        },
+        {
+          "caseId": 35244,
+          "testId": 1546628,
+          "name": "Case #35244",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-27T22:35:40.327Z"
+        },
+        {
+          "caseId": 35249,
+          "testId": 1546629,
+          "name": "Case #35249",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-28T20:57:10.159Z"
+        },
+        {
+          "caseId": 35250,
+          "testId": 1546630,
+          "name": "Case #35250",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-28T16:22:56.230Z"
+        },
+        {
+          "caseId": 35251,
+          "testId": 1546631,
+          "name": "Case #35251",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-28T16:22:58.698Z"
+        },
+        {
+          "caseId": 35252,
+          "testId": 1546632,
+          "name": "Case #35252",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-28T16:23:00.812Z"
+        },
+        {
+          "caseId": 35256,
+          "testId": 1546636,
+          "name": "Case #35256",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-19T00:51:26.245Z"
+        },
+        {
+          "caseId": 35257,
+          "testId": 1546637,
+          "name": "Case #35257",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-20T03:54:17.766Z"
+        },
+        {
+          "caseId": 35258,
+          "testId": 1546638,
+          "name": "Case #35258",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-20T03:54:24.090Z"
+        },
+        {
+          "caseId": 35259,
+          "testId": 1546639,
+          "name": "Case #35259",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-20T03:54:28.446Z"
+        },
+        {
+          "caseId": 35260,
+          "testId": 1546640,
+          "name": "Case #35260",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-28T20:51:35.386Z"
+        },
+        {
+          "caseId": 35518,
+          "testId": 1546641,
+          "name": "Case #35518",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-27T22:40:18.643Z"
+        },
+        {
+          "caseId": 35519,
+          "testId": 1546642,
+          "name": "Case #35519",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-27T22:40:21.384Z"
+        },
+        {
+          "caseId": 35520,
+          "testId": 1546643,
+          "name": "Case #35520",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-27T22:40:23.974Z"
+        },
+        {
+          "caseId": 35522,
+          "testId": 1546644,
+          "name": "Case #35522",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-28T15:58:26.482Z"
+        },
+        {
+          "caseId": 35523,
+          "testId": 1546645,
+          "name": "Case #35523",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-28T15:59:16.441Z"
+        },
+        {
+          "caseId": 35524,
+          "testId": 1546646,
+          "name": "Case #35524",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-28T13:57:49.966Z"
+        },
+        {
+          "caseId": 35525,
+          "testId": 1546647,
+          "name": "Case #35525",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-28T13:57:53.143Z"
+        },
+        {
+          "caseId": 35526,
+          "testId": 1546648,
+          "name": "Case #35526",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-28T13:57:55.954Z"
+        },
+        {
+          "caseId": 35528,
+          "testId": 1546649,
+          "name": "Case #35528",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-27T21:40:36.542Z"
+        },
+        {
+          "caseId": 35529,
+          "testId": 1546650,
+          "name": "Case #35529",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-27T21:41:29.872Z"
+        },
+        {
+          "caseId": 35535,
+          "testId": 1546651,
+          "name": "Case #35535",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-28T13:57:33.151Z"
+        },
+        {
+          "caseId": 35537,
+          "testId": 1546652,
+          "name": "Case #35537",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-28T15:58:31.180Z"
+        },
+        {
+          "caseId": 35538,
+          "testId": 1546653,
+          "name": "Case #35538",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-28T13:58:05.960Z"
+        },
+        {
+          "caseId": 35539,
+          "testId": 1546654,
+          "name": "Case #35539",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-28T13:58:09.285Z"
+        },
+        {
+          "caseId": 35540,
+          "testId": 1546655,
+          "name": "Case #35540",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-28T13:58:12.040Z"
+        },
+        {
+          "caseId": 35541,
+          "testId": 1546656,
+          "name": "Case #35541",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-28T13:58:14.526Z"
+        },
+        {
+          "caseId": 35542,
+          "testId": 1546657,
+          "name": "Case #35542",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-25T19:41:35.765Z"
+        },
+        {
+          "caseId": 35543,
+          "testId": 1546658,
+          "name": "Case #35543",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-25T19:41:41.934Z"
+        },
+        {
+          "caseId": 35544,
+          "testId": 1546659,
+          "name": "Case #35544",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-25T19:41:39.500Z"
+        },
+        {
+          "caseId": 35545,
+          "testId": 1546660,
+          "name": "Case #35545",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-25T19:41:44.551Z"
+        },
+        {
+          "caseId": 35546,
+          "testId": 1546661,
+          "name": "Case #35546",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-25T19:41:47.193Z"
+        },
+        {
+          "caseId": 35547,
+          "testId": 1546662,
+          "name": "Case #35547",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-25T19:41:49.675Z"
+        },
+        {
+          "caseId": 35548,
+          "testId": 1546663,
+          "name": "Case #35548",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-25T19:41:51.646Z"
+        },
+        {
+          "caseId": 35549,
+          "testId": 1546664,
+          "name": "Case #35549",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-25T19:41:55.801Z"
+        },
+        {
+          "caseId": 35550,
+          "testId": 1546665,
+          "name": "Case #35550",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-25T19:41:58.197Z"
+        },
+        {
+          "caseId": 35551,
+          "testId": 1546666,
+          "name": "Case #35551",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-28T16:03:54.697Z"
+        },
+        {
+          "caseId": 35552,
+          "testId": 1546667,
+          "name": "Case #35552",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-28T16:04:41.280Z"
+        },
+        {
+          "caseId": 35553,
+          "testId": 1546668,
+          "name": "Case #35553",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-28T16:04:47.598Z"
+        },
+        {
+          "caseId": 35554,
+          "testId": 1546669,
+          "name": "Case #35554",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-28T16:04:57.350Z"
+        },
+        {
+          "caseId": 35559,
+          "testId": 1546674,
+          "name": "Case #35559",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-28T16:00:00.783Z"
+        },
+        {
+          "caseId": 35560,
+          "testId": 1546675,
+          "name": "Case #35560",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-28T16:00:11.644Z"
+        },
+        {
+          "caseId": 35561,
+          "testId": 1546676,
+          "name": "Case #35561",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-28T16:00:31.820Z"
+        },
+        {
+          "caseId": 35562,
+          "testId": 1546677,
+          "name": "Case #35562",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-28T16:00:39.629Z"
+        },
+        {
+          "caseId": 35563,
+          "testId": 1546678,
+          "name": "Case #35563",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-28T15:56:29.853Z"
+        },
+        {
+          "caseId": 35564,
+          "testId": 1546679,
+          "name": "Case #35564",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-28T15:59:52.820Z"
+        },
+        {
+          "caseId": 35565,
+          "testId": 1546680,
+          "name": "Case #35565",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-27T21:41:36.158Z"
+        },
+        {
+          "caseId": 35566,
+          "testId": 1546681,
+          "name": "Case #35566",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-27T21:42:25.603Z"
+        },
+        {
+          "caseId": 35567,
+          "testId": 1546682,
+          "name": "Case #35567",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-27T21:42:28.256Z"
+        },
+        {
+          "caseId": 35569,
+          "testId": 1546683,
+          "name": "Case #35569",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-28T13:58:16.947Z"
+        },
+        {
+          "caseId": 35576,
+          "testId": 1546684,
+          "name": "Case #35576",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-25T19:42:00.851Z"
+        },
+        {
+          "caseId": 35579,
+          "testId": 1546685,
+          "name": "Case #35579",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-28T16:00:47.758Z"
+        },
+        {
+          "caseId": 35580,
+          "testId": 1546686,
+          "name": "Case #35580",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-28T15:59:43.258Z"
+        },
+        {
+          "caseId": 35581,
+          "testId": 1546687,
+          "name": "Case #35581",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-28T16:00:51.911Z"
+        },
+        {
+          "caseId": 35582,
+          "testId": 1546688,
+          "name": "Case #35582",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-28T16:02:11.260Z"
+        },
+        {
+          "caseId": 35583,
+          "testId": 1546689,
+          "name": "Case #35583",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-28T15:57:04.031Z"
+        },
+        {
+          "caseId": 35584,
+          "testId": 1546690,
+          "name": "Case #35584",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-28T15:56:47.408Z"
+        },
+        {
+          "caseId": 35585,
+          "testId": 1546691,
+          "name": "Case #35585",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-28T15:57:01.268Z"
+        },
+        {
+          "caseId": 35586,
+          "testId": 1546692,
+          "name": "Case #35586",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-28T15:57:18.729Z"
+        },
+        {
+          "caseId": 35587,
+          "testId": 1546693,
+          "name": "Case #35587",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-28T16:02:23.458Z"
+        },
+        {
+          "caseId": 35588,
+          "testId": 1546694,
+          "name": "Case #35588",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-28T16:02:36.067Z"
+        },
+        {
+          "caseId": 35589,
+          "testId": 1546695,
+          "name": "Case #35589",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-28T16:02:53.417Z"
+        },
+        {
+          "caseId": 35590,
+          "testId": 1546696,
+          "name": "Case #35590",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-28T16:03:05.735Z"
+        },
+        {
+          "caseId": 35591,
+          "testId": 1546697,
+          "name": "Case #35591",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-28T16:03:25.605Z"
+        },
+        {
+          "caseId": 35592,
+          "testId": 1546698,
+          "name": "Case #35592",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-28T16:03:34.859Z"
+        },
+        {
+          "caseId": 35593,
+          "testId": 1546699,
+          "name": "Case #35593",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-28T16:03:42.371Z"
+        },
+        {
+          "caseId": 35594,
+          "testId": 1546700,
+          "name": "Case #35594",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-28T13:57:12.987Z"
+        },
+        {
+          "caseId": 35595,
+          "testId": 1546701,
+          "name": "Case #35595",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-28T13:57:15.621Z"
+        },
+        {
+          "caseId": 35596,
+          "testId": 1546702,
+          "name": "Case #35596",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-28T13:57:18.276Z"
+        },
+        {
+          "caseId": 35597,
+          "testId": 1546703,
+          "name": "Case #35597",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-25T19:42:04.126Z"
+        },
+        {
+          "caseId": 35598,
+          "testId": 1546704,
+          "name": "Case #35598",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-25T19:42:09.775Z"
+        },
+        {
+          "caseId": 35599,
+          "testId": 1546705,
+          "name": "Case #35599",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-28T13:57:35.841Z"
+        },
+        {
+          "caseId": 35600,
+          "testId": 1546706,
+          "name": "Case #35600",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-28T13:57:40.040Z"
+        },
+        {
+          "caseId": 35605,
+          "testId": 1546707,
+          "name": "Case #35605",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-28T16:06:00.332Z"
+        },
+        {
+          "caseId": 35606,
+          "testId": 1546708,
+          "name": "Case #35606",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-25T19:42:12.281Z"
+        },
+        {
+          "caseId": 35609,
+          "testId": 1546709,
+          "name": "Case #35609",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-28T16:04:25.948Z"
+        },
+        {
+          "caseId": 35610,
+          "testId": 1546710,
+          "name": "Case #35610",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-28T16:04:50.086Z"
+        },
+        {
+          "caseId": 35611,
+          "testId": 1546711,
+          "name": "Case #35611",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-27T21:44:14.643Z"
+        },
+        {
+          "caseId": 35612,
+          "testId": 1546712,
+          "name": "Case #35612",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-27T21:44:17.770Z"
+        },
+        {
+          "caseId": 35613,
+          "testId": 1546713,
+          "name": "Case #35613",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-27T21:44:25.851Z"
+        },
+        {
+          "caseId": 35617,
+          "testId": 1546714,
+          "name": "Case #35617",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-27T21:44:30.142Z"
+        },
+        {
+          "caseId": 35620,
+          "testId": 1546715,
+          "name": "Case #35620",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-27T21:44:35.472Z"
+        },
+        {
+          "caseId": 35621,
+          "testId": 1546716,
+          "name": "Case #35621",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-27T22:34:04.992Z"
+        },
+        {
+          "caseId": 35622,
+          "testId": 1546717,
+          "name": "Case #35622",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-27T22:34:31.665Z"
+        },
+        {
+          "caseId": 35635,
+          "testId": 1546718,
+          "name": "Case #35635",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-27T22:34:51.860Z"
+        },
+        {
+          "caseId": 35637,
+          "testId": 1546719,
+          "name": "Case #35637",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-27T21:43:42.895Z"
+        },
+        {
+          "caseId": 35638,
+          "testId": 1546720,
+          "name": "Case #35638",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-28T13:58:26.046Z"
+        },
+        {
+          "caseId": 35639,
+          "testId": 1546721,
+          "name": "Case #35639",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-28T13:58:28.819Z"
+        },
+        {
+          "caseId": 35640,
+          "testId": 1546722,
+          "name": "Case #35640",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-28T13:58:31.926Z"
+        },
+        {
+          "caseId": 35641,
+          "testId": 1546723,
+          "name": "Case #35641",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-28T13:58:34.759Z"
+        },
+        {
+          "caseId": 35642,
+          "testId": 1546724,
+          "name": "Case #35642",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-28T13:58:37.794Z"
+        },
+        {
+          "caseId": 35643,
+          "testId": 1546725,
+          "name": "Case #35643",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-28T16:17:00.442Z"
+        },
+        {
+          "caseId": 35644,
+          "testId": 1546726,
+          "name": "Case #35644",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-28T16:17:03.117Z"
+        },
+        {
+          "caseId": 35645,
+          "testId": 1546727,
+          "name": "Case #35645",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-28T16:17:06.991Z"
+        },
+        {
+          "caseId": 35646,
+          "testId": 1546728,
+          "name": "Case #35646",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-28T16:17:10.114Z"
+        },
+        {
+          "caseId": 35647,
+          "testId": 1546729,
+          "name": "Case #35647",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-27T21:43:46.704Z"
+        },
+        {
+          "caseId": 35648,
+          "testId": 1546730,
+          "name": "Case #35648",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-27T21:43:54.041Z"
+        },
+        {
+          "caseId": 35649,
+          "testId": 1546731,
+          "name": "Case #35649",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-27T21:43:56.915Z"
+        },
+        {
+          "caseId": 35650,
+          "testId": 1546732,
+          "name": "Case #35650",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-28T16:13:17.047Z"
+        },
+        {
+          "caseId": 35651,
+          "testId": 1546733,
+          "name": "Case #35651",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-28T16:13:21.541Z"
+        },
+        {
+          "caseId": 35652,
+          "testId": 1546734,
+          "name": "Case #35652",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-28T16:13:25.439Z"
+        },
+        {
+          "caseId": 35653,
+          "testId": 1546735,
+          "name": "Case #35653",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-28T16:15:36.084Z"
+        },
+        {
+          "caseId": 35654,
+          "testId": 1546736,
+          "name": "Case #35654",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-28T20:51:52.165Z"
+        },
+        {
+          "caseId": 35655,
+          "testId": 1546737,
+          "name": "Case #35655",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-25T19:40:47.343Z"
+        },
+        {
+          "caseId": 35656,
+          "testId": 1546738,
+          "name": "Case #35656",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-25T19:40:49.831Z"
+        },
+        {
+          "caseId": 35684,
+          "testId": 1546739,
+          "name": "Case #35684",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-28T13:57:58.232Z"
+        },
+        {
+          "caseId": 35685,
+          "testId": 1546740,
+          "name": "Case #35685",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-25T19:41:00.132Z"
+        },
+        {
+          "caseId": 35686,
+          "testId": 1546741,
+          "name": "Case #35686",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-25T19:41:20.418Z"
+        },
+        {
+          "caseId": 35687,
+          "testId": 1546742,
+          "name": "Case #35687",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-25T19:41:13.535Z"
+        },
+        {
+          "caseId": 35688,
+          "testId": 1546743,
+          "name": "Case #35688",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-25T19:41:10.518Z"
+        },
+        {
+          "caseId": 35689,
+          "testId": 1546744,
+          "name": "Case #35689",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-25T19:41:25.958Z"
+        },
+        {
+          "caseId": 35690,
+          "testId": 1546745,
+          "name": "Case #35690",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-25T19:41:23.373Z"
+        },
+        {
+          "caseId": 35691,
+          "testId": 1546746,
+          "name": "Case #35691",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-25T19:41:03.361Z"
+        },
+        {
+          "caseId": 35692,
+          "testId": 1546747,
+          "name": "Case #35692",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-25T19:41:08.074Z"
+        },
+        {
+          "caseId": 35700,
+          "testId": 1546748,
+          "name": "Case #35700",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-25T19:41:15.793Z"
+        },
+        {
+          "caseId": 35705,
+          "testId": 1546749,
+          "name": "Case #35705",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-25T19:41:05.593Z"
+        },
+        {
+          "caseId": 35710,
+          "testId": 1546750,
+          "name": "Case #35710",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-25T19:41:18.131Z"
+        },
+        {
+          "caseId": 35711,
+          "testId": 1546751,
+          "name": "Case #35711",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-25T19:41:28.810Z"
+        },
+        {
+          "caseId": 35712,
+          "testId": 1546752,
+          "name": "Case #35712",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-28T16:06:04.304Z"
+        },
+        {
+          "caseId": 35713,
+          "testId": 1546753,
+          "name": "Case #35713",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-28T16:06:31.852Z"
+        },
+        {
+          "caseId": 35714,
+          "testId": 1546754,
+          "name": "Case #35714",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-28T16:06:38.042Z"
+        },
+        {
+          "caseId": 35715,
+          "testId": 1546755,
+          "name": "Case #35715",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "<p>Se valida con tienda <a href=\"tel:1003877\">1003877</a></p>",
+          "assigneeId": null,
+          "updatedAt": "2026-05-28T20:52:11.559Z"
+        },
+        {
+          "caseId": 35716,
+          "testId": 1546756,
+          "name": "Case #35716",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "<p>Se valida con tienda <a href=\"tel:1003877\">1003877</a></p>",
+          "assigneeId": null,
+          "updatedAt": "2026-05-28T20:52:15.370Z"
+        },
+        {
+          "caseId": 35717,
+          "testId": 1546757,
+          "name": "Case #35717",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "<p>Se valida con tienda <a href=\"tel:1003877\">1003877</a></p>",
+          "assigneeId": null,
+          "updatedAt": "2026-05-28T20:52:19.034Z"
+        },
+        {
+          "caseId": 35718,
+          "testId": 1546758,
+          "name": "Case #35718",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-28T16:06:53.348Z"
+        },
+        {
+          "caseId": 35732,
+          "testId": 1546759,
+          "name": "Case #35732",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "<p>Se valida con tienda <a href=\"tel:1003877\">1003877</a></p>",
+          "assigneeId": null,
+          "updatedAt": "2026-05-28T20:52:21.860Z"
+        },
+        {
+          "caseId": 35733,
+          "testId": 1546760,
+          "name": "Case #35733",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-28T16:34:48.573Z"
+        },
+        {
+          "caseId": 35734,
+          "testId": 1546761,
+          "name": "Case #35734",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-28T16:34:54.504Z"
+        },
+        {
+          "caseId": 35735,
+          "testId": 1546762,
+          "name": "Case #35735",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "<p>Reprobado. Se comporta como se espera</p><figure class=\"image\"><img src=\"/attachments/view/10068\" alt=\"10068\" /></figure>",
+          "assigneeId": null,
+          "updatedAt": "2026-05-28T22:01:30.800Z"
+        },
+        {
+          "caseId": 35736,
+          "testId": 1546763,
+          "name": "Case #35736",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-28T16:34:33.063Z"
+        },
+        {
+          "caseId": 35737,
+          "testId": 1546764,
+          "name": "Case #35737",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-28T22:01:45.595Z"
+        },
+        {
+          "caseId": 35738,
+          "testId": 1546765,
+          "name": "Case #35738",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-28T22:01:51.927Z"
+        },
+        {
+          "caseId": 35739,
+          "testId": 1546766,
+          "name": "Case #35739",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "<figure class=\"image\"><img src=\"/attachments/view/10069\" alt=\"10069\" /></figure>",
+          "assigneeId": null,
+          "updatedAt": "2026-05-28T22:02:13.597Z"
+        },
+        {
+          "caseId": 35743,
+          "testId": 1546767,
+          "name": "Case #35743",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "<figure class=\"image\"><img src=\"/attachments/view/10070\" alt=\"10070\" /></figure>",
+          "assigneeId": null,
+          "updatedAt": "2026-05-28T22:02:40.326Z"
+        },
+        {
+          "caseId": 35746,
+          "testId": 1546768,
+          "name": "Case #35746",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-27T22:34:47.947Z"
+        },
+        {
+          "caseId": 35749,
+          "testId": 1546769,
+          "name": "Case #35749",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-28T16:16:46.818Z"
+        },
+        {
+          "caseId": 35750,
+          "testId": 1546770,
+          "name": "Case #35750",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-28T16:16:23.777Z"
+        },
+        {
+          "caseId": 35751,
+          "testId": 1546771,
+          "name": "Case #35751",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-28T16:16:36.775Z"
+        },
+        {
+          "caseId": 35752,
+          "testId": 1546772,
+          "name": "Case #35752",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-28T16:16:33.114Z"
+        },
+        {
+          "caseId": 35777,
+          "testId": 1546773,
+          "name": "Case #35777",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-28T22:03:38.271Z"
+        },
+        {
+          "caseId": 40497,
+          "testId": 1546774,
+          "name": "Case #40497",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-28T13:54:01.459Z"
+        },
+        {
+          "caseId": 40887,
+          "testId": 1546775,
+          "name": "Case #40887",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-28T16:22:41.969Z"
+        },
+        {
+          "caseId": 40893,
+          "testId": 1546776,
+          "name": "Case #40893",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-28T16:22:48.343Z"
+        },
+        {
+          "caseId": 40894,
+          "testId": 1546777,
+          "name": "Case #40894",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-28T22:03:17.978Z"
+        },
+        {
+          "caseId": 40895,
+          "testId": 1546778,
+          "name": "Case #40895",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-28T20:52:36.247Z"
+        },
+        {
+          "caseId": 40899,
+          "testId": 1546779,
+          "name": "Case #40899",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-28T20:52:39.151Z"
+        },
+        {
+          "caseId": 40929,
+          "testId": 1546780,
+          "name": "Case #40929",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-28T16:43:53.951Z"
+        },
+        {
+          "caseId": 43090,
+          "testId": 1546781,
+          "name": "Case #43090",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-28T20:57:18.174Z"
+        },
+        {
+          "caseId": 74024,
+          "testId": 1546782,
+          "name": "Case #74024",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-19T00:52:41.333Z"
+        },
+        {
+          "caseId": 74025,
+          "testId": 1546783,
+          "name": "Case #74025",
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-05-28T13:57:44.228Z"
         },
         {
           "caseId": 35141,
           "testId": 1546557,
-          "name": "Validar Los \"ver M\u00e1s\" De Productos Recomendados",
+          "name": "Case #35141",
           "statusId": 6,
           "status": "Skipped",
           "note": "<p>Se hizo retest despu\u00e9s del reporte de este bug:</p><ul><li><a href=\"https://reigncl.atlassian.net/browse/EEC-4112\">https://reigncl.atlassian.net/browse/EEC-4112</a></li></ul><p>Se marca como skipped.</p>",
@@ -3259,14 +3199,74 @@
           "updatedAt": "2026-05-28T18:22:10.218Z"
         },
         {
+          "caseId": 35142,
+          "testId": 1546558,
+          "name": "Case #35142",
+          "statusId": 6,
+          "status": "Skipped",
+          "note": "<p>Se hizo retest despu\u00e9s del reporte de este bug:</p><ul><li><a href=\"https://reigncl.atlassian.net/browse/EEC-4112\">https://reigncl.atlassian.net/browse/EEC-4112</a></li></ul><p>Se marca como skipped.</p>",
+          "assigneeId": null,
+          "updatedAt": "2026-05-28T18:25:28.001Z"
+        },
+        {
+          "caseId": 35143,
+          "testId": 1546559,
+          "name": "Case #35143",
+          "statusId": 6,
+          "status": "Skipped",
+          "note": "<p>Se hizo retest despu\u00e9s del reporte de este bug:</p><ul><li><a href=\"https://reigncl.atlassian.net/browse/EEC-4112\">https://reigncl.atlassian.net/browse/EEC-4112</a></li></ul><p>Se marca como skipped.</p>",
+          "assigneeId": null,
+          "updatedAt": "2026-05-28T18:25:31.965Z"
+        },
+        {
+          "caseId": 35144,
+          "testId": 1546560,
+          "name": "Case #35144",
+          "statusId": 6,
+          "status": "Skipped",
+          "note": "<p>Se hizo retest despu\u00e9s del reporte de este bug:</p><ul><li><a href=\"https://reigncl.atlassian.net/browse/EEC-4112\">https://reigncl.atlassian.net/browse/EEC-4112</a></li></ul><p>Se marca como skipped.</p>",
+          "assigneeId": null,
+          "updatedAt": "2026-05-28T18:25:36.073Z"
+        },
+        {
           "caseId": 35555,
           "testId": 1546670,
-          "name": "Validar Los \"ver M\u00e1s\" De Productos Recomendados",
+          "name": "Case #35555",
           "statusId": 6,
           "status": "Skipped",
           "note": "<p>Se hizo retest despu\u00e9s del reporte de este bug:</p><ul><li><a href=\"https://reigncl.atlassian.net/browse/EEC-4112\">https://reigncl.atlassian.net/browse/EEC-4112</a></li></ul><p>Se marca como skipped.</p>",
           "assigneeId": null,
           "updatedAt": "2026-05-28T18:18:56.624Z"
+        },
+        {
+          "caseId": 35556,
+          "testId": 1546671,
+          "name": "Case #35556",
+          "statusId": 6,
+          "status": "Skipped",
+          "note": "<p>Se hizo retest despu\u00e9s del reporte de este bug:</p><ul><li><a href=\"https://reigncl.atlassian.net/browse/EEC-4112\">https://reigncl.atlassian.net/browse/EEC-4112</a></li></ul><p>Se marca como skipped.</p>",
+          "assigneeId": null,
+          "updatedAt": "2026-05-28T18:19:01.778Z"
+        },
+        {
+          "caseId": 35557,
+          "testId": 1546672,
+          "name": "Case #35557",
+          "statusId": 6,
+          "status": "Skipped",
+          "note": "<p>Se hizo retest despu\u00e9s del reporte de este bug:</p><ul><li><a href=\"https://reigncl.atlassian.net/browse/EEC-4112\">https://reigncl.atlassian.net/browse/EEC-4112</a></li></ul><p>Se marca como skipped.</p>",
+          "assigneeId": null,
+          "updatedAt": "2026-05-28T18:19:05.483Z"
+        },
+        {
+          "caseId": 35558,
+          "testId": 1546673,
+          "name": "Case #35558",
+          "statusId": 6,
+          "status": "Skipped",
+          "note": "<p>Se hizo retest despu\u00e9s del reporte de este bug:</p><ul><li><a href=\"https://reigncl.atlassian.net/browse/EEC-4112\">https://reigncl.atlassian.net/browse/EEC-4112</a></li></ul><p>Se marca como skipped.</p>",
+          "assigneeId": null,
+          "updatedAt": "2026-05-28T18:19:10.054Z"
         }
       ]
     }
