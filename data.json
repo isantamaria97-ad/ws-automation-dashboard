@@ -1,25 +1,149 @@
 {
-  "lastUpdated": "2026-06-18T18:27:05.083861+00:00",
+  "lastUpdated": "2026-06-18T22:10:55.714719+00:00",
   "jira": {
     "summary": {
-      "total": 239,
+      "total": 240,
       "byStatus": {
-        "Listo": 6,
-        "Backlog": 6,
-        "QA Approved": 16,
+        "PENDING DEV DEPLOY": 16,
+        "Tech Review": 1,
+        "Tareas por hacer": 1,
+        "Finalizada": 169,
+        "Listo": 7,
         "IN UAT": 3,
-        "Finalizada": 168,
-        "En curso": 2,
-        "Ready for Refinement": 4,
+        "Backlog": 6,
+        "En curso": 1,
+        "Ready for Refinement": 3,
         "Ready to QA": 1,
         "Blocked": 3,
-        "Tech Review": 5,
+        "QA Approved": 15,
         "READY FOR RELEASE": 6,
-        "PENDING DEV DEPLOY": 11,
         "Deprecated": 8
       }
     },
     "tickets": [
+      {
+        "key": "WSC-1488",
+        "url": "https://e2x.atlassian.net/browse/WSC-1488",
+        "summary": "CHECKOUT - amend error message styling",
+        "status": "PENDING DEV DEPLOY",
+        "statusCategory": "new",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-06-18T20:52:22.135+0100",
+        "priority": "Poco importante",
+        "labels": [
+          "Needs-QA"
+        ]
+      },
+      {
+        "key": "WSC-1514",
+        "url": "https://e2x.atlassian.net/browse/WSC-1514",
+        "summary": "PLP - Investigate and fix Browse PLP SSR hydration failure (1 of 2)",
+        "status": "PENDING DEV DEPLOY",
+        "statusCategory": "new",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-06-18T20:49:46.873+0100",
+        "priority": "Importante",
+        "labels": []
+      },
+      {
+        "key": "WSC-1402",
+        "url": "https://e2x.atlassian.net/browse/WSC-1402",
+        "summary": "MAIN BAG - Promo Saving styling amends",
+        "status": "PENDING DEV DEPLOY",
+        "statusCategory": "new",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-06-18T20:47:14.345+0100",
+        "priority": "Poco importante",
+        "labels": [
+          "Needs-QA"
+        ]
+      },
+      {
+        "key": "WSC-1403",
+        "url": "https://e2x.atlassian.net/browse/WSC-1403",
+        "summary": "SHOP FINDER - minor restyle",
+        "status": "PENDING DEV DEPLOY",
+        "statusCategory": "new",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-06-18T20:39:10.917+0100",
+        "priority": "Poco importante",
+        "labels": [
+          "Needs-QA"
+        ]
+      },
+      {
+        "key": "WSC-1538",
+        "url": "https://e2x.atlassian.net/browse/WSC-1538",
+        "summary": "SHOP PAGE - minor amendment",
+        "status": "PENDING DEV DEPLOY",
+        "statusCategory": "new",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-06-18T20:33:23.635+0100",
+        "priority": "Poco importante",
+        "labels": [
+          "Needs-QA"
+        ]
+      },
+      {
+        "key": "WSC-1530",
+        "url": "https://e2x.atlassian.net/browse/WSC-1530",
+        "summary": "SPIKE: CONTENTSQUARE (CSQ) - unmasking JS script errors",
+        "status": "Tech Review",
+        "statusCategory": "indeterminate",
+        "assignee": "Alexander Talavera",
+        "updated": "2026-06-18T20:29:36.109+0100",
+        "priority": "Importante",
+        "labels": []
+      },
+      {
+        "key": "WSC-1562",
+        "url": "https://e2x.atlassian.net/browse/WSC-1562",
+        "summary": "PDP - toggle amendment",
+        "status": "Tareas por hacer",
+        "statusCategory": "new",
+        "assignee": "Unassigned",
+        "updated": "2026-06-18T20:25:02.979+0100",
+        "priority": "Not Set",
+        "labels": []
+      },
+      {
+        "key": "WSC-1479",
+        "url": "https://e2x.atlassian.net/browse/WSC-1479",
+        "summary": "Resource Discovery & CSP Audit",
+        "status": "Finalizada",
+        "statusCategory": "done",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-06-18T20:23:50.016+0100",
+        "priority": "Not Set",
+        "labels": [
+          "CSP",
+          "NO_QA_REQUIRED"
+        ]
+      },
+      {
+        "key": "WSC-1481",
+        "url": "https://e2x.atlassian.net/browse/WSC-1481",
+        "summary": "Initial CSP Report-Only Rollout",
+        "status": "Listo",
+        "statusCategory": "new",
+        "assignee": "Unassigned",
+        "updated": "2026-06-18T20:02:08.553+0100",
+        "priority": "Not Set",
+        "labels": [
+          "CSP"
+        ]
+      },
+      {
+        "key": "WSC-1537",
+        "url": "https://e2x.atlassian.net/browse/WSC-1537",
+        "summary": "PLP - re-alignment 3 of 3 (grid)",
+        "status": "IN UAT",
+        "statusCategory": "indeterminate",
+        "assignee": "Ingrith Santamaria",
+        "updated": "2026-06-18T19:44:21.917+0100",
+        "priority": "Importante",
+        "labels": []
+      },
       {
         "key": "WSC-1558",
         "url": "https://e2x.atlassian.net/browse/WSC-1558",
@@ -56,17 +180,6 @@
         ]
       },
       {
-        "key": "WSC-1537",
-        "url": "https://e2x.atlassian.net/browse/WSC-1537",
-        "summary": "PLP - re-alignment 3 of 3 (grid)",
-        "status": "QA Approved",
-        "statusCategory": "indeterminate",
-        "assignee": "Ingrith Santamaria",
-        "updated": "2026-06-18T17:08:49.409+0100",
-        "priority": "Importante",
-        "labels": []
-      },
-      {
         "key": "WSC-1536",
         "url": "https://e2x.atlassian.net/browse/WSC-1536",
         "summary": "PLP - re-alignment 2 of 3 (header)",
@@ -88,20 +201,6 @@
         "priority": "Importante",
         "labels": [
           "Needs-QA"
-        ]
-      },
-      {
-        "key": "WSC-1479",
-        "url": "https://e2x.atlassian.net/browse/WSC-1479",
-        "summary": "Resource Discovery & CSP Audit",
-        "status": "IN UAT",
-        "statusCategory": "indeterminate",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-06-18T16:03:44.575+0100",
-        "priority": "Not Set",
-        "labels": [
-          "CSP",
-          "NO_QA_REQUIRED"
         ]
       },
       {
@@ -189,19 +288,6 @@
         "updated": "2026-06-17T22:37:49.677+0100",
         "priority": "Importante",
         "labels": []
-      },
-      {
-        "key": "WSC-1403",
-        "url": "https://e2x.atlassian.net/browse/WSC-1403",
-        "summary": "SHOP FINDER - minor restyle",
-        "status": "Tech Review",
-        "statusCategory": "indeterminate",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-06-17T21:40:29.230+0100",
-        "priority": "Poco importante",
-        "labels": [
-          "Needs-QA"
-        ]
       },
       {
         "key": "WSC-1531",
@@ -790,43 +876,6 @@
         "labels": []
       },
       {
-        "key": "WSC-1514",
-        "url": "https://e2x.atlassian.net/browse/WSC-1514",
-        "summary": "PLP - Investigate and fix Browse PLP SSR hydration failure (1 of 2)",
-        "status": "Tech Review",
-        "statusCategory": "indeterminate",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-06-17T15:24:09.612+0100",
-        "priority": "Importante",
-        "labels": []
-      },
-      {
-        "key": "WSC-1488",
-        "url": "https://e2x.atlassian.net/browse/WSC-1488",
-        "summary": "CHECKOUT - amend error message styling",
-        "status": "Tech Review",
-        "statusCategory": "indeterminate",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-06-17T15:06:43.185+0100",
-        "priority": "Poco importante",
-        "labels": [
-          "Needs-QA"
-        ]
-      },
-      {
-        "key": "WSC-1538",
-        "url": "https://e2x.atlassian.net/browse/WSC-1538",
-        "summary": "SHOP PAGE - minor amendment",
-        "status": "Tech Review",
-        "statusCategory": "indeterminate",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-06-16T19:16:55.387+0100",
-        "priority": "Poco importante",
-        "labels": [
-          "Needs-QA"
-        ]
-      },
-      {
         "key": "WSC-1484",
         "url": "https://e2x.atlassian.net/browse/WSC-1484",
         "summary": "CSP Enforcement Rollout & Hardening",
@@ -894,19 +943,6 @@
         ]
       },
       {
-        "key": "WSC-1402",
-        "url": "https://e2x.atlassian.net/browse/WSC-1402",
-        "summary": "MAIN BAG - Promo Saving styling amends",
-        "status": "Tech Review",
-        "statusCategory": "indeterminate",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-06-16T13:52:07.435+0100",
-        "priority": "Poco importante",
-        "labels": [
-          "Needs-QA"
-        ]
-      },
-      {
         "key": "WSC-1544",
         "url": "https://e2x.atlassian.net/browse/WSC-1544",
         "summary": "Talon.One SDK v26.x upgrade",
@@ -931,17 +967,6 @@
         "labels": [
           "NO_QA_REQUIRED"
         ]
-      },
-      {
-        "key": "WSC-1530",
-        "url": "https://e2x.atlassian.net/browse/WSC-1530",
-        "summary": "SPIKE: CONTENTSQUARE (CSQ) - unmasking JS script errors",
-        "status": "En curso",
-        "statusCategory": "indeterminate",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-06-12T19:13:30.673+0100",
-        "priority": "Importante",
-        "labels": []
       },
       {
         "key": "WSC-1503",
@@ -1191,19 +1216,6 @@
         "priority": "Cr\u00edtica",
         "labels": [
           "Needs-QA"
-        ]
-      },
-      {
-        "key": "WSC-1481",
-        "url": "https://e2x.atlassian.net/browse/WSC-1481",
-        "summary": "Initial CSP Report-Only Rollout",
-        "status": "Ready for Refinement",
-        "statusCategory": "new",
-        "assignee": "Unassigned",
-        "updated": "2026-06-01T19:53:06.332+0100",
-        "priority": "Not Set",
-        "labels": [
-          "CSP"
         ]
       },
       {
@@ -2987,7 +2999,7 @@
       "latestTotal": 65,
       "latestRunName": "Regression",
       "latestRunDate": "2026-06-18T14:56:48.342Z",
-      "passRate": 99.4,
+      "passRate": 99.5,
       "recent": [
         {
           "id": 1814,
@@ -3017,10 +3029,10 @@
           "elapsed_ms": null,
           "created_at": "2026-06-18T14:56:48.334Z",
           "completed_at": null,
-          "passed": 7,
+          "passed": 39,
           "failed": 0,
-          "pending": 58,
-          "completed": 7,
+          "pending": 26,
+          "completed": 39,
           "total": 65
         },
         {
@@ -3034,10 +3046,10 @@
           "elapsed_ms": null,
           "created_at": "2026-06-18T14:56:48.326Z",
           "completed_at": null,
-          "passed": 0,
+          "passed": 47,
           "failed": 0,
-          "pending": 65,
-          "completed": 0,
+          "pending": 18,
+          "completed": 47,
           "total": 65
         },
         {
@@ -3051,10 +3063,10 @@
           "elapsed_ms": null,
           "created_at": "2026-06-18T14:56:48.319Z",
           "completed_at": null,
-          "passed": 0,
+          "passed": 65,
           "failed": 0,
-          "pending": 65,
-          "completed": 0,
+          "pending": 0,
+          "completed": 65,
           "total": 65
         },
         {
@@ -3180,7 +3192,7 @@
       },
       {
         "id": 122035,
-        "name": "Verify Out Of Stock Top-Level Banner Is Visible On The Bag Page",
+        "name": "Verify Out Of Stock Alert Is Visible On The Bag Page",
         "folderId": 20991,
         "folderPath": "Regression",
         "bucket": "automated",
