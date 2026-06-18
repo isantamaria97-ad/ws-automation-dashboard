@@ -1,25 +1,95 @@
 {
-  "lastUpdated": "2026-06-18T15:58:10.288793+00:00",
+  "lastUpdated": "2026-06-18T18:27:05.083861+00:00",
   "jira": {
     "summary": {
-      "total": 237,
+      "total": 239,
       "byStatus": {
-        "IN UAT": 1,
+        "Listo": 6,
         "Backlog": 6,
+        "QA Approved": 16,
+        "IN UAT": 3,
         "Finalizada": 168,
         "En curso": 2,
         "Ready for Refinement": 4,
         "Ready to QA": 1,
         "Blocked": 3,
-        "QA Approved": 18,
         "Tech Review": 5,
         "READY FOR RELEASE": 6,
-        "Listo": 4,
         "PENDING DEV DEPLOY": 11,
         "Deprecated": 8
       }
     },
     "tickets": [
+      {
+        "key": "WSC-1558",
+        "url": "https://e2x.atlassian.net/browse/WSC-1558",
+        "summary": "CONTENT - SlimBanner amends",
+        "status": "Listo",
+        "statusCategory": "new",
+        "assignee": "Unassigned",
+        "updated": "2026-06-18T19:17:38.407+0100",
+        "priority": "Importante",
+        "labels": []
+      },
+      {
+        "key": "WSC-1559",
+        "url": "https://e2x.atlassian.net/browse/WSC-1559",
+        "summary": "CONTENT - SlimBanner amends 2",
+        "status": "Listo",
+        "statusCategory": "new",
+        "assignee": "Unassigned",
+        "updated": "2026-06-18T19:10:43.001+0100",
+        "priority": "Importante",
+        "labels": []
+      },
+      {
+        "key": "WSC-1138",
+        "url": "https://e2x.atlassian.net/browse/WSC-1138",
+        "summary": "GOOD STUFF - add preferred shop to 'My Details'",
+        "status": "Backlog",
+        "statusCategory": "new",
+        "assignee": "Unassigned",
+        "updated": "2026-06-18T17:24:03.185+0100",
+        "priority": "Importante",
+        "labels": [
+          "Needs-QA"
+        ]
+      },
+      {
+        "key": "WSC-1537",
+        "url": "https://e2x.atlassian.net/browse/WSC-1537",
+        "summary": "PLP - re-alignment 3 of 3 (grid)",
+        "status": "QA Approved",
+        "statusCategory": "indeterminate",
+        "assignee": "Ingrith Santamaria",
+        "updated": "2026-06-18T17:08:49.409+0100",
+        "priority": "Importante",
+        "labels": []
+      },
+      {
+        "key": "WSC-1536",
+        "url": "https://e2x.atlassian.net/browse/WSC-1536",
+        "summary": "PLP - re-alignment 2 of 3 (header)",
+        "status": "IN UAT",
+        "statusCategory": "indeterminate",
+        "assignee": "Ingrith Santamaria",
+        "updated": "2026-06-18T17:07:21.485+0100",
+        "priority": "Importante",
+        "labels": []
+      },
+      {
+        "key": "WSC-1535",
+        "url": "https://e2x.atlassian.net/browse/WSC-1535",
+        "summary": "PLP - re-alignment 1 of 3 (details)",
+        "status": "IN UAT",
+        "statusCategory": "indeterminate",
+        "assignee": "Jair Huaman",
+        "updated": "2026-06-18T17:03:33.362+0100",
+        "priority": "Importante",
+        "labels": [
+          "Needs-QA"
+        ]
+      },
       {
         "key": "WSC-1479",
         "url": "https://e2x.atlassian.net/browse/WSC-1479",
@@ -32,19 +102,6 @@
         "labels": [
           "CSP",
           "NO_QA_REQUIRED"
-        ]
-      },
-      {
-        "key": "WSC-1138",
-        "url": "https://e2x.atlassian.net/browse/WSC-1138",
-        "summary": "GOOD STUFF - add preferred shop to 'My Details'",
-        "status": "Backlog",
-        "statusCategory": "new",
-        "assignee": "Unassigned",
-        "updated": "2026-06-18T15:11:05.143+0100",
-        "priority": "Importante",
-        "labels": [
-          "Needs-QA"
         ]
       },
       {
@@ -276,41 +333,6 @@
         "labels": [
           "FastFollow"
         ]
-      },
-      {
-        "key": "WSC-1535",
-        "url": "https://e2x.atlassian.net/browse/WSC-1535",
-        "summary": "PLP - re-alignment 1 of 3 (details)",
-        "status": "QA Approved",
-        "statusCategory": "indeterminate",
-        "assignee": "Jair Huaman",
-        "updated": "2026-06-17T17:39:50.245+0100",
-        "priority": "Importante",
-        "labels": [
-          "Needs-QA"
-        ]
-      },
-      {
-        "key": "WSC-1536",
-        "url": "https://e2x.atlassian.net/browse/WSC-1536",
-        "summary": "PLP - re-alignment 2 of 3 (header)",
-        "status": "QA Approved",
-        "statusCategory": "indeterminate",
-        "assignee": "Ingrith Santamaria",
-        "updated": "2026-06-17T17:39:49.821+0100",
-        "priority": "Importante",
-        "labels": []
-      },
-      {
-        "key": "WSC-1537",
-        "url": "https://e2x.atlassian.net/browse/WSC-1537",
-        "summary": "PLP - re-alignment 3 of 3 (grid)",
-        "status": "QA Approved",
-        "statusCategory": "indeterminate",
-        "assignee": "Ingrith Santamaria",
-        "updated": "2026-06-17T17:39:49.374+0100",
-        "priority": "Importante",
-        "labels": []
       },
       {
         "key": "WSC-1226",
