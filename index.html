@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Dashboard de Automatización · EVB</title>
+  <title>Automation Dashboard · Whitestuff</title>
   <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.4/dist/chart.umd.min.js"></script>
   <style>
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
@@ -194,41 +194,41 @@
 <body>
 
 <header>
-  <h1>Dashboard de Automatización · <span>EVB</span></h1>
+  <h1>Automation Dashboard · <span>Whitestuff</span></h1>
   <div style="display:flex;align-items:center;gap:12px">
     <a href="testmo/" style="color:var(--muted);font-size:12px;text-decoration:none;padding:6px 10px;border:1px solid var(--border);border-radius:6px"
        onmouseover="this.style.color='var(--text)';this.style.borderColor='var(--accent)'"
        onmouseout="this.style.color='var(--muted)';this.style.borderColor='var(--border)'">
-      Ejecuciones de Testmo →
+      Testmo Runs →
     </a>
-    <span id="last-updated">Cargando…</span>
+    <span id="last-updated">Loading…</span>
   </div>
 </header>
 
-<div id="loading">Cargando datos del dashboard…</div>
+<div id="loading">Loading dashboard data…</div>
 <div id="error" style="display:none"></div>
 
 <main id="content">
 
   <section>
-    <h2>Cobertura de Automatización · <span id="scope-folder" style="color:var(--text);text-transform:none;letter-spacing:normal;font-weight:600"></span></h2>
+    <h2>Automation Coverage · <span id="scope-folder" style="color:var(--text);text-transform:none;letter-spacing:normal;font-weight:600"></span></h2>
     <div class="cards" id="coverage-cards"></div>
     <div class="charts-row" style="margin-top:14px">
       <div class="chart-box">
-        <h3>Distribución de cobertura</h3>
+        <h3>Coverage distribution</h3>
         <div class="chart-wrap"><canvas id="coverage-donut"></canvas></div>
       </div>
       <div class="chart-box" style="flex:1">
-        <h3>Por funcionalidad</h3>
+        <h3>By feature</h3>
         <div class="table-wrap" style="border:none">
           <table>
             <thead>
               <tr>
-                <th>Funcionalidad</th>
-                <th style="width:35%">Cobertura</th>
-                <th style="text-align:right">Automatizados</th>
-                <th style="text-align:right">No automatizados</th>
-                <th style="text-align:right">Sin clasificar</th>
+                <th>Feature</th>
+                <th style="width:35%">Coverage</th>
+                <th style="text-align:right">Automated</th>
+                <th style="text-align:right">Not automated</th>
+                <th style="text-align:right">Unclassified</th>
                 <th style="text-align:right">Total</th>
               </tr>
             </thead>
@@ -240,22 +240,22 @@
   </section>
 
   <section>
-    <h2>Ejecuciones de Automatización · <span id="scope-runs" style="color:var(--muted);font-weight:400;text-transform:none;letter-spacing:normal"></span></h2>
+    <h2>Automation Runs · <span id="scope-runs" style="color:var(--muted);font-weight:400;text-transform:none;letter-spacing:normal"></span></h2>
     <div class="cards" id="runs-cards"></div>
     <div class="chart-box" style="margin-top:14px">
-      <h3>Ejecuciones recientes (últimas 10)</h3>
+      <h3>Recent runs (last 10)</h3>
       <div class="chart-wrap"><canvas id="runs-bar"></canvas></div>
     </div>
     <div class="table-wrap" style="margin-top:14px">
       <table>
         <thead>
           <tr>
-            <th>Ejecución</th>
-            <th>Resultados</th>
-            <th>Aprobados</th>
-            <th>Fallidos</th>
-            <th>Pendientes</th>
-            <th>Fecha</th>
+            <th>Run</th>
+            <th>Results</th>
+            <th>Passed</th>
+            <th>Failed</th>
+            <th>Pending</th>
+            <th>Date</th>
           </tr>
         </thead>
         <tbody id="runs-tbody"></tbody>
@@ -267,18 +267,18 @@
     <h2>Jira · Tickets QA Story Points</h2>
     <div class="cards" id="jira-cards"></div>
     <div class="chart-box" style="margin-top:14px;max-width:360px">
-      <h3>Distribución por estado</h3>
+      <h3>Distribution by status</h3>
       <div class="chart-wrap" style="height:200px"><canvas id="jira-donut"></canvas></div>
     </div>
     <div class="table-wrap" style="margin-top:14px">
       <table>
         <thead>
           <tr>
-            <th>Clave</th>
-            <th>Resumen</th>
-            <th>Estado</th>
-            <th>Asignado</th>
-            <th>Actualizado</th>
+            <th>Key</th>
+            <th>Summary</th>
+            <th>Status</th>
+            <th>Assignee</th>
+            <th>Updated</th>
           </tr>
         </thead>
         <tbody id="jira-tbody"></tbody>
@@ -291,20 +291,14 @@
 <script>
   const STATUS_CLASS = { 'To Do': 'todo', 'In Progress': 'progress', 'Done': 'done' };
   // Jira returns status names in English; map them to Spanish for display.
-  const STATUS_LABEL_ES = {
-    'To Do': 'Por hacer',
-    'In Progress': 'En progreso',
-    'Done': 'Listo',
-    'PO Review': 'Revisión PO',
-  };
-  const tr = s => STATUS_LABEL_ES[s] || s;
+  const tr = s => s;
 
   function badge(text, cls) {
     return `<span class="badge ${cls || 'other'}">${text}</span>`;
   }
   function fmtDate(iso) {
     if (!iso) return '—';
-    return new Date(iso).toLocaleDateString('es-ES', { day: '2-digit', month: 'short', year: 'numeric' });
+    return new Date(iso).toLocaleDateString('en-GB', { day: '2-digit', month: 'short', year: 'numeric' });
   }
   function card(label, value, colorClass) {
     return `<div class="card"><div class="label">${label}</div><div class="value ${colorClass || ''}">${value}</div></div>`;
@@ -339,7 +333,7 @@
       loading.style.display = 'none';
       content.style.display = 'block';
       document.getElementById('last-updated').textContent =
-        'Actualizado ' + new Date(d.lastUpdated).toLocaleString('es-ES');
+        'Updated ' + new Date(d.lastUpdated).toLocaleString('en-GB');
 
       renderCoverage(d.testmo);
       renderRuns(d.testmo);
@@ -348,7 +342,7 @@
     } catch (err) {
       loading.style.display = 'none';
       errorEl.style.display = 'flex';
-      errorEl.textContent = 'No se pudo cargar data.json — ' + err.message;
+      errorEl.textContent = 'Could not load data.json — ' + err.message;
     }
   }
 
@@ -360,13 +354,13 @@
 
     document.getElementById('jira-cards').innerHTML =
       card('Total', summary.total, 'accent') +
-      card('Por hacer', todo, '') +
-      card('En progreso', inProgress, 'blue') +
-      card('Listos', done, 'green');
+      card('To Do', todo, '') +
+      card('In Progress', inProgress, 'blue') +
+      card('Done', done, 'green');
 
     const tbody = document.getElementById('jira-tbody');
     if (!tickets.length) {
-      tbody.innerHTML = '<tr><td colspan="5" style="color:var(--muted);text-align:center;padding:24px">Sin tickets</td></tr>';
+      tbody.innerHTML = '<tr><td colspan="5" style="color:var(--muted);text-align:center;padding:24px">No tickets</td></tr>';
       return;
     }
     tbody.innerHTML = tickets.map(t => `
@@ -383,9 +377,9 @@
     if (!total) return '<div class="run-bar"></div>';
     const pct = n => ((n / total) * 100).toFixed(1) + '%';
     return `<div class="run-bar">
-      <span style="width:${pct(automated)};background:#22c55e"     title="Automatizados: ${automated}"></span>
-      <span style="width:${pct(notAutomated)};background:#6b7280"  title="No automatizados: ${notAutomated}"></span>
-      <span style="width:${pct(unclassified)};background:#eab308"  title="Sin clasificar: ${unclassified}"></span>
+      <span style="width:${pct(automated)};background:#22c55e"     title="Automated: ${automated}"></span>
+      <span style="width:${pct(notAutomated)};background:#6b7280"  title="Not automated: ${notAutomated}"></span>
+      <span style="width:${pct(unclassified)};background:#eab308"  title="Unclassified: ${unclassified}"></span>
     </div>`;
   }
 
@@ -395,15 +389,15 @@
 
     const c = coverage;
     document.getElementById('coverage-cards').innerHTML =
-      card('Total de casos',  c.total, 'accent') +
-      card('Automatizados',   c.automated + ' (' + c.automatedPct + '%)', c.automated > 0 ? 'green' : '') +
-      card('No automatizados', c.notAutomated, '') +
-      card('Sin clasificar',  c.unclassified, c.unclassified > 0 ? 'yellow' : '');
+      card('Total cases',     c.total, 'accent') +
+      card('Automated',       c.automated + ' (' + c.automatedPct + '%)', c.automated > 0 ? 'green' : '') +
+      card('Not automated',   c.notAutomated, '') +
+      card('Unclassified',    c.unclassified, c.unclassified > 0 ? 'yellow' : '');
 
     const tbody = document.getElementById('coverage-tbody');
     const rows = c.byFolder || [];
     if (!rows.length) {
-      tbody.innerHTML = '<tr><td colspan="6" style="color:var(--muted);text-align:center;padding:24px">Sin casos en el alcance</td></tr>';
+      tbody.innerHTML = '<tr><td colspan="6" style="color:var(--muted);text-align:center;padding:24px">No cases in scope</td></tr>';
       return;
     }
     let lastGroup = null;
@@ -427,22 +421,22 @@
   function renderRuns({ scope, runs }) {
     const passRateClass = runs.passRate >= 95 ? 'green' : runs.passRate >= 80 ? 'yellow' : 'red';
     document.getElementById('runs-cards').innerHTML =
-      card('Total de ejecuciones',  runs.total, 'accent') +
-      card('Últimos aprobados',     runs.latestPassed, 'green') +
-      card('Últimos fallidos',      runs.latestFailed, runs.latestFailed > 0 ? 'red' : '') +
-      card('Tasa de aprobación',    runs.passRate + '%', passRateClass);
+      card('Total runs',     runs.total, 'accent') +
+      card('Last passed',   runs.latestPassed, 'green') +
+      card('Last failed',   runs.latestFailed, runs.latestFailed > 0 ? 'red' : '') +
+      card('Pass rate',     runs.passRate + '%', passRateClass);
 
     if (scope) {
       const bits = [];
-      if (scope.automationSourceId) bits.push(`fuente ${scope.automationSourceId}`);
-      if (scope.runNamePattern)     bits.push(`nombre ~ /${scope.runNamePattern}/i`);
+      if (scope.automationSourceId) bits.push(`source ${scope.automationSourceId}`);
+      if (scope.runNamePattern)     bits.push(`name ~ /${scope.runNamePattern}/i`);
       document.getElementById('scope-runs').textContent = bits.length ? bits.join(' · ') : '';
     }
 
     const tbody = document.getElementById('runs-tbody');
     const recent = runs.recent || [];
     if (!recent.length) {
-      tbody.innerHTML = '<tr><td colspan="6" style="color:var(--muted);text-align:center;padding:24px">Sin ejecuciones</td></tr>';
+      tbody.innerHTML = '<tr><td colspan="6" style="color:var(--muted);text-align:center;padding:24px">No runs</td></tr>';
       return;
     }
     tbody.innerHTML = recent.map(r => {
@@ -464,7 +458,7 @@
     new Chart(document.getElementById('coverage-donut'), {
       type: 'doughnut',
       data: {
-        labels: ['Automatizados', 'No automatizados', 'Sin clasificar'],
+        labels: ['Automated', 'Not automated', 'Unclassified'],
         datasets: [{
           data: [cov.automated, cov.notAutomated, cov.unclassified],
           backgroundColor: ['#22c55e', '#6b7280', '#eab308'],
@@ -486,9 +480,9 @@
       data: {
         labels: runs.map(r => trunc(r.name, 28)),
         datasets: [
-          { label: 'Aprobados',  data: runs.map(r => r.passed),  backgroundColor: '#22c55e' },
-          { label: 'Fallidos',   data: runs.map(r => r.failed),  backgroundColor: '#ef4444' },
-          { label: 'Pendientes', data: runs.map(r => r.pending), backgroundColor: '#6b7280' },
+          { label: 'Passed',  data: runs.map(r => r.passed),  backgroundColor: '#22c55e' },
+          { label: 'Failed',  data: runs.map(r => r.failed),  backgroundColor: '#ef4444' },
+          { label: 'Pending', data: runs.map(r => r.pending), backgroundColor: '#6b7280' },
         ],
       },
       options: {

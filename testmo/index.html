@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Ejecuciones de Testmo · EVB</title>
+  <title>Testmo Runs · Whitestuff</title>
   <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.4/dist/chart.umd.min.js"></script>
   <style>
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
@@ -336,57 +336,57 @@
 <body>
 
 <header>
-  <h1>Ejecuciones de Testmo · <span>EVB</span></h1>
+  <h1>Testmo Runs · <span>Whitestuff</span></h1>
   <div class="header-right">
-    <a class="nav-link" href="../">← Dashboard de automatización</a>
-    <span id="last-updated">Cargando…</span>
+    <a class="nav-link" href="../">← Automation Dashboard</a>
+    <span id="last-updated">Loading…</span>
   </div>
 </header>
 
-<div id="loading">Cargando datos…</div>
+<div id="loading">Loading data…</div>
 <div id="error" style="display:none"></div>
-<div id="empty" style="display:none">No hay ejecuciones configuradas. Define TESTMO_RUN_IDS o TESTMO_GROUP_ID en el workflow.</div>
+<div id="empty" style="display:none">No runs configured. Set TESTMO_RUN_IDS or TESTMO_GROUP_ID in the workflow.</div>
 
 <main id="content">
 
   <section class="run-picker">
-    <label for="run-select">Ejecución</label>
+    <label for="run-select">Run</label>
     <select id="run-select"></select>
-    <a id="run-link" class="run-link" href="#" target="_blank" rel="noopener">Abrir en Testmo ↗</a>
+    <a id="run-link" class="run-link" href="#" target="_blank" rel="noopener">Open in Testmo ↗</a>
   </section>
 
   <section>
-    <h2>Estado de la ejecución</h2>
+    <h2>Run status</h2>
     <div class="status-panel">
       <div class="status-summary">
-        <div class="completed-pct" id="completed-pct">0% completado</div>
-        <div class="remaining-label" id="remaining-label">0 de 0 pendientes</div>
+        <div class="completed-pct" id="completed-pct">0% completed</div>
+        <div class="remaining-label" id="remaining-label">0 of 0 pending</div>
         <div class="status-legend" id="legend"></div>
       </div>
       <div class="chart-wrap">
         <canvas id="status-pie"></canvas>
         <div class="chart-center">
           <div class="big" id="chart-center-pct">0%</div>
-          <div class="sub">completado</div>
+          <div class="sub">completed</div>
         </div>
       </div>
     </div>
   </section>
 
   <section>
-    <h2>Casos de prueba</h2>
+    <h2>Test cases</h2>
     <div class="cases-panel">
       <div class="cases-toolbar">
         <div id="filter-pills" style="display:flex;gap:6px;flex-wrap:wrap"></div>
-        <input id="case-search" type="search" placeholder="Filtrar por nombre…" />
+        <input id="case-search" type="search" placeholder="Filter by name…" />
       </div>
       <div class="cases-table-wrap">
         <table class="cases">
           <thead>
             <tr>
-              <th style="width:46%">Nombre</th>
-              <th>Estado</th>
-              <th>Actualizado</th>
+              <th style="width:46%">Name</th>
+              <th>Status</th>
+              <th>Updated</th>
               <th style="text-align:right">ID</th>
             </tr>
           </thead>
@@ -408,11 +408,11 @@
   // Anything not in these buckets (untested, skipped, never-recorded) is
   // collapsed into the implicit "remaining" slice in the donut.
   const STATUSES = [
-    { key: 'passed',  label: 'Aprobado',  color: '#5cb85c', statusId: 2 },
-    { key: 'failed',  label: 'Fallido',   color: '#d9534f', statusId: 3 },
-    { key: 'retest',  label: 'Reintento', color: '#f0ad4e', statusId: 4 },
-    { key: 'blocked', label: 'Bloqueado', color: '#9e9e9e', statusId: 5 },
-    { key: 'skipped', label: 'Omitido',   color: '#8b5cf6', statusId: 6 },
+    { key: 'passed',  label: 'Passed',  color: '#5cb85c', statusId: 2 },
+    { key: 'failed',  label: 'Failed',  color: '#d9534f', statusId: 3 },
+    { key: 'retest',  label: 'Retest',  color: '#f0ad4e', statusId: 4 },
+    { key: 'blocked', label: 'Blocked', color: '#9e9e9e', statusId: 5 },
+    { key: 'skipped', label: 'Skipped', color: '#8b5cf6', statusId: 6 },
   ];
   const REMAINING_COLOR = '#3f4452';
   // statusId → color (covers Untested/Skipped too for the table badges)
@@ -423,8 +423,8 @@
   // statusId → Spanish label, used to localize the status field that comes
   // from the Python script (which serializes Testmo's English defaults).
   const STATUS_LABEL_BY_ID = {
-    1: 'Sin probar', 2: 'Aprobado', 3: 'Fallido',
-    4: 'Reintento', 5: 'Bloqueado', 6: 'Omitido',
+    1: 'Untested', 2: 'Passed', 3: 'Failed',
+    4: 'Retest', 5: 'Blocked', 6: 'Skipped',
   };
 
   let chart = null;
@@ -455,7 +455,7 @@
 
       loading.style.display = 'none';
       document.getElementById('last-updated').textContent =
-        'Actualizado ' + new Date(d.lastUpdated).toLocaleString('es-ES');
+        'Updated ' + new Date(d.lastUpdated).toLocaleString('en-GB');
 
       runs = d.runs || [];
       if (!runs.length) {
@@ -466,14 +466,14 @@
       content.style.display = 'flex';
       const sel = document.getElementById('run-select');
       sel.innerHTML = runs.map((r, i) =>
-        `<option value="${i}">${esc(r.name || ('Ejecución ' + r.id))} · #${r.id}</option>`
+        `<option value="${i}">${esc(r.name || ('Run ' + r.id))} · #${r.id}</option>`
       ).join('');
       sel.addEventListener('change', () => render(runs[+sel.value]));
       render(runs[0]);
     } catch (err) {
       loading.style.display = 'none';
       errorEl.style.display = 'flex';
-      errorEl.textContent = 'No se pudo cargar data.json — ' + err.message;
+      errorEl.textContent = 'Could not load data.json — ' + err.message;
     }
   }
 
@@ -497,8 +497,8 @@
     const remaining = Math.max(0, total - completed);
     const completedPct = total ? Math.round((completed / total) * 100) : 0;
 
-    document.getElementById('completed-pct').textContent = completedPct + '% completado';
-    document.getElementById('remaining-label').textContent = `${remaining} de ${total} pendientes`;
+    document.getElementById('completed-pct').textContent = completedPct + '% completed';
+    document.getElementById('remaining-label').textContent = `${remaining} of ${total} pending`;
     document.getElementById('chart-center-pct').textContent = completedPct + '%';
 
     renderLegend(run, total);
@@ -517,7 +517,7 @@
         <div class="legend-swatch" style="background:${s.color}"></div>
         <div class="legend-text">
           <div class="count">${v} ${s.label}</div>
-          <div class="sub">${p}% marcado como ${s.label}</div>
+          <div class="sub">${p}% marked as ${s.label}</div>
         </div>
       </div>`;
     }).join('');
@@ -561,7 +561,7 @@
       return acc;
     }, {});
 
-    const pills = [{ id: 'all', label: 'Todos', color: '#9ca3af', count: cases.length }]
+    const pills = [{ id: 'all', label: 'All', color: '#9ca3af', count: cases.length }]
       .concat(STATUSES.map(s => ({
         id: s.statusId, label: s.label, color: s.color, count: countByStatus[s.statusId] || 0,
       })));
@@ -606,14 +606,14 @@
       tbody.innerHTML = '';
       pagerEl.style.display = 'none';
       emptyEl.style.display = 'block';
-      emptyEl.textContent = 'Aún no hay casos ejecutados. La tabla se actualizará cuando QA registre resultados.';
+      emptyEl.textContent = 'No cases executed yet. The table will update when QA records results.';
       return;
     }
     if (!filtered.length) {
       tbody.innerHTML = '';
       pagerEl.style.display = 'none';
       emptyEl.style.display = 'block';
-      emptyEl.textContent = 'Ningún caso coincide con el filtro.';
+      emptyEl.textContent = 'No cases match the filter.';
       return;
     }
     emptyEl.style.display = 'none';
@@ -627,7 +627,7 @@
       const color = STATUS_COLOR_BY_ID[c.statusId] || '#9ca3af';
       const statusLabel = STATUS_LABEL_BY_ID[c.statusId] || c.status;
       const updated = c.updatedAt
-        ? new Date(c.updatedAt).toLocaleString('es-ES', { day: '2-digit', month: 'short', hour: '2-digit', minute: '2-digit' })
+        ? new Date(c.updatedAt).toLocaleString('en-GB', { day: '2-digit', month: 'short', hour: '2-digit', minute: '2-digit' })
         : '—';
       return `<tr>
         <td>${esc(c.name)}</td>
@@ -648,7 +648,7 @@
     if (totalPages <= 1) return;
 
     document.getElementById('pager-info').textContent =
-      `${start + 1}–${start + pageCount} de ${totalItems}`;
+      `${start + 1}–${start + pageCount} of ${totalItems}`;
 
     const controls = document.getElementById('pager-controls');
     const pages = pageRange(currentPage, totalPages);
