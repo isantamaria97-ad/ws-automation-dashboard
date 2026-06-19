@@ -1,17 +1,16 @@
 {
-  "lastUpdated": "2026-06-18T22:10:55.714719+00:00",
+  "lastUpdated": "2026-06-19T04:26:58.240411+00:00",
   "jira": {
     "summary": {
       "total": 240,
       "byStatus": {
+        "Listo": 7,
+        "Tech Review": 2,
         "PENDING DEV DEPLOY": 16,
-        "Tech Review": 1,
         "Tareas por hacer": 1,
         "Finalizada": 169,
-        "Listo": 7,
         "IN UAT": 3,
         "Backlog": 6,
-        "En curso": 1,
         "Ready for Refinement": 3,
         "Ready to QA": 1,
         "Blocked": 3,
@@ -21,6 +20,39 @@
       }
     },
     "tickets": [
+      {
+        "key": "WSC-1558",
+        "url": "https://e2x.atlassian.net/browse/WSC-1558",
+        "summary": "CONTENT - SlimBanner amends",
+        "status": "Listo",
+        "statusCategory": "new",
+        "assignee": "Jair Huaman",
+        "updated": "2026-06-19T02:24:10.969+0100",
+        "priority": "Importante",
+        "labels": []
+      },
+      {
+        "key": "WSC-1559",
+        "url": "https://e2x.atlassian.net/browse/WSC-1559",
+        "summary": "CONTENT - SlimBanner amends 2",
+        "status": "Listo",
+        "statusCategory": "new",
+        "assignee": "Jair Huaman",
+        "updated": "2026-06-19T02:24:03.942+0100",
+        "priority": "Importante",
+        "labels": []
+      },
+      {
+        "key": "WSC-1383",
+        "url": "https://e2x.atlassian.net/browse/WSC-1383",
+        "summary": "PDP - make 'Details/Returns/Delivery' accessible to search engines/LLMs",
+        "status": "Tech Review",
+        "statusCategory": "indeterminate",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-06-19T02:23:42.585+0100",
+        "priority": "Poco importante",
+        "labels": []
+      },
       {
         "key": "WSC-1488",
         "url": "https://e2x.atlassian.net/browse/WSC-1488",
@@ -145,28 +177,6 @@
         "labels": []
       },
       {
-        "key": "WSC-1558",
-        "url": "https://e2x.atlassian.net/browse/WSC-1558",
-        "summary": "CONTENT - SlimBanner amends",
-        "status": "Listo",
-        "statusCategory": "new",
-        "assignee": "Unassigned",
-        "updated": "2026-06-18T19:17:38.407+0100",
-        "priority": "Importante",
-        "labels": []
-      },
-      {
-        "key": "WSC-1559",
-        "url": "https://e2x.atlassian.net/browse/WSC-1559",
-        "summary": "CONTENT - SlimBanner amends 2",
-        "status": "Listo",
-        "statusCategory": "new",
-        "assignee": "Unassigned",
-        "updated": "2026-06-18T19:10:43.001+0100",
-        "priority": "Importante",
-        "labels": []
-      },
-      {
         "key": "WSC-1138",
         "url": "https://e2x.atlassian.net/browse/WSC-1138",
         "summary": "GOOD STUFF - add preferred shop to 'My Details'",
@@ -215,17 +225,6 @@
         "labels": [
           "FastFollow"
         ]
-      },
-      {
-        "key": "WSC-1383",
-        "url": "https://e2x.atlassian.net/browse/WSC-1383",
-        "summary": "PDP - make 'Details/Returns/Delivery' accessible to search engines/LLMs",
-        "status": "En curso",
-        "statusCategory": "indeterminate",
-        "assignee": "Jair Huaman",
-        "updated": "2026-06-18T14:31:00.551+0100",
-        "priority": "Poco importante",
-        "labels": []
       },
       {
         "key": "WSC-1553",
