@@ -1,33 +1,117 @@
 {
-  "lastUpdated": "2026-06-19T12:07:37.820043+00:00",
+  "lastUpdated": "2026-06-19T18:00:41.863009+00:00",
   "jira": {
     "summary": {
-      "total": 240,
+      "total": 241,
       "byStatus": {
-        "Listo": 7,
-        "Tech Review": 2,
-        "PENDING DEV DEPLOY": 16,
+        "IN UAT": 6,
+        "Listo": 6,
+        "QA Approved": 14,
+        "En curso": 1,
         "Tareas por hacer": 1,
+        "Tech Review": 1,
+        "PENDING DEV DEPLOY": 16,
         "Finalizada": 169,
-        "IN UAT": 3,
         "Backlog": 6,
         "Ready for Refinement": 3,
         "Ready to QA": 1,
         "Blocked": 3,
-        "QA Approved": 15,
         "READY FOR RELEASE": 6,
         "Deprecated": 8
       }
     },
     "tickets": [
       {
-        "key": "WSC-1558",
-        "url": "https://e2x.atlassian.net/browse/WSC-1558",
-        "summary": "CONTENT - SlimBanner amends",
+        "key": "WSC-1555",
+        "url": "https://e2x.atlassian.net/browse/WSC-1555",
+        "summary": "BAG - empty bag shows on refresh",
+        "status": "IN UAT",
+        "statusCategory": "indeterminate",
+        "assignee": "Gerardo Romero",
+        "updated": "2026-06-19T18:49:06.126+0100",
+        "priority": "Poco importante",
+        "labels": [
+          "Needs-QA"
+        ]
+      },
+      {
+        "key": "WSC-1354",
+        "url": "https://e2x.atlassian.net/browse/WSC-1354",
+        "summary": "SHOP PAGES - Local Business schema",
         "status": "Listo",
         "statusCategory": "new",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-06-19T18:17:05.171+0100",
+        "priority": "Poco importante",
+        "labels": []
+      },
+      {
+        "key": "WSC-1278",
+        "url": "https://e2x.atlassian.net/browse/WSC-1278",
+        "summary": "CONTENT - new slim banner",
+        "status": "IN UAT",
+        "statusCategory": "indeterminate",
+        "assignee": "Ingrith Santamaria",
+        "updated": "2026-06-19T17:27:21.532+0100",
+        "priority": "Importante",
+        "labels": [
+          "Needs-QA"
+        ]
+      },
+      {
+        "key": "WSC-1537",
+        "url": "https://e2x.atlassian.net/browse/WSC-1537",
+        "summary": "PLP - re-alignment 3 of 3 (grid)",
+        "status": "IN UAT",
+        "statusCategory": "indeterminate",
+        "assignee": "Ingrith Santamaria",
+        "updated": "2026-06-19T17:26:32.934+0100",
+        "priority": "Importante",
+        "labels": []
+      },
+      {
+        "key": "WSC-1536",
+        "url": "https://e2x.atlassian.net/browse/WSC-1536",
+        "summary": "PLP - re-alignment 2 of 3 (header)",
+        "status": "IN UAT",
+        "statusCategory": "indeterminate",
+        "assignee": "Ingrith Santamaria",
+        "updated": "2026-06-19T17:26:09.980+0100",
+        "priority": "Importante",
+        "labels": []
+      },
+      {
+        "key": "WSC-1535",
+        "url": "https://e2x.atlassian.net/browse/WSC-1535",
+        "summary": "PLP - re-alignment 1 of 3 (details)",
+        "status": "IN UAT",
+        "statusCategory": "indeterminate",
         "assignee": "Jair Huaman",
-        "updated": "2026-06-19T02:24:10.969+0100",
+        "updated": "2026-06-19T17:25:50.845+0100",
+        "priority": "Importante",
+        "labels": [
+          "Needs-QA"
+        ]
+      },
+      {
+        "key": "WSC-1530",
+        "url": "https://e2x.atlassian.net/browse/WSC-1530",
+        "summary": "SPIKE: CONTENTSQUARE (CSQ) - unmasking JS script errors",
+        "status": "IN UAT",
+        "statusCategory": "indeterminate",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-06-19T16:19:37.605+0100",
+        "priority": "Importante",
+        "labels": []
+      },
+      {
+        "key": "WSC-1466",
+        "url": "https://e2x.atlassian.net/browse/WSC-1466",
+        "summary": "BAG/MINI-BAG - isolating OOS products",
+        "status": "QA Approved",
+        "statusCategory": "indeterminate",
+        "assignee": "Unassigned",
+        "updated": "2026-06-19T15:57:04.609+0100",
         "priority": "Importante",
         "labels": []
       },
@@ -38,8 +122,30 @@
         "status": "Listo",
         "statusCategory": "new",
         "assignee": "Jair Huaman",
-        "updated": "2026-06-19T02:24:03.942+0100",
+        "updated": "2026-06-19T15:46:54.320+0100",
         "priority": "Importante",
+        "labels": []
+      },
+      {
+        "key": "WSC-1558",
+        "url": "https://e2x.atlassian.net/browse/WSC-1558",
+        "summary": "CONTENT - SlimBanner amends",
+        "status": "En curso",
+        "statusCategory": "indeterminate",
+        "assignee": "Jair Huaman",
+        "updated": "2026-06-19T15:46:38.531+0100",
+        "priority": "Importante",
+        "labels": []
+      },
+      {
+        "key": "WSC-1562",
+        "url": "https://e2x.atlassian.net/browse/WSC-1562",
+        "summary": "PDP - toggle amendment",
+        "status": "Tareas por hacer",
+        "statusCategory": "new",
+        "assignee": "Unassigned",
+        "updated": "2026-06-19T13:29:28.593+0100",
+        "priority": "Not Set",
         "labels": []
       },
       {
@@ -117,28 +223,6 @@
         ]
       },
       {
-        "key": "WSC-1530",
-        "url": "https://e2x.atlassian.net/browse/WSC-1530",
-        "summary": "SPIKE: CONTENTSQUARE (CSQ) - unmasking JS script errors",
-        "status": "Tech Review",
-        "statusCategory": "indeterminate",
-        "assignee": "Alexander Talavera",
-        "updated": "2026-06-18T20:29:36.109+0100",
-        "priority": "Importante",
-        "labels": []
-      },
-      {
-        "key": "WSC-1562",
-        "url": "https://e2x.atlassian.net/browse/WSC-1562",
-        "summary": "PDP - toggle amendment",
-        "status": "Tareas por hacer",
-        "statusCategory": "new",
-        "assignee": "Unassigned",
-        "updated": "2026-06-18T20:25:02.979+0100",
-        "priority": "Not Set",
-        "labels": []
-      },
-      {
         "key": "WSC-1479",
         "url": "https://e2x.atlassian.net/browse/WSC-1479",
         "summary": "Resource Discovery & CSP Audit",
@@ -166,17 +250,6 @@
         ]
       },
       {
-        "key": "WSC-1537",
-        "url": "https://e2x.atlassian.net/browse/WSC-1537",
-        "summary": "PLP - re-alignment 3 of 3 (grid)",
-        "status": "IN UAT",
-        "statusCategory": "indeterminate",
-        "assignee": "Ingrith Santamaria",
-        "updated": "2026-06-18T19:44:21.917+0100",
-        "priority": "Importante",
-        "labels": []
-      },
-      {
         "key": "WSC-1138",
         "url": "https://e2x.atlassian.net/browse/WSC-1138",
         "summary": "GOOD STUFF - add preferred shop to 'My Details'",
@@ -184,30 +257,6 @@
         "statusCategory": "new",
         "assignee": "Unassigned",
         "updated": "2026-06-18T17:24:03.185+0100",
-        "priority": "Importante",
-        "labels": [
-          "Needs-QA"
-        ]
-      },
-      {
-        "key": "WSC-1536",
-        "url": "https://e2x.atlassian.net/browse/WSC-1536",
-        "summary": "PLP - re-alignment 2 of 3 (header)",
-        "status": "IN UAT",
-        "statusCategory": "indeterminate",
-        "assignee": "Ingrith Santamaria",
-        "updated": "2026-06-18T17:07:21.485+0100",
-        "priority": "Importante",
-        "labels": []
-      },
-      {
-        "key": "WSC-1535",
-        "url": "https://e2x.atlassian.net/browse/WSC-1535",
-        "summary": "PLP - re-alignment 1 of 3 (details)",
-        "status": "IN UAT",
-        "statusCategory": "indeterminate",
-        "assignee": "Jair Huaman",
-        "updated": "2026-06-18T17:03:33.362+0100",
         "priority": "Importante",
         "labels": [
           "Needs-QA"
@@ -276,17 +325,6 @@
           "CSP",
           "NO_QA_REQUIRED"
         ]
-      },
-      {
-        "key": "WSC-1466",
-        "url": "https://e2x.atlassian.net/browse/WSC-1466",
-        "summary": "BAG/MINI-BAG - isolating OOS products",
-        "status": "QA Approved",
-        "statusCategory": "indeterminate",
-        "assignee": "Unassigned",
-        "updated": "2026-06-17T22:37:49.677+0100",
-        "priority": "Importante",
-        "labels": []
       },
       {
         "key": "WSC-1531",
@@ -379,19 +417,6 @@
         "updated": "2026-06-17T17:39:53.098+0100",
         "priority": "Poco importante",
         "labels": []
-      },
-      {
-        "key": "WSC-1278",
-        "url": "https://e2x.atlassian.net/browse/WSC-1278",
-        "summary": "CONTENT - new slim banner",
-        "status": "QA Approved",
-        "statusCategory": "indeterminate",
-        "assignee": "Ingrith Santamaria",
-        "updated": "2026-06-17T17:39:52.572+0100",
-        "priority": "Importante",
-        "labels": [
-          "Needs-QA"
-        ]
       },
       {
         "key": "WSC-1476",
@@ -901,17 +926,6 @@
           "CSP",
           "NO_QA_REQUIRED"
         ]
-      },
-      {
-        "key": "WSC-1354",
-        "url": "https://e2x.atlassian.net/browse/WSC-1354",
-        "summary": "SHOP PAGES - Local Business schema",
-        "status": "Listo",
-        "statusCategory": "new",
-        "assignee": "Unassigned",
-        "updated": "2026-06-16T15:55:36.188+0100",
-        "priority": "Poco importante",
-        "labels": []
       },
       {
         "key": "WSC-1495",
@@ -2992,17 +3006,17 @@
     },
     "runs": {
       "total": 28,
-      "latestPassed": 0,
+      "latestPassed": 65,
       "latestFailed": 0,
-      "latestPending": 65,
+      "latestPending": 0,
       "latestTotal": 65,
-      "latestRunName": "Regression",
+      "latestRunName": "Regression 18/06/26",
       "latestRunDate": "2026-06-18T14:56:48.342Z",
-      "passRate": 99.5,
+      "passRate": 99.6,
       "recent": [
         {
           "id": 1814,
-          "name": "Regression",
+          "name": "Regression 18/06/26",
           "source_id": null,
           "milestone_id": 221,
           "config_id": 14,
@@ -3011,15 +3025,15 @@
           "elapsed_ms": null,
           "created_at": "2026-06-18T14:56:48.342Z",
           "completed_at": null,
-          "passed": 0,
+          "passed": 65,
           "failed": 0,
-          "pending": 65,
-          "completed": 0,
+          "pending": 0,
+          "completed": 65,
           "total": 65
         },
         {
           "id": 1813,
-          "name": "Regression",
+          "name": "Regression 18/06/26",
           "source_id": null,
           "milestone_id": 221,
           "config_id": 13,
@@ -3028,15 +3042,15 @@
           "elapsed_ms": null,
           "created_at": "2026-06-18T14:56:48.334Z",
           "completed_at": null,
-          "passed": 39,
+          "passed": 65,
           "failed": 0,
-          "pending": 26,
-          "completed": 39,
+          "pending": 0,
+          "completed": 65,
           "total": 65
         },
         {
           "id": 1812,
-          "name": "Regression",
+          "name": "Regression 18/06/26",
           "source_id": null,
           "milestone_id": 221,
           "config_id": 10,
@@ -3045,15 +3059,15 @@
           "elapsed_ms": null,
           "created_at": "2026-06-18T14:56:48.326Z",
           "completed_at": null,
-          "passed": 47,
+          "passed": 65,
           "failed": 0,
-          "pending": 18,
-          "completed": 47,
+          "pending": 0,
+          "completed": 65,
           "total": 65
         },
         {
           "id": 1811,
-          "name": "Regression",
+          "name": "Regression 18/06/26",
           "source_id": null,
           "milestone_id": 221,
           "config_id": 9,
