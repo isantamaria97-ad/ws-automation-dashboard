@@ -1,26 +1,182 @@
 {
-  "lastUpdated": "2026-06-19T18:00:41.863009+00:00",
+  "lastUpdated": "2026-06-19T21:11:31.296506+00:00",
   "jira": {
     "summary": {
-      "total": 241,
+      "total": 248,
       "byStatus": {
-        "IN UAT": 6,
-        "Listo": 6,
-        "QA Approved": 14,
+        "Listo": 10,
+        "Finalizada": 170,
         "En curso": 1,
+        "Tech Review": 2,
         "Tareas por hacer": 1,
-        "Tech Review": 1,
-        "PENDING DEV DEPLOY": 16,
-        "Finalizada": 169,
-        "Backlog": 6,
-        "Ready for Refinement": 3,
+        "Backlog": 7,
+        "PENDING DEV DEPLOY": 18,
+        "IN UAT": 6,
+        "QA Approved": 14,
         "Ready to QA": 1,
         "Blocked": 3,
         "READY FOR RELEASE": 6,
+        "Ready for Refinement": 1,
         "Deprecated": 8
       }
     },
     "tickets": [
+      {
+        "key": "WSC-1553",
+        "url": "https://e2x.atlassian.net/browse/WSC-1553",
+        "summary": "API KEY - update (CHECKOUT)",
+        "status": "Listo",
+        "statusCategory": "new",
+        "assignee": "Unassigned",
+        "updated": "2026-06-19T21:50:43.755+0100",
+        "priority": "Poco importante",
+        "labels": [
+          "Needs-QA"
+        ]
+      },
+      {
+        "key": "WSC-1562",
+        "url": "https://e2x.atlassian.net/browse/WSC-1562",
+        "summary": "PDP - toggle amendment",
+        "status": "Finalizada",
+        "statusCategory": "done",
+        "assignee": "Alexander Talavera",
+        "updated": "2026-06-19T21:20:34.243+0100",
+        "priority": "Not Set",
+        "labels": []
+      },
+      {
+        "key": "WSC-1559",
+        "url": "https://e2x.atlassian.net/browse/WSC-1559",
+        "summary": "CONTENT - SlimBanner amends 2",
+        "status": "En curso",
+        "statusCategory": "indeterminate",
+        "assignee": "Jair Huaman",
+        "updated": "2026-06-19T21:19:13.689+0100",
+        "priority": "Importante",
+        "labels": []
+      },
+      {
+        "key": "WSC-1558",
+        "url": "https://e2x.atlassian.net/browse/WSC-1558",
+        "summary": "CONTENT - SlimBanner amends",
+        "status": "Tech Review",
+        "statusCategory": "indeterminate",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-06-19T21:19:08.979+0100",
+        "priority": "Importante",
+        "labels": []
+      },
+      {
+        "key": "WSC-1566",
+        "url": "https://e2x.atlassian.net/browse/WSC-1566",
+        "summary": "Investigate Bazaarvoice API for Server-Side Product Review Retrieval",
+        "status": "Tareas por hacer",
+        "statusCategory": "new",
+        "assignee": "Unassigned",
+        "updated": "2026-06-19T21:18:06.774+0100",
+        "priority": "Not Set",
+        "labels": []
+      },
+      {
+        "key": "WSC-80",
+        "url": "https://e2x.atlassian.net/browse/WSC-80",
+        "summary": "PLP/SEARCH RESULTS - add a 'back to top' button",
+        "status": "Backlog",
+        "statusCategory": "new",
+        "assignee": "Unassigned",
+        "updated": "2026-06-19T20:37:15.825+0100",
+        "priority": "Poco importante",
+        "labels": [
+          "Needs-QA",
+          "automatable"
+        ]
+      },
+      {
+        "key": "WSC-1383",
+        "url": "https://e2x.atlassian.net/browse/WSC-1383",
+        "summary": "PDP - make 'Details/Returns/Delivery' accessible to search engines/LLMs",
+        "status": "Tech Review",
+        "statusCategory": "indeterminate",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-06-19T20:33:02.077+0100",
+        "priority": "Poco importante",
+        "labels": []
+      },
+      {
+        "key": "WSC-1405",
+        "url": "https://e2x.atlassian.net/browse/WSC-1405",
+        "summary": "BAG - savings display and checkout CTA button",
+        "status": "Listo",
+        "statusCategory": "new",
+        "assignee": "Unassigned",
+        "updated": "2026-06-19T20:31:44.174+0100",
+        "priority": "Poco importante",
+        "labels": []
+      },
+      {
+        "key": "WSC-1550",
+        "url": "https://e2x.atlassian.net/browse/WSC-1550",
+        "summary": "CONTENT - countdown timer amends",
+        "status": "PENDING DEV DEPLOY",
+        "statusCategory": "new",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-06-19T20:26:04.115+0100",
+        "priority": "Poco importante",
+        "labels": [
+          "Needs-QA"
+        ]
+      },
+      {
+        "key": "WSC-1551",
+        "url": "https://e2x.atlassian.net/browse/WSC-1551",
+        "summary": "CONTENT - PLP Header amends",
+        "status": "Listo",
+        "statusCategory": "new",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-06-19T20:23:35.230+0100",
+        "priority": "Poco importante",
+        "labels": []
+      },
+      {
+        "key": "WSC-1552",
+        "url": "https://e2x.atlassian.net/browse/WSC-1552",
+        "summary": "API KEY - update (VSF)",
+        "status": "Listo",
+        "statusCategory": "new",
+        "assignee": "Unassigned",
+        "updated": "2026-06-19T20:21:12.803+0100",
+        "priority": "Poco importante",
+        "labels": [
+          "Needs-QA"
+        ]
+      },
+      {
+        "key": "WSC-1554",
+        "url": "https://e2x.atlassian.net/browse/WSC-1554",
+        "summary": "CHECKOUT - add 'locker' as a type for Parcelshop",
+        "status": "PENDING DEV DEPLOY",
+        "statusCategory": "new",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-06-19T20:19:18.776+0100",
+        "priority": "Poco importante",
+        "labels": [
+          "Needs-QA"
+        ]
+      },
+      {
+        "key": "WSC-1564",
+        "url": "https://e2x.atlassian.net/browse/WSC-1564",
+        "summary": "PLP - remove review stars div",
+        "status": "Listo",
+        "statusCategory": "new",
+        "assignee": "Alexander Talavera",
+        "updated": "2026-06-19T20:14:37.978+0100",
+        "priority": "Poco importante",
+        "labels": [
+          "Needs-QA"
+        ]
+      },
       {
         "key": "WSC-1555",
         "url": "https://e2x.atlassian.net/browse/WSC-1555",
@@ -28,7 +184,7 @@
         "status": "IN UAT",
         "statusCategory": "indeterminate",
         "assignee": "Gerardo Romero",
-        "updated": "2026-06-19T18:49:06.126+0100",
+        "updated": "2026-06-19T19:21:50.161+0100",
         "priority": "Poco importante",
         "labels": [
           "Needs-QA"
@@ -113,50 +269,6 @@
         "assignee": "Unassigned",
         "updated": "2026-06-19T15:57:04.609+0100",
         "priority": "Importante",
-        "labels": []
-      },
-      {
-        "key": "WSC-1559",
-        "url": "https://e2x.atlassian.net/browse/WSC-1559",
-        "summary": "CONTENT - SlimBanner amends 2",
-        "status": "Listo",
-        "statusCategory": "new",
-        "assignee": "Jair Huaman",
-        "updated": "2026-06-19T15:46:54.320+0100",
-        "priority": "Importante",
-        "labels": []
-      },
-      {
-        "key": "WSC-1558",
-        "url": "https://e2x.atlassian.net/browse/WSC-1558",
-        "summary": "CONTENT - SlimBanner amends",
-        "status": "En curso",
-        "statusCategory": "indeterminate",
-        "assignee": "Jair Huaman",
-        "updated": "2026-06-19T15:46:38.531+0100",
-        "priority": "Importante",
-        "labels": []
-      },
-      {
-        "key": "WSC-1562",
-        "url": "https://e2x.atlassian.net/browse/WSC-1562",
-        "summary": "PDP - toggle amendment",
-        "status": "Tareas por hacer",
-        "statusCategory": "new",
-        "assignee": "Unassigned",
-        "updated": "2026-06-19T13:29:28.593+0100",
-        "priority": "Not Set",
-        "labels": []
-      },
-      {
-        "key": "WSC-1383",
-        "url": "https://e2x.atlassian.net/browse/WSC-1383",
-        "summary": "PDP - make 'Details/Returns/Delivery' accessible to search engines/LLMs",
-        "status": "Tech Review",
-        "statusCategory": "indeterminate",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-06-19T02:23:42.585+0100",
-        "priority": "Poco importante",
         "labels": []
       },
       {
@@ -273,32 +385,6 @@
         "priority": "Not Set",
         "labels": [
           "FastFollow"
-        ]
-      },
-      {
-        "key": "WSC-1553",
-        "url": "https://e2x.atlassian.net/browse/WSC-1553",
-        "summary": "API KEY - update (CHECKOUT)",
-        "status": "Ready for Refinement",
-        "statusCategory": "new",
-        "assignee": "Unassigned",
-        "updated": "2026-06-18T11:30:13.794+0100",
-        "priority": "Poco importante",
-        "labels": [
-          "Needs-QA"
-        ]
-      },
-      {
-        "key": "WSC-1552",
-        "url": "https://e2x.atlassian.net/browse/WSC-1552",
-        "summary": "API KEY - update (VSF)",
-        "status": "Ready for Refinement",
-        "statusCategory": "new",
-        "assignee": "Unassigned",
-        "updated": "2026-06-18T11:30:12.920+0100",
-        "priority": "Poco importante",
-        "labels": [
-          "Needs-QA"
         ]
       },
       {
