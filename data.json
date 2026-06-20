@@ -1,19 +1,19 @@
 {
-  "lastUpdated": "2026-06-19T21:11:31.296506+00:00",
+  "lastUpdated": "2026-06-20T03:51:57.068074+00:00",
   "jira": {
     "summary": {
       "total": 248,
       "byStatus": {
+        "Ready to QA": 2,
         "Listo": 10,
         "Finalizada": 170,
         "En curso": 1,
         "Tech Review": 2,
         "Tareas por hacer": 1,
         "Backlog": 7,
-        "PENDING DEV DEPLOY": 18,
+        "PENDING DEV DEPLOY": 17,
         "IN UAT": 6,
         "QA Approved": 14,
-        "Ready to QA": 1,
         "Blocked": 3,
         "READY FOR RELEASE": 6,
         "Ready for Refinement": 1,
@@ -21,6 +21,21 @@
       }
     },
     "tickets": [
+      {
+        "key": "WSC-1495",
+        "url": "https://e2x.atlassian.net/browse/WSC-1495",
+        "summary": "Reimplementation: consolidate coupons to be per value in BC",
+        "status": "Ready to QA",
+        "statusCategory": "new",
+        "assignee": "Unassigned",
+        "updated": "2026-06-19T22:18:41.115+0100",
+        "priority": "Importante",
+        "labels": [
+          "FastFollow",
+          "In-UAT",
+          "Needs-QA"
+        ]
+      },
       {
         "key": "WSC-1553",
         "url": "https://e2x.atlassian.net/browse/WSC-1553",
@@ -1011,21 +1026,6 @@
         "labels": [
           "CSP",
           "NO_QA_REQUIRED"
-        ]
-      },
-      {
-        "key": "WSC-1495",
-        "url": "https://e2x.atlassian.net/browse/WSC-1495",
-        "summary": "Reimplementation: consolidate coupons to be per value in BC",
-        "status": "PENDING DEV DEPLOY",
-        "statusCategory": "new",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-06-16T15:17:50.863+0100",
-        "priority": "Importante",
-        "labels": [
-          "FastFollow",
-          "In-UAT",
-          "Needs-QA"
         ]
       },
       {
