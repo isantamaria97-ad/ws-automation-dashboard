@@ -1,15 +1,16 @@
 {
-  "lastUpdated": "2026-06-22T19:30:49.521858+00:00",
+  "lastUpdated": "2026-06-22T22:03:39.927461+00:00",
   "jira": {
     "summary": {
       "total": 250,
       "byStatus": {
+        "IN QA": 1,
         "Finalizada": 171,
-        "Ready to QA": 4,
         "QA Approved": 15,
         "En curso": 2,
         "PENDING DEV DEPLOY": 16,
         "Tech Review": 3,
+        "Ready to QA": 3,
         "IN UAT": 6,
         "Listo": 8,
         "Backlog": 7,
@@ -21,6 +22,19 @@
     },
     "tickets": [
       {
+        "key": "WSC-1550",
+        "url": "https://e2x.atlassian.net/browse/WSC-1550",
+        "summary": "CONTENT - countdown timer amends",
+        "status": "IN QA",
+        "statusCategory": "indeterminate",
+        "assignee": "Ingrith Santamaria",
+        "updated": "2026-06-22T21:40:26.497+0100",
+        "priority": "Poco importante",
+        "labels": [
+          "Needs-QA"
+        ]
+      },
+      {
         "key": "WSC-1571",
         "url": "https://e2x.atlassian.net/browse/WSC-1571",
         "summary": "PR branch for Logging Apple Pay - Cart Issues",
@@ -31,19 +45,6 @@
         "priority": "Not Set",
         "labels": [
           "NO_QA_REQUIRED"
-        ]
-      },
-      {
-        "key": "WSC-1550",
-        "url": "https://e2x.atlassian.net/browse/WSC-1550",
-        "summary": "CONTENT - countdown timer amends",
-        "status": "Ready to QA",
-        "statusCategory": "new",
-        "assignee": "Ingrith Santamaria",
-        "updated": "2026-06-22T19:20:19.489+0100",
-        "priority": "Poco importante",
-        "labels": [
-          "Needs-QA"
         ]
       },
       {
