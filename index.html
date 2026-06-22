@@ -399,7 +399,22 @@
         ? new Date(run.created_at).toLocaleDateString('en-GB', { day: '2-digit', month: 'short', year: 'numeric' })
         : '';
 
-      const rows = cases.map(c => {
+      const deviceBadge = run.config
+        ? `<span style="font-size:11px;font-weight:600;padding:2px 8px;border-radius:999px;background:var(--accent)22;color:var(--accent);white-space:nowrap">${esc(run.config)}</span>`
+        : '';
+
+      // Group cases by tag; untagged go under "Other"
+      const groups = {};
+      for (const c of cases) {
+        const tag = (c.tags && c.tags.length) ? c.tags[0] : 'Other';
+        if (!groups[tag]) groups[tag] = [];
+        groups[tag].push(c);
+      }
+      const sortedGroups = Object.entries(groups).sort(([a], [b]) =>
+        a === 'Other' ? 1 : b === 'Other' ? -1 : a.localeCompare(b)
+      );
+
+      const makeRow = c => {
         const cfg = STATUS_CFG[c.statusId] || { label: c.status || 'Unknown', color: '#9ca3af' };
         const updated = c.updatedAt
           ? new Date(c.updatedAt).toLocaleString('en-GB', { day: '2-digit', month: 'short', hour: '2-digit', minute: '2-digit' })
@@ -412,16 +427,12 @@
           <td style="color:var(--muted);white-space:nowrap">${updated}</td>
           <td style="text-align:right;color:var(--muted);font-variant-numeric:tabular-nums">#${c.caseId ?? '—'}</td>
         </tr>`;
-      }).join('');
+      };
 
-      return `<div class="accordion-item" data-idx="${idx}">
-        <div class="accordion-header">
-          <span class="accordion-chevron">▶</span>
-          <span class="accordion-title">${esc(run.name || 'Run #' + run.id)}</span>
-          <div class="accordion-pills">${pills}</div>
-          <span class="accordion-meta">${date} · ${cases.length} cases</span>
-        </div>
-        <div class="accordion-body">
+      const bodyContent = cases.length === 0
+        ? `<table><tbody><tr><td colspan="4" style="color:var(--muted);text-align:center;padding:20px">No cases recorded</td></tr></tbody></table>`
+        : sortedGroups.map(([tag, tagCases]) => `
+          <div style="padding:8px 16px 4px;font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:.06em;color:var(--accent);background:var(--accent)0d;border-bottom:1px solid var(--border)">${esc(tag)} <span style="font-weight:400;color:var(--muted)">(${tagCases.length})</span></div>
           <table>
             <thead><tr>
               <th style="width:55%">Test case</th>
@@ -429,9 +440,18 @@
               <th>Updated</th>
               <th style="text-align:right">ID</th>
             </tr></thead>
-            <tbody>${rows || '<tr><td colspan="4" style="color:var(--muted);text-align:center;padding:20px">No cases recorded</td></tr>'}</tbody>
-          </table>
+            <tbody>${tagCases.map(makeRow).join('')}</tbody>
+          </table>`).join('');
+
+      return `<div class="accordion-item" data-idx="${idx}">
+        <div class="accordion-header">
+          <span class="accordion-chevron">▶</span>
+          <span class="accordion-title">${esc(run.name || 'Run #' + run.id)}</span>
+          ${deviceBadge}
+          <div class="accordion-pills">${pills}</div>
+          <span class="accordion-meta">${date} · ${cases.length} cases</span>
         </div>
+        <div class="accordion-body">${bodyContent}</div>
       </div>`;
     }).join('');
 

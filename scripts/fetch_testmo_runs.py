@@ -117,18 +117,24 @@ def list_run_results(run_id: int | str) -> list[dict]:
     return list(by_test.values())
 
 
-_CASE_NAME_CACHE: dict[int, str] | None = None
+_CASE_CACHE: dict[int, dict] | None = None
+
+def case_lookup() -> dict[int, dict]:
+    """Fetches project cases once and caches a {case_id: {name, tags}} map."""
+    global _CASE_CACHE
+    if _CASE_CACHE is not None:
+        return _CASE_CACHE
+    print(f"  Fetching case lookup (project {TESTMO_PROJECT_ID})…")
+    raw = paginate(f"/api/v1/projects/{TESTMO_PROJECT_ID}/cases")
+    _CASE_CACHE = {
+        c["id"]: {"name": c.get("name", ""), "tags": [t.get("name", "") for t in (c.get("tags") or [])]}
+        for c in raw if "id" in c
+    }
+    print(f"  → {len(_CASE_CACHE)} cases cached")
+    return _CASE_CACHE
 
 def case_name_lookup() -> dict[int, str]:
-    """Fetches project cases once and caches a {case_id: name} map."""
-    global _CASE_NAME_CACHE
-    if _CASE_NAME_CACHE is not None:
-        return _CASE_NAME_CACHE
-    print(f"  Fetching case name lookup (project {TESTMO_PROJECT_ID})…")
-    raw = paginate(f"/api/v1/projects/{TESTMO_PROJECT_ID}/cases")
-    _CASE_NAME_CACHE = {c["id"]: c.get("name", "") for c in raw if "id" in c}
-    print(f"  → {len(_CASE_NAME_CACHE)} cases cached")
-    return _CASE_NAME_CACHE
+    return {cid: v["name"] for cid, v in case_lookup().items()}
 
 
 def resolve_run_ids() -> list[int]:
@@ -192,6 +198,7 @@ def normalize_run(run: dict) -> dict:
         "untested": status_counts.get("Untested", {}).get("count", 0),
         "skipped": status_counts.get("Skipped", {}).get("count", 0),
         "statusCounts": status_counts,
+        "config": run.get("config") or run.get("configuration") or "",
         "url": f"{TESTMO_BASE}/runs/view/{run.get('id')}"
                + (f"?group_id={run.get('group_id')}" if run.get("group_id") else ""),
     }
@@ -206,14 +213,17 @@ def fetch_run_cases(run_id: int | str) -> list[dict]:
     if not results:
         print(f"    → 0 executed tests (table empty until QA records results)")
         return []
-    names = case_name_lookup()
+    cases = case_lookup()
     rows = []
     for r in results:
         sid = r.get("status_id")
+        cid = r.get("case_id")
+        case_info = cases.get(cid, {})
         rows.append({
-            "caseId": r.get("case_id"),
+            "caseId": cid,
             "testId": r.get("test_id"),
-            "name": names.get(r.get("case_id"), f"Case #{r.get('case_id')}"),
+            "name": case_info.get("name") or f"Case #{cid}",
+            "tags": case_info.get("tags", []),
             "statusId": sid,
             "status": STATUS_LABELS.get(sid, f"Status {sid}"),
             "note": r.get("note") or "",
