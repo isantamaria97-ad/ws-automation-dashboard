@@ -93,11 +93,11 @@
     .card .value.accent { color: var(--accent); }
 
     .charts-row {
-      display: grid;
-      grid-template-columns: 280px 1fr;
+      display: flex;
       gap: 20px;
-      align-items: start;
+      align-items: stretch;
     }
+    .charts-row > .chart-box { min-width: 0; }
     .chart-box {
       background: var(--surface);
       border: 1px solid var(--border);
@@ -214,7 +214,7 @@
     <h2>Automation Coverage · <span id="scope-folder" style="color:var(--text);text-transform:none;letter-spacing:normal;font-weight:600"></span></h2>
     <div class="cards" id="coverage-cards"></div>
     <div class="charts-row" style="margin-top:14px">
-      <div class="chart-box">
+      <div class="chart-box" style="width:280px;flex-shrink:0">
         <h3>Coverage distribution</h3>
         <div class="chart-wrap"><canvas id="coverage-donut"></canvas></div>
       </div>
@@ -242,9 +242,25 @@
   <section>
     <h2>Automation Runs · <span id="scope-runs" style="color:var(--muted);font-weight:400;text-transform:none;letter-spacing:normal"></span></h2>
     <div class="cards" id="runs-cards"></div>
-    <div class="chart-box" style="margin-top:14px">
-      <h3>Recent runs (last 10)</h3>
-      <div class="chart-wrap"><canvas id="runs-bar"></canvas></div>
+    <div class="charts-row" style="margin-top:14px">
+      <div class="chart-box" style="flex:1">
+        <h3>Recent runs (last 10)</h3>
+        <div class="chart-wrap"><canvas id="runs-bar"></canvas></div>
+      </div>
+      <div class="chart-box" style="flex:1">
+        <h3>Pass rate trend</h3>
+        <div class="chart-wrap"><canvas id="passrate-line"></canvas></div>
+      </div>
+    </div>
+    <div class="charts-row" style="margin-top:14px">
+      <div class="chart-box" style="flex:1">
+        <h3>Pass rate by milestone</h3>
+        <div class="chart-wrap"><canvas id="milestone-bar"></canvas></div>
+      </div>
+      <div class="chart-box" style="flex:1">
+        <h3>Coverage goal</h3>
+        <div class="chart-wrap" style="height:260px"><canvas id="coverage-gauge"></canvas></div>
+      </div>
     </div>
     <div class="table-wrap" style="margin-top:14px">
       <table>
@@ -266,9 +282,15 @@
   <section>
     <h2>Jira · Tickets QA Story Points</h2>
     <div class="cards" id="jira-cards"></div>
-    <div class="chart-box" style="margin-top:14px;max-width:360px">
-      <h3>Distribution by status</h3>
-      <div class="chart-wrap" style="height:200px"><canvas id="jira-donut"></canvas></div>
+    <div class="charts-row" style="margin-top:14px">
+      <div class="chart-box" style="max-width:360px">
+        <h3>Distribution by status</h3>
+        <div class="chart-wrap" style="height:200px"><canvas id="jira-donut"></canvas></div>
+      </div>
+      <div class="chart-box" style="flex:1">
+        <h3>Tickets by assignee</h3>
+        <div class="chart-wrap" style="height:200px"><canvas id="jira-assignee"></canvas></div>
+      </div>
     </div>
     <div class="table-wrap" style="margin-top:14px">
       <table>
@@ -496,6 +518,115 @@
       },
     });
 
+    // Pass rate trend (line)
+    const passRatePoints = runs.map(r => {
+      const total = r.passed + r.failed;
+      return total ? +((r.passed / total) * 100).toFixed(1) : null;
+    });
+    new Chart(document.getElementById('passrate-line'), {
+      type: 'line',
+      data: {
+        labels: runs.map(r => trunc(r.name, 22)),
+        datasets: [{
+          label: 'Pass rate %',
+          data: passRatePoints,
+          borderColor: '#6366f1',
+          backgroundColor: 'rgba(99,102,241,0.12)',
+          pointBackgroundColor: '#6366f1',
+          tension: 0.3,
+          fill: true,
+          spanGaps: true,
+        }],
+      },
+      options: {
+        responsive: true,
+        maintainAspectRatio: false,
+        scales: {
+          x: { ticks: { color: '#9ca3af', font: { size: 11 } }, grid: { color: '#2a2d3d' } },
+          y: { min: 0, max: 100, ticks: { color: '#9ca3af', font: { size: 11 }, callback: v => v + '%' }, grid: { color: '#2a2d3d' } },
+        },
+        plugins: { legend: { display: false } },
+      },
+    });
+
+    // Pass rate by milestone
+    const byMilestone = {};
+    for (const r of d.testmo.runs.recent || []) {
+      const key = r.name || ('Milestone ' + r.milestone_id);
+      if (!byMilestone[key]) byMilestone[key] = { passed: 0, failed: 0 };
+      byMilestone[key].passed += r.passed;
+      byMilestone[key].failed += r.failed;
+    }
+    const msLabels = Object.keys(byMilestone);
+    const msRates  = msLabels.map(k => {
+      const { passed, failed } = byMilestone[k];
+      const t = passed + failed;
+      return t ? +((passed / t) * 100).toFixed(1) : 0;
+    });
+    new Chart(document.getElementById('milestone-bar'), {
+      type: 'bar',
+      data: {
+        labels: msLabels.map(l => trunc(l, 20)),
+        datasets: [{
+          label: 'Pass rate %',
+          data: msRates,
+          backgroundColor: msRates.map(v => v >= 95 ? '#22c55e' : v >= 80 ? '#eab308' : '#ef4444'),
+          borderRadius: 4,
+        }],
+      },
+      options: {
+        responsive: true,
+        maintainAspectRatio: false,
+        scales: {
+          x: { ticks: { color: '#9ca3af', font: { size: 11 } }, grid: { color: '#2a2d3d' } },
+          y: { min: 0, max: 100, ticks: { color: '#9ca3af', font: { size: 11 }, callback: v => v + '%' }, grid: { color: '#2a2d3d' } },
+        },
+        plugins: { legend: { display: false } },
+      },
+    });
+
+    // Coverage gauge (doughnut showing % vs 100% goal)
+    const covPct = cov.automatedPct || 0;
+    const GOAL = 100;
+    new Chart(document.getElementById('coverage-gauge'), {
+      type: 'doughnut',
+      data: {
+        labels: ['Automated', 'Remaining'],
+        datasets: [{
+          data: [covPct, Math.max(0, GOAL - covPct)],
+          backgroundColor: [covPct >= 80 ? '#22c55e' : covPct >= 50 ? '#eab308' : '#ef4444', '#2a2d3d'],
+          borderWidth: 0,
+          circumference: 240,
+          rotation: -120,
+        }],
+      },
+      options: {
+        responsive: true,
+        maintainAspectRatio: false,
+        cutout: '72%',
+        plugins: {
+          legend: { display: false },
+          tooltip: { callbacks: { label: ctx => ctx.label + ': ' + ctx.parsed.toFixed(1) + '%' } },
+        },
+      },
+      plugins: [{
+        id: 'gaugeText',
+        afterDraw(chart) {
+          const { ctx, chartArea: { top, bottom, left, right } } = chart;
+          const cx = (left + right) / 2, cy = (top + bottom) / 2 + 20;
+          ctx.save();
+          ctx.textAlign = 'center';
+          ctx.fillStyle = '#e4e6f0';
+          ctx.font = 'bold 32px -apple-system, sans-serif';
+          ctx.fillText(covPct.toFixed(1) + '%', cx, cy);
+          ctx.fillStyle = '#6b7280';
+          ctx.font = '13px -apple-system, sans-serif';
+          ctx.fillText('automated', cx, cy + 22);
+          ctx.restore();
+        },
+      }],
+    });
+
     // Jira donut (bottom section)
     const byStatus = d.jira.summary.byStatus || {};
     const rawLabels = Object.keys(byStatus);
@@ -513,6 +644,36 @@
         maintainAspectRatio: false,
         plugins: { legend: { position: 'bottom', labels: { color: '#9ca3af', font: { size: 12 }, padding: 12 } } },
         cutout: '62%',
+      },
+    });
+
+    // Jira tickets by assignee
+    const assigneeCounts = {};
+    for (const t of d.jira.tickets || []) {
+      const a = t.assignee || 'Unassigned';
+      assigneeCounts[a] = (assigneeCounts[a] || 0) + 1;
+    }
+    const assigneeSorted = Object.entries(assigneeCounts).sort((a, b) => b[1] - a[1]).slice(0, 12);
+    new Chart(document.getElementById('jira-assignee'), {
+      type: 'bar',
+      data: {
+        labels: assigneeSorted.map(([name]) => name),
+        datasets: [{
+          label: 'Tickets',
+          data: assigneeSorted.map(([, n]) => n),
+          backgroundColor: '#6366f1',
+          borderRadius: 4,
+        }],
+      },
+      options: {
+        indexAxis: 'y',
+        responsive: true,
+        maintainAspectRatio: false,
+        scales: {
+          x: { ticks: { color: '#9ca3af', font: { size: 11 } }, grid: { color: '#2a2d3d' } },
+          y: { ticks: { color: '#9ca3af', font: { size: 11 } }, grid: { color: '#2a2d3d' } },
+        },
+        plugins: { legend: { display: false } },
       },
     });
   }
