@@ -399,8 +399,11 @@
         ? new Date(run.created_at).toLocaleDateString('en-GB', { day: '2-digit', month: 'short', year: 'numeric' })
         : '';
 
-      const deviceBadge = run.config
-        ? `<span style="font-size:11px;font-weight:600;padding:2px 8px;border-radius:999px;background:var(--accent)22;color:var(--accent);white-space:nowrap">${esc(run.config)}</span>`
+      const deviceMatch = (run.name || '').match(/\(([^)]+)\)/);
+      const deviceLabel = deviceMatch ? deviceMatch[1] : (run.config || '');
+      const baseName = (run.name || '').replace(/\s*\([^)]*\)/, '').trim();
+      const deviceBadge = deviceLabel
+        ? `<span style="font-size:11px;font-weight:600;padding:2px 8px;border-radius:999px;background:var(--accent)22;color:var(--accent);white-space:nowrap">${esc(deviceLabel)}</span>`
         : '';
 
       // Group cases by tag; untagged go under "Other"
@@ -446,7 +449,7 @@
       return `<div class="accordion-item" data-idx="${idx}">
         <div class="accordion-header">
           <span class="accordion-chevron">▶</span>
-          <span class="accordion-title">${esc(run.name || 'Run #' + run.id)}</span>
+          <span class="accordion-title">${esc(baseName || 'Run #' + run.id)}</span>
           ${deviceBadge}
           <div class="accordion-pills">${pills}</div>
           <span class="accordion-meta">${date} · ${cases.length} cases</span>
