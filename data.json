@@ -1,19 +1,18 @@
 {
-  "lastUpdated": "2026-06-22T15:28:19.496245+00:00",
+  "lastUpdated": "2026-06-22T19:30:49.521858+00:00",
   "jira": {
     "summary": {
       "total": 250,
       "byStatus": {
-        "En curso": 3,
+        "Finalizada": 171,
+        "Ready to QA": 4,
+        "QA Approved": 15,
+        "En curso": 2,
+        "PENDING DEV DEPLOY": 16,
         "Tech Review": 3,
         "IN UAT": 6,
-        "Listo": 9,
-        "Ready to QA": 2,
-        "Finalizada": 170,
-        "Tareas por hacer": 1,
+        "Listo": 8,
         "Backlog": 7,
-        "PENDING DEV DEPLOY": 17,
-        "QA Approved": 14,
         "Blocked": 3,
         "READY FOR RELEASE": 6,
         "Ready for Refinement": 1,
@@ -25,36 +24,84 @@
         "key": "WSC-1571",
         "url": "https://e2x.atlassian.net/browse/WSC-1571",
         "summary": "PR branch for Logging Apple Pay - Cart Issues",
-        "status": "En curso",
-        "statusCategory": "indeterminate",
+        "status": "Finalizada",
+        "statusCategory": "done",
         "assignee": "Alexander Talavera",
-        "updated": "2026-06-22T16:05:45.604+0100",
+        "updated": "2026-06-22T20:18:23.124+0100",
         "priority": "Not Set",
         "labels": [
           "NO_QA_REQUIRED"
         ]
       },
       {
+        "key": "WSC-1550",
+        "url": "https://e2x.atlassian.net/browse/WSC-1550",
+        "summary": "CONTENT - countdown timer amends",
+        "status": "Ready to QA",
+        "statusCategory": "new",
+        "assignee": "Ingrith Santamaria",
+        "updated": "2026-06-22T19:20:19.489+0100",
+        "priority": "Poco importante",
+        "labels": [
+          "Needs-QA"
+        ]
+      },
+      {
         "key": "WSC-1570",
         "url": "https://e2x.atlassian.net/browse/WSC-1570",
         "summary": "[PDP - Mobile] 'Add to bag' button not visible when navigating from PLP ",
-        "status": "Tech Review",
+        "status": "QA Approved",
         "statusCategory": "indeterminate",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-06-22T15:30:25.128+0100",
+        "assignee": "Gerardo Romero",
+        "updated": "2026-06-22T19:04:29.262+0100",
         "priority": "Not Set",
+        "labels": []
+      },
+      {
+        "key": "WSC-1566",
+        "url": "https://e2x.atlassian.net/browse/WSC-1566",
+        "summary": "Investigate Bazaarvoice API for Server-Side Product Review Retrieval",
+        "status": "En curso",
+        "statusCategory": "indeterminate",
+        "assignee": "Jair Huaman",
+        "updated": "2026-06-22T18:57:31.554+0100",
+        "priority": "Not Set",
+        "labels": []
+      },
+      {
+        "key": "WSC-1551",
+        "url": "https://e2x.atlassian.net/browse/WSC-1551",
+        "summary": "CONTENT - PLP Header amends",
+        "status": "PENDING DEV DEPLOY",
+        "statusCategory": "new",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-06-22T18:56:41.797+0100",
+        "priority": "Poco importante",
         "labels": []
       },
       {
         "key": "WSC-1559",
         "url": "https://e2x.atlassian.net/browse/WSC-1559",
         "summary": "CONTENT - SlimBanner amends 2",
-        "status": "En curso",
+        "status": "Tech Review",
         "statusCategory": "indeterminate",
-        "assignee": "Jair Huaman",
-        "updated": "2026-06-22T15:24:29.722+0100",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-06-22T18:55:41.347+0100",
         "priority": "Importante",
         "labels": []
+      },
+      {
+        "key": "WSC-1554",
+        "url": "https://e2x.atlassian.net/browse/WSC-1554",
+        "summary": "CHECKOUT - add 'locker' as a type for Parcelshop",
+        "status": "Ready to QA",
+        "statusCategory": "new",
+        "assignee": "Gerardo Romero",
+        "updated": "2026-06-22T18:55:02.090+0100",
+        "priority": "Poco importante",
+        "labels": [
+          "Needs-QA"
+        ]
       },
       {
         "key": "WSC-1564",
@@ -107,17 +154,6 @@
         ]
       },
       {
-        "key": "WSC-1551",
-        "url": "https://e2x.atlassian.net/browse/WSC-1551",
-        "summary": "CONTENT - PLP Header amends",
-        "status": "Listo",
-        "statusCategory": "new",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-06-22T11:53:23.471+0100",
-        "priority": "Poco importante",
-        "labels": []
-      },
-      {
         "key": "WSC-1552",
         "url": "https://e2x.atlassian.net/browse/WSC-1552",
         "summary": "API KEY - update (VSF)",
@@ -168,17 +204,6 @@
         "labels": []
       },
       {
-        "key": "WSC-1566",
-        "url": "https://e2x.atlassian.net/browse/WSC-1566",
-        "summary": "Investigate Bazaarvoice API for Server-Side Product Review Retrieval",
-        "status": "Tareas por hacer",
-        "statusCategory": "new",
-        "assignee": "Unassigned",
-        "updated": "2026-06-19T21:18:06.774+0100",
-        "priority": "Not Set",
-        "labels": []
-      },
-      {
         "key": "WSC-80",
         "url": "https://e2x.atlassian.net/browse/WSC-80",
         "summary": "PLP/SEARCH RESULTS - add a 'back to top' button",
@@ -202,32 +227,6 @@
         "updated": "2026-06-19T20:33:02.077+0100",
         "priority": "Poco importante",
         "labels": []
-      },
-      {
-        "key": "WSC-1550",
-        "url": "https://e2x.atlassian.net/browse/WSC-1550",
-        "summary": "CONTENT - countdown timer amends",
-        "status": "PENDING DEV DEPLOY",
-        "statusCategory": "new",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-06-19T20:26:04.115+0100",
-        "priority": "Poco importante",
-        "labels": [
-          "Needs-QA"
-        ]
-      },
-      {
-        "key": "WSC-1554",
-        "url": "https://e2x.atlassian.net/browse/WSC-1554",
-        "summary": "CHECKOUT - add 'locker' as a type for Parcelshop",
-        "status": "PENDING DEV DEPLOY",
-        "statusCategory": "new",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-06-19T20:19:18.776+0100",
-        "priority": "Poco importante",
-        "labels": [
-          "Needs-QA"
-        ]
       },
       {
         "key": "WSC-1354",
