@@ -43,8 +43,8 @@ jobs:
         env:
           TESTMO_API_TOKEN: ${{ secrets.TESTMO_API_TOKEN }}
           TESTMO_BASE_URL: ${{ vars.TESTMO_BASE_URL || 'https://applydigital.testmo.net' }}
-          TESTMO_PROJECT_ID: ${{ vars.TESTMO_PROJECT_ID || '9' }}
-          TESTMO_RUN_IDS: ${{ github.event.inputs.run_ids || vars.TESTMO_RUN_IDS || '1726' }}
+          TESTMO_PROJECT_ID: ${{ vars.TESTMO_PROJECT_ID || '44' }}
+          TESTMO_RUN_IDS: ${{ github.event.inputs.run_ids || vars.TESTMO_RUN_IDS || '' }}
           TESTMO_GROUP_ID: ${{ github.event.inputs.group_id || vars.TESTMO_GROUP_ID || '' }}
           TESTMO_MILESTONE_ID: ${{ vars.TESTMO_MILESTONE_ID || '' }}
           OUTPUT_PATH: testmo/data.json

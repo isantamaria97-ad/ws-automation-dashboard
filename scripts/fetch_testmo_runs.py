@@ -42,7 +42,7 @@ def _required_env(name: str) -> str:
 
 TESTMO_BASE = os.environ.get("TESTMO_BASE_URL", "https://applydigital.testmo.net").rstrip("/")
 TESTMO_TOKEN = _required_env("TESTMO_API_TOKEN")
-TESTMO_PROJECT_ID = os.environ.get("TESTMO_PROJECT_ID", "9")
+TESTMO_PROJECT_ID = os.environ.get("TESTMO_PROJECT_ID", "44")
 TESTMO_RUN_IDS = os.environ.get("TESTMO_RUN_IDS", "").strip()
 TESTMO_GROUP_ID = os.environ.get("TESTMO_GROUP_ID", "").strip()
 TESTMO_MILESTONE_ID = os.environ.get("TESTMO_MILESTONE_ID", "").strip()
