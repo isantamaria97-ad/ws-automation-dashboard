@@ -414,7 +414,7 @@
         </tr>`;
       }).join('');
 
-      return `<div class="accordion-item${idx === 0 ? ' open' : ''}" data-idx="${idx}">
+      return `<div class="accordion-item" data-idx="${idx}">
         <div class="accordion-header">
           <span class="accordion-chevron">▶</span>
           <span class="accordion-title">${esc(run.name || 'Run #' + run.id)}</span>
@@ -437,7 +437,10 @@
 
     accordion.querySelectorAll('.accordion-header').forEach(header => {
       header.addEventListener('click', () => {
-        header.closest('.accordion-item').classList.toggle('open');
+        const item = header.closest('.accordion-item');
+        const isOpen = item.classList.contains('open');
+        accordion.querySelectorAll('.accordion-item.open').forEach(el => el.classList.remove('open'));
+        if (!isOpen) item.classList.add('open');
       });
     });
   }
