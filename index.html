@@ -247,64 +247,37 @@
         <h3>Recent runs (last 10)</h3>
         <div class="chart-wrap"><canvas id="runs-bar"></canvas></div>
       </div>
-      <div class="chart-box" style="flex:1">
-        <h3>Pass rate trend</h3>
-        <div class="chart-wrap"><canvas id="passrate-line"></canvas></div>
-      </div>
-    </div>
-    <div class="charts-row" style="margin-top:14px">
-      <div class="chart-box" style="flex:1">
-        <h3>Pass rate by milestone</h3>
-        <div class="chart-wrap"><canvas id="milestone-bar"></canvas></div>
-      </div>
-      <div class="chart-box" style="flex:1">
-        <h3>Coverage goal</h3>
-        <div class="chart-wrap" style="height:260px"><canvas id="coverage-gauge"></canvas></div>
-      </div>
-    </div>
-    <div class="table-wrap" style="margin-top:14px">
-      <table>
-        <thead>
-          <tr>
-            <th>Run</th>
-            <th>Results</th>
-            <th>Passed</th>
-            <th>Failed</th>
-            <th>Pending</th>
-            <th>Date</th>
-          </tr>
-        </thead>
-        <tbody id="runs-tbody"></tbody>
-      </table>
     </div>
   </section>
 
   <section>
-    <h2>Jira · Tickets QA Story Points</h2>
-    <div class="cards" id="jira-cards"></div>
-    <div class="charts-row" style="margin-top:14px">
-      <div class="chart-box" style="max-width:360px">
-        <h3>Distribution by status</h3>
-        <div class="chart-wrap" style="height:200px"><canvas id="jira-donut"></canvas></div>
+    <h2>Latest Run · <span id="latest-run-name" style="color:var(--text);text-transform:none;letter-spacing:normal;font-weight:600"></span></h2>
+    <div id="latest-run-loading" style="color:var(--muted);font-size:13px;padding:12px 0">Loading test cases…</div>
+    <div id="latest-run-content" style="display:none">
+      <div class="cards" id="latest-run-cards" style="margin-bottom:14px"></div>
+      <div class="chart-box" style="margin-bottom:14px">
+        <h3>Test results</h3>
+        <div class="chart-wrap" style="height:220px"><canvas id="latest-run-bar"></canvas></div>
       </div>
-      <div class="chart-box" style="flex:1">
-        <h3>Tickets by assignee</h3>
-        <div class="chart-wrap" style="height:200px"><canvas id="jira-assignee"></canvas></div>
+      <div class="cases-toolbar" style="background:var(--surface);border:1px solid var(--border);border-radius:var(--radius) var(--radius) 0 0;padding:12px 16px;display:flex;gap:10px;flex-wrap:wrap">
+        <div id="run-filter-pills" style="display:flex;gap:6px;flex-wrap:wrap"></div>
+        <input id="run-case-search" type="search" placeholder="Filter by name…"
+          style="background:var(--bg);color:var(--text);border:1px solid var(--border);border-radius:6px;padding:6px 10px;font-size:13px;min-width:200px;flex:1;max-width:300px" />
       </div>
-    </div>
-    <div class="table-wrap" style="margin-top:14px">
-      <table>
-        <thead>
-          <tr>
-            <th>Key</th>
-            <th>Summary</th>
-            <th>Status</th>
-            <th>Assignee</th>
-            <th>Updated</th>
-          </tr>
-        </thead>
-        <tbody id="jira-tbody"></tbody>
-      </table>
+      <div class="table-wrap" style="border-radius:0 0 var(--radius) var(--radius)">
+        <table>
+          <thead>
+            <tr>
+              <th style="width:55%">Test case</th>
+              <th>Status</th>
+              <th>Updated</th>
+              <th style="text-align:right">ID</th>
+            </tr>
+          </thead>
+          <tbody id="latest-run-tbody"></tbody>
+        </table>
+        <div id="latest-run-empty" style="display:none;color:var(--muted);text-align:center;padding:24px;font-size:13px"></div>
+      </div>
     </div>
   </section>
 
@@ -343,14 +316,31 @@
     return str.length > max ? str.slice(0, max) + '…' : str;
   }
 
+  // Status config for run cases
+  const STATUS_CFG = {
+    2: { label: 'Passed',  color: '#22c55e' },
+    3: { label: 'Failed',  color: '#ef4444' },
+    4: { label: 'Retest',  color: '#f0ad4e' },
+    5: { label: 'Blocked', color: '#9e9e9e' },
+    6: { label: 'Skipped', color: '#8b5cf6' },
+    1: { label: 'Untested',color: '#3b82f6' },
+  };
+
+  let runCasesAll = [];
+  let runCasesFilter = 'all';
+
   async function main() {
     const loading = document.getElementById('loading');
     const errorEl = document.getElementById('error');
     const content = document.getElementById('content');
     try {
-      const resp = await fetch('data.json?_=' + Date.now());
+      const [resp, testmoResp] = await Promise.all([
+        fetch('data.json?_=' + Date.now()),
+        fetch('testmo/data.json?_=' + Date.now()),
+      ]);
       if (!resp.ok) throw new Error(`HTTP ${resp.status}`);
       const d = await resp.json();
+      const testmoData = testmoResp.ok ? await testmoResp.json() : null;
 
       loading.style.display = 'none';
       content.style.display = 'block';
@@ -359,8 +349,8 @@
 
       renderCoverage(d.testmo);
       renderRuns(d.testmo);
-      renderJira(d.jira);
       renderCharts(d);
+      renderLatestRun(d.testmo.runs.recent, testmoData);
     } catch (err) {
       loading.style.display = 'none';
       errorEl.style.display = 'flex';
@@ -368,31 +358,131 @@
     }
   }
 
-  function renderJira({ summary, tickets }) {
-    const byStatus = summary.byStatus || {};
-    const todo       = byStatus['To Do'] || 0;
-    const inProgress = byStatus['In Progress'] || 0;
-    const done       = byStatus['Done'] || 0;
+  function renderLatestRun(recentRuns, testmoData) {
+    const loadingEl = document.getElementById('latest-run-loading');
+    const contentEl = document.getElementById('latest-run-content');
 
-    document.getElementById('jira-cards').innerHTML =
-      card('Total', summary.total, 'accent') +
-      card('To Do', todo, '') +
-      card('In Progress', inProgress, 'blue') +
-      card('Done', done, 'green');
-
-    const tbody = document.getElementById('jira-tbody');
-    if (!tickets.length) {
-      tbody.innerHTML = '<tr><td colspan="5" style="color:var(--muted);text-align:center;padding:24px">No tickets</td></tr>';
+    if (!testmoData || !testmoData.runs || !testmoData.runs.length) {
+      loadingEl.textContent = 'No run data available.';
       return;
     }
-    tbody.innerHTML = tickets.map(t => `
-      <tr>
-        <td><a class="key-link" href="${t.url}" target="_blank" rel="noopener">${t.key}</a></td>
-        <td>${esc(t.summary)}</td>
-        <td>${badge(tr(t.status), STATUS_CLASS[t.status] || 'other')}</td>
-        <td style="color:var(--muted)">${esc(t.assignee)}</td>
-        <td style="color:var(--muted);white-space:nowrap">${fmtDate(t.updated)}</td>
-      </tr>`).join('');
+
+    // Match the latest run from data.json to testmo/data.json by id
+    const latestId = recentRuns && recentRuns[0] ? recentRuns[0].id : null;
+    let run = latestId
+      ? testmoData.runs.find(r => r.id === latestId)
+      : null;
+    if (!run) run = testmoData.runs[0];
+
+    loadingEl.style.display = 'none';
+    contentEl.style.display = 'block';
+    document.getElementById('latest-run-name').textContent = run.name || ('Run #' + run.id);
+
+    const cases = run.cases || [];
+    runCasesAll = cases;
+
+    // Summary cards
+    const counts = {};
+    for (const c of cases) counts[c.statusId] = (counts[c.statusId] || 0) + 1;
+    const cardHtml = Object.entries(STATUS_CFG)
+      .filter(([id]) => counts[id])
+      .map(([id, cfg]) => card(cfg.label, counts[id], ''))
+      .join('');
+    document.getElementById('latest-run-cards').innerHTML =
+      card('Total', cases.length, 'accent') + cardHtml;
+
+    // Bar chart
+    const statusIds = Object.keys(counts).map(Number);
+    new Chart(document.getElementById('latest-run-bar'), {
+      type: 'bar',
+      data: {
+        labels: statusIds.map(id => (STATUS_CFG[id] || {}).label || ('Status ' + id)),
+        datasets: [{
+          data: statusIds.map(id => counts[id]),
+          backgroundColor: statusIds.map(id => (STATUS_CFG[id] || {}).color || '#9ca3af'),
+          borderRadius: 4,
+        }],
+      },
+      options: {
+        responsive: true,
+        maintainAspectRatio: false,
+        scales: {
+          x: { ticks: { color: '#9ca3af', font: { size: 12 } }, grid: { color: '#2a2d3d' } },
+          y: { ticks: { color: '#9ca3af', font: { size: 12 } }, grid: { color: '#2a2d3d' } },
+        },
+        plugins: { legend: { display: false } },
+      },
+    });
+
+    // Filter pills
+    renderRunFilterPills(cases, counts);
+    renderRunCasesTable(cases);
+
+    document.getElementById('run-case-search').addEventListener('input', () => {
+      renderRunCasesTable(runCasesAll);
+    });
+  }
+
+  function renderRunFilterPills(cases, counts) {
+    const host = document.getElementById('run-filter-pills');
+    const pills = [{ id: 'all', label: 'All', color: '#9ca3af', count: cases.length }]
+      .concat(Object.entries(STATUS_CFG)
+        .filter(([id]) => counts[id])
+        .map(([id, cfg]) => ({ id: Number(id), label: cfg.label, color: cfg.color, count: counts[id] })));
+
+    host.innerHTML = pills.map(p => `
+      <button class="filter-pill" data-status="${p.id}" aria-pressed="${p.id === 'all'}"
+        style="background:var(--surface);color:var(--muted);border:1px solid var(--border);border-radius:999px;padding:5px 12px;font-size:12px;font-weight:600;cursor:pointer;display:inline-flex;align-items:center;gap:6px">
+        ${p.id === 'all' ? '' : `<span style="width:8px;height:8px;border-radius:50%;background:${p.color};display:inline-block"></span>`}
+        ${esc(p.label)} <span style="color:var(--muted);font-weight:500">${p.count}</span>
+      </button>`).join('');
+
+    host.querySelectorAll('.filter-pill').forEach(btn => {
+      btn.addEventListener('click', () => {
+        const v = btn.dataset.status;
+        runCasesFilter = v === 'all' ? 'all' : Number(v);
+        host.querySelectorAll('.filter-pill').forEach(b => {
+          b.setAttribute('aria-pressed', String(b.dataset.status == String(runCasesFilter)));
+          b.style.borderColor = b.dataset.status == String(runCasesFilter) ? 'var(--accent)' : 'var(--border)';
+          b.style.color = b.dataset.status == String(runCasesFilter) ? 'var(--text)' : 'var(--muted)';
+        });
+        renderRunCasesTable(runCasesAll);
+      });
+    });
+  }
+
+  function renderRunCasesTable(cases) {
+    const search = (document.getElementById('run-case-search').value || '').toLowerCase().trim();
+    const filtered = cases.filter(c => {
+      if (runCasesFilter !== 'all' && c.statusId !== runCasesFilter) return false;
+      if (search && !(c.name || '').toLowerCase().includes(search)) return false;
+      return true;
+    });
+
+    const tbody = document.getElementById('latest-run-tbody');
+    const emptyEl = document.getElementById('latest-run-empty');
+
+    if (!filtered.length) {
+      tbody.innerHTML = '';
+      emptyEl.style.display = 'block';
+      emptyEl.textContent = search || runCasesFilter !== 'all' ? 'No cases match the filter.' : 'No cases in this run.';
+      return;
+    }
+    emptyEl.style.display = 'none';
+    tbody.innerHTML = filtered.map(c => {
+      const cfg = STATUS_CFG[c.statusId] || { label: c.status || 'Unknown', color: '#9ca3af' };
+      const updated = c.updatedAt
+        ? new Date(c.updatedAt).toLocaleString('en-GB', { day: '2-digit', month: 'short', hour: '2-digit', minute: '2-digit' })
+        : '—';
+      return `<tr>
+        <td style="font-weight:500">${esc(c.name || 'Case #' + c.caseId)}</td>
+        <td><span style="display:inline-flex;align-items:center;gap:5px;padding:3px 9px;border-radius:999px;font-size:11px;font-weight:600;background:${cfg.color}22;color:${cfg.color}">
+          <span style="width:7px;height:7px;border-radius:50%;background:${cfg.color}"></span>${esc(cfg.label)}
+        </span></td>
+        <td style="color:var(--muted);white-space:nowrap">${updated}</td>
+        <td style="text-align:right;color:var(--muted);font-variant-numeric:tabular-nums">#${c.caseId ?? '—'}</td>
+      </tr>`;
+    }).join('');
   }
 
   function coverageBar(automated, notAutomated, unclassified, total) {
@@ -455,27 +545,10 @@
       document.getElementById('scope-runs').textContent = bits.length ? bits.join(' · ') : '';
     }
 
-    const tbody = document.getElementById('runs-tbody');
-    const recent = runs.recent || [];
-    if (!recent.length) {
-      tbody.innerHTML = '<tr><td colspan="6" style="color:var(--muted);text-align:center;padding:24px">No runs</td></tr>';
-      return;
-    }
-    tbody.innerHTML = recent.map(r => {
-      const total = r.total || (r.passed + r.failed + r.pending) || 0;
-      return `<tr>
-        <td style="font-weight:600">${esc(r.name)}</td>
-        <td>${runBar(r.passed, r.failed, r.pending, total)}</td>
-        <td style="color:var(--green)">${r.passed}</td>
-        <td style="color:var(--red)">${r.failed}</td>
-        <td style="color:var(--muted)">${r.pending}</td>
-        <td style="color:var(--muted);white-space:nowrap">${fmtDate(r.created_at)}</td>
-      </tr>`;
-    }).join('');
   }
 
   function renderCharts(d) {
-    // Coverage donut (top section)
+    // Coverage donut
     const cov = d.testmo.coverage;
     new Chart(document.getElementById('coverage-donut'), {
       type: 'doughnut',
@@ -495,7 +568,7 @@
       },
     });
 
-    // Runs bar (middle section)
+    // Runs bar
     const runs = (d.testmo.runs.recent || []).slice().reverse();
     new Chart(document.getElementById('runs-bar'), {
       type: 'bar',
@@ -515,165 +588,6 @@
           y: { stacked: true, ticks: { color: '#9ca3af', font: { size: 11 } }, grid: { color: '#2a2d3d' } },
         },
         plugins: { legend: { labels: { color: '#9ca3af', font: { size: 12 } } } },
-      },
-    });
-
-    // Pass rate trend (line)
-    const passRatePoints = runs.map(r => {
-      const total = r.passed + r.failed;
-      return total ? +((r.passed / total) * 100).toFixed(1) : null;
-    });
-    new Chart(document.getElementById('passrate-line'), {
-      type: 'line',
-      data: {
-        labels: runs.map(r => trunc(r.name, 22)),
-        datasets: [{
-          label: 'Pass rate %',
-          data: passRatePoints,
-          borderColor: '#6366f1',
-          backgroundColor: 'rgba(99,102,241,0.12)',
-          pointBackgroundColor: '#6366f1',
-          tension: 0.3,
-          fill: true,
-          spanGaps: true,
-        }],
-      },
-      options: {
-        responsive: true,
-        maintainAspectRatio: false,
-        scales: {
-          x: { ticks: { color: '#9ca3af', font: { size: 11 } }, grid: { color: '#2a2d3d' } },
-          y: { min: 0, max: 100, ticks: { color: '#9ca3af', font: { size: 11 }, callback: v => v + '%' }, grid: { color: '#2a2d3d' } },
-        },
-        plugins: { legend: { display: false } },
-      },
-    });
-
-    // Pass rate by milestone
-    const byMilestone = {};
-    for (const r of d.testmo.runs.recent || []) {
-      const key = r.name || ('Milestone ' + r.milestone_id);
-      if (!byMilestone[key]) byMilestone[key] = { passed: 0, failed: 0 };
-      byMilestone[key].passed += r.passed;
-      byMilestone[key].failed += r.failed;
-    }
-    const msLabels = Object.keys(byMilestone);
-    const msRates  = msLabels.map(k => {
-      const { passed, failed } = byMilestone[k];
-      const t = passed + failed;
-      return t ? +((passed / t) * 100).toFixed(1) : 0;
-    });
-    new Chart(document.getElementById('milestone-bar'), {
-      type: 'bar',
-      data: {
-        labels: msLabels.map(l => trunc(l, 20)),
-        datasets: [{
-          label: 'Pass rate %',
-          data: msRates,
-          backgroundColor: msRates.map(v => v >= 95 ? '#22c55e' : v >= 80 ? '#eab308' : '#ef4444'),
-          borderRadius: 4,
-        }],
-      },
-      options: {
-        responsive: true,
-        maintainAspectRatio: false,
-        scales: {
-          x: { ticks: { color: '#9ca3af', font: { size: 11 } }, grid: { color: '#2a2d3d' } },
-          y: { min: 0, max: 100, ticks: { color: '#9ca3af', font: { size: 11 }, callback: v => v + '%' }, grid: { color: '#2a2d3d' } },
-        },
-        plugins: { legend: { display: false } },
-      },
-    });
-
-    // Coverage gauge (doughnut showing % vs 100% goal)
-    const covPct = cov.automatedPct || 0;
-    const GOAL = 100;
-    new Chart(document.getElementById('coverage-gauge'), {
-      type: 'doughnut',
-      data: {
-        labels: ['Automated', 'Remaining'],
-        datasets: [{
-          data: [covPct, Math.max(0, GOAL - covPct)],
-          backgroundColor: [covPct >= 80 ? '#22c55e' : covPct >= 50 ? '#eab308' : '#ef4444', '#2a2d3d'],
-          borderWidth: 0,
-          circumference: 240,
-          rotation: -120,
-        }],
-      },
-      options: {
-        responsive: true,
-        maintainAspectRatio: false,
-        cutout: '72%',
-        plugins: {
-          legend: { display: false },
-          tooltip: { callbacks: { label: ctx => ctx.label + ': ' + ctx.parsed.toFixed(1) + '%' } },
-        },
-      },
-      plugins: [{
-        id: 'gaugeText',
-        afterDraw(chart) {
-          const { ctx, chartArea: { top, bottom, left, right } } = chart;
-          const cx = (left + right) / 2, cy = (top + bottom) / 2 + 20;
-          ctx.save();
-          ctx.textAlign = 'center';
-          ctx.fillStyle = '#e4e6f0';
-          ctx.font = 'bold 32px -apple-system, sans-serif';
-          ctx.fillText(covPct.toFixed(1) + '%', cx, cy);
-          ctx.fillStyle = '#6b7280';
-          ctx.font = '13px -apple-system, sans-serif';
-          ctx.fillText('automated', cx, cy + 22);
-          ctx.restore();
-        },
-      }],
-    });
-
-    // Jira donut (bottom section)
-    const byStatus = d.jira.summary.byStatus || {};
-    const rawLabels = Object.keys(byStatus);
-    const labels = rawLabels.map(tr);
-    const values = rawLabels.map(k => byStatus[k]);
-    const COLORS = ['#6b7280','#3b82f6','#22c55e','#f59e0b','#ef4444','#8b5cf6'];
-    new Chart(document.getElementById('jira-donut'), {
-      type: 'doughnut',
-      data: {
-        labels,
-        datasets: [{ data: values, backgroundColor: COLORS.slice(0, labels.length), borderWidth: 0, hoverOffset: 6 }],
-      },
-      options: {
-        responsive: true,
-        maintainAspectRatio: false,
-        plugins: { legend: { position: 'bottom', labels: { color: '#9ca3af', font: { size: 12 }, padding: 12 } } },
-        cutout: '62%',
-      },
-    });
-
-    // Jira tickets by assignee
-    const assigneeCounts = {};
-    for (const t of d.jira.tickets || []) {
-      const a = t.assignee || 'Unassigned';
-      assigneeCounts[a] = (assigneeCounts[a] || 0) + 1;
-    }
-    const assigneeSorted = Object.entries(assigneeCounts).sort((a, b) => b[1] - a[1]).slice(0, 12);
-    new Chart(document.getElementById('jira-assignee'), {
-      type: 'bar',
-      data: {
-        labels: assigneeSorted.map(([name]) => name),
-        datasets: [{
-          label: 'Tickets',
-          data: assigneeSorted.map(([, n]) => n),
-          backgroundColor: '#6366f1',
-          borderRadius: 4,
-        }],
-      },
-      options: {
-        indexAxis: 'y',
-        responsive: true,
-        maintainAspectRatio: false,
-        scales: {
-          x: { ticks: { color: '#9ca3af', font: { size: 11 } }, grid: { color: '#2a2d3d' } },
-          y: { ticks: { color: '#9ca3af', font: { size: 11 } }, grid: { color: '#2a2d3d' } },
-        },
-        plugins: { legend: { display: false } },
       },
     });
   }
