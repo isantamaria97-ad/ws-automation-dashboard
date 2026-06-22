@@ -184,10 +184,52 @@
     #error { color: var(--red); }
     #content { display: none; }
 
+    .accordion-item {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      overflow: hidden;
+    }
+    .accordion-header {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      padding: 14px 20px;
+      cursor: pointer;
+      user-select: none;
+      transition: background .15s;
+    }
+    .accordion-header:hover { background: rgba(255,255,255,.03); }
+    .accordion-chevron {
+      font-size: 11px;
+      color: var(--muted);
+      transition: transform .2s;
+      flex-shrink: 0;
+    }
+    .accordion-item.open .accordion-chevron { transform: rotate(90deg); }
+    .accordion-title { font-weight: 600; font-size: 14px; flex: 1; }
+    .accordion-meta  { font-size: 12px; color: var(--muted); white-space: nowrap; }
+    .accordion-pills { display: flex; gap: 6px; flex-wrap: wrap; }
+    .acc-pill {
+      display: inline-flex; align-items: center; gap: 4px;
+      padding: 2px 8px; border-radius: 999px; font-size: 11px; font-weight: 600;
+    }
+    .accordion-body { display: none; border-top: 1px solid var(--border); }
+    .accordion-item.open .accordion-body { display: block; }
+    .accordion-body table { width: 100%; border-collapse: collapse; font-size: 13px; }
+    .accordion-body th {
+      padding: 9px 16px; text-align: left; font-size: 11px; font-weight: 600;
+      text-transform: uppercase; letter-spacing: .6px; color: var(--muted);
+      background: #13161f; border-bottom: 1px solid var(--border);
+    }
+    .accordion-body td { padding: 9px 16px; border-bottom: 1px solid var(--border); vertical-align: middle; }
+    .accordion-body tr:last-child td { border-bottom: none; }
+    .accordion-body tr:hover td { background: rgba(255,255,255,.02); }
+
     @media (max-width: 768px) {
       header { padding: 14px 16px; }
       main   { padding: 20px 16px; gap: 24px; }
-      .charts-row { grid-template-columns: 1fr; }
+      .charts-row { flex-direction: column; }
     }
   </style>
 </head>
@@ -251,34 +293,9 @@
   </section>
 
   <section>
-    <h2>Latest Run · <span id="latest-run-name" style="color:var(--text);text-transform:none;letter-spacing:normal;font-weight:600"></span></h2>
-    <div id="latest-run-loading" style="color:var(--muted);font-size:13px;padding:12px 0">Loading test cases…</div>
-    <div id="latest-run-content" style="display:none">
-      <div class="cards" id="latest-run-cards" style="margin-bottom:14px"></div>
-      <div class="chart-box" style="margin-bottom:14px">
-        <h3>Test results</h3>
-        <div class="chart-wrap" style="height:220px"><canvas id="latest-run-bar"></canvas></div>
-      </div>
-      <div class="cases-toolbar" style="background:var(--surface);border:1px solid var(--border);border-radius:var(--radius) var(--radius) 0 0;padding:12px 16px;display:flex;gap:10px;flex-wrap:wrap">
-        <div id="run-filter-pills" style="display:flex;gap:6px;flex-wrap:wrap"></div>
-        <input id="run-case-search" type="search" placeholder="Filter by name…"
-          style="background:var(--bg);color:var(--text);border:1px solid var(--border);border-radius:6px;padding:6px 10px;font-size:13px;min-width:200px;flex:1;max-width:300px" />
-      </div>
-      <div class="table-wrap" style="border-radius:0 0 var(--radius) var(--radius)">
-        <table>
-          <thead>
-            <tr>
-              <th style="width:55%">Test case</th>
-              <th>Status</th>
-              <th>Updated</th>
-              <th style="text-align:right">ID</th>
-            </tr>
-          </thead>
-          <tbody id="latest-run-tbody"></tbody>
-        </table>
-        <div id="latest-run-empty" style="display:none;color:var(--muted);text-align:center;padding:24px;font-size:13px"></div>
-      </div>
-    </div>
+    <h2>Test Runs</h2>
+    <div id="runs-accordion-loading" style="color:var(--muted);font-size:13px;padding:12px 0">Loading runs…</div>
+    <div id="runs-accordion" style="display:none;display:flex;flex-direction:column;gap:8px"></div>
   </section>
 
 </main>
@@ -316,18 +333,14 @@
     return str.length > max ? str.slice(0, max) + '…' : str;
   }
 
-  // Status config for run cases
   const STATUS_CFG = {
-    2: { label: 'Passed',  color: '#22c55e' },
-    3: { label: 'Failed',  color: '#ef4444' },
-    4: { label: 'Retest',  color: '#f0ad4e' },
-    5: { label: 'Blocked', color: '#9e9e9e' },
-    6: { label: 'Skipped', color: '#8b5cf6' },
-    1: { label: 'Untested',color: '#3b82f6' },
+    2: { label: 'Passed',   color: '#22c55e' },
+    3: { label: 'Failed',   color: '#ef4444' },
+    4: { label: 'Retest',   color: '#f0ad4e' },
+    5: { label: 'Blocked',  color: '#9e9e9e' },
+    6: { label: 'Skipped',  color: '#8b5cf6' },
+    1: { label: 'Untested', color: '#3b82f6' },
   };
-
-  let runCasesAll = [];
-  let runCasesFilter = 'all';
 
   async function main() {
     const loading = document.getElementById('loading');
@@ -350,7 +363,7 @@
       renderCoverage(d.testmo);
       renderRuns(d.testmo);
       renderCharts(d);
-      renderLatestRun(d.testmo.runs.recent, testmoData);
+      renderAccordion(testmoData);
     } catch (err) {
       loading.style.display = 'none';
       errorEl.style.display = 'flex';
@@ -358,131 +371,75 @@
     }
   }
 
-  function renderLatestRun(recentRuns, testmoData) {
-    const loadingEl = document.getElementById('latest-run-loading');
-    const contentEl = document.getElementById('latest-run-content');
+  function renderAccordion(testmoData) {
+    const loadingEl = document.getElementById('runs-accordion-loading');
+    const accordion = document.getElementById('runs-accordion');
 
     if (!testmoData || !testmoData.runs || !testmoData.runs.length) {
       loadingEl.textContent = 'No run data available.';
       return;
     }
 
-    // Match the latest run from data.json to testmo/data.json by id
-    const latestId = recentRuns && recentRuns[0] ? recentRuns[0].id : null;
-    let run = latestId
-      ? testmoData.runs.find(r => r.id === latestId)
-      : null;
-    if (!run) run = testmoData.runs[0];
-
     loadingEl.style.display = 'none';
-    contentEl.style.display = 'block';
-    document.getElementById('latest-run-name').textContent = run.name || ('Run #' + run.id);
+    accordion.style.display = 'flex';
 
-    const cases = run.cases || [];
-    runCasesAll = cases;
+    accordion.innerHTML = testmoData.runs.map((run, idx) => {
+      const cases = run.cases || [];
+      const counts = {};
+      for (const c of cases) counts[c.statusId] = (counts[c.statusId] || 0) + 1;
 
-    // Summary cards
-    const counts = {};
-    for (const c of cases) counts[c.statusId] = (counts[c.statusId] || 0) + 1;
-    const cardHtml = Object.entries(STATUS_CFG)
-      .filter(([id]) => counts[id])
-      .map(([id, cfg]) => card(cfg.label, counts[id], ''))
-      .join('');
-    document.getElementById('latest-run-cards').innerHTML =
-      card('Total', cases.length, 'accent') + cardHtml;
-
-    // Bar chart
-    const statusIds = Object.keys(counts).map(Number);
-    new Chart(document.getElementById('latest-run-bar'), {
-      type: 'bar',
-      data: {
-        labels: statusIds.map(id => (STATUS_CFG[id] || {}).label || ('Status ' + id)),
-        datasets: [{
-          data: statusIds.map(id => counts[id]),
-          backgroundColor: statusIds.map(id => (STATUS_CFG[id] || {}).color || '#9ca3af'),
-          borderRadius: 4,
-        }],
-      },
-      options: {
-        responsive: true,
-        maintainAspectRatio: false,
-        scales: {
-          x: { ticks: { color: '#9ca3af', font: { size: 12 } }, grid: { color: '#2a2d3d' } },
-          y: { ticks: { color: '#9ca3af', font: { size: 12 } }, grid: { color: '#2a2d3d' } },
-        },
-        plugins: { legend: { display: false } },
-      },
-    });
-
-    // Filter pills
-    renderRunFilterPills(cases, counts);
-    renderRunCasesTable(cases);
-
-    document.getElementById('run-case-search').addEventListener('input', () => {
-      renderRunCasesTable(runCasesAll);
-    });
-  }
-
-  function renderRunFilterPills(cases, counts) {
-    const host = document.getElementById('run-filter-pills');
-    const pills = [{ id: 'all', label: 'All', color: '#9ca3af', count: cases.length }]
-      .concat(Object.entries(STATUS_CFG)
+      const pills = Object.entries(STATUS_CFG)
         .filter(([id]) => counts[id])
-        .map(([id, cfg]) => ({ id: Number(id), label: cfg.label, color: cfg.color, count: counts[id] })));
+        .map(([id, cfg]) => `<span class="acc-pill" style="background:${cfg.color}22;color:${cfg.color}">
+          <span style="width:6px;height:6px;border-radius:50%;background:${cfg.color};display:inline-block"></span>
+          ${cfg.label} ${counts[id]}
+        </span>`).join('');
 
-    host.innerHTML = pills.map(p => `
-      <button class="filter-pill" data-status="${p.id}" aria-pressed="${p.id === 'all'}"
-        style="background:var(--surface);color:var(--muted);border:1px solid var(--border);border-radius:999px;padding:5px 12px;font-size:12px;font-weight:600;cursor:pointer;display:inline-flex;align-items:center;gap:6px">
-        ${p.id === 'all' ? '' : `<span style="width:8px;height:8px;border-radius:50%;background:${p.color};display:inline-block"></span>`}
-        ${esc(p.label)} <span style="color:var(--muted);font-weight:500">${p.count}</span>
-      </button>`).join('');
+      const date = run.created_at
+        ? new Date(run.created_at).toLocaleDateString('en-GB', { day: '2-digit', month: 'short', year: 'numeric' })
+        : '';
 
-    host.querySelectorAll('.filter-pill').forEach(btn => {
-      btn.addEventListener('click', () => {
-        const v = btn.dataset.status;
-        runCasesFilter = v === 'all' ? 'all' : Number(v);
-        host.querySelectorAll('.filter-pill').forEach(b => {
-          b.setAttribute('aria-pressed', String(b.dataset.status == String(runCasesFilter)));
-          b.style.borderColor = b.dataset.status == String(runCasesFilter) ? 'var(--accent)' : 'var(--border)';
-          b.style.color = b.dataset.status == String(runCasesFilter) ? 'var(--text)' : 'var(--muted)';
-        });
-        renderRunCasesTable(runCasesAll);
+      const rows = cases.map(c => {
+        const cfg = STATUS_CFG[c.statusId] || { label: c.status || 'Unknown', color: '#9ca3af' };
+        const updated = c.updatedAt
+          ? new Date(c.updatedAt).toLocaleString('en-GB', { day: '2-digit', month: 'short', hour: '2-digit', minute: '2-digit' })
+          : '—';
+        return `<tr>
+          <td style="font-weight:500">${esc(c.name || 'Case #' + c.caseId)}</td>
+          <td><span style="display:inline-flex;align-items:center;gap:5px;padding:3px 9px;border-radius:999px;font-size:11px;font-weight:600;background:${cfg.color}22;color:${cfg.color}">
+            <span style="width:6px;height:6px;border-radius:50%;background:${cfg.color}"></span>${esc(cfg.label)}
+          </span></td>
+          <td style="color:var(--muted);white-space:nowrap">${updated}</td>
+          <td style="text-align:right;color:var(--muted);font-variant-numeric:tabular-nums">#${c.caseId ?? '—'}</td>
+        </tr>`;
+      }).join('');
+
+      return `<div class="accordion-item${idx === 0 ? ' open' : ''}" data-idx="${idx}">
+        <div class="accordion-header">
+          <span class="accordion-chevron">▶</span>
+          <span class="accordion-title">${esc(run.name || 'Run #' + run.id)}</span>
+          <div class="accordion-pills">${pills}</div>
+          <span class="accordion-meta">${date} · ${cases.length} cases</span>
+        </div>
+        <div class="accordion-body">
+          <table>
+            <thead><tr>
+              <th style="width:55%">Test case</th>
+              <th>Status</th>
+              <th>Updated</th>
+              <th style="text-align:right">ID</th>
+            </tr></thead>
+            <tbody>${rows || '<tr><td colspan="4" style="color:var(--muted);text-align:center;padding:20px">No cases recorded</td></tr>'}</tbody>
+          </table>
+        </div>
+      </div>`;
+    }).join('');
+
+    accordion.querySelectorAll('.accordion-header').forEach(header => {
+      header.addEventListener('click', () => {
+        header.closest('.accordion-item').classList.toggle('open');
       });
     });
-  }
-
-  function renderRunCasesTable(cases) {
-    const search = (document.getElementById('run-case-search').value || '').toLowerCase().trim();
-    const filtered = cases.filter(c => {
-      if (runCasesFilter !== 'all' && c.statusId !== runCasesFilter) return false;
-      if (search && !(c.name || '').toLowerCase().includes(search)) return false;
-      return true;
-    });
-
-    const tbody = document.getElementById('latest-run-tbody');
-    const emptyEl = document.getElementById('latest-run-empty');
-
-    if (!filtered.length) {
-      tbody.innerHTML = '';
-      emptyEl.style.display = 'block';
-      emptyEl.textContent = search || runCasesFilter !== 'all' ? 'No cases match the filter.' : 'No cases in this run.';
-      return;
-    }
-    emptyEl.style.display = 'none';
-    tbody.innerHTML = filtered.map(c => {
-      const cfg = STATUS_CFG[c.statusId] || { label: c.status || 'Unknown', color: '#9ca3af' };
-      const updated = c.updatedAt
-        ? new Date(c.updatedAt).toLocaleString('en-GB', { day: '2-digit', month: 'short', hour: '2-digit', minute: '2-digit' })
-        : '—';
-      return `<tr>
-        <td style="font-weight:500">${esc(c.name || 'Case #' + c.caseId)}</td>
-        <td><span style="display:inline-flex;align-items:center;gap:5px;padding:3px 9px;border-radius:999px;font-size:11px;font-weight:600;background:${cfg.color}22;color:${cfg.color}">
-          <span style="width:7px;height:7px;border-radius:50%;background:${cfg.color}"></span>${esc(cfg.label)}
-        </span></td>
-        <td style="color:var(--muted);white-space:nowrap">${updated}</td>
-        <td style="text-align:right;color:var(--muted);font-variant-numeric:tabular-nums">#${c.caseId ?? '—'}</td>
-      </tr>`;
-    }).join('');
   }
 
   function coverageBar(automated, notAutomated, unclassified, total) {
