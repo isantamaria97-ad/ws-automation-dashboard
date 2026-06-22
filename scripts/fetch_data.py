@@ -323,33 +323,90 @@ def main():
     # Roll up to feature-level folders. Each immediate child of scope_root
     # (e.g. "Test Funcionales", "Test No Funcionales") tends to be a wrapper —
     # descend one extra level so we surface real feature folders (Login, Checkout…).
+    #
+    # If the scope root has no children (flat folder like "Regression"), fall back
+    # to grouping cases by keyword matching against project-level folder names.
     coverage_by_folder = []
     if scope_root:
-        feature_ids: list[tuple[int, int]] = []  # (folder_id, group_id_for_grouping)
-        for child_id in kids.get(scope_root, []):
-            grandchildren = kids.get(child_id, [])
-            if grandchildren:
-                for gid in grandchildren:
-                    feature_ids.append((gid, child_id))
-            else:
-                feature_ids.append((child_id, child_id))
-        for fid, group_id in feature_ids:
-            sub = descendants_of(fid, kids)
-            agg = {"automated": 0, "notAutomated": 0, "unclassified": 0, "total": 0}
-            for sid in sub:
-                fs = folder_stats.get(sid)
-                if not fs:
-                    continue
-                for k in agg:
-                    agg[k] += fs[k]
-            if agg["total"]:
+        has_children = bool(kids.get(scope_root, []))
+        if has_children:
+            feature_ids: list[tuple[int, int]] = []  # (folder_id, group_id_for_grouping)
+            for child_id in kids.get(scope_root, []):
+                grandchildren = kids.get(child_id, [])
+                if grandchildren:
+                    for gid in grandchildren:
+                        feature_ids.append((gid, child_id))
+                else:
+                    feature_ids.append((child_id, child_id))
+            for fid, group_id in feature_ids:
+                sub = descendants_of(fid, kids)
+                agg = {"automated": 0, "notAutomated": 0, "unclassified": 0, "total": 0}
+                for sid in sub:
+                    fs = folder_stats.get(sid)
+                    if not fs:
+                        continue
+                    for k in agg:
+                        agg[k] += fs[k]
+                if agg["total"]:
+                    coverage_by_folder.append({
+                        "folderId": fid,
+                        "name": by_id[fid]["name"],
+                        "group": by_id[group_id]["name"],
+                        **agg,
+                    })
+            coverage_by_folder.sort(key=lambda x: (x["group"], -x["total"]))
+        else:
+            # Flat folder: group cases by keyword matching project-level folder names.
+            # Build keyword map from root-level folders (those with no parent).
+            root_folders = [f for f in by_id.values() if f.get("parent_id") is None and f["id"] != scope_root]
+            keyword_map: list[tuple[str, str]] = []  # (keyword_lower, folder_name)
+            for f in sorted(root_folders, key=lambda x: -len(x["name"])):
+                keyword_map.append((f["name"].lower(), f["name"]))
+            # Extra keyword aliases for common patterns not matching folder names exactly
+            keyword_aliases = [
+                ("header search", "Search"),
+                ("search", "Search"),
+                ("click and collect", "Checkout"),
+                ("coupon", "Checkout"),
+                ("payment", "Checkout"),
+                ("shipping", "Checkout"),
+                ("delivery", "Checkout"),
+                ("billing", "Checkout"),
+                ("order confirmation", "Checkout"),
+                ("add to bag", "PDP"),
+                ("basket", "Bag"),
+                ("register", "Account"),
+                ("login", "Account"),
+                ("reset password", "Account"),
+                ("currency", "Checkout"),
+                ("gift card", "Checkout"),
+            ]
+
+            def infer_component(name: str) -> str:
+                name_lower = name.lower()
+                for kw, label in keyword_aliases:
+                    if kw in name_lower:
+                        return label
+                for kw, label in keyword_map:
+                    if kw in name_lower:
+                        return label
+                return "Other"
+
+            component_stats: dict[str, dict] = {}
+            for c in cases:
+                comp = infer_component(c.get("name", ""))
+                b = coverage_bucket(c)
+                st = component_stats.setdefault(comp, {"automated": 0, "notAutomated": 0, "unclassified": 0, "total": 0})
+                st[b] += 1
+                st["total"] += 1
+
+            for comp, st in sorted(component_stats.items(), key=lambda x: -x[1]["total"]):
                 coverage_by_folder.append({
-                    "folderId": fid,
-                    "name": by_id[fid]["name"],
-                    "group": by_id[group_id]["name"],
-                    **agg,
+                    "folderId": None,
+                    "name": comp,
+                    "group": "Components",
+                    **st,
                 })
-        coverage_by_folder.sort(key=lambda x: (x["group"], -x["total"]))
 
     # ── Runs summary ─────────────────────────────────────────────────────────
     sorted_runs = sorted(runs, key=lambda r: r.get("created_at", ""), reverse=True)
