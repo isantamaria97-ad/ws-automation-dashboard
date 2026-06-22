@@ -1,18 +1,18 @@
 {
-  "lastUpdated": "2026-06-22T13:36:35.410757+00:00",
+  "lastUpdated": "2026-06-22T15:28:19.496245+00:00",
   "jira": {
     "summary": {
-      "total": 248,
+      "total": 250,
       "byStatus": {
-        "Listo": 10,
+        "En curso": 3,
+        "Tech Review": 3,
+        "IN UAT": 6,
+        "Listo": 9,
         "Ready to QA": 2,
         "Finalizada": 170,
-        "En curso": 1,
-        "Tech Review": 2,
         "Tareas por hacer": 1,
         "Backlog": 7,
         "PENDING DEV DEPLOY": 17,
-        "IN UAT": 6,
         "QA Approved": 14,
         "Blocked": 3,
         "READY FOR RELEASE": 6,
@@ -21,6 +21,67 @@
       }
     },
     "tickets": [
+      {
+        "key": "WSC-1571",
+        "url": "https://e2x.atlassian.net/browse/WSC-1571",
+        "summary": "PR branch for Logging Apple Pay - Cart Issues",
+        "status": "En curso",
+        "statusCategory": "indeterminate",
+        "assignee": "Alexander Talavera",
+        "updated": "2026-06-22T16:05:45.604+0100",
+        "priority": "Not Set",
+        "labels": [
+          "NO_QA_REQUIRED"
+        ]
+      },
+      {
+        "key": "WSC-1570",
+        "url": "https://e2x.atlassian.net/browse/WSC-1570",
+        "summary": "[PDP - Mobile] 'Add to bag' button not visible when navigating from PLP ",
+        "status": "Tech Review",
+        "statusCategory": "indeterminate",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-06-22T15:30:25.128+0100",
+        "priority": "Not Set",
+        "labels": []
+      },
+      {
+        "key": "WSC-1559",
+        "url": "https://e2x.atlassian.net/browse/WSC-1559",
+        "summary": "CONTENT - SlimBanner amends 2",
+        "status": "En curso",
+        "statusCategory": "indeterminate",
+        "assignee": "Jair Huaman",
+        "updated": "2026-06-22T15:24:29.722+0100",
+        "priority": "Importante",
+        "labels": []
+      },
+      {
+        "key": "WSC-1564",
+        "url": "https://e2x.atlassian.net/browse/WSC-1564",
+        "summary": "PLP - remove review stars div",
+        "status": "En curso",
+        "statusCategory": "indeterminate",
+        "assignee": "Alexander Talavera",
+        "updated": "2026-06-22T15:01:59.989+0100",
+        "priority": "Poco importante",
+        "labels": [
+          "Needs-QA"
+        ]
+      },
+      {
+        "key": "WSC-1555",
+        "url": "https://e2x.atlassian.net/browse/WSC-1555",
+        "summary": "BAG - empty bag shows on refresh",
+        "status": "IN UAT",
+        "statusCategory": "indeterminate",
+        "assignee": "Gerardo Romero",
+        "updated": "2026-06-22T14:56:47.295+0100",
+        "priority": "Poco importante",
+        "labels": [
+          "Needs-QA"
+        ]
+      },
       {
         "key": "WSC-1405",
         "url": "https://e2x.atlassian.net/browse/WSC-1405",
@@ -40,19 +101,6 @@
         "statusCategory": "new",
         "assignee": "Unassigned",
         "updated": "2026-06-22T11:53:24.083+0100",
-        "priority": "Poco importante",
-        "labels": [
-          "Needs-QA"
-        ]
-      },
-      {
-        "key": "WSC-1564",
-        "url": "https://e2x.atlassian.net/browse/WSC-1564",
-        "summary": "PLP - remove review stars div",
-        "status": "Listo",
-        "statusCategory": "new",
-        "assignee": "Alexander Talavera",
-        "updated": "2026-06-22T11:53:23.788+0100",
         "priority": "Poco importante",
         "labels": [
           "Needs-QA"
@@ -106,17 +154,6 @@
         "assignee": "Alexander Talavera",
         "updated": "2026-06-19T21:20:34.243+0100",
         "priority": "Not Set",
-        "labels": []
-      },
-      {
-        "key": "WSC-1559",
-        "url": "https://e2x.atlassian.net/browse/WSC-1559",
-        "summary": "CONTENT - SlimBanner amends 2",
-        "status": "En curso",
-        "statusCategory": "indeterminate",
-        "assignee": "Jair Huaman",
-        "updated": "2026-06-19T21:19:13.689+0100",
-        "priority": "Importante",
         "labels": []
       },
       {
@@ -187,19 +224,6 @@
         "statusCategory": "new",
         "assignee": "enmanuel.ramirez",
         "updated": "2026-06-19T20:19:18.776+0100",
-        "priority": "Poco importante",
-        "labels": [
-          "Needs-QA"
-        ]
-      },
-      {
-        "key": "WSC-1555",
-        "url": "https://e2x.atlassian.net/browse/WSC-1555",
-        "summary": "BAG - empty bag shows on refresh",
-        "status": "IN UAT",
-        "statusCategory": "indeterminate",
-        "assignee": "Gerardo Romero",
-        "updated": "2026-06-19T19:21:50.161+0100",
         "priority": "Poco importante",
         "labels": [
           "Needs-QA"
@@ -3088,7 +3112,89 @@
       "notAutomated": 0,
       "unclassified": 0,
       "automatedPct": 100.0,
-      "byFolder": []
+      "byFolder": [
+        {
+          "folderId": null,
+          "name": "Checkout",
+          "group": "Components",
+          "automated": 34,
+          "notAutomated": 0,
+          "unclassified": 0,
+          "total": 34
+        },
+        {
+          "folderId": null,
+          "name": "PDP",
+          "group": "Components",
+          "automated": 12,
+          "notAutomated": 0,
+          "unclassified": 0,
+          "total": 12
+        },
+        {
+          "folderId": null,
+          "name": "Bag",
+          "group": "Components",
+          "automated": 5,
+          "notAutomated": 0,
+          "unclassified": 0,
+          "total": 5
+        },
+        {
+          "folderId": null,
+          "name": "Search",
+          "group": "Components",
+          "automated": 5,
+          "notAutomated": 0,
+          "unclassified": 0,
+          "total": 5
+        },
+        {
+          "folderId": null,
+          "name": "Account",
+          "group": "Components",
+          "automated": 3,
+          "notAutomated": 0,
+          "unclassified": 0,
+          "total": 3
+        },
+        {
+          "folderId": null,
+          "name": "PLP",
+          "group": "Components",
+          "automated": 2,
+          "notAutomated": 0,
+          "unclassified": 0,
+          "total": 2
+        },
+        {
+          "folderId": null,
+          "name": "Other",
+          "group": "Components",
+          "automated": 2,
+          "notAutomated": 0,
+          "unclassified": 0,
+          "total": 2
+        },
+        {
+          "folderId": null,
+          "name": "Content",
+          "group": "Components",
+          "automated": 1,
+          "notAutomated": 0,
+          "unclassified": 0,
+          "total": 1
+        },
+        {
+          "folderId": null,
+          "name": "Homepage",
+          "group": "Components",
+          "automated": 1,
+          "notAutomated": 0,
+          "unclassified": 0,
+          "total": 1
+        }
+      ]
     },
     "runs": {
       "total": 28,
