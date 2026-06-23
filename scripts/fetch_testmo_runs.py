@@ -47,6 +47,16 @@ TESTMO_RUN_IDS = os.environ.get("TESTMO_RUN_IDS", "").strip()
 TESTMO_GROUP_ID = os.environ.get("TESTMO_GROUP_ID", "").strip()
 TESTMO_MILESTONE_ID = os.environ.get("TESTMO_MILESTONE_ID", "").strip()
 
+_CONFIG_CACHE: dict[int, str] | None = None
+
+def config_lookup() -> dict[int, str]:
+    global _CONFIG_CACHE
+    if _CONFIG_CACHE is not None:
+        return _CONFIG_CACHE
+    raw = paginate(f"/api/v1/projects/{TESTMO_PROJECT_ID}/configs")
+    _CONFIG_CACHE = {c["id"]: c.get("name", "") for c in raw if "id" in c}
+    return _CONFIG_CACHE
+
 HEADERS = {
     "Authorization": f"Bearer {TESTMO_TOKEN}",
     "Accept": "application/json",
@@ -198,7 +208,7 @@ def normalize_run(run: dict) -> dict:
         "untested": status_counts.get("Untested", {}).get("count", 0),
         "skipped": status_counts.get("Skipped", {}).get("count", 0),
         "statusCounts": status_counts,
-        "config": run.get("config") or run.get("configuration") or "",
+        "config": config_lookup().get(run.get("config_id"), "") if run.get("config_id") else "",
         "url": f"{TESTMO_BASE}/runs/view/{run.get('id')}"
                + (f"?group_id={run.get('group_id')}" if run.get("group_id") else ""),
     }

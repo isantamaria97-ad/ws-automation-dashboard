@@ -406,10 +406,11 @@
         ? `<span style="font-size:11px;font-weight:600;padding:2px 8px;border-radius:999px;background:var(--accent)22;color:var(--accent);white-space:nowrap">${esc(deviceLabel)}</span>`
         : '';
 
-      // Group cases by tag; untagged go under "Other"
+      // Group cases by name prefix (part before " - "); fallback "Other"
       const groups = {};
       for (const c of cases) {
-        const tag = (c.tags && c.tags.length) ? c.tags[0] : 'Other';
+        const sep = (c.name || '').indexOf(' - ');
+        const tag = sep > -1 ? c.name.slice(0, sep).trim() : 'Other';
         if (!groups[tag]) groups[tag] = [];
         groups[tag].push(c);
       }
