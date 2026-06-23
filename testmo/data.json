@@ -1,5 +1,49 @@
 {
-  "lastUpdated": "2026-06-23T13:22:20.507731+00:00",
+  "lastUpdated": "2026-06-23T15:15:40.782194+00:00",
+  "milestones": [
+    {
+      "id": 221,
+      "name": "Regression 18/06/26",
+      "startAt": "",
+      "dueAt": ""
+    },
+    {
+      "id": 219,
+      "name": "Regression 04/06/26",
+      "startAt": "",
+      "dueAt": ""
+    },
+    {
+      "id": 217,
+      "name": "Regression 19/05/26",
+      "startAt": "",
+      "dueAt": ""
+    },
+    {
+      "id": 215,
+      "name": "Regression 06/05/26",
+      "startAt": "",
+      "dueAt": ""
+    },
+    {
+      "id": 214,
+      "name": "Regression 24/04/26",
+      "startAt": "",
+      "dueAt": ""
+    },
+    {
+      "id": 213,
+      "name": "Regression 21/04/26",
+      "startAt": "",
+      "dueAt": ""
+    },
+    {
+      "id": 210,
+      "name": "Regression 15/04/26",
+      "startAt": "",
+      "dueAt": ""
+    }
+  ],
   "scope": {
     "baseUrl": "https://applydigital.testmo.net",
     "projectId": "44",
