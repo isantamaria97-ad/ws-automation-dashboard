@@ -4,31 +4,28 @@ jobs:
   diag:
     runs-on: ubuntu-latest
     steps:
-      - name: Check raw run and case fields
+      - name: Check case tags endpoints
         env:
           TESTMO_API_TOKEN: ${{ secrets.TESTMO_API_TOKEN }}
         run: |
-          echo "=== RUN 1814 (non-status fields) ==="
+          echo "=== CASE 114304 TAGS ==="
           curl -s -H "Authorization: Bearer $TESTMO_API_TOKEN" \
-            "https://applydigital.testmo.net/api/v1/runs/1814" \
-            | python3 -c "
-          import json,sys
-          d=json.load(sys.stdin)
-          r=d.get('result',d)
-          print(json.dumps({k:v for k,v in r.items() if 'status' not in k}, indent=2))
-          "
+            "https://applydigital.testmo.net/api/v1/projects/44/cases/114304/tags"
 
-          echo "=== CASE 114304 RAW ==="
+          echo ""
+          echo "=== CASES WITH include[]=tags ==="
           curl -s -H "Authorization: Bearer $TESTMO_API_TOKEN" \
-            "https://applydigital.testmo.net/api/v1/cases/114304" \
-            | python3 -c "import json,sys; d=json.load(sys.stdin); print(json.dumps(d.get('result',d), indent=2))"
+            "https://applydigital.testmo.net/api/v1/projects/44/cases?page=1&include[]=tags" \
+            | python3 -c "import json,sys; d=json.load(sys.stdin); r=d.get('result',d); [print(c['id'], c.get('tags')) for c in r[:5]]"
 
-          echo "=== PROJECT 44 CASES[0] RAW ==="
+          echo ""
+          echo "=== CASES WITH with_tags=1 ==="
+          curl -s -H "Authorization: Bearer $TESTMO_API_TOKEN" \
+            "https://applydigital.testmo.net/api/v1/projects/44/cases?page=1&with_tags=1" \
+            | python3 -c "import json,sys; d=json.load(sys.stdin); r=d.get('result',d); [print(c['id'], c.get('tags')) for c in r[:5]]"
+
+          echo ""
+          echo "=== CASES DEFAULT (check tags field) ==="
           curl -s -H "Authorization: Bearer $TESTMO_API_TOKEN" \
             "https://applydigital.testmo.net/api/v1/projects/44/cases?page=1" \
-            | python3 -c "import json,sys; d=json.load(sys.stdin); r=d.get('result',d); print(json.dumps(r[0] if r else {}, indent=2))"
-
-          echo "=== PROJECT 44 TAGS ==="
-          curl -s -H "Authorization: Bearer $TESTMO_API_TOKEN" \
-            "https://applydigital.testmo.net/api/v1/projects/44/tags" \
-            | python3 -c "import json,sys; d=json.load(sys.stdin); print(json.dumps(d, indent=2))" | head -60
+            | python3 -c "import json,sys; d=json.load(sys.stdin); r=d.get('result',d); [print(c['id'], repr(c.get('tags','NO_FIELD'))) for c in r[:5]]"
