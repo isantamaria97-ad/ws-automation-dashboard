@@ -245,6 +245,11 @@ def fetch_run_cases(run_id: int | str) -> list[dict]:
     return rows
 
 
+def fetch_milestones() -> list[dict]:
+    raw = paginate(f"/api/v1/projects/{TESTMO_PROJECT_ID}/milestones")
+    return [{"id": m["id"], "name": m.get("name", ""), "startAt": m.get("start_at", ""), "dueAt": m.get("due_at", "")} for m in raw if "id" in m]
+
+
 def main():
     out_path = os.environ.get("OUTPUT_PATH", "testmo/data.json")
 
@@ -265,8 +270,13 @@ def main():
 
     runs.sort(key=lambda r: r.get("created_at", ""), reverse=True)
 
+    print("Fetching milestones…")
+    milestones = fetch_milestones()
+    print(f"  → {len(milestones)} milestones")
+
     payload = {
         "lastUpdated": datetime.now(timezone.utc).isoformat(),
+        "milestones": milestones,
         "scope": {
             "baseUrl": TESTMO_BASE,
             "projectId": TESTMO_PROJECT_ID,

@@ -292,8 +292,18 @@
     </div>
   </section>
 
-  <section>
-    <h2>Test Runs</h2>
+  <section id="section-testruns">
+    <div style="display:flex;align-items:center;gap:16px;flex-wrap:wrap;margin-bottom:20px">
+      <h2 style="margin:0">Test Runs</h2>
+      <select id="milestone-select" style="background:var(--surface);color:var(--text);border:1px solid var(--border);border-radius:6px;padding:6px 12px;font-size:13px;cursor:pointer">
+        <option value="">Loading milestones…</option>
+      </select>
+    </div>
+
+    <div id="milestone-charts" style="display:none;margin-bottom:24px">
+      <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:12px" id="run-charts-grid"></div>
+    </div>
+
     <div id="runs-accordion-loading" style="color:var(--muted);font-size:13px;padding:12px 0">Loading runs…</div>
     <div id="runs-accordion" style="display:none;display:flex;flex-direction:column;gap:8px"></div>
   </section>
@@ -371,19 +381,103 @@
     }
   }
 
+  let _testmoData = null;
+  let _milestoneCharts = [];
+
   function renderAccordion(testmoData) {
+    _testmoData = testmoData;
     const loadingEl = document.getElementById('runs-accordion-loading');
     const accordion = document.getElementById('runs-accordion');
+    const select = document.getElementById('milestone-select');
 
     if (!testmoData || !testmoData.runs || !testmoData.runs.length) {
       loadingEl.textContent = 'No run data available.';
       return;
     }
 
+    // Populate milestone selector
+    const milestones = testmoData.milestones || [];
+    const milestoneMap = {};
+    milestones.forEach(m => { milestoneMap[m.id] = m; });
+
+    // Build milestone list from runs if milestones array not populated yet
+    const msFromRuns = {};
+    testmoData.runs.forEach(r => {
+      if (r.milestone_id && !msFromRuns[r.milestone_id]) {
+        msFromRuns[r.milestone_id] = milestoneMap[r.milestone_id] || { id: r.milestone_id, name: `Milestone ${r.milestone_id}` };
+      }
+    });
+    const msOptions = Object.values(msFromRuns).sort((a, b) => b.id - a.id);
+
+    select.innerHTML = msOptions.map((m, i) =>
+      `<option value="${m.id}"${i === 0 ? ' selected' : ''}>${esc(m.name)}</option>`
+    ).join('');
+
+    select.addEventListener('change', () => renderMilestone(Number(select.value)));
+    renderMilestone(msOptions[0]?.id);
+
     loadingEl.style.display = 'none';
     accordion.style.display = 'flex';
 
-    accordion.innerHTML = testmoData.runs.map((run, idx) => {
+    // Render accordion for selected milestone runs
+    function renderMilestone(milestoneId) {
+      const runs = testmoData.runs.filter(r => r.milestone_id === milestoneId);
+      renderMilestoneCharts(runs);
+      renderAccordionItems(runs, accordion);
+    }
+
+    function renderMilestoneCharts(runs) {
+      const grid = document.getElementById('run-charts-grid');
+      const chartsDiv = document.getElementById('milestone-charts');
+      chartsDiv.style.display = runs.length ? 'block' : 'none';
+
+      // Destroy previous charts
+      _milestoneCharts.forEach(c => c.destroy());
+      _milestoneCharts = [];
+      grid.innerHTML = '';
+
+      runs.forEach(run => {
+        const config = run.config || `Run #${run.id}`;
+        const s = run.statusCounts || {};
+        const labels = ['Passed', 'Failed', 'Retest', 'Blocked', 'Skipped', 'Untested'];
+        const colors = ['#22c55e', '#ef4444', '#eab308', '#9e9e9e', '#8b5cf6', '#3b82f6'];
+        const data = labels.map(l => (s[l] || {}).count || 0);
+        const total = run.total || 1;
+        const pct = Math.round((run.passed / total) * 100);
+
+        const wrap = document.createElement('div');
+        wrap.style.cssText = 'background:var(--surface);border:1px solid var(--border);border-radius:var(--radius);padding:16px';
+        wrap.innerHTML = `
+          <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:12px">
+            <span style="font-weight:600;font-size:13px">${esc(config)}</span>
+            <span style="font-size:12px;color:var(--muted)">${pct}% passed</span>
+          </div>
+          <canvas id="chart-run-${run.id}" height="160"></canvas>`;
+        grid.appendChild(wrap);
+
+        const ctx = document.getElementById(`chart-run-${run.id}`).getContext('2d');
+        _milestoneCharts.push(new Chart(ctx, {
+          type: 'bar',
+          data: {
+            labels,
+            datasets: [{ data, backgroundColor: colors, borderRadius: 4, borderSkipped: false }]
+          },
+          options: {
+            responsive: true,
+            plugins: { legend: { display: false }, tooltip: { callbacks: {
+              label: ctx => ` ${ctx.raw} cases`
+            }}},
+            scales: {
+              x: { ticks: { color: '#6b7280', font: { size: 11 } }, grid: { display: false } },
+              y: { ticks: { color: '#6b7280', font: { size: 11 }, precision: 0 }, grid: { color: '#2a2d3d' } }
+            }
+          }
+        }));
+      });
+    }
+
+    function renderAccordionItems(runs, accordion) {
+      accordion.innerHTML = runs.map((run, idx) => {
       const cases = run.cases || [];
       const counts = {};
       for (const c of cases) counts[c.statusId] = (counts[c.statusId] || 0) + 1;
@@ -457,16 +551,17 @@
         </div>
         <div class="accordion-body">${bodyContent}</div>
       </div>`;
-    }).join('');
+      }).join('');
 
-    accordion.querySelectorAll('.accordion-header').forEach(header => {
-      header.addEventListener('click', () => {
-        const item = header.closest('.accordion-item');
-        const isOpen = item.classList.contains('open');
-        accordion.querySelectorAll('.accordion-item.open').forEach(el => el.classList.remove('open'));
-        if (!isOpen) item.classList.add('open');
+      accordion.querySelectorAll('.accordion-header').forEach(header => {
+        header.addEventListener('click', () => {
+          const item = header.closest('.accordion-item');
+          const isOpen = item.classList.contains('open');
+          accordion.querySelectorAll('.accordion-item.open').forEach(el => el.classList.remove('open'));
+          if (!isOpen) item.classList.add('open');
+        });
       });
-    });
+    }
   }
 
   function coverageBar(automated, notAutomated, unclassified, total) {
