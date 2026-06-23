@@ -264,6 +264,14 @@ def main():
             print(f"  Fetching run {rid}…")
             run = normalize_run(get_run(rid))
             run["cases"] = fetch_run_cases(rid)
+            # Recalculate status counts from actual cases (API run-level counts can be stale)
+            from collections import Counter
+            case_counts = Counter(c["status"] for c in run["cases"])
+            for key in ("passed", "failed", "retest", "blocked", "untested", "skipped"):
+                label = key.capitalize()
+                run[key] = case_counts.get(label, 0)
+            for label, entry in run["statusCounts"].items():
+                entry["count"] = case_counts.get(label, 0)
             runs.append(run)
         except requests.HTTPError as e:
             print(f"  ⚠  Run {rid}: {e} — skipping")
