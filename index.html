@@ -456,20 +456,19 @@
         grid.appendChild(wrap);
 
         const ctx = document.getElementById(`chart-run-${run.id}`).getContext('2d');
+        const nonZero = data.some(v => v > 0);
         _milestoneCharts.push(new Chart(ctx, {
-          type: 'bar',
+          type: 'doughnut',
           data: {
             labels,
-            datasets: [{ data, backgroundColor: colors, borderRadius: 4, borderSkipped: false }]
+            datasets: [{ data: nonZero ? data : [1], backgroundColor: nonZero ? colors : ['#2a2d3d'], borderWidth: 0 }]
           },
           options: {
             responsive: true,
-            plugins: { legend: { display: false }, tooltip: { callbacks: {
-              label: ctx => ` ${ctx.raw} cases`
-            }}},
-            scales: {
-              x: { ticks: { color: '#6b7280', font: { size: 11 } }, grid: { display: false } },
-              y: { ticks: { color: '#6b7280', font: { size: 11 }, precision: 0 }, grid: { color: '#2a2d3d' } }
+            cutout: '65%',
+            plugins: {
+              legend: { position: 'bottom', labels: { color: '#6b7280', font: { size: 11 }, boxWidth: 12, padding: 10, filter: (item, chart) => nonZero ? chart.datasets[0].data[item.index] > 0 : true } },
+              tooltip: { callbacks: { label: ctx => nonZero ? ` ${ctx.label}: ${ctx.raw} cases` : ' No results yet' } }
             }
           }
         }));
