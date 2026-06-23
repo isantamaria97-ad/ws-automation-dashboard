@@ -1,0 +1,34 @@
+name: Diagnose Testmo Fields
+on: workflow_dispatch
+jobs:
+  diag:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check raw run and case fields
+        env:
+          TESTMO_API_TOKEN: ${{ secrets.TESTMO_API_TOKEN }}
+        run: |
+          echo "=== RUN 1814 (non-status fields) ==="
+          curl -s -H "Authorization: Bearer $TESTMO_API_TOKEN" \
+            "https://applydigital.testmo.net/api/v1/runs/1814" \
+            | python3 -c "
+          import json,sys
+          d=json.load(sys.stdin)
+          r=d.get('result',d)
+          print(json.dumps({k:v for k,v in r.items() if 'status' not in k}, indent=2))
+          "
+
+          echo "=== CASE 114304 RAW ==="
+          curl -s -H "Authorization: Bearer $TESTMO_API_TOKEN" \
+            "https://applydigital.testmo.net/api/v1/cases/114304" \
+            | python3 -c "import json,sys; d=json.load(sys.stdin); print(json.dumps(d.get('result',d), indent=2))"
+
+          echo "=== PROJECT 44 CASES[0] RAW ==="
+          curl -s -H "Authorization: Bearer $TESTMO_API_TOKEN" \
+            "https://applydigital.testmo.net/api/v1/projects/44/cases?page=1" \
+            | python3 -c "import json,sys; d=json.load(sys.stdin); r=d.get('result',d); print(json.dumps(r[0] if r else {}, indent=2))"
+
+          echo "=== PROJECT 44 TAGS ==="
+          curl -s -H "Authorization: Bearer $TESTMO_API_TOKEN" \
+            "https://applydigital.testmo.net/api/v1/projects/44/tags" \
+            | python3 -c "import json,sys; d=json.load(sys.stdin); print(json.dumps(d, indent=2))" | head -60
