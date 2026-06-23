@@ -1,20 +1,20 @@
 {
-  "lastUpdated": "2026-06-23T17:57:56.634606+00:00",
+  "lastUpdated": "2026-06-23T21:44:06.936863+00:00",
   "jira": {
     "summary": {
-      "total": 251,
+      "total": 252,
       "byStatus": {
+        "En curso": 1,
         "Listo": 9,
-        "IN QA": 1,
+        "Ready to QA": 15,
+        "QA Approved": 17,
         "READY FOR RELEASE": 6,
         "Tech Review": 5,
         "Backlog": 7,
-        "QA Approved": 16,
-        "PENDING DEV DEPLOY": 16,
         "Finalizada": 171,
         "Blocked": 3,
+        "PENDING DEV DEPLOY": 3,
         "IN UAT": 6,
-        "Ready to QA": 2,
         "Ready for Refinement": 1,
         "Deprecated": 8
       }
@@ -24,24 +24,218 @@
         "key": "WSC-1354",
         "url": "https://e2x.atlassian.net/browse/WSC-1354",
         "summary": "SHOP PAGES - Local Business schema",
+        "status": "En curso",
+        "statusCategory": "indeterminate",
+        "assignee": "Jair Huaman",
+        "updated": "2026-06-23T21:35:05.081+0100",
+        "priority": "Poco importante",
+        "labels": []
+      },
+      {
+        "key": "WSC-1573",
+        "url": "https://e2x.atlassian.net/browse/WSC-1573",
+        "summary": "Pass browser userAgent to Constructor during SSR",
         "status": "Listo",
         "statusCategory": "new",
         "assignee": "Jair Huaman",
-        "updated": "2026-06-23T18:55:19.589+0100",
+        "updated": "2026-06-23T21:34:47.430+0100",
+        "priority": "Importante",
+        "labels": [
+          "NO_QA_REQUIRED"
+        ]
+      },
+      {
+        "key": "WSC-1403",
+        "url": "https://e2x.atlassian.net/browse/WSC-1403",
+        "summary": "SHOP FINDER - minor restyle",
+        "status": "Ready to QA",
+        "statusCategory": "new",
+        "assignee": "Gerardo Romero",
+        "updated": "2026-06-23T20:40:24.552+0100",
+        "priority": "Poco importante",
+        "labels": [
+          "Needs-QA"
+        ]
+      },
+      {
+        "key": "WSC-1393",
+        "url": "https://e2x.atlassian.net/browse/WSC-1393",
+        "summary": "Navigation banner underlines",
+        "status": "Ready to QA",
+        "statusCategory": "new",
+        "assignee": "Ingrith Santamaria",
+        "updated": "2026-06-23T20:39:15.887+0100",
+        "priority": "Poco importante",
+        "labels": [
+          "Needs-QA"
+        ]
+      },
+      {
+        "key": "WSC-1485",
+        "url": "https://e2x.atlassian.net/browse/WSC-1485",
+        "summary": "CONTENT - CTA GROUP (CallToActionRoundGroup) - remove CTA limit",
+        "status": "Ready to QA",
+        "statusCategory": "new",
+        "assignee": "Ingrith Santamaria",
+        "updated": "2026-06-23T20:37:56.340+0100",
+        "priority": "Poco importante",
+        "labels": [
+          "Needs-QA"
+        ]
+      },
+      {
+        "key": "WSC-1402",
+        "url": "https://e2x.atlassian.net/browse/WSC-1402",
+        "summary": "MAIN BAG - Promo Saving styling amends",
+        "status": "Ready to QA",
+        "statusCategory": "new",
+        "assignee": "Gerardo Romero",
+        "updated": "2026-06-23T20:37:43.650+0100",
+        "priority": "Poco importante",
+        "labels": [
+          "Needs-QA"
+        ]
+      },
+      {
+        "key": "WSC-1495",
+        "url": "https://e2x.atlassian.net/browse/WSC-1495",
+        "summary": "Reimplementation: consolidate coupons to be per value in BC",
+        "status": "Ready to QA",
+        "statusCategory": "new",
+        "assignee": "Gerardo Romero",
+        "updated": "2026-06-23T20:36:24.830+0100",
+        "priority": "Importante",
+        "labels": [
+          "FastFollow",
+          "In-UAT",
+          "Needs-QA"
+        ]
+      },
+      {
+        "key": "WSC-1528",
+        "url": "https://e2x.atlassian.net/browse/WSC-1528",
+        "summary": "CHECKOUT - change product sort order in order summary",
+        "status": "Ready to QA",
+        "statusCategory": "new",
+        "assignee": "Gerardo Romero",
+        "updated": "2026-06-23T20:36:15.555+0100",
+        "priority": "Poco importante",
+        "labels": [
+          "Needs-QA"
+        ]
+      },
+      {
+        "key": "WSC-1529",
+        "url": "https://e2x.atlassian.net/browse/WSC-1529",
+        "summary": "BAG - Currency Guard when changing locales",
+        "status": "Ready to QA",
+        "statusCategory": "new",
+        "assignee": "Gerardo Romero",
+        "updated": "2026-06-23T20:35:55.724+0100",
+        "priority": "Poco importante",
+        "labels": [
+          "Needs-QA"
+        ]
+      },
+      {
+        "key": "WSC-1551",
+        "url": "https://e2x.atlassian.net/browse/WSC-1551",
+        "summary": "CONTENT - PLP Header amends",
+        "status": "Ready to QA",
+        "statusCategory": "new",
+        "assignee": "Gerardo Romero",
+        "updated": "2026-06-23T20:35:44.241+0100",
         "priority": "Poco importante",
         "labels": []
+      },
+      {
+        "key": "WSC-1516",
+        "url": "https://e2x.atlassian.net/browse/WSC-1516",
+        "summary": "PLP - Fix sizes attribute on product card images",
+        "status": "Ready to QA",
+        "statusCategory": "new",
+        "assignee": "Ingrith Santamaria",
+        "updated": "2026-06-23T20:35:11.130+0100",
+        "priority": "Importante",
+        "labels": []
+      },
+      {
+        "key": "WSC-1519",
+        "url": "https://e2x.atlassian.net/browse/WSC-1519",
+        "summary": "PLP - Reduce fallback image src size from w=992 to w=580",
+        "status": "Ready to QA",
+        "statusCategory": "new",
+        "assignee": "Ingrith Santamaria",
+        "updated": "2026-06-23T20:34:55.584+0100",
+        "priority": "Poco importante",
+        "labels": [
+          "Needs-QA"
+        ]
+      },
+      {
+        "key": "WSC-1538",
+        "url": "https://e2x.atlassian.net/browse/WSC-1538",
+        "summary": "SHOP PAGE - minor amendment",
+        "status": "Ready to QA",
+        "statusCategory": "new",
+        "assignee": "Ingrith Santamaria",
+        "updated": "2026-06-23T20:34:36.271+0100",
+        "priority": "Poco importante",
+        "labels": [
+          "Needs-QA"
+        ]
+      },
+      {
+        "key": "WSC-1499",
+        "url": "https://e2x.atlassian.net/browse/WSC-1499",
+        "summary": "CHECKOUT - Amplience - Managing the delivery/collection options",
+        "status": "Ready to QA",
+        "statusCategory": "new",
+        "assignee": "Ingrith Santamaria",
+        "updated": "2026-06-23T20:33:50.443+0100",
+        "priority": "Importante",
+        "labels": [
+          "FastFollow",
+          "Needs-QA"
+        ]
       },
       {
         "key": "WSC-1554",
         "url": "https://e2x.atlassian.net/browse/WSC-1554",
         "summary": "CHECKOUT - add 'locker' as a type for Parcelshop",
-        "status": "IN QA",
+        "status": "QA Approved",
         "statusCategory": "indeterminate",
         "assignee": "Gerardo Romero",
-        "updated": "2026-06-23T18:52:29.217+0100",
+        "updated": "2026-06-23T20:25:59.858+0100",
         "priority": "Poco importante",
         "labels": [
           "Needs-QA"
+        ]
+      },
+      {
+        "key": "WSC-1517",
+        "url": "https://e2x.atlassian.net/browse/WSC-1517",
+        "summary": "PLP - Fix fecth priority \u2014 apply high only to the first product image",
+        "status": "Ready to QA",
+        "statusCategory": "new",
+        "assignee": "Unassigned",
+        "updated": "2026-06-23T20:13:11.066+0100",
+        "priority": "Importante",
+        "labels": [
+          "NO_QA_REQUIRED"
+        ]
+      },
+      {
+        "key": "WSC-1518",
+        "url": "https://e2x.atlassian.net/browse/WSC-1518",
+        "summary": "PLP - Add defer to Constructor.io recommendations script",
+        "status": "Ready to QA",
+        "statusCategory": "new",
+        "assignee": "Unassigned",
+        "updated": "2026-06-23T20:12:41.166+0100",
+        "priority": "Importante",
+        "labels": [
+          "NO_QA_REQUIRED"
         ]
       },
       {
@@ -179,17 +373,6 @@
         "labels": []
       },
       {
-        "key": "WSC-1551",
-        "url": "https://e2x.atlassian.net/browse/WSC-1551",
-        "summary": "CONTENT - PLP Header amends",
-        "status": "PENDING DEV DEPLOY",
-        "statusCategory": "new",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-06-23T15:57:23.711+0100",
-        "priority": "Poco importante",
-        "labels": []
-      },
-      {
         "key": "WSC-1558",
         "url": "https://e2x.atlassian.net/browse/WSC-1558",
         "summary": "CONTENT - SlimBanner amends",
@@ -247,135 +430,6 @@
         ]
       },
       {
-        "key": "WSC-1528",
-        "url": "https://e2x.atlassian.net/browse/WSC-1528",
-        "summary": "CHECKOUT - change product sort order in order summary",
-        "status": "PENDING DEV DEPLOY",
-        "statusCategory": "new",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-06-23T15:25:48.039+0100",
-        "priority": "Poco importante",
-        "labels": [
-          "Needs-QA"
-        ]
-      },
-      {
-        "key": "WSC-1519",
-        "url": "https://e2x.atlassian.net/browse/WSC-1519",
-        "summary": "PLP - Reduce fallback image src size from w=992 to w=580",
-        "status": "PENDING DEV DEPLOY",
-        "statusCategory": "new",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-06-23T15:25:42.572+0100",
-        "priority": "Poco importante",
-        "labels": [
-          "Needs-QA"
-        ]
-      },
-      {
-        "key": "WSC-1518",
-        "url": "https://e2x.atlassian.net/browse/WSC-1518",
-        "summary": "PLP - Add defer to Constructor.io recommendations script",
-        "status": "PENDING DEV DEPLOY",
-        "statusCategory": "new",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-06-23T15:25:36.464+0100",
-        "priority": "Importante",
-        "labels": [
-          "NO_QA_REQUIRED"
-        ]
-      },
-      {
-        "key": "WSC-1517",
-        "url": "https://e2x.atlassian.net/browse/WSC-1517",
-        "summary": "PLP - Fix fecth priority \u2014 apply high only to the first product image",
-        "status": "PENDING DEV DEPLOY",
-        "statusCategory": "new",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-06-23T15:25:30.396+0100",
-        "priority": "Importante",
-        "labels": [
-          "NO_QA_REQUIRED"
-        ]
-      },
-      {
-        "key": "WSC-1516",
-        "url": "https://e2x.atlassian.net/browse/WSC-1516",
-        "summary": "PLP - Fix sizes attribute on product card images",
-        "status": "PENDING DEV DEPLOY",
-        "statusCategory": "new",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-06-23T15:25:25.848+0100",
-        "priority": "Importante",
-        "labels": []
-      },
-      {
-        "key": "WSC-1485",
-        "url": "https://e2x.atlassian.net/browse/WSC-1485",
-        "summary": "CONTENT - CTA GROUP (CallToActionRoundGroup) - remove CTA limit",
-        "status": "PENDING DEV DEPLOY",
-        "statusCategory": "new",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-06-23T15:25:13.113+0100",
-        "priority": "Poco importante",
-        "labels": [
-          "Needs-QA"
-        ]
-      },
-      {
-        "key": "WSC-1529",
-        "url": "https://e2x.atlassian.net/browse/WSC-1529",
-        "summary": "BAG - Currency Guard when changing locales",
-        "status": "PENDING DEV DEPLOY",
-        "statusCategory": "new",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-06-23T15:25:03.470+0100",
-        "priority": "Poco importante",
-        "labels": [
-          "Needs-QA"
-        ]
-      },
-      {
-        "key": "WSC-1499",
-        "url": "https://e2x.atlassian.net/browse/WSC-1499",
-        "summary": "CHECKOUT - Amplience - Managing the delivery/collection options",
-        "status": "PENDING DEV DEPLOY",
-        "statusCategory": "new",
-        "assignee": "Unassigned",
-        "updated": "2026-06-23T15:24:56.465+0100",
-        "priority": "Importante",
-        "labels": [
-          "FastFollow",
-          "Needs-QA"
-        ]
-      },
-      {
-        "key": "WSC-1402",
-        "url": "https://e2x.atlassian.net/browse/WSC-1402",
-        "summary": "MAIN BAG - Promo Saving styling amends",
-        "status": "PENDING DEV DEPLOY",
-        "statusCategory": "new",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-06-23T15:24:35.694+0100",
-        "priority": "Poco importante",
-        "labels": [
-          "Needs-QA"
-        ]
-      },
-      {
-        "key": "WSC-1393",
-        "url": "https://e2x.atlassian.net/browse/WSC-1393",
-        "summary": "Navigation banner underlines",
-        "status": "PENDING DEV DEPLOY",
-        "statusCategory": "new",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-06-23T15:24:26.680+0100",
-        "priority": "Poco importante",
-        "labels": [
-          "Needs-QA"
-        ]
-      },
-      {
         "key": "WSC-1571",
         "url": "https://e2x.atlassian.net/browse/WSC-1571",
         "summary": "PR branch for Logging Apple Pay - Cart Issues",
@@ -409,21 +463,6 @@
         "updated": "2026-06-22T14:56:47.295+0100",
         "priority": "Poco importante",
         "labels": [
-          "Needs-QA"
-        ]
-      },
-      {
-        "key": "WSC-1495",
-        "url": "https://e2x.atlassian.net/browse/WSC-1495",
-        "summary": "Reimplementation: consolidate coupons to be per value in BC",
-        "status": "Ready to QA",
-        "statusCategory": "new",
-        "assignee": "Unassigned",
-        "updated": "2026-06-19T22:18:41.115+0100",
-        "priority": "Importante",
-        "labels": [
-          "FastFollow",
-          "In-UAT",
           "Needs-QA"
         ]
       },
@@ -507,32 +546,6 @@
         "updated": "2026-06-18T20:49:46.873+0100",
         "priority": "Importante",
         "labels": []
-      },
-      {
-        "key": "WSC-1403",
-        "url": "https://e2x.atlassian.net/browse/WSC-1403",
-        "summary": "SHOP FINDER - minor restyle",
-        "status": "PENDING DEV DEPLOY",
-        "statusCategory": "new",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-06-18T20:39:10.917+0100",
-        "priority": "Poco importante",
-        "labels": [
-          "Needs-QA"
-        ]
-      },
-      {
-        "key": "WSC-1538",
-        "url": "https://e2x.atlassian.net/browse/WSC-1538",
-        "summary": "SHOP PAGE - minor amendment",
-        "status": "PENDING DEV DEPLOY",
-        "statusCategory": "new",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-06-18T20:33:23.635+0100",
-        "priority": "Poco importante",
-        "labels": [
-          "Needs-QA"
-        ]
       },
       {
         "key": "WSC-1479",
