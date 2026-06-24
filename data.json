@@ -1,16 +1,16 @@
 {
-  "lastUpdated": "2026-06-24T14:34:27.772402+00:00",
+  "lastUpdated": "2026-06-24T17:55:34.300787+00:00",
   "jira": {
     "summary": {
       "total": 252,
       "byStatus": {
-        "IN QA": 4,
         "En curso": 2,
+        "Tech Review": 6,
+        "IN QA": 3,
+        "QA Approved": 20,
         "READY FOR RELEASE": 6,
-        "Ready to QA": 11,
-        "QA Approved": 17,
-        "Listo": 8,
-        "Tech Review": 5,
+        "Ready to QA": 9,
+        "Listo": 7,
         "Backlog": 7,
         "Finalizada": 171,
         "Blocked": 3,
@@ -22,18 +22,103 @@
     },
     "tickets": [
       {
-        "key": "WSC-1499",
-        "url": "https://e2x.atlassian.net/browse/WSC-1499",
-        "summary": "CHECKOUT - Amplience - Managing the delivery/collection options",
+        "key": "WSC-1573",
+        "url": "https://e2x.atlassian.net/browse/WSC-1573",
+        "summary": "Pass browser userAgent to Constructor during SSR",
+        "status": "En curso",
+        "statusCategory": "indeterminate",
+        "assignee": "Jair Huaman",
+        "updated": "2026-06-24T18:36:37.499+0100",
+        "priority": "Importante",
+        "labels": [
+          "NO_QA_REQUIRED"
+        ]
+      },
+      {
+        "key": "WSC-1354",
+        "url": "https://e2x.atlassian.net/browse/WSC-1354",
+        "summary": "SHOP PAGES - Local Business schema",
+        "status": "Tech Review",
+        "statusCategory": "indeterminate",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-06-24T18:34:17.206+0100",
+        "priority": "Poco importante",
+        "labels": []
+      },
+      {
+        "key": "WSC-1529",
+        "url": "https://e2x.atlassian.net/browse/WSC-1529",
+        "summary": "BAG - Currency Guard when changing locales",
+        "status": "IN QA",
+        "statusCategory": "indeterminate",
+        "assignee": "Gerardo Romero",
+        "updated": "2026-06-24T17:57:50.578+0100",
+        "priority": "Poco importante",
+        "labels": [
+          "Needs-QA"
+        ]
+      },
+      {
+        "key": "WSC-1516",
+        "url": "https://e2x.atlassian.net/browse/WSC-1516",
+        "summary": "PLP - Fix sizes attribute on product card images",
         "status": "IN QA",
         "statusCategory": "indeterminate",
         "assignee": "Ingrith Santamaria",
-        "updated": "2026-06-24T15:28:06.071+0100",
+        "updated": "2026-06-24T17:14:47.602+0100",
+        "priority": "Importante",
+        "labels": []
+      },
+      {
+        "key": "WSC-1499",
+        "url": "https://e2x.atlassian.net/browse/WSC-1499",
+        "summary": "CHECKOUT - Amplience - Managing the delivery/collection options",
+        "status": "QA Approved",
+        "statusCategory": "indeterminate",
+        "assignee": "Ingrith Santamaria",
+        "updated": "2026-06-24T17:14:23.278+0100",
         "priority": "Importante",
         "labels": [
           "FastFollow",
           "Needs-QA"
         ]
+      },
+      {
+        "key": "WSC-1528",
+        "url": "https://e2x.atlassian.net/browse/WSC-1528",
+        "summary": "CHECKOUT - change product sort order in order summary",
+        "status": "QA Approved",
+        "statusCategory": "indeterminate",
+        "assignee": "Gerardo Romero",
+        "updated": "2026-06-24T17:04:47.802+0100",
+        "priority": "Poco importante",
+        "labels": [
+          "Needs-QA"
+        ]
+      },
+      {
+        "key": "WSC-1538",
+        "url": "https://e2x.atlassian.net/browse/WSC-1538",
+        "summary": "SHOP PAGE - minor amendment",
+        "status": "QA Approved",
+        "statusCategory": "indeterminate",
+        "assignee": "Ingrith Santamaria",
+        "updated": "2026-06-24T16:55:15.556+0100",
+        "priority": "Poco importante",
+        "labels": [
+          "Needs-QA"
+        ]
+      },
+      {
+        "key": "WSC-1556",
+        "url": "https://e2x.atlassian.net/browse/WSC-1556",
+        "summary": "PDP - toggle amendment",
+        "status": "En curso",
+        "statusCategory": "indeterminate",
+        "assignee": "Alexander Talavera",
+        "updated": "2026-06-24T15:58:11.557+0100",
+        "priority": "Importante",
+        "labels": []
       },
       {
         "key": "WSC-1403",
@@ -47,41 +132,6 @@
         "labels": [
           "Needs-QA"
         ]
-      },
-      {
-        "key": "WSC-1528",
-        "url": "https://e2x.atlassian.net/browse/WSC-1528",
-        "summary": "CHECKOUT - change product sort order in order summary",
-        "status": "IN QA",
-        "statusCategory": "indeterminate",
-        "assignee": "Gerardo Romero",
-        "updated": "2026-06-24T15:07:42.988+0100",
-        "priority": "Poco importante",
-        "labels": [
-          "Needs-QA"
-        ]
-      },
-      {
-        "key": "WSC-1556",
-        "url": "https://e2x.atlassian.net/browse/WSC-1556",
-        "summary": "PDP - toggle amendment",
-        "status": "En curso",
-        "statusCategory": "indeterminate",
-        "assignee": "Alexander Talavera",
-        "updated": "2026-06-24T14:42:55.894+0100",
-        "priority": "Importante",
-        "labels": []
-      },
-      {
-        "key": "WSC-1354",
-        "url": "https://e2x.atlassian.net/browse/WSC-1354",
-        "summary": "SHOP PAGES - Local Business schema",
-        "status": "En curso",
-        "statusCategory": "indeterminate",
-        "assignee": "Jair Huaman",
-        "updated": "2026-06-24T14:31:42.567+0100",
-        "priority": "Poco importante",
-        "labels": []
       },
       {
         "key": "WSC-1230",
@@ -104,19 +154,6 @@
         "updated": "2026-06-24T13:20:45.186+0100",
         "priority": "Importante",
         "labels": []
-      },
-      {
-        "key": "WSC-1538",
-        "url": "https://e2x.atlassian.net/browse/WSC-1538",
-        "summary": "SHOP PAGE - minor amendment",
-        "status": "IN QA",
-        "statusCategory": "indeterminate",
-        "assignee": "Ingrith Santamaria",
-        "updated": "2026-06-24T13:11:23.651+0100",
-        "priority": "Poco importante",
-        "labels": [
-          "Needs-QA"
-        ]
       },
       {
         "key": "WSC-1550",
@@ -171,30 +208,6 @@
         ]
       },
       {
-        "key": "WSC-1516",
-        "url": "https://e2x.atlassian.net/browse/WSC-1516",
-        "summary": "PLP - Fix sizes attribute on product card images",
-        "status": "Ready to QA",
-        "statusCategory": "new",
-        "assignee": "Ingrith Santamaria",
-        "updated": "2026-06-24T12:11:21.483+0100",
-        "priority": "Importante",
-        "labels": []
-      },
-      {
-        "key": "WSC-1573",
-        "url": "https://e2x.atlassian.net/browse/WSC-1573",
-        "summary": "Pass browser userAgent to Constructor during SSR",
-        "status": "Listo",
-        "statusCategory": "new",
-        "assignee": "Jair Huaman",
-        "updated": "2026-06-23T21:34:47.430+0100",
-        "priority": "Importante",
-        "labels": [
-          "NO_QA_REQUIRED"
-        ]
-      },
-      {
         "key": "WSC-1402",
         "url": "https://e2x.atlassian.net/browse/WSC-1402",
         "summary": "MAIN BAG - Promo Saving styling amends",
@@ -219,19 +232,6 @@
         "labels": [
           "FastFollow",
           "In-UAT",
-          "Needs-QA"
-        ]
-      },
-      {
-        "key": "WSC-1529",
-        "url": "https://e2x.atlassian.net/browse/WSC-1529",
-        "summary": "BAG - Currency Guard when changing locales",
-        "status": "Ready to QA",
-        "statusCategory": "new",
-        "assignee": "Gerardo Romero",
-        "updated": "2026-06-23T20:35:55.724+0100",
-        "priority": "Poco importante",
-        "labels": [
           "Needs-QA"
         ]
       },
@@ -3131,8 +3131,8 @@
       "scopeFolderName": "Regression"
     },
     "coverage": {
-      "total": 65,
-      "automated": 65,
+      "total": 66,
+      "automated": 66,
       "notAutomated": 0,
       "unclassified": 0,
       "automatedPct": 100.0,
@@ -3175,6 +3175,15 @@
         },
         {
           "folderId": null,
+          "name": "Other",
+          "group": "Components",
+          "automated": 3,
+          "notAutomated": 0,
+          "unclassified": 0,
+          "total": 3
+        },
+        {
+          "folderId": null,
           "name": "Account",
           "group": "Components",
           "automated": 3,
@@ -3185,15 +3194,6 @@
         {
           "folderId": null,
           "name": "PLP",
-          "group": "Components",
-          "automated": 2,
-          "notAutomated": 0,
-          "unclassified": 0,
-          "total": 2
-        },
-        {
-          "folderId": null,
-          "name": "Other",
           "group": "Components",
           "automated": 2,
           "notAutomated": 0,
@@ -3403,6 +3403,14 @@
       ]
     },
     "cases": [
+      {
+        "id": 122710,
+        "name": "Verify Order Summary Items Are Sorted With Newest Added Item First",
+        "folderId": 20991,
+        "folderPath": "Regression",
+        "bucket": "automated",
+        "priority": 2
+      },
       {
         "id": 122037,
         "name": "Verify Percent Coupon Reduces Order Total In Checkout Order Summary (UK)",
