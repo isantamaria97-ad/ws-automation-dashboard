@@ -1,18 +1,18 @@
 {
-  "lastUpdated": "2026-06-25T14:35:55.462252+00:00",
+  "lastUpdated": "2026-06-25T18:11:14.475042+00:00",
   "jira": {
     "summary": {
       "total": 254,
       "byStatus": {
-        "Listo": 9,
+        "Ready to QA": 9,
         "Finalizada": 197,
+        "IN QA": 3,
+        "Blocked": 4,
+        "QA Approved": 8,
+        "Listo": 8,
         "Tech Review": 3,
-        "IN QA": 4,
         "En curso": 1,
-        "Ready to QA": 10,
-        "QA Approved": 6,
         "Backlog": 7,
-        "Blocked": 3,
         "PENDING DEV DEPLOY": 3,
         "IN UAT": 1,
         "Ready for Refinement": 1,
@@ -25,14 +25,136 @@
         "key": "WSC-1569",
         "url": "https://e2x.atlassian.net/browse/WSC-1569",
         "summary": "CHECKOUT - delivery/collection option gets reset",
-        "status": "Listo",
+        "status": "Ready to QA",
         "statusCategory": "new",
-        "assignee": "Jair Huaman",
-        "updated": "2026-06-25T15:30:15.415+0100",
+        "assignee": "Unassigned",
+        "updated": "2026-06-25T18:30:36.947+0100",
         "priority": "Cr\u00edtica",
         "labels": [
           "Needs-QA"
         ]
+      },
+      {
+        "key": "WSC-1465",
+        "url": "https://e2x.atlassian.net/browse/WSC-1465",
+        "summary": "CONSTRUCTOR (2/2) - gaps in personalisation data",
+        "status": "Finalizada",
+        "statusCategory": "done",
+        "assignee": "Stuart Young",
+        "updated": "2026-06-25T18:28:43.044+0100",
+        "priority": "Importante",
+        "labels": []
+      },
+      {
+        "key": "WSC-1230",
+        "url": "https://e2x.atlassian.net/browse/WSC-1230",
+        "summary": "INP Opt: Enhance INP Attribution & RUM Monitoring",
+        "status": "Finalizada",
+        "statusCategory": "done",
+        "assignee": "Unassigned",
+        "updated": "2026-06-25T17:51:52.084+0100",
+        "priority": "Importante",
+        "labels": []
+      },
+      {
+        "key": "WSC-1495",
+        "url": "https://e2x.atlassian.net/browse/WSC-1495",
+        "summary": "Reimplementation: consolidate coupons to be per value in BC",
+        "status": "IN QA",
+        "statusCategory": "indeterminate",
+        "assignee": "Gerardo Romero",
+        "updated": "2026-06-25T17:41:21.673+0100",
+        "priority": "Importante",
+        "labels": [
+          "FastFollow",
+          "In-UAT",
+          "Needs-QA"
+        ]
+      },
+      {
+        "key": "WSC-1529",
+        "url": "https://e2x.atlassian.net/browse/WSC-1529",
+        "summary": "BAG - Currency Guard when changing locales",
+        "status": "Blocked",
+        "statusCategory": "new",
+        "assignee": "Gerardo Romero",
+        "updated": "2026-06-25T17:40:54.304+0100",
+        "priority": "Poco importante",
+        "labels": [
+          "Needs-QA"
+        ]
+      },
+      {
+        "key": "WSC-1485",
+        "url": "https://e2x.atlassian.net/browse/WSC-1485",
+        "summary": "CONTENT - CTA GROUP (CallToActionRoundGroup) - remove CTA limit",
+        "status": "IN QA",
+        "statusCategory": "indeterminate",
+        "assignee": "Ingrith Santamaria",
+        "updated": "2026-06-25T17:20:32.471+0100",
+        "priority": "Poco importante",
+        "labels": [
+          "Needs-QA"
+        ]
+      },
+      {
+        "key": "WSC-1558",
+        "url": "https://e2x.atlassian.net/browse/WSC-1558",
+        "summary": "CONTENT - SlimBanner amends",
+        "status": "Ready to QA",
+        "statusCategory": "new",
+        "assignee": "Ingrith Santamaria",
+        "updated": "2026-06-25T16:29:04.497+0100",
+        "priority": "Importante",
+        "labels": []
+      },
+      {
+        "key": "WSC-1559",
+        "url": "https://e2x.atlassian.net/browse/WSC-1559",
+        "summary": "CONTENT - SlimBanner amends 2",
+        "status": "Ready to QA",
+        "statusCategory": "new",
+        "assignee": "Ingrith Santamaria",
+        "updated": "2026-06-25T16:28:53.079+0100",
+        "priority": "Importante",
+        "labels": []
+      },
+      {
+        "key": "WSC-1393",
+        "url": "https://e2x.atlassian.net/browse/WSC-1393",
+        "summary": "Navigation banner underlines",
+        "status": "QA Approved",
+        "statusCategory": "indeterminate",
+        "assignee": "Ingrith Santamaria",
+        "updated": "2026-06-25T16:27:07.772+0100",
+        "priority": "Poco importante",
+        "labels": [
+          "Needs-QA"
+        ]
+      },
+      {
+        "key": "WSC-1519",
+        "url": "https://e2x.atlassian.net/browse/WSC-1519",
+        "summary": "PLP - Reduce fallback image src size from w=992 to w=580",
+        "status": "QA Approved",
+        "statusCategory": "indeterminate",
+        "assignee": "Ingrith Santamaria",
+        "updated": "2026-06-25T16:00:03.235+0100",
+        "priority": "Poco importante",
+        "labels": [
+          "Needs-QA"
+        ]
+      },
+      {
+        "key": "WSC-1522",
+        "url": "https://e2x.atlassian.net/browse/WSC-1522",
+        "summary": "CONTENT - Personalisation",
+        "status": "Listo",
+        "statusCategory": "new",
+        "assignee": "Unassigned",
+        "updated": "2026-06-25T15:44:46.686+0100",
+        "priority": "Importante",
+        "labels": []
       },
       {
         "key": "WSC-1226",
@@ -81,17 +203,6 @@
         "labels": []
       },
       {
-        "key": "WSC-1230",
-        "url": "https://e2x.atlassian.net/browse/WSC-1230",
-        "summary": "INP Opt: Enhance INP Attribution & RUM Monitoring",
-        "status": "Finalizada",
-        "statusCategory": "done",
-        "assignee": "Unassigned",
-        "updated": "2026-06-25T15:22:43.314+0100",
-        "priority": "Importante",
-        "labels": []
-      },
-      {
         "key": "WSC-1278",
         "url": "https://e2x.atlassian.net/browse/WSC-1278",
         "summary": "CONTENT - new slim banner",
@@ -103,17 +214,6 @@
         "labels": [
           "Needs-QA"
         ]
-      },
-      {
-        "key": "WSC-1465",
-        "url": "https://e2x.atlassian.net/browse/WSC-1465",
-        "summary": "CONSTRUCTOR (2/2) - gaps in personalisation data",
-        "status": "Finalizada",
-        "statusCategory": "done",
-        "assignee": "Stuart Young",
-        "updated": "2026-06-25T15:22:40.869+0100",
-        "priority": "Importante",
-        "labels": []
       },
       {
         "key": "WSC-1466",
@@ -401,43 +501,6 @@
         "labels": []
       },
       {
-        "key": "WSC-1522",
-        "url": "https://e2x.atlassian.net/browse/WSC-1522",
-        "summary": "CONTENT - Personalisation",
-        "status": "Listo",
-        "statusCategory": "new",
-        "assignee": "Unassigned",
-        "updated": "2026-06-25T14:12:14.715+0100",
-        "priority": "Importante",
-        "labels": []
-      },
-      {
-        "key": "WSC-1393",
-        "url": "https://e2x.atlassian.net/browse/WSC-1393",
-        "summary": "Navigation banner underlines",
-        "status": "IN QA",
-        "statusCategory": "indeterminate",
-        "assignee": "Ingrith Santamaria",
-        "updated": "2026-06-25T14:11:07.274+0100",
-        "priority": "Poco importante",
-        "labels": [
-          "Needs-QA"
-        ]
-      },
-      {
-        "key": "WSC-1519",
-        "url": "https://e2x.atlassian.net/browse/WSC-1519",
-        "summary": "PLP - Reduce fallback image src size from w=992 to w=580",
-        "status": "IN QA",
-        "statusCategory": "indeterminate",
-        "assignee": "Ingrith Santamaria",
-        "updated": "2026-06-25T14:10:59.207+0100",
-        "priority": "Poco importante",
-        "labels": [
-          "Needs-QA"
-        ]
-      },
-      {
         "key": "WSC-1564",
         "url": "https://e2x.atlassian.net/browse/WSC-1564",
         "summary": "PLP - remove review stars div",
@@ -513,28 +576,6 @@
         "labels": []
       },
       {
-        "key": "WSC-1559",
-        "url": "https://e2x.atlassian.net/browse/WSC-1559",
-        "summary": "CONTENT - SlimBanner amends 2",
-        "status": "Ready to QA",
-        "statusCategory": "new",
-        "assignee": "Unassigned",
-        "updated": "2026-06-24T20:02:50.593+0100",
-        "priority": "Importante",
-        "labels": []
-      },
-      {
-        "key": "WSC-1558",
-        "url": "https://e2x.atlassian.net/browse/WSC-1558",
-        "summary": "CONTENT - SlimBanner amends",
-        "status": "Ready to QA",
-        "statusCategory": "new",
-        "assignee": "Unassigned",
-        "updated": "2026-06-24T20:00:30.755+0100",
-        "priority": "Importante",
-        "labels": []
-      },
-      {
         "key": "WSC-1383",
         "url": "https://e2x.atlassian.net/browse/WSC-1383",
         "summary": "PDP - make 'Details/Returns/Delivery' accessible to search engines/LLMs",
@@ -544,19 +585,6 @@
         "updated": "2026-06-24T19:58:20.878+0100",
         "priority": "Poco importante",
         "labels": []
-      },
-      {
-        "key": "WSC-1529",
-        "url": "https://e2x.atlassian.net/browse/WSC-1529",
-        "summary": "BAG - Currency Guard when changing locales",
-        "status": "IN QA",
-        "statusCategory": "indeterminate",
-        "assignee": "Gerardo Romero",
-        "updated": "2026-06-24T17:57:50.578+0100",
-        "priority": "Poco importante",
-        "labels": [
-          "Needs-QA"
-        ]
       },
       {
         "key": "WSC-1528",
@@ -598,19 +626,6 @@
         ]
       },
       {
-        "key": "WSC-1485",
-        "url": "https://e2x.atlassian.net/browse/WSC-1485",
-        "summary": "CONTENT - CTA GROUP (CallToActionRoundGroup) - remove CTA limit",
-        "status": "Ready to QA",
-        "statusCategory": "new",
-        "assignee": "Ingrith Santamaria",
-        "updated": "2026-06-24T12:13:02.653+0100",
-        "priority": "Poco importante",
-        "labels": [
-          "Needs-QA"
-        ]
-      },
-      {
         "key": "WSC-1402",
         "url": "https://e2x.atlassian.net/browse/WSC-1402",
         "summary": "MAIN BAG - Promo Saving styling amends",
@@ -620,21 +635,6 @@
         "updated": "2026-06-23T20:37:43.650+0100",
         "priority": "Poco importante",
         "labels": [
-          "Needs-QA"
-        ]
-      },
-      {
-        "key": "WSC-1495",
-        "url": "https://e2x.atlassian.net/browse/WSC-1495",
-        "summary": "Reimplementation: consolidate coupons to be per value in BC",
-        "status": "Ready to QA",
-        "statusCategory": "new",
-        "assignee": "Gerardo Romero",
-        "updated": "2026-06-23T20:36:24.830+0100",
-        "priority": "Importante",
-        "labels": [
-          "FastFollow",
-          "In-UAT",
           "Needs-QA"
         ]
       },
