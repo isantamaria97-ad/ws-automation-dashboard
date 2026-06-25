@@ -1,26 +1,442 @@
 {
-  "lastUpdated": "2026-06-25T10:44:01.066409+00:00",
+  "lastUpdated": "2026-06-25T14:35:55.462252+00:00",
   "jira": {
     "summary": {
-      "total": 252,
+      "total": 254,
       "byStatus": {
-        "En curso": 2,
+        "Listo": 9,
+        "Finalizada": 197,
         "Tech Review": 3,
-        "QA Approved": 21,
-        "Ready to QA": 12,
-        "IN QA": 2,
-        "READY FOR RELEASE": 6,
-        "Listo": 7,
+        "IN QA": 4,
+        "En curso": 1,
+        "Ready to QA": 10,
+        "QA Approved": 6,
         "Backlog": 7,
-        "Finalizada": 171,
         "Blocked": 3,
         "PENDING DEV DEPLOY": 3,
-        "IN UAT": 6,
+        "IN UAT": 1,
         "Ready for Refinement": 1,
+        "READY FOR RELEASE": 1,
         "Deprecated": 8
       }
     },
     "tickets": [
+      {
+        "key": "WSC-1569",
+        "url": "https://e2x.atlassian.net/browse/WSC-1569",
+        "summary": "CHECKOUT - delivery/collection option gets reset",
+        "status": "Listo",
+        "statusCategory": "new",
+        "assignee": "Jair Huaman",
+        "updated": "2026-06-25T15:30:15.415+0100",
+        "priority": "Cr\u00edtica",
+        "labels": [
+          "Needs-QA"
+        ]
+      },
+      {
+        "key": "WSC-1226",
+        "url": "https://e2x.atlassian.net/browse/WSC-1226",
+        "summary": "INP Opt: Code Splitting & Component Lazy Loading",
+        "status": "Finalizada",
+        "statusCategory": "done",
+        "assignee": "Unassigned",
+        "updated": "2026-06-25T15:22:46.884+0100",
+        "priority": "Importante",
+        "labels": []
+      },
+      {
+        "key": "WSC-1227",
+        "url": "https://e2x.atlassian.net/browse/WSC-1227",
+        "summary": "INP Opt: Defer & Lazy Load Third-Party Scripts",
+        "status": "Finalizada",
+        "statusCategory": "done",
+        "assignee": "Gerardo Romero",
+        "updated": "2026-06-25T15:22:46.195+0100",
+        "priority": "Importante",
+        "labels": []
+      },
+      {
+        "key": "WSC-1228",
+        "url": "https://e2x.atlassian.net/browse/WSC-1228",
+        "summary": "INP Opt: Optimize Event Handlers & Layout Thrashing",
+        "status": "Finalizada",
+        "statusCategory": "done",
+        "assignee": "Alexander Talavera",
+        "updated": "2026-06-25T15:22:45.406+0100",
+        "priority": "Importante",
+        "labels": [
+          "NO_QA_REQUIRED"
+        ]
+      },
+      {
+        "key": "WSC-1229",
+        "url": "https://e2x.atlassian.net/browse/WSC-1229",
+        "summary": "INP Opt: Reactivity Audit & Watcher Optimization",
+        "status": "Finalizada",
+        "statusCategory": "done",
+        "assignee": "Unassigned",
+        "updated": "2026-06-25T15:22:44.432+0100",
+        "priority": "Importante",
+        "labels": []
+      },
+      {
+        "key": "WSC-1230",
+        "url": "https://e2x.atlassian.net/browse/WSC-1230",
+        "summary": "INP Opt: Enhance INP Attribution & RUM Monitoring",
+        "status": "Finalizada",
+        "statusCategory": "done",
+        "assignee": "Unassigned",
+        "updated": "2026-06-25T15:22:43.314+0100",
+        "priority": "Importante",
+        "labels": []
+      },
+      {
+        "key": "WSC-1278",
+        "url": "https://e2x.atlassian.net/browse/WSC-1278",
+        "summary": "CONTENT - new slim banner",
+        "status": "Finalizada",
+        "statusCategory": "done",
+        "assignee": "Ingrith Santamaria",
+        "updated": "2026-06-25T15:22:41.883+0100",
+        "priority": "Importante",
+        "labels": [
+          "Needs-QA"
+        ]
+      },
+      {
+        "key": "WSC-1465",
+        "url": "https://e2x.atlassian.net/browse/WSC-1465",
+        "summary": "CONSTRUCTOR (2/2) - gaps in personalisation data",
+        "status": "Finalizada",
+        "statusCategory": "done",
+        "assignee": "Stuart Young",
+        "updated": "2026-06-25T15:22:40.869+0100",
+        "priority": "Importante",
+        "labels": []
+      },
+      {
+        "key": "WSC-1466",
+        "url": "https://e2x.atlassian.net/browse/WSC-1466",
+        "summary": "BAG/MINI-BAG - isolating OOS products",
+        "status": "Finalizada",
+        "statusCategory": "done",
+        "assignee": "Unassigned",
+        "updated": "2026-06-25T15:22:39.739+0100",
+        "priority": "Importante",
+        "labels": []
+      },
+      {
+        "key": "WSC-1471",
+        "url": "https://e2x.atlassian.net/browse/WSC-1471",
+        "summary": "PDP PERFORMANCE - API calls to be made in parallel",
+        "status": "Finalizada",
+        "statusCategory": "done",
+        "assignee": "Unassigned",
+        "updated": "2026-06-25T15:22:38.705+0100",
+        "priority": "Importante",
+        "labels": []
+      },
+      {
+        "key": "WSC-1473",
+        "url": "https://e2x.atlassian.net/browse/WSC-1473",
+        "summary": "PDP PERFORMANCE - Move to a Non-Blocking Deferred Fetch",
+        "status": "Finalizada",
+        "statusCategory": "done",
+        "assignee": "Unassigned",
+        "updated": "2026-06-25T15:22:37.817+0100",
+        "priority": "Importante",
+        "labels": []
+      },
+      {
+        "key": "WSC-1474",
+        "url": "https://e2x.atlassian.net/browse/WSC-1474",
+        "summary": "PDP PERFORMANCE - Stylitics Watcher",
+        "status": "Finalizada",
+        "statusCategory": "done",
+        "assignee": "Unassigned",
+        "updated": "2026-06-25T15:22:36.751+0100",
+        "priority": "Importante",
+        "labels": []
+      },
+      {
+        "key": "WSC-1475",
+        "url": "https://e2x.atlassian.net/browse/WSC-1475",
+        "summary": "PDP PERFORMANCE - Add Debouncing to Colour Change Refetches",
+        "status": "Finalizada",
+        "statusCategory": "done",
+        "assignee": "Gerardo Romero",
+        "updated": "2026-06-25T15:22:35.697+0100",
+        "priority": "Poco importante",
+        "labels": []
+      },
+      {
+        "key": "WSC-1476",
+        "url": "https://e2x.atlassian.net/browse/WSC-1476",
+        "summary": "PDP PERFORMANCE - Audit useAsync Cache Keys for Correctness",
+        "status": "Finalizada",
+        "statusCategory": "done",
+        "assignee": "Unassigned",
+        "updated": "2026-06-25T15:22:34.744+0100",
+        "priority": "Poco importante",
+        "labels": [
+          "FastFollow"
+        ]
+      },
+      {
+        "key": "WSC-1479",
+        "url": "https://e2x.atlassian.net/browse/WSC-1479",
+        "summary": "Resource Discovery & CSP Audit",
+        "status": "Finalizada",
+        "statusCategory": "done",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-06-25T15:22:33.974+0100",
+        "priority": "Not Set",
+        "labels": [
+          "CSP",
+          "NO_QA_REQUIRED"
+        ]
+      },
+      {
+        "key": "WSC-1492",
+        "url": "https://e2x.atlassian.net/browse/WSC-1492",
+        "summary": "Harden VSF middleware API endpoints against automated abuse",
+        "status": "Finalizada",
+        "statusCategory": "done",
+        "assignee": "Unassigned",
+        "updated": "2026-06-25T15:22:32.605+0100",
+        "priority": "Importante",
+        "labels": [
+          "NO_QA_REQUIRED"
+        ]
+      },
+      {
+        "key": "WSC-1494",
+        "url": "https://e2x.atlassian.net/browse/WSC-1494",
+        "summary": "[Automation] Enable Regression test suite to run against UAT",
+        "status": "Finalizada",
+        "statusCategory": "done",
+        "assignee": "Gerardo Romero",
+        "updated": "2026-06-25T15:22:31.543+0100",
+        "priority": "Not Set",
+        "labels": []
+      },
+      {
+        "key": "WSC-1498",
+        "url": "https://e2x.atlassian.net/browse/WSC-1498",
+        "summary": "PDP PERFORMANCE - Only QA",
+        "status": "Finalizada",
+        "statusCategory": "done",
+        "assignee": "Gerardo Romero",
+        "updated": "2026-06-25T15:22:30.602+0100",
+        "priority": "Not Set",
+        "labels": [
+          "FastFollow"
+        ]
+      },
+      {
+        "key": "WSC-1506",
+        "url": "https://e2x.atlassian.net/browse/WSC-1506",
+        "summary": "[Automation] Review and Fix of @regressionUat Playwright Test Subset for Release 10.0",
+        "status": "Finalizada",
+        "statusCategory": "done",
+        "assignee": "Gerardo Romero",
+        "updated": "2026-06-25T15:22:29.872+0100",
+        "priority": "Not Set",
+        "labels": []
+      },
+      {
+        "key": "WSC-1524",
+        "url": "https://e2x.atlassian.net/browse/WSC-1524",
+        "summary": "SECURITY - limit character types that can be entered (VSF)",
+        "status": "Finalizada",
+        "statusCategory": "done",
+        "assignee": "Gerardo Romero",
+        "updated": "2026-06-25T15:22:29.052+0100",
+        "priority": "Importante",
+        "labels": []
+      },
+      {
+        "key": "WSC-1526",
+        "url": "https://e2x.atlassian.net/browse/WSC-1526",
+        "summary": "SECURITY - limit character types that can be entered (Checkout)",
+        "status": "Finalizada",
+        "statusCategory": "done",
+        "assignee": "Gerardo Romero",
+        "updated": "2026-06-25T15:22:28.103+0100",
+        "priority": "Importante",
+        "labels": []
+      },
+      {
+        "key": "WSC-1531",
+        "url": "https://e2x.atlassian.net/browse/WSC-1531",
+        "summary": "INP Opt: Only QA: Performance Validation after Implementation",
+        "status": "Finalizada",
+        "statusCategory": "done",
+        "assignee": "Gerardo Romero",
+        "updated": "2026-06-25T15:22:27.018+0100",
+        "priority": "Poco importante",
+        "labels": [
+          "Needs-QA"
+        ]
+      },
+      {
+        "key": "WSC-1535",
+        "url": "https://e2x.atlassian.net/browse/WSC-1535",
+        "summary": "PLP - re-alignment 1 of 3 (details)",
+        "status": "Finalizada",
+        "statusCategory": "done",
+        "assignee": "Jair Huaman",
+        "updated": "2026-06-25T15:22:25.937+0100",
+        "priority": "Importante",
+        "labels": [
+          "Needs-QA"
+        ]
+      },
+      {
+        "key": "WSC-1536",
+        "url": "https://e2x.atlassian.net/browse/WSC-1536",
+        "summary": "PLP - re-alignment 2 of 3 (header)",
+        "status": "Finalizada",
+        "statusCategory": "done",
+        "assignee": "Ingrith Santamaria",
+        "updated": "2026-06-25T15:22:24.764+0100",
+        "priority": "Importante",
+        "labels": []
+      },
+      {
+        "key": "WSC-1537",
+        "url": "https://e2x.atlassian.net/browse/WSC-1537",
+        "summary": "PLP - re-alignment 3 of 3 (grid)",
+        "status": "Finalizada",
+        "statusCategory": "done",
+        "assignee": "Ingrith Santamaria",
+        "updated": "2026-06-25T15:22:23.288+0100",
+        "priority": "Importante",
+        "labels": []
+      },
+      {
+        "key": "WSC-1546",
+        "url": "https://e2x.atlassian.net/browse/WSC-1546",
+        "summary": "Checkout - Resolve critical and high severity npm vulnerabilities (Snyk)",
+        "status": "Finalizada",
+        "statusCategory": "done",
+        "assignee": "Unassigned",
+        "updated": "2026-06-25T15:22:22.068+0100",
+        "priority": "Not Set",
+        "labels": []
+      },
+      {
+        "key": "WSC-1555",
+        "url": "https://e2x.atlassian.net/browse/WSC-1555",
+        "summary": "BAG - empty bag shows on refresh",
+        "status": "Finalizada",
+        "statusCategory": "done",
+        "assignee": "Gerardo Romero",
+        "updated": "2026-06-25T15:22:20.966+0100",
+        "priority": "Poco importante",
+        "labels": [
+          "Needs-QA"
+        ]
+      },
+      {
+        "key": "WSC-1570",
+        "url": "https://e2x.atlassian.net/browse/WSC-1570",
+        "summary": "[PDP - Mobile] 'Add to bag' button not visible when navigating from PLP ",
+        "status": "Finalizada",
+        "statusCategory": "done",
+        "assignee": "Gerardo Romero",
+        "updated": "2026-06-25T15:22:19.682+0100",
+        "priority": "Not Set",
+        "labels": []
+      },
+      {
+        "key": "WSC-1482",
+        "url": "https://e2x.atlassian.net/browse/WSC-1482",
+        "summary": "CSP Analysis & Policy Refinement",
+        "status": "Listo",
+        "statusCategory": "new",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-06-25T15:11:13.055+0100",
+        "priority": "Cr\u00edtica",
+        "labels": [
+          "CSP",
+          "NO_QA_REQUIRED"
+        ]
+      },
+      {
+        "key": "WSC-1405",
+        "url": "https://e2x.atlassian.net/browse/WSC-1405",
+        "summary": "BAG - savings display and checkout CTA button",
+        "status": "Listo",
+        "statusCategory": "new",
+        "assignee": "Alexander Talavera",
+        "updated": "2026-06-25T15:11:03.583+0100",
+        "priority": "Poco importante",
+        "labels": []
+      },
+      {
+        "key": "WSC-1484",
+        "url": "https://e2x.atlassian.net/browse/WSC-1484",
+        "summary": "CSP Enforcement Rollout & Hardening",
+        "status": "Listo",
+        "statusCategory": "new",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-06-25T15:10:49.774+0100",
+        "priority": "Cr\u00edtica",
+        "labels": [
+          "CSP",
+          "NO_QA_REQUIRED"
+        ]
+      },
+      {
+        "key": "WSC-1556",
+        "url": "https://e2x.atlassian.net/browse/WSC-1556",
+        "summary": "PDP - toggle amendment",
+        "status": "Tech Review",
+        "statusCategory": "indeterminate",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-06-25T14:28:37.086+0100",
+        "priority": "Importante",
+        "labels": []
+      },
+      {
+        "key": "WSC-1522",
+        "url": "https://e2x.atlassian.net/browse/WSC-1522",
+        "summary": "CONTENT - Personalisation",
+        "status": "Listo",
+        "statusCategory": "new",
+        "assignee": "Unassigned",
+        "updated": "2026-06-25T14:12:14.715+0100",
+        "priority": "Importante",
+        "labels": []
+      },
+      {
+        "key": "WSC-1393",
+        "url": "https://e2x.atlassian.net/browse/WSC-1393",
+        "summary": "Navigation banner underlines",
+        "status": "IN QA",
+        "statusCategory": "indeterminate",
+        "assignee": "Ingrith Santamaria",
+        "updated": "2026-06-25T14:11:07.274+0100",
+        "priority": "Poco importante",
+        "labels": [
+          "Needs-QA"
+        ]
+      },
+      {
+        "key": "WSC-1519",
+        "url": "https://e2x.atlassian.net/browse/WSC-1519",
+        "summary": "PLP - Reduce fallback image src size from w=992 to w=580",
+        "status": "IN QA",
+        "statusCategory": "indeterminate",
+        "assignee": "Ingrith Santamaria",
+        "updated": "2026-06-25T14:10:59.207+0100",
+        "priority": "Poco importante",
+        "labels": [
+          "Needs-QA"
+        ]
+      },
       {
         "key": "WSC-1564",
         "url": "https://e2x.atlassian.net/browse/WSC-1564",
@@ -28,11 +444,22 @@
         "status": "En curso",
         "statusCategory": "indeterminate",
         "assignee": "Alexander Talavera",
-        "updated": "2026-06-25T09:41:40.287+0100",
+        "updated": "2026-06-25T14:00:55.634+0100",
         "priority": "Poco importante",
         "labels": [
           "Needs-QA"
         ]
+      },
+      {
+        "key": "WSC-1354",
+        "url": "https://e2x.atlassian.net/browse/WSC-1354",
+        "summary": "SHOP PAGES - Local Business schema",
+        "status": "Ready to QA",
+        "statusCategory": "new",
+        "assignee": "Unassigned",
+        "updated": "2026-06-25T13:46:38.253+0100",
+        "priority": "Poco importante",
+        "labels": []
       },
       {
         "key": "WSC-1573",
@@ -83,17 +510,6 @@
         "assignee": "Ingrith Santamaria",
         "updated": "2026-06-24T21:35:44.572+0100",
         "priority": "Importante",
-        "labels": []
-      },
-      {
-        "key": "WSC-1354",
-        "url": "https://e2x.atlassian.net/browse/WSC-1354",
-        "summary": "SHOP PAGES - Local Business schema",
-        "status": "Tech Review",
-        "statusCategory": "indeterminate",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-06-24T20:11:49.082+0100",
-        "priority": "Poco importante",
         "labels": []
       },
       {
@@ -156,17 +572,6 @@
         ]
       },
       {
-        "key": "WSC-1556",
-        "url": "https://e2x.atlassian.net/browse/WSC-1556",
-        "summary": "PDP - toggle amendment",
-        "status": "En curso",
-        "statusCategory": "indeterminate",
-        "assignee": "Alexander Talavera",
-        "updated": "2026-06-24T15:58:11.557+0100",
-        "priority": "Importante",
-        "labels": []
-      },
-      {
         "key": "WSC-1403",
         "url": "https://e2x.atlassian.net/browse/WSC-1403",
         "summary": "SHOP FINDER - minor restyle",
@@ -178,28 +583,6 @@
         "labels": [
           "Needs-QA"
         ]
-      },
-      {
-        "key": "WSC-1230",
-        "url": "https://e2x.atlassian.net/browse/WSC-1230",
-        "summary": "INP Opt: Enhance INP Attribution & RUM Monitoring",
-        "status": "READY FOR RELEASE",
-        "statusCategory": "new",
-        "assignee": "Unassigned",
-        "updated": "2026-06-24T13:21:47.459+0100",
-        "priority": "Importante",
-        "labels": []
-      },
-      {
-        "key": "WSC-1465",
-        "url": "https://e2x.atlassian.net/browse/WSC-1465",
-        "summary": "CONSTRUCTOR (2/2) - gaps in personalisation data",
-        "status": "Ready to QA",
-        "statusCategory": "new",
-        "assignee": "Stuart Young",
-        "updated": "2026-06-24T13:20:45.186+0100",
-        "priority": "Importante",
-        "labels": []
       },
       {
         "key": "WSC-1550",
@@ -222,32 +605,6 @@
         "statusCategory": "new",
         "assignee": "Ingrith Santamaria",
         "updated": "2026-06-24T12:13:02.653+0100",
-        "priority": "Poco importante",
-        "labels": [
-          "Needs-QA"
-        ]
-      },
-      {
-        "key": "WSC-1393",
-        "url": "https://e2x.atlassian.net/browse/WSC-1393",
-        "summary": "Navigation banner underlines",
-        "status": "Ready to QA",
-        "statusCategory": "new",
-        "assignee": "Ingrith Santamaria",
-        "updated": "2026-06-24T12:12:34.722+0100",
-        "priority": "Poco importante",
-        "labels": [
-          "Needs-QA"
-        ]
-      },
-      {
-        "key": "WSC-1519",
-        "url": "https://e2x.atlassian.net/browse/WSC-1519",
-        "summary": "PLP - Reduce fallback image src size from w=992 to w=580",
-        "status": "Ready to QA",
-        "statusCategory": "new",
-        "assignee": "Ingrith Santamaria",
-        "updated": "2026-06-24T12:11:42.603+0100",
         "priority": "Poco importante",
         "labels": [
           "Needs-QA"
@@ -396,17 +753,6 @@
         ]
       },
       {
-        "key": "WSC-1405",
-        "url": "https://e2x.atlassian.net/browse/WSC-1405",
-        "summary": "BAG - savings display and checkout CTA button",
-        "status": "Listo",
-        "statusCategory": "new",
-        "assignee": "Unassigned",
-        "updated": "2026-06-23T16:11:25.227+0100",
-        "priority": "Poco importante",
-        "labels": []
-      },
-      {
         "key": "WSC-1562",
         "url": "https://e2x.atlassian.net/browse/WSC-1562",
         "summary": "PDP - toggle amendment",
@@ -455,78 +801,6 @@
         ]
       },
       {
-        "key": "WSC-1570",
-        "url": "https://e2x.atlassian.net/browse/WSC-1570",
-        "summary": "[PDP - Mobile] 'Add to bag' button not visible when navigating from PLP ",
-        "status": "QA Approved",
-        "statusCategory": "indeterminate",
-        "assignee": "Gerardo Romero",
-        "updated": "2026-06-22T19:04:29.262+0100",
-        "priority": "Not Set",
-        "labels": []
-      },
-      {
-        "key": "WSC-1555",
-        "url": "https://e2x.atlassian.net/browse/WSC-1555",
-        "summary": "BAG - empty bag shows on refresh",
-        "status": "IN UAT",
-        "statusCategory": "indeterminate",
-        "assignee": "Gerardo Romero",
-        "updated": "2026-06-22T14:56:47.295+0100",
-        "priority": "Poco importante",
-        "labels": [
-          "Needs-QA"
-        ]
-      },
-      {
-        "key": "WSC-1278",
-        "url": "https://e2x.atlassian.net/browse/WSC-1278",
-        "summary": "CONTENT - new slim banner",
-        "status": "IN UAT",
-        "statusCategory": "indeterminate",
-        "assignee": "Ingrith Santamaria",
-        "updated": "2026-06-19T17:27:21.532+0100",
-        "priority": "Importante",
-        "labels": [
-          "Needs-QA"
-        ]
-      },
-      {
-        "key": "WSC-1537",
-        "url": "https://e2x.atlassian.net/browse/WSC-1537",
-        "summary": "PLP - re-alignment 3 of 3 (grid)",
-        "status": "IN UAT",
-        "statusCategory": "indeterminate",
-        "assignee": "Ingrith Santamaria",
-        "updated": "2026-06-19T17:26:32.934+0100",
-        "priority": "Importante",
-        "labels": []
-      },
-      {
-        "key": "WSC-1536",
-        "url": "https://e2x.atlassian.net/browse/WSC-1536",
-        "summary": "PLP - re-alignment 2 of 3 (header)",
-        "status": "IN UAT",
-        "statusCategory": "indeterminate",
-        "assignee": "Ingrith Santamaria",
-        "updated": "2026-06-19T17:26:09.980+0100",
-        "priority": "Importante",
-        "labels": []
-      },
-      {
-        "key": "WSC-1535",
-        "url": "https://e2x.atlassian.net/browse/WSC-1535",
-        "summary": "PLP - re-alignment 1 of 3 (details)",
-        "status": "IN UAT",
-        "statusCategory": "indeterminate",
-        "assignee": "Jair Huaman",
-        "updated": "2026-06-19T17:25:50.845+0100",
-        "priority": "Importante",
-        "labels": [
-          "Needs-QA"
-        ]
-      },
-      {
         "key": "WSC-1530",
         "url": "https://e2x.atlassian.net/browse/WSC-1530",
         "summary": "SPIKE: CONTENTSQUARE (CSQ) - unmasking JS script errors",
@@ -534,17 +808,6 @@
         "statusCategory": "indeterminate",
         "assignee": "enmanuel.ramirez",
         "updated": "2026-06-19T16:19:37.605+0100",
-        "priority": "Importante",
-        "labels": []
-      },
-      {
-        "key": "WSC-1466",
-        "url": "https://e2x.atlassian.net/browse/WSC-1466",
-        "summary": "BAG/MINI-BAG - isolating OOS products",
-        "status": "QA Approved",
-        "statusCategory": "indeterminate",
-        "assignee": "Unassigned",
-        "updated": "2026-06-19T15:57:04.609+0100",
         "priority": "Importante",
         "labels": []
       },
@@ -558,20 +821,6 @@
         "updated": "2026-06-18T20:49:46.873+0100",
         "priority": "Importante",
         "labels": []
-      },
-      {
-        "key": "WSC-1479",
-        "url": "https://e2x.atlassian.net/browse/WSC-1479",
-        "summary": "Resource Discovery & CSP Audit",
-        "status": "Finalizada",
-        "statusCategory": "done",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-06-18T20:23:50.016+0100",
-        "priority": "Not Set",
-        "labels": [
-          "CSP",
-          "NO_QA_REQUIRED"
-        ]
       },
       {
         "key": "WSC-1481",
@@ -612,203 +861,6 @@
           "CSP",
           "NO_QA_REQUIRED"
         ]
-      },
-      {
-        "key": "WSC-1531",
-        "url": "https://e2x.atlassian.net/browse/WSC-1531",
-        "summary": "INP Opt: Only QA: Performance Validation after Implementation",
-        "status": "QA Approved",
-        "statusCategory": "indeterminate",
-        "assignee": "Gerardo Romero",
-        "updated": "2026-06-17T20:11:44.611+0100",
-        "priority": "Poco importante",
-        "labels": [
-          "Needs-QA"
-        ]
-      },
-      {
-        "key": "WSC-1492",
-        "url": "https://e2x.atlassian.net/browse/WSC-1492",
-        "summary": "Harden VSF middleware API endpoints against automated abuse",
-        "status": "READY FOR RELEASE",
-        "statusCategory": "new",
-        "assignee": "Unassigned",
-        "updated": "2026-06-17T17:39:55.614+0100",
-        "priority": "Importante",
-        "labels": [
-          "NO_QA_REQUIRED"
-        ]
-      },
-      {
-        "key": "WSC-1471",
-        "url": "https://e2x.atlassian.net/browse/WSC-1471",
-        "summary": "PDP PERFORMANCE - API calls to be made in parallel",
-        "status": "QA Approved",
-        "statusCategory": "indeterminate",
-        "assignee": "Unassigned",
-        "updated": "2026-06-17T17:39:55.243+0100",
-        "priority": "Importante",
-        "labels": []
-      },
-      {
-        "key": "WSC-1494",
-        "url": "https://e2x.atlassian.net/browse/WSC-1494",
-        "summary": "[Automation] Enable Regression test suite to run against UAT",
-        "status": "QA Approved",
-        "statusCategory": "indeterminate",
-        "assignee": "Gerardo Romero",
-        "updated": "2026-06-17T17:39:54.259+0100",
-        "priority": "Not Set",
-        "labels": []
-      },
-      {
-        "key": "WSC-1473",
-        "url": "https://e2x.atlassian.net/browse/WSC-1473",
-        "summary": "PDP PERFORMANCE - Move to a Non-Blocking Deferred Fetch",
-        "status": "QA Approved",
-        "statusCategory": "indeterminate",
-        "assignee": "Unassigned",
-        "updated": "2026-06-17T17:39:53.848+0100",
-        "priority": "Importante",
-        "labels": []
-      },
-      {
-        "key": "WSC-1474",
-        "url": "https://e2x.atlassian.net/browse/WSC-1474",
-        "summary": "PDP PERFORMANCE - Stylitics Watcher",
-        "status": "QA Approved",
-        "statusCategory": "indeterminate",
-        "assignee": "Unassigned",
-        "updated": "2026-06-17T17:39:53.469+0100",
-        "priority": "Importante",
-        "labels": []
-      },
-      {
-        "key": "WSC-1475",
-        "url": "https://e2x.atlassian.net/browse/WSC-1475",
-        "summary": "PDP PERFORMANCE - Add Debouncing to Colour Change Refetches",
-        "status": "QA Approved",
-        "statusCategory": "indeterminate",
-        "assignee": "Gerardo Romero",
-        "updated": "2026-06-17T17:39:53.098+0100",
-        "priority": "Poco importante",
-        "labels": []
-      },
-      {
-        "key": "WSC-1476",
-        "url": "https://e2x.atlassian.net/browse/WSC-1476",
-        "summary": "PDP PERFORMANCE - Audit useAsync Cache Keys for Correctness",
-        "status": "QA Approved",
-        "statusCategory": "indeterminate",
-        "assignee": "Unassigned",
-        "updated": "2026-06-17T17:39:52.039+0100",
-        "priority": "Poco importante",
-        "labels": [
-          "FastFollow"
-        ]
-      },
-      {
-        "key": "WSC-1498",
-        "url": "https://e2x.atlassian.net/browse/WSC-1498",
-        "summary": "PDP PERFORMANCE - Only QA",
-        "status": "QA Approved",
-        "statusCategory": "indeterminate",
-        "assignee": "Gerardo Romero",
-        "updated": "2026-06-17T17:39:51.585+0100",
-        "priority": "Not Set",
-        "labels": [
-          "FastFollow"
-        ]
-      },
-      {
-        "key": "WSC-1226",
-        "url": "https://e2x.atlassian.net/browse/WSC-1226",
-        "summary": "INP Opt: Code Splitting & Component Lazy Loading",
-        "status": "READY FOR RELEASE",
-        "statusCategory": "new",
-        "assignee": "Unassigned",
-        "updated": "2026-06-17T17:39:48.000+0100",
-        "priority": "Importante",
-        "labels": []
-      },
-      {
-        "key": "WSC-1524",
-        "url": "https://e2x.atlassian.net/browse/WSC-1524",
-        "summary": "SECURITY - limit character types that can be entered (VSF)",
-        "status": "QA Approved",
-        "statusCategory": "indeterminate",
-        "assignee": "Gerardo Romero",
-        "updated": "2026-06-17T17:39:47.497+0100",
-        "priority": "Importante",
-        "labels": []
-      },
-      {
-        "key": "WSC-1546",
-        "url": "https://e2x.atlassian.net/browse/WSC-1546",
-        "summary": "Checkout - Resolve critical and high severity npm vulnerabilities (Snyk)",
-        "status": "READY FOR RELEASE",
-        "statusCategory": "new",
-        "assignee": "Unassigned",
-        "updated": "2026-06-17T17:39:47.033+0100",
-        "priority": "Not Set",
-        "labels": []
-      },
-      {
-        "key": "WSC-1227",
-        "url": "https://e2x.atlassian.net/browse/WSC-1227",
-        "summary": "INP Opt: Defer & Lazy Load Third-Party Scripts",
-        "status": "QA Approved",
-        "statusCategory": "indeterminate",
-        "assignee": "Gerardo Romero",
-        "updated": "2026-06-17T17:39:46.608+0100",
-        "priority": "Importante",
-        "labels": []
-      },
-      {
-        "key": "WSC-1228",
-        "url": "https://e2x.atlassian.net/browse/WSC-1228",
-        "summary": "INP Opt: Optimize Event Handlers & Layout Thrashing",
-        "status": "QA Approved",
-        "statusCategory": "indeterminate",
-        "assignee": "Alexander Talavera",
-        "updated": "2026-06-17T17:39:46.193+0100",
-        "priority": "Importante",
-        "labels": [
-          "NO_QA_REQUIRED"
-        ]
-      },
-      {
-        "key": "WSC-1526",
-        "url": "https://e2x.atlassian.net/browse/WSC-1526",
-        "summary": "SECURITY - limit character types that can be entered (Checkout)",
-        "status": "QA Approved",
-        "statusCategory": "indeterminate",
-        "assignee": "Gerardo Romero",
-        "updated": "2026-06-17T17:39:45.752+0100",
-        "priority": "Importante",
-        "labels": []
-      },
-      {
-        "key": "WSC-1229",
-        "url": "https://e2x.atlassian.net/browse/WSC-1229",
-        "summary": "INP Opt: Reactivity Audit & Watcher Optimization",
-        "status": "READY FOR RELEASE",
-        "statusCategory": "new",
-        "assignee": "Unassigned",
-        "updated": "2026-06-17T17:39:45.258+0100",
-        "priority": "Importante",
-        "labels": []
-      },
-      {
-        "key": "WSC-1506",
-        "url": "https://e2x.atlassian.net/browse/WSC-1506",
-        "summary": "[Automation] Review and Fix of @regressionUat Playwright Test Subset for Release 10.0",
-        "status": "QA Approved",
-        "statusCategory": "indeterminate",
-        "assignee": "Gerardo Romero",
-        "updated": "2026-06-17T17:39:44.760+0100",
-        "priority": "Not Set",
-        "labels": []
       },
       {
         "key": "WSC-1490",
@@ -1163,34 +1215,6 @@
         "updated": "2026-06-17T17:39:31.962+0100",
         "priority": "Not Set",
         "labels": []
-      },
-      {
-        "key": "WSC-1484",
-        "url": "https://e2x.atlassian.net/browse/WSC-1484",
-        "summary": "CSP Enforcement Rollout & Hardening",
-        "status": "Listo",
-        "statusCategory": "new",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-06-16T16:01:43.491+0100",
-        "priority": "Cr\u00edtica",
-        "labels": [
-          "CSP",
-          "NO_QA_REQUIRED"
-        ]
-      },
-      {
-        "key": "WSC-1482",
-        "url": "https://e2x.atlassian.net/browse/WSC-1482",
-        "summary": "CSP Analysis & Policy Refinement",
-        "status": "Listo",
-        "statusCategory": "new",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-06-16T16:01:42.802+0100",
-        "priority": "Cr\u00edtica",
-        "labels": [
-          "CSP",
-          "NO_QA_REQUIRED"
-        ]
       },
       {
         "key": "WSC-1520",
