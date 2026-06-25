@@ -1,14 +1,14 @@
 {
-  "lastUpdated": "2026-06-25T07:44:25.003585+00:00",
+  "lastUpdated": "2026-06-25T10:44:01.066409+00:00",
   "jira": {
     "summary": {
       "total": 252,
       "byStatus": {
+        "En curso": 2,
         "Tech Review": 3,
         "QA Approved": 21,
-        "Ready to QA": 13,
+        "Ready to QA": 12,
         "IN QA": 2,
-        "En curso": 1,
         "READY FOR RELEASE": 6,
         "Listo": 7,
         "Backlog": 7,
@@ -21,6 +21,19 @@
       }
     },
     "tickets": [
+      {
+        "key": "WSC-1564",
+        "url": "https://e2x.atlassian.net/browse/WSC-1564",
+        "summary": "PLP - remove review stars div",
+        "status": "En curso",
+        "statusCategory": "indeterminate",
+        "assignee": "Alexander Talavera",
+        "updated": "2026-06-25T09:41:40.287+0100",
+        "priority": "Poco importante",
+        "labels": [
+          "Needs-QA"
+        ]
+      },
       {
         "key": "WSC-1573",
         "url": "https://e2x.atlassian.net/browse/WSC-1573",
@@ -115,19 +128,6 @@
         "updated": "2026-06-24T19:58:20.878+0100",
         "priority": "Poco importante",
         "labels": []
-      },
-      {
-        "key": "WSC-1564",
-        "url": "https://e2x.atlassian.net/browse/WSC-1564",
-        "summary": "PLP - remove review stars div",
-        "status": "Ready to QA",
-        "statusCategory": "new",
-        "assignee": "Unassigned",
-        "updated": "2026-06-24T19:57:40.851+0100",
-        "priority": "Poco importante",
-        "labels": [
-          "Needs-QA"
-        ]
       },
       {
         "key": "WSC-1529",
