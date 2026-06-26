@@ -1,17 +1,17 @@
 {
-  "lastUpdated": "2026-06-26T07:55:53.630050+00:00",
+  "lastUpdated": "2026-06-26T10:54:28.782716+00:00",
   "jira": {
     "summary": {
       "total": 254,
       "byStatus": {
+        "QA Approved": 10,
         "Ready to QA": 11,
         "Finalizada": 197,
-        "IN QA": 4,
-        "QA Approved": 8,
+        "IN QA": 3,
         "Tech Review": 2,
         "Listo": 7,
-        "Blocked": 4,
         "Backlog": 7,
+        "Blocked": 3,
         "PENDING DEV DEPLOY": 3,
         "IN UAT": 1,
         "Ready for Refinement": 1,
@@ -20,6 +20,32 @@
       }
     },
     "tickets": [
+      {
+        "key": "WSC-1403",
+        "url": "https://e2x.atlassian.net/browse/WSC-1403",
+        "summary": "SHOP FINDER - minor restyle",
+        "status": "QA Approved",
+        "statusCategory": "indeterminate",
+        "assignee": "Gerardo Romero",
+        "updated": "2026-06-26T11:53:06.465+0100",
+        "priority": "Poco importante",
+        "labels": [
+          "Needs-QA"
+        ]
+      },
+      {
+        "key": "WSC-1529",
+        "url": "https://e2x.atlassian.net/browse/WSC-1529",
+        "summary": "BAG - Currency Guard when changing locales",
+        "status": "QA Approved",
+        "statusCategory": "indeterminate",
+        "assignee": "Gerardo Romero",
+        "updated": "2026-06-26T11:49:16.223+0100",
+        "priority": "Poco importante",
+        "labels": [
+          "Needs-QA"
+        ]
+      },
       {
         "key": "WSC-1354",
         "url": "https://e2x.atlassian.net/browse/WSC-1354",
@@ -100,19 +126,6 @@
         "statusCategory": "indeterminate",
         "assignee": "Ingrith Santamaria",
         "updated": "2026-06-25T22:10:32.156+0100",
-        "priority": "Poco importante",
-        "labels": [
-          "Needs-QA"
-        ]
-      },
-      {
-        "key": "WSC-1403",
-        "url": "https://e2x.atlassian.net/browse/WSC-1403",
-        "summary": "SHOP FINDER - minor restyle",
-        "status": "IN QA",
-        "statusCategory": "indeterminate",
-        "assignee": "Gerardo Romero",
-        "updated": "2026-06-25T22:10:27.626+0100",
         "priority": "Poco importante",
         "labels": [
           "Needs-QA"
@@ -229,19 +242,6 @@
         "updated": "2026-06-25T17:51:52.084+0100",
         "priority": "Importante",
         "labels": []
-      },
-      {
-        "key": "WSC-1529",
-        "url": "https://e2x.atlassian.net/browse/WSC-1529",
-        "summary": "BAG - Currency Guard when changing locales",
-        "status": "Blocked",
-        "statusCategory": "new",
-        "assignee": "Gerardo Romero",
-        "updated": "2026-06-25T17:40:54.304+0100",
-        "priority": "Poco importante",
-        "labels": [
-          "Needs-QA"
-        ]
       },
       {
         "key": "WSC-1558",
