@@ -1,16 +1,16 @@
 {
-  "lastUpdated": "2026-06-26T14:27:44.595550+00:00",
+  "lastUpdated": "2026-06-26T17:49:42.049418+00:00",
   "jira": {
     "summary": {
-      "total": 254,
+      "total": 259,
       "byStatus": {
-        "IN QA": 3,
+        "Finalizada": 197,
+        "Ready to QA": 10,
         "Tech Review": 3,
+        "Listo": 12,
+        "IN QA": 3,
         "Ready for Refinement": 2,
         "QA Approved": 10,
-        "Ready to QA": 10,
-        "Finalizada": 197,
-        "Listo": 7,
         "Backlog": 6,
         "Blocked": 3,
         "PENDING DEV DEPLOY": 3,
@@ -21,17 +21,26 @@
     },
     "tickets": [
       {
-        "key": "WSC-1569",
-        "url": "https://e2x.atlassian.net/browse/WSC-1569",
-        "summary": "CHECKOUT - delivery/collection option gets reset",
-        "status": "IN QA",
-        "statusCategory": "indeterminate",
-        "assignee": "Gerardo Romero",
-        "updated": "2026-06-26T15:06:35.178+0100",
-        "priority": "Cr\u00edtica",
-        "labels": [
-          "Needs-QA"
-        ]
+        "key": "WSC-1465",
+        "url": "https://e2x.atlassian.net/browse/WSC-1465",
+        "summary": "CONSTRUCTOR (2/2) - gaps in personalisation data",
+        "status": "Finalizada",
+        "statusCategory": "done",
+        "assignee": "Stuart Young",
+        "updated": "2026-06-26T18:22:52.016+0100",
+        "priority": "Importante",
+        "labels": []
+      },
+      {
+        "key": "WSC-1354",
+        "url": "https://e2x.atlassian.net/browse/WSC-1354",
+        "summary": "SHOP PAGES - Local Business schema",
+        "status": "Ready to QA",
+        "statusCategory": "new",
+        "assignee": "Unassigned",
+        "updated": "2026-06-26T18:22:42.609+0100",
+        "priority": "Poco importante",
+        "labels": []
       },
       {
         "key": "WSC-1556",
@@ -40,9 +49,85 @@
         "status": "Tech Review",
         "statusCategory": "indeterminate",
         "assignee": "enmanuel.ramirez",
-        "updated": "2026-06-26T15:06:26.577+0100",
+        "updated": "2026-06-26T18:22:30.757+0100",
         "priority": "Importante",
         "labels": []
+      },
+      {
+        "key": "WSC-1580",
+        "url": "https://e2x.atlassian.net/browse/WSC-1580",
+        "summary": "SITESPECT - deploy to Production",
+        "status": "Listo",
+        "statusCategory": "new",
+        "assignee": "Jair Huaman",
+        "updated": "2026-06-26T17:53:07.095+0100",
+        "priority": "Importante",
+        "labels": []
+      },
+      {
+        "key": "WSC-1569",
+        "url": "https://e2x.atlassian.net/browse/WSC-1569",
+        "summary": "CHECKOUT - delivery/collection option gets reset",
+        "status": "IN QA",
+        "statusCategory": "indeterminate",
+        "assignee": "Gerardo Romero",
+        "updated": "2026-06-26T17:03:05.095+0100",
+        "priority": "Cr\u00edtica",
+        "labels": [
+          "Needs-QA"
+        ]
+      },
+      {
+        "key": "WSC-1412",
+        "url": "https://e2x.atlassian.net/browse/WSC-1412",
+        "summary": "Mobile: BREADCRUMB - amendments",
+        "status": "Listo",
+        "statusCategory": "new",
+        "assignee": "Unassigned",
+        "updated": "2026-06-26T17:00:56.966+0100",
+        "priority": "Poco importante",
+        "labels": [
+          "Needs-QA"
+        ]
+      },
+      {
+        "key": "WSC-1575",
+        "url": "https://e2x.atlassian.net/browse/WSC-1575",
+        "summary": "PDP - remove size button for 'ONESIZE' products",
+        "status": "Listo",
+        "statusCategory": "new",
+        "assignee": "Unassigned",
+        "updated": "2026-06-26T16:58:28.301+0100",
+        "priority": "Poco importante",
+        "labels": [
+          "Needs-QA"
+        ]
+      },
+      {
+        "key": "WSC-1574",
+        "url": "https://e2x.atlassian.net/browse/WSC-1574",
+        "summary": "CHECKOUT - wording amendment for ParcelShop",
+        "status": "Listo",
+        "statusCategory": "new",
+        "assignee": "Unassigned",
+        "updated": "2026-06-26T16:51:59.370+0100",
+        "priority": "Poco importante",
+        "labels": [
+          "Needs-QA"
+        ]
+      },
+      {
+        "key": "WSC-1557",
+        "url": "https://e2x.atlassian.net/browse/WSC-1557",
+        "summary": "SEO - add H2 to product names on PLP",
+        "status": "Listo",
+        "statusCategory": "new",
+        "assignee": "Unassigned",
+        "updated": "2026-06-26T16:40:44.530+0100",
+        "priority": "Poco importante",
+        "labels": [
+          "Needs-QA"
+        ]
       },
       {
         "key": "WSC-1138",
@@ -82,28 +167,6 @@
         "labels": [
           "Needs-QA"
         ]
-      },
-      {
-        "key": "WSC-1354",
-        "url": "https://e2x.atlassian.net/browse/WSC-1354",
-        "summary": "SHOP PAGES - Local Business schema",
-        "status": "Ready to QA",
-        "statusCategory": "new",
-        "assignee": "Unassigned",
-        "updated": "2026-06-26T00:11:39.010+0100",
-        "priority": "Poco importante",
-        "labels": []
-      },
-      {
-        "key": "WSC-1465",
-        "url": "https://e2x.atlassian.net/browse/WSC-1465",
-        "summary": "CONSTRUCTOR (2/2) - gaps in personalisation data",
-        "status": "Finalizada",
-        "statusCategory": "done",
-        "assignee": "Stuart Young",
-        "updated": "2026-06-26T00:11:08.385+0100",
-        "priority": "Importante",
-        "labels": []
       },
       {
         "key": "WSC-1573",
