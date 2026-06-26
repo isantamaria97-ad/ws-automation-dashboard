@@ -1,34 +1,58 @@
 {
-  "lastUpdated": "2026-06-26T10:54:28.782716+00:00",
+  "lastUpdated": "2026-06-26T14:27:44.595550+00:00",
   "jira": {
     "summary": {
       "total": 254,
       "byStatus": {
-        "QA Approved": 10,
-        "Ready to QA": 11,
-        "Finalizada": 197,
         "IN QA": 3,
-        "Tech Review": 2,
+        "Tech Review": 3,
+        "Ready for Refinement": 2,
+        "QA Approved": 10,
+        "Ready to QA": 10,
+        "Finalizada": 197,
         "Listo": 7,
-        "Backlog": 7,
+        "Backlog": 6,
         "Blocked": 3,
         "PENDING DEV DEPLOY": 3,
         "IN UAT": 1,
-        "Ready for Refinement": 1,
         "READY FOR RELEASE": 1,
         "Deprecated": 8
       }
     },
     "tickets": [
       {
-        "key": "WSC-1403",
-        "url": "https://e2x.atlassian.net/browse/WSC-1403",
-        "summary": "SHOP FINDER - minor restyle",
-        "status": "QA Approved",
+        "key": "WSC-1569",
+        "url": "https://e2x.atlassian.net/browse/WSC-1569",
+        "summary": "CHECKOUT - delivery/collection option gets reset",
+        "status": "IN QA",
         "statusCategory": "indeterminate",
         "assignee": "Gerardo Romero",
-        "updated": "2026-06-26T11:53:06.465+0100",
-        "priority": "Poco importante",
+        "updated": "2026-06-26T15:06:35.178+0100",
+        "priority": "Cr\u00edtica",
+        "labels": [
+          "Needs-QA"
+        ]
+      },
+      {
+        "key": "WSC-1556",
+        "url": "https://e2x.atlassian.net/browse/WSC-1556",
+        "summary": "PDP - toggle amendment",
+        "status": "Tech Review",
+        "statusCategory": "indeterminate",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-06-26T15:06:26.577+0100",
+        "priority": "Importante",
+        "labels": []
+      },
+      {
+        "key": "WSC-1138",
+        "url": "https://e2x.atlassian.net/browse/WSC-1138",
+        "summary": "GOOD STUFF - add preferred shop to 'My Details'",
+        "status": "Ready for Refinement",
+        "statusCategory": "new",
+        "assignee": "Unassigned",
+        "updated": "2026-06-26T12:54:25.278+0100",
+        "priority": "Importante",
         "labels": [
           "Needs-QA"
         ]
@@ -40,7 +64,20 @@
         "status": "QA Approved",
         "statusCategory": "indeterminate",
         "assignee": "Gerardo Romero",
-        "updated": "2026-06-26T11:49:16.223+0100",
+        "updated": "2026-06-26T11:54:30.905+0100",
+        "priority": "Poco importante",
+        "labels": [
+          "Needs-QA"
+        ]
+      },
+      {
+        "key": "WSC-1403",
+        "url": "https://e2x.atlassian.net/browse/WSC-1403",
+        "summary": "SHOP FINDER - minor restyle",
+        "status": "QA Approved",
+        "statusCategory": "indeterminate",
+        "assignee": "Gerardo Romero",
+        "updated": "2026-06-26T11:53:06.465+0100",
         "priority": "Poco importante",
         "labels": [
           "Needs-QA"
@@ -90,30 +127,6 @@
         "assignee": "Unassigned",
         "updated": "2026-06-26T00:00:43.258+0100",
         "priority": "Poco importante",
-        "labels": [
-          "Needs-QA"
-        ]
-      },
-      {
-        "key": "WSC-1556",
-        "url": "https://e2x.atlassian.net/browse/WSC-1556",
-        "summary": "PDP - toggle amendment",
-        "status": "Ready to QA",
-        "statusCategory": "new",
-        "assignee": "Unassigned",
-        "updated": "2026-06-25T23:59:36.933+0100",
-        "priority": "Importante",
-        "labels": []
-      },
-      {
-        "key": "WSC-1569",
-        "url": "https://e2x.atlassian.net/browse/WSC-1569",
-        "summary": "CHECKOUT - delivery/collection option gets reset",
-        "status": "IN QA",
-        "statusCategory": "indeterminate",
-        "assignee": "Gerardo Romero",
-        "updated": "2026-06-25T22:43:55.993+0100",
-        "priority": "Cr\u00edtica",
         "labels": [
           "Needs-QA"
         ]
@@ -736,19 +749,6 @@
         "labels": [
           "Needs-QA",
           "automatable"
-        ]
-      },
-      {
-        "key": "WSC-1138",
-        "url": "https://e2x.atlassian.net/browse/WSC-1138",
-        "summary": "GOOD STUFF - add preferred shop to 'My Details'",
-        "status": "Backlog",
-        "statusCategory": "new",
-        "assignee": "Unassigned",
-        "updated": "2026-06-23T16:56:17.338+0100",
-        "priority": "Importante",
-        "labels": [
-          "Needs-QA"
         ]
       },
       {
