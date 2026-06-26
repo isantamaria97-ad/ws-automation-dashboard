@@ -1,16 +1,16 @@
 {
-  "lastUpdated": "2026-06-25T21:44:41.620808+00:00",
+  "lastUpdated": "2026-06-26T03:53:19.417174+00:00",
   "jira": {
     "summary": {
       "total": 254,
       "byStatus": {
+        "Ready to QA": 11,
+        "Finalizada": 197,
         "IN QA": 4,
         "QA Approved": 8,
-        "Tech Review": 5,
+        "Tech Review": 2,
         "Listo": 7,
-        "Finalizada": 197,
         "Blocked": 4,
-        "Ready to QA": 8,
         "Backlog": 7,
         "PENDING DEV DEPLOY": 3,
         "IN UAT": 1,
@@ -20,6 +20,65 @@
       }
     },
     "tickets": [
+      {
+        "key": "WSC-1354",
+        "url": "https://e2x.atlassian.net/browse/WSC-1354",
+        "summary": "SHOP PAGES - Local Business schema",
+        "status": "Ready to QA",
+        "statusCategory": "new",
+        "assignee": "Unassigned",
+        "updated": "2026-06-26T00:11:39.010+0100",
+        "priority": "Poco importante",
+        "labels": []
+      },
+      {
+        "key": "WSC-1465",
+        "url": "https://e2x.atlassian.net/browse/WSC-1465",
+        "summary": "CONSTRUCTOR (2/2) - gaps in personalisation data",
+        "status": "Finalizada",
+        "statusCategory": "done",
+        "assignee": "Stuart Young",
+        "updated": "2026-06-26T00:11:08.385+0100",
+        "priority": "Importante",
+        "labels": []
+      },
+      {
+        "key": "WSC-1573",
+        "url": "https://e2x.atlassian.net/browse/WSC-1573",
+        "summary": "Pass browser userAgent to Constructor during SSR",
+        "status": "Ready to QA",
+        "statusCategory": "new",
+        "assignee": "Unassigned",
+        "updated": "2026-06-26T00:04:55.431+0100",
+        "priority": "Importante",
+        "labels": [
+          "NO_QA_REQUIRED"
+        ]
+      },
+      {
+        "key": "WSC-1564",
+        "url": "https://e2x.atlassian.net/browse/WSC-1564",
+        "summary": "PLP - remove review stars div",
+        "status": "Ready to QA",
+        "statusCategory": "new",
+        "assignee": "Unassigned",
+        "updated": "2026-06-26T00:00:43.258+0100",
+        "priority": "Poco importante",
+        "labels": [
+          "Needs-QA"
+        ]
+      },
+      {
+        "key": "WSC-1556",
+        "url": "https://e2x.atlassian.net/browse/WSC-1556",
+        "summary": "PDP - toggle amendment",
+        "status": "Ready to QA",
+        "statusCategory": "new",
+        "assignee": "Unassigned",
+        "updated": "2026-06-25T23:59:36.933+0100",
+        "priority": "Importante",
+        "labels": []
+      },
       {
         "key": "WSC-1569",
         "url": "https://e2x.atlassian.net/browse/WSC-1569",
@@ -135,19 +194,6 @@
         "labels": []
       },
       {
-        "key": "WSC-1564",
-        "url": "https://e2x.atlassian.net/browse/WSC-1564",
-        "summary": "PLP - remove review stars div",
-        "status": "Tech Review",
-        "statusCategory": "indeterminate",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-06-25T21:00:50.258+0100",
-        "priority": "Poco importante",
-        "labels": [
-          "Needs-QA"
-        ]
-      },
-      {
         "key": "WSC-1495",
         "url": "https://e2x.atlassian.net/browse/WSC-1495",
         "summary": "Reimplementation: consolidate coupons to be per value in BC",
@@ -170,17 +216,6 @@
         "statusCategory": "new",
         "assignee": "Unassigned",
         "updated": "2026-06-25T20:05:10.811+0100",
-        "priority": "Importante",
-        "labels": []
-      },
-      {
-        "key": "WSC-1465",
-        "url": "https://e2x.atlassian.net/browse/WSC-1465",
-        "summary": "CONSTRUCTOR (2/2) - gaps in personalisation data",
-        "status": "Finalizada",
-        "statusCategory": "done",
-        "assignee": "Stuart Young",
-        "updated": "2026-06-25T18:28:43.044+0100",
         "priority": "Importante",
         "labels": []
       },
@@ -549,41 +584,6 @@
         "priority": "Cr\u00edtica",
         "labels": [
           "CSP",
-          "NO_QA_REQUIRED"
-        ]
-      },
-      {
-        "key": "WSC-1556",
-        "url": "https://e2x.atlassian.net/browse/WSC-1556",
-        "summary": "PDP - toggle amendment",
-        "status": "Tech Review",
-        "statusCategory": "indeterminate",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-06-25T14:28:37.086+0100",
-        "priority": "Importante",
-        "labels": []
-      },
-      {
-        "key": "WSC-1354",
-        "url": "https://e2x.atlassian.net/browse/WSC-1354",
-        "summary": "SHOP PAGES - Local Business schema",
-        "status": "Ready to QA",
-        "statusCategory": "new",
-        "assignee": "Unassigned",
-        "updated": "2026-06-25T13:46:38.253+0100",
-        "priority": "Poco importante",
-        "labels": []
-      },
-      {
-        "key": "WSC-1573",
-        "url": "https://e2x.atlassian.net/browse/WSC-1573",
-        "summary": "Pass browser userAgent to Constructor during SSR",
-        "status": "Tech Review",
-        "statusCategory": "indeterminate",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-06-24T21:41:45.642+0100",
-        "priority": "Importante",
-        "labels": [
           "NO_QA_REQUIRED"
         ]
       },
