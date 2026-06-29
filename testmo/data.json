@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-29T16:24:23.846276+00:00",
+  "lastUpdated": "2026-06-29T18:29:37.742543+00:00",
   "milestones": [
     {
       "id": 224,
@@ -1814,12 +1814,12 @@
       "total": 68,
       "completed": 68,
       "remaining": 0,
-      "passed": 62,
+      "passed": 68,
       "failed": 0,
       "retest": 0,
       "blocked": 0,
       "untested": 0,
-      "skipped": 6,
+      "skipped": 0,
       "statusCounts": {
         "Untested": {
           "id": 1,
@@ -1827,7 +1827,7 @@
         },
         "Passed": {
           "id": 2,
-          "count": 62
+          "count": 68
         },
         "Failed": {
           "id": 3,
@@ -1843,7 +1843,7 @@
         },
         "Skipped": {
           "id": 6,
-          "count": 6
+          "count": 0
         },
         "Status 7": {
           "id": 7,
@@ -2140,6 +2140,28 @@
           "note": "",
           "assigneeId": null,
           "updatedAt": "2026-06-26T20:57:40.903Z"
+        },
+        {
+          "caseId": 114352,
+          "testId": 1604738,
+          "name": "Percent Coupon Applied Successfully At Checkout For Guest User",
+          "tags": [],
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-06-29T17:06:51.326Z"
+        },
+        {
+          "caseId": 114354,
+          "testId": 1604739,
+          "name": "Percent Coupon Applied Successfully At Checkout In EU Locale",
+          "tags": [],
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-06-29T17:06:54.775Z"
         },
         {
           "caseId": 114315,
@@ -2472,6 +2494,28 @@
           "updatedAt": "2026-06-26T20:57:30.704Z"
         },
         {
+          "caseId": 122710,
+          "testId": 1604745,
+          "name": "Verify Order Summary Items Are Sorted With Newest Added Item First",
+          "tags": [],
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-06-29T17:07:02.135Z"
+        },
+        {
+          "caseId": 122035,
+          "testId": 1604742,
+          "name": "Verify Out Of Stock Alert Is Visible On The Bag Page",
+          "tags": [],
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-06-29T17:06:57.266Z"
+        },
+        {
           "caseId": 114323,
           "testId": 1604713,
           "name": "Verify Payment Failure Notice Is Displayed For Invalid Card",
@@ -2527,6 +2571,17 @@
           "updatedAt": "2026-06-26T20:57:30.704Z"
         },
         {
+          "caseId": 122037,
+          "testId": 1604744,
+          "name": "Verify Percent Coupon Reduces Order Total In Checkout Order Summary (UK)",
+          "tags": [],
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-06-29T17:06:59.651Z"
+        },
+        {
           "caseId": 114331,
           "testId": 1604721,
           "name": "Verify Physical Gift Card Limits Delivery Options And Shows Restriction Message",
@@ -2571,6 +2626,17 @@
           "updatedAt": "2026-06-26T20:57:36.149Z"
         },
         {
+          "caseId": 114327,
+          "testId": 1604717,
+          "name": "Verify Signed-In User Saved Addresses Are Displayed In Delivery And Billing Sections",
+          "tags": [],
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-06-29T17:06:46.005Z"
+        },
+        {
           "caseId": 114310,
           "testId": 1604701,
           "name": "Verify User Can Navigate Using Breadcrumb On PDP Page",
@@ -2602,72 +2668,6 @@
           "note": "",
           "assigneeId": null,
           "updatedAt": "2026-06-26T20:57:36.149Z"
-        },
-        {
-          "caseId": 114352,
-          "testId": 1604738,
-          "name": "Percent Coupon Applied Successfully At Checkout For Guest User",
-          "tags": [],
-          "statusId": 6,
-          "status": "Skipped",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-06-26T20:59:35.853Z"
-        },
-        {
-          "caseId": 114354,
-          "testId": 1604739,
-          "name": "Percent Coupon Applied Successfully At Checkout In EU Locale",
-          "tags": [],
-          "statusId": 6,
-          "status": "Skipped",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-06-26T20:59:58.639Z"
-        },
-        {
-          "caseId": 122710,
-          "testId": 1604745,
-          "name": "Verify Order Summary Items Are Sorted With Newest Added Item First",
-          "tags": [],
-          "statusId": 6,
-          "status": "Skipped",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-06-26T20:59:11.173Z"
-        },
-        {
-          "caseId": 122035,
-          "testId": 1604742,
-          "name": "Verify Out Of Stock Alert Is Visible On The Bag Page",
-          "tags": [],
-          "statusId": 6,
-          "status": "Skipped",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-06-26T20:58:54.435Z"
-        },
-        {
-          "caseId": 122037,
-          "testId": 1604744,
-          "name": "Verify Percent Coupon Reduces Order Total In Checkout Order Summary (UK)",
-          "tags": [],
-          "statusId": 6,
-          "status": "Skipped",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-06-26T20:59:47.723Z"
-        },
-        {
-          "caseId": 114327,
-          "testId": 1604717,
-          "name": "Verify Signed-In User Saved Addresses Are Displayed In Delivery And Billing Sections",
-          "tags": [],
-          "statusId": 6,
-          "status": "Skipped",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-06-26T20:59:23.886Z"
         }
       ]
     },
