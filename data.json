@@ -1,17 +1,17 @@
 {
-  "lastUpdated": "2026-06-30T14:22:24.904720+00:00",
+  "lastUpdated": "2026-06-30T17:56:35.806493+00:00",
   "jira": {
     "summary": {
       "total": 265,
       "byStatus": {
-        "IN QA": 4,
+        "En curso": 4,
+        "Tech Review": 4,
+        "Listo": 12,
+        "IN QA": 3,
         "Ready to QA": 7,
-        "En curso": 3,
         "Ready for Refinement": 3,
-        "Tech Review": 3,
         "QA Approved": 14,
         "IN UAT": 2,
-        "Listo": 13,
         "Blocked": 3,
         "Finalizada": 197,
         "PENDING DEV DEPLOY": 2,
@@ -22,14 +22,132 @@
     },
     "tickets": [
       {
-        "key": "WSC-1383",
-        "url": "https://e2x.atlassian.net/browse/WSC-1383",
-        "summary": "PDP - make 'Details/Returns/Delivery' accessible to search engines/LLMs",
+        "key": "WSC-1354",
+        "url": "https://e2x.atlassian.net/browse/WSC-1354",
+        "summary": "SHOP PAGES - Local Business schema",
+        "status": "En curso",
+        "statusCategory": "indeterminate",
+        "assignee": "Ingrith Santamaria",
+        "updated": "2026-06-30T18:52:47.121+0100",
+        "priority": "Poco importante",
+        "labels": []
+      },
+      {
+        "key": "WSC-1581",
+        "url": "https://e2x.atlassian.net/browse/WSC-1581",
+        "summary": "SPIKE - /bag emptied after signing in on /checkout-identity",
+        "status": "En curso",
+        "statusCategory": "indeterminate",
+        "assignee": "Alexander Talavera",
+        "updated": "2026-06-30T18:22:31.540+0100",
+        "priority": "Importante",
+        "labels": []
+      },
+      {
+        "key": "WSC-1557",
+        "url": "https://e2x.atlassian.net/browse/WSC-1557",
+        "summary": "SEO - add H2 to product names on PLP",
+        "status": "En curso",
+        "statusCategory": "indeterminate",
+        "assignee": "Jair Huaman",
+        "updated": "2026-06-30T18:02:02.048+0100",
+        "priority": "Poco importante",
+        "labels": [
+          "Needs-QA"
+        ]
+      },
+      {
+        "key": "WSC-1578",
+        "url": "https://e2x.atlassian.net/browse/WSC-1578",
+        "summary": "[WSSD-633] Add Cloudflare rate limiting rule for the password reset endpoint",
+        "status": "Tech Review",
+        "statusCategory": "indeterminate",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-06-30T18:01:50.956+0100",
+        "priority": "Importante",
+        "labels": []
+      },
+      {
+        "key": "WSC-1574",
+        "url": "https://e2x.atlassian.net/browse/WSC-1574",
+        "summary": "CHECKOUT - wording amendment for ParcelShop",
+        "status": "Listo",
+        "statusCategory": "new",
+        "assignee": "Jair Huaman",
+        "updated": "2026-06-30T17:19:14.172+0100",
+        "priority": "Poco importante",
+        "labels": [
+          "Needs-QA"
+        ]
+      },
+      {
+        "key": "WSC-1412",
+        "url": "https://e2x.atlassian.net/browse/WSC-1412",
+        "summary": "Mobile: BREADCRUMB - amendments",
+        "status": "Listo",
+        "statusCategory": "new",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-06-30T16:43:03.488+0100",
+        "priority": "Poco importante",
+        "labels": [
+          "Needs-QA"
+        ]
+      },
+      {
+        "key": "WSC-1575",
+        "url": "https://e2x.atlassian.net/browse/WSC-1575",
+        "summary": "PDP - remove size button for 'ONESIZE' products",
+        "status": "Listo",
+        "statusCategory": "new",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-06-30T16:43:02.808+0100",
+        "priority": "Poco importante",
+        "labels": [
+          "Needs-QA"
+        ]
+      },
+      {
+        "key": "WSC-1549",
+        "url": "https://e2x.atlassian.net/browse/WSC-1549",
+        "summary": "CONSTRUCTOR",
+        "status": "Listo",
+        "statusCategory": "new",
+        "assignee": "Jair Huaman",
+        "updated": "2026-06-30T16:43:02.014+0100",
+        "priority": "Poco importante",
+        "labels": []
+      },
+      {
+        "key": "WSC-1586",
+        "url": "https://e2x.atlassian.net/browse/WSC-1586",
+        "summary": "PDP - toggle amends 2",
+        "status": "Listo",
+        "statusCategory": "new",
+        "assignee": "Alexander Talavera",
+        "updated": "2026-06-30T16:42:59.421+0100",
+        "priority": "Importante",
+        "labels": []
+      },
+      {
+        "key": "WSC-1577",
+        "url": "https://e2x.atlassian.net/browse/WSC-1577",
+        "summary": "[WSSD-633] Add per-email rate limiting to the password reset endpoint",
+        "status": "Tech Review",
+        "statusCategory": "indeterminate",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-06-30T15:50:39.658+0100",
+        "priority": "Importante",
+        "labels": []
+      },
+      {
+        "key": "WSC-1585",
+        "url": "https://e2x.atlassian.net/browse/WSC-1585",
+        "summary": "SlimBanner: Exclude browse/sale or sale from the PLP page option",
         "status": "IN QA",
         "statusCategory": "indeterminate",
         "assignee": "Ingrith Santamaria",
-        "updated": "2026-06-30T15:17:44.805+0100",
-        "priority": "Poco importante",
+        "updated": "2026-06-30T15:47:16.299+0100",
+        "priority": "Importante",
         "labels": []
       },
       {
@@ -38,8 +156,19 @@
         "summary": "CONTENT - PLP Header amends",
         "status": "Ready to QA",
         "statusCategory": "new",
-        "assignee": "Gerardo Romero",
-        "updated": "2026-06-30T15:15:52.754+0100",
+        "assignee": "Ingrith Santamaria",
+        "updated": "2026-06-30T15:46:55.456+0100",
+        "priority": "Poco importante",
+        "labels": []
+      },
+      {
+        "key": "WSC-1383",
+        "url": "https://e2x.atlassian.net/browse/WSC-1383",
+        "summary": "PDP - make 'Details/Returns/Delivery' accessible to search engines/LLMs",
+        "status": "Ready to QA",
+        "statusCategory": "new",
+        "assignee": "Rafael Paranagu\u00e1",
+        "updated": "2026-06-30T15:37:42.810+0100",
         "priority": "Poco importante",
         "labels": []
       },
@@ -72,17 +201,6 @@
         ]
       },
       {
-        "key": "WSC-1578",
-        "url": "https://e2x.atlassian.net/browse/WSC-1578",
-        "summary": "[WSSD-633] Add Cloudflare rate limiting rule for the password reset endpoint",
-        "status": "En curso",
-        "statusCategory": "indeterminate",
-        "assignee": "Jair Huaman",
-        "updated": "2026-06-30T15:04:40.801+0100",
-        "priority": "Importante",
-        "labels": []
-      },
-      {
         "key": "WSC-80",
         "url": "https://e2x.atlassian.net/browse/WSC-80",
         "summary": "PLP/SEARCH RESULTS - add a 'back to top' button",
@@ -108,28 +226,6 @@
         "labels": []
       },
       {
-        "key": "WSC-1577",
-        "url": "https://e2x.atlassian.net/browse/WSC-1577",
-        "summary": "[WSSD-633] Add per-email rate limiting to the password reset endpoint",
-        "status": "Tech Review",
-        "statusCategory": "indeterminate",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-06-30T14:53:47.793+0100",
-        "priority": "Importante",
-        "labels": []
-      },
-      {
-        "key": "WSC-1581",
-        "url": "https://e2x.atlassian.net/browse/WSC-1581",
-        "summary": "SPIKE - /bag emptied after signing in on /checkout-identity",
-        "status": "En curso",
-        "statusCategory": "indeterminate",
-        "assignee": "Alexander Talavera",
-        "updated": "2026-06-30T14:45:21.621+0100",
-        "priority": "Importante",
-        "labels": []
-      },
-      {
         "key": "WSC-1529",
         "url": "https://e2x.atlassian.net/browse/WSC-1529",
         "summary": "BAG - Currency Guard when changing locales",
@@ -143,17 +239,6 @@
         ]
       },
       {
-        "key": "WSC-1585",
-        "url": "https://e2x.atlassian.net/browse/WSC-1585",
-        "summary": "SlimBanner: Exclude browse/sale or sale from the PLP page option",
-        "status": "Ready to QA",
-        "statusCategory": "new",
-        "assignee": "Ingrith Santamaria",
-        "updated": "2026-06-30T14:19:58.671+0100",
-        "priority": "Importante",
-        "labels": []
-      },
-      {
         "key": "WSC-1564",
         "url": "https://e2x.atlassian.net/browse/WSC-1564",
         "summary": "PLP - remove review stars div",
@@ -165,17 +250,6 @@
         "labels": [
           "Needs-QA"
         ]
-      },
-      {
-        "key": "WSC-1354",
-        "url": "https://e2x.atlassian.net/browse/WSC-1354",
-        "summary": "SHOP PAGES - Local Business schema",
-        "status": "IN QA",
-        "statusCategory": "indeterminate",
-        "assignee": "Ingrith Santamaria",
-        "updated": "2026-06-30T13:59:06.684+0100",
-        "priority": "Poco importante",
-        "labels": []
       },
       {
         "key": "WSC-1566",
@@ -244,80 +318,6 @@
         "statusCategory": "indeterminate",
         "assignee": "Ingrith Santamaria",
         "updated": "2026-06-29T19:32:11.281+0100",
-        "priority": "Importante",
-        "labels": []
-      },
-      {
-        "key": "WSC-1412",
-        "url": "https://e2x.atlassian.net/browse/WSC-1412",
-        "summary": "Mobile: BREADCRUMB - amendments",
-        "status": "Listo",
-        "statusCategory": "new",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-06-29T18:23:28.816+0100",
-        "priority": "Poco importante",
-        "labels": [
-          "Needs-QA"
-        ]
-      },
-      {
-        "key": "WSC-1575",
-        "url": "https://e2x.atlassian.net/browse/WSC-1575",
-        "summary": "PDP - remove size button for 'ONESIZE' products",
-        "status": "Listo",
-        "statusCategory": "new",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-06-29T18:23:22.549+0100",
-        "priority": "Poco importante",
-        "labels": [
-          "Needs-QA"
-        ]
-      },
-      {
-        "key": "WSC-1549",
-        "url": "https://e2x.atlassian.net/browse/WSC-1549",
-        "summary": "CONSTRUCTOR",
-        "status": "Listo",
-        "statusCategory": "new",
-        "assignee": "Jair Huaman",
-        "updated": "2026-06-29T18:22:51.555+0100",
-        "priority": "Poco importante",
-        "labels": []
-      },
-      {
-        "key": "WSC-1574",
-        "url": "https://e2x.atlassian.net/browse/WSC-1574",
-        "summary": "CHECKOUT - wording amendment for ParcelShop",
-        "status": "Listo",
-        "statusCategory": "new",
-        "assignee": "Jair Huaman",
-        "updated": "2026-06-29T18:22:17.694+0100",
-        "priority": "Poco importante",
-        "labels": [
-          "Needs-QA"
-        ]
-      },
-      {
-        "key": "WSC-1557",
-        "url": "https://e2x.atlassian.net/browse/WSC-1557",
-        "summary": "SEO - add H2 to product names on PLP",
-        "status": "Listo",
-        "statusCategory": "new",
-        "assignee": "Jair Huaman",
-        "updated": "2026-06-29T18:22:09.261+0100",
-        "priority": "Poco importante",
-        "labels": [
-          "Needs-QA"
-        ]
-      },
-      {
-        "key": "WSC-1586",
-        "url": "https://e2x.atlassian.net/browse/WSC-1586",
-        "summary": "PDP - toggle amends 2",
-        "status": "Listo",
-        "statusCategory": "new",
-        "assignee": "Alexander Talavera",
-        "updated": "2026-06-29T17:26:03.388+0100",
         "priority": "Importante",
         "labels": []
       },
