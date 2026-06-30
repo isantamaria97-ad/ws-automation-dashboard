@@ -1,14 +1,14 @@
 {
-  "lastUpdated": "2026-06-30T07:55:23.744889+00:00",
+  "lastUpdated": "2026-06-30T11:12:08.683453+00:00",
   "jira": {
     "summary": {
       "total": 265,
       "byStatus": {
+        "IN UAT": 2,
         "Listo": 14,
         "En curso": 3,
         "IN QA": 2,
         "Ready to QA": 9,
-        "IN UAT": 2,
         "QA Approved": 14,
         "Tareas por hacer": 1,
         "Blocked": 3,
@@ -22,6 +22,17 @@
       }
     },
     "tickets": [
+      {
+        "key": "WSC-1566",
+        "url": "https://e2x.atlassian.net/browse/WSC-1566",
+        "summary": "Investigate Bazaarvoice API for Server-Side Product Review Retrieval",
+        "status": "IN UAT",
+        "statusCategory": "indeterminate",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-06-30T10:58:01.227+0100",
+        "priority": "Not Set",
+        "labels": []
+      },
       {
         "key": "WSC-1481",
         "url": "https://e2x.atlassian.net/browse/WSC-1481",
@@ -118,17 +129,6 @@
         "assignee": "Unassigned",
         "updated": "2026-06-29T22:19:05.355+0100",
         "priority": "Importante",
-        "labels": []
-      },
-      {
-        "key": "WSC-1566",
-        "url": "https://e2x.atlassian.net/browse/WSC-1566",
-        "summary": "Investigate Bazaarvoice API for Server-Side Product Review Retrieval",
-        "status": "IN UAT",
-        "statusCategory": "indeterminate",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-06-29T19:48:23.603+0100",
-        "priority": "Not Set",
         "labels": []
       },
       {
