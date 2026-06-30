@@ -1,20 +1,20 @@
 {
-  "lastUpdated": "2026-06-29T21:27:25.824064+00:00",
+  "lastUpdated": "2026-06-30T03:49:27.998604+00:00",
   "jira": {
     "summary": {
       "total": 265,
       "byStatus": {
-        "Ready to QA": 10,
+        "Listo": 14,
+        "En curso": 3,
+        "IN QA": 2,
+        "Ready to QA": 9,
         "IN UAT": 2,
         "QA Approved": 14,
-        "Listo": 15,
-        "En curso": 2,
         "Tareas por hacer": 1,
         "Blocked": 3,
         "Finalizada": 197,
         "Ready for Refinement": 2,
         "Tech Review": 1,
-        "IN QA": 1,
         "Backlog": 6,
         "PENDING DEV DEPLOY": 2,
         "READY FOR RELEASE": 1,
@@ -22,6 +22,69 @@
       }
     },
     "tickets": [
+      {
+        "key": "WSC-1481",
+        "url": "https://e2x.atlassian.net/browse/WSC-1481",
+        "summary": "Initial CSP Report-Only Rollout",
+        "status": "Listo",
+        "statusCategory": "new",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-06-30T04:25:48.746+0100",
+        "priority": "Not Set",
+        "labels": [
+          "CSP"
+        ]
+      },
+      {
+        "key": "WSC-1522",
+        "url": "https://e2x.atlassian.net/browse/WSC-1522",
+        "summary": "CONTENT - Personalisation",
+        "status": "En curso",
+        "statusCategory": "indeterminate",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-06-30T00:18:29.770+0100",
+        "priority": "Importante",
+        "labels": []
+      },
+      {
+        "key": "WSC-1577",
+        "url": "https://e2x.atlassian.net/browse/WSC-1577",
+        "summary": "[WSSD-633] Add per-email rate limiting to the password reset endpoint",
+        "status": "En curso",
+        "statusCategory": "indeterminate",
+        "assignee": "Jair Huaman",
+        "updated": "2026-06-29T23:32:23.595+0100",
+        "priority": "Importante",
+        "labels": []
+      },
+      {
+        "key": "WSC-1402",
+        "url": "https://e2x.atlassian.net/browse/WSC-1402",
+        "summary": "MAIN BAG - Promo Saving styling amends",
+        "status": "IN QA",
+        "statusCategory": "indeterminate",
+        "assignee": "Gerardo Romero",
+        "updated": "2026-06-29T22:33:33.140+0100",
+        "priority": "Poco importante",
+        "labels": [
+          "Needs-QA"
+        ]
+      },
+      {
+        "key": "WSC-1495",
+        "url": "https://e2x.atlassian.net/browse/WSC-1495",
+        "summary": "Reimplementation: consolidate coupons to be per value in BC",
+        "status": "IN QA",
+        "statusCategory": "indeterminate",
+        "assignee": "Gerardo Romero",
+        "updated": "2026-06-29T22:30:05.702+0100",
+        "priority": "Importante",
+        "labels": [
+          "FastFollow",
+          "In-UAT",
+          "Needs-QA"
+        ]
+      },
       {
         "key": "WSC-1585",
         "url": "https://e2x.atlassian.net/browse/WSC-1585",
@@ -211,17 +274,6 @@
         "labels": [
           "Needs-QA"
         ]
-      },
-      {
-        "key": "WSC-1577",
-        "url": "https://e2x.atlassian.net/browse/WSC-1577",
-        "summary": "[WSSD-633] Add per-email rate limiting to the password reset endpoint",
-        "status": "En curso",
-        "statusCategory": "indeterminate",
-        "assignee": "Jair Huaman",
-        "updated": "2026-06-29T18:15:07.475+0100",
-        "priority": "Importante",
-        "labels": []
       },
       {
         "key": "WSC-1586",
@@ -419,32 +471,6 @@
         "assignee": "enmanuel.ramirez",
         "updated": "2026-06-25T21:56:50.543+0100",
         "priority": "Poco importante",
-        "labels": []
-      },
-      {
-        "key": "WSC-1495",
-        "url": "https://e2x.atlassian.net/browse/WSC-1495",
-        "summary": "Reimplementation: consolidate coupons to be per value in BC",
-        "status": "IN QA",
-        "statusCategory": "indeterminate",
-        "assignee": "Gerardo Romero",
-        "updated": "2026-06-25T20:48:56.380+0100",
-        "priority": "Importante",
-        "labels": [
-          "FastFollow",
-          "In-UAT",
-          "Needs-QA"
-        ]
-      },
-      {
-        "key": "WSC-1522",
-        "url": "https://e2x.atlassian.net/browse/WSC-1522",
-        "summary": "CONTENT - Personalisation",
-        "status": "Listo",
-        "statusCategory": "new",
-        "assignee": "Unassigned",
-        "updated": "2026-06-25T20:05:10.811+0100",
-        "priority": "Importante",
         "labels": []
       },
       {
@@ -807,19 +833,6 @@
         ]
       },
       {
-        "key": "WSC-1402",
-        "url": "https://e2x.atlassian.net/browse/WSC-1402",
-        "summary": "MAIN BAG - Promo Saving styling amends",
-        "status": "Ready to QA",
-        "statusCategory": "new",
-        "assignee": "Gerardo Romero",
-        "updated": "2026-06-23T20:37:43.650+0100",
-        "priority": "Poco importante",
-        "labels": [
-          "Needs-QA"
-        ]
-      },
-      {
         "key": "WSC-1551",
         "url": "https://e2x.atlassian.net/browse/WSC-1551",
         "summary": "CONTENT - PLP Header amends",
@@ -965,19 +978,6 @@
         "updated": "2026-06-18T20:49:46.873+0100",
         "priority": "Importante",
         "labels": []
-      },
-      {
-        "key": "WSC-1481",
-        "url": "https://e2x.atlassian.net/browse/WSC-1481",
-        "summary": "Initial CSP Report-Only Rollout",
-        "status": "Listo",
-        "statusCategory": "new",
-        "assignee": "Unassigned",
-        "updated": "2026-06-18T20:02:08.553+0100",
-        "priority": "Not Set",
-        "labels": [
-          "CSP"
-        ]
       },
       {
         "key": "WSC-1501",
