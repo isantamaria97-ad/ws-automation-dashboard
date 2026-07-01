@@ -1,11 +1,11 @@
 {
-  "lastUpdated": "2026-07-01T04:03:32.522432+00:00",
+  "lastUpdated": "2026-07-01T11:25:26.774832+00:00",
   "jira": {
     "summary": {
       "total": 266,
       "byStatus": {
-        "QA Approved": 17,
         "Tech Review": 8,
+        "QA Approved": 17,
         "En curso": 4,
         "Ready for Refinement": 3,
         "Listo": 11,
@@ -20,6 +20,17 @@
       }
     },
     "tickets": [
+      {
+        "key": "WSC-1354",
+        "url": "https://e2x.atlassian.net/browse/WSC-1354",
+        "summary": "SHOP PAGES - Local Business schema",
+        "status": "Tech Review",
+        "statusCategory": "indeterminate",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-07-01T08:50:44.174+0100",
+        "priority": "Poco importante",
+        "labels": []
+      },
       {
         "key": "WSC-1587",
         "url": "https://e2x.atlassian.net/browse/WSC-1587",
@@ -80,17 +91,6 @@
           "In-UAT",
           "Needs-QA"
         ]
-      },
-      {
-        "key": "WSC-1354",
-        "url": "https://e2x.atlassian.net/browse/WSC-1354",
-        "summary": "SHOP PAGES - Local Business schema",
-        "status": "Tech Review",
-        "statusCategory": "indeterminate",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-06-30T20:39:31.692+0100",
-        "priority": "Poco importante",
-        "labels": []
       },
       {
         "key": "WSC-1138",
