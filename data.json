@@ -1,18 +1,18 @@
 {
-  "lastUpdated": "2026-07-02T14:11:31.821290+00:00",
+  "lastUpdated": "2026-07-02T17:49:58.926772+00:00",
   "jira": {
     "summary": {
       "total": 271,
       "byStatus": {
-        "En curso": 4,
-        "QA Approved": 21,
-        "Ready to QA": 1,
-        "Listo": 11,
-        "Tech Review": 7,
-        "IN UAT": 2,
-        "READY FOR RELEASE": 4,
-        "Finalizada": 198,
+        "En curso": 3,
+        "Finalizada": 199,
+        "QA Approved": 19,
+        "IN UAT": 3,
         "Blocked": 4,
+        "Listo": 11,
+        "Tech Review": 8,
+        "Ready to QA": 1,
+        "READY FOR RELEASE": 4,
         "Tareas por hacer": 1,
         "Ready for Refinement": 3,
         "PENDING DEV DEPLOY": 2,
@@ -21,6 +21,118 @@
       }
     },
     "tickets": [
+      {
+        "key": "WSC-1580",
+        "url": "https://e2x.atlassian.net/browse/WSC-1580",
+        "summary": "SITESPECT - deploy to Production",
+        "status": "En curso",
+        "statusCategory": "indeterminate",
+        "assignee": "Jair Huaman",
+        "updated": "2026-07-02T18:15:00.981+0100",
+        "priority": "Importante",
+        "labels": []
+      },
+      {
+        "key": "WSC-1569",
+        "url": "https://e2x.atlassian.net/browse/WSC-1569",
+        "summary": "CHECKOUT - delivery/collection option gets reset",
+        "status": "Finalizada",
+        "statusCategory": "done",
+        "assignee": "Gerardo Romero",
+        "updated": "2026-07-02T18:12:45.790+0100",
+        "priority": "Cr\u00edtica",
+        "labels": [
+          "Needs-QA"
+        ]
+      },
+      {
+        "key": "WSC-1488",
+        "url": "https://e2x.atlassian.net/browse/WSC-1488",
+        "summary": "CHECKOUT - amend error message styling",
+        "status": "QA Approved",
+        "statusCategory": "indeterminate",
+        "assignee": "Gerardo Romero",
+        "updated": "2026-07-02T17:37:52.293+0100",
+        "priority": "Poco importante",
+        "labels": [
+          "Needs-QA"
+        ]
+      },
+      {
+        "key": "WSC-1403",
+        "url": "https://e2x.atlassian.net/browse/WSC-1403",
+        "summary": "SHOP FINDER - minor restyle",
+        "status": "IN UAT",
+        "statusCategory": "indeterminate",
+        "assignee": "Gerardo Romero",
+        "updated": "2026-07-02T17:36:46.311+0100",
+        "priority": "Poco importante",
+        "labels": [
+          "Needs-QA"
+        ]
+      },
+      {
+        "key": "WSC-1515",
+        "url": "https://e2x.atlassian.net/browse/WSC-1515",
+        "summary": "PLP - re-enable Cloudflare cache (2 of 2)",
+        "status": "Blocked",
+        "statusCategory": "new",
+        "assignee": "Alexander Talavera",
+        "updated": "2026-07-02T17:35:16.965+0100",
+        "priority": "Importante",
+        "labels": []
+      },
+      {
+        "key": "WSC-1545",
+        "url": "https://e2x.atlassian.net/browse/WSC-1545",
+        "summary": "PLP - fix price for gift and e-gift cards",
+        "status": "Listo",
+        "statusCategory": "new",
+        "assignee": "Jair Huaman",
+        "updated": "2026-07-02T16:33:49.956+0100",
+        "priority": "Poco importante",
+        "labels": []
+      },
+      {
+        "key": "WSC-1495",
+        "url": "https://e2x.atlassian.net/browse/WSC-1495",
+        "summary": "Reimplementation: consolidate coupons to be per value in BC",
+        "status": "Listo",
+        "statusCategory": "new",
+        "assignee": "Jair Huaman",
+        "updated": "2026-07-02T16:33:09.458+0100",
+        "priority": "Importante",
+        "labels": [
+          "FastFollow",
+          "In-UAT",
+          "Needs-QA"
+        ]
+      },
+      {
+        "key": "WSC-1542",
+        "url": "https://e2x.atlassian.net/browse/WSC-1542",
+        "summary": "CONTENT - Accordion2 amendments",
+        "status": "Tech Review",
+        "statusCategory": "indeterminate",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-07-02T16:33:02.701+0100",
+        "priority": "Poco importante",
+        "labels": [
+          "Needs-QA",
+          "manualQA"
+        ]
+      },
+      {
+        "key": "WSC-1354",
+        "url": "https://e2x.atlassian.net/browse/WSC-1354",
+        "summary": "SHOP PAGES - Local Business schema",
+        "status": "Ready to QA",
+        "statusCategory": "new",
+        "assignee": "Rafael Paranagu\u00e1",
+        "updated": "2026-07-02T16:29:01.605+0100",
+        "priority": "Poco importante",
+        "labels": []
+      },
       {
         "key": "WSC-1586",
         "url": "https://e2x.atlassian.net/browse/WSC-1586",
@@ -46,17 +158,6 @@
         ]
       },
       {
-        "key": "WSC-1354",
-        "url": "https://e2x.atlassian.net/browse/WSC-1354",
-        "summary": "SHOP PAGES - Local Business schema",
-        "status": "Ready to QA",
-        "statusCategory": "new",
-        "assignee": "Rafael Paranagu\u00e1",
-        "updated": "2026-07-02T11:55:32.171+0100",
-        "priority": "Poco importante",
-        "labels": []
-      },
-      {
         "key": "WSC-1412",
         "url": "https://e2x.atlassian.net/browse/WSC-1412",
         "summary": "Mobile: BREADCRUMB - amendments",
@@ -70,20 +171,6 @@
         ]
       },
       {
-        "key": "WSC-1542",
-        "url": "https://e2x.atlassian.net/browse/WSC-1542",
-        "summary": "CONTENT - Accordion2 amendments",
-        "status": "En curso",
-        "statusCategory": "indeterminate",
-        "assignee": "Jair Huaman",
-        "updated": "2026-07-01T20:37:39.536+0100",
-        "priority": "Poco importante",
-        "labels": [
-          "Needs-QA",
-          "manualQA"
-        ]
-      },
-      {
         "key": "WSC-1549",
         "url": "https://e2x.atlassian.net/browse/WSC-1549",
         "summary": "CONSTRUCTOR",
@@ -93,19 +180,6 @@
         "updated": "2026-07-01T20:37:05.649+0100",
         "priority": "Poco importante",
         "labels": []
-      },
-      {
-        "key": "WSC-1488",
-        "url": "https://e2x.atlassian.net/browse/WSC-1488",
-        "summary": "CHECKOUT - amend error message styling",
-        "status": "QA Approved",
-        "statusCategory": "indeterminate",
-        "assignee": "Gerardo Romero",
-        "updated": "2026-07-01T20:22:13.264+0100",
-        "priority": "Poco importante",
-        "labels": [
-          "Needs-QA"
-        ]
       },
       {
         "key": "WSC-1587",
@@ -388,19 +462,6 @@
         "labels": []
       },
       {
-        "key": "WSC-1403",
-        "url": "https://e2x.atlassian.net/browse/WSC-1403",
-        "summary": "SHOP FINDER - minor restyle",
-        "status": "QA Approved",
-        "statusCategory": "indeterminate",
-        "assignee": "Gerardo Romero",
-        "updated": "2026-07-01T19:27:58.816+0100",
-        "priority": "Poco importante",
-        "labels": [
-          "Needs-QA"
-        ]
-      },
-      {
         "key": "WSC-1528",
         "url": "https://e2x.atlassian.net/browse/WSC-1528",
         "summary": "CHECKOUT - change product sort order in order summary",
@@ -451,17 +512,6 @@
         "labels": []
       },
       {
-        "key": "WSC-1545",
-        "url": "https://e2x.atlassian.net/browse/WSC-1545",
-        "summary": "PLP - fix price for gift and e-gift cards",
-        "status": "Listo",
-        "statusCategory": "new",
-        "assignee": "Unassigned",
-        "updated": "2026-07-01T19:15:00.498+0100",
-        "priority": "Poco importante",
-        "labels": []
-      },
-      {
         "key": "WSC-1588",
         "url": "https://e2x.atlassian.net/browse/WSC-1588",
         "summary": "[Header] Clicking account icon in non-UK locales forcefully logs user out instead of navigating to /my-account",
@@ -484,21 +534,6 @@
         "updated": "2026-07-01T17:18:24.907+0100",
         "priority": "Importante",
         "labels": []
-      },
-      {
-        "key": "WSC-1495",
-        "url": "https://e2x.atlassian.net/browse/WSC-1495",
-        "summary": "Reimplementation: consolidate coupons to be per value in BC",
-        "status": "En curso",
-        "statusCategory": "indeterminate",
-        "assignee": "Jair Huaman",
-        "updated": "2026-07-01T16:35:15.975+0100",
-        "priority": "Importante",
-        "labels": [
-          "FastFollow",
-          "In-UAT",
-          "Needs-QA"
-        ]
       },
       {
         "key": "WSC-1574",
@@ -635,30 +670,6 @@
         "labels": [
           "CSP"
         ]
-      },
-      {
-        "key": "WSC-1569",
-        "url": "https://e2x.atlassian.net/browse/WSC-1569",
-        "summary": "CHECKOUT - delivery/collection option gets reset",
-        "status": "QA Approved",
-        "statusCategory": "indeterminate",
-        "assignee": "Gerardo Romero",
-        "updated": "2026-06-29T15:55:21.268+0100",
-        "priority": "Cr\u00edtica",
-        "labels": [
-          "Needs-QA"
-        ]
-      },
-      {
-        "key": "WSC-1580",
-        "url": "https://e2x.atlassian.net/browse/WSC-1580",
-        "summary": "SITESPECT - deploy to Production",
-        "status": "Listo",
-        "statusCategory": "new",
-        "assignee": "Jair Huaman",
-        "updated": "2026-06-29T15:09:28.601+0100",
-        "priority": "Importante",
-        "labels": []
       },
       {
         "key": "WSC-1480",
@@ -1028,17 +1039,6 @@
           "CSP",
           "NO_QA_REQUIRED"
         ]
-      },
-      {
-        "key": "WSC-1515",
-        "url": "https://e2x.atlassian.net/browse/WSC-1515",
-        "summary": "PLP - re-enable Cloudflare cache (2 of 2)",
-        "status": "Blocked",
-        "statusCategory": "new",
-        "assignee": "Alexander Talavera",
-        "updated": "2026-06-23T15:39:51.485+0100",
-        "priority": "Importante",
-        "labels": []
       },
       {
         "key": "WSC-1514",
@@ -3351,26 +3351,26 @@
   "testmo": {
     "scope": {
       "projectId": "44",
-      "automationSourceId": "19",
-      "runNamePattern": "^Playwright E2E",
+      "automationSourceId": "",
+      "runNamePattern": "^Regression",
       "scopeFolderId": "20991",
       "scopeFolderName": "Regression"
     },
     "coverage": {
-      "total": 68,
-      "automated": 68,
-      "notAutomated": 0,
+      "total": 74,
+      "automated": 73,
+      "notAutomated": 1,
       "unclassified": 0,
-      "automatedPct": 100.0,
+      "automatedPct": 98.6,
       "byFolder": [
         {
           "folderId": null,
           "name": "Checkout",
           "group": "Components",
-          "automated": 34,
+          "automated": 36,
           "notAutomated": 0,
           "unclassified": 0,
-          "total": 34
+          "total": 36
         },
         {
           "folderId": null,
@@ -3380,6 +3380,15 @@
           "notAutomated": 0,
           "unclassified": 0,
           "total": 12
+        },
+        {
+          "folderId": null,
+          "name": "Other",
+          "group": "Components",
+          "automated": 7,
+          "notAutomated": 1,
+          "unclassified": 0,
+          "total": 8
         },
         {
           "folderId": null,
@@ -3398,15 +3407,6 @@
           "notAutomated": 0,
           "unclassified": 0,
           "total": 5
-        },
-        {
-          "folderId": null,
-          "name": "Other",
-          "group": "Components",
-          "automated": 4,
-          "notAutomated": 0,
-          "unclassified": 0,
-          "total": 4
         },
         {
           "folderId": null,
@@ -3447,120 +3447,236 @@
       ]
     },
     "runs": {
-      "total": 6,
-      "latestPassed": 89,
-      "latestFailed": 5,
-      "latestPending": 0,
-      "latestTotal": 94,
-      "latestRunName": "Playwright E2E \u2014 run #10136",
-      "latestRunDate": "2026-07-01T14:40:31.584Z",
-      "passRate": 86.8,
+      "total": 40,
+      "latestPassed": 0,
+      "latestFailed": 0,
+      "latestPending": 74,
+      "latestTotal": 74,
+      "latestRunName": "Regression 02/07/26",
+      "latestRunDate": "2026-07-02T15:44:29.008Z",
+      "passRate": 99.7,
       "recent": [
         {
-          "id": 4100,
-          "name": "Playwright E2E \u2014 run #10136",
-          "source_id": 19,
-          "milestone_id": null,
-          "config_id": null,
-          "status": 3,
-          "is_completed": true,
-          "elapsed_ms": 1722531619,
-          "created_at": "2026-07-01T14:40:31.584Z",
-          "completed_at": "2026-07-01T14:40:32.112Z",
-          "passed": 89,
-          "failed": 5,
-          "pending": 0,
-          "completed": 94,
-          "total": 94
+          "id": 1871,
+          "name": "Regression 02/07/26",
+          "source_id": null,
+          "milestone_id": 227,
+          "config_id": 14,
+          "status": null,
+          "is_completed": false,
+          "elapsed_ms": null,
+          "created_at": "2026-07-02T15:44:29.008Z",
+          "completed_at": null,
+          "passed": 0,
+          "failed": 0,
+          "pending": 74,
+          "completed": 0,
+          "total": 74
         },
         {
-          "id": 4090,
-          "name": "Playwright E2E \u2014 run #10125",
-          "source_id": 19,
-          "milestone_id": null,
-          "config_id": null,
-          "status": 3,
-          "is_completed": true,
-          "elapsed_ms": 14829763499,
-          "created_at": "2026-06-29T18:25:26.907Z",
-          "completed_at": "2026-06-29T18:25:28.705Z",
-          "passed": 232,
-          "failed": 72,
-          "pending": 0,
-          "completed": 304,
-          "total": 304
+          "id": 1870,
+          "name": "Regression 02/07/26",
+          "source_id": null,
+          "milestone_id": 227,
+          "config_id": 13,
+          "status": null,
+          "is_completed": false,
+          "elapsed_ms": null,
+          "created_at": "2026-07-02T15:44:28.998Z",
+          "completed_at": null,
+          "passed": 0,
+          "failed": 0,
+          "pending": 74,
+          "completed": 0,
+          "total": 74
         },
         {
-          "id": 4086,
-          "name": "Playwright E2E \u2014 run #10116",
-          "source_id": 19,
-          "milestone_id": null,
-          "config_id": null,
-          "status": 3,
-          "is_completed": true,
-          "elapsed_ms": 13330937990,
-          "created_at": "2026-06-29T14:43:55.568Z",
-          "completed_at": "2026-06-29T14:43:56.699Z",
-          "passed": 204,
-          "failed": 64,
-          "pending": 0,
-          "completed": 268,
-          "total": 268
+          "id": 1869,
+          "name": "Regression 02/07/26",
+          "source_id": null,
+          "milestone_id": 227,
+          "config_id": 10,
+          "status": null,
+          "is_completed": false,
+          "elapsed_ms": null,
+          "created_at": "2026-07-02T15:44:28.987Z",
+          "completed_at": null,
+          "passed": 0,
+          "failed": 0,
+          "pending": 74,
+          "completed": 0,
+          "total": 74
         },
         {
-          "id": 4048,
-          "name": "Playwright E2E \u2014 run #10095",
-          "source_id": 19,
-          "milestone_id": null,
-          "config_id": null,
-          "status": 3,
-          "is_completed": true,
-          "elapsed_ms": 11324117575,
-          "created_at": "2026-06-24T23:57:30.892Z",
-          "completed_at": "2026-06-24T23:57:32.244Z",
-          "passed": 226,
-          "failed": 42,
-          "pending": 0,
-          "completed": 268,
-          "total": 268
+          "id": 1868,
+          "name": "Regression 02/07/26",
+          "source_id": null,
+          "milestone_id": 227,
+          "config_id": 9,
+          "status": null,
+          "is_completed": false,
+          "elapsed_ms": null,
+          "created_at": "2026-07-02T15:44:28.973Z",
+          "completed_at": null,
+          "passed": 0,
+          "failed": 0,
+          "pending": 74,
+          "completed": 0,
+          "total": 74
         },
         {
-          "id": 4047,
-          "name": "Playwright E2E \u2014 run #10092",
-          "source_id": 19,
-          "milestone_id": null,
-          "config_id": null,
-          "status": 3,
-          "is_completed": true,
-          "elapsed_ms": 16396027124,
-          "created_at": "2026-06-24T22:43:19.860Z",
-          "completed_at": "2026-06-24T22:43:22.333Z",
-          "passed": 694,
-          "failed": 26,
+          "id": 1865,
+          "name": "Regression 01/07/2026",
+          "source_id": null,
+          "milestone_id": 225,
+          "config_id": 14,
+          "status": null,
+          "is_completed": false,
+          "elapsed_ms": null,
+          "created_at": "2026-07-01T12:33:33.451Z",
+          "completed_at": null,
+          "passed": 10,
+          "failed": 0,
           "pending": 0,
-          "completed": 823,
-          "total": 823
+          "completed": 10,
+          "total": 10
         },
         {
-          "id": 4046,
-          "name": "Playwright E2E \u2014 run #10093",
-          "source_id": 19,
-          "milestone_id": null,
-          "config_id": null,
-          "status": 3,
-          "is_completed": true,
-          "elapsed_ms": 11591925302,
-          "created_at": "2026-06-24T22:32:08.192Z",
-          "completed_at": "2026-06-24T22:32:08.912Z",
-          "passed": 224,
-          "failed": 44,
+          "id": 1864,
+          "name": "Regression 01/07/2026",
+          "source_id": null,
+          "milestone_id": 225,
+          "config_id": 13,
+          "status": null,
+          "is_completed": false,
+          "elapsed_ms": null,
+          "created_at": "2026-07-01T12:33:33.449Z",
+          "completed_at": null,
+          "passed": 10,
+          "failed": 0,
           "pending": 0,
-          "completed": 268,
-          "total": 268
+          "completed": 10,
+          "total": 10
+        },
+        {
+          "id": 1863,
+          "name": "Regression 01/07/2026",
+          "source_id": null,
+          "milestone_id": 225,
+          "config_id": 10,
+          "status": null,
+          "is_completed": false,
+          "elapsed_ms": null,
+          "created_at": "2026-07-01T12:33:33.446Z",
+          "completed_at": null,
+          "passed": 10,
+          "failed": 0,
+          "pending": 0,
+          "completed": 10,
+          "total": 10
+        },
+        {
+          "id": 1862,
+          "name": "Regression 01/07/2026",
+          "source_id": null,
+          "milestone_id": 225,
+          "config_id": 9,
+          "status": null,
+          "is_completed": false,
+          "elapsed_ms": null,
+          "created_at": "2026-07-01T12:33:33.444Z",
+          "completed_at": null,
+          "passed": 10,
+          "failed": 0,
+          "pending": 0,
+          "completed": 10,
+          "total": 10
+        },
+        {
+          "id": 1856,
+          "name": "Regression 26/06/26",
+          "source_id": null,
+          "milestone_id": 224,
+          "config_id": 14,
+          "status": null,
+          "is_completed": false,
+          "elapsed_ms": null,
+          "created_at": "2026-06-26T20:46:15.945Z",
+          "completed_at": null,
+          "passed": 66,
+          "failed": 0,
+          "pending": 0,
+          "completed": 68,
+          "total": 68
+        },
+        {
+          "id": 1855,
+          "name": "Regression 26/06/26",
+          "source_id": null,
+          "milestone_id": 224,
+          "config_id": 13,
+          "status": null,
+          "is_completed": false,
+          "elapsed_ms": null,
+          "created_at": "2026-06-26T20:46:15.939Z",
+          "completed_at": null,
+          "passed": 66,
+          "failed": 0,
+          "pending": 0,
+          "completed": 68,
+          "total": 68
         }
       ]
     },
     "cases": [
+      {
+        "id": 127266,
+        "name": "UK: no info message shown for a standard order",
+        "folderId": 20991,
+        "folderPath": "Regression",
+        "bucket": "automated",
+        "priority": 2
+      },
+      {
+        "id": 127265,
+        "name": "UK: gift card info message shown below DELIVERY heading",
+        "folderId": 20991,
+        "folderPath": "Regression",
+        "bucket": "automated",
+        "priority": 2
+      },
+      {
+        "id": 127264,
+        "name": "EU: zone options visible; UK-only options hidden",
+        "folderId": 20991,
+        "folderPath": "Regression",
+        "bucket": "notAutomated",
+        "priority": 2
+      },
+      {
+        "id": 127263,
+        "name": "US: zone options visible; UK-only options hidden",
+        "folderId": 20991,
+        "folderPath": "Regression",
+        "bucket": "automated",
+        "priority": 2
+      },
+      {
+        "id": 127262,
+        "name": "UK: gift card order shows only gift card option",
+        "folderId": 20991,
+        "folderPath": "Regression",
+        "bucket": "automated",
+        "priority": 2
+      },
+      {
+        "id": 127261,
+        "name": "UK: configured options visible; zone options hidden",
+        "folderId": 20991,
+        "folderPath": "Regression",
+        "bucket": "automated",
+        "priority": 2
+      },
       {
         "id": 122712,
         "name": "Verify Cart Items And GBP Prices Are Preserved When Navigating Within UK Store",
