@@ -284,12 +284,6 @@
   <section>
     <h2>Automation Runs · <span id="scope-runs" style="color:var(--muted);font-weight:400;text-transform:none;letter-spacing:normal"></span></h2>
     <div class="cards" id="runs-cards"></div>
-    <div class="charts-row" style="margin-top:14px">
-      <div class="chart-box" style="flex:1">
-        <h3>Recent runs (last 10)</h3>
-        <div class="chart-wrap"><canvas id="runs-bar"></canvas></div>
-      </div>
-    </div>
   </section>
 
   <section id="section-testruns" style="margin-top:32px">
@@ -646,28 +640,6 @@
       },
     });
 
-    // Runs bar
-    const runs = (d.testmo.runs.recent || []).slice().reverse();
-    new Chart(document.getElementById('runs-bar'), {
-      type: 'bar',
-      data: {
-        labels: runs.map(r => trunc(r.name, 28)),
-        datasets: [
-          { label: 'Passed',  data: runs.map(r => r.passed),  backgroundColor: '#22c55e' },
-          { label: 'Failed',  data: runs.map(r => r.failed),  backgroundColor: '#ef4444' },
-          { label: 'Pending', data: runs.map(r => r.pending), backgroundColor: '#6b7280' },
-        ],
-      },
-      options: {
-        responsive: true,
-        maintainAspectRatio: false,
-        scales: {
-          x: { stacked: true, ticks: { color: '#9ca3af', font: { size: 11 } }, grid: { color: '#2a2d3d' } },
-          y: { stacked: true, ticks: { color: '#9ca3af', font: { size: 11 } }, grid: { color: '#2a2d3d' } },
-        },
-        plugins: { legend: { labels: { color: '#9ca3af', font: { size: 12 } } } },
-      },
-    });
   }
 
   main();
