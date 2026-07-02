@@ -1,36 +1,153 @@
 {
-  "lastUpdated": "2026-07-02T17:49:58.926772+00:00",
+  "lastUpdated": "2026-07-02T21:09:22.900455+00:00",
   "jira": {
     "summary": {
       "total": 271,
       "byStatus": {
-        "En curso": 3,
+        "QA Approved": 17,
+        "IN UAT": 5,
+        "En curso": 4,
+        "Listo": 9,
+        "PENDING DEV DEPLOY": 3,
         "Finalizada": 199,
-        "QA Approved": 19,
-        "IN UAT": 3,
         "Blocked": 4,
-        "Listo": 11,
         "Tech Review": 8,
         "Ready to QA": 1,
         "READY FOR RELEASE": 4,
         "Tareas por hacer": 1,
         "Ready for Refinement": 3,
-        "PENDING DEV DEPLOY": 2,
         "Backlog": 5,
         "Deprecated": 8
       }
     },
     "tickets": [
       {
-        "key": "WSC-1580",
-        "url": "https://e2x.atlassian.net/browse/WSC-1580",
-        "summary": "SITESPECT - deploy to Production",
+        "key": "WSC-1402",
+        "url": "https://e2x.atlassian.net/browse/WSC-1402",
+        "summary": "MAIN BAG - Promo Saving styling amends",
+        "status": "QA Approved",
+        "statusCategory": "indeterminate",
+        "assignee": "Gerardo Romero",
+        "updated": "2026-07-02T21:40:52.536+0100",
+        "priority": "Poco importante",
+        "labels": [
+          "Needs-QA"
+        ]
+      },
+      {
+        "key": "WSC-1529",
+        "url": "https://e2x.atlassian.net/browse/WSC-1529",
+        "summary": "BAG - Currency Guard when changing locales",
+        "status": "QA Approved",
+        "statusCategory": "indeterminate",
+        "assignee": "Gerardo Romero",
+        "updated": "2026-07-02T21:30:00.664+0100",
+        "priority": "Poco importante",
+        "labels": [
+          "Needs-QA"
+        ]
+      },
+      {
+        "key": "WSC-1554",
+        "url": "https://e2x.atlassian.net/browse/WSC-1554",
+        "summary": "CHECKOUT - add 'locker' as a type for Parcelshop",
+        "status": "QA Approved",
+        "statusCategory": "indeterminate",
+        "assignee": "Gerardo Romero",
+        "updated": "2026-07-02T21:13:22.359+0100",
+        "priority": "Poco importante",
+        "labels": [
+          "Needs-QA"
+        ]
+      },
+      {
+        "key": "WSC-1528",
+        "url": "https://e2x.atlassian.net/browse/WSC-1528",
+        "summary": "CHECKOUT - change product sort order in order summary",
+        "status": "QA Approved",
+        "statusCategory": "indeterminate",
+        "assignee": "Gerardo Romero",
+        "updated": "2026-07-02T21:05:46.412+0100",
+        "priority": "Poco importante",
+        "labels": [
+          "Needs-QA"
+        ]
+      },
+      {
+        "key": "WSC-1538",
+        "url": "https://e2x.atlassian.net/browse/WSC-1538",
+        "summary": "SHOP PAGE - minor amendment",
+        "status": "IN UAT",
+        "statusCategory": "indeterminate",
+        "assignee": "Ingrith Santamaria",
+        "updated": "2026-07-02T20:37:18.772+0100",
+        "priority": "Poco importante",
+        "labels": [
+          "Needs-QA"
+        ]
+      },
+      {
+        "key": "WSC-1488",
+        "url": "https://e2x.atlassian.net/browse/WSC-1488",
+        "summary": "CHECKOUT - amend error message styling",
+        "status": "IN UAT",
+        "statusCategory": "indeterminate",
+        "assignee": "Gerardo Romero",
+        "updated": "2026-07-02T20:33:35.219+0100",
+        "priority": "Poco importante",
+        "labels": [
+          "Needs-QA"
+        ]
+      },
+      {
+        "key": "WSC-1545",
+        "url": "https://e2x.atlassian.net/browse/WSC-1545",
+        "summary": "PLP - fix price for gift and e-gift cards",
         "status": "En curso",
         "statusCategory": "indeterminate",
         "assignee": "Jair Huaman",
-        "updated": "2026-07-02T18:15:00.981+0100",
+        "updated": "2026-07-02T20:15:34.360+0100",
+        "priority": "Poco importante",
+        "labels": []
+      },
+      {
+        "key": "WSC-1580",
+        "url": "https://e2x.atlassian.net/browse/WSC-1580",
+        "summary": "SITESPECT - deploy to Production",
+        "status": "Listo",
+        "statusCategory": "new",
+        "assignee": "Jair Huaman",
+        "updated": "2026-07-02T20:15:10.373+0100",
         "priority": "Importante",
         "labels": []
+      },
+      {
+        "key": "WSC-1588",
+        "url": "https://e2x.atlassian.net/browse/WSC-1588",
+        "summary": "[Header] Clicking account icon in non-UK locales forcefully logs user out instead of navigating to /my-account",
+        "status": "En curso",
+        "statusCategory": "indeterminate",
+        "assignee": "Williams Colmenares",
+        "updated": "2026-07-02T19:10:25.542+0100",
+        "priority": "Importante",
+        "labels": [
+          "Needs-QA"
+        ]
+      },
+      {
+        "key": "WSC-1495",
+        "url": "https://e2x.atlassian.net/browse/WSC-1495",
+        "summary": "Reimplementation: consolidate coupons to be per value in BC",
+        "status": "PENDING DEV DEPLOY",
+        "statusCategory": "new",
+        "assignee": "Jair Huaman",
+        "updated": "2026-07-02T18:55:24.087+0100",
+        "priority": "Importante",
+        "labels": [
+          "FastFollow",
+          "In-UAT",
+          "Needs-QA"
+        ]
       },
       {
         "key": "WSC-1569",
@@ -41,19 +158,6 @@
         "assignee": "Gerardo Romero",
         "updated": "2026-07-02T18:12:45.790+0100",
         "priority": "Cr\u00edtica",
-        "labels": [
-          "Needs-QA"
-        ]
-      },
-      {
-        "key": "WSC-1488",
-        "url": "https://e2x.atlassian.net/browse/WSC-1488",
-        "summary": "CHECKOUT - amend error message styling",
-        "status": "QA Approved",
-        "statusCategory": "indeterminate",
-        "assignee": "Gerardo Romero",
-        "updated": "2026-07-02T17:37:52.293+0100",
-        "priority": "Poco importante",
         "labels": [
           "Needs-QA"
         ]
@@ -81,32 +185,6 @@
         "updated": "2026-07-02T17:35:16.965+0100",
         "priority": "Importante",
         "labels": []
-      },
-      {
-        "key": "WSC-1545",
-        "url": "https://e2x.atlassian.net/browse/WSC-1545",
-        "summary": "PLP - fix price for gift and e-gift cards",
-        "status": "Listo",
-        "statusCategory": "new",
-        "assignee": "Jair Huaman",
-        "updated": "2026-07-02T16:33:49.956+0100",
-        "priority": "Poco importante",
-        "labels": []
-      },
-      {
-        "key": "WSC-1495",
-        "url": "https://e2x.atlassian.net/browse/WSC-1495",
-        "summary": "Reimplementation: consolidate coupons to be per value in BC",
-        "status": "Listo",
-        "statusCategory": "new",
-        "assignee": "Jair Huaman",
-        "updated": "2026-07-02T16:33:09.458+0100",
-        "priority": "Importante",
-        "labels": [
-          "FastFollow",
-          "In-UAT",
-          "Needs-QA"
-        ]
       },
       {
         "key": "WSC-1542",
@@ -143,19 +221,6 @@
         "updated": "2026-07-02T14:53:55.059+0100",
         "priority": "Importante",
         "labels": []
-      },
-      {
-        "key": "WSC-1402",
-        "url": "https://e2x.atlassian.net/browse/WSC-1402",
-        "summary": "MAIN BAG - Promo Saving styling amends",
-        "status": "QA Approved",
-        "statusCategory": "indeterminate",
-        "assignee": "Gerardo Romero",
-        "updated": "2026-07-02T14:16:38.811+0100",
-        "priority": "Poco importante",
-        "labels": [
-          "Needs-QA"
-        ]
       },
       {
         "key": "WSC-1412",
@@ -283,19 +348,6 @@
         ]
       },
       {
-        "key": "WSC-1554",
-        "url": "https://e2x.atlassian.net/browse/WSC-1554",
-        "summary": "CHECKOUT - add 'locker' as a type for Parcelshop",
-        "status": "QA Approved",
-        "statusCategory": "indeterminate",
-        "assignee": "Gerardo Romero",
-        "updated": "2026-07-01T19:28:07.404+0100",
-        "priority": "Poco importante",
-        "labels": [
-          "Needs-QA"
-        ]
-      },
-      {
         "key": "WSC-1556",
         "url": "https://e2x.atlassian.net/browse/WSC-1556",
         "summary": "PDP - toggle amendment",
@@ -327,19 +379,6 @@
         "updated": "2026-07-01T19:28:05.996+0100",
         "priority": "Importante",
         "labels": []
-      },
-      {
-        "key": "WSC-1538",
-        "url": "https://e2x.atlassian.net/browse/WSC-1538",
-        "summary": "SHOP PAGE - minor amendment",
-        "status": "QA Approved",
-        "statusCategory": "indeterminate",
-        "assignee": "Ingrith Santamaria",
-        "updated": "2026-07-01T19:28:05.461+0100",
-        "priority": "Poco importante",
-        "labels": [
-          "Needs-QA"
-        ]
       },
       {
         "key": "WSC-1516",
@@ -462,32 +501,6 @@
         "labels": []
       },
       {
-        "key": "WSC-1528",
-        "url": "https://e2x.atlassian.net/browse/WSC-1528",
-        "summary": "CHECKOUT - change product sort order in order summary",
-        "status": "QA Approved",
-        "statusCategory": "indeterminate",
-        "assignee": "Gerardo Romero",
-        "updated": "2026-07-01T19:27:58.368+0100",
-        "priority": "Poco importante",
-        "labels": [
-          "Needs-QA"
-        ]
-      },
-      {
-        "key": "WSC-1529",
-        "url": "https://e2x.atlassian.net/browse/WSC-1529",
-        "summary": "BAG - Currency Guard when changing locales",
-        "status": "QA Approved",
-        "statusCategory": "indeterminate",
-        "assignee": "Gerardo Romero",
-        "updated": "2026-07-01T19:27:57.823+0100",
-        "priority": "Poco importante",
-        "labels": [
-          "Needs-QA"
-        ]
-      },
-      {
         "key": "WSC-1584",
         "url": "https://e2x.atlassian.net/browse/WSC-1584",
         "summary": "[WSSD-632][Security] Active sessions remain valid after password reset",
@@ -510,19 +523,6 @@
         "updated": "2026-07-01T19:24:48.324+0100",
         "priority": "Not Set",
         "labels": []
-      },
-      {
-        "key": "WSC-1588",
-        "url": "https://e2x.atlassian.net/browse/WSC-1588",
-        "summary": "[Header] Clicking account icon in non-UK locales forcefully logs user out instead of navigating to /my-account",
-        "status": "Listo",
-        "statusCategory": "new",
-        "assignee": "Williams Colmenares",
-        "updated": "2026-07-01T18:35:53.762+0100",
-        "priority": "Importante",
-        "labels": [
-          "Needs-QA"
-        ]
       },
       {
         "key": "WSC-1581",
