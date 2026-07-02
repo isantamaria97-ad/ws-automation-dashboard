@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-02T14:09:07.404495+00:00",
+  "lastUpdated": "2026-07-02T14:11:31.821290+00:00",
   "jira": {
     "summary": {
       "total": 271,
@@ -3352,7 +3352,7 @@
     "scope": {
       "projectId": "44",
       "automationSourceId": "19",
-      "runNamePattern": "^Regression",
+      "runNamePattern": "^Playwright E2E",
       "scopeFolderId": "20991",
       "scopeFolderName": "Regression"
     },
@@ -3447,15 +3447,118 @@
       ]
     },
     "runs": {
-      "total": 0,
-      "latestPassed": 0,
-      "latestFailed": 0,
+      "total": 6,
+      "latestPassed": 89,
+      "latestFailed": 5,
       "latestPending": 0,
-      "latestTotal": 0,
-      "latestRunName": "",
-      "latestRunDate": "",
-      "passRate": 0.0,
-      "recent": []
+      "latestTotal": 94,
+      "latestRunName": "Playwright E2E \u2014 run #10136",
+      "latestRunDate": "2026-07-01T14:40:31.584Z",
+      "passRate": 86.8,
+      "recent": [
+        {
+          "id": 4100,
+          "name": "Playwright E2E \u2014 run #10136",
+          "source_id": 19,
+          "milestone_id": null,
+          "config_id": null,
+          "status": 3,
+          "is_completed": true,
+          "elapsed_ms": 1722531619,
+          "created_at": "2026-07-01T14:40:31.584Z",
+          "completed_at": "2026-07-01T14:40:32.112Z",
+          "passed": 89,
+          "failed": 5,
+          "pending": 0,
+          "completed": 94,
+          "total": 94
+        },
+        {
+          "id": 4090,
+          "name": "Playwright E2E \u2014 run #10125",
+          "source_id": 19,
+          "milestone_id": null,
+          "config_id": null,
+          "status": 3,
+          "is_completed": true,
+          "elapsed_ms": 14829763499,
+          "created_at": "2026-06-29T18:25:26.907Z",
+          "completed_at": "2026-06-29T18:25:28.705Z",
+          "passed": 232,
+          "failed": 72,
+          "pending": 0,
+          "completed": 304,
+          "total": 304
+        },
+        {
+          "id": 4086,
+          "name": "Playwright E2E \u2014 run #10116",
+          "source_id": 19,
+          "milestone_id": null,
+          "config_id": null,
+          "status": 3,
+          "is_completed": true,
+          "elapsed_ms": 13330937990,
+          "created_at": "2026-06-29T14:43:55.568Z",
+          "completed_at": "2026-06-29T14:43:56.699Z",
+          "passed": 204,
+          "failed": 64,
+          "pending": 0,
+          "completed": 268,
+          "total": 268
+        },
+        {
+          "id": 4048,
+          "name": "Playwright E2E \u2014 run #10095",
+          "source_id": 19,
+          "milestone_id": null,
+          "config_id": null,
+          "status": 3,
+          "is_completed": true,
+          "elapsed_ms": 11324117575,
+          "created_at": "2026-06-24T23:57:30.892Z",
+          "completed_at": "2026-06-24T23:57:32.244Z",
+          "passed": 226,
+          "failed": 42,
+          "pending": 0,
+          "completed": 268,
+          "total": 268
+        },
+        {
+          "id": 4047,
+          "name": "Playwright E2E \u2014 run #10092",
+          "source_id": 19,
+          "milestone_id": null,
+          "config_id": null,
+          "status": 3,
+          "is_completed": true,
+          "elapsed_ms": 16396027124,
+          "created_at": "2026-06-24T22:43:19.860Z",
+          "completed_at": "2026-06-24T22:43:22.333Z",
+          "passed": 694,
+          "failed": 26,
+          "pending": 0,
+          "completed": 823,
+          "total": 823
+        },
+        {
+          "id": 4046,
+          "name": "Playwright E2E \u2014 run #10093",
+          "source_id": 19,
+          "milestone_id": null,
+          "config_id": null,
+          "status": 3,
+          "is_completed": true,
+          "elapsed_ms": 11591925302,
+          "created_at": "2026-06-24T22:32:08.192Z",
+          "completed_at": "2026-06-24T22:32:08.912Z",
+          "passed": 224,
+          "failed": 44,
+          "pending": 0,
+          "completed": 268,
+          "total": 268
+        }
+      ]
     },
     "cases": [
       {
