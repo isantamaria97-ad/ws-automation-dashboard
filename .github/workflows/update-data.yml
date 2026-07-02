@@ -45,8 +45,8 @@ jobs:
           JIRA_API_TOKEN: ${{ secrets.JIRA_API_TOKEN }}
           TESTMO_API_TOKEN: ${{ secrets.TESTMO_API_TOKEN }}
           TESTMO_PROJECT_ID: ${{ vars.TESTMO_PROJECT_ID || '44' }}
-          TESTMO_AUTOMATION_SOURCE_ID: ${{ vars.TESTMO_AUTOMATION_SOURCE_ID || '' }}
-          TESTMO_RUN_NAME_PATTERN: ${{ vars.TESTMO_RUN_NAME_PATTERN || '^Regression' }}
+          TESTMO_AUTOMATION_SOURCE_ID: ${{ vars.TESTMO_AUTOMATION_SOURCE_ID || '19' }}
+          TESTMO_RUN_NAME_PATTERN: ${{ vars.TESTMO_RUN_NAME_PATTERN || '^Playwright E2E' }}
           TESTMO_SCOPE_FOLDER_ID: ${{ vars.TESTMO_SCOPE_FOLDER_ID || '20991' }}
           OUTPUT_PATH: data.json
         run: python3 scripts/fetch_data.py
