@@ -1,16 +1,16 @@
 {
-  "lastUpdated": "2026-07-02T07:34:16.129497+00:00",
+  "lastUpdated": "2026-07-02T10:42:23.775007+00:00",
   "jira": {
     "summary": {
       "total": 271,
       "byStatus": {
+        "Listo": 12,
+        "Ready to QA": 1,
         "En curso": 3,
         "Tech Review": 7,
         "QA Approved": 21,
         "IN UAT": 2,
         "READY FOR RELEASE": 4,
-        "Ready to QA": 1,
-        "Listo": 12,
         "Finalizada": 198,
         "Blocked": 4,
         "Tareas por hacer": 1,
@@ -21,6 +21,30 @@
       }
     },
     "tickets": [
+      {
+        "key": "WSC-1412",
+        "url": "https://e2x.atlassian.net/browse/WSC-1412",
+        "summary": "Mobile: BREADCRUMB - amendments",
+        "status": "Listo",
+        "statusCategory": "new",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-07-02T11:25:18.126+0100",
+        "priority": "Poco importante",
+        "labels": [
+          "Needs-QA"
+        ]
+      },
+      {
+        "key": "WSC-1354",
+        "url": "https://e2x.atlassian.net/browse/WSC-1354",
+        "summary": "SHOP PAGES - Local Business schema",
+        "status": "Ready to QA",
+        "statusCategory": "new",
+        "assignee": "Rafael Paranagu\u00e1",
+        "updated": "2026-07-02T09:47:03.109+0100",
+        "priority": "Poco importante",
+        "labels": []
+      },
       {
         "key": "WSC-1542",
         "url": "https://e2x.atlassian.net/browse/WSC-1542",
@@ -132,17 +156,6 @@
         "labels": [
           "NO_QA_REQUIRED"
         ]
-      },
-      {
-        "key": "WSC-1354",
-        "url": "https://e2x.atlassian.net/browse/WSC-1354",
-        "summary": "SHOP PAGES - Local Business schema",
-        "status": "Ready to QA",
-        "statusCategory": "new",
-        "assignee": "Rafael Paranagu\u00e1",
-        "updated": "2026-07-01T19:28:09.153+0100",
-        "priority": "Poco importante",
-        "labels": []
       },
       {
         "key": "WSC-1552",
@@ -560,19 +573,6 @@
         "updated": "2026-06-30T18:01:50.956+0100",
         "priority": "Importante",
         "labels": []
-      },
-      {
-        "key": "WSC-1412",
-        "url": "https://e2x.atlassian.net/browse/WSC-1412",
-        "summary": "Mobile: BREADCRUMB - amendments",
-        "status": "Listo",
-        "statusCategory": "new",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-06-30T16:43:03.488+0100",
-        "priority": "Poco importante",
-        "labels": [
-          "Needs-QA"
-        ]
       },
       {
         "key": "WSC-1575",
