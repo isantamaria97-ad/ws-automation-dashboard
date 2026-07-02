@@ -1,14 +1,14 @@
 {
-  "lastUpdated": "2026-07-02T10:42:23.775007+00:00",
+  "lastUpdated": "2026-07-02T13:55:12.633649+00:00",
   "jira": {
     "summary": {
       "total": 271,
       "byStatus": {
-        "Listo": 12,
-        "Ready to QA": 1,
-        "En curso": 3,
-        "Tech Review": 7,
+        "En curso": 4,
         "QA Approved": 21,
+        "Ready to QA": 1,
+        "Listo": 11,
+        "Tech Review": 7,
         "IN UAT": 2,
         "READY FOR RELEASE": 4,
         "Finalizada": 198,
@@ -22,13 +22,24 @@
     },
     "tickets": [
       {
-        "key": "WSC-1412",
-        "url": "https://e2x.atlassian.net/browse/WSC-1412",
-        "summary": "Mobile: BREADCRUMB - amendments",
-        "status": "Listo",
-        "statusCategory": "new",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-07-02T11:25:18.126+0100",
+        "key": "WSC-1586",
+        "url": "https://e2x.atlassian.net/browse/WSC-1586",
+        "summary": "PDP - toggle amends 2",
+        "status": "En curso",
+        "statusCategory": "indeterminate",
+        "assignee": "Alexander Talavera",
+        "updated": "2026-07-02T14:53:55.059+0100",
+        "priority": "Importante",
+        "labels": []
+      },
+      {
+        "key": "WSC-1402",
+        "url": "https://e2x.atlassian.net/browse/WSC-1402",
+        "summary": "MAIN BAG - Promo Saving styling amends",
+        "status": "QA Approved",
+        "statusCategory": "indeterminate",
+        "assignee": "Gerardo Romero",
+        "updated": "2026-07-02T14:16:38.811+0100",
         "priority": "Poco importante",
         "labels": [
           "Needs-QA"
@@ -41,9 +52,22 @@
         "status": "Ready to QA",
         "statusCategory": "new",
         "assignee": "Rafael Paranagu\u00e1",
-        "updated": "2026-07-02T09:47:03.109+0100",
+        "updated": "2026-07-02T11:55:32.171+0100",
         "priority": "Poco importante",
         "labels": []
+      },
+      {
+        "key": "WSC-1412",
+        "url": "https://e2x.atlassian.net/browse/WSC-1412",
+        "summary": "Mobile: BREADCRUMB - amendments",
+        "status": "Listo",
+        "statusCategory": "new",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-07-02T11:25:18.126+0100",
+        "priority": "Poco importante",
+        "labels": [
+          "Needs-QA"
+        ]
       },
       {
         "key": "WSC-1542",
@@ -93,19 +117,6 @@
         "updated": "2026-07-01T20:21:45.225+0100",
         "priority": "Importante",
         "labels": []
-      },
-      {
-        "key": "WSC-1402",
-        "url": "https://e2x.atlassian.net/browse/WSC-1402",
-        "summary": "MAIN BAG - Promo Saving styling amends",
-        "status": "QA Approved",
-        "statusCategory": "indeterminate",
-        "assignee": "Gerardo Romero",
-        "updated": "2026-07-01T20:16:02.635+0100",
-        "priority": "Poco importante",
-        "labels": [
-          "Needs-QA"
-        ]
       },
       {
         "key": "WSC-1393",
@@ -586,17 +597,6 @@
         "labels": [
           "Needs-QA"
         ]
-      },
-      {
-        "key": "WSC-1586",
-        "url": "https://e2x.atlassian.net/browse/WSC-1586",
-        "summary": "PDP - toggle amends 2",
-        "status": "Listo",
-        "statusCategory": "new",
-        "assignee": "Alexander Talavera",
-        "updated": "2026-06-30T16:42:59.421+0100",
-        "priority": "Importante",
-        "labels": []
       },
       {
         "key": "WSC-1577",
@@ -3351,7 +3351,7 @@
   "testmo": {
     "scope": {
       "projectId": "44",
-      "automationSourceId": "",
+      "automationSourceId": "19",
       "runNamePattern": "^Regression",
       "scopeFolderId": "20991",
       "scopeFolderName": "Regression"
@@ -3447,186 +3447,15 @@
       ]
     },
     "runs": {
-      "total": 36,
-      "latestPassed": 10,
+      "total": 0,
+      "latestPassed": 0,
       "latestFailed": 0,
       "latestPending": 0,
-      "latestTotal": 10,
-      "latestRunName": "Regression 01/07/2026",
-      "latestRunDate": "2026-07-01T12:33:33.451Z",
-      "passRate": 99.7,
-      "recent": [
-        {
-          "id": 1865,
-          "name": "Regression 01/07/2026",
-          "source_id": null,
-          "milestone_id": 225,
-          "config_id": 14,
-          "status": null,
-          "is_completed": false,
-          "elapsed_ms": null,
-          "created_at": "2026-07-01T12:33:33.451Z",
-          "completed_at": null,
-          "passed": 10,
-          "failed": 0,
-          "pending": 0,
-          "completed": 10,
-          "total": 10
-        },
-        {
-          "id": 1864,
-          "name": "Regression 01/07/2026",
-          "source_id": null,
-          "milestone_id": 225,
-          "config_id": 13,
-          "status": null,
-          "is_completed": false,
-          "elapsed_ms": null,
-          "created_at": "2026-07-01T12:33:33.449Z",
-          "completed_at": null,
-          "passed": 10,
-          "failed": 0,
-          "pending": 0,
-          "completed": 10,
-          "total": 10
-        },
-        {
-          "id": 1863,
-          "name": "Regression 01/07/2026",
-          "source_id": null,
-          "milestone_id": 225,
-          "config_id": 10,
-          "status": null,
-          "is_completed": false,
-          "elapsed_ms": null,
-          "created_at": "2026-07-01T12:33:33.446Z",
-          "completed_at": null,
-          "passed": 10,
-          "failed": 0,
-          "pending": 0,
-          "completed": 10,
-          "total": 10
-        },
-        {
-          "id": 1862,
-          "name": "Regression 01/07/2026",
-          "source_id": null,
-          "milestone_id": 225,
-          "config_id": 9,
-          "status": null,
-          "is_completed": false,
-          "elapsed_ms": null,
-          "created_at": "2026-07-01T12:33:33.444Z",
-          "completed_at": null,
-          "passed": 10,
-          "failed": 0,
-          "pending": 0,
-          "completed": 10,
-          "total": 10
-        },
-        {
-          "id": 1856,
-          "name": "Regression 26/06/26",
-          "source_id": null,
-          "milestone_id": 224,
-          "config_id": 14,
-          "status": null,
-          "is_completed": false,
-          "elapsed_ms": null,
-          "created_at": "2026-06-26T20:46:15.945Z",
-          "completed_at": null,
-          "passed": 66,
-          "failed": 0,
-          "pending": 0,
-          "completed": 68,
-          "total": 68
-        },
-        {
-          "id": 1855,
-          "name": "Regression 26/06/26",
-          "source_id": null,
-          "milestone_id": 224,
-          "config_id": 13,
-          "status": null,
-          "is_completed": false,
-          "elapsed_ms": null,
-          "created_at": "2026-06-26T20:46:15.939Z",
-          "completed_at": null,
-          "passed": 66,
-          "failed": 0,
-          "pending": 0,
-          "completed": 68,
-          "total": 68
-        },
-        {
-          "id": 1854,
-          "name": "Regression 26/06/26",
-          "source_id": null,
-          "milestone_id": 224,
-          "config_id": 10,
-          "status": null,
-          "is_completed": false,
-          "elapsed_ms": null,
-          "created_at": "2026-06-26T20:46:15.934Z",
-          "completed_at": null,
-          "passed": 68,
-          "failed": 0,
-          "pending": 0,
-          "completed": 68,
-          "total": 68
-        },
-        {
-          "id": 1853,
-          "name": "Regression 26/06/26",
-          "source_id": null,
-          "milestone_id": 224,
-          "config_id": 9,
-          "status": null,
-          "is_completed": false,
-          "elapsed_ms": null,
-          "created_at": "2026-06-26T20:46:15.926Z",
-          "completed_at": null,
-          "passed": 68,
-          "failed": 0,
-          "pending": 0,
-          "completed": 68,
-          "total": 68
-        },
-        {
-          "id": 1814,
-          "name": "Regression 18/06/26",
-          "source_id": null,
-          "milestone_id": 221,
-          "config_id": 14,
-          "status": null,
-          "is_completed": false,
-          "elapsed_ms": null,
-          "created_at": "2026-06-18T14:56:48.342Z",
-          "completed_at": null,
-          "passed": 65,
-          "failed": 0,
-          "pending": 0,
-          "completed": 65,
-          "total": 65
-        },
-        {
-          "id": 1813,
-          "name": "Regression 18/06/26",
-          "source_id": null,
-          "milestone_id": 221,
-          "config_id": 13,
-          "status": null,
-          "is_completed": false,
-          "elapsed_ms": null,
-          "created_at": "2026-06-18T14:56:48.334Z",
-          "completed_at": null,
-          "passed": 65,
-          "failed": 0,
-          "pending": 0,
-          "completed": 65,
-          "total": 65
-        }
-      ]
+      "latestTotal": 0,
+      "latestRunName": "",
+      "latestRunDate": "",
+      "passRate": 0.0,
+      "recent": []
     },
     "cases": [
       {
