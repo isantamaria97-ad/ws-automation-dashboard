@@ -1,18 +1,18 @@
 {
-  "lastUpdated": "2026-07-03T10:37:30.234617+00:00",
+  "lastUpdated": "2026-07-03T14:08:31.468699+00:00",
   "jira": {
     "summary": {
       "total": 271,
       "byStatus": {
+        "En curso": 3,
+        "Tech Review": 9,
+        "Listo": 9,
         "Ready to QA": 1,
         "QA Approved": 17,
         "IN UAT": 5,
-        "En curso": 4,
-        "Listo": 9,
         "PENDING DEV DEPLOY": 3,
         "Finalizada": 199,
         "Blocked": 4,
-        "Tech Review": 8,
         "READY FOR RELEASE": 4,
         "Tareas por hacer": 1,
         "Ready for Refinement": 3,
@@ -21,6 +21,52 @@
       }
     },
     "tickets": [
+      {
+        "key": "WSC-1586",
+        "url": "https://e2x.atlassian.net/browse/WSC-1586",
+        "summary": "PDP - toggle amends 2",
+        "status": "En curso",
+        "statusCategory": "indeterminate",
+        "assignee": "Williams Colmenares",
+        "updated": "2026-07-03T15:05:56.951+0100",
+        "priority": "Importante",
+        "labels": []
+      },
+      {
+        "key": "WSC-1588",
+        "url": "https://e2x.atlassian.net/browse/WSC-1588",
+        "summary": "[Header] Clicking account icon in non-UK locales forcefully logs user out instead of navigating to /my-account",
+        "status": "Tech Review",
+        "statusCategory": "indeterminate",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-07-03T15:05:31.031+0100",
+        "priority": "Importante",
+        "labels": [
+          "Needs-QA"
+        ]
+      },
+      {
+        "key": "WSC-1522",
+        "url": "https://e2x.atlassian.net/browse/WSC-1522",
+        "summary": "CONTENT - Personalisation",
+        "status": "En curso",
+        "statusCategory": "indeterminate",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-07-03T13:17:47.710+0100",
+        "priority": "Importante",
+        "labels": []
+      },
+      {
+        "key": "WSC-1580",
+        "url": "https://e2x.atlassian.net/browse/WSC-1580",
+        "summary": "SITESPECT - deploy to Production",
+        "status": "Listo",
+        "statusCategory": "new",
+        "assignee": "Jair Huaman",
+        "updated": "2026-07-03T13:16:20.458+0100",
+        "priority": "Importante",
+        "labels": []
+      },
       {
         "key": "WSC-1354",
         "url": "https://e2x.atlassian.net/browse/WSC-1354",
@@ -122,30 +168,6 @@
         "labels": []
       },
       {
-        "key": "WSC-1580",
-        "url": "https://e2x.atlassian.net/browse/WSC-1580",
-        "summary": "SITESPECT - deploy to Production",
-        "status": "Listo",
-        "statusCategory": "new",
-        "assignee": "Jair Huaman",
-        "updated": "2026-07-02T20:15:10.373+0100",
-        "priority": "Importante",
-        "labels": []
-      },
-      {
-        "key": "WSC-1588",
-        "url": "https://e2x.atlassian.net/browse/WSC-1588",
-        "summary": "[Header] Clicking account icon in non-UK locales forcefully logs user out instead of navigating to /my-account",
-        "status": "En curso",
-        "statusCategory": "indeterminate",
-        "assignee": "Williams Colmenares",
-        "updated": "2026-07-02T19:10:25.542+0100",
-        "priority": "Importante",
-        "labels": [
-          "Needs-QA"
-        ]
-      },
-      {
         "key": "WSC-1495",
         "url": "https://e2x.atlassian.net/browse/WSC-1495",
         "summary": "Reimplementation: consolidate coupons to be per value in BC",
@@ -210,17 +232,6 @@
           "Needs-QA",
           "manualQA"
         ]
-      },
-      {
-        "key": "WSC-1586",
-        "url": "https://e2x.atlassian.net/browse/WSC-1586",
-        "summary": "PDP - toggle amends 2",
-        "status": "En curso",
-        "statusCategory": "indeterminate",
-        "assignee": "Alexander Talavera",
-        "updated": "2026-07-02T14:53:55.059+0100",
-        "priority": "Importante",
-        "labels": []
       },
       {
         "key": "WSC-1412",
@@ -547,17 +558,6 @@
         "labels": [
           "Needs-QA"
         ]
-      },
-      {
-        "key": "WSC-1522",
-        "url": "https://e2x.atlassian.net/browse/WSC-1522",
-        "summary": "CONTENT - Personalisation",
-        "status": "En curso",
-        "statusCategory": "indeterminate",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-07-01T15:25:03.908+0100",
-        "priority": "Importante",
-        "labels": []
       },
       {
         "key": "WSC-1571",
@@ -3484,10 +3484,10 @@
           "elapsed_ms": null,
           "created_at": "2026-07-02T15:44:28.998Z",
           "completed_at": null,
-          "passed": 0,
+          "passed": 25,
           "failed": 0,
-          "pending": 74,
-          "completed": 0,
+          "pending": 49,
+          "completed": 25,
           "total": 74
         },
         {
