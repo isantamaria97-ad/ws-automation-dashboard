@@ -1,16 +1,16 @@
 {
-  "lastUpdated": "2026-07-03T17:27:14.995468+00:00",
+  "lastUpdated": "2026-07-03T21:09:00.451169+00:00",
   "jira": {
     "summary": {
       "total": 271,
       "byStatus": {
-        "PENDING DEV DEPLOY": 3,
+        "IN UAT": 5,
+        "QA Approved": 17,
         "En curso": 3,
+        "PENDING DEV DEPLOY": 3,
         "Tech Review": 9,
         "Listo": 9,
         "Ready to QA": 1,
-        "QA Approved": 17,
-        "IN UAT": 5,
         "Finalizada": 199,
         "Blocked": 4,
         "READY FOR RELEASE": 4,
@@ -21,6 +21,87 @@
       }
     },
     "tickets": [
+      {
+        "key": "WSC-1538",
+        "url": "https://e2x.atlassian.net/browse/WSC-1538",
+        "summary": "SHOP PAGE - minor amendment",
+        "status": "IN UAT",
+        "statusCategory": "indeterminate",
+        "assignee": "Ingrith Santamaria",
+        "updated": "2026-07-03T20:32:12.496+0100",
+        "priority": "Poco importante",
+        "labels": [
+          "Needs-QA"
+        ]
+      },
+      {
+        "key": "WSC-1551",
+        "url": "https://e2x.atlassian.net/browse/WSC-1551",
+        "summary": "CONTENT - PLP Header amends",
+        "status": "QA Approved",
+        "statusCategory": "indeterminate",
+        "assignee": "Ingrith Santamaria",
+        "updated": "2026-07-03T20:31:47.869+0100",
+        "priority": "Poco importante",
+        "labels": []
+      },
+      {
+        "key": "WSC-1556",
+        "url": "https://e2x.atlassian.net/browse/WSC-1556",
+        "summary": "PDP - toggle amendment",
+        "status": "QA Approved",
+        "statusCategory": "indeterminate",
+        "assignee": "Ingrith Santamaria",
+        "updated": "2026-07-03T20:30:03.992+0100",
+        "priority": "Importante",
+        "labels": []
+      },
+      {
+        "key": "WSC-1585",
+        "url": "https://e2x.atlassian.net/browse/WSC-1585",
+        "summary": "SlimBanner: Exclude browse/sale or sale from the PLP page option",
+        "status": "QA Approved",
+        "statusCategory": "indeterminate",
+        "assignee": "Ingrith Santamaria",
+        "updated": "2026-07-03T20:28:54.903+0100",
+        "priority": "Importante",
+        "labels": []
+      },
+      {
+        "key": "WSC-1564",
+        "url": "https://e2x.atlassian.net/browse/WSC-1564",
+        "summary": "PLP - remove review stars div",
+        "status": "QA Approved",
+        "statusCategory": "indeterminate",
+        "assignee": "Ingrith Santamaria",
+        "updated": "2026-07-03T20:28:33.559+0100",
+        "priority": "Poco importante",
+        "labels": [
+          "Needs-QA"
+        ]
+      },
+      {
+        "key": "WSC-1522",
+        "url": "https://e2x.atlassian.net/browse/WSC-1522",
+        "summary": "CONTENT - Personalisation",
+        "status": "En curso",
+        "statusCategory": "indeterminate",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-07-03T19:14:08.303+0100",
+        "priority": "Importante",
+        "labels": []
+      },
+      {
+        "key": "WSC-1586",
+        "url": "https://e2x.atlassian.net/browse/WSC-1586",
+        "summary": "PDP - toggle amends 2",
+        "status": "En curso",
+        "statusCategory": "indeterminate",
+        "assignee": "Williams Colmenares",
+        "updated": "2026-07-03T18:51:17.119+0100",
+        "priority": "Importante",
+        "labels": []
+      },
       {
         "key": "WSC-1495",
         "url": "https://e2x.atlassian.net/browse/WSC-1495",
@@ -37,17 +118,6 @@
         ]
       },
       {
-        "key": "WSC-1586",
-        "url": "https://e2x.atlassian.net/browse/WSC-1586",
-        "summary": "PDP - toggle amends 2",
-        "status": "En curso",
-        "statusCategory": "indeterminate",
-        "assignee": "Williams Colmenares",
-        "updated": "2026-07-03T15:05:56.951+0100",
-        "priority": "Importante",
-        "labels": []
-      },
-      {
         "key": "WSC-1588",
         "url": "https://e2x.atlassian.net/browse/WSC-1588",
         "summary": "[Header] Clicking account icon in non-UK locales forcefully logs user out instead of navigating to /my-account",
@@ -59,17 +129,6 @@
         "labels": [
           "Needs-QA"
         ]
-      },
-      {
-        "key": "WSC-1522",
-        "url": "https://e2x.atlassian.net/browse/WSC-1522",
-        "summary": "CONTENT - Personalisation",
-        "status": "En curso",
-        "statusCategory": "indeterminate",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-07-03T13:17:47.710+0100",
-        "priority": "Importante",
-        "labels": []
       },
       {
         "key": "WSC-1580",
@@ -140,19 +199,6 @@
         "statusCategory": "indeterminate",
         "assignee": "Gerardo Romero",
         "updated": "2026-07-02T21:05:46.412+0100",
-        "priority": "Poco importante",
-        "labels": [
-          "Needs-QA"
-        ]
-      },
-      {
-        "key": "WSC-1538",
-        "url": "https://e2x.atlassian.net/browse/WSC-1538",
-        "summary": "SHOP PAGE - minor amendment",
-        "status": "IN UAT",
-        "statusCategory": "indeterminate",
-        "assignee": "Ingrith Santamaria",
-        "updated": "2026-07-02T20:37:18.772+0100",
         "priority": "Poco importante",
         "labels": [
           "Needs-QA"
@@ -295,17 +341,6 @@
         ]
       },
       {
-        "key": "WSC-1551",
-        "url": "https://e2x.atlassian.net/browse/WSC-1551",
-        "summary": "CONTENT - PLP Header amends",
-        "status": "QA Approved",
-        "statusCategory": "indeterminate",
-        "assignee": "Ingrith Santamaria",
-        "updated": "2026-07-01T19:28:10.093+0100",
-        "priority": "Poco importante",
-        "labels": []
-      },
-      {
         "key": "WSC-1573",
         "url": "https://e2x.atlassian.net/browse/WSC-1573",
         "summary": "Pass browser userAgent to Constructor during SSR",
@@ -357,17 +392,6 @@
           "FastFollow",
           "Needs-QA"
         ]
-      },
-      {
-        "key": "WSC-1556",
-        "url": "https://e2x.atlassian.net/browse/WSC-1556",
-        "summary": "PDP - toggle amendment",
-        "status": "QA Approved",
-        "statusCategory": "indeterminate",
-        "assignee": "Ingrith Santamaria",
-        "updated": "2026-07-01T19:28:06.888+0100",
-        "priority": "Importante",
-        "labels": []
       },
       {
         "key": "WSC-1558",
@@ -475,30 +499,6 @@
         "updated": "2026-07-01T19:28:02.043+0100",
         "priority": "Not Set",
         "labels": []
-      },
-      {
-        "key": "WSC-1585",
-        "url": "https://e2x.atlassian.net/browse/WSC-1585",
-        "summary": "SlimBanner: Exclude browse/sale or sale from the PLP page option",
-        "status": "QA Approved",
-        "statusCategory": "indeterminate",
-        "assignee": "Ingrith Santamaria",
-        "updated": "2026-07-01T19:28:01.562+0100",
-        "priority": "Importante",
-        "labels": []
-      },
-      {
-        "key": "WSC-1564",
-        "url": "https://e2x.atlassian.net/browse/WSC-1564",
-        "summary": "PLP - remove review stars div",
-        "status": "QA Approved",
-        "statusCategory": "indeterminate",
-        "assignee": "Ingrith Santamaria",
-        "updated": "2026-07-01T19:28:01.052+0100",
-        "priority": "Poco importante",
-        "labels": [
-          "Needs-QA"
-        ]
       },
       {
         "key": "WSC-1566",
@@ -3448,9 +3448,9 @@
     },
     "runs": {
       "total": 40,
-      "latestPassed": 1,
+      "latestPassed": 74,
       "latestFailed": 0,
-      "latestPending": 73,
+      "latestPending": 0,
       "latestTotal": 74,
       "latestRunName": "Regression 02/07/26",
       "latestRunDate": "2026-07-02T15:44:29.008Z",
@@ -3467,10 +3467,10 @@
           "elapsed_ms": null,
           "created_at": "2026-07-02T15:44:29.008Z",
           "completed_at": null,
-          "passed": 1,
+          "passed": 74,
           "failed": 0,
-          "pending": 73,
-          "completed": 1,
+          "pending": 0,
+          "completed": 74,
           "total": 74
         },
         {
@@ -3484,10 +3484,10 @@
           "elapsed_ms": null,
           "created_at": "2026-07-02T15:44:28.998Z",
           "completed_at": null,
-          "passed": 50,
+          "passed": 74,
           "failed": 0,
-          "pending": 24,
-          "completed": 50,
+          "pending": 0,
+          "completed": 74,
           "total": 74
         },
         {
@@ -3501,10 +3501,10 @@
           "elapsed_ms": null,
           "created_at": "2026-07-02T15:44:28.987Z",
           "completed_at": null,
-          "passed": 0,
+          "passed": 74,
           "failed": 0,
-          "pending": 74,
-          "completed": 0,
+          "pending": 0,
+          "completed": 74,
           "total": 74
         },
         {
@@ -3518,10 +3518,10 @@
           "elapsed_ms": null,
           "created_at": "2026-07-02T15:44:28.973Z",
           "completed_at": null,
-          "passed": 2,
+          "passed": 74,
           "failed": 0,
-          "pending": 72,
-          "completed": 2,
+          "pending": 0,
+          "completed": 74,
           "total": 74
         },
         {
