@@ -1,9 +1,10 @@
 {
-  "lastUpdated": "2026-07-02T21:09:22.900455+00:00",
+  "lastUpdated": "2026-07-03T03:24:42.035898+00:00",
   "jira": {
     "summary": {
       "total": 271,
       "byStatus": {
+        "Ready to QA": 1,
         "QA Approved": 17,
         "IN UAT": 5,
         "En curso": 4,
@@ -12,7 +13,6 @@
         "Finalizada": 199,
         "Blocked": 4,
         "Tech Review": 8,
-        "Ready to QA": 1,
         "READY FOR RELEASE": 4,
         "Tareas por hacer": 1,
         "Ready for Refinement": 3,
@@ -21,6 +21,17 @@
       }
     },
     "tickets": [
+      {
+        "key": "WSC-1354",
+        "url": "https://e2x.atlassian.net/browse/WSC-1354",
+        "summary": "SHOP PAGES - Local Business schema",
+        "status": "Ready to QA",
+        "statusCategory": "new",
+        "assignee": "Rafael Paranagu\u00e1",
+        "updated": "2026-07-03T00:39:33.727+0100",
+        "priority": "Poco importante",
+        "labels": []
+      },
       {
         "key": "WSC-1402",
         "url": "https://e2x.atlassian.net/browse/WSC-1402",
@@ -199,17 +210,6 @@
           "Needs-QA",
           "manualQA"
         ]
-      },
-      {
-        "key": "WSC-1354",
-        "url": "https://e2x.atlassian.net/browse/WSC-1354",
-        "summary": "SHOP PAGES - Local Business schema",
-        "status": "Ready to QA",
-        "statusCategory": "new",
-        "assignee": "Rafael Paranagu\u00e1",
-        "updated": "2026-07-02T16:29:01.605+0100",
-        "priority": "Poco importante",
-        "labels": []
       },
       {
         "key": "WSC-1586",
