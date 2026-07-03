@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-03T12:26:50.818608+00:00",
+  "lastUpdated": "2026-07-03T14:53:20.100788+00:00",
   "milestones": [
     {
       "id": 227,
@@ -204,9 +204,9 @@
       "closed_at": null,
       "elapsed_ms": null,
       "total": 74,
-      "completed": 0,
-      "remaining": 74,
-      "passed": 0,
+      "completed": 25,
+      "remaining": 49,
+      "passed": 25,
       "failed": 0,
       "retest": 0,
       "blocked": 0,
@@ -219,7 +219,7 @@
         },
         "Passed": {
           "id": 2,
-          "count": 0
+          "count": 25
         },
         "Failed": {
           "id": 3,
@@ -312,7 +312,283 @@
       },
       "config": "Safari, Desktop",
       "url": "https://applydigital.testmo.net/runs/view/1870",
-      "cases": []
+      "cases": [
+        {
+          "caseId": 114304,
+          "testId": 1609315,
+          "name": "Add To Bag - Checkout Button Navigates To Checkout",
+          "tags": [],
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-07-03T13:03:03.238Z"
+        },
+        {
+          "caseId": 114302,
+          "testId": 1609313,
+          "name": "Add To Bag - Confirmation Modal Is Displayed With Correct Product Details",
+          "tags": [],
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-07-03T13:03:03.238Z"
+        },
+        {
+          "caseId": 114303,
+          "testId": 1609314,
+          "name": "Add To Bag - View Bag Button Navigates To Bag Page",
+          "tags": [],
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-07-03T13:03:03.238Z"
+        },
+        {
+          "caseId": 114290,
+          "testId": 1609303,
+          "name": "Email Address Persists When Navigating To Reset Password From Checkout Identity Page",
+          "tags": [],
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-07-03T13:03:03.238Z"
+        },
+        {
+          "caseId": 114289,
+          "testId": 1609302,
+          "name": "Email Address Persists When Navigating To Reset Password From Login Page",
+          "tags": [],
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-07-03T13:03:03.238Z"
+        },
+        {
+          "caseId": 114313,
+          "testId": 1609323,
+          "name": "PLP - User Can Click Product Image To Navigate To PDP",
+          "tags": [],
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-07-03T13:03:03.238Z"
+        },
+        {
+          "caseId": 114312,
+          "testId": 1609322,
+          "name": "PLP - User Can Click Product Name To Navigate To PDP",
+          "tags": [],
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-07-03T13:03:03.238Z"
+        },
+        {
+          "caseId": 114314,
+          "testId": 1609324,
+          "name": "PLP - User Can See Correct Product Price Per Locale",
+          "tags": [],
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-07-03T13:03:03.238Z"
+        },
+        {
+          "caseId": 114287,
+          "testId": 1609300,
+          "name": "User Can Register A New Account",
+          "tags": [],
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-07-03T13:03:03.238Z"
+        },
+        {
+          "caseId": 114288,
+          "testId": 1609301,
+          "name": "User Cannot Submit Registration Form With Invalid Password",
+          "tags": [],
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-07-03T13:03:03.238Z"
+        },
+        {
+          "caseId": 114301,
+          "testId": 1609312,
+          "name": "Verify Add To Bag Button Is Enabled After Selecting All Required Variants",
+          "tags": [],
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-07-03T13:03:03.238Z"
+        },
+        {
+          "caseId": 114297,
+          "testId": 1609310,
+          "name": "Verify Bag Is Empty When User Changes Currency From GBP To USD",
+          "tags": [],
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-07-03T13:03:03.238Z"
+        },
+        {
+          "caseId": 114296,
+          "testId": 1609309,
+          "name": "Verify Continue Shopping Button Redirects To Homepage",
+          "tags": [],
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-07-03T13:03:03.238Z"
+        },
+        {
+          "caseId": 114291,
+          "testId": 1609304,
+          "name": "Verify Display Of Bag Items",
+          "tags": [],
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-07-03T13:03:03.238Z"
+        },
+        {
+          "caseId": 114295,
+          "testId": 1609308,
+          "name": "Verify Empty Basket Message Is Displayed After Removing All Items",
+          "tags": [],
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-07-03T13:03:03.238Z"
+        },
+        {
+          "caseId": 114298,
+          "testId": 1609311,
+          "name": "Verify Gift Card Details Are Displayed Correctly In The Bag",
+          "tags": [],
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-07-03T13:03:03.238Z"
+        },
+        {
+          "caseId": 114293,
+          "testId": 1609306,
+          "name": "Verify Increase And Decrease Functionality Of Item Quantity In Bag",
+          "tags": [],
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-07-03T13:03:03.238Z"
+        },
+        {
+          "caseId": 114294,
+          "testId": 1609307,
+          "name": "Verify Item Is Removed When Decrease Button Is Clicked At Quantity One",
+          "tags": [],
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-07-03T13:03:03.238Z"
+        },
+        {
+          "caseId": 114292,
+          "testId": 1609305,
+          "name": "Verify Order Summary Details On The Bag Page",
+          "tags": [],
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-07-03T13:03:03.238Z"
+        },
+        {
+          "caseId": 114305,
+          "testId": 1609316,
+          "name": "Verify PDP Accordion Content Expands And Collapses Correctly",
+          "tags": [],
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-07-03T13:03:03.238Z"
+        },
+        {
+          "caseId": 114307,
+          "testId": 1609318,
+          "name": "Verify PDP Currency Is Displayed Correctly Per Locale",
+          "tags": [],
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-07-03T13:03:03.238Z"
+        },
+        {
+          "caseId": 114309,
+          "testId": 1609320,
+          "name": "Verify PDP Displays 404 Error For Non-Existent Product",
+          "tags": [],
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-07-03T13:03:03.238Z"
+        },
+        {
+          "caseId": 114306,
+          "testId": 1609317,
+          "name": "Verify PDP Variant Stock States Are Displayed Correctly",
+          "tags": [],
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-07-03T13:03:03.238Z"
+        },
+        {
+          "caseId": 114310,
+          "testId": 1609321,
+          "name": "Verify User Can Navigate Using Breadcrumb On PDP Page",
+          "tags": [],
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-07-03T13:03:03.238Z"
+        },
+        {
+          "caseId": 114308,
+          "testId": 1609319,
+          "name": "Verify User Can See Size Guide On PDP Page",
+          "tags": [],
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-07-03T13:03:03.238Z"
+        }
+      ]
     },
     {
       "id": 1869,
