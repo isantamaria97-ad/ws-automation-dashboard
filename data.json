@@ -1,16 +1,16 @@
 {
-  "lastUpdated": "2026-07-03T14:08:31.468699+00:00",
+  "lastUpdated": "2026-07-03T17:27:14.995468+00:00",
   "jira": {
     "summary": {
       "total": 271,
       "byStatus": {
+        "PENDING DEV DEPLOY": 3,
         "En curso": 3,
         "Tech Review": 9,
         "Listo": 9,
         "Ready to QA": 1,
         "QA Approved": 17,
         "IN UAT": 5,
-        "PENDING DEV DEPLOY": 3,
         "Finalizada": 199,
         "Blocked": 4,
         "READY FOR RELEASE": 4,
@@ -21,6 +21,21 @@
       }
     },
     "tickets": [
+      {
+        "key": "WSC-1495",
+        "url": "https://e2x.atlassian.net/browse/WSC-1495",
+        "summary": "Reimplementation: consolidate coupons to be per value in BC",
+        "status": "PENDING DEV DEPLOY",
+        "statusCategory": "new",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-07-03T15:11:53.007+0100",
+        "priority": "Importante",
+        "labels": [
+          "FastFollow",
+          "In-UAT",
+          "Needs-QA"
+        ]
+      },
       {
         "key": "WSC-1586",
         "url": "https://e2x.atlassian.net/browse/WSC-1586",
@@ -166,21 +181,6 @@
         "updated": "2026-07-02T20:15:34.360+0100",
         "priority": "Poco importante",
         "labels": []
-      },
-      {
-        "key": "WSC-1495",
-        "url": "https://e2x.atlassian.net/browse/WSC-1495",
-        "summary": "Reimplementation: consolidate coupons to be per value in BC",
-        "status": "PENDING DEV DEPLOY",
-        "statusCategory": "new",
-        "assignee": "Jair Huaman",
-        "updated": "2026-07-02T18:55:24.087+0100",
-        "priority": "Importante",
-        "labels": [
-          "FastFollow",
-          "In-UAT",
-          "Needs-QA"
-        ]
       },
       {
         "key": "WSC-1569",
@@ -3358,10 +3358,10 @@
     },
     "coverage": {
       "total": 74,
-      "automated": 73,
-      "notAutomated": 1,
+      "automated": 74,
+      "notAutomated": 0,
       "unclassified": 0,
-      "automatedPct": 98.6,
+      "automatedPct": 100.0,
       "byFolder": [
         {
           "folderId": null,
@@ -3385,8 +3385,8 @@
           "folderId": null,
           "name": "Other",
           "group": "Components",
-          "automated": 7,
-          "notAutomated": 1,
+          "automated": 8,
+          "notAutomated": 0,
           "unclassified": 0,
           "total": 8
         },
@@ -3448,9 +3448,9 @@
     },
     "runs": {
       "total": 40,
-      "latestPassed": 0,
+      "latestPassed": 1,
       "latestFailed": 0,
-      "latestPending": 74,
+      "latestPending": 73,
       "latestTotal": 74,
       "latestRunName": "Regression 02/07/26",
       "latestRunDate": "2026-07-02T15:44:29.008Z",
@@ -3467,10 +3467,10 @@
           "elapsed_ms": null,
           "created_at": "2026-07-02T15:44:29.008Z",
           "completed_at": null,
-          "passed": 0,
+          "passed": 1,
           "failed": 0,
-          "pending": 74,
-          "completed": 0,
+          "pending": 73,
+          "completed": 1,
           "total": 74
         },
         {
@@ -3484,10 +3484,10 @@
           "elapsed_ms": null,
           "created_at": "2026-07-02T15:44:28.998Z",
           "completed_at": null,
-          "passed": 25,
+          "passed": 50,
           "failed": 0,
-          "pending": 49,
-          "completed": 25,
+          "pending": 24,
+          "completed": 50,
           "total": 74
         },
         {
@@ -3518,10 +3518,10 @@
           "elapsed_ms": null,
           "created_at": "2026-07-02T15:44:28.973Z",
           "completed_at": null,
-          "passed": 0,
+          "passed": 2,
           "failed": 0,
-          "pending": 74,
-          "completed": 0,
+          "pending": 72,
+          "completed": 2,
           "total": 74
         },
         {
@@ -3650,7 +3650,7 @@
         "name": "EU: zone options visible; UK-only options hidden",
         "folderId": 20991,
         "folderPath": "Regression",
-        "bucket": "notAutomated",
+        "bucket": "automated",
         "priority": 2
       },
       {
