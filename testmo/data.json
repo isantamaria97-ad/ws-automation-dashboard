@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-03T14:53:20.100788+00:00",
+  "lastUpdated": "2026-07-03T16:26:45.621628+00:00",
   "milestones": [
     {
       "id": 227,
@@ -82,9 +82,9 @@
       "closed_at": null,
       "elapsed_ms": null,
       "total": 74,
-      "completed": 0,
-      "remaining": 74,
-      "passed": 0,
+      "completed": 1,
+      "remaining": 73,
+      "passed": 1,
       "failed": 0,
       "retest": 0,
       "blocked": 0,
@@ -97,7 +97,7 @@
         },
         "Passed": {
           "id": 2,
-          "count": 0
+          "count": 1
         },
         "Failed": {
           "id": 3,
@@ -190,7 +190,19 @@
       },
       "config": "Safari, Mobile",
       "url": "https://applydigital.testmo.net/runs/view/1871",
-      "cases": []
+      "cases": [
+        {
+          "caseId": 114309,
+          "testId": 1609447,
+          "name": "Verify PDP Displays 404 Error For Non-Existent Product",
+          "tags": [],
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-07-03T15:46:58.301Z"
+        }
+      ]
     },
     {
       "id": 1870,
@@ -204,9 +216,9 @@
       "closed_at": null,
       "elapsed_ms": null,
       "total": 74,
-      "completed": 25,
-      "remaining": 49,
-      "passed": 25,
+      "completed": 26,
+      "remaining": 48,
+      "passed": 26,
       "failed": 0,
       "retest": 0,
       "blocked": 0,
@@ -219,7 +231,7 @@
         },
         "Passed": {
           "id": 2,
-          "count": 25
+          "count": 26
         },
         "Failed": {
           "id": 3,
@@ -565,6 +577,17 @@
           "note": "",
           "assigneeId": null,
           "updatedAt": "2026-07-03T13:03:03.238Z"
+        },
+        {
+          "caseId": 114327,
+          "testId": 1609337,
+          "name": "Verify Signed-In User Saved Addresses Are Displayed In Delivery And Billing Sections",
+          "tags": [],
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-07-03T15:49:51.238Z"
         },
         {
           "caseId": 114310,
