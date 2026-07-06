@@ -1,25 +1,100 @@
 {
-  "lastUpdated": "2026-07-06T15:36:06.289385+00:00",
+  "lastUpdated": "2026-07-06T18:11:51.511690+00:00",
   "jira": {
     "summary": {
       "total": 271,
       "byStatus": {
+        "En curso": 3,
+        "Ready to QA": 5,
         "IN UAT": 5,
         "Deprecated": 9,
         "Tareas por hacer": 1,
         "QA Approved": 17,
-        "En curso": 3,
-        "PENDING DEV DEPLOY": 3,
-        "Tech Review": 9,
+        "Tech Review": 5,
         "Listo": 9,
         "Finalizada": 199,
         "Blocked": 4,
         "READY FOR RELEASE": 4,
         "Ready for Refinement": 3,
+        "PENDING DEV DEPLOY": 2,
         "Backlog": 5
       }
     },
     "tickets": [
+      {
+        "key": "WSC-1586",
+        "url": "https://e2x.atlassian.net/browse/WSC-1586",
+        "summary": "PDP - toggle amends 2",
+        "status": "En curso",
+        "statusCategory": "indeterminate",
+        "assignee": "Williams Colmenares",
+        "updated": "2026-07-06T18:54:16.486+0100",
+        "priority": "Importante",
+        "labels": []
+      },
+      {
+        "key": "WSC-1557",
+        "url": "https://e2x.atlassian.net/browse/WSC-1557",
+        "summary": "SEO - add H2 to product names on PLP",
+        "status": "Ready to QA",
+        "statusCategory": "new",
+        "assignee": "Gerardo Romero",
+        "updated": "2026-07-06T18:39:32.441+0100",
+        "priority": "Poco importante",
+        "labels": [
+          "Needs-QA"
+        ]
+      },
+      {
+        "key": "WSC-1574",
+        "url": "https://e2x.atlassian.net/browse/WSC-1574",
+        "summary": "CHECKOUT - wording amendment for ParcelShop",
+        "status": "Ready to QA",
+        "statusCategory": "new",
+        "assignee": "Gerardo Romero",
+        "updated": "2026-07-06T18:39:26.358+0100",
+        "priority": "Poco importante",
+        "labels": [
+          "Needs-QA"
+        ]
+      },
+      {
+        "key": "WSC-1549",
+        "url": "https://e2x.atlassian.net/browse/WSC-1549",
+        "summary": "CONSTRUCTOR",
+        "status": "Ready to QA",
+        "statusCategory": "new",
+        "assignee": "Ingrith Santamaria",
+        "updated": "2026-07-06T18:39:20.095+0100",
+        "priority": "Poco importante",
+        "labels": []
+      },
+      {
+        "key": "WSC-1405",
+        "url": "https://e2x.atlassian.net/browse/WSC-1405",
+        "summary": "BAG - savings display and checkout CTA button",
+        "status": "Ready to QA",
+        "statusCategory": "new",
+        "assignee": "Gerardo Romero",
+        "updated": "2026-07-06T18:37:06.042+0100",
+        "priority": "Poco importante",
+        "labels": []
+      },
+      {
+        "key": "WSC-1495",
+        "url": "https://e2x.atlassian.net/browse/WSC-1495",
+        "summary": "Reimplementation: consolidate coupons to be per value in BC",
+        "status": "Ready to QA",
+        "statusCategory": "new",
+        "assignee": "Gerardo Romero",
+        "updated": "2026-07-06T18:37:00.430+0100",
+        "priority": "Importante",
+        "labels": [
+          "FastFollow",
+          "In-UAT",
+          "Needs-QA"
+        ]
+      },
       {
         "key": "WSC-1354",
         "url": "https://e2x.atlassian.net/browse/WSC-1354",
@@ -27,7 +102,7 @@
         "status": "IN UAT",
         "statusCategory": "indeterminate",
         "assignee": "enmanuel.ramirez",
-        "updated": "2026-07-06T16:29:19.346+0100",
+        "updated": "2026-07-06T17:05:35.263+0100",
         "priority": "Poco importante",
         "labels": []
       },
@@ -122,32 +197,6 @@
         "updated": "2026-07-03T19:14:08.303+0100",
         "priority": "Importante",
         "labels": []
-      },
-      {
-        "key": "WSC-1586",
-        "url": "https://e2x.atlassian.net/browse/WSC-1586",
-        "summary": "PDP - toggle amends 2",
-        "status": "En curso",
-        "statusCategory": "indeterminate",
-        "assignee": "Williams Colmenares",
-        "updated": "2026-07-03T18:51:17.119+0100",
-        "priority": "Importante",
-        "labels": []
-      },
-      {
-        "key": "WSC-1495",
-        "url": "https://e2x.atlassian.net/browse/WSC-1495",
-        "summary": "Reimplementation: consolidate coupons to be per value in BC",
-        "status": "PENDING DEV DEPLOY",
-        "statusCategory": "new",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-07-03T15:11:53.007+0100",
-        "priority": "Importante",
-        "labels": [
-          "FastFollow",
-          "In-UAT",
-          "Needs-QA"
-        ]
       },
       {
         "key": "WSC-1588",
@@ -312,17 +361,6 @@
         "labels": [
           "Needs-QA"
         ]
-      },
-      {
-        "key": "WSC-1549",
-        "url": "https://e2x.atlassian.net/browse/WSC-1549",
-        "summary": "CONSTRUCTOR",
-        "status": "Tech Review",
-        "statusCategory": "indeterminate",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-07-01T20:37:05.649+0100",
-        "priority": "Poco importante",
-        "labels": []
       },
       {
         "key": "WSC-1393",
@@ -546,19 +584,6 @@
         "labels": []
       },
       {
-        "key": "WSC-1574",
-        "url": "https://e2x.atlassian.net/browse/WSC-1574",
-        "summary": "CHECKOUT - wording amendment for ParcelShop",
-        "status": "Tech Review",
-        "statusCategory": "indeterminate",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-07-01T15:49:26.246+0100",
-        "priority": "Poco importante",
-        "labels": [
-          "Needs-QA"
-        ]
-      },
-      {
         "key": "WSC-1571",
         "url": "https://e2x.atlassian.net/browse/WSC-1571",
         "summary": "PR branch for Logging Apple Pay - Cart Issues",
@@ -591,19 +616,6 @@
         "assignee": "Unassigned",
         "updated": "2026-06-30T19:44:25.364+0100",
         "priority": "Importante",
-        "labels": [
-          "Needs-QA"
-        ]
-      },
-      {
-        "key": "WSC-1557",
-        "url": "https://e2x.atlassian.net/browse/WSC-1557",
-        "summary": "SEO - add H2 to product names on PLP",
-        "status": "Tech Review",
-        "statusCategory": "indeterminate",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-06-30T19:11:28.878+0100",
-        "priority": "Poco importante",
         "labels": [
           "Needs-QA"
         ]
@@ -693,17 +705,6 @@
         "assignee": "Stuart Young",
         "updated": "2026-06-26T18:22:52.016+0100",
         "priority": "Importante",
-        "labels": []
-      },
-      {
-        "key": "WSC-1405",
-        "url": "https://e2x.atlassian.net/browse/WSC-1405",
-        "summary": "BAG - savings display and checkout CTA button",
-        "status": "Tech Review",
-        "statusCategory": "indeterminate",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-06-25T21:56:50.543+0100",
-        "priority": "Poco importante",
         "labels": []
       },
       {
