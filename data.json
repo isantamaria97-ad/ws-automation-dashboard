@@ -1,26 +1,58 @@
 {
-  "lastUpdated": "2026-07-06T08:22:04.031545+00:00",
+  "lastUpdated": "2026-07-06T15:36:06.289385+00:00",
   "jira": {
     "summary": {
       "total": 271,
       "byStatus": {
         "IN UAT": 5,
+        "Deprecated": 9,
+        "Tareas por hacer": 1,
         "QA Approved": 17,
         "En curso": 3,
         "PENDING DEV DEPLOY": 3,
         "Tech Review": 9,
         "Listo": 9,
-        "Ready to QA": 1,
         "Finalizada": 199,
         "Blocked": 4,
         "READY FOR RELEASE": 4,
-        "Tareas por hacer": 1,
         "Ready for Refinement": 3,
-        "Backlog": 5,
-        "Deprecated": 8
+        "Backlog": 5
       }
     },
     "tickets": [
+      {
+        "key": "WSC-1354",
+        "url": "https://e2x.atlassian.net/browse/WSC-1354",
+        "summary": "SHOP PAGES - Local Business schema",
+        "status": "IN UAT",
+        "statusCategory": "indeterminate",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-07-06T16:29:19.346+0100",
+        "priority": "Poco importante",
+        "labels": []
+      },
+      {
+        "key": "WSC-1587",
+        "url": "https://e2x.atlassian.net/browse/WSC-1587",
+        "summary": "CHECKOUT - Saved address dropdown resets to \"Enter a new address\" and forces manual form entry upon selection",
+        "status": "Deprecated",
+        "statusCategory": "done",
+        "assignee": "Ingrith Santamaria",
+        "updated": "2026-07-06T14:29:45.065+0100",
+        "priority": "Importante",
+        "labels": []
+      },
+      {
+        "key": "WSC-1590",
+        "url": "https://e2x.atlassian.net/browse/WSC-1590",
+        "summary": "[WSSD-632][Security] Active sessions remain valid after password reset",
+        "status": "Tareas por hacer",
+        "statusCategory": "new",
+        "assignee": "Jair Huaman",
+        "updated": "2026-07-06T13:52:18.911+0100",
+        "priority": "Not Set",
+        "labels": []
+      },
       {
         "key": "WSC-1538",
         "url": "https://e2x.atlassian.net/browse/WSC-1538",
@@ -139,17 +171,6 @@
         "assignee": "Jair Huaman",
         "updated": "2026-07-03T13:16:20.458+0100",
         "priority": "Importante",
-        "labels": []
-      },
-      {
-        "key": "WSC-1354",
-        "url": "https://e2x.atlassian.net/browse/WSC-1354",
-        "summary": "SHOP PAGES - Local Business schema",
-        "status": "Ready to QA",
-        "statusCategory": "new",
-        "assignee": "Rafael Paranagu\u00e1",
-        "updated": "2026-07-03T00:39:33.727+0100",
-        "priority": "Poco importante",
         "labels": []
       },
       {
@@ -301,17 +322,6 @@
         "assignee": "enmanuel.ramirez",
         "updated": "2026-07-01T20:37:05.649+0100",
         "priority": "Poco importante",
-        "labels": []
-      },
-      {
-        "key": "WSC-1587",
-        "url": "https://e2x.atlassian.net/browse/WSC-1587",
-        "summary": "CHECKOUT - Saved address dropdown resets to \"Enter a new address\" and forces manual form entry upon selection",
-        "status": "IN UAT",
-        "statusCategory": "indeterminate",
-        "assignee": "Ingrith Santamaria",
-        "updated": "2026-07-01T20:21:45.225+0100",
-        "priority": "Importante",
         "labels": []
       },
       {
@@ -523,17 +533,6 @@
         "labels": [
           "Needs-QA"
         ]
-      },
-      {
-        "key": "WSC-1590",
-        "url": "https://e2x.atlassian.net/browse/WSC-1590",
-        "summary": "[WSSD-632][Security] Active sessions remain valid after password reset",
-        "status": "Tareas por hacer",
-        "statusCategory": "new",
-        "assignee": "Unassigned",
-        "updated": "2026-07-01T19:24:48.324+0100",
-        "priority": "Not Set",
-        "labels": []
       },
       {
         "key": "WSC-1581",
