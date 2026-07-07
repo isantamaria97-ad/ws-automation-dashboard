@@ -1,13 +1,13 @@
 {
-  "lastUpdated": "2026-07-07T18:01:11.857498+00:00",
+  "lastUpdated": "2026-07-07T21:25:40.764779+00:00",
   "jira": {
     "summary": {
       "total": 271,
       "byStatus": {
-        "IN QA": 2,
-        "Listo": 6,
-        "QA Approved": 20,
         "En curso": 4,
+        "QA Approved": 21,
+        "Listo": 6,
+        "IN QA": 1,
         "Ready to QA": 2,
         "Tech Review": 6,
         "IN UAT": 5,
@@ -22,13 +22,37 @@
     },
     "tickets": [
       {
+        "key": "WSC-1522",
+        "url": "https://e2x.atlassian.net/browse/WSC-1522",
+        "summary": "CONTENT - Personalisation",
+        "status": "En curso",
+        "statusCategory": "indeterminate",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-07-07T21:54:35.497+0100",
+        "priority": "Importante",
+        "labels": []
+      },
+      {
+        "key": "WSC-1575",
+        "url": "https://e2x.atlassian.net/browse/WSC-1575",
+        "summary": "PDP - remove size button for 'ONESIZE' products",
+        "status": "En curso",
+        "statusCategory": "indeterminate",
+        "assignee": "Williams Colmenares",
+        "updated": "2026-07-07T21:51:39.517+0100",
+        "priority": "Poco importante",
+        "labels": [
+          "Needs-QA"
+        ]
+      },
+      {
         "key": "WSC-1405",
         "url": "https://e2x.atlassian.net/browse/WSC-1405",
         "summary": "BAG - savings display and checkout CTA button",
-        "status": "IN QA",
+        "status": "QA Approved",
         "statusCategory": "indeterminate",
         "assignee": "Gerardo Romero",
-        "updated": "2026-07-07T18:29:52.414+0100",
+        "updated": "2026-07-07T20:15:14.075+0100",
         "priority": "Poco importante",
         "labels": []
       },
@@ -68,19 +92,6 @@
         "labels": []
       },
       {
-        "key": "WSC-1575",
-        "url": "https://e2x.atlassian.net/browse/WSC-1575",
-        "summary": "PDP - remove size button for 'ONESIZE' products",
-        "status": "En curso",
-        "statusCategory": "indeterminate",
-        "assignee": "Williams Colmenares",
-        "updated": "2026-07-07T17:17:22.668+0100",
-        "priority": "Poco importante",
-        "labels": [
-          "Needs-QA"
-        ]
-      },
-      {
         "key": "WSC-1551",
         "url": "https://e2x.atlassian.net/browse/WSC-1551",
         "summary": "CONTENT - PLP Header amends",
@@ -100,17 +111,6 @@
         "assignee": "Ingrith Santamaria",
         "updated": "2026-07-07T16:26:37.275+0100",
         "priority": "Poco importante",
-        "labels": []
-      },
-      {
-        "key": "WSC-1522",
-        "url": "https://e2x.atlassian.net/browse/WSC-1522",
-        "summary": "CONTENT - Personalisation",
-        "status": "En curso",
-        "statusCategory": "indeterminate",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-07-07T16:16:59.284+0100",
-        "priority": "Importante",
         "labels": []
       },
       {
