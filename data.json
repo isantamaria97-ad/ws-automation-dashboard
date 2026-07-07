@@ -1,17 +1,17 @@
 {
-  "lastUpdated": "2026-07-07T14:37:50.607382+00:00",
+  "lastUpdated": "2026-07-07T18:01:11.857498+00:00",
   "jira": {
     "summary": {
       "total": 271,
       "byStatus": {
-        "IN QA": 3,
-        "En curso": 3,
-        "Ready to QA": 3,
-        "QA Approved": 18,
+        "IN QA": 2,
+        "Listo": 6,
+        "QA Approved": 20,
+        "En curso": 4,
+        "Ready to QA": 2,
         "Tech Review": 6,
         "IN UAT": 5,
         "Deprecated": 9,
-        "Listo": 7,
         "Finalizada": 199,
         "Blocked": 4,
         "READY FOR RELEASE": 4,
@@ -21,6 +21,98 @@
       }
     },
     "tickets": [
+      {
+        "key": "WSC-1405",
+        "url": "https://e2x.atlassian.net/browse/WSC-1405",
+        "summary": "BAG - savings display and checkout CTA button",
+        "status": "IN QA",
+        "statusCategory": "indeterminate",
+        "assignee": "Gerardo Romero",
+        "updated": "2026-07-07T18:29:52.414+0100",
+        "priority": "Poco importante",
+        "labels": []
+      },
+      {
+        "key": "WSC-1580",
+        "url": "https://e2x.atlassian.net/browse/WSC-1580",
+        "summary": "SITESPECT - deploy to Production",
+        "status": "Listo",
+        "statusCategory": "new",
+        "assignee": "Jair Huaman",
+        "updated": "2026-07-07T18:01:02.078+0100",
+        "priority": "Importante",
+        "labels": []
+      },
+      {
+        "key": "WSC-1557",
+        "url": "https://e2x.atlassian.net/browse/WSC-1557",
+        "summary": "SEO - add H2 to product names on PLP",
+        "status": "QA Approved",
+        "statusCategory": "indeterminate",
+        "assignee": "Ingrith Santamaria",
+        "updated": "2026-07-07T17:31:54.505+0100",
+        "priority": "Poco importante",
+        "labels": [
+          "Needs-QA"
+        ]
+      },
+      {
+        "key": "WSC-1586",
+        "url": "https://e2x.atlassian.net/browse/WSC-1586",
+        "summary": "PDP - toggle amends 2",
+        "status": "En curso",
+        "statusCategory": "indeterminate",
+        "assignee": "Williams Colmenares",
+        "updated": "2026-07-07T17:24:33.646+0100",
+        "priority": "Importante",
+        "labels": []
+      },
+      {
+        "key": "WSC-1575",
+        "url": "https://e2x.atlassian.net/browse/WSC-1575",
+        "summary": "PDP - remove size button for 'ONESIZE' products",
+        "status": "En curso",
+        "statusCategory": "indeterminate",
+        "assignee": "Williams Colmenares",
+        "updated": "2026-07-07T17:17:22.668+0100",
+        "priority": "Poco importante",
+        "labels": [
+          "Needs-QA"
+        ]
+      },
+      {
+        "key": "WSC-1551",
+        "url": "https://e2x.atlassian.net/browse/WSC-1551",
+        "summary": "CONTENT - PLP Header amends",
+        "status": "QA Approved",
+        "statusCategory": "indeterminate",
+        "assignee": "Ingrith Santamaria",
+        "updated": "2026-07-07T17:10:52.279+0100",
+        "priority": "Poco importante",
+        "labels": []
+      },
+      {
+        "key": "WSC-1549",
+        "url": "https://e2x.atlassian.net/browse/WSC-1549",
+        "summary": "CONSTRUCTOR",
+        "status": "QA Approved",
+        "statusCategory": "indeterminate",
+        "assignee": "Ingrith Santamaria",
+        "updated": "2026-07-07T16:26:37.275+0100",
+        "priority": "Poco importante",
+        "labels": []
+      },
+      {
+        "key": "WSC-1522",
+        "url": "https://e2x.atlassian.net/browse/WSC-1522",
+        "summary": "CONTENT - Personalisation",
+        "status": "En curso",
+        "statusCategory": "indeterminate",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-07-07T16:16:59.284+0100",
+        "priority": "Importante",
+        "labels": []
+      },
       {
         "key": "WSC-1495",
         "url": "https://e2x.atlassian.net/browse/WSC-1495",
@@ -35,28 +127,6 @@
           "In-UAT",
           "Needs-QA"
         ]
-      },
-      {
-        "key": "WSC-1549",
-        "url": "https://e2x.atlassian.net/browse/WSC-1549",
-        "summary": "CONSTRUCTOR",
-        "status": "IN QA",
-        "statusCategory": "indeterminate",
-        "assignee": "Ingrith Santamaria",
-        "updated": "2026-07-07T15:16:19.651+0100",
-        "priority": "Poco importante",
-        "labels": []
-      },
-      {
-        "key": "WSC-1586",
-        "url": "https://e2x.atlassian.net/browse/WSC-1586",
-        "summary": "PDP - toggle amends 2",
-        "status": "En curso",
-        "statusCategory": "indeterminate",
-        "assignee": "Williams Colmenares",
-        "updated": "2026-07-07T15:06:51.436+0100",
-        "priority": "Importante",
-        "labels": []
       },
       {
         "key": "WSC-1553",
@@ -98,17 +168,6 @@
         ]
       },
       {
-        "key": "WSC-1405",
-        "url": "https://e2x.atlassian.net/browse/WSC-1405",
-        "summary": "BAG - savings display and checkout CTA button",
-        "status": "IN QA",
-        "statusCategory": "indeterminate",
-        "assignee": "Gerardo Romero",
-        "updated": "2026-07-07T14:22:39.315+0100",
-        "priority": "Poco importante",
-        "labels": []
-      },
-      {
         "key": "WSC-1545",
         "url": "https://e2x.atlassian.net/browse/WSC-1545",
         "summary": "PLP - fix price for gift and e-gift cards",
@@ -117,17 +176,6 @@
         "assignee": "enmanuel.ramirez",
         "updated": "2026-07-07T14:11:11.262+0100",
         "priority": "Poco importante",
-        "labels": []
-      },
-      {
-        "key": "WSC-1522",
-        "url": "https://e2x.atlassian.net/browse/WSC-1522",
-        "summary": "CONTENT - Personalisation",
-        "status": "En curso",
-        "statusCategory": "indeterminate",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-07-06T23:53:33.241+0100",
-        "priority": "Importante",
         "labels": []
       },
       {
@@ -140,19 +188,6 @@
         "updated": "2026-07-06T21:00:45.779+0100",
         "priority": "Not Set",
         "labels": []
-      },
-      {
-        "key": "WSC-1557",
-        "url": "https://e2x.atlassian.net/browse/WSC-1557",
-        "summary": "SEO - add H2 to product names on PLP",
-        "status": "Ready to QA",
-        "statusCategory": "new",
-        "assignee": "Unassigned",
-        "updated": "2026-07-06T20:54:33.667+0100",
-        "priority": "Poco importante",
-        "labels": [
-          "Needs-QA"
-        ]
       },
       {
         "key": "WSC-1354",
@@ -188,17 +223,6 @@
         "labels": [
           "Needs-QA"
         ]
-      },
-      {
-        "key": "WSC-1551",
-        "url": "https://e2x.atlassian.net/browse/WSC-1551",
-        "summary": "CONTENT - PLP Header amends",
-        "status": "QA Approved",
-        "statusCategory": "indeterminate",
-        "assignee": "Ingrith Santamaria",
-        "updated": "2026-07-03T20:31:47.869+0100",
-        "priority": "Poco importante",
-        "labels": []
       },
       {
         "key": "WSC-1556",
@@ -247,17 +271,6 @@
         "labels": [
           "Needs-QA"
         ]
-      },
-      {
-        "key": "WSC-1580",
-        "url": "https://e2x.atlassian.net/browse/WSC-1580",
-        "summary": "SITESPECT - deploy to Production",
-        "status": "Listo",
-        "statusCategory": "new",
-        "assignee": "Jair Huaman",
-        "updated": "2026-07-03T13:16:20.458+0100",
-        "priority": "Importante",
-        "labels": []
       },
       {
         "key": "WSC-1402",
@@ -630,19 +643,6 @@
         "updated": "2026-06-30T18:01:50.956+0100",
         "priority": "Importante",
         "labels": []
-      },
-      {
-        "key": "WSC-1575",
-        "url": "https://e2x.atlassian.net/browse/WSC-1575",
-        "summary": "PDP - remove size button for 'ONESIZE' products",
-        "status": "Listo",
-        "statusCategory": "new",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-06-30T16:43:02.808+0100",
-        "priority": "Poco importante",
-        "labels": [
-          "Needs-QA"
-        ]
       },
       {
         "key": "WSC-1577",
