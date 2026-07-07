@@ -1,12 +1,12 @@
 {
-  "lastUpdated": "2026-07-06T21:38:17.096119+00:00",
+  "lastUpdated": "2026-07-07T03:32:53.633349+00:00",
   "jira": {
     "summary": {
       "total": 271,
       "byStatus": {
-        "En curso": 3,
+        "En curso": 2,
+        "Ready to QA": 4,
         "Tech Review": 6,
-        "Ready to QA": 3,
         "QA Approved": 18,
         "IN QA": 1,
         "IN UAT": 5,
@@ -22,13 +22,24 @@
     },
     "tickets": [
       {
+        "key": "WSC-1522",
+        "url": "https://e2x.atlassian.net/browse/WSC-1522",
+        "summary": "CONTENT - Personalisation",
+        "status": "En curso",
+        "statusCategory": "indeterminate",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-07-06T23:53:33.241+0100",
+        "priority": "Importante",
+        "labels": []
+      },
+      {
         "key": "WSC-1586",
         "url": "https://e2x.atlassian.net/browse/WSC-1586",
         "summary": "PDP - toggle amends 2",
-        "status": "En curso",
-        "statusCategory": "indeterminate",
-        "assignee": "Williams Colmenares",
-        "updated": "2026-07-06T21:45:56.103+0100",
+        "status": "Ready to QA",
+        "statusCategory": "new",
+        "assignee": "Unassigned",
+        "updated": "2026-07-06T23:48:26.921+0100",
         "priority": "Importante",
         "labels": []
       },
@@ -197,17 +208,6 @@
         "labels": [
           "Needs-QA"
         ]
-      },
-      {
-        "key": "WSC-1522",
-        "url": "https://e2x.atlassian.net/browse/WSC-1522",
-        "summary": "CONTENT - Personalisation",
-        "status": "En curso",
-        "statusCategory": "indeterminate",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-07-03T19:14:08.303+0100",
-        "priority": "Importante",
-        "labels": []
       },
       {
         "key": "WSC-1588",
