@@ -1,11 +1,11 @@
 {
-  "lastUpdated": "2026-07-08T10:20:11.477541+00:00",
+  "lastUpdated": "2026-07-08T14:12:17.827056+00:00",
   "jira": {
     "summary": {
       "total": 271,
       "byStatus": {
-        "IN QA": 1,
         "En curso": 4,
+        "IN QA": 1,
         "QA Approved": 21,
         "Listo": 6,
         "Ready to QA": 2,
@@ -22,19 +22,54 @@
     },
     "tickets": [
       {
+        "key": "WSC-1575",
+        "url": "https://e2x.atlassian.net/browse/WSC-1575",
+        "summary": "PDP - remove size button for 'ONESIZE' products",
+        "status": "En curso",
+        "statusCategory": "indeterminate",
+        "assignee": "Williams Colmenares",
+        "updated": "2026-07-08T14:58:37.618+0100",
+        "priority": "Poco importante",
+        "labels": [
+          "Needs-QA"
+        ]
+      },
+      {
+        "key": "WSC-1586",
+        "url": "https://e2x.atlassian.net/browse/WSC-1586",
+        "summary": "PDP - toggle amends 2",
+        "status": "En curso",
+        "statusCategory": "indeterminate",
+        "assignee": "Williams Colmenares",
+        "updated": "2026-07-08T14:57:25.683+0100",
+        "priority": "Importante",
+        "labels": []
+      },
+      {
         "key": "WSC-1495",
         "url": "https://e2x.atlassian.net/browse/WSC-1495",
         "summary": "Reimplementation: consolidate coupons to be per value in BC",
         "status": "IN QA",
         "statusCategory": "indeterminate",
         "assignee": "Gerardo Romero",
-        "updated": "2026-07-07T22:56:36.861+0100",
+        "updated": "2026-07-08T14:48:36.876+0100",
         "priority": "Importante",
         "labels": [
           "FastFollow",
           "In-UAT",
           "Needs-QA"
         ]
+      },
+      {
+        "key": "WSC-1590",
+        "url": "https://e2x.atlassian.net/browse/WSC-1590",
+        "summary": "[WSSD-632][Security] Active sessions remain valid after password reset",
+        "status": "En curso",
+        "statusCategory": "indeterminate",
+        "assignee": "Jair Huaman",
+        "updated": "2026-07-08T14:21:06.539+0100",
+        "priority": "Not Set",
+        "labels": []
       },
       {
         "key": "WSC-1522",
@@ -46,19 +81,6 @@
         "updated": "2026-07-07T21:54:35.497+0100",
         "priority": "Importante",
         "labels": []
-      },
-      {
-        "key": "WSC-1575",
-        "url": "https://e2x.atlassian.net/browse/WSC-1575",
-        "summary": "PDP - remove size button for 'ONESIZE' products",
-        "status": "En curso",
-        "statusCategory": "indeterminate",
-        "assignee": "Williams Colmenares",
-        "updated": "2026-07-07T21:51:39.517+0100",
-        "priority": "Poco importante",
-        "labels": [
-          "Needs-QA"
-        ]
       },
       {
         "key": "WSC-1405",
@@ -94,17 +116,6 @@
         "labels": [
           "Needs-QA"
         ]
-      },
-      {
-        "key": "WSC-1586",
-        "url": "https://e2x.atlassian.net/browse/WSC-1586",
-        "summary": "PDP - toggle amends 2",
-        "status": "En curso",
-        "statusCategory": "indeterminate",
-        "assignee": "Williams Colmenares",
-        "updated": "2026-07-07T17:24:33.646+0100",
-        "priority": "Importante",
-        "labels": []
       },
       {
         "key": "WSC-1551",
@@ -176,17 +187,6 @@
         "assignee": "enmanuel.ramirez",
         "updated": "2026-07-07T14:11:11.262+0100",
         "priority": "Poco importante",
-        "labels": []
-      },
-      {
-        "key": "WSC-1590",
-        "url": "https://e2x.atlassian.net/browse/WSC-1590",
-        "summary": "[WSSD-632][Security] Active sessions remain valid after password reset",
-        "status": "En curso",
-        "statusCategory": "indeterminate",
-        "assignee": "Jair Huaman",
-        "updated": "2026-07-06T21:00:45.779+0100",
-        "priority": "Not Set",
         "labels": []
       },
       {
