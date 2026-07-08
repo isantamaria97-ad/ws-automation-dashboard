@@ -1,15 +1,15 @@
 {
-  "lastUpdated": "2026-07-08T14:12:17.827056+00:00",
+  "lastUpdated": "2026-07-08T17:38:21.336689+00:00",
   "jira": {
     "summary": {
       "total": 271,
       "byStatus": {
-        "En curso": 4,
+        "Tech Review": 7,
+        "En curso": 3,
         "IN QA": 1,
         "QA Approved": 21,
         "Listo": 6,
         "Ready to QA": 2,
-        "Tech Review": 6,
         "IN UAT": 5,
         "Deprecated": 9,
         "Finalizada": 199,
@@ -22,28 +22,28 @@
     },
     "tickets": [
       {
+        "key": "WSC-1586",
+        "url": "https://e2x.atlassian.net/browse/WSC-1586",
+        "summary": "PDP - toggle amends 2",
+        "status": "Tech Review",
+        "statusCategory": "indeterminate",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-07-08T18:08:27.280+0100",
+        "priority": "Importante",
+        "labels": []
+      },
+      {
         "key": "WSC-1575",
         "url": "https://e2x.atlassian.net/browse/WSC-1575",
         "summary": "PDP - remove size button for 'ONESIZE' products",
         "status": "En curso",
         "statusCategory": "indeterminate",
         "assignee": "Williams Colmenares",
-        "updated": "2026-07-08T14:58:37.618+0100",
+        "updated": "2026-07-08T18:08:16.907+0100",
         "priority": "Poco importante",
         "labels": [
           "Needs-QA"
         ]
-      },
-      {
-        "key": "WSC-1586",
-        "url": "https://e2x.atlassian.net/browse/WSC-1586",
-        "summary": "PDP - toggle amends 2",
-        "status": "En curso",
-        "statusCategory": "indeterminate",
-        "assignee": "Williams Colmenares",
-        "updated": "2026-07-08T14:57:25.683+0100",
-        "priority": "Importante",
-        "labels": []
       },
       {
         "key": "WSC-1495",
@@ -52,13 +52,24 @@
         "status": "IN QA",
         "statusCategory": "indeterminate",
         "assignee": "Gerardo Romero",
-        "updated": "2026-07-08T14:48:36.876+0100",
+        "updated": "2026-07-08T15:54:07.867+0100",
         "priority": "Importante",
         "labels": [
           "FastFollow",
           "In-UAT",
           "Needs-QA"
         ]
+      },
+      {
+        "key": "WSC-1405",
+        "url": "https://e2x.atlassian.net/browse/WSC-1405",
+        "summary": "BAG - savings display and checkout CTA button",
+        "status": "QA Approved",
+        "statusCategory": "indeterminate",
+        "assignee": "Gerardo Romero",
+        "updated": "2026-07-08T15:53:52.541+0100",
+        "priority": "Poco importante",
+        "labels": []
       },
       {
         "key": "WSC-1590",
@@ -80,17 +91,6 @@
         "assignee": "enmanuel.ramirez",
         "updated": "2026-07-07T21:54:35.497+0100",
         "priority": "Importante",
-        "labels": []
-      },
-      {
-        "key": "WSC-1405",
-        "url": "https://e2x.atlassian.net/browse/WSC-1405",
-        "summary": "BAG - savings display and checkout CTA button",
-        "status": "QA Approved",
-        "statusCategory": "indeterminate",
-        "assignee": "Gerardo Romero",
-        "updated": "2026-07-07T20:15:14.075+0100",
-        "priority": "Poco importante",
         "labels": []
       },
       {
