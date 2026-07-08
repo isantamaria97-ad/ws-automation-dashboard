@@ -1,13 +1,13 @@
 {
-  "lastUpdated": "2026-07-07T21:25:40.764779+00:00",
+  "lastUpdated": "2026-07-08T02:48:52.720765+00:00",
   "jira": {
     "summary": {
       "total": 271,
       "byStatus": {
+        "IN QA": 1,
         "En curso": 4,
         "QA Approved": 21,
         "Listo": 6,
-        "IN QA": 1,
         "Ready to QA": 2,
         "Tech Review": 6,
         "IN UAT": 5,
@@ -21,6 +21,21 @@
       }
     },
     "tickets": [
+      {
+        "key": "WSC-1495",
+        "url": "https://e2x.atlassian.net/browse/WSC-1495",
+        "summary": "Reimplementation: consolidate coupons to be per value in BC",
+        "status": "IN QA",
+        "statusCategory": "indeterminate",
+        "assignee": "Gerardo Romero",
+        "updated": "2026-07-07T22:56:36.861+0100",
+        "priority": "Importante",
+        "labels": [
+          "FastFollow",
+          "In-UAT",
+          "Needs-QA"
+        ]
+      },
       {
         "key": "WSC-1522",
         "url": "https://e2x.atlassian.net/browse/WSC-1522",
@@ -112,21 +127,6 @@
         "updated": "2026-07-07T16:26:37.275+0100",
         "priority": "Poco importante",
         "labels": []
-      },
-      {
-        "key": "WSC-1495",
-        "url": "https://e2x.atlassian.net/browse/WSC-1495",
-        "summary": "Reimplementation: consolidate coupons to be per value in BC",
-        "status": "IN QA",
-        "statusCategory": "indeterminate",
-        "assignee": "Gerardo Romero",
-        "updated": "2026-07-07T15:17:25.360+0100",
-        "priority": "Importante",
-        "labels": [
-          "FastFollow",
-          "In-UAT",
-          "Needs-QA"
-        ]
       },
       {
         "key": "WSC-1553",
