@@ -1,13 +1,13 @@
 {
-  "lastUpdated": "2026-07-08T17:38:21.336689+00:00",
+  "lastUpdated": "2026-07-08T21:09:01.102147+00:00",
   "jira": {
     "summary": {
-      "total": 271,
+      "total": 272,
       "byStatus": {
+        "QA Approved": 22,
+        "Backlog": 6,
         "Tech Review": 7,
         "En curso": 3,
-        "IN QA": 1,
-        "QA Approved": 21,
         "Listo": 6,
         "Ready to QA": 2,
         "IN UAT": 5,
@@ -16,11 +16,39 @@
         "Blocked": 4,
         "READY FOR RELEASE": 4,
         "Ready for Refinement": 3,
-        "PENDING DEV DEPLOY": 2,
-        "Backlog": 5
+        "PENDING DEV DEPLOY": 2
       }
     },
     "tickets": [
+      {
+        "key": "WSC-1495",
+        "url": "https://e2x.atlassian.net/browse/WSC-1495",
+        "summary": "Reimplementation: consolidate coupons to be per value in BC",
+        "status": "QA Approved",
+        "statusCategory": "indeterminate",
+        "assignee": "Gerardo Romero",
+        "updated": "2026-07-08T20:31:39.215+0100",
+        "priority": "Importante",
+        "labels": [
+          "FastFollow",
+          "In-UAT",
+          "Needs-QA"
+        ]
+      },
+      {
+        "key": "WSC-1600",
+        "url": "https://e2x.atlassian.net/browse/WSC-1600",
+        "summary": "Fix failing jobs in Playwright GitHub Actions workflow",
+        "status": "Backlog",
+        "statusCategory": "new",
+        "assignee": "Ingrith Santamaria",
+        "updated": "2026-07-08T20:24:09.961+0100",
+        "priority": "Not Set",
+        "labels": [
+          "Automation",
+          "Playwright"
+        ]
+      },
       {
         "key": "WSC-1586",
         "url": "https://e2x.atlassian.net/browse/WSC-1586",
@@ -42,21 +70,6 @@
         "updated": "2026-07-08T18:08:16.907+0100",
         "priority": "Poco importante",
         "labels": [
-          "Needs-QA"
-        ]
-      },
-      {
-        "key": "WSC-1495",
-        "url": "https://e2x.atlassian.net/browse/WSC-1495",
-        "summary": "Reimplementation: consolidate coupons to be per value in BC",
-        "status": "IN QA",
-        "statusCategory": "indeterminate",
-        "assignee": "Gerardo Romero",
-        "updated": "2026-07-08T15:54:07.867+0100",
-        "priority": "Importante",
-        "labels": [
-          "FastFollow",
-          "In-UAT",
           "Needs-QA"
         ]
       },
