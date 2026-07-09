@@ -1,14 +1,12 @@
 {
-  "lastUpdated": "2026-07-09T11:00:56.926143+00:00",
+  "lastUpdated": "2026-07-09T15:12:59.386912+00:00",
   "jira": {
     "summary": {
       "total": 272,
       "byStatus": {
+        "En curso": 5,
         "Tech Review": 8,
         "QA Approved": 22,
-        "Backlog": 6,
-        "En curso": 2,
-        "Listo": 6,
         "Ready to QA": 2,
         "IN UAT": 5,
         "Deprecated": 9,
@@ -16,10 +14,25 @@
         "Blocked": 4,
         "READY FOR RELEASE": 4,
         "Ready for Refinement": 3,
-        "PENDING DEV DEPLOY": 2
+        "Listo": 4,
+        "PENDING DEV DEPLOY": 2,
+        "Backlog": 5
       }
     },
     "tickets": [
+      {
+        "key": "WSC-1412",
+        "url": "https://e2x.atlassian.net/browse/WSC-1412",
+        "summary": "Mobile: BREADCRUMB - amendments",
+        "status": "En curso",
+        "statusCategory": "indeterminate",
+        "assignee": "Williams Colmenares",
+        "updated": "2026-07-09T16:11:58.926+0100",
+        "priority": "Poco importante",
+        "labels": [
+          "Needs-QA"
+        ]
+      },
       {
         "key": "WSC-1575",
         "url": "https://e2x.atlassian.net/browse/WSC-1575",
@@ -27,10 +40,35 @@
         "status": "Tech Review",
         "statusCategory": "indeterminate",
         "assignee": "enmanuel.ramirez",
-        "updated": "2026-07-09T11:39:16.188+0100",
+        "updated": "2026-07-09T15:18:35.547+0100",
         "priority": "Poco importante",
         "labels": [
           "Needs-QA"
+        ]
+      },
+      {
+        "key": "WSC-1580",
+        "url": "https://e2x.atlassian.net/browse/WSC-1580",
+        "summary": "SITESPECT - deploy to Production",
+        "status": "En curso",
+        "statusCategory": "indeterminate",
+        "assignee": "Jair Huaman",
+        "updated": "2026-07-09T15:02:39.995+0100",
+        "priority": "Importante",
+        "labels": []
+      },
+      {
+        "key": "WSC-1600",
+        "url": "https://e2x.atlassian.net/browse/WSC-1600",
+        "summary": "Fix failing jobs in Playwright GitHub Actions workflow",
+        "status": "En curso",
+        "statusCategory": "indeterminate",
+        "assignee": "Ingrith Santamaria",
+        "updated": "2026-07-09T14:27:25.800+0100",
+        "priority": "Not Set",
+        "labels": [
+          "Automation",
+          "Playwright"
         ]
       },
       {
@@ -46,20 +84,6 @@
           "FastFollow",
           "In-UAT",
           "Needs-QA"
-        ]
-      },
-      {
-        "key": "WSC-1600",
-        "url": "https://e2x.atlassian.net/browse/WSC-1600",
-        "summary": "Fix failing jobs in Playwright GitHub Actions workflow",
-        "status": "Backlog",
-        "statusCategory": "new",
-        "assignee": "Ingrith Santamaria",
-        "updated": "2026-07-08T20:24:09.961+0100",
-        "priority": "Not Set",
-        "labels": [
-          "Automation",
-          "Playwright"
         ]
       },
       {
@@ -103,17 +127,6 @@
         "statusCategory": "indeterminate",
         "assignee": "enmanuel.ramirez",
         "updated": "2026-07-07T21:54:35.497+0100",
-        "priority": "Importante",
-        "labels": []
-      },
-      {
-        "key": "WSC-1580",
-        "url": "https://e2x.atlassian.net/browse/WSC-1580",
-        "summary": "SITESPECT - deploy to Production",
-        "status": "Listo",
-        "statusCategory": "new",
-        "assignee": "Jair Huaman",
-        "updated": "2026-07-07T18:01:02.078+0100",
         "priority": "Importante",
         "labels": []
       },
@@ -399,19 +412,6 @@
         "labels": [
           "Needs-QA",
           "manualQA"
-        ]
-      },
-      {
-        "key": "WSC-1412",
-        "url": "https://e2x.atlassian.net/browse/WSC-1412",
-        "summary": "Mobile: BREADCRUMB - amendments",
-        "status": "Listo",
-        "statusCategory": "new",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-07-02T11:25:18.126+0100",
-        "priority": "Poco importante",
-        "labels": [
-          "Needs-QA"
         ]
       },
       {
@@ -3460,15 +3460,83 @@
       ]
     },
     "runs": {
-      "total": 40,
-      "latestPassed": 74,
+      "total": 44,
+      "latestPassed": 0,
       "latestFailed": 0,
-      "latestPending": 0,
+      "latestPending": 74,
       "latestTotal": 74,
-      "latestRunName": "Regression 02/07/26",
-      "latestRunDate": "2026-07-02T15:44:29.008Z",
+      "latestRunName": "Regression 09/07/2026",
+      "latestRunDate": "2026-07-09T15:12:10.891Z",
       "passRate": 99.7,
       "recent": [
+        {
+          "id": 1883,
+          "name": "Regression 09/07/2026",
+          "source_id": null,
+          "milestone_id": 229,
+          "config_id": 14,
+          "status": null,
+          "is_completed": false,
+          "elapsed_ms": null,
+          "created_at": "2026-07-09T15:12:10.891Z",
+          "completed_at": null,
+          "passed": 0,
+          "failed": 0,
+          "pending": 74,
+          "completed": 0,
+          "total": 74
+        },
+        {
+          "id": 1882,
+          "name": "Regression 09/07/2026",
+          "source_id": null,
+          "milestone_id": 229,
+          "config_id": 13,
+          "status": null,
+          "is_completed": false,
+          "elapsed_ms": null,
+          "created_at": "2026-07-09T15:12:10.880Z",
+          "completed_at": null,
+          "passed": 0,
+          "failed": 0,
+          "pending": 74,
+          "completed": 0,
+          "total": 74
+        },
+        {
+          "id": 1881,
+          "name": "Regression 09/07/2026",
+          "source_id": null,
+          "milestone_id": 229,
+          "config_id": 10,
+          "status": null,
+          "is_completed": false,
+          "elapsed_ms": null,
+          "created_at": "2026-07-09T15:12:10.870Z",
+          "completed_at": null,
+          "passed": 0,
+          "failed": 0,
+          "pending": 74,
+          "completed": 0,
+          "total": 74
+        },
+        {
+          "id": 1880,
+          "name": "Regression 09/07/2026",
+          "source_id": null,
+          "milestone_id": 229,
+          "config_id": 9,
+          "status": null,
+          "is_completed": false,
+          "elapsed_ms": null,
+          "created_at": "2026-07-09T15:12:10.854Z",
+          "completed_at": null,
+          "passed": 0,
+          "failed": 0,
+          "pending": 74,
+          "completed": 0,
+          "total": 74
+        },
         {
           "id": 1871,
           "name": "Regression 02/07/26",
@@ -3570,74 +3638,6 @@
           "pending": 0,
           "completed": 10,
           "total": 10
-        },
-        {
-          "id": 1863,
-          "name": "Regression 01/07/2026",
-          "source_id": null,
-          "milestone_id": 225,
-          "config_id": 10,
-          "status": null,
-          "is_completed": false,
-          "elapsed_ms": null,
-          "created_at": "2026-07-01T12:33:33.446Z",
-          "completed_at": null,
-          "passed": 10,
-          "failed": 0,
-          "pending": 0,
-          "completed": 10,
-          "total": 10
-        },
-        {
-          "id": 1862,
-          "name": "Regression 01/07/2026",
-          "source_id": null,
-          "milestone_id": 225,
-          "config_id": 9,
-          "status": null,
-          "is_completed": false,
-          "elapsed_ms": null,
-          "created_at": "2026-07-01T12:33:33.444Z",
-          "completed_at": null,
-          "passed": 10,
-          "failed": 0,
-          "pending": 0,
-          "completed": 10,
-          "total": 10
-        },
-        {
-          "id": 1856,
-          "name": "Regression 26/06/26",
-          "source_id": null,
-          "milestone_id": 224,
-          "config_id": 14,
-          "status": null,
-          "is_completed": false,
-          "elapsed_ms": null,
-          "created_at": "2026-06-26T20:46:15.945Z",
-          "completed_at": null,
-          "passed": 66,
-          "failed": 0,
-          "pending": 0,
-          "completed": 68,
-          "total": 68
-        },
-        {
-          "id": 1855,
-          "name": "Regression 26/06/26",
-          "source_id": null,
-          "milestone_id": 224,
-          "config_id": 13,
-          "status": null,
-          "is_completed": false,
-          "elapsed_ms": null,
-          "created_at": "2026-06-26T20:46:15.939Z",
-          "completed_at": null,
-          "passed": 66,
-          "failed": 0,
-          "pending": 0,
-          "completed": 68,
-          "total": 68
         }
       ]
     },
