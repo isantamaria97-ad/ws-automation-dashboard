@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-09T07:38:07.108903+00:00",
+  "lastUpdated": "2026-07-09T11:00:56.926143+00:00",
   "jira": {
     "summary": {
       "total": 272,
@@ -27,7 +27,7 @@
         "status": "Tech Review",
         "statusCategory": "indeterminate",
         "assignee": "enmanuel.ramirez",
-        "updated": "2026-07-09T02:52:54.391+0100",
+        "updated": "2026-07-09T11:39:16.188+0100",
         "priority": "Poco importante",
         "labels": [
           "Needs-QA"
