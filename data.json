@@ -1,13 +1,13 @@
 {
-  "lastUpdated": "2026-07-08T21:09:01.102147+00:00",
+  "lastUpdated": "2026-07-09T03:25:58.216156+00:00",
   "jira": {
     "summary": {
       "total": 272,
       "byStatus": {
+        "Tech Review": 8,
         "QA Approved": 22,
         "Backlog": 6,
-        "Tech Review": 7,
-        "En curso": 3,
+        "En curso": 2,
         "Listo": 6,
         "Ready to QA": 2,
         "IN UAT": 5,
@@ -20,6 +20,19 @@
       }
     },
     "tickets": [
+      {
+        "key": "WSC-1575",
+        "url": "https://e2x.atlassian.net/browse/WSC-1575",
+        "summary": "PDP - remove size button for 'ONESIZE' products",
+        "status": "Tech Review",
+        "statusCategory": "indeterminate",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-07-09T02:52:54.391+0100",
+        "priority": "Poco importante",
+        "labels": [
+          "Needs-QA"
+        ]
+      },
       {
         "key": "WSC-1495",
         "url": "https://e2x.atlassian.net/browse/WSC-1495",
@@ -59,19 +72,6 @@
         "updated": "2026-07-08T18:08:27.280+0100",
         "priority": "Importante",
         "labels": []
-      },
-      {
-        "key": "WSC-1575",
-        "url": "https://e2x.atlassian.net/browse/WSC-1575",
-        "summary": "PDP - remove size button for 'ONESIZE' products",
-        "status": "En curso",
-        "statusCategory": "indeterminate",
-        "assignee": "Williams Colmenares",
-        "updated": "2026-07-08T18:08:16.907+0100",
-        "priority": "Poco importante",
-        "labels": [
-          "Needs-QA"
-        ]
       },
       {
         "key": "WSC-1405",
