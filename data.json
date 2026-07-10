@@ -1,13 +1,13 @@
 {
-  "lastUpdated": "2026-07-10T07:37:12.758984+00:00",
+  "lastUpdated": "2026-07-10T10:56:18.904477+00:00",
   "jira": {
     "summary": {
       "total": 287,
       "byStatus": {
-        "Listo": 10,
-        "Tech Review": 12,
-        "En curso": 5,
         "Ready to QA": 6,
+        "Tech Review": 12,
+        "Listo": 10,
+        "En curso": 5,
         "PENDING DEV DEPLOY": 2,
         "Ready for Refinement": 3,
         "Backlog": 6,
@@ -20,6 +20,46 @@
       }
     },
     "tickets": [
+      {
+        "key": "WSC-1412",
+        "url": "https://e2x.atlassian.net/browse/WSC-1412",
+        "summary": "Mobile: BREADCRUMB - amendments",
+        "status": "Ready to QA",
+        "statusCategory": "new",
+        "assignee": "Unassigned",
+        "updated": "2026-07-10T11:28:20.967+0100",
+        "priority": "Poco importante",
+        "labels": [
+          "Needs-QA"
+        ]
+      },
+      {
+        "key": "WSC-1579",
+        "url": "https://e2x.atlassian.net/browse/WSC-1579",
+        "summary": "Mobile iOS: PLP - CTA gets highlighted when landing on next PLP",
+        "status": "Tech Review",
+        "statusCategory": "indeterminate",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-07-10T10:27:19.690+0100",
+        "priority": "Importante",
+        "labels": [
+          "Needs-QA"
+        ]
+      },
+      {
+        "key": "WSC-1597",
+        "url": "https://e2x.atlassian.net/browse/WSC-1597",
+        "summary": "SALE BADGES - show/don't show",
+        "status": "Listo",
+        "statusCategory": "new",
+        "assignee": "Unassigned",
+        "updated": "2026-07-10T09:59:16.113+0100",
+        "priority": "Importante",
+        "labels": [
+          "Needs-QA",
+          "manualQA"
+        ]
+      },
       {
         "key": "WSC-1593",
         "url": "https://e2x.atlassian.net/browse/WSC-1593",
@@ -117,19 +157,6 @@
         ]
       },
       {
-        "key": "WSC-1579",
-        "url": "https://e2x.atlassian.net/browse/WSC-1579",
-        "summary": "Mobile iOS: PLP - CTA gets highlighted when landing on next PLP",
-        "status": "Tech Review",
-        "statusCategory": "indeterminate",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-07-09T20:30:20.891+0100",
-        "priority": "Importante",
-        "labels": [
-          "Needs-QA"
-        ]
-      },
-      {
         "key": "WSC-1586",
         "url": "https://e2x.atlassian.net/browse/WSC-1586",
         "summary": "PDP - toggle amends 2",
@@ -139,19 +166,6 @@
         "updated": "2026-07-09T20:25:41.224+0100",
         "priority": "Importante",
         "labels": []
-      },
-      {
-        "key": "WSC-1412",
-        "url": "https://e2x.atlassian.net/browse/WSC-1412",
-        "summary": "Mobile: BREADCRUMB - amendments",
-        "status": "Ready to QA",
-        "statusCategory": "new",
-        "assignee": "Unassigned",
-        "updated": "2026-07-09T20:13:50.731+0100",
-        "priority": "Poco importante",
-        "labels": [
-          "Needs-QA"
-        ]
       },
       {
         "key": "WSC-1575",
@@ -320,20 +334,6 @@
         "labels": [
           "Needs-QA",
           "automatable"
-        ]
-      },
-      {
-        "key": "WSC-1597",
-        "url": "https://e2x.atlassian.net/browse/WSC-1597",
-        "summary": "SALE BADGES - show/don't show",
-        "status": "Listo",
-        "statusCategory": "new",
-        "assignee": "Unassigned",
-        "updated": "2026-07-09T18:05:03.605+0100",
-        "priority": "Importante",
-        "labels": [
-          "Needs-QA",
-          "manualQA"
         ]
       },
       {
