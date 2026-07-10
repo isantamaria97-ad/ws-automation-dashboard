@@ -1,22 +1,23 @@
 {
-  "lastUpdated": "2026-07-10T10:56:18.904477+00:00",
+  "lastUpdated": "2026-07-10T14:29:22.853689+00:00",
   "jira": {
     "summary": {
-      "total": 287,
+      "total": 288,
       "byStatus": {
-        "Ready to QA": 6,
+        "IN QA": 2,
+        "En curso": 6,
         "Tech Review": 12,
+        "Ready to QA": 4,
+        "Ready for Refinement": 4,
         "Listo": 10,
-        "En curso": 5,
         "PENDING DEV DEPLOY": 2,
-        "Ready for Refinement": 3,
-        "Backlog": 6,
         "QA Approved": 22,
         "IN UAT": 5,
         "Deprecated": 9,
         "Finalizada": 199,
         "Blocked": 4,
-        "READY FOR RELEASE": 4
+        "READY FOR RELEASE": 4,
+        "Backlog": 5
       }
     },
     "tickets": [
@@ -24,13 +25,27 @@
         "key": "WSC-1412",
         "url": "https://e2x.atlassian.net/browse/WSC-1412",
         "summary": "Mobile: BREADCRUMB - amendments",
-        "status": "Ready to QA",
-        "statusCategory": "new",
-        "assignee": "Unassigned",
-        "updated": "2026-07-10T11:28:20.967+0100",
+        "status": "IN QA",
+        "statusCategory": "indeterminate",
+        "assignee": "Ingrith Santamaria",
+        "updated": "2026-07-10T15:26:52.817+0100",
         "priority": "Poco importante",
         "labels": [
           "Needs-QA"
+        ]
+      },
+      {
+        "key": "WSC-1591",
+        "url": "https://e2x.atlassian.net/browse/WSC-1591",
+        "summary": "Shop Pages \u2014 Canonical URL & Hreflang Fix",
+        "status": "En curso",
+        "statusCategory": "indeterminate",
+        "assignee": "Jair Huaman",
+        "updated": "2026-07-10T15:24:01.511+0100",
+        "priority": "Importante",
+        "labels": [
+          "Needs-QA",
+          "manualQA"
         ]
       },
       {
@@ -40,10 +55,75 @@
         "status": "Tech Review",
         "statusCategory": "indeterminate",
         "assignee": "enmanuel.ramirez",
-        "updated": "2026-07-10T10:27:19.690+0100",
+        "updated": "2026-07-10T15:16:31.032+0100",
         "priority": "Importante",
         "labels": [
           "Needs-QA"
+        ]
+      },
+      {
+        "key": "WSC-1575",
+        "url": "https://e2x.atlassian.net/browse/WSC-1575",
+        "summary": "PDP - remove size button for 'ONESIZE' products",
+        "status": "IN QA",
+        "statusCategory": "indeterminate",
+        "assignee": "Ingrith Santamaria",
+        "updated": "2026-07-10T14:59:05.683+0100",
+        "priority": "Poco importante",
+        "labels": [
+          "Needs-QA"
+        ]
+      },
+      {
+        "key": "WSC-1606",
+        "url": "https://e2x.atlassian.net/browse/WSC-1606",
+        "summary": "Mobile: BREADCRUMB - amendments part 2",
+        "status": "En curso",
+        "statusCategory": "indeterminate",
+        "assignee": "Williams Colmenares",
+        "updated": "2026-07-10T14:58:02.703+0100",
+        "priority": "Poco importante",
+        "labels": [
+          "Needs-QA"
+        ]
+      },
+      {
+        "key": "WSC-1588",
+        "url": "https://e2x.atlassian.net/browse/WSC-1588",
+        "summary": "[Header] Clicking account icon in non-UK locales forcefully logs user out instead of navigating to /my-account",
+        "status": "Ready to QA",
+        "statusCategory": "new",
+        "assignee": "Gerardo Romero",
+        "updated": "2026-07-10T14:56:06.700+0100",
+        "priority": "Importante",
+        "labels": [
+          "Needs-QA",
+          "automatable"
+        ]
+      },
+      {
+        "key": "WSC-1602",
+        "url": "https://e2x.atlassian.net/browse/WSC-1602",
+        "summary": "[WSSD-642] - CHECKOUT - Investigate Apple Pay Express discount loss after dismissed/timed-out payment sheet",
+        "status": "Ready for Refinement",
+        "statusCategory": "new",
+        "assignee": "Unassigned",
+        "updated": "2026-07-10T13:35:39.467+0100",
+        "priority": "Importante",
+        "labels": []
+      },
+      {
+        "key": "WSC-1493",
+        "url": "https://e2x.atlassian.net/browse/WSC-1493",
+        "summary": "PROMO MESSAGING - Add across VSF journey",
+        "status": "Tech Review",
+        "statusCategory": "indeterminate",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-07-10T13:30:13.022+0100",
+        "priority": "Importante",
+        "labels": [
+          "Needs-QA",
+          "manualQA"
         ]
       },
       {
@@ -53,7 +133,7 @@
         "status": "Listo",
         "statusCategory": "new",
         "assignee": "Unassigned",
-        "updated": "2026-07-10T09:59:16.113+0100",
+        "updated": "2026-07-10T13:28:00.548+0100",
         "priority": "Importante",
         "labels": [
           "Needs-QA",
@@ -96,20 +176,6 @@
         "assignee": "Gerardo Romero",
         "updated": "2026-07-09T20:42:29.218+0100",
         "priority": "Not Set",
-        "labels": [
-          "Needs-QA",
-          "automatable"
-        ]
-      },
-      {
-        "key": "WSC-1588",
-        "url": "https://e2x.atlassian.net/browse/WSC-1588",
-        "summary": "[Header] Clicking account icon in non-UK locales forcefully logs user out instead of navigating to /my-account",
-        "status": "Ready to QA",
-        "statusCategory": "new",
-        "assignee": "Gerardo Romero",
-        "updated": "2026-07-09T20:41:58.835+0100",
-        "priority": "Importante",
         "labels": [
           "Needs-QA",
           "automatable"
@@ -168,33 +234,6 @@
         "labels": []
       },
       {
-        "key": "WSC-1575",
-        "url": "https://e2x.atlassian.net/browse/WSC-1575",
-        "summary": "PDP - remove size button for 'ONESIZE' products",
-        "status": "Ready to QA",
-        "statusCategory": "new",
-        "assignee": "Unassigned",
-        "updated": "2026-07-09T20:13:32.118+0100",
-        "priority": "Poco importante",
-        "labels": [
-          "Needs-QA"
-        ]
-      },
-      {
-        "key": "WSC-1591",
-        "url": "https://e2x.atlassian.net/browse/WSC-1591",
-        "summary": "Shop Pages \u2014 Canonical URL & Hreflang Fix",
-        "status": "En curso",
-        "statusCategory": "indeterminate",
-        "assignee": "Jair Huaman",
-        "updated": "2026-07-09T19:48:48.210+0100",
-        "priority": "Importante",
-        "labels": [
-          "Needs-QA",
-          "manualQA"
-        ]
-      },
-      {
         "key": "WSC-1590",
         "url": "https://e2x.atlassian.net/browse/WSC-1590",
         "summary": "[WSSD-632][Security] Active sessions remain valid after password reset",
@@ -240,20 +279,6 @@
         "priority": "Poco importante",
         "labels": [
           "Needs-QA"
-        ]
-      },
-      {
-        "key": "WSC-1493",
-        "url": "https://e2x.atlassian.net/browse/WSC-1493",
-        "summary": "PROMO MESSAGING - Add across VSF journey",
-        "status": "Tech Review",
-        "statusCategory": "indeterminate",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-07-09T18:26:58.938+0100",
-        "priority": "Importante",
-        "labels": [
-          "Needs-QA",
-          "manualQA"
         ]
       },
       {
@@ -335,17 +360,6 @@
           "Needs-QA",
           "automatable"
         ]
-      },
-      {
-        "key": "WSC-1602",
-        "url": "https://e2x.atlassian.net/browse/WSC-1602",
-        "summary": "[WSSD-642] - CHECKOUT - Investigate Apple Pay Express discount loss after dismissed/timed-out payment sheet",
-        "status": "Backlog",
-        "statusCategory": "new",
-        "assignee": "Unassigned",
-        "updated": "2026-07-09T17:56:59.648+0100",
-        "priority": "Not Set",
-        "labels": []
       },
       {
         "key": "WSC-1594",
