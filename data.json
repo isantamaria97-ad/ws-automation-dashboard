@@ -1,20 +1,19 @@
 {
-  "lastUpdated": "2026-07-10T14:29:22.853689+00:00",
+  "lastUpdated": "2026-07-10T17:48:32.051558+00:00",
   "jira": {
     "summary": {
-      "total": 288,
+      "total": 289,
       "byStatus": {
-        "IN QA": 2,
+        "QA Approved": 24,
+        "Ready to QA": 7,
+        "Finalizada": 199,
+        "PENDING DEV DEPLOY": 3,
         "En curso": 6,
-        "Tech Review": 12,
-        "Ready to QA": 4,
         "Ready for Refinement": 4,
-        "Listo": 10,
-        "PENDING DEV DEPLOY": 2,
-        "QA Approved": 22,
+        "Tech Review": 10,
+        "Listo": 9,
         "IN UAT": 5,
         "Deprecated": 9,
-        "Finalizada": 199,
         "Blocked": 4,
         "READY FOR RELEASE": 4,
         "Backlog": 5
@@ -25,13 +24,105 @@
         "key": "WSC-1412",
         "url": "https://e2x.atlassian.net/browse/WSC-1412",
         "summary": "Mobile: BREADCRUMB - amendments",
-        "status": "IN QA",
+        "status": "QA Approved",
         "statusCategory": "indeterminate",
         "assignee": "Ingrith Santamaria",
-        "updated": "2026-07-10T15:26:52.817+0100",
+        "updated": "2026-07-10T17:54:20.816+0100",
         "priority": "Poco importante",
         "labels": [
           "Needs-QA"
+        ]
+      },
+      {
+        "key": "WSC-1575",
+        "url": "https://e2x.atlassian.net/browse/WSC-1575",
+        "summary": "PDP - remove size button for 'ONESIZE' products",
+        "status": "QA Approved",
+        "statusCategory": "indeterminate",
+        "assignee": "Ingrith Santamaria",
+        "updated": "2026-07-10T17:53:37.088+0100",
+        "priority": "Poco importante",
+        "labels": [
+          "Needs-QA"
+        ]
+      },
+      {
+        "key": "WSC-1606",
+        "url": "https://e2x.atlassian.net/browse/WSC-1606",
+        "summary": "Mobile: BREADCRUMB - amendments part 2",
+        "status": "Ready to QA",
+        "statusCategory": "new",
+        "assignee": "Unassigned",
+        "updated": "2026-07-10T17:35:26.797+0100",
+        "priority": "Poco importante",
+        "labels": [
+          "Needs-QA"
+        ]
+      },
+      {
+        "key": "WSC-1569",
+        "url": "https://e2x.atlassian.net/browse/WSC-1569",
+        "summary": "CHECKOUT - delivery/collection option gets reset",
+        "status": "Finalizada",
+        "statusCategory": "done",
+        "assignee": "Gerardo Romero",
+        "updated": "2026-07-10T17:32:48.104+0100",
+        "priority": "Cr\u00edtica",
+        "labels": [
+          "Needs-QA"
+        ]
+      },
+      {
+        "key": "WSC-1604",
+        "url": "https://e2x.atlassian.net/browse/WSC-1604",
+        "summary": "SALE BADGE - new colour",
+        "status": "Ready to QA",
+        "statusCategory": "new",
+        "assignee": "Unassigned",
+        "updated": "2026-07-10T17:32:31.770+0100",
+        "priority": "Cr\u00edtica",
+        "labels": [
+          "Needs-QA"
+        ]
+      },
+      {
+        "key": "WSC-1413",
+        "url": "https://e2x.atlassian.net/browse/WSC-1413",
+        "summary": "Only Mobile: GOOD STUFF - remove header padding",
+        "status": "PENDING DEV DEPLOY",
+        "statusCategory": "new",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-07-10T17:23:32.764+0100",
+        "priority": "Poco importante",
+        "labels": [
+          "Needs-QA"
+        ]
+      },
+      {
+        "key": "WSC-1579",
+        "url": "https://e2x.atlassian.net/browse/WSC-1579",
+        "summary": "Mobile iOS: PLP - CTA gets highlighted when landing on next PLP",
+        "status": "Ready to QA",
+        "statusCategory": "new",
+        "assignee": "Unassigned",
+        "updated": "2026-07-10T17:06:26.666+0100",
+        "priority": "Importante",
+        "labels": [
+          "Needs-QA"
+        ]
+      },
+      {
+        "key": "WSC-1593",
+        "url": "https://e2x.atlassian.net/browse/WSC-1593",
+        "summary": "MY ACCOUNT - restrictions on /saved-addresses for name and address ",
+        "status": "En curso",
+        "statusCategory": "indeterminate",
+        "assignee": "Williams Colmenares",
+        "updated": "2026-07-10T16:50:00.809+0100",
+        "priority": "Poco importante",
+        "labels": [
+          "Needs-QA",
+          "automatable"
         ]
       },
       {
@@ -46,45 +137,6 @@
         "labels": [
           "Needs-QA",
           "manualQA"
-        ]
-      },
-      {
-        "key": "WSC-1579",
-        "url": "https://e2x.atlassian.net/browse/WSC-1579",
-        "summary": "Mobile iOS: PLP - CTA gets highlighted when landing on next PLP",
-        "status": "Tech Review",
-        "statusCategory": "indeterminate",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-07-10T15:16:31.032+0100",
-        "priority": "Importante",
-        "labels": [
-          "Needs-QA"
-        ]
-      },
-      {
-        "key": "WSC-1575",
-        "url": "https://e2x.atlassian.net/browse/WSC-1575",
-        "summary": "PDP - remove size button for 'ONESIZE' products",
-        "status": "IN QA",
-        "statusCategory": "indeterminate",
-        "assignee": "Ingrith Santamaria",
-        "updated": "2026-07-10T14:59:05.683+0100",
-        "priority": "Poco importante",
-        "labels": [
-          "Needs-QA"
-        ]
-      },
-      {
-        "key": "WSC-1606",
-        "url": "https://e2x.atlassian.net/browse/WSC-1606",
-        "summary": "Mobile: BREADCRUMB - amendments part 2",
-        "status": "En curso",
-        "statusCategory": "indeterminate",
-        "assignee": "Williams Colmenares",
-        "updated": "2026-07-10T14:58:02.703+0100",
-        "priority": "Poco importante",
-        "labels": [
-          "Needs-QA"
         ]
       },
       {
@@ -138,33 +190,6 @@
         "labels": [
           "Needs-QA",
           "manualQA"
-        ]
-      },
-      {
-        "key": "WSC-1593",
-        "url": "https://e2x.atlassian.net/browse/WSC-1593",
-        "summary": "MY ACCOUNT - restrictions on /saved-addresses for name and address ",
-        "status": "Listo",
-        "statusCategory": "new",
-        "assignee": "Williams Colmenares",
-        "updated": "2026-07-09T21:36:26.707+0100",
-        "priority": "Poco importante",
-        "labels": [
-          "Needs-QA",
-          "automatable"
-        ]
-      },
-      {
-        "key": "WSC-1413",
-        "url": "https://e2x.atlassian.net/browse/WSC-1413",
-        "summary": "Only Mobile: GOOD STUFF - remove header padding",
-        "status": "Tech Review",
-        "statusCategory": "indeterminate",
-        "assignee": "Williams Colmenares",
-        "updated": "2026-07-09T20:55:29.873+0100",
-        "priority": "Poco importante",
-        "labels": [
-          "Needs-QA"
         ]
       },
       {
@@ -631,19 +656,6 @@
         "assignee": "Gerardo Romero",
         "updated": "2026-07-02T20:33:35.219+0100",
         "priority": "Poco importante",
-        "labels": [
-          "Needs-QA"
-        ]
-      },
-      {
-        "key": "WSC-1569",
-        "url": "https://e2x.atlassian.net/browse/WSC-1569",
-        "summary": "CHECKOUT - delivery/collection option gets reset",
-        "status": "Finalizada",
-        "statusCategory": "done",
-        "assignee": "Gerardo Romero",
-        "updated": "2026-07-02T18:12:45.790+0100",
-        "priority": "Cr\u00edtica",
         "labels": [
           "Needs-QA"
         ]
