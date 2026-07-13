@@ -1,15 +1,15 @@
 {
-  "lastUpdated": "2026-07-13T17:55:49.200469+00:00",
+  "lastUpdated": "2026-07-13T20:57:37.362004+00:00",
   "jira": {
     "summary": {
       "total": 289,
       "byStatus": {
+        "IN QA": 2,
+        "QA Approved": 25,
         "En curso": 7,
-        "IN QA": 1,
         "Tech Review": 12,
         "Listo": 7,
-        "Ready to QA": 5,
-        "QA Approved": 24,
+        "Ready to QA": 3,
         "Finalizada": 199,
         "PENDING DEV DEPLOY": 3,
         "Ready for Refinement": 4,
@@ -22,6 +22,46 @@
     },
     "tickets": [
       {
+        "key": "WSC-1604",
+        "url": "https://e2x.atlassian.net/browse/WSC-1604",
+        "summary": "SALE BADGE - new colour",
+        "status": "IN QA",
+        "statusCategory": "indeterminate",
+        "assignee": "Gerardo Romero",
+        "updated": "2026-07-13T20:49:47.288+0100",
+        "priority": "Cr\u00edtica",
+        "labels": [
+          "Needs-QA"
+        ]
+      },
+      {
+        "key": "WSC-1606",
+        "url": "https://e2x.atlassian.net/browse/WSC-1606",
+        "summary": "Mobile: BREADCRUMB - amendments part 2",
+        "status": "IN QA",
+        "statusCategory": "indeterminate",
+        "assignee": "Gerardo Romero",
+        "updated": "2026-07-13T20:48:27.514+0100",
+        "priority": "Poco importante",
+        "labels": [
+          "Needs-QA"
+        ]
+      },
+      {
+        "key": "WSC-1588",
+        "url": "https://e2x.atlassian.net/browse/WSC-1588",
+        "summary": "[Header] Clicking account icon in non-UK locales forcefully logs user out instead of navigating to /my-account",
+        "status": "QA Approved",
+        "statusCategory": "indeterminate",
+        "assignee": "Gerardo Romero",
+        "updated": "2026-07-13T20:47:56.051+0100",
+        "priority": "Importante",
+        "labels": [
+          "Needs-QA",
+          "automatable"
+        ]
+      },
+      {
         "key": "WSC-1586",
         "url": "https://e2x.atlassian.net/browse/WSC-1586",
         "summary": "PDP - toggle amends 2",
@@ -31,20 +71,6 @@
         "updated": "2026-07-13T18:41:56.202+0100",
         "priority": "Importante",
         "labels": []
-      },
-      {
-        "key": "WSC-1588",
-        "url": "https://e2x.atlassian.net/browse/WSC-1588",
-        "summary": "[Header] Clicking account icon in non-UK locales forcefully logs user out instead of navigating to /my-account",
-        "status": "IN QA",
-        "statusCategory": "indeterminate",
-        "assignee": "Gerardo Romero",
-        "updated": "2026-07-13T18:29:28.699+0100",
-        "priority": "Importante",
-        "labels": [
-          "Needs-QA",
-          "automatable"
-        ]
       },
       {
         "key": "WSC-1580",
@@ -126,19 +152,6 @@
         ]
       },
       {
-        "key": "WSC-1606",
-        "url": "https://e2x.atlassian.net/browse/WSC-1606",
-        "summary": "Mobile: BREADCRUMB - amendments part 2",
-        "status": "Ready to QA",
-        "statusCategory": "new",
-        "assignee": "Gerardo Romero",
-        "updated": "2026-07-13T15:08:23.742+0100",
-        "priority": "Poco importante",
-        "labels": [
-          "Needs-QA"
-        ]
-      },
-      {
         "key": "WSC-1553",
         "url": "https://e2x.atlassian.net/browse/WSC-1553",
         "summary": "API KEY - update (CHECKOUT)",
@@ -173,19 +186,6 @@
         "assignee": "Gerardo Romero",
         "updated": "2026-07-13T15:07:53.774+0100",
         "priority": "Importante",
-        "labels": [
-          "Needs-QA"
-        ]
-      },
-      {
-        "key": "WSC-1604",
-        "url": "https://e2x.atlassian.net/browse/WSC-1604",
-        "summary": "SALE BADGE - new colour",
-        "status": "Ready to QA",
-        "statusCategory": "new",
-        "assignee": "Gerardo Romero",
-        "updated": "2026-07-13T15:07:42.791+0100",
-        "priority": "Cr\u00edtica",
         "labels": [
           "Needs-QA"
         ]
