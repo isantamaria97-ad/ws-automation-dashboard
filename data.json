@@ -1,18 +1,18 @@
 {
-  "lastUpdated": "2026-07-13T14:36:47.543637+00:00",
+  "lastUpdated": "2026-07-13T17:55:49.200469+00:00",
   "jira": {
     "summary": {
       "total": 289,
       "byStatus": {
-        "Ready to QA": 6,
+        "En curso": 7,
         "IN QA": 1,
-        "En curso": 6,
-        "Listo": 9,
+        "Tech Review": 12,
+        "Listo": 7,
+        "Ready to QA": 5,
         "QA Approved": 24,
         "Finalizada": 199,
         "PENDING DEV DEPLOY": 3,
         "Ready for Refinement": 4,
-        "Tech Review": 10,
         "IN UAT": 5,
         "Deprecated": 9,
         "Blocked": 4,
@@ -21,6 +21,110 @@
       }
     },
     "tickets": [
+      {
+        "key": "WSC-1586",
+        "url": "https://e2x.atlassian.net/browse/WSC-1586",
+        "summary": "PDP - toggle amends 2",
+        "status": "En curso",
+        "statusCategory": "indeterminate",
+        "assignee": "Williams Colmenares",
+        "updated": "2026-07-13T18:41:56.202+0100",
+        "priority": "Importante",
+        "labels": []
+      },
+      {
+        "key": "WSC-1588",
+        "url": "https://e2x.atlassian.net/browse/WSC-1588",
+        "summary": "[Header] Clicking account icon in non-UK locales forcefully logs user out instead of navigating to /my-account",
+        "status": "IN QA",
+        "statusCategory": "indeterminate",
+        "assignee": "Gerardo Romero",
+        "updated": "2026-07-13T18:29:28.699+0100",
+        "priority": "Importante",
+        "labels": [
+          "Needs-QA",
+          "automatable"
+        ]
+      },
+      {
+        "key": "WSC-1580",
+        "url": "https://e2x.atlassian.net/browse/WSC-1580",
+        "summary": "SITESPECT - deploy to Production",
+        "status": "En curso",
+        "statusCategory": "indeterminate",
+        "assignee": "Jair Huaman",
+        "updated": "2026-07-13T17:42:32.968+0100",
+        "priority": "Importante",
+        "labels": [
+          "NO_QA_REQUIRED"
+        ]
+      },
+      {
+        "key": "WSC-1597",
+        "url": "https://e2x.atlassian.net/browse/WSC-1597",
+        "summary": "SALE BADGES - show/don't show",
+        "status": "En curso",
+        "statusCategory": "indeterminate",
+        "assignee": "Jair Huaman",
+        "updated": "2026-07-13T17:42:22.362+0100",
+        "priority": "Importante",
+        "labels": [
+          "Needs-QA",
+          "manualQA"
+        ]
+      },
+      {
+        "key": "WSC-1392",
+        "url": "https://e2x.atlassian.net/browse/WSC-1392",
+        "summary": "HHG - SEO text block",
+        "status": "En curso",
+        "statusCategory": "indeterminate",
+        "assignee": "Williams Colmenares",
+        "updated": "2026-07-13T17:35:38.625+0100",
+        "priority": "Poco importante",
+        "labels": []
+      },
+      {
+        "key": "WSC-1591",
+        "url": "https://e2x.atlassian.net/browse/WSC-1591",
+        "summary": "Shop Pages \u2014 Canonical URL & Hreflang Fix",
+        "status": "Tech Review",
+        "statusCategory": "indeterminate",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-07-13T17:03:48.103+0100",
+        "priority": "Importante",
+        "labels": [
+          "Needs-QA",
+          "manualQA"
+        ]
+      },
+      {
+        "key": "WSC-1422",
+        "url": "https://e2x.atlassian.net/browse/WSC-1422",
+        "summary": "Desktop/Mobile: SIDE PANEL - standardise width",
+        "status": "Listo",
+        "statusCategory": "new",
+        "assignee": "Williams Colmenares",
+        "updated": "2026-07-13T17:00:40.011+0100",
+        "priority": "Poco importante",
+        "labels": [
+          "Needs-QA"
+        ]
+      },
+      {
+        "key": "WSC-1593",
+        "url": "https://e2x.atlassian.net/browse/WSC-1593",
+        "summary": "MY ACCOUNT - restrictions on /saved-addresses for name and address ",
+        "status": "Tech Review",
+        "statusCategory": "indeterminate",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-07-13T16:39:22.975+0100",
+        "priority": "Poco importante",
+        "labels": [
+          "Needs-QA",
+          "automatable"
+        ]
+      },
       {
         "key": "WSC-1606",
         "url": "https://e2x.atlassian.net/browse/WSC-1606",
@@ -84,45 +188,6 @@
         "priority": "Cr\u00edtica",
         "labels": [
           "Needs-QA"
-        ]
-      },
-      {
-        "key": "WSC-1586",
-        "url": "https://e2x.atlassian.net/browse/WSC-1586",
-        "summary": "PDP - toggle amends 2",
-        "status": "IN QA",
-        "statusCategory": "indeterminate",
-        "assignee": "Gerardo Romero",
-        "updated": "2026-07-13T14:57:56.422+0100",
-        "priority": "Importante",
-        "labels": []
-      },
-      {
-        "key": "WSC-1591",
-        "url": "https://e2x.atlassian.net/browse/WSC-1591",
-        "summary": "Shop Pages \u2014 Canonical URL & Hreflang Fix",
-        "status": "En curso",
-        "statusCategory": "indeterminate",
-        "assignee": "Jair Huaman",
-        "updated": "2026-07-13T14:45:16.125+0100",
-        "priority": "Importante",
-        "labels": [
-          "Needs-QA",
-          "manualQA"
-        ]
-      },
-      {
-        "key": "WSC-1597",
-        "url": "https://e2x.atlassian.net/browse/WSC-1597",
-        "summary": "SALE BADGES - show/don't show",
-        "status": "Listo",
-        "statusCategory": "new",
-        "assignee": "Jair Huaman",
-        "updated": "2026-07-13T14:43:00.587+0100",
-        "priority": "Importante",
-        "labels": [
-          "Needs-QA",
-          "manualQA"
         ]
       },
       {
@@ -216,34 +281,6 @@
         ]
       },
       {
-        "key": "WSC-1593",
-        "url": "https://e2x.atlassian.net/browse/WSC-1593",
-        "summary": "MY ACCOUNT - restrictions on /saved-addresses for name and address ",
-        "status": "En curso",
-        "statusCategory": "indeterminate",
-        "assignee": "Williams Colmenares",
-        "updated": "2026-07-10T16:50:00.809+0100",
-        "priority": "Poco importante",
-        "labels": [
-          "Needs-QA",
-          "automatable"
-        ]
-      },
-      {
-        "key": "WSC-1588",
-        "url": "https://e2x.atlassian.net/browse/WSC-1588",
-        "summary": "[Header] Clicking account icon in non-UK locales forcefully logs user out instead of navigating to /my-account",
-        "status": "Ready to QA",
-        "statusCategory": "new",
-        "assignee": "Gerardo Romero",
-        "updated": "2026-07-10T14:56:06.700+0100",
-        "priority": "Importante",
-        "labels": [
-          "Needs-QA",
-          "automatable"
-        ]
-      },
-      {
         "key": "WSC-1602",
         "url": "https://e2x.atlassian.net/browse/WSC-1602",
         "summary": "[WSSD-642] - CHECKOUT - Investigate Apple Pay Express discount loss after dismissed/timed-out payment sheet",
@@ -333,43 +370,6 @@
         "updated": "2026-07-09T19:31:29.222+0100",
         "priority": "Not Set",
         "labels": []
-      },
-      {
-        "key": "WSC-1580",
-        "url": "https://e2x.atlassian.net/browse/WSC-1580",
-        "summary": "SITESPECT - deploy to Production",
-        "status": "En curso",
-        "statusCategory": "indeterminate",
-        "assignee": "Jair Huaman",
-        "updated": "2026-07-09T19:28:04.717+0100",
-        "priority": "Importante",
-        "labels": [
-          "NO_QA_REQUIRED"
-        ]
-      },
-      {
-        "key": "WSC-1392",
-        "url": "https://e2x.atlassian.net/browse/WSC-1392",
-        "summary": "HHG - SEO text block",
-        "status": "Listo",
-        "statusCategory": "new",
-        "assignee": "Unassigned",
-        "updated": "2026-07-09T18:49:05.530+0100",
-        "priority": "Poco importante",
-        "labels": []
-      },
-      {
-        "key": "WSC-1422",
-        "url": "https://e2x.atlassian.net/browse/WSC-1422",
-        "summary": "Desktop/Mobile: SIDE PANEL - standardise width",
-        "status": "Listo",
-        "statusCategory": "new",
-        "assignee": "Unassigned",
-        "updated": "2026-07-09T18:48:44.690+0100",
-        "priority": "Poco importante",
-        "labels": [
-          "Needs-QA"
-        ]
       },
       {
         "key": "WSC-1545",
