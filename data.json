@@ -1,12 +1,12 @@
 {
-  "lastUpdated": "2026-07-14T06:12:06.877767+00:00",
+  "lastUpdated": "2026-07-14T09:59:54.443460+00:00",
   "jira": {
     "summary": {
       "total": 289,
       "byStatus": {
+        "QA Approved": 26,
         "Listo": 8,
         "IN QA": 1,
-        "QA Approved": 26,
         "En curso": 6,
         "Tech Review": 12,
         "Ready to QA": 3,
@@ -21,6 +21,19 @@
       }
     },
     "tickets": [
+      {
+        "key": "WSC-1606",
+        "url": "https://e2x.atlassian.net/browse/WSC-1606",
+        "summary": "Mobile: BREADCRUMB - amendments part 2",
+        "status": "QA Approved",
+        "statusCategory": "indeterminate",
+        "assignee": "Gerardo Romero",
+        "updated": "2026-07-14T09:08:59.927+0100",
+        "priority": "Poco importante",
+        "labels": [
+          "Needs-QA"
+        ]
+      },
       {
         "key": "WSC-1392",
         "url": "https://e2x.atlassian.net/browse/WSC-1392",
@@ -41,19 +54,6 @@
         "assignee": "Gerardo Romero",
         "updated": "2026-07-13T22:07:33.758+0100",
         "priority": "Cr\u00edtica",
-        "labels": [
-          "Needs-QA"
-        ]
-      },
-      {
-        "key": "WSC-1606",
-        "url": "https://e2x.atlassian.net/browse/WSC-1606",
-        "summary": "Mobile: BREADCRUMB - amendments part 2",
-        "status": "QA Approved",
-        "statusCategory": "indeterminate",
-        "assignee": "Gerardo Romero",
-        "updated": "2026-07-13T22:02:36.749+0100",
-        "priority": "Poco importante",
         "labels": [
           "Needs-QA"
         ]
