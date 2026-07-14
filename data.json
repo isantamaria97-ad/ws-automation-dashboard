@@ -1,26 +1,80 @@
 {
-  "lastUpdated": "2026-07-14T09:59:54.443460+00:00",
+  "lastUpdated": "2026-07-14T13:47:01.067501+00:00",
   "jira": {
     "summary": {
       "total": 289,
       "byStatus": {
+        "En curso": 6,
+        "Tech Review": 12,
+        "Ready for Refinement": 4,
+        "Backlog": 5,
         "QA Approved": 26,
         "Listo": 8,
         "IN QA": 1,
-        "En curso": 6,
-        "Tech Review": 12,
         "Ready to QA": 3,
         "Finalizada": 199,
         "PENDING DEV DEPLOY": 3,
-        "Ready for Refinement": 4,
         "IN UAT": 5,
         "Deprecated": 9,
         "Blocked": 4,
-        "READY FOR RELEASE": 4,
-        "Backlog": 5
+        "READY FOR RELEASE": 4
       }
     },
     "tickets": [
+      {
+        "key": "WSC-1597",
+        "url": "https://e2x.atlassian.net/browse/WSC-1597",
+        "summary": "SALE BADGES - show/don't show",
+        "status": "En curso",
+        "statusCategory": "indeterminate",
+        "assignee": "Jair Huaman",
+        "updated": "2026-07-14T14:23:14.157+0100",
+        "priority": "Importante",
+        "labels": [
+          "Needs-QA",
+          "manualQA"
+        ]
+      },
+      {
+        "key": "WSC-1493",
+        "url": "https://e2x.atlassian.net/browse/WSC-1493",
+        "summary": "PROMO MESSAGING - Add across VSF journey",
+        "status": "Tech Review",
+        "statusCategory": "indeterminate",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-07-14T14:15:57.995+0100",
+        "priority": "Importante",
+        "labels": [
+          "Needs-QA",
+          "manualQA"
+        ]
+      },
+      {
+        "key": "WSC-1138",
+        "url": "https://e2x.atlassian.net/browse/WSC-1138",
+        "summary": "GOOD STUFF - add preferred shop to 'My Details'",
+        "status": "Ready for Refinement",
+        "statusCategory": "new",
+        "assignee": "Unassigned",
+        "updated": "2026-07-14T11:46:19.187+0100",
+        "priority": "Importante",
+        "labels": [
+          "Needs-QA"
+        ]
+      },
+      {
+        "key": "WSC-1509",
+        "url": "https://e2x.atlassian.net/browse/WSC-1509",
+        "summary": "CHECKOUT - BC error when adding free shipping coupon after selecting a delivery type",
+        "status": "Backlog",
+        "statusCategory": "new",
+        "assignee": "Ingrith Santamaria",
+        "updated": "2026-07-14T11:27:46.775+0100",
+        "priority": "Cr\u00edtica",
+        "labels": [
+          "Needs-QA"
+        ]
+      },
       {
         "key": "WSC-1606",
         "url": "https://e2x.atlassian.net/browse/WSC-1606",
@@ -94,20 +148,6 @@
         "priority": "Importante",
         "labels": [
           "NO_QA_REQUIRED"
-        ]
-      },
-      {
-        "key": "WSC-1597",
-        "url": "https://e2x.atlassian.net/browse/WSC-1597",
-        "summary": "SALE BADGES - show/don't show",
-        "status": "En curso",
-        "statusCategory": "indeterminate",
-        "assignee": "Jair Huaman",
-        "updated": "2026-07-13T17:42:22.362+0100",
-        "priority": "Importante",
-        "labels": [
-          "Needs-QA",
-          "manualQA"
         ]
       },
       {
@@ -290,20 +330,6 @@
         "updated": "2026-07-10T13:35:39.467+0100",
         "priority": "Importante",
         "labels": []
-      },
-      {
-        "key": "WSC-1493",
-        "url": "https://e2x.atlassian.net/browse/WSC-1493",
-        "summary": "PROMO MESSAGING - Add across VSF journey",
-        "status": "Tech Review",
-        "statusCategory": "indeterminate",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-07-10T13:30:13.022+0100",
-        "priority": "Importante",
-        "labels": [
-          "Needs-QA",
-          "manualQA"
-        ]
       },
       {
         "key": "WSC-1603",
@@ -917,19 +943,6 @@
         "updated": "2026-07-01T15:11:36.884+0100",
         "priority": "Importante",
         "labels": []
-      },
-      {
-        "key": "WSC-1138",
-        "url": "https://e2x.atlassian.net/browse/WSC-1138",
-        "summary": "GOOD STUFF - add preferred shop to 'My Details'",
-        "status": "Ready for Refinement",
-        "statusCategory": "new",
-        "assignee": "Unassigned",
-        "updated": "2026-06-30T19:44:25.364+0100",
-        "priority": "Importante",
-        "labels": [
-          "Needs-QA"
-        ]
       },
       {
         "key": "WSC-1578",
@@ -1810,19 +1823,6 @@
         "assignee": "Unassigned",
         "updated": "2026-06-03T20:18:40.992+0100",
         "priority": "Poco importante",
-        "labels": [
-          "Needs-QA"
-        ]
-      },
-      {
-        "key": "WSC-1509",
-        "url": "https://e2x.atlassian.net/browse/WSC-1509",
-        "summary": "CHECKOUT - BC error when adding free shipping coupon after selecting a delivery type",
-        "status": "Backlog",
-        "statusCategory": "new",
-        "assignee": "Ingrith Santamaria",
-        "updated": "2026-06-01T22:12:42.398+0100",
-        "priority": "Cr\u00edtica",
         "labels": [
           "Needs-QA"
         ]
