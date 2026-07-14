@@ -1,14 +1,14 @@
 {
-  "lastUpdated": "2026-07-13T20:57:37.362004+00:00",
+  "lastUpdated": "2026-07-14T02:35:38.523765+00:00",
   "jira": {
     "summary": {
       "total": 289,
       "byStatus": {
-        "IN QA": 2,
-        "QA Approved": 25,
-        "En curso": 7,
+        "Listo": 8,
+        "IN QA": 1,
+        "QA Approved": 26,
+        "En curso": 6,
         "Tech Review": 12,
-        "Listo": 7,
         "Ready to QA": 3,
         "Finalizada": 199,
         "PENDING DEV DEPLOY": 3,
@@ -22,13 +22,24 @@
     },
     "tickets": [
       {
+        "key": "WSC-1392",
+        "url": "https://e2x.atlassian.net/browse/WSC-1392",
+        "summary": "HHG - SEO text block",
+        "status": "Listo",
+        "statusCategory": "new",
+        "assignee": "Williams Colmenares",
+        "updated": "2026-07-14T03:21:13.102+0100",
+        "priority": "Poco importante",
+        "labels": []
+      },
+      {
         "key": "WSC-1604",
         "url": "https://e2x.atlassian.net/browse/WSC-1604",
         "summary": "SALE BADGE - new colour",
         "status": "IN QA",
         "statusCategory": "indeterminate",
         "assignee": "Gerardo Romero",
-        "updated": "2026-07-13T20:49:47.288+0100",
+        "updated": "2026-07-13T22:07:33.758+0100",
         "priority": "Cr\u00edtica",
         "labels": [
           "Needs-QA"
@@ -38,10 +49,10 @@
         "key": "WSC-1606",
         "url": "https://e2x.atlassian.net/browse/WSC-1606",
         "summary": "Mobile: BREADCRUMB - amendments part 2",
-        "status": "IN QA",
+        "status": "QA Approved",
         "statusCategory": "indeterminate",
         "assignee": "Gerardo Romero",
-        "updated": "2026-07-13T20:48:27.514+0100",
+        "updated": "2026-07-13T22:02:36.749+0100",
         "priority": "Poco importante",
         "labels": [
           "Needs-QA"
@@ -54,7 +65,7 @@
         "status": "QA Approved",
         "statusCategory": "indeterminate",
         "assignee": "Gerardo Romero",
-        "updated": "2026-07-13T20:47:56.051+0100",
+        "updated": "2026-07-13T22:02:19.032+0100",
         "priority": "Importante",
         "labels": [
           "Needs-QA",
@@ -98,17 +109,6 @@
           "Needs-QA",
           "manualQA"
         ]
-      },
-      {
-        "key": "WSC-1392",
-        "url": "https://e2x.atlassian.net/browse/WSC-1392",
-        "summary": "HHG - SEO text block",
-        "status": "En curso",
-        "statusCategory": "indeterminate",
-        "assignee": "Williams Colmenares",
-        "updated": "2026-07-13T17:35:38.625+0100",
-        "priority": "Poco importante",
-        "labels": []
       },
       {
         "key": "WSC-1591",
