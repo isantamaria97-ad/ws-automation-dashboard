@@ -1,19 +1,19 @@
 {
-  "lastUpdated": "2026-07-14T17:16:12.222839+00:00",
+  "lastUpdated": "2026-07-14T21:01:29.197212+00:00",
   "jira": {
     "summary": {
       "total": 290,
       "byStatus": {
-        "En curso": 6,
-        "Tech Review": 12,
-        "Ready to QA": 5,
-        "IN QA": 2,
+        "QA Approved": 27,
+        "Tech Review": 13,
+        "PENDING DEV DEPLOY": 4,
+        "En curso": 5,
+        "Ready to QA": 4,
         "Finalizada": 199,
-        "QA Approved": 26,
+        "IN QA": 1,
         "Backlog": 5,
         "Ready for Refinement": 4,
         "Listo": 6,
-        "PENDING DEV DEPLOY": 3,
         "IN UAT": 5,
         "Deprecated": 9,
         "Blocked": 4,
@@ -21,6 +21,96 @@
       }
     },
     "tickets": [
+      {
+        "key": "WSC-1493",
+        "url": "https://e2x.atlassian.net/browse/WSC-1493",
+        "summary": "PROMO MESSAGING - Add across VSF journey",
+        "status": "QA Approved",
+        "statusCategory": "indeterminate",
+        "assignee": "Ingrith Santamaria",
+        "updated": "2026-07-14T21:50:53.251+0100",
+        "priority": "Importante",
+        "labels": [
+          "Needs-QA",
+          "manualQA"
+        ]
+      },
+      {
+        "key": "WSC-1606",
+        "url": "https://e2x.atlassian.net/browse/WSC-1606",
+        "summary": "Mobile: BREADCRUMB - amendments part 2",
+        "status": "Tech Review",
+        "statusCategory": "indeterminate",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-07-14T21:01:06.665+0100",
+        "priority": "Poco importante",
+        "labels": [
+          "Needs-QA"
+        ]
+      },
+      {
+        "key": "WSC-1597",
+        "url": "https://e2x.atlassian.net/browse/WSC-1597",
+        "summary": "SALE BADGES - show/don't show",
+        "status": "PENDING DEV DEPLOY",
+        "statusCategory": "new",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-07-14T18:55:14.845+0100",
+        "priority": "Importante",
+        "labels": [
+          "Needs-QA",
+          "manualQA"
+        ]
+      },
+      {
+        "key": "WSC-1600",
+        "url": "https://e2x.atlassian.net/browse/WSC-1600",
+        "summary": "Fix failing jobs in Playwright GitHub Actions workflow",
+        "status": "En curso",
+        "statusCategory": "indeterminate",
+        "assignee": "Ingrith Santamaria",
+        "updated": "2026-07-14T18:35:12.766+0100",
+        "priority": "Not Set",
+        "labels": [
+          "Automation",
+          "Playwright"
+        ]
+      },
+      {
+        "key": "WSC-1422",
+        "url": "https://e2x.atlassian.net/browse/WSC-1422",
+        "summary": "Desktop/Mobile: SIDE PANEL - standardise width",
+        "status": "Tech Review",
+        "statusCategory": "indeterminate",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-07-14T18:33:41.782+0100",
+        "priority": "Poco importante",
+        "labels": [
+          "Needs-QA"
+        ]
+      },
+      {
+        "key": "WSC-1608",
+        "url": "https://e2x.atlassian.net/browse/WSC-1608",
+        "summary": "Fix locale-aware Amplience delivery key for product links content slot",
+        "status": "Ready to QA",
+        "statusCategory": "new",
+        "assignee": "Jair Huaman",
+        "updated": "2026-07-14T18:33:24.238+0100",
+        "priority": "Not Set",
+        "labels": []
+      },
+      {
+        "key": "WSC-1465",
+        "url": "https://e2x.atlassian.net/browse/WSC-1465",
+        "summary": "CONSTRUCTOR (2/2) - gaps in personalisation data",
+        "status": "Finalizada",
+        "statusCategory": "done",
+        "assignee": "Stuart Young",
+        "updated": "2026-07-14T18:30:38.104+0100",
+        "priority": "Importante",
+        "labels": []
+      },
       {
         "key": "WSC-173",
         "url": "https://e2x.atlassian.net/browse/WSC-173",
@@ -35,33 +125,6 @@
         ]
       },
       {
-        "key": "WSC-1597",
-        "url": "https://e2x.atlassian.net/browse/WSC-1597",
-        "summary": "SALE BADGES - show/don't show",
-        "status": "Tech Review",
-        "statusCategory": "indeterminate",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-07-14T17:56:09.128+0100",
-        "priority": "Importante",
-        "labels": [
-          "Needs-QA",
-          "manualQA"
-        ]
-      },
-      {
-        "key": "WSC-1606",
-        "url": "https://e2x.atlassian.net/browse/WSC-1606",
-        "summary": "Mobile: BREADCRUMB - amendments part 2",
-        "status": "Ready to QA",
-        "statusCategory": "new",
-        "assignee": "Gerardo Romero",
-        "updated": "2026-07-14T17:39:57.443+0100",
-        "priority": "Poco importante",
-        "labels": [
-          "Needs-QA"
-        ]
-      },
-      {
         "key": "WSC-1586",
         "url": "https://e2x.atlassian.net/browse/WSC-1586",
         "summary": "PDP - toggle amends 2",
@@ -69,31 +132,6 @@
         "statusCategory": "new",
         "assignee": "Gerardo Romero",
         "updated": "2026-07-14T17:38:54.022+0100",
-        "priority": "Importante",
-        "labels": []
-      },
-      {
-        "key": "WSC-1493",
-        "url": "https://e2x.atlassian.net/browse/WSC-1493",
-        "summary": "PROMO MESSAGING - Add across VSF journey",
-        "status": "IN QA",
-        "statusCategory": "indeterminate",
-        "assignee": "Ingrith Santamaria",
-        "updated": "2026-07-14T17:35:44.844+0100",
-        "priority": "Importante",
-        "labels": [
-          "Needs-QA",
-          "manualQA"
-        ]
-      },
-      {
-        "key": "WSC-1465",
-        "url": "https://e2x.atlassian.net/browse/WSC-1465",
-        "summary": "CONSTRUCTOR (2/2) - gaps in personalisation data",
-        "status": "Finalizada",
-        "statusCategory": "done",
-        "assignee": "Stuart Young",
-        "updated": "2026-07-14T16:51:00.125+0100",
         "priority": "Importante",
         "labels": []
       },
@@ -135,30 +173,6 @@
         "labels": [
           "Needs-QA"
         ]
-      },
-      {
-        "key": "WSC-1422",
-        "url": "https://e2x.atlassian.net/browse/WSC-1422",
-        "summary": "Desktop/Mobile: SIDE PANEL - standardise width",
-        "status": "En curso",
-        "statusCategory": "indeterminate",
-        "assignee": "Williams Colmenares",
-        "updated": "2026-07-14T16:08:03.867+0100",
-        "priority": "Poco importante",
-        "labels": [
-          "Needs-QA"
-        ]
-      },
-      {
-        "key": "WSC-1608",
-        "url": "https://e2x.atlassian.net/browse/WSC-1608",
-        "summary": "Fix locale-aware Amplience delivery key for product links content slot",
-        "status": "Ready to QA",
-        "statusCategory": "new",
-        "assignee": "Jair Huaman",
-        "updated": "2026-07-14T15:17:01.025+0100",
-        "priority": "Not Set",
-        "labels": []
       },
       {
         "key": "WSC-1355",
@@ -276,20 +290,6 @@
         "priority": "Poco importante",
         "labels": [
           "Needs-QA"
-        ]
-      },
-      {
-        "key": "WSC-1600",
-        "url": "https://e2x.atlassian.net/browse/WSC-1600",
-        "summary": "Fix failing jobs in Playwright GitHub Actions workflow",
-        "status": "En curso",
-        "statusCategory": "indeterminate",
-        "assignee": "Ingrith Santamaria",
-        "updated": "2026-07-13T13:11:25.066+0100",
-        "priority": "Not Set",
-        "labels": [
-          "Automation",
-          "Playwright"
         ]
       },
       {
