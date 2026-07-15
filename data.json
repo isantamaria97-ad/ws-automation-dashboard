@@ -1,13 +1,13 @@
 {
-  "lastUpdated": "2026-07-15T17:18:51.843271+00:00",
+  "lastUpdated": "2026-07-15T21:01:36.511634+00:00",
   "jira": {
     "summary": {
-      "total": 290,
+      "total": 291,
       "byStatus": {
-        "QA Approved": 33,
-        "Tech Review": 13,
+        "Tech Review": 14,
+        "QA Approved": 34,
+        "En curso": 5,
         "Listo": 5,
-        "En curso": 6,
         "Finalizada": 199,
         "Backlog": 5,
         "Ready for Refinement": 4,
@@ -20,28 +20,63 @@
     },
     "tickets": [
       {
-        "key": "WSC-1608",
-        "url": "https://e2x.atlassian.net/browse/WSC-1608",
-        "summary": "Fix locale-aware Amplience delivery key for product links content slot",
-        "status": "QA Approved",
+        "key": "WSC-1392",
+        "url": "https://e2x.atlassian.net/browse/WSC-1392",
+        "summary": "HHG - SEO text block",
+        "status": "Tech Review",
         "statusCategory": "indeterminate",
-        "assignee": "Ingrith Santamaria",
-        "updated": "2026-07-15T18:01:21.846+0100",
-        "priority": "Not Set",
+        "assignee": "Williams Colmenares",
+        "updated": "2026-07-15T21:51:37.185+0100",
+        "priority": "Poco importante",
         "labels": []
       },
       {
         "key": "WSC-1597",
         "url": "https://e2x.atlassian.net/browse/WSC-1597",
         "summary": "SALE BADGES - show/don't show",
-        "status": "Tech Review",
+        "status": "QA Approved",
         "statusCategory": "indeterminate",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-07-15T18:00:47.566+0100",
+        "assignee": "Ingrith Santamaria",
+        "updated": "2026-07-15T20:28:06.480+0100",
         "priority": "Importante",
         "labels": [
           "Needs-QA",
           "manualQA"
+        ]
+      },
+      {
+        "key": "WSC-1608",
+        "url": "https://e2x.atlassian.net/browse/WSC-1608",
+        "summary": "Fix locale-aware Amplience delivery key for product links content slot",
+        "status": "QA Approved",
+        "statusCategory": "indeterminate",
+        "assignee": "Ingrith Santamaria",
+        "updated": "2026-07-15T20:08:57.485+0100",
+        "priority": "Not Set",
+        "labels": []
+      },
+      {
+        "key": "WSC-1605",
+        "url": "https://e2x.atlassian.net/browse/WSC-1605",
+        "summary": "Upgrade Axios to version axios@1.15.1",
+        "status": "En curso",
+        "statusCategory": "indeterminate",
+        "assignee": "Jair Huaman",
+        "updated": "2026-07-15T20:08:34.924+0100",
+        "priority": "Importante",
+        "labels": []
+      },
+      {
+        "key": "WSC-173",
+        "url": "https://e2x.atlassian.net/browse/WSC-173",
+        "summary": "SEO - fix to product schema for PDP for reviews and ratings",
+        "status": "Tech Review",
+        "statusCategory": "indeterminate",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-07-15T20:06:24.288+0100",
+        "priority": "Poco importante",
+        "labels": [
+          "Needs-QA"
         ]
       },
       {
@@ -98,19 +133,6 @@
         ]
       },
       {
-        "key": "WSC-173",
-        "url": "https://e2x.atlassian.net/browse/WSC-173",
-        "summary": "SEO - fix to product schema for PDP for reviews and ratings",
-        "status": "En curso",
-        "statusCategory": "indeterminate",
-        "assignee": "Jair Huaman",
-        "updated": "2026-07-15T16:15:20.867+0100",
-        "priority": "Poco importante",
-        "labels": [
-          "Needs-QA"
-        ]
-      },
-      {
         "key": "WSC-1606",
         "url": "https://e2x.atlassian.net/browse/WSC-1606",
         "summary": "Mobile: BREADCRUMB - amendments part 2",
@@ -122,17 +144,6 @@
         "labels": [
           "Needs-QA"
         ]
-      },
-      {
-        "key": "WSC-1392",
-        "url": "https://e2x.atlassian.net/browse/WSC-1392",
-        "summary": "HHG - SEO text block",
-        "status": "En curso",
-        "statusCategory": "indeterminate",
-        "assignee": "Williams Colmenares",
-        "updated": "2026-07-15T14:58:38.263+0100",
-        "priority": "Poco importante",
-        "labels": []
       },
       {
         "key": "WSC-1586",
