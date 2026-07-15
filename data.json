@@ -1,12 +1,12 @@
 {
-  "lastUpdated": "2026-07-15T10:04:11.149604+00:00",
+  "lastUpdated": "2026-07-15T13:45:43.258987+00:00",
   "jira": {
     "summary": {
       "total": 290,
       "byStatus": {
+        "En curso": 5,
         "Ready to QA": 5,
         "QA Approved": 28,
-        "En curso": 5,
         "Tech Review": 12,
         "Finalizada": 199,
         "IN QA": 1,
@@ -22,13 +22,13 @@
     },
     "tickets": [
       {
-        "key": "WSC-1606",
-        "url": "https://e2x.atlassian.net/browse/WSC-1606",
-        "summary": "Mobile: BREADCRUMB - amendments part 2",
-        "status": "Ready to QA",
-        "statusCategory": "new",
-        "assignee": "Unassigned",
-        "updated": "2026-07-14T23:21:48.382+0100",
+        "key": "WSC-173",
+        "url": "https://e2x.atlassian.net/browse/WSC-173",
+        "summary": "SEO - fix to product schema for PDP for reviews and ratings",
+        "status": "En curso",
+        "statusCategory": "indeterminate",
+        "assignee": "Jair Huaman",
+        "updated": "2026-07-15T14:38:42.300+0100",
         "priority": "Poco importante",
         "labels": [
           "Needs-QA"
@@ -40,12 +40,25 @@
         "summary": "SALE BADGES - show/don't show",
         "status": "Ready to QA",
         "statusCategory": "new",
-        "assignee": "Unassigned",
-        "updated": "2026-07-14T23:00:29.742+0100",
+        "assignee": "Ingrith Santamaria",
+        "updated": "2026-07-15T14:19:38.169+0100",
         "priority": "Importante",
         "labels": [
           "Needs-QA",
           "manualQA"
+        ]
+      },
+      {
+        "key": "WSC-1606",
+        "url": "https://e2x.atlassian.net/browse/WSC-1606",
+        "summary": "Mobile: BREADCRUMB - amendments part 2",
+        "status": "Ready to QA",
+        "statusCategory": "new",
+        "assignee": "Gerardo Romero",
+        "updated": "2026-07-15T12:12:38.047+0100",
+        "priority": "Poco importante",
+        "labels": [
+          "Needs-QA"
         ]
       },
       {
@@ -121,19 +134,6 @@
         "updated": "2026-07-14T18:30:38.104+0100",
         "priority": "Importante",
         "labels": []
-      },
-      {
-        "key": "WSC-173",
-        "url": "https://e2x.atlassian.net/browse/WSC-173",
-        "summary": "SEO - fix to product schema for PDP for reviews and ratings",
-        "status": "En curso",
-        "statusCategory": "indeterminate",
-        "assignee": "Jair Huaman",
-        "updated": "2026-07-14T17:57:01.346+0100",
-        "priority": "Poco importante",
-        "labels": [
-          "Needs-QA"
-        ]
       },
       {
         "key": "WSC-1579",
