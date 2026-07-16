@@ -1,13 +1,13 @@
 {
-  "lastUpdated": "2026-07-16T10:09:47.767565+00:00",
+  "lastUpdated": "2026-07-16T13:54:24.409213+00:00",
   "jira": {
     "summary": {
       "total": 291,
       "byStatus": {
+        "En curso": 7,
         "Tech Review": 14,
-        "QA Approved": 34,
-        "En curso": 5,
-        "Listo": 5,
+        "QA Approved": 33,
+        "Listo": 4,
         "Finalizada": 199,
         "Backlog": 5,
         "Ready for Refinement": 4,
@@ -20,6 +20,71 @@
     },
     "tickets": [
       {
+        "key": "WSC-1493",
+        "url": "https://e2x.atlassian.net/browse/WSC-1493",
+        "summary": "PROMO MESSAGING - Add across VSF journey",
+        "status": "En curso",
+        "statusCategory": "indeterminate",
+        "assignee": "Chiara Davies",
+        "updated": "2026-07-16T14:31:16.843+0100",
+        "priority": "Importante",
+        "labels": [
+          "Needs-QA",
+          "manualQA"
+        ]
+      },
+      {
+        "key": "WSC-1605",
+        "url": "https://e2x.atlassian.net/browse/WSC-1605",
+        "summary": "Upgrade Axios to version axios@1.15.1",
+        "status": "En curso",
+        "statusCategory": "indeterminate",
+        "assignee": "Jair Huaman",
+        "updated": "2026-07-16T14:13:28.527+0100",
+        "priority": "Importante",
+        "labels": []
+      },
+      {
+        "key": "WSC-173",
+        "url": "https://e2x.atlassian.net/browse/WSC-173",
+        "summary": "SEO - fix to product schema for PDP for reviews and ratings",
+        "status": "Tech Review",
+        "statusCategory": "indeterminate",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-07-16T14:03:29.581+0100",
+        "priority": "Poco importante",
+        "labels": [
+          "Needs-QA"
+        ]
+      },
+      {
+        "key": "WSC-1597",
+        "url": "https://e2x.atlassian.net/browse/WSC-1597",
+        "summary": "SALE BADGES - show/don't show",
+        "status": "QA Approved",
+        "statusCategory": "indeterminate",
+        "assignee": "Ingrith Santamaria",
+        "updated": "2026-07-16T13:20:12.938+0100",
+        "priority": "Importante",
+        "labels": [
+          "Needs-QA",
+          "manualQA"
+        ]
+      },
+      {
+        "key": "WSC-1481",
+        "url": "https://e2x.atlassian.net/browse/WSC-1481",
+        "summary": "Initial CSP Report-Only Rollout",
+        "status": "En curso",
+        "statusCategory": "indeterminate",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-07-16T11:47:36.215+0100",
+        "priority": "Not Set",
+        "labels": [
+          "CSP"
+        ]
+      },
+      {
         "key": "WSC-1392",
         "url": "https://e2x.atlassian.net/browse/WSC-1392",
         "summary": "HHG - SEO text block",
@@ -31,20 +96,6 @@
         "labels": []
       },
       {
-        "key": "WSC-1597",
-        "url": "https://e2x.atlassian.net/browse/WSC-1597",
-        "summary": "SALE BADGES - show/don't show",
-        "status": "QA Approved",
-        "statusCategory": "indeterminate",
-        "assignee": "Ingrith Santamaria",
-        "updated": "2026-07-15T20:28:06.480+0100",
-        "priority": "Importante",
-        "labels": [
-          "Needs-QA",
-          "manualQA"
-        ]
-      },
-      {
         "key": "WSC-1608",
         "url": "https://e2x.atlassian.net/browse/WSC-1608",
         "summary": "Fix locale-aware Amplience delivery key for product links content slot",
@@ -54,30 +105,6 @@
         "updated": "2026-07-15T20:08:57.485+0100",
         "priority": "Not Set",
         "labels": []
-      },
-      {
-        "key": "WSC-1605",
-        "url": "https://e2x.atlassian.net/browse/WSC-1605",
-        "summary": "Upgrade Axios to version axios@1.15.1",
-        "status": "En curso",
-        "statusCategory": "indeterminate",
-        "assignee": "Jair Huaman",
-        "updated": "2026-07-15T20:08:34.924+0100",
-        "priority": "Importante",
-        "labels": []
-      },
-      {
-        "key": "WSC-173",
-        "url": "https://e2x.atlassian.net/browse/WSC-173",
-        "summary": "SEO - fix to product schema for PDP for reviews and ratings",
-        "status": "Tech Review",
-        "statusCategory": "indeterminate",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-07-15T20:06:24.288+0100",
-        "priority": "Poco importante",
-        "labels": [
-          "Needs-QA"
-        ]
       },
       {
         "key": "WSC-1579",
@@ -155,20 +182,6 @@
         "updated": "2026-07-14T22:25:53.587+0100",
         "priority": "Importante",
         "labels": []
-      },
-      {
-        "key": "WSC-1493",
-        "url": "https://e2x.atlassian.net/browse/WSC-1493",
-        "summary": "PROMO MESSAGING - Add across VSF journey",
-        "status": "QA Approved",
-        "statusCategory": "indeterminate",
-        "assignee": "Ingrith Santamaria",
-        "updated": "2026-07-14T21:50:53.251+0100",
-        "priority": "Importante",
-        "labels": [
-          "Needs-QA",
-          "manualQA"
-        ]
       },
       {
         "key": "WSC-1600",
@@ -998,19 +1011,6 @@
         "updated": "2026-06-30T18:01:50.956+0100",
         "priority": "Importante",
         "labels": []
-      },
-      {
-        "key": "WSC-1481",
-        "url": "https://e2x.atlassian.net/browse/WSC-1481",
-        "summary": "Initial CSP Report-Only Rollout",
-        "status": "Listo",
-        "statusCategory": "new",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-06-30T04:25:48.746+0100",
-        "priority": "Not Set",
-        "labels": [
-          "CSP"
-        ]
       },
       {
         "key": "WSC-1480",
@@ -3716,15 +3716,83 @@
       ]
     },
     "runs": {
-      "total": 44,
-      "latestPassed": 26,
+      "total": 48,
+      "latestPassed": 0,
       "latestFailed": 0,
-      "latestPending": 48,
+      "latestPending": 74,
       "latestTotal": 74,
-      "latestRunName": "Regression 09/07/2026",
-      "latestRunDate": "2026-07-09T19:22:00.487Z",
+      "latestRunName": "Regression 16/07/26",
+      "latestRunDate": "2026-07-16T13:21:37.491Z",
       "passRate": 99.7,
       "recent": [
+        {
+          "id": 1953,
+          "name": "Regression 16/07/26",
+          "source_id": null,
+          "milestone_id": 233,
+          "config_id": 14,
+          "status": null,
+          "is_completed": false,
+          "elapsed_ms": null,
+          "created_at": "2026-07-16T13:21:37.491Z",
+          "completed_at": null,
+          "passed": 0,
+          "failed": 0,
+          "pending": 74,
+          "completed": 0,
+          "total": 74
+        },
+        {
+          "id": 1952,
+          "name": "Regression 16/07/26",
+          "source_id": null,
+          "milestone_id": 233,
+          "config_id": 13,
+          "status": null,
+          "is_completed": false,
+          "elapsed_ms": null,
+          "created_at": "2026-07-16T13:21:37.485Z",
+          "completed_at": null,
+          "passed": 0,
+          "failed": 0,
+          "pending": 74,
+          "completed": 0,
+          "total": 74
+        },
+        {
+          "id": 1951,
+          "name": "Regression 16/07/26",
+          "source_id": null,
+          "milestone_id": 233,
+          "config_id": 10,
+          "status": null,
+          "is_completed": false,
+          "elapsed_ms": null,
+          "created_at": "2026-07-16T13:21:37.480Z",
+          "completed_at": null,
+          "passed": 0,
+          "failed": 0,
+          "pending": 74,
+          "completed": 0,
+          "total": 74
+        },
+        {
+          "id": 1950,
+          "name": "Regression 16/07/26",
+          "source_id": null,
+          "milestone_id": 233,
+          "config_id": 9,
+          "status": null,
+          "is_completed": false,
+          "elapsed_ms": null,
+          "created_at": "2026-07-16T13:21:37.472Z",
+          "completed_at": null,
+          "passed": 0,
+          "failed": 0,
+          "pending": 74,
+          "completed": 0,
+          "total": 74
+        },
         {
           "id": 1912,
           "name": "Regression 09/07/2026",
@@ -3826,74 +3894,6 @@
           "pending": 0,
           "completed": 74,
           "total": 74
-        },
-        {
-          "id": 1869,
-          "name": "Regression 02/07/26",
-          "source_id": null,
-          "milestone_id": 227,
-          "config_id": 10,
-          "status": null,
-          "is_completed": false,
-          "elapsed_ms": null,
-          "created_at": "2026-07-02T15:44:28.987Z",
-          "completed_at": null,
-          "passed": 74,
-          "failed": 0,
-          "pending": 0,
-          "completed": 74,
-          "total": 74
-        },
-        {
-          "id": 1868,
-          "name": "Regression 02/07/26",
-          "source_id": null,
-          "milestone_id": 227,
-          "config_id": 9,
-          "status": null,
-          "is_completed": false,
-          "elapsed_ms": null,
-          "created_at": "2026-07-02T15:44:28.973Z",
-          "completed_at": null,
-          "passed": 74,
-          "failed": 0,
-          "pending": 0,
-          "completed": 74,
-          "total": 74
-        },
-        {
-          "id": 1865,
-          "name": "Regression 01/07/2026",
-          "source_id": null,
-          "milestone_id": 225,
-          "config_id": 14,
-          "status": null,
-          "is_completed": false,
-          "elapsed_ms": null,
-          "created_at": "2026-07-01T12:33:33.451Z",
-          "completed_at": null,
-          "passed": 10,
-          "failed": 0,
-          "pending": 0,
-          "completed": 10,
-          "total": 10
-        },
-        {
-          "id": 1864,
-          "name": "Regression 01/07/2026",
-          "source_id": null,
-          "milestone_id": 225,
-          "config_id": 13,
-          "status": null,
-          "is_completed": false,
-          "elapsed_ms": null,
-          "created_at": "2026-07-01T12:33:33.449Z",
-          "completed_at": null,
-          "passed": 10,
-          "failed": 0,
-          "pending": 0,
-          "completed": 10,
-          "total": 10
         }
       ]
     },
