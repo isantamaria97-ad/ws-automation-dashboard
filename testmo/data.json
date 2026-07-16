@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-16T18:41:22.614077+00:00",
+  "lastUpdated": "2026-07-16T20:03:24.866551+00:00",
   "milestones": [
     {
       "id": 233,
@@ -102,12 +102,12 @@
       "total": 74,
       "completed": 74,
       "remaining": 0,
-      "passed": 71,
+      "passed": 74,
       "failed": 0,
       "retest": 0,
       "blocked": 0,
       "untested": 0,
-      "skipped": 3,
+      "skipped": 0,
       "statusCounts": {
         "Untested": {
           "id": 1,
@@ -115,7 +115,7 @@
         },
         "Passed": {
           "id": 2,
-          "count": 71
+          "count": 74
         },
         "Failed": {
           "id": 3,
@@ -131,7 +131,7 @@
         },
         "Skipped": {
           "id": 6,
-          "count": 3
+          "count": 0
         },
         "Status 7": {
           "id": 7,
@@ -375,6 +375,17 @@
           "updatedAt": "2026-07-16T15:13:49.439Z"
         },
         {
+          "caseId": 127264,
+          "testId": 1629102,
+          "name": "EU: zone options visible; UK-only options hidden",
+          "tags": [],
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-07-16T18:50:21.493Z"
+        },
+        {
           "caseId": 114318,
           "testId": 1629059,
           "name": "Header Search - Entering Search Term Displays Related Products",
@@ -549,6 +560,17 @@
           "note": "",
           "assigneeId": null,
           "updatedAt": "2026-07-16T15:13:56.385Z"
+        },
+        {
+          "caseId": 127263,
+          "testId": 1629101,
+          "name": "US: zone options visible; UK-only options hidden",
+          "tags": [],
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-07-16T18:50:21.493Z"
         },
         {
           "caseId": 114287,
@@ -837,6 +859,17 @@
           "updatedAt": "2026-07-16T15:13:56.385Z"
         },
         {
+          "caseId": 122035,
+          "testId": 1629093,
+          "name": "Verify Out Of Stock Alert Is Visible On The Bag Page",
+          "tags": [],
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-07-16T18:50:21.493Z"
+        },
+        {
           "caseId": 114323,
           "testId": 1629064,
           "name": "Verify Payment Failure Notice Is Displayed For Invalid Card",
@@ -989,39 +1022,6 @@
           "note": "",
           "assigneeId": null,
           "updatedAt": "2026-07-16T15:13:49.439Z"
-        },
-        {
-          "caseId": 127264,
-          "testId": 1629102,
-          "name": "EU: zone options visible; UK-only options hidden",
-          "tags": [],
-          "statusId": 6,
-          "status": "Skipped",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-07-16T15:15:06.744Z"
-        },
-        {
-          "caseId": 127263,
-          "testId": 1629101,
-          "name": "US: zone options visible; UK-only options hidden",
-          "tags": [],
-          "statusId": 6,
-          "status": "Skipped",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-07-16T15:14:53.363Z"
-        },
-        {
-          "caseId": 122035,
-          "testId": 1629093,
-          "name": "Verify Out Of Stock Alert Is Visible On The Bag Page",
-          "tags": [],
-          "statusId": 6,
-          "status": "Skipped",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-07-16T15:14:38.779Z"
         }
       ]
     },
@@ -1039,12 +1039,12 @@
       "total": 74,
       "completed": 74,
       "remaining": 0,
-      "passed": 69,
+      "passed": 74,
       "failed": 0,
       "retest": 0,
       "blocked": 0,
       "untested": 0,
-      "skipped": 5,
+      "skipped": 0,
       "statusCounts": {
         "Untested": {
           "id": 1,
@@ -1052,7 +1052,7 @@
         },
         "Passed": {
           "id": 2,
-          "count": 69
+          "count": 74
         },
         "Failed": {
           "id": 3,
@@ -1068,7 +1068,7 @@
         },
         "Skipped": {
           "id": 6,
-          "count": 5
+          "count": 0
         },
         "Status 7": {
           "id": 7,
@@ -1191,6 +1191,17 @@
           "updatedAt": "2026-07-16T15:15:37.878Z"
         },
         {
+          "caseId": 114341,
+          "testId": 1628954,
+          "name": "Click And Collect - User Selects Parcel Stop Location And Confirms Collection Details",
+          "tags": [],
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-07-16T18:50:42.001Z"
+        },
+        {
           "caseId": 114340,
           "testId": 1628953,
           "name": "Click And Collect - User Selects White Stuff Store And Confirms Collection Details",
@@ -1299,6 +1310,17 @@
           "note": "",
           "assigneeId": null,
           "updatedAt": "2026-07-16T15:15:31.739Z"
+        },
+        {
+          "caseId": 127264,
+          "testId": 1628975,
+          "name": "EU: zone options visible; UK-only options hidden",
+          "tags": [],
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-07-16T18:50:42.001Z"
         },
         {
           "caseId": 114318,
@@ -1475,6 +1497,17 @@
           "note": "",
           "assigneeId": null,
           "updatedAt": "2026-07-16T15:15:37.878Z"
+        },
+        {
+          "caseId": 127263,
+          "testId": 1628974,
+          "name": "US: zone options visible; UK-only options hidden",
+          "tags": [],
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-07-16T18:50:42.001Z"
         },
         {
           "caseId": 114287,
@@ -1697,6 +1730,17 @@
           "updatedAt": "2026-07-16T15:15:37.878Z"
         },
         {
+          "caseId": 114322,
+          "testId": 1628936,
+          "name": "Verify Full Order Confirmation Flow For Guest User With Card Payment",
+          "tags": [],
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-07-16T18:50:30.730Z"
+        },
+        {
           "caseId": 114298,
           "testId": 1628915,
           "name": "Verify Gift Card Details Are Displayed Correctly In The Bag",
@@ -1750,6 +1794,17 @@
           "note": "",
           "assigneeId": null,
           "updatedAt": "2026-07-16T15:15:37.878Z"
+        },
+        {
+          "caseId": 122035,
+          "testId": 1628966,
+          "name": "Verify Out Of Stock Alert Is Visible On The Bag Page",
+          "tags": [],
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-07-16T18:50:42.001Z"
         },
         {
           "caseId": 114323,
@@ -1904,61 +1959,6 @@
           "note": "",
           "assigneeId": null,
           "updatedAt": "2026-07-16T15:15:31.739Z"
-        },
-        {
-          "caseId": 114341,
-          "testId": 1628954,
-          "name": "Click And Collect - User Selects Parcel Stop Location And Confirms Collection Details",
-          "tags": [],
-          "statusId": 6,
-          "status": "Skipped",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-07-16T15:15:53.202Z"
-        },
-        {
-          "caseId": 127264,
-          "testId": 1628975,
-          "name": "EU: zone options visible; UK-only options hidden",
-          "tags": [],
-          "statusId": 6,
-          "status": "Skipped",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-07-16T15:16:51.924Z"
-        },
-        {
-          "caseId": 127263,
-          "testId": 1628974,
-          "name": "US: zone options visible; UK-only options hidden",
-          "tags": [],
-          "statusId": 6,
-          "status": "Skipped",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-07-16T15:16:41.498Z"
-        },
-        {
-          "caseId": 114322,
-          "testId": 1628936,
-          "name": "Verify Full Order Confirmation Flow For Guest User With Card Payment",
-          "tags": [],
-          "statusId": 6,
-          "status": "Skipped",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-07-16T15:16:27.928Z"
-        },
-        {
-          "caseId": 122035,
-          "testId": 1628966,
-          "name": "Verify Out Of Stock Alert Is Visible On The Bag Page",
-          "tags": [],
-          "statusId": 6,
-          "status": "Skipped",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-07-16T15:16:16.023Z"
         }
       ]
     },
@@ -1976,12 +1976,12 @@
       "total": 74,
       "completed": 74,
       "remaining": 0,
-      "passed": 69,
+      "passed": 74,
       "failed": 0,
       "retest": 0,
       "blocked": 0,
       "untested": 0,
-      "skipped": 5,
+      "skipped": 0,
       "statusCounts": {
         "Untested": {
           "id": 1,
@@ -1989,7 +1989,7 @@
         },
         "Passed": {
           "id": 2,
-          "count": 69
+          "count": 74
         },
         "Failed": {
           "id": 3,
@@ -2005,7 +2005,7 @@
         },
         "Skipped": {
           "id": 6,
-          "count": 5
+          "count": 0
         },
         "Status 7": {
           "id": 7,
@@ -2249,6 +2249,17 @@
           "updatedAt": "2026-07-16T15:17:12.687Z"
         },
         {
+          "caseId": 127264,
+          "testId": 1628848,
+          "name": "EU: zone options visible; UK-only options hidden",
+          "tags": [],
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-07-16T18:51:03.267Z"
+        },
+        {
           "caseId": 114318,
           "testId": 1628805,
           "name": "Header Search - Entering Search Term Displays Related Products",
@@ -2302,6 +2313,28 @@
           "note": "",
           "assigneeId": null,
           "updatedAt": "2026-07-16T15:17:19.479Z"
+        },
+        {
+          "caseId": 114352,
+          "testId": 1628835,
+          "name": "Percent Coupon Applied Successfully At Checkout For Guest User",
+          "tags": [],
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-07-16T18:51:03.267Z"
+        },
+        {
+          "caseId": 114354,
+          "testId": 1628836,
+          "name": "Percent Coupon Applied Successfully At Checkout In EU Locale",
+          "tags": [],
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-07-16T18:51:03.267Z"
         },
         {
           "caseId": 114315,
@@ -2401,6 +2434,17 @@
           "note": "",
           "assigneeId": null,
           "updatedAt": "2026-07-16T15:17:19.479Z"
+        },
+        {
+          "caseId": 127263,
+          "testId": 1628847,
+          "name": "US: zone options visible; UK-only options hidden",
+          "tags": [],
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-07-16T18:51:03.267Z"
         },
         {
           "caseId": 114287,
@@ -2689,6 +2733,17 @@
           "updatedAt": "2026-07-16T15:17:19.479Z"
         },
         {
+          "caseId": 122035,
+          "testId": 1628839,
+          "name": "Verify Out Of Stock Alert Is Visible On The Bag Page",
+          "tags": [],
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-07-16T18:51:03.267Z"
+        },
+        {
           "caseId": 114323,
           "testId": 1628810,
           "name": "Verify Payment Failure Notice Is Displayed For Invalid Card",
@@ -2841,61 +2896,6 @@
           "note": "",
           "assigneeId": null,
           "updatedAt": "2026-07-16T15:17:12.687Z"
-        },
-        {
-          "caseId": 127264,
-          "testId": 1628848,
-          "name": "EU: zone options visible; UK-only options hidden",
-          "tags": [],
-          "statusId": 6,
-          "status": "Skipped",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-07-16T15:19:37.464Z"
-        },
-        {
-          "caseId": 114352,
-          "testId": 1628835,
-          "name": "Percent Coupon Applied Successfully At Checkout For Guest User",
-          "tags": [],
-          "statusId": 6,
-          "status": "Skipped",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-07-16T15:19:00.268Z"
-        },
-        {
-          "caseId": 114354,
-          "testId": 1628836,
-          "name": "Percent Coupon Applied Successfully At Checkout In EU Locale",
-          "tags": [],
-          "statusId": 6,
-          "status": "Skipped",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-07-16T15:19:11.233Z"
-        },
-        {
-          "caseId": 127263,
-          "testId": 1628847,
-          "name": "US: zone options visible; UK-only options hidden",
-          "tags": [],
-          "statusId": 6,
-          "status": "Skipped",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-07-16T15:19:27.868Z"
-        },
-        {
-          "caseId": 122035,
-          "testId": 1628839,
-          "name": "Verify Out Of Stock Alert Is Visible On The Bag Page",
-          "tags": [],
-          "statusId": 6,
-          "status": "Skipped",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-07-16T15:18:40.439Z"
         }
       ]
     },
@@ -2913,12 +2913,12 @@
       "total": 74,
       "completed": 74,
       "remaining": 0,
-      "passed": 69,
+      "passed": 74,
       "failed": 0,
       "retest": 0,
       "blocked": 0,
       "untested": 0,
-      "skipped": 5,
+      "skipped": 0,
       "statusCounts": {
         "Untested": {
           "id": 1,
@@ -2926,7 +2926,7 @@
         },
         "Passed": {
           "id": 2,
-          "count": 69
+          "count": 74
         },
         "Failed": {
           "id": 3,
@@ -2942,7 +2942,7 @@
         },
         "Skipped": {
           "id": 6,
-          "count": 5
+          "count": 0
         },
         "Status 7": {
           "id": 7,
@@ -3186,6 +3186,17 @@
           "updatedAt": "2026-07-16T15:18:11.294Z"
         },
         {
+          "caseId": 127264,
+          "testId": 1628721,
+          "name": "EU: zone options visible; UK-only options hidden",
+          "tags": [],
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-07-16T18:51:29.719Z"
+        },
+        {
           "caseId": 114318,
           "testId": 1628678,
           "name": "Header Search - Entering Search Term Displays Related Products",
@@ -3239,6 +3250,28 @@
           "note": "",
           "assigneeId": null,
           "updatedAt": "2026-07-16T15:18:15.955Z"
+        },
+        {
+          "caseId": 114352,
+          "testId": 1628708,
+          "name": "Percent Coupon Applied Successfully At Checkout For Guest User",
+          "tags": [],
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-07-16T18:51:29.719Z"
+        },
+        {
+          "caseId": 114354,
+          "testId": 1628709,
+          "name": "Percent Coupon Applied Successfully At Checkout In EU Locale",
+          "tags": [],
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-07-16T18:51:29.719Z"
         },
         {
           "caseId": 114315,
@@ -3338,6 +3371,17 @@
           "note": "",
           "assigneeId": null,
           "updatedAt": "2026-07-16T15:18:15.955Z"
+        },
+        {
+          "caseId": 127263,
+          "testId": 1628720,
+          "name": "US: zone options visible; UK-only options hidden",
+          "tags": [],
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-07-16T18:51:29.719Z"
         },
         {
           "caseId": 114287,
@@ -3626,6 +3670,17 @@
           "updatedAt": "2026-07-16T15:18:15.955Z"
         },
         {
+          "caseId": 122035,
+          "testId": 1628712,
+          "name": "Verify Out Of Stock Alert Is Visible On The Bag Page",
+          "tags": [],
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-07-16T18:51:29.719Z"
+        },
+        {
           "caseId": 114323,
           "testId": 1628683,
           "name": "Verify Payment Failure Notice Is Displayed For Invalid Card",
@@ -3778,61 +3833,6 @@
           "note": "",
           "assigneeId": null,
           "updatedAt": "2026-07-16T15:18:11.294Z"
-        },
-        {
-          "caseId": 127264,
-          "testId": 1628721,
-          "name": "EU: zone options visible; UK-only options hidden",
-          "tags": [],
-          "statusId": 6,
-          "status": "Skipped",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-07-16T15:20:41.452Z"
-        },
-        {
-          "caseId": 114352,
-          "testId": 1628708,
-          "name": "Percent Coupon Applied Successfully At Checkout For Guest User",
-          "tags": [],
-          "statusId": 6,
-          "status": "Skipped",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-07-16T15:20:09.129Z"
-        },
-        {
-          "caseId": 114354,
-          "testId": 1628709,
-          "name": "Percent Coupon Applied Successfully At Checkout In EU Locale",
-          "tags": [],
-          "statusId": 6,
-          "status": "Skipped",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-07-16T15:20:19.393Z"
-        },
-        {
-          "caseId": 127263,
-          "testId": 1628720,
-          "name": "US: zone options visible; UK-only options hidden",
-          "tags": [],
-          "statusId": 6,
-          "status": "Skipped",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-07-16T15:20:30.318Z"
-        },
-        {
-          "caseId": 122035,
-          "testId": 1628712,
-          "name": "Verify Out Of Stock Alert Is Visible On The Bag Page",
-          "tags": [],
-          "statusId": 6,
-          "status": "Skipped",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-07-16T15:19:51.623Z"
         }
       ]
     },
