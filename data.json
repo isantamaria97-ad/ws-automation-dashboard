@@ -1,12 +1,12 @@
 {
-  "lastUpdated": "2026-07-16T17:18:02.609064+00:00",
+  "lastUpdated": "2026-07-16T21:00:43.040018+00:00",
   "jira": {
     "summary": {
       "total": 291,
       "byStatus": {
+        "En curso": 6,
         "Tech Review": 15,
         "QA Approved": 33,
-        "En curso": 6,
         "Listo": 4,
         "Finalizada": 199,
         "Backlog": 5,
@@ -20,13 +20,27 @@
     },
     "tickets": [
       {
+        "key": "WSC-1603",
+        "url": "https://e2x.atlassian.net/browse/WSC-1603",
+        "summary": "[Test Reporting] Automate Testmo milestone, manual runs, and result submissions for UAT regression",
+        "status": "En curso",
+        "statusCategory": "indeterminate",
+        "assignee": "Gerardo Romero",
+        "updated": "2026-07-16T19:47:09.514+0100",
+        "priority": "Not Set",
+        "labels": [
+          "Needs-QA",
+          "automatable"
+        ]
+      },
+      {
         "key": "WSC-1605",
         "url": "https://e2x.atlassian.net/browse/WSC-1605",
         "summary": "Upgrade Axios to version axios@1.15.1",
         "status": "Tech Review",
         "statusCategory": "indeterminate",
         "assignee": "enmanuel.ramirez",
-        "updated": "2026-07-16T16:07:05.060+0100",
+        "updated": "2026-07-16T18:27:23.707+0100",
         "priority": "Importante",
         "labels": []
       },
@@ -414,20 +428,6 @@
         "updated": "2026-07-10T13:35:39.467+0100",
         "priority": "Importante",
         "labels": []
-      },
-      {
-        "key": "WSC-1603",
-        "url": "https://e2x.atlassian.net/browse/WSC-1603",
-        "summary": "[Test Reporting] Automate Testmo milestone, manual runs, and result submissions for UAT regression",
-        "status": "En curso",
-        "statusCategory": "indeterminate",
-        "assignee": "Gerardo Romero",
-        "updated": "2026-07-09T20:42:29.218+0100",
-        "priority": "Not Set",
-        "labels": [
-          "Needs-QA",
-          "automatable"
-        ]
       },
       {
         "key": "WSC-1561",
@@ -3717,7 +3717,7 @@
     },
     "runs": {
       "total": 44,
-      "latestPassed": 71,
+      "latestPassed": 74,
       "latestFailed": 0,
       "latestPending": 0,
       "latestTotal": 74,
@@ -3736,7 +3736,7 @@
           "elapsed_ms": null,
           "created_at": "2026-07-16T13:21:37.491Z",
           "completed_at": null,
-          "passed": 71,
+          "passed": 74,
           "failed": 0,
           "pending": 0,
           "completed": 74,
@@ -3753,7 +3753,7 @@
           "elapsed_ms": null,
           "created_at": "2026-07-16T13:21:37.485Z",
           "completed_at": null,
-          "passed": 69,
+          "passed": 74,
           "failed": 0,
           "pending": 0,
           "completed": 74,
@@ -3770,7 +3770,7 @@
           "elapsed_ms": null,
           "created_at": "2026-07-16T13:21:37.480Z",
           "completed_at": null,
-          "passed": 69,
+          "passed": 74,
           "failed": 0,
           "pending": 0,
           "completed": 74,
@@ -3787,7 +3787,7 @@
           "elapsed_ms": null,
           "created_at": "2026-07-16T13:21:37.472Z",
           "completed_at": null,
-          "passed": 69,
+          "passed": 74,
           "failed": 0,
           "pending": 0,
           "completed": 74,
