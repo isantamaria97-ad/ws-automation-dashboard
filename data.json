@@ -1,13 +1,14 @@
 {
-  "lastUpdated": "2026-07-17T17:13:40.625952+00:00",
+  "lastUpdated": "2026-07-17T20:57:05.220174+00:00",
   "jira": {
     "summary": {
       "total": 293,
       "byStatus": {
-        "Tech Review": 18,
-        "Finalizada": 200,
-        "Deprecated": 10,
+        "Ready to QA": 2,
         "QA Approved": 33,
+        "Finalizada": 200,
+        "Tech Review": 16,
+        "Deprecated": 10,
         "Backlog": 5,
         "En curso": 4,
         "Ready for Refinement": 4,
@@ -19,6 +20,68 @@
       }
     },
     "tickets": [
+      {
+        "key": "WSC-1624",
+        "url": "https://e2x.atlassian.net/browse/WSC-1624",
+        "summary": "BREADCRUMB  - amendments",
+        "status": "Ready to QA",
+        "statusCategory": "new",
+        "assignee": "Unassigned",
+        "updated": "2026-07-17T21:29:20.315+0100",
+        "priority": "Poco importante",
+        "labels": []
+      },
+      {
+        "key": "WSC-1625",
+        "url": "https://e2x.atlassian.net/browse/WSC-1625",
+        "summary": "SLIM BANNER - further amendments",
+        "status": "Ready to QA",
+        "statusCategory": "new",
+        "assignee": "Unassigned",
+        "updated": "2026-07-17T21:29:03.108+0100",
+        "priority": "Poco importante",
+        "labels": []
+      },
+      {
+        "key": "WSC-1606",
+        "url": "https://e2x.atlassian.net/browse/WSC-1606",
+        "summary": "Mobile: BREADCRUMB - amendments part 2",
+        "status": "QA Approved",
+        "statusCategory": "indeterminate",
+        "assignee": "Gerardo Romero",
+        "updated": "2026-07-17T18:55:46.306+0100",
+        "priority": "Poco importante",
+        "labels": [
+          "Needs-QA"
+        ]
+      },
+      {
+        "key": "WSC-1604",
+        "url": "https://e2x.atlassian.net/browse/WSC-1604",
+        "summary": "SALE BADGE - new colour",
+        "status": "QA Approved",
+        "statusCategory": "indeterminate",
+        "assignee": "Gerardo Romero",
+        "updated": "2026-07-17T18:55:40.602+0100",
+        "priority": "Cr\u00edtica",
+        "labels": [
+          "Needs-QA"
+        ]
+      },
+      {
+        "key": "WSC-1600",
+        "url": "https://e2x.atlassian.net/browse/WSC-1600",
+        "summary": "Fix failing jobs in Playwright GitHub Actions workflow",
+        "status": "Finalizada",
+        "statusCategory": "done",
+        "assignee": "Ingrith Santamaria",
+        "updated": "2026-07-17T18:53:16.565+0100",
+        "priority": "Not Set",
+        "labels": [
+          "Automation",
+          "Playwright"
+        ]
+      },
       {
         "key": "WSC-173",
         "url": "https://e2x.atlassian.net/browse/WSC-173",
@@ -44,28 +107,6 @@
         "labels": []
       },
       {
-        "key": "WSC-1624",
-        "url": "https://e2x.atlassian.net/browse/WSC-1624",
-        "summary": "BREADCRUMB  - amendments",
-        "status": "Tech Review",
-        "statusCategory": "indeterminate",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-07-17T16:21:01.481+0100",
-        "priority": "Poco importante",
-        "labels": []
-      },
-      {
-        "key": "WSC-1625",
-        "url": "https://e2x.atlassian.net/browse/WSC-1625",
-        "summary": "SLIM BANNER - further amendments",
-        "status": "Tech Review",
-        "statusCategory": "indeterminate",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-07-17T16:20:55.933+0100",
-        "priority": "Poco importante",
-        "labels": []
-      },
-      {
         "key": "WSC-1603",
         "url": "https://e2x.atlassian.net/browse/WSC-1603",
         "summary": "[Test Reporting] Automate Testmo milestone, manual runs, and result submissions for UAT regression",
@@ -77,20 +118,6 @@
         "labels": [
           "Needs-QA",
           "automatable"
-        ]
-      },
-      {
-        "key": "WSC-1600",
-        "url": "https://e2x.atlassian.net/browse/WSC-1600",
-        "summary": "Fix failing jobs in Playwright GitHub Actions workflow",
-        "status": "Finalizada",
-        "statusCategory": "done",
-        "assignee": "Ingrith Santamaria",
-        "updated": "2026-07-17T16:14:12.627+0100",
-        "priority": "Not Set",
-        "labels": [
-          "Automation",
-          "Playwright"
         ]
       },
       {
@@ -182,19 +209,6 @@
         "labels": []
       },
       {
-        "key": "WSC-1604",
-        "url": "https://e2x.atlassian.net/browse/WSC-1604",
-        "summary": "SALE BADGE - new colour",
-        "status": "QA Approved",
-        "statusCategory": "indeterminate",
-        "assignee": "Gerardo Romero",
-        "updated": "2026-07-16T15:51:48.408+0100",
-        "priority": "Cr\u00edtica",
-        "labels": [
-          "Needs-QA"
-        ]
-      },
-      {
         "key": "WSC-1481",
         "url": "https://e2x.atlassian.net/browse/WSC-1481",
         "summary": "Initial CSP Report-Only Rollout",
@@ -241,19 +255,6 @@
         "statusCategory": "indeterminate",
         "assignee": "Gerardo Romero",
         "updated": "2026-07-15T16:32:14.451+0100",
-        "priority": "Poco importante",
-        "labels": [
-          "Needs-QA"
-        ]
-      },
-      {
-        "key": "WSC-1606",
-        "url": "https://e2x.atlassian.net/browse/WSC-1606",
-        "summary": "Mobile: BREADCRUMB - amendments part 2",
-        "status": "QA Approved",
-        "statusCategory": "indeterminate",
-        "assignee": "Gerardo Romero",
-        "updated": "2026-07-15T16:11:07.380+0100",
         "priority": "Poco importante",
         "labels": [
           "Needs-QA"
