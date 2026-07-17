@@ -1,37 +1,174 @@
 {
-  "lastUpdated": "2026-07-17T13:40:32.887549+00:00",
+  "lastUpdated": "2026-07-17T17:13:40.625952+00:00",
   "jira": {
     "summary": {
-      "total": 291,
+      "total": 293,
       "byStatus": {
-        "En curso": 6,
-        "Tech Review": 15,
+        "Tech Review": 18,
+        "Finalizada": 200,
+        "Deprecated": 10,
         "QA Approved": 33,
-        "Listo": 4,
-        "Finalizada": 199,
         "Backlog": 5,
+        "En curso": 4,
         "Ready for Refinement": 4,
         "PENDING DEV DEPLOY": 3,
+        "Listo": 3,
         "IN UAT": 5,
-        "Deprecated": 9,
         "Blocked": 4,
         "READY FOR RELEASE": 4
       }
     },
     "tickets": [
       {
+        "key": "WSC-173",
+        "url": "https://e2x.atlassian.net/browse/WSC-173",
+        "summary": "SEO - fix to product schema for PDP for reviews and ratings",
+        "status": "Tech Review",
+        "statusCategory": "indeterminate",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-07-17T17:55:10.606+0100",
+        "priority": "Poco importante",
+        "labels": [
+          "Needs-QA"
+        ]
+      },
+      {
+        "key": "WSC-1465",
+        "url": "https://e2x.atlassian.net/browse/WSC-1465",
+        "summary": "CONSTRUCTOR (2/2) - gaps in personalisation data",
+        "status": "Finalizada",
+        "statusCategory": "done",
+        "assignee": "Stuart Young",
+        "updated": "2026-07-17T17:51:39.690+0100",
+        "priority": "Importante",
+        "labels": []
+      },
+      {
+        "key": "WSC-1624",
+        "url": "https://e2x.atlassian.net/browse/WSC-1624",
+        "summary": "BREADCRUMB  - amendments",
+        "status": "Tech Review",
+        "statusCategory": "indeterminate",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-07-17T16:21:01.481+0100",
+        "priority": "Poco importante",
+        "labels": []
+      },
+      {
+        "key": "WSC-1625",
+        "url": "https://e2x.atlassian.net/browse/WSC-1625",
+        "summary": "SLIM BANNER - further amendments",
+        "status": "Tech Review",
+        "statusCategory": "indeterminate",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-07-17T16:20:55.933+0100",
+        "priority": "Poco importante",
+        "labels": []
+      },
+      {
         "key": "WSC-1603",
         "url": "https://e2x.atlassian.net/browse/WSC-1603",
         "summary": "[Test Reporting] Automate Testmo milestone, manual runs, and result submissions for UAT regression",
-        "status": "En curso",
-        "statusCategory": "indeterminate",
+        "status": "Deprecated",
+        "statusCategory": "done",
         "assignee": "Gerardo Romero",
-        "updated": "2026-07-16T19:47:09.514+0100",
+        "updated": "2026-07-17T16:20:45.627+0100",
         "priority": "Not Set",
         "labels": [
           "Needs-QA",
           "automatable"
         ]
+      },
+      {
+        "key": "WSC-1600",
+        "url": "https://e2x.atlassian.net/browse/WSC-1600",
+        "summary": "Fix failing jobs in Playwright GitHub Actions workflow",
+        "status": "Finalizada",
+        "statusCategory": "done",
+        "assignee": "Ingrith Santamaria",
+        "updated": "2026-07-17T16:14:12.627+0100",
+        "priority": "Not Set",
+        "labels": [
+          "Automation",
+          "Playwright"
+        ]
+      },
+      {
+        "key": "WSC-1597",
+        "url": "https://e2x.atlassian.net/browse/WSC-1597",
+        "summary": "SALE BADGES - show/don't show",
+        "status": "QA Approved",
+        "statusCategory": "indeterminate",
+        "assignee": "Ingrith Santamaria",
+        "updated": "2026-07-17T16:05:53.289+0100",
+        "priority": "Importante",
+        "labels": [
+          "Needs-QA",
+          "manualQA"
+        ]
+      },
+      {
+        "key": "WSC-1608",
+        "url": "https://e2x.atlassian.net/browse/WSC-1608",
+        "summary": "Fix locale-aware Amplience delivery key for product links content slot",
+        "status": "QA Approved",
+        "statusCategory": "indeterminate",
+        "assignee": "Ingrith Santamaria",
+        "updated": "2026-07-17T16:02:03.110+0100",
+        "priority": "Not Set",
+        "labels": []
+      },
+      {
+        "key": "WSC-1493",
+        "url": "https://e2x.atlassian.net/browse/WSC-1493",
+        "summary": "PROMO MESSAGING - Add across VSF journey",
+        "status": "Tech Review",
+        "statusCategory": "indeterminate",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-07-17T16:01:03.284+0100",
+        "priority": "Importante",
+        "labels": [
+          "Needs-QA",
+          "manualQA"
+        ]
+      },
+      {
+        "key": "WSC-1509",
+        "url": "https://e2x.atlassian.net/browse/WSC-1509",
+        "summary": "CHECKOUT - BC error when adding free shipping coupon after selecting a delivery type",
+        "status": "Backlog",
+        "statusCategory": "new",
+        "assignee": "Ingrith Santamaria",
+        "updated": "2026-07-17T16:00:32.956+0100",
+        "priority": "Cr\u00edtica",
+        "labels": [
+          "Needs-QA"
+        ]
+      },
+      {
+        "key": "WSC-1594",
+        "url": "https://e2x.atlassian.net/browse/WSC-1594",
+        "summary": "SFS - item SFS data on VSF",
+        "status": "En curso",
+        "statusCategory": "indeterminate",
+        "assignee": "Williams Colmenares",
+        "updated": "2026-07-17T15:17:14.248+0100",
+        "priority": "Importante",
+        "labels": [
+          "Needs-QA",
+          "automatable"
+        ]
+      },
+      {
+        "key": "WSC-1392",
+        "url": "https://e2x.atlassian.net/browse/WSC-1392",
+        "summary": "HHG - SEO text block",
+        "status": "Tech Review",
+        "statusCategory": "indeterminate",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-07-17T14:43:11.570+0100",
+        "priority": "Poco importante",
+        "labels": []
       },
       {
         "key": "WSC-1605",
@@ -58,47 +195,6 @@
         ]
       },
       {
-        "key": "WSC-1493",
-        "url": "https://e2x.atlassian.net/browse/WSC-1493",
-        "summary": "PROMO MESSAGING - Add across VSF journey",
-        "status": "En curso",
-        "statusCategory": "indeterminate",
-        "assignee": "Chiara Davies",
-        "updated": "2026-07-16T14:31:16.843+0100",
-        "priority": "Importante",
-        "labels": [
-          "Needs-QA",
-          "manualQA"
-        ]
-      },
-      {
-        "key": "WSC-173",
-        "url": "https://e2x.atlassian.net/browse/WSC-173",
-        "summary": "SEO - fix to product schema for PDP for reviews and ratings",
-        "status": "Tech Review",
-        "statusCategory": "indeterminate",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-07-16T14:03:29.581+0100",
-        "priority": "Poco importante",
-        "labels": [
-          "Needs-QA"
-        ]
-      },
-      {
-        "key": "WSC-1597",
-        "url": "https://e2x.atlassian.net/browse/WSC-1597",
-        "summary": "SALE BADGES - show/don't show",
-        "status": "QA Approved",
-        "statusCategory": "indeterminate",
-        "assignee": "Ingrith Santamaria",
-        "updated": "2026-07-16T13:20:12.938+0100",
-        "priority": "Importante",
-        "labels": [
-          "Needs-QA",
-          "manualQA"
-        ]
-      },
-      {
         "key": "WSC-1481",
         "url": "https://e2x.atlassian.net/browse/WSC-1481",
         "summary": "Initial CSP Report-Only Rollout",
@@ -112,28 +208,6 @@
         ]
       },
       {
-        "key": "WSC-1392",
-        "url": "https://e2x.atlassian.net/browse/WSC-1392",
-        "summary": "HHG - SEO text block",
-        "status": "Tech Review",
-        "statusCategory": "indeterminate",
-        "assignee": "Williams Colmenares",
-        "updated": "2026-07-15T21:51:37.185+0100",
-        "priority": "Poco importante",
-        "labels": []
-      },
-      {
-        "key": "WSC-1608",
-        "url": "https://e2x.atlassian.net/browse/WSC-1608",
-        "summary": "Fix locale-aware Amplience delivery key for product links content slot",
-        "status": "QA Approved",
-        "statusCategory": "indeterminate",
-        "assignee": "Ingrith Santamaria",
-        "updated": "2026-07-15T20:08:57.485+0100",
-        "priority": "Not Set",
-        "labels": []
-      },
-      {
         "key": "WSC-1579",
         "url": "https://e2x.atlassian.net/browse/WSC-1579",
         "summary": "Mobile iOS: PLP - CTA gets highlighted when landing on next PLP",
@@ -144,20 +218,6 @@
         "priority": "Importante",
         "labels": [
           "Needs-QA"
-        ]
-      },
-      {
-        "key": "WSC-1594",
-        "url": "https://e2x.atlassian.net/browse/WSC-1594",
-        "summary": "SFS - item SFS data on VSF",
-        "status": "Listo",
-        "statusCategory": "new",
-        "assignee": "Unassigned",
-        "updated": "2026-07-15T16:58:51.743+0100",
-        "priority": "Importante",
-        "labels": [
-          "Needs-QA",
-          "automatable"
         ]
       },
       {
@@ -211,20 +271,6 @@
         "labels": []
       },
       {
-        "key": "WSC-1600",
-        "url": "https://e2x.atlassian.net/browse/WSC-1600",
-        "summary": "Fix failing jobs in Playwright GitHub Actions workflow",
-        "status": "En curso",
-        "statusCategory": "indeterminate",
-        "assignee": "Ingrith Santamaria",
-        "updated": "2026-07-14T18:35:12.766+0100",
-        "priority": "Not Set",
-        "labels": [
-          "Automation",
-          "Playwright"
-        ]
-      },
-      {
         "key": "WSC-1422",
         "url": "https://e2x.atlassian.net/browse/WSC-1422",
         "summary": "Desktop/Mobile: SIDE PANEL - standardise width",
@@ -233,30 +279,6 @@
         "assignee": "enmanuel.ramirez",
         "updated": "2026-07-14T18:33:41.782+0100",
         "priority": "Poco importante",
-        "labels": [
-          "Needs-QA"
-        ]
-      },
-      {
-        "key": "WSC-1465",
-        "url": "https://e2x.atlassian.net/browse/WSC-1465",
-        "summary": "CONSTRUCTOR (2/2) - gaps in personalisation data",
-        "status": "Finalizada",
-        "statusCategory": "done",
-        "assignee": "Stuart Young",
-        "updated": "2026-07-14T18:30:38.104+0100",
-        "priority": "Importante",
-        "labels": []
-      },
-      {
-        "key": "WSC-1509",
-        "url": "https://e2x.atlassian.net/browse/WSC-1509",
-        "summary": "CHECKOUT - BC error when adding free shipping coupon after selecting a delivery type",
-        "status": "Backlog",
-        "statusCategory": "new",
-        "assignee": "Ingrith Santamaria",
-        "updated": "2026-07-14T16:18:14.336+0100",
-        "priority": "Cr\u00edtica",
         "labels": [
           "Needs-QA"
         ]
