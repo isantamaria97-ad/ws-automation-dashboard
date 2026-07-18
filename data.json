@@ -1,16 +1,16 @@
 {
-  "lastUpdated": "2026-07-18T02:35:32.296942+00:00",
+  "lastUpdated": "2026-07-18T06:05:53.522102+00:00",
   "jira": {
     "summary": {
       "total": 293,
       "byStatus": {
+        "En curso": 4,
         "Ready to QA": 2,
         "QA Approved": 33,
         "Finalizada": 200,
         "Tech Review": 16,
         "Deprecated": 10,
         "Backlog": 5,
-        "En curso": 4,
         "Ready for Refinement": 4,
         "PENDING DEV DEPLOY": 3,
         "Listo": 3,
@@ -20,6 +20,20 @@
       }
     },
     "tickets": [
+      {
+        "key": "WSC-1594",
+        "url": "https://e2x.atlassian.net/browse/WSC-1594",
+        "summary": "SFS - item SFS data on VSF",
+        "status": "En curso",
+        "statusCategory": "indeterminate",
+        "assignee": "Williams Colmenares",
+        "updated": "2026-07-18T04:03:41.460+0100",
+        "priority": "Importante",
+        "labels": [
+          "Needs-QA",
+          "automatable"
+        ]
+      },
       {
         "key": "WSC-1624",
         "url": "https://e2x.atlassian.net/browse/WSC-1624",
@@ -170,20 +184,6 @@
         "priority": "Cr\u00edtica",
         "labels": [
           "Needs-QA"
-        ]
-      },
-      {
-        "key": "WSC-1594",
-        "url": "https://e2x.atlassian.net/browse/WSC-1594",
-        "summary": "SFS - item SFS data on VSF",
-        "status": "En curso",
-        "statusCategory": "indeterminate",
-        "assignee": "Williams Colmenares",
-        "updated": "2026-07-17T15:17:14.248+0100",
-        "priority": "Importante",
-        "labels": [
-          "Needs-QA",
-          "automatable"
         ]
       },
       {
