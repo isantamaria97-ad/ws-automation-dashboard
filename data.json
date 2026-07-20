@@ -1,12 +1,12 @@
 {
-  "lastUpdated": "2026-07-20T10:53:26.302032+00:00",
+  "lastUpdated": "2026-07-20T14:08:22.898038+00:00",
   "jira": {
     "summary": {
       "total": 293,
       "byStatus": {
         "En curso": 4,
-        "Ready to QA": 2,
-        "QA Approved": 33,
+        "QA Approved": 34,
+        "Ready to QA": 1,
         "Finalizada": 200,
         "Tech Review": 16,
         "Deprecated": 10,
@@ -26,8 +26,8 @@
         "summary": "SFS - item SFS data on VSF",
         "status": "En curso",
         "statusCategory": "indeterminate",
-        "assignee": "Williams Colmenares",
-        "updated": "2026-07-18T04:03:41.460+0100",
+        "assignee": "Alexander Talavera",
+        "updated": "2026-07-20T15:00:17.668+0100",
         "priority": "Importante",
         "labels": [
           "Needs-QA",
@@ -38,10 +38,10 @@
         "key": "WSC-1624",
         "url": "https://e2x.atlassian.net/browse/WSC-1624",
         "summary": "BREADCRUMB  - amendments",
-        "status": "Ready to QA",
-        "statusCategory": "new",
-        "assignee": "Unassigned",
-        "updated": "2026-07-17T21:29:20.315+0100",
+        "status": "QA Approved",
+        "statusCategory": "indeterminate",
+        "assignee": "Ingrith Santamaria",
+        "updated": "2026-07-20T14:39:48.155+0100",
         "priority": "Poco importante",
         "labels": []
       },
@@ -51,8 +51,8 @@
         "summary": "SLIM BANNER - further amendments",
         "status": "Ready to QA",
         "statusCategory": "new",
-        "assignee": "Unassigned",
-        "updated": "2026-07-17T21:29:03.108+0100",
+        "assignee": "Gerardo Romero",
+        "updated": "2026-07-20T14:17:42.773+0100",
         "priority": "Poco importante",
         "labels": []
       },
