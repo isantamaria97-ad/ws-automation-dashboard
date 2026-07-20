@@ -1,25 +1,314 @@
 {
-  "lastUpdated": "2026-07-20T14:08:22.898038+00:00",
+  "lastUpdated": "2026-07-20T18:04:51.163086+00:00",
   "jira": {
     "summary": {
-      "total": 293,
+      "total": 294,
       "byStatus": {
-        "En curso": 4,
+        "Listo": 4,
+        "IN QA": 2,
         "QA Approved": 34,
-        "Ready to QA": 1,
+        "En curso": 4,
         "Finalizada": 200,
-        "Tech Review": 16,
+        "Tech Review": 15,
         "Deprecated": 10,
         "Backlog": 5,
         "Ready for Refinement": 4,
         "PENDING DEV DEPLOY": 3,
-        "Listo": 3,
         "IN UAT": 5,
         "Blocked": 4,
         "READY FOR RELEASE": 4
       }
     },
     "tickets": [
+      {
+        "key": "WSC-1610",
+        "url": "https://e2x.atlassian.net/browse/WSC-1610",
+        "summary": "CHECKOUT - minor amendment for EUR and USD",
+        "status": "Listo",
+        "statusCategory": "new",
+        "assignee": "Unassigned",
+        "updated": "2026-07-20T18:59:37.234+0100",
+        "priority": "Importante",
+        "labels": []
+      },
+      {
+        "key": "WSC-1493",
+        "url": "https://e2x.atlassian.net/browse/WSC-1493",
+        "summary": "PROMO MESSAGING - Add across VSF journey",
+        "status": "IN QA",
+        "statusCategory": "indeterminate",
+        "assignee": "Ingrith Santamaria",
+        "updated": "2026-07-20T18:36:47.441+0100",
+        "priority": "Importante",
+        "labels": [
+          "Needs-QA",
+          "manualQA"
+        ]
+      },
+      {
+        "key": "WSC-1482",
+        "url": "https://e2x.atlassian.net/browse/WSC-1482",
+        "summary": "CSP Analysis & Policy Refinement",
+        "status": "Listo",
+        "statusCategory": "new",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-07-20T17:41:28.131+0100",
+        "priority": "Cr\u00edtica",
+        "labels": [
+          "CSP",
+          "NO_QA_REQUIRED"
+        ]
+      },
+      {
+        "key": "WSC-1484",
+        "url": "https://e2x.atlassian.net/browse/WSC-1484",
+        "summary": "CSP Enforcement Rollout & Hardening",
+        "status": "Listo",
+        "statusCategory": "new",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-07-20T17:41:27.292+0100",
+        "priority": "Cr\u00edtica",
+        "labels": [
+          "CSP",
+          "NO_QA_REQUIRED"
+        ]
+      },
+      {
+        "key": "WSC-1495",
+        "url": "https://e2x.atlassian.net/browse/WSC-1495",
+        "summary": "Reimplementation: consolidate coupons to be per value in BC",
+        "status": "QA Approved",
+        "statusCategory": "indeterminate",
+        "assignee": "Gerardo Romero",
+        "updated": "2026-07-20T17:41:26.890+0100",
+        "priority": "Importante",
+        "labels": [
+          "FastFollow",
+          "In-UAT",
+          "Needs-QA"
+        ]
+      },
+      {
+        "key": "WSC-1574",
+        "url": "https://e2x.atlassian.net/browse/WSC-1574",
+        "summary": "CHECKOUT - wording amendment for ParcelShop",
+        "status": "QA Approved",
+        "statusCategory": "indeterminate",
+        "assignee": "Gerardo Romero",
+        "updated": "2026-07-20T17:41:26.466+0100",
+        "priority": "Poco importante",
+        "labels": [
+          "Needs-QA"
+        ]
+      },
+      {
+        "key": "WSC-1575",
+        "url": "https://e2x.atlassian.net/browse/WSC-1575",
+        "summary": "PDP - remove size button for 'ONESIZE' products",
+        "status": "QA Approved",
+        "statusCategory": "indeterminate",
+        "assignee": "Ingrith Santamaria",
+        "updated": "2026-07-20T17:41:26.020+0100",
+        "priority": "Poco importante",
+        "labels": [
+          "Needs-QA"
+        ]
+      },
+      {
+        "key": "WSC-1586",
+        "url": "https://e2x.atlassian.net/browse/WSC-1586",
+        "summary": "PDP - toggle amends 2",
+        "status": "QA Approved",
+        "statusCategory": "indeterminate",
+        "assignee": "Gerardo Romero",
+        "updated": "2026-07-20T17:41:25.581+0100",
+        "priority": "Importante",
+        "labels": []
+      },
+      {
+        "key": "WSC-1597",
+        "url": "https://e2x.atlassian.net/browse/WSC-1597",
+        "summary": "SALE BADGES - show/don't show",
+        "status": "QA Approved",
+        "statusCategory": "indeterminate",
+        "assignee": "Ingrith Santamaria",
+        "updated": "2026-07-20T17:41:25.065+0100",
+        "priority": "Importante",
+        "labels": [
+          "Needs-QA",
+          "manualQA"
+        ]
+      },
+      {
+        "key": "WSC-1588",
+        "url": "https://e2x.atlassian.net/browse/WSC-1588",
+        "summary": "[Header] Clicking account icon in non-UK locales forcefully logs user out instead of navigating to /my-account",
+        "status": "QA Approved",
+        "statusCategory": "indeterminate",
+        "assignee": "Gerardo Romero",
+        "updated": "2026-07-20T17:41:24.679+0100",
+        "priority": "Importante",
+        "labels": [
+          "Needs-QA",
+          "automatable"
+        ]
+      },
+      {
+        "key": "WSC-1412",
+        "url": "https://e2x.atlassian.net/browse/WSC-1412",
+        "summary": "Mobile: BREADCRUMB - amendments",
+        "status": "QA Approved",
+        "statusCategory": "indeterminate",
+        "assignee": "Ingrith Santamaria",
+        "updated": "2026-07-20T17:41:24.250+0100",
+        "priority": "Poco importante",
+        "labels": [
+          "Needs-QA"
+        ]
+      },
+      {
+        "key": "WSC-1522",
+        "url": "https://e2x.atlassian.net/browse/WSC-1522",
+        "summary": "CONTENT - Personalisation",
+        "status": "En curso",
+        "statusCategory": "indeterminate",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-07-20T17:41:23.833+0100",
+        "priority": "Importante",
+        "labels": []
+      },
+      {
+        "key": "WSC-1600",
+        "url": "https://e2x.atlassian.net/browse/WSC-1600",
+        "summary": "Fix failing jobs in Playwright GitHub Actions workflow",
+        "status": "Finalizada",
+        "statusCategory": "done",
+        "assignee": "Ingrith Santamaria",
+        "updated": "2026-07-20T17:41:23.417+0100",
+        "priority": "Not Set",
+        "labels": [
+          "Automation",
+          "Playwright"
+        ]
+      },
+      {
+        "key": "WSC-1579",
+        "url": "https://e2x.atlassian.net/browse/WSC-1579",
+        "summary": "Mobile iOS: PLP - CTA gets highlighted when landing on next PLP",
+        "status": "QA Approved",
+        "statusCategory": "indeterminate",
+        "assignee": "Gerardo Romero",
+        "updated": "2026-07-20T17:41:23.007+0100",
+        "priority": "Importante",
+        "labels": [
+          "Needs-QA"
+        ]
+      },
+      {
+        "key": "WSC-1557",
+        "url": "https://e2x.atlassian.net/browse/WSC-1557",
+        "summary": "SEO - add H2 to product names on PLP",
+        "status": "QA Approved",
+        "statusCategory": "indeterminate",
+        "assignee": "Ingrith Santamaria",
+        "updated": "2026-07-20T17:41:22.645+0100",
+        "priority": "Poco importante",
+        "labels": [
+          "Needs-QA"
+        ]
+      },
+      {
+        "key": "WSC-1624",
+        "url": "https://e2x.atlassian.net/browse/WSC-1624",
+        "summary": "BREADCRUMB  - amendments",
+        "status": "QA Approved",
+        "statusCategory": "indeterminate",
+        "assignee": "Ingrith Santamaria",
+        "updated": "2026-07-20T17:41:22.262+0100",
+        "priority": "Poco importante",
+        "labels": []
+      },
+      {
+        "key": "WSC-1625",
+        "url": "https://e2x.atlassian.net/browse/WSC-1625",
+        "summary": "SLIM BANNER - further amendments",
+        "status": "IN QA",
+        "statusCategory": "indeterminate",
+        "assignee": "Gerardo Romero",
+        "updated": "2026-07-20T17:41:21.822+0100",
+        "priority": "Poco importante",
+        "labels": []
+      },
+      {
+        "key": "WSC-1405",
+        "url": "https://e2x.atlassian.net/browse/WSC-1405",
+        "summary": "BAG - savings display and checkout CTA button",
+        "status": "QA Approved",
+        "statusCategory": "indeterminate",
+        "assignee": "Gerardo Romero",
+        "updated": "2026-07-20T17:41:21.382+0100",
+        "priority": "Poco importante",
+        "labels": []
+      },
+      {
+        "key": "WSC-1549",
+        "url": "https://e2x.atlassian.net/browse/WSC-1549",
+        "summary": "CONSTRUCTOR",
+        "status": "QA Approved",
+        "statusCategory": "indeterminate",
+        "assignee": "Ingrith Santamaria",
+        "updated": "2026-07-20T17:41:20.872+0100",
+        "priority": "Poco importante",
+        "labels": []
+      },
+      {
+        "key": "WSC-1604",
+        "url": "https://e2x.atlassian.net/browse/WSC-1604",
+        "summary": "SALE BADGE - new colour",
+        "status": "QA Approved",
+        "statusCategory": "indeterminate",
+        "assignee": "Gerardo Romero",
+        "updated": "2026-07-20T17:41:20.397+0100",
+        "priority": "Cr\u00edtica",
+        "labels": [
+          "Needs-QA"
+        ]
+      },
+      {
+        "key": "WSC-1605",
+        "url": "https://e2x.atlassian.net/browse/WSC-1605",
+        "summary": "Upgrade Axios to version axios@1.15.1",
+        "status": "Tech Review",
+        "statusCategory": "indeterminate",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-07-20T17:41:20.015+0100",
+        "priority": "Importante",
+        "labels": []
+      },
+      {
+        "key": "WSC-1606",
+        "url": "https://e2x.atlassian.net/browse/WSC-1606",
+        "summary": "Mobile: BREADCRUMB - amendments part 2",
+        "status": "QA Approved",
+        "statusCategory": "indeterminate",
+        "assignee": "Gerardo Romero",
+        "updated": "2026-07-20T17:41:19.617+0100",
+        "priority": "Poco importante",
+        "labels": [
+          "Needs-QA"
+        ]
+      },
+      {
+        "key": "WSC-1608",
+        "url": "https://e2x.atlassian.net/browse/WSC-1608",
+        "summary": "Fix locale-aware Amplience delivery key for product links content slot",
+        "status": "QA Approved",
+        "statusCategory": "indeterminate",
+        "assignee": "Ingrith Santamaria",
+        "updated": "2026-07-20T17:41:19.124+0100",
+        "priority": "Not Set",
+        "labels": []
+      },
       {
         "key": "WSC-1594",
         "url": "https://e2x.atlassian.net/browse/WSC-1594",
@@ -32,68 +321,6 @@
         "labels": [
           "Needs-QA",
           "automatable"
-        ]
-      },
-      {
-        "key": "WSC-1624",
-        "url": "https://e2x.atlassian.net/browse/WSC-1624",
-        "summary": "BREADCRUMB  - amendments",
-        "status": "QA Approved",
-        "statusCategory": "indeterminate",
-        "assignee": "Ingrith Santamaria",
-        "updated": "2026-07-20T14:39:48.155+0100",
-        "priority": "Poco importante",
-        "labels": []
-      },
-      {
-        "key": "WSC-1625",
-        "url": "https://e2x.atlassian.net/browse/WSC-1625",
-        "summary": "SLIM BANNER - further amendments",
-        "status": "Ready to QA",
-        "statusCategory": "new",
-        "assignee": "Gerardo Romero",
-        "updated": "2026-07-20T14:17:42.773+0100",
-        "priority": "Poco importante",
-        "labels": []
-      },
-      {
-        "key": "WSC-1606",
-        "url": "https://e2x.atlassian.net/browse/WSC-1606",
-        "summary": "Mobile: BREADCRUMB - amendments part 2",
-        "status": "QA Approved",
-        "statusCategory": "indeterminate",
-        "assignee": "Gerardo Romero",
-        "updated": "2026-07-17T18:55:46.306+0100",
-        "priority": "Poco importante",
-        "labels": [
-          "Needs-QA"
-        ]
-      },
-      {
-        "key": "WSC-1604",
-        "url": "https://e2x.atlassian.net/browse/WSC-1604",
-        "summary": "SALE BADGE - new colour",
-        "status": "QA Approved",
-        "statusCategory": "indeterminate",
-        "assignee": "Gerardo Romero",
-        "updated": "2026-07-17T18:55:40.602+0100",
-        "priority": "Cr\u00edtica",
-        "labels": [
-          "Needs-QA"
-        ]
-      },
-      {
-        "key": "WSC-1600",
-        "url": "https://e2x.atlassian.net/browse/WSC-1600",
-        "summary": "Fix failing jobs in Playwright GitHub Actions workflow",
-        "status": "Finalizada",
-        "statusCategory": "done",
-        "assignee": "Ingrith Santamaria",
-        "updated": "2026-07-17T18:53:16.565+0100",
-        "priority": "Not Set",
-        "labels": [
-          "Automation",
-          "Playwright"
         ]
       },
       {
@@ -135,45 +362,6 @@
         ]
       },
       {
-        "key": "WSC-1597",
-        "url": "https://e2x.atlassian.net/browse/WSC-1597",
-        "summary": "SALE BADGES - show/don't show",
-        "status": "QA Approved",
-        "statusCategory": "indeterminate",
-        "assignee": "Ingrith Santamaria",
-        "updated": "2026-07-17T16:05:53.289+0100",
-        "priority": "Importante",
-        "labels": [
-          "Needs-QA",
-          "manualQA"
-        ]
-      },
-      {
-        "key": "WSC-1608",
-        "url": "https://e2x.atlassian.net/browse/WSC-1608",
-        "summary": "Fix locale-aware Amplience delivery key for product links content slot",
-        "status": "QA Approved",
-        "statusCategory": "indeterminate",
-        "assignee": "Ingrith Santamaria",
-        "updated": "2026-07-17T16:02:03.110+0100",
-        "priority": "Not Set",
-        "labels": []
-      },
-      {
-        "key": "WSC-1493",
-        "url": "https://e2x.atlassian.net/browse/WSC-1493",
-        "summary": "PROMO MESSAGING - Add across VSF journey",
-        "status": "Tech Review",
-        "statusCategory": "indeterminate",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-07-17T16:01:03.284+0100",
-        "priority": "Importante",
-        "labels": [
-          "Needs-QA",
-          "manualQA"
-        ]
-      },
-      {
         "key": "WSC-1509",
         "url": "https://e2x.atlassian.net/browse/WSC-1509",
         "summary": "CHECKOUT - BC error when adding free shipping coupon after selecting a delivery type",
@@ -198,17 +386,6 @@
         "labels": []
       },
       {
-        "key": "WSC-1605",
-        "url": "https://e2x.atlassian.net/browse/WSC-1605",
-        "summary": "Upgrade Axios to version axios@1.15.1",
-        "status": "Tech Review",
-        "statusCategory": "indeterminate",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-07-16T18:27:23.707+0100",
-        "priority": "Importante",
-        "labels": []
-      },
-      {
         "key": "WSC-1481",
         "url": "https://e2x.atlassian.net/browse/WSC-1481",
         "summary": "Initial CSP Report-Only Rollout",
@@ -219,19 +396,6 @@
         "priority": "Not Set",
         "labels": [
           "CSP"
-        ]
-      },
-      {
-        "key": "WSC-1579",
-        "url": "https://e2x.atlassian.net/browse/WSC-1579",
-        "summary": "Mobile iOS: PLP - CTA gets highlighted when landing on next PLP",
-        "status": "QA Approved",
-        "statusCategory": "indeterminate",
-        "assignee": "Gerardo Romero",
-        "updated": "2026-07-15T17:07:10.673+0100",
-        "priority": "Importante",
-        "labels": [
-          "Needs-QA"
         ]
       },
       {
@@ -259,17 +423,6 @@
         "labels": [
           "Needs-QA"
         ]
-      },
-      {
-        "key": "WSC-1586",
-        "url": "https://e2x.atlassian.net/browse/WSC-1586",
-        "summary": "PDP - toggle amends 2",
-        "status": "QA Approved",
-        "statusCategory": "indeterminate",
-        "assignee": "Gerardo Romero",
-        "updated": "2026-07-14T22:25:53.587+0100",
-        "priority": "Importante",
-        "labels": []
       },
       {
         "key": "WSC-1422",
@@ -308,20 +461,6 @@
         "priority": "Importante",
         "labels": [
           "Needs-QA"
-        ]
-      },
-      {
-        "key": "WSC-1588",
-        "url": "https://e2x.atlassian.net/browse/WSC-1588",
-        "summary": "[Header] Clicking account icon in non-UK locales forcefully logs user out instead of navigating to /my-account",
-        "status": "QA Approved",
-        "statusCategory": "indeterminate",
-        "assignee": "Gerardo Romero",
-        "updated": "2026-07-13T22:02:19.032+0100",
-        "priority": "Importante",
-        "labels": [
-          "Needs-QA",
-          "automatable"
         ]
       },
       {
@@ -364,56 +503,6 @@
           "Needs-QA",
           "automatable"
         ]
-      },
-      {
-        "key": "WSC-1412",
-        "url": "https://e2x.atlassian.net/browse/WSC-1412",
-        "summary": "Mobile: BREADCRUMB - amendments",
-        "status": "QA Approved",
-        "statusCategory": "indeterminate",
-        "assignee": "Ingrith Santamaria",
-        "updated": "2026-07-13T13:11:04.551+0100",
-        "priority": "Poco importante",
-        "labels": [
-          "Needs-QA"
-        ]
-      },
-      {
-        "key": "WSC-1575",
-        "url": "https://e2x.atlassian.net/browse/WSC-1575",
-        "summary": "PDP - remove size button for 'ONESIZE' products",
-        "status": "QA Approved",
-        "statusCategory": "indeterminate",
-        "assignee": "Ingrith Santamaria",
-        "updated": "2026-07-13T13:10:20.002+0100",
-        "priority": "Poco importante",
-        "labels": [
-          "Needs-QA"
-        ]
-      },
-      {
-        "key": "WSC-1557",
-        "url": "https://e2x.atlassian.net/browse/WSC-1557",
-        "summary": "SEO - add H2 to product names on PLP",
-        "status": "QA Approved",
-        "statusCategory": "indeterminate",
-        "assignee": "Ingrith Santamaria",
-        "updated": "2026-07-13T13:09:15.586+0100",
-        "priority": "Poco importante",
-        "labels": [
-          "Needs-QA"
-        ]
-      },
-      {
-        "key": "WSC-1549",
-        "url": "https://e2x.atlassian.net/browse/WSC-1549",
-        "summary": "CONSTRUCTOR",
-        "status": "QA Approved",
-        "statusCategory": "indeterminate",
-        "assignee": "Ingrith Santamaria",
-        "updated": "2026-07-13T13:08:36.394+0100",
-        "priority": "Poco importante",
-        "labels": []
       },
       {
         "key": "WSC-1569",
@@ -572,43 +661,6 @@
         ]
       },
       {
-        "key": "WSC-1495",
-        "url": "https://e2x.atlassian.net/browse/WSC-1495",
-        "summary": "Reimplementation: consolidate coupons to be per value in BC",
-        "status": "QA Approved",
-        "statusCategory": "indeterminate",
-        "assignee": "Gerardo Romero",
-        "updated": "2026-07-08T20:31:39.215+0100",
-        "priority": "Importante",
-        "labels": [
-          "FastFollow",
-          "In-UAT",
-          "Needs-QA"
-        ]
-      },
-      {
-        "key": "WSC-1405",
-        "url": "https://e2x.atlassian.net/browse/WSC-1405",
-        "summary": "BAG - savings display and checkout CTA button",
-        "status": "QA Approved",
-        "statusCategory": "indeterminate",
-        "assignee": "Gerardo Romero",
-        "updated": "2026-07-08T15:53:52.541+0100",
-        "priority": "Poco importante",
-        "labels": []
-      },
-      {
-        "key": "WSC-1522",
-        "url": "https://e2x.atlassian.net/browse/WSC-1522",
-        "summary": "CONTENT - Personalisation",
-        "status": "En curso",
-        "statusCategory": "indeterminate",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-07-07T21:54:35.497+0100",
-        "priority": "Importante",
-        "labels": []
-      },
-      {
         "key": "WSC-1551",
         "url": "https://e2x.atlassian.net/browse/WSC-1551",
         "summary": "CONTENT - PLP Header amends",
@@ -618,19 +670,6 @@
         "updated": "2026-07-07T17:10:52.279+0100",
         "priority": "Poco importante",
         "labels": []
-      },
-      {
-        "key": "WSC-1574",
-        "url": "https://e2x.atlassian.net/browse/WSC-1574",
-        "summary": "CHECKOUT - wording amendment for ParcelShop",
-        "status": "QA Approved",
-        "statusCategory": "indeterminate",
-        "assignee": "Gerardo Romero",
-        "updated": "2026-07-07T14:22:50.328+0100",
-        "priority": "Poco importante",
-        "labels": [
-          "Needs-QA"
-        ]
       },
       {
         "key": "WSC-1354",
@@ -1353,34 +1392,6 @@
         "updated": "2026-06-25T15:22:19.682+0100",
         "priority": "Not Set",
         "labels": []
-      },
-      {
-        "key": "WSC-1482",
-        "url": "https://e2x.atlassian.net/browse/WSC-1482",
-        "summary": "CSP Analysis & Policy Refinement",
-        "status": "Listo",
-        "statusCategory": "new",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-06-25T15:11:13.055+0100",
-        "priority": "Cr\u00edtica",
-        "labels": [
-          "CSP",
-          "NO_QA_REQUIRED"
-        ]
-      },
-      {
-        "key": "WSC-1484",
-        "url": "https://e2x.atlassian.net/browse/WSC-1484",
-        "summary": "CSP Enforcement Rollout & Hardening",
-        "status": "Listo",
-        "statusCategory": "new",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-06-25T15:10:49.774+0100",
-        "priority": "Cr\u00edtica",
-        "labels": [
-          "CSP",
-          "NO_QA_REQUIRED"
-        ]
       },
       {
         "key": "WSC-1501",
