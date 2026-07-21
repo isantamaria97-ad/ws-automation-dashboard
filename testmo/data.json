@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-21T14:35:10.922161+00:00",
+  "lastUpdated": "2026-07-21T16:24:08.177917+00:00",
   "milestones": [
     {
       "id": 234,
@@ -1982,12 +1982,12 @@
       "total": 74,
       "completed": 74,
       "remaining": 0,
-      "passed": 67,
+      "passed": 74,
       "failed": 0,
       "retest": 0,
       "blocked": 0,
       "untested": 0,
-      "skipped": 7,
+      "skipped": 0,
       "statusCounts": {
         "Untested": {
           "id": 1,
@@ -1995,7 +1995,7 @@
         },
         "Passed": {
           "id": 2,
-          "count": 67
+          "count": 74
         },
         "Failed": {
           "id": 3,
@@ -2011,7 +2011,7 @@
         },
         "Skipped": {
           "id": 6,
-          "count": 7
+          "count": 0
         },
         "Status 7": {
           "id": 7,
@@ -2145,6 +2145,17 @@
           "updatedAt": "2026-07-21T12:52:19.215Z"
         },
         {
+          "caseId": 114340,
+          "testId": 1639087,
+          "name": "Click And Collect - User Selects White Stuff Store And Confirms Collection Details",
+          "tags": [],
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-07-21T14:43:33.439Z"
+        },
+        {
           "caseId": 114343,
           "testId": 1639090,
           "name": "Click And Collect Is Not Available In Non-GBP Checkout",
@@ -2211,6 +2222,17 @@
           "updatedAt": "2026-07-21T12:52:08.291Z"
         },
         {
+          "caseId": 114289,
+          "testId": 1639040,
+          "name": "Email Address Persists When Navigating To Reset Password From Login Page",
+          "tags": [],
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-07-21T14:41:48.533Z"
+        },
+        {
           "caseId": 114334,
           "testId": 1639081,
           "name": "EU/US Checkout - Europe Standard Auto-Updates To UK Standard For UK Postcode",
@@ -2242,6 +2264,39 @@
           "note": "",
           "assigneeId": null,
           "updatedAt": "2026-07-21T12:52:19.215Z"
+        },
+        {
+          "caseId": 114318,
+          "testId": 1639066,
+          "name": "Header Search - Entering Search Term Displays Related Products",
+          "tags": [],
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-07-21T14:40:30.882Z"
+        },
+        {
+          "caseId": 114319,
+          "testId": 1639067,
+          "name": "Header Search - Entering Search Term Displays Related Search Terms",
+          "tags": [],
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-07-21T14:40:36.197Z"
+        },
+        {
+          "caseId": 114317,
+          "testId": 1639065,
+          "name": "Header Search - Pressing Enter In Search Box Redirects To Search Results Page",
+          "tags": [],
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-07-21T14:40:27.762Z"
         },
         {
           "caseId": 114320,
@@ -2396,6 +2451,28 @@
           "note": "",
           "assigneeId": null,
           "updatedAt": "2026-07-21T12:52:19.215Z"
+        },
+        {
+          "caseId": 114287,
+          "testId": 1639038,
+          "name": "User Can Register A New Account",
+          "tags": [],
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-07-21T14:41:13.097Z"
+        },
+        {
+          "caseId": 114288,
+          "testId": 1639039,
+          "name": "User Cannot Submit Registration Form With Invalid Password",
+          "tags": [],
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-07-21T14:41:58.008Z"
         },
         {
           "caseId": 114301,
@@ -2825,83 +2902,6 @@
           "note": "",
           "assigneeId": null,
           "updatedAt": "2026-07-21T12:52:14.024Z"
-        },
-        {
-          "caseId": 114340,
-          "testId": 1639087,
-          "name": "Click And Collect - User Selects White Stuff Store And Confirms Collection Details",
-          "tags": [],
-          "statusId": 6,
-          "status": "Skipped",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-07-21T12:52:31.219Z"
-        },
-        {
-          "caseId": 114289,
-          "testId": 1639040,
-          "name": "Email Address Persists When Navigating To Reset Password From Login Page",
-          "tags": [],
-          "statusId": 6,
-          "status": "Skipped",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-07-21T12:52:43.332Z"
-        },
-        {
-          "caseId": 114318,
-          "testId": 1639066,
-          "name": "Header Search - Entering Search Term Displays Related Products",
-          "tags": [],
-          "statusId": 6,
-          "status": "Skipped",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-07-21T12:53:18.189Z"
-        },
-        {
-          "caseId": 114319,
-          "testId": 1639067,
-          "name": "Header Search - Entering Search Term Displays Related Search Terms",
-          "tags": [],
-          "statusId": 6,
-          "status": "Skipped",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-07-21T12:53:39.584Z"
-        },
-        {
-          "caseId": 114317,
-          "testId": 1639065,
-          "name": "Header Search - Pressing Enter In Search Box Redirects To Search Results Page",
-          "tags": [],
-          "statusId": 6,
-          "status": "Skipped",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-07-21T12:53:29.601Z"
-        },
-        {
-          "caseId": 114287,
-          "testId": 1639038,
-          "name": "User Can Register A New Account",
-          "tags": [],
-          "statusId": 6,
-          "status": "Skipped",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-07-21T12:52:55.388Z"
-        },
-        {
-          "caseId": 114288,
-          "testId": 1639039,
-          "name": "User Cannot Submit Registration Form With Invalid Password",
-          "tags": [],
-          "statusId": 6,
-          "status": "Skipped",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-07-21T12:53:05.964Z"
         }
       ]
     },
@@ -2919,12 +2919,12 @@
       "total": 74,
       "completed": 74,
       "remaining": 0,
-      "passed": 70,
+      "passed": 74,
       "failed": 0,
       "retest": 0,
       "blocked": 0,
       "untested": 0,
-      "skipped": 4,
+      "skipped": 0,
       "statusCounts": {
         "Untested": {
           "id": 1,
@@ -2932,7 +2932,7 @@
         },
         "Passed": {
           "id": 2,
-          "count": 70
+          "count": 74
         },
         "Failed": {
           "id": 3,
@@ -2948,7 +2948,7 @@
         },
         "Skipped": {
           "id": 6,
-          "count": 4
+          "count": 0
         },
         "Status 7": {
           "id": 7,
@@ -3082,6 +3082,17 @@
           "updatedAt": "2026-07-20T22:37:33.184Z"
         },
         {
+          "caseId": 114340,
+          "testId": 1638960,
+          "name": "Click And Collect - User Selects White Stuff Store And Confirms Collection Details",
+          "tags": [],
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-07-21T14:37:30.075Z"
+        },
+        {
           "caseId": 114343,
           "testId": 1638963,
           "name": "Click And Collect Is Not Available In Non-GBP Checkout",
@@ -3146,6 +3157,17 @@
           "note": "",
           "assigneeId": null,
           "updatedAt": "2026-07-20T22:37:19.930Z"
+        },
+        {
+          "caseId": 114289,
+          "testId": 1638913,
+          "name": "Email Address Persists When Navigating To Reset Password From Login Page",
+          "tags": [],
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-07-21T14:39:12.129Z"
         },
         {
           "caseId": 114334,
@@ -3366,6 +3388,28 @@
           "note": "",
           "assigneeId": null,
           "updatedAt": "2026-07-20T22:37:33.184Z"
+        },
+        {
+          "caseId": 114287,
+          "testId": 1638911,
+          "name": "User Can Register A New Account",
+          "tags": [],
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-07-21T14:34:59.816Z"
+        },
+        {
+          "caseId": 114288,
+          "testId": 1638912,
+          "name": "User Cannot Submit Registration Form With Invalid Password",
+          "tags": [],
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-07-21T14:38:28.315Z"
         },
         {
           "caseId": 114301,
@@ -3795,50 +3839,6 @@
           "note": "",
           "assigneeId": null,
           "updatedAt": "2026-07-20T22:37:27.087Z"
-        },
-        {
-          "caseId": 114340,
-          "testId": 1638960,
-          "name": "Click And Collect - User Selects White Stuff Store And Confirms Collection Details",
-          "tags": [],
-          "statusId": 6,
-          "status": "Skipped",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-07-20T22:38:03.502Z"
-        },
-        {
-          "caseId": 114289,
-          "testId": 1638913,
-          "name": "Email Address Persists When Navigating To Reset Password From Login Page",
-          "tags": [],
-          "statusId": 6,
-          "status": "Skipped",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-07-20T22:37:48.547Z"
-        },
-        {
-          "caseId": 114287,
-          "testId": 1638911,
-          "name": "User Can Register A New Account",
-          "tags": [],
-          "statusId": 6,
-          "status": "Skipped",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-07-20T22:38:15.461Z"
-        },
-        {
-          "caseId": 114288,
-          "testId": 1638912,
-          "name": "User Cannot Submit Registration Form With Invalid Password",
-          "tags": [],
-          "statusId": 6,
-          "status": "Skipped",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-07-20T22:38:26.265Z"
         }
       ]
     },
