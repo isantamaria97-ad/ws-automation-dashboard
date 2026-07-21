@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-21T12:09:11.143040+00:00",
+  "lastUpdated": "2026-07-21T14:35:10.922161+00:00",
   "milestones": [
     {
       "id": 234,
@@ -108,12 +108,12 @@
       "total": 74,
       "completed": 74,
       "remaining": 0,
-      "passed": 68,
+      "passed": 74,
       "failed": 0,
       "retest": 0,
       "blocked": 0,
       "untested": 0,
-      "skipped": 6,
+      "skipped": 0,
       "statusCounts": {
         "Untested": {
           "id": 1,
@@ -121,7 +121,7 @@
         },
         "Passed": {
           "id": 2,
-          "count": 68
+          "count": 74
         },
         "Failed": {
           "id": 3,
@@ -137,7 +137,7 @@
         },
         "Skipped": {
           "id": 6,
-          "count": 6
+          "count": 0
         },
         "Status 7": {
           "id": 7,
@@ -392,6 +392,39 @@
           "updatedAt": "2026-07-20T22:39:01.161Z"
         },
         {
+          "caseId": 114318,
+          "testId": 1639320,
+          "name": "Header Search - Entering Search Term Displays Related Products",
+          "tags": [],
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-07-21T13:30:50.055Z"
+        },
+        {
+          "caseId": 114319,
+          "testId": 1639321,
+          "name": "Header Search - Entering Search Term Displays Related Search Terms",
+          "tags": [],
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-07-21T13:31:11.066Z"
+        },
+        {
+          "caseId": 114317,
+          "testId": 1639319,
+          "name": "Header Search - Pressing Enter In Search Box Redirects To Search Results Page",
+          "tags": [],
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-07-21T13:30:29.422Z"
+        },
+        {
           "caseId": 114320,
           "testId": 1639322,
           "name": "Header Search - Search Box Can Be Hidden By Clicking The X Icon",
@@ -445,6 +478,28 @@
           "note": "",
           "assigneeId": null,
           "updatedAt": "2026-07-20T22:38:56.846Z"
+        },
+        {
+          "caseId": 114313,
+          "testId": 1639315,
+          "name": "PLP - User Can Click Product Image To Navigate To PDP",
+          "tags": [],
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-07-21T13:26:33.660Z"
+        },
+        {
+          "caseId": 114312,
+          "testId": 1639314,
+          "name": "PLP - User Can Click Product Name To Navigate To PDP",
+          "tags": [],
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-07-21T13:25:41.575Z"
         },
         {
           "caseId": 114314,
@@ -898,6 +953,17 @@
           "updatedAt": "2026-07-20T22:38:56.846Z"
         },
         {
+          "caseId": 114316,
+          "testId": 1639318,
+          "name": "Verify PLP Images Are Loaded From Amplience CDN",
+          "tags": [],
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-07-21T13:29:49.646Z"
+        },
+        {
           "caseId": 114329,
           "testId": 1639331,
           "name": "Verify Shipping Options - Home Delivery Express Is Selectable At Checkout",
@@ -962,72 +1028,6 @@
           "note": "",
           "assigneeId": null,
           "updatedAt": "2026-07-20T22:38:56.846Z"
-        },
-        {
-          "caseId": 114318,
-          "testId": 1639320,
-          "name": "Header Search - Entering Search Term Displays Related Products",
-          "tags": [],
-          "statusId": 6,
-          "status": "Skipped",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-07-20T22:39:16.258Z"
-        },
-        {
-          "caseId": 114319,
-          "testId": 1639321,
-          "name": "Header Search - Entering Search Term Displays Related Search Terms",
-          "tags": [],
-          "statusId": 6,
-          "status": "Skipped",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-07-20T22:39:38.528Z"
-        },
-        {
-          "caseId": 114317,
-          "testId": 1639319,
-          "name": "Header Search - Pressing Enter In Search Box Redirects To Search Results Page",
-          "tags": [],
-          "statusId": 6,
-          "status": "Skipped",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-07-20T22:39:26.222Z"
-        },
-        {
-          "caseId": 114313,
-          "testId": 1639315,
-          "name": "PLP - User Can Click Product Image To Navigate To PDP",
-          "tags": [],
-          "statusId": 6,
-          "status": "Skipped",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-07-20T22:40:03.043Z"
-        },
-        {
-          "caseId": 114312,
-          "testId": 1639314,
-          "name": "PLP - User Can Click Product Name To Navigate To PDP",
-          "tags": [],
-          "statusId": 6,
-          "status": "Skipped",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-07-20T22:39:51.499Z"
-        },
-        {
-          "caseId": 114316,
-          "testId": 1639318,
-          "name": "Verify PLP Images Are Loaded From Amplience CDN",
-          "tags": [],
-          "statusId": 6,
-          "status": "Skipped",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-07-20T22:40:15.728Z"
         }
       ]
     },
@@ -1043,9 +1043,9 @@
       "closed_at": null,
       "elapsed_ms": null,
       "total": 74,
-      "completed": 0,
-      "remaining": 74,
-      "passed": 0,
+      "completed": 74,
+      "remaining": 0,
+      "passed": 74,
       "failed": 0,
       "retest": 0,
       "blocked": 0,
@@ -1058,7 +1058,7 @@
         },
         "Passed": {
           "id": 2,
-          "count": 0
+          "count": 74
         },
         "Failed": {
           "id": 3,
@@ -1151,7 +1151,822 @@
       },
       "config": "Safari, Desktop",
       "url": "https://applydigital.testmo.net/runs/view/1965",
-      "cases": []
+      "cases": [
+        {
+          "caseId": 114304,
+          "testId": 1639180,
+          "name": "Add To Bag - Checkout Button Navigates To Checkout",
+          "tags": [],
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-07-21T12:44:33.244Z"
+        },
+        {
+          "caseId": 114302,
+          "testId": 1639178,
+          "name": "Add To Bag - Confirmation Modal Is Displayed With Correct Product Details",
+          "tags": [],
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-07-21T12:44:33.244Z"
+        },
+        {
+          "caseId": 114303,
+          "testId": 1639179,
+          "name": "Add To Bag - View Bag Button Navigates To Bag Page",
+          "tags": [],
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-07-21T12:44:33.244Z"
+        },
+        {
+          "caseId": 114342,
+          "testId": 1639216,
+          "name": "Click And Collect - User Changes Collection Location During Checkout And Completes Order",
+          "tags": [],
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-07-21T14:24:26.192Z"
+        },
+        {
+          "caseId": 114341,
+          "testId": 1639215,
+          "name": "Click And Collect - User Selects Parcel Stop Location And Confirms Collection Details",
+          "tags": [],
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-07-21T14:24:17.137Z"
+        },
+        {
+          "caseId": 114340,
+          "testId": 1639214,
+          "name": "Click And Collect - User Selects White Stuff Store And Confirms Collection Details",
+          "tags": [],
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-07-21T14:22:01.812Z"
+        },
+        {
+          "caseId": 114343,
+          "testId": 1639217,
+          "name": "Click And Collect Is Not Available In Non-GBP Checkout",
+          "tags": [],
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-07-21T14:24:44.520Z"
+        },
+        {
+          "caseId": 114338,
+          "testId": 1639212,
+          "name": "Click And Collect Overlay - Map Is Displayed",
+          "tags": [],
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-07-21T14:06:12.901Z"
+        },
+        {
+          "caseId": 114336,
+          "testId": 1639210,
+          "name": "Click And Collect Overlay - Modal Is Displayed With Store Details",
+          "tags": [],
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-07-21T13:58:05.808Z"
+        },
+        {
+          "caseId": 114337,
+          "testId": 1639211,
+          "name": "Click And Collect Overlay - User Can Switch Between Store Locations",
+          "tags": [],
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-07-21T14:05:38.346Z"
+        },
+        {
+          "caseId": 114339,
+          "testId": 1639213,
+          "name": "Click And Collect Overlay - User Can Update Store Finder Location",
+          "tags": [],
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-07-21T14:10:54.622Z"
+        },
+        {
+          "caseId": 114290,
+          "testId": 1639168,
+          "name": "Email Address Persists When Navigating To Reset Password From Checkout Identity Page",
+          "tags": [],
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-07-21T12:44:33.244Z"
+        },
+        {
+          "caseId": 114289,
+          "testId": 1639167,
+          "name": "Email Address Persists When Navigating To Reset Password From Login Page",
+          "tags": [],
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-07-21T12:44:33.244Z"
+        },
+        {
+          "caseId": 114334,
+          "testId": 1639208,
+          "name": "EU/US Checkout - Europe Standard Auto-Updates To UK Standard For UK Postcode",
+          "tags": [],
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-07-21T12:44:39.873Z"
+        },
+        {
+          "caseId": 114335,
+          "testId": 1639209,
+          "name": "EU/US Checkout - Unsupported Country Shows Non-Deliverable Message And Blocks Continue",
+          "tags": [],
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-07-21T12:44:39.873Z"
+        },
+        {
+          "caseId": 127264,
+          "testId": 1639236,
+          "name": "EU: zone options visible; UK-only options hidden",
+          "tags": [],
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-07-21T14:30:02.949Z"
+        },
+        {
+          "caseId": 114318,
+          "testId": 1639193,
+          "name": "Header Search - Entering Search Term Displays Related Products",
+          "tags": [],
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-07-21T12:44:39.873Z"
+        },
+        {
+          "caseId": 114319,
+          "testId": 1639194,
+          "name": "Header Search - Entering Search Term Displays Related Search Terms",
+          "tags": [],
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-07-21T12:44:39.873Z"
+        },
+        {
+          "caseId": 114317,
+          "testId": 1639192,
+          "name": "Header Search - Pressing Enter In Search Box Redirects To Search Results Page",
+          "tags": [],
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-07-21T12:44:39.873Z"
+        },
+        {
+          "caseId": 114320,
+          "testId": 1639195,
+          "name": "Header Search - Search Box Can Be Hidden By Clicking The X Icon",
+          "tags": [],
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-07-21T12:44:39.873Z"
+        },
+        {
+          "caseId": 122033,
+          "testId": 1639225,
+          "name": "Header Search - Search Box Can Be Hidden By Pressing The Escape Key",
+          "tags": [],
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-07-21T12:44:45.682Z"
+        },
+        {
+          "caseId": 114352,
+          "testId": 1639223,
+          "name": "Percent Coupon Applied Successfully At Checkout For Guest User",
+          "tags": [],
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-07-21T12:44:45.682Z"
+        },
+        {
+          "caseId": 114354,
+          "testId": 1639224,
+          "name": "Percent Coupon Applied Successfully At Checkout In EU Locale",
+          "tags": [],
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-07-21T12:44:45.682Z"
+        },
+        {
+          "caseId": 114315,
+          "testId": 1639190,
+          "name": "PLP - User Can Click Alternative Colour To Navigate To That Product Variant PDP",
+          "tags": [],
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-07-21T12:44:39.873Z"
+        },
+        {
+          "caseId": 114313,
+          "testId": 1639188,
+          "name": "PLP - User Can Click Product Image To Navigate To PDP",
+          "tags": [],
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-07-21T12:44:33.244Z"
+        },
+        {
+          "caseId": 114312,
+          "testId": 1639187,
+          "name": "PLP - User Can Click Product Name To Navigate To PDP",
+          "tags": [],
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-07-21T12:44:33.244Z"
+        },
+        {
+          "caseId": 114314,
+          "testId": 1639189,
+          "name": "PLP - User Can See Correct Product Price Per Locale",
+          "tags": [],
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-07-21T12:44:33.244Z"
+        },
+        {
+          "caseId": 122036,
+          "testId": 1639228,
+          "name": "Selecting A Different Colour Resets Size Variant Selection On PDP",
+          "tags": [],
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-07-21T12:44:45.682Z"
+        },
+        {
+          "caseId": 127261,
+          "testId": 1639233,
+          "name": "UK: configured options visible; zone options hidden",
+          "tags": [],
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-07-21T14:29:39.346Z"
+        },
+        {
+          "caseId": 127265,
+          "testId": 1639237,
+          "name": "UK: gift card info message shown below DELIVERY heading",
+          "tags": [],
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-07-21T14:30:10.954Z"
+        },
+        {
+          "caseId": 127262,
+          "testId": 1639234,
+          "name": "UK: gift card order shows only gift card option",
+          "tags": [],
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-07-21T14:29:47.699Z"
+        },
+        {
+          "caseId": 127266,
+          "testId": 1639238,
+          "name": "UK: no info message shown for a standard order",
+          "tags": [],
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-07-21T14:30:27.950Z"
+        },
+        {
+          "caseId": 127263,
+          "testId": 1639235,
+          "name": "US: zone options visible; UK-only options hidden",
+          "tags": [],
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-07-21T14:29:55.377Z"
+        },
+        {
+          "caseId": 114287,
+          "testId": 1639165,
+          "name": "User Can Register A New Account",
+          "tags": [],
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-07-21T12:44:33.244Z"
+        },
+        {
+          "caseId": 114288,
+          "testId": 1639166,
+          "name": "User Cannot Submit Registration Form With Invalid Password",
+          "tags": [],
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-07-21T12:44:33.244Z"
+        },
+        {
+          "caseId": 114301,
+          "testId": 1639177,
+          "name": "Verify Add To Bag Button Is Enabled After Selecting All Required Variants",
+          "tags": [],
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-07-21T12:44:33.244Z"
+        },
+        {
+          "caseId": 114324,
+          "testId": 1639199,
+          "name": "Verify Adyen Terms And Conditions Must Be Accepted Before Payment",
+          "tags": [],
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-07-21T12:44:39.873Z"
+        },
+        {
+          "caseId": 114348,
+          "testId": 1639221,
+          "name": "Verify All Payment Methods Are Available When No Gift Card Is In Cart",
+          "tags": [],
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-07-21T12:44:45.682Z"
+        },
+        {
+          "caseId": 122711,
+          "testId": 1639231,
+          "name": "Verify Bag Is Discarded When Guest User Switches From UK Store To Ireland Store",
+          "tags": [],
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-07-21T14:27:06.472Z"
+        },
+        {
+          "caseId": 114297,
+          "testId": 1639175,
+          "name": "Verify Bag Is Empty When User Changes Currency From GBP To USD",
+          "tags": [],
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-07-21T13:40:59.076Z"
+        },
+        {
+          "caseId": 114326,
+          "testId": 1639201,
+          "name": "Verify Billing Section Allows Manual Entry Of A Different Billing Address",
+          "tags": [],
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-07-21T12:44:39.873Z"
+        },
+        {
+          "caseId": 114325,
+          "testId": 1639200,
+          "name": "Verify Billing Section Is Auto-Populated From Shipping Address",
+          "tags": [],
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-07-21T12:44:39.873Z"
+        },
+        {
+          "caseId": 122712,
+          "testId": 1639232,
+          "name": "Verify Cart Items And GBP Prices Are Preserved When Navigating Within UK Store",
+          "tags": [],
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-07-21T14:29:23.643Z"
+        },
+        {
+          "caseId": 114321,
+          "testId": 1639196,
+          "name": "Verify Cart Summary Is Displayed Correctly At Checkout",
+          "tags": [],
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-07-21T12:44:39.873Z"
+        },
+        {
+          "caseId": 114296,
+          "testId": 1639174,
+          "name": "Verify Continue Shopping Button Redirects To Homepage",
+          "tags": [],
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-07-21T13:40:15.674Z"
+        },
+        {
+          "caseId": 114345,
+          "testId": 1639219,
+          "name": "Verify Currency Is Displayed Correctly Throughout Checkout And Order Confirmation - EUR",
+          "tags": [],
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-07-21T12:44:45.682Z"
+        },
+        {
+          "caseId": 114344,
+          "testId": 1639218,
+          "name": "Verify Currency Is Displayed Correctly Throughout Checkout And Order Confirmation - GBP",
+          "tags": [],
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-07-21T12:44:45.682Z"
+        },
+        {
+          "caseId": 114346,
+          "testId": 1639220,
+          "name": "Verify Currency Is Displayed Correctly Throughout Checkout And Order Confirmation - USD",
+          "tags": [],
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-07-21T12:44:45.682Z"
+        },
+        {
+          "caseId": 114291,
+          "testId": 1639169,
+          "name": "Verify Display Of Bag Items",
+          "tags": [],
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-07-21T13:33:27.509Z"
+        },
+        {
+          "caseId": 114351,
+          "testId": 1639222,
+          "name": "Verify E-Gift Card Order Confirmation Shows Correct E-Card Details",
+          "tags": [],
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-07-21T14:24:59.235Z"
+        },
+        {
+          "caseId": 114295,
+          "testId": 1639173,
+          "name": "Verify Empty Basket Message Is Displayed After Removing All Items",
+          "tags": [],
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-07-21T13:37:58.575Z"
+        },
+        {
+          "caseId": 114333,
+          "testId": 1639207,
+          "name": "Verify EU/US Checkout Shows Zone-Based Delivery Options With From Pricing",
+          "tags": [],
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-07-21T13:56:16.877Z"
+        },
+        {
+          "caseId": 122034,
+          "testId": 1639226,
+          "name": "Verify Express Delivery Checkout Reaches Order Confirmation",
+          "tags": [],
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-07-21T12:44:45.682Z"
+        },
+        {
+          "caseId": 114322,
+          "testId": 1639197,
+          "name": "Verify Full Order Confirmation Flow For Guest User With Card Payment",
+          "tags": [],
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-07-21T12:44:39.873Z"
+        },
+        {
+          "caseId": 114298,
+          "testId": 1639176,
+          "name": "Verify Gift Card Details Are Displayed Correctly In The Bag",
+          "tags": [],
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-07-21T13:45:07.927Z"
+        },
+        {
+          "caseId": 114293,
+          "testId": 1639171,
+          "name": "Verify Increase And Decrease Functionality Of Item Quantity In Bag",
+          "tags": [],
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-07-21T13:36:48.138Z"
+        },
+        {
+          "caseId": 114294,
+          "testId": 1639172,
+          "name": "Verify Item Is Removed When Decrease Button Is Clicked At Quantity One",
+          "tags": [],
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-07-21T13:37:28.102Z"
+        },
+        {
+          "caseId": 114292,
+          "testId": 1639170,
+          "name": "Verify Order Summary Details On The Bag Page",
+          "tags": [],
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-07-21T13:36:22.157Z"
+        },
+        {
+          "caseId": 122710,
+          "testId": 1639230,
+          "name": "Verify Order Summary Items Are Sorted With Newest Added Item First",
+          "tags": [],
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-07-21T12:44:45.682Z"
+        },
+        {
+          "caseId": 122035,
+          "testId": 1639227,
+          "name": "Verify Out Of Stock Alert Is Visible On The Bag Page",
+          "tags": [],
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-07-21T14:26:44.198Z"
+        },
+        {
+          "caseId": 114323,
+          "testId": 1639198,
+          "name": "Verify Payment Failure Notice Is Displayed For Invalid Card",
+          "tags": [],
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-07-21T12:44:39.873Z"
+        },
+        {
+          "caseId": 114305,
+          "testId": 1639181,
+          "name": "Verify PDP Accordion Content Expands And Collapses Correctly",
+          "tags": [],
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-07-21T12:44:33.244Z"
+        },
+        {
+          "caseId": 114307,
+          "testId": 1639183,
+          "name": "Verify PDP Currency Is Displayed Correctly Per Locale",
+          "tags": [],
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-07-21T12:44:33.244Z"
+        },
+        {
+          "caseId": 114309,
+          "testId": 1639185,
+          "name": "Verify PDP Displays 404 Error For Non-Existent Product",
+          "tags": [],
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-07-21T12:44:33.244Z"
+        },
+        {
+          "caseId": 114306,
+          "testId": 1639182,
+          "name": "Verify PDP Variant Stock States Are Displayed Correctly",
+          "tags": [],
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-07-21T12:44:33.244Z"
+        },
+        {
+          "caseId": 122037,
+          "testId": 1639229,
+          "name": "Verify Percent Coupon Reduces Order Total In Checkout Order Summary (UK)",
+          "tags": [],
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-07-21T12:44:45.682Z"
+        },
+        {
+          "caseId": 114331,
+          "testId": 1639206,
+          "name": "Verify Physical Gift Card Limits Delivery Options And Shows Restriction Message",
+          "tags": [],
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-07-21T13:55:40.895Z"
+        },
+        {
+          "caseId": 114316,
+          "testId": 1639191,
+          "name": "Verify PLP Images Are Loaded From Amplience CDN",
+          "tags": [],
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-07-21T12:44:39.873Z"
+        },
+        {
+          "caseId": 114329,
+          "testId": 1639204,
+          "name": "Verify Shipping Options - Home Delivery Express Is Selectable At Checkout",
+          "tags": [],
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-07-21T13:52:32.589Z"
+        },
+        {
+          "caseId": 114328,
+          "testId": 1639203,
+          "name": "Verify Shipping Options - Home Delivery Standard Is Selectable At Checkout",
+          "tags": [],
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-07-21T13:47:35.222Z"
+        },
+        {
+          "caseId": 114327,
+          "testId": 1639202,
+          "name": "Verify Signed-In User Saved Addresses Are Displayed In Delivery And Billing Sections",
+          "tags": [],
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-07-21T12:44:39.873Z"
+        },
+        {
+          "caseId": 114310,
+          "testId": 1639186,
+          "name": "Verify User Can Navigate Using Breadcrumb On PDP Page",
+          "tags": [],
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-07-21T12:44:33.244Z"
+        },
+        {
+          "caseId": 114308,
+          "testId": 1639184,
+          "name": "Verify User Can See Size Guide On PDP Page",
+          "tags": [],
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-07-21T12:44:33.244Z"
+        },
+        {
+          "caseId": 114330,
+          "testId": 1639205,
+          "name": "Verify Warehouse Stock Bag Shows Full UK Delivery Option Set",
+          "tags": [],
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-07-21T12:44:39.873Z"
+        }
+      ]
     },
     {
       "id": 1964,
@@ -1165,14 +1980,14 @@
       "closed_at": null,
       "elapsed_ms": null,
       "total": 74,
-      "completed": 0,
-      "remaining": 74,
-      "passed": 0,
+      "completed": 74,
+      "remaining": 0,
+      "passed": 67,
       "failed": 0,
       "retest": 0,
       "blocked": 0,
       "untested": 0,
-      "skipped": 0,
+      "skipped": 7,
       "statusCounts": {
         "Untested": {
           "id": 1,
@@ -1180,7 +1995,7 @@
         },
         "Passed": {
           "id": 2,
-          "count": 0
+          "count": 67
         },
         "Failed": {
           "id": 3,
@@ -1196,7 +2011,7 @@
         },
         "Skipped": {
           "id": 6,
-          "count": 0
+          "count": 7
         },
         "Status 7": {
           "id": 7,
@@ -1273,7 +2088,822 @@
       },
       "config": "Chrome, Mobile",
       "url": "https://applydigital.testmo.net/runs/view/1964",
-      "cases": []
+      "cases": [
+        {
+          "caseId": 114304,
+          "testId": 1639053,
+          "name": "Add To Bag - Checkout Button Navigates To Checkout",
+          "tags": [],
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-07-21T12:52:08.291Z"
+        },
+        {
+          "caseId": 114302,
+          "testId": 1639051,
+          "name": "Add To Bag - Confirmation Modal Is Displayed With Correct Product Details",
+          "tags": [],
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-07-21T12:52:08.291Z"
+        },
+        {
+          "caseId": 114303,
+          "testId": 1639052,
+          "name": "Add To Bag - View Bag Button Navigates To Bag Page",
+          "tags": [],
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-07-21T12:52:08.291Z"
+        },
+        {
+          "caseId": 114342,
+          "testId": 1639089,
+          "name": "Click And Collect - User Changes Collection Location During Checkout And Completes Order",
+          "tags": [],
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-07-21T12:52:19.215Z"
+        },
+        {
+          "caseId": 114341,
+          "testId": 1639088,
+          "name": "Click And Collect - User Selects Parcel Stop Location And Confirms Collection Details",
+          "tags": [],
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-07-21T12:52:19.215Z"
+        },
+        {
+          "caseId": 114343,
+          "testId": 1639090,
+          "name": "Click And Collect Is Not Available In Non-GBP Checkout",
+          "tags": [],
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-07-21T12:52:19.215Z"
+        },
+        {
+          "caseId": 114338,
+          "testId": 1639085,
+          "name": "Click And Collect Overlay - Map Is Displayed",
+          "tags": [],
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-07-21T12:52:14.024Z"
+        },
+        {
+          "caseId": 114336,
+          "testId": 1639083,
+          "name": "Click And Collect Overlay - Modal Is Displayed With Store Details",
+          "tags": [],
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-07-21T12:52:14.024Z"
+        },
+        {
+          "caseId": 114337,
+          "testId": 1639084,
+          "name": "Click And Collect Overlay - User Can Switch Between Store Locations",
+          "tags": [],
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-07-21T12:52:14.024Z"
+        },
+        {
+          "caseId": 114339,
+          "testId": 1639086,
+          "name": "Click And Collect Overlay - User Can Update Store Finder Location",
+          "tags": [],
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-07-21T12:52:14.024Z"
+        },
+        {
+          "caseId": 114290,
+          "testId": 1639041,
+          "name": "Email Address Persists When Navigating To Reset Password From Checkout Identity Page",
+          "tags": [],
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-07-21T12:52:08.291Z"
+        },
+        {
+          "caseId": 114334,
+          "testId": 1639081,
+          "name": "EU/US Checkout - Europe Standard Auto-Updates To UK Standard For UK Postcode",
+          "tags": [],
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-07-21T12:52:14.024Z"
+        },
+        {
+          "caseId": 114335,
+          "testId": 1639082,
+          "name": "EU/US Checkout - Unsupported Country Shows Non-Deliverable Message And Blocks Continue",
+          "tags": [],
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-07-21T12:52:14.024Z"
+        },
+        {
+          "caseId": 127264,
+          "testId": 1639109,
+          "name": "EU: zone options visible; UK-only options hidden",
+          "tags": [],
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-07-21T12:52:19.215Z"
+        },
+        {
+          "caseId": 114320,
+          "testId": 1639068,
+          "name": "Header Search - Search Box Can Be Hidden By Clicking The X Icon",
+          "tags": [],
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-07-21T12:52:14.024Z"
+        },
+        {
+          "caseId": 122033,
+          "testId": 1639098,
+          "name": "Header Search - Search Box Can Be Hidden By Pressing The Escape Key",
+          "tags": [],
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-07-21T12:52:19.215Z"
+        },
+        {
+          "caseId": 114352,
+          "testId": 1639096,
+          "name": "Percent Coupon Applied Successfully At Checkout For Guest User",
+          "tags": [],
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-07-21T12:52:19.215Z"
+        },
+        {
+          "caseId": 114354,
+          "testId": 1639097,
+          "name": "Percent Coupon Applied Successfully At Checkout In EU Locale",
+          "tags": [],
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-07-21T12:52:19.215Z"
+        },
+        {
+          "caseId": 114315,
+          "testId": 1639063,
+          "name": "PLP - User Can Click Alternative Colour To Navigate To That Product Variant PDP",
+          "tags": [],
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-07-21T12:52:14.024Z"
+        },
+        {
+          "caseId": 114313,
+          "testId": 1639061,
+          "name": "PLP - User Can Click Product Image To Navigate To PDP",
+          "tags": [],
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-07-21T12:52:08.291Z"
+        },
+        {
+          "caseId": 114312,
+          "testId": 1639060,
+          "name": "PLP - User Can Click Product Name To Navigate To PDP",
+          "tags": [],
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-07-21T12:52:08.291Z"
+        },
+        {
+          "caseId": 114314,
+          "testId": 1639062,
+          "name": "PLP - User Can See Correct Product Price Per Locale",
+          "tags": [],
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-07-21T12:52:08.291Z"
+        },
+        {
+          "caseId": 122036,
+          "testId": 1639101,
+          "name": "Selecting A Different Colour Resets Size Variant Selection On PDP",
+          "tags": [],
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-07-21T12:52:19.215Z"
+        },
+        {
+          "caseId": 127261,
+          "testId": 1639106,
+          "name": "UK: configured options visible; zone options hidden",
+          "tags": [],
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-07-21T12:52:19.215Z"
+        },
+        {
+          "caseId": 127265,
+          "testId": 1639110,
+          "name": "UK: gift card info message shown below DELIVERY heading",
+          "tags": [],
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-07-21T12:52:19.215Z"
+        },
+        {
+          "caseId": 127262,
+          "testId": 1639107,
+          "name": "UK: gift card order shows only gift card option",
+          "tags": [],
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-07-21T12:52:19.215Z"
+        },
+        {
+          "caseId": 127266,
+          "testId": 1639111,
+          "name": "UK: no info message shown for a standard order",
+          "tags": [],
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-07-21T12:52:19.215Z"
+        },
+        {
+          "caseId": 127263,
+          "testId": 1639108,
+          "name": "US: zone options visible; UK-only options hidden",
+          "tags": [],
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-07-21T12:52:19.215Z"
+        },
+        {
+          "caseId": 114301,
+          "testId": 1639050,
+          "name": "Verify Add To Bag Button Is Enabled After Selecting All Required Variants",
+          "tags": [],
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-07-21T12:52:08.291Z"
+        },
+        {
+          "caseId": 114324,
+          "testId": 1639072,
+          "name": "Verify Adyen Terms And Conditions Must Be Accepted Before Payment",
+          "tags": [],
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-07-21T12:52:14.024Z"
+        },
+        {
+          "caseId": 114348,
+          "testId": 1639094,
+          "name": "Verify All Payment Methods Are Available When No Gift Card Is In Cart",
+          "tags": [],
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-07-21T12:52:19.215Z"
+        },
+        {
+          "caseId": 122711,
+          "testId": 1639104,
+          "name": "Verify Bag Is Discarded When Guest User Switches From UK Store To Ireland Store",
+          "tags": [],
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-07-21T12:52:19.215Z"
+        },
+        {
+          "caseId": 114297,
+          "testId": 1639048,
+          "name": "Verify Bag Is Empty When User Changes Currency From GBP To USD",
+          "tags": [],
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-07-21T12:52:08.291Z"
+        },
+        {
+          "caseId": 114326,
+          "testId": 1639074,
+          "name": "Verify Billing Section Allows Manual Entry Of A Different Billing Address",
+          "tags": [],
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-07-21T12:52:14.024Z"
+        },
+        {
+          "caseId": 114325,
+          "testId": 1639073,
+          "name": "Verify Billing Section Is Auto-Populated From Shipping Address",
+          "tags": [],
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-07-21T12:52:14.024Z"
+        },
+        {
+          "caseId": 122712,
+          "testId": 1639105,
+          "name": "Verify Cart Items And GBP Prices Are Preserved When Navigating Within UK Store",
+          "tags": [],
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-07-21T12:52:19.215Z"
+        },
+        {
+          "caseId": 114321,
+          "testId": 1639069,
+          "name": "Verify Cart Summary Is Displayed Correctly At Checkout",
+          "tags": [],
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-07-21T12:52:14.024Z"
+        },
+        {
+          "caseId": 114296,
+          "testId": 1639047,
+          "name": "Verify Continue Shopping Button Redirects To Homepage",
+          "tags": [],
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-07-21T12:52:08.291Z"
+        },
+        {
+          "caseId": 114345,
+          "testId": 1639092,
+          "name": "Verify Currency Is Displayed Correctly Throughout Checkout And Order Confirmation - EUR",
+          "tags": [],
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-07-21T12:52:19.215Z"
+        },
+        {
+          "caseId": 114344,
+          "testId": 1639091,
+          "name": "Verify Currency Is Displayed Correctly Throughout Checkout And Order Confirmation - GBP",
+          "tags": [],
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-07-21T12:52:19.215Z"
+        },
+        {
+          "caseId": 114346,
+          "testId": 1639093,
+          "name": "Verify Currency Is Displayed Correctly Throughout Checkout And Order Confirmation - USD",
+          "tags": [],
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-07-21T12:52:19.215Z"
+        },
+        {
+          "caseId": 114291,
+          "testId": 1639042,
+          "name": "Verify Display Of Bag Items",
+          "tags": [],
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-07-21T12:52:08.291Z"
+        },
+        {
+          "caseId": 114351,
+          "testId": 1639095,
+          "name": "Verify E-Gift Card Order Confirmation Shows Correct E-Card Details",
+          "tags": [],
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-07-21T12:52:19.215Z"
+        },
+        {
+          "caseId": 114295,
+          "testId": 1639046,
+          "name": "Verify Empty Basket Message Is Displayed After Removing All Items",
+          "tags": [],
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-07-21T12:52:08.291Z"
+        },
+        {
+          "caseId": 114333,
+          "testId": 1639080,
+          "name": "Verify EU/US Checkout Shows Zone-Based Delivery Options With From Pricing",
+          "tags": [],
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-07-21T12:52:14.024Z"
+        },
+        {
+          "caseId": 122034,
+          "testId": 1639099,
+          "name": "Verify Express Delivery Checkout Reaches Order Confirmation",
+          "tags": [],
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-07-21T12:52:19.215Z"
+        },
+        {
+          "caseId": 114322,
+          "testId": 1639070,
+          "name": "Verify Full Order Confirmation Flow For Guest User With Card Payment",
+          "tags": [],
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-07-21T12:52:14.024Z"
+        },
+        {
+          "caseId": 114298,
+          "testId": 1639049,
+          "name": "Verify Gift Card Details Are Displayed Correctly In The Bag",
+          "tags": [],
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-07-21T12:52:08.291Z"
+        },
+        {
+          "caseId": 114293,
+          "testId": 1639044,
+          "name": "Verify Increase And Decrease Functionality Of Item Quantity In Bag",
+          "tags": [],
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-07-21T12:52:08.291Z"
+        },
+        {
+          "caseId": 114294,
+          "testId": 1639045,
+          "name": "Verify Item Is Removed When Decrease Button Is Clicked At Quantity One",
+          "tags": [],
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-07-21T12:52:08.291Z"
+        },
+        {
+          "caseId": 114292,
+          "testId": 1639043,
+          "name": "Verify Order Summary Details On The Bag Page",
+          "tags": [],
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-07-21T12:52:08.291Z"
+        },
+        {
+          "caseId": 122710,
+          "testId": 1639103,
+          "name": "Verify Order Summary Items Are Sorted With Newest Added Item First",
+          "tags": [],
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-07-21T12:52:19.215Z"
+        },
+        {
+          "caseId": 122035,
+          "testId": 1639100,
+          "name": "Verify Out Of Stock Alert Is Visible On The Bag Page",
+          "tags": [],
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-07-21T12:52:19.215Z"
+        },
+        {
+          "caseId": 114323,
+          "testId": 1639071,
+          "name": "Verify Payment Failure Notice Is Displayed For Invalid Card",
+          "tags": [],
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-07-21T12:52:14.024Z"
+        },
+        {
+          "caseId": 114305,
+          "testId": 1639054,
+          "name": "Verify PDP Accordion Content Expands And Collapses Correctly",
+          "tags": [],
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-07-21T12:52:08.291Z"
+        },
+        {
+          "caseId": 114307,
+          "testId": 1639056,
+          "name": "Verify PDP Currency Is Displayed Correctly Per Locale",
+          "tags": [],
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-07-21T12:52:08.291Z"
+        },
+        {
+          "caseId": 114309,
+          "testId": 1639058,
+          "name": "Verify PDP Displays 404 Error For Non-Existent Product",
+          "tags": [],
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-07-21T12:52:08.291Z"
+        },
+        {
+          "caseId": 114306,
+          "testId": 1639055,
+          "name": "Verify PDP Variant Stock States Are Displayed Correctly",
+          "tags": [],
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-07-21T12:52:08.291Z"
+        },
+        {
+          "caseId": 122037,
+          "testId": 1639102,
+          "name": "Verify Percent Coupon Reduces Order Total In Checkout Order Summary (UK)",
+          "tags": [],
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-07-21T12:52:19.215Z"
+        },
+        {
+          "caseId": 114331,
+          "testId": 1639079,
+          "name": "Verify Physical Gift Card Limits Delivery Options And Shows Restriction Message",
+          "tags": [],
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-07-21T12:52:14.024Z"
+        },
+        {
+          "caseId": 114316,
+          "testId": 1639064,
+          "name": "Verify PLP Images Are Loaded From Amplience CDN",
+          "tags": [],
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-07-21T12:52:14.024Z"
+        },
+        {
+          "caseId": 114329,
+          "testId": 1639077,
+          "name": "Verify Shipping Options - Home Delivery Express Is Selectable At Checkout",
+          "tags": [],
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-07-21T12:52:14.024Z"
+        },
+        {
+          "caseId": 114328,
+          "testId": 1639076,
+          "name": "Verify Shipping Options - Home Delivery Standard Is Selectable At Checkout",
+          "tags": [],
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-07-21T12:52:14.024Z"
+        },
+        {
+          "caseId": 114327,
+          "testId": 1639075,
+          "name": "Verify Signed-In User Saved Addresses Are Displayed In Delivery And Billing Sections",
+          "tags": [],
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-07-21T12:52:14.024Z"
+        },
+        {
+          "caseId": 114310,
+          "testId": 1639059,
+          "name": "Verify User Can Navigate Using Breadcrumb On PDP Page",
+          "tags": [],
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-07-21T12:52:08.291Z"
+        },
+        {
+          "caseId": 114308,
+          "testId": 1639057,
+          "name": "Verify User Can See Size Guide On PDP Page",
+          "tags": [],
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-07-21T12:52:08.291Z"
+        },
+        {
+          "caseId": 114330,
+          "testId": 1639078,
+          "name": "Verify Warehouse Stock Bag Shows Full UK Delivery Option Set",
+          "tags": [],
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-07-21T12:52:14.024Z"
+        },
+        {
+          "caseId": 114340,
+          "testId": 1639087,
+          "name": "Click And Collect - User Selects White Stuff Store And Confirms Collection Details",
+          "tags": [],
+          "statusId": 6,
+          "status": "Skipped",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-07-21T12:52:31.219Z"
+        },
+        {
+          "caseId": 114289,
+          "testId": 1639040,
+          "name": "Email Address Persists When Navigating To Reset Password From Login Page",
+          "tags": [],
+          "statusId": 6,
+          "status": "Skipped",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-07-21T12:52:43.332Z"
+        },
+        {
+          "caseId": 114318,
+          "testId": 1639066,
+          "name": "Header Search - Entering Search Term Displays Related Products",
+          "tags": [],
+          "statusId": 6,
+          "status": "Skipped",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-07-21T12:53:18.189Z"
+        },
+        {
+          "caseId": 114319,
+          "testId": 1639067,
+          "name": "Header Search - Entering Search Term Displays Related Search Terms",
+          "tags": [],
+          "statusId": 6,
+          "status": "Skipped",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-07-21T12:53:39.584Z"
+        },
+        {
+          "caseId": 114317,
+          "testId": 1639065,
+          "name": "Header Search - Pressing Enter In Search Box Redirects To Search Results Page",
+          "tags": [],
+          "statusId": 6,
+          "status": "Skipped",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-07-21T12:53:29.601Z"
+        },
+        {
+          "caseId": 114287,
+          "testId": 1639038,
+          "name": "User Can Register A New Account",
+          "tags": [],
+          "statusId": 6,
+          "status": "Skipped",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-07-21T12:52:55.388Z"
+        },
+        {
+          "caseId": 114288,
+          "testId": 1639039,
+          "name": "User Cannot Submit Registration Form With Invalid Password",
+          "tags": [],
+          "statusId": 6,
+          "status": "Skipped",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-07-21T12:53:05.964Z"
+        }
+      ]
     },
     {
       "id": 1963,
