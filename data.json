@@ -1,18 +1,18 @@
 {
-  "lastUpdated": "2026-07-21T15:16:58.828545+00:00",
+  "lastUpdated": "2026-07-21T17:21:39.305629+00:00",
   "jira": {
     "summary": {
       "total": 297,
       "byStatus": {
-        "En curso": 8,
+        "En curso": 5,
+        "QA Approved": 17,
+        "Tech Review": 16,
         "Finalizada": 227,
-        "QA Approved": 16,
         "Listo": 3,
         "Blocked": 4,
         "Pre-prioritized": 1,
         "Ready for Refinement": 3,
         "READY FOR RELEASE": 2,
-        "Tech Review": 14,
         "Deprecated": 10,
         "Backlog": 5,
         "PENDING DEV DEPLOY": 3,
@@ -21,13 +21,24 @@
     },
     "tickets": [
       {
+        "key": "WSC-1602",
+        "url": "https://e2x.atlassian.net/browse/WSC-1602",
+        "summary": "[WSSD-642] - CHECKOUT - Investigate Apple Pay Express discount loss after dismissed/timed-out payment sheet",
+        "status": "En curso",
+        "statusCategory": "indeterminate",
+        "assignee": "Jair Huaman",
+        "updated": "2026-07-21T18:05:46.445+0100",
+        "priority": "Importante",
+        "labels": []
+      },
+      {
         "key": "WSC-1493",
         "url": "https://e2x.atlassian.net/browse/WSC-1493",
         "summary": "PROMO MESSAGING - Add across VSF journey",
-        "status": "En curso",
+        "status": "QA Approved",
         "statusCategory": "indeterminate",
-        "assignee": "Chiara Davies",
-        "updated": "2026-07-21T16:08:54.149+0100",
+        "assignee": "Ingrith Santamaria",
+        "updated": "2026-07-21T18:01:35.395+0100",
         "priority": "Importante",
         "labels": [
           "Needs-QA",
@@ -38,12 +49,26 @@
         "key": "WSC-1618",
         "url": "https://e2x.atlassian.net/browse/WSC-1618",
         "summary": "Outbound HTTP connection pooling & keep-alive for middleware API clients",
-        "status": "En curso",
+        "status": "Tech Review",
         "statusCategory": "indeterminate",
         "assignee": "Jair Huaman",
-        "updated": "2026-07-21T15:56:53.906+0100",
+        "updated": "2026-07-21T17:22:12.145+0100",
         "priority": "Not Set",
         "labels": []
+      },
+      {
+        "key": "WSC-1594",
+        "url": "https://e2x.atlassian.net/browse/WSC-1594",
+        "summary": "SFS - item SFS data on VSF",
+        "status": "Tech Review",
+        "statusCategory": "indeterminate",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-07-21T16:24:57.686+0100",
+        "priority": "Importante",
+        "labels": [
+          "Needs-QA",
+          "automatable"
+        ]
       },
       {
         "key": "WSC-1620",
@@ -193,17 +218,6 @@
           "Needs-QA",
           "automatable"
         ]
-      },
-      {
-        "key": "WSC-1602",
-        "url": "https://e2x.atlassian.net/browse/WSC-1602",
-        "summary": "[WSSD-642] - CHECKOUT - Investigate Apple Pay Express discount loss after dismissed/timed-out payment sheet",
-        "status": "En curso",
-        "statusCategory": "indeterminate",
-        "assignee": "Jair Huaman",
-        "updated": "2026-07-20T21:03:26.682+0100",
-        "priority": "Importante",
-        "labels": []
       },
       {
         "key": "WSC-1551",
@@ -757,20 +771,6 @@
         "updated": "2026-07-20T17:41:19.124+0100",
         "priority": "Not Set",
         "labels": []
-      },
-      {
-        "key": "WSC-1594",
-        "url": "https://e2x.atlassian.net/browse/WSC-1594",
-        "summary": "SFS - item SFS data on VSF",
-        "status": "En curso",
-        "statusCategory": "indeterminate",
-        "assignee": "Alexander Talavera",
-        "updated": "2026-07-20T15:00:17.668+0100",
-        "priority": "Importante",
-        "labels": [
-          "Needs-QA",
-          "automatable"
-        ]
       },
       {
         "key": "WSC-173",
