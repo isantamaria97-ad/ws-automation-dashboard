@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-20T21:12:59.652800+00:00",
+  "lastUpdated": "2026-07-21T02:47:38.810468+00:00",
   "jira": {
     "summary": {
       "total": 295,
@@ -3766,9 +3766,9 @@
     },
     "runs": {
       "total": 48,
-      "latestPassed": 0,
+      "latestPassed": 68,
       "latestFailed": 0,
-      "latestPending": 74,
+      "latestPending": 0,
       "latestTotal": 74,
       "latestRunName": "Regression 20/07/26",
       "latestRunDate": "2026-07-20T21:04:41.119Z",
@@ -3785,10 +3785,10 @@
           "elapsed_ms": null,
           "created_at": "2026-07-20T21:04:41.119Z",
           "completed_at": null,
-          "passed": 0,
+          "passed": 68,
           "failed": 0,
-          "pending": 74,
-          "completed": 0,
+          "pending": 0,
+          "completed": 74,
           "total": 74
         },
         {
@@ -3836,10 +3836,10 @@
           "elapsed_ms": null,
           "created_at": "2026-07-20T21:04:41.090Z",
           "completed_at": null,
-          "passed": 0,
+          "passed": 70,
           "failed": 0,
-          "pending": 74,
-          "completed": 0,
+          "pending": 0,
+          "completed": 74,
           "total": 74
         },
         {
