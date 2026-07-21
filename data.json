@@ -1,19 +1,17 @@
 {
-  "lastUpdated": "2026-07-21T13:53:27.362628+00:00",
+  "lastUpdated": "2026-07-21T15:16:58.828545+00:00",
   "jira": {
     "summary": {
-      "total": 295,
+      "total": 297,
       "byStatus": {
+        "En curso": 8,
+        "Finalizada": 227,
+        "QA Approved": 16,
         "Listo": 3,
         "Blocked": 4,
-        "En curso": 5,
         "Pre-prioritized": 1,
         "Ready for Refinement": 3,
-        "RETURNED BY QA": 1,
-        "Finalizada": 227,
-        "IN QA": 1,
         "READY FOR RELEASE": 2,
-        "QA Approved": 15,
         "Tech Review": 14,
         "Deprecated": 10,
         "Backlog": 5,
@@ -22,6 +20,64 @@
       }
     },
     "tickets": [
+      {
+        "key": "WSC-1493",
+        "url": "https://e2x.atlassian.net/browse/WSC-1493",
+        "summary": "PROMO MESSAGING - Add across VSF journey",
+        "status": "En curso",
+        "statusCategory": "indeterminate",
+        "assignee": "Chiara Davies",
+        "updated": "2026-07-21T16:08:54.149+0100",
+        "priority": "Importante",
+        "labels": [
+          "Needs-QA",
+          "manualQA"
+        ]
+      },
+      {
+        "key": "WSC-1618",
+        "url": "https://e2x.atlassian.net/browse/WSC-1618",
+        "summary": "Outbound HTTP connection pooling & keep-alive for middleware API clients",
+        "status": "En curso",
+        "statusCategory": "indeterminate",
+        "assignee": "Jair Huaman",
+        "updated": "2026-07-21T15:56:53.906+0100",
+        "priority": "Not Set",
+        "labels": []
+      },
+      {
+        "key": "WSC-1620",
+        "url": "https://e2x.atlassian.net/browse/WSC-1620",
+        "summary": "Shared Redis caching at the Alokai middleware layer",
+        "status": "En curso",
+        "statusCategory": "indeterminate",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-07-21T15:56:48.830+0100",
+        "priority": "Not Set",
+        "labels": []
+      },
+      {
+        "key": "WSC-1615",
+        "url": "https://e2x.atlassian.net/browse/WSC-1615",
+        "summary": "Configure Cloudflare native alerts (DDoS, 5xx rate, traffic anomaly)",
+        "status": "Finalizada",
+        "statusCategory": "done",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-07-21T15:28:32.090+0100",
+        "priority": "Not Set",
+        "labels": []
+      },
+      {
+        "key": "WSC-1625",
+        "url": "https://e2x.atlassian.net/browse/WSC-1625",
+        "summary": "SLIM BANNER - further amendments",
+        "status": "QA Approved",
+        "statusCategory": "indeterminate",
+        "assignee": "Gerardo Romero",
+        "updated": "2026-07-21T15:05:00.526+0100",
+        "priority": "Poco importante",
+        "labels": []
+      },
       {
         "key": "WSC-1484",
         "url": "https://e2x.atlassian.net/browse/WSC-1484",
@@ -136,20 +192,6 @@
         "labels": [
           "Needs-QA",
           "automatable"
-        ]
-      },
-      {
-        "key": "WSC-1493",
-        "url": "https://e2x.atlassian.net/browse/WSC-1493",
-        "summary": "PROMO MESSAGING - Add across VSF journey",
-        "status": "RETURNED BY QA",
-        "statusCategory": "indeterminate",
-        "assignee": "Chiara Davies",
-        "updated": "2026-07-20T21:19:21.360+0100",
-        "priority": "Importante",
-        "labels": [
-          "Needs-QA",
-          "manualQA"
         ]
       },
       {
@@ -465,17 +507,6 @@
         ]
       },
       {
-        "key": "WSC-1615",
-        "url": "https://e2x.atlassian.net/browse/WSC-1615",
-        "summary": "Configure Cloudflare native alerts (DDoS, 5xx rate, traffic anomaly)",
-        "status": "Finalizada",
-        "statusCategory": "done",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-07-20T20:57:19.888+0100",
-        "priority": "Not Set",
-        "labels": []
-      },
-      {
         "key": "WSC-1383",
         "url": "https://e2x.atlassian.net/browse/WSC-1383",
         "summary": "PDP - make 'Details/Returns/Delivery' accessible to search engines/LLMs",
@@ -494,17 +525,6 @@
         "statusCategory": "done",
         "assignee": "enmanuel.ramirez",
         "updated": "2026-07-20T20:57:14.191+0100",
-        "priority": "Poco importante",
-        "labels": []
-      },
-      {
-        "key": "WSC-1625",
-        "url": "https://e2x.atlassian.net/browse/WSC-1625",
-        "summary": "SLIM BANNER - further amendments",
-        "status": "IN QA",
-        "statusCategory": "indeterminate",
-        "assignee": "Gerardo Romero",
-        "updated": "2026-07-20T19:31:45.843+0100",
         "priority": "Poco importante",
         "labels": []
       },
@@ -3802,7 +3822,7 @@
           "elapsed_ms": null,
           "created_at": "2026-07-20T21:04:41.110Z",
           "completed_at": null,
-          "passed": 54,
+          "passed": 74,
           "failed": 0,
           "pending": 0,
           "completed": 74,
@@ -3819,7 +3839,7 @@
           "elapsed_ms": null,
           "created_at": "2026-07-20T21:04:41.100Z",
           "completed_at": null,
-          "passed": 67,
+          "passed": 74,
           "failed": 0,
           "pending": 0,
           "completed": 74,
@@ -3836,7 +3856,7 @@
           "elapsed_ms": null,
           "created_at": "2026-07-20T21:04:41.090Z",
           "completed_at": null,
-          "passed": 70,
+          "passed": 74,
           "failed": 0,
           "pending": 0,
           "completed": 74,
