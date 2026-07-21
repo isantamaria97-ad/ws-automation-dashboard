@@ -1,25 +1,122 @@
 {
-  "lastUpdated": "2026-07-21T17:21:39.305629+00:00",
+  "lastUpdated": "2026-07-21T21:11:16.505959+00:00",
   "jira": {
     "summary": {
-      "total": 297,
+      "total": 298,
       "byStatus": {
-        "En curso": 5,
-        "QA Approved": 17,
+        "IN UAT": 5,
+        "Tareas por hacer": 1,
+        "IN QA": 1,
+        "Deprecated": 10,
         "Tech Review": 16,
+        "En curso": 4,
+        "QA Approved": 13,
         "Finalizada": 227,
         "Listo": 3,
         "Blocked": 4,
         "Pre-prioritized": 1,
         "Ready for Refinement": 3,
         "READY FOR RELEASE": 2,
-        "Deprecated": 10,
         "Backlog": 5,
-        "PENDING DEV DEPLOY": 3,
-        "IN UAT": 1
+        "PENDING DEV DEPLOY": 3
       }
     },
     "tickets": [
+      {
+        "key": "WSC-1549",
+        "url": "https://e2x.atlassian.net/browse/WSC-1549",
+        "summary": "CONSTRUCTOR",
+        "status": "IN UAT",
+        "statusCategory": "indeterminate",
+        "assignee": "Ingrith Santamaria",
+        "updated": "2026-07-21T21:38:21.908+0100",
+        "priority": "Poco importante",
+        "labels": []
+      },
+      {
+        "key": "WSC-1624",
+        "url": "https://e2x.atlassian.net/browse/WSC-1624",
+        "summary": "BREADCRUMB  - amendments",
+        "status": "IN UAT",
+        "statusCategory": "indeterminate",
+        "assignee": "Ingrith Santamaria",
+        "updated": "2026-07-21T21:34:54.599+0100",
+        "priority": "Poco importante",
+        "labels": []
+      },
+      {
+        "key": "WSC-1575",
+        "url": "https://e2x.atlassian.net/browse/WSC-1575",
+        "summary": "PDP - remove size button for 'ONESIZE' products",
+        "status": "IN UAT",
+        "statusCategory": "indeterminate",
+        "assignee": "Ingrith Santamaria",
+        "updated": "2026-07-21T21:31:58.364+0100",
+        "priority": "Poco importante",
+        "labels": [
+          "Needs-QA"
+        ]
+      },
+      {
+        "key": "WSC-1412",
+        "url": "https://e2x.atlassian.net/browse/WSC-1412",
+        "summary": "Mobile: BREADCRUMB - amendments",
+        "status": "IN UAT",
+        "statusCategory": "indeterminate",
+        "assignee": "Ingrith Santamaria",
+        "updated": "2026-07-21T21:28:49.778+0100",
+        "priority": "Poco importante",
+        "labels": [
+          "Needs-QA"
+        ]
+      },
+      {
+        "key": "WSC-1632",
+        "url": "https://e2x.atlassian.net/browse/WSC-1632",
+        "summary": "CHECKOUT - custom checkout BigCommerce API",
+        "status": "Tareas por hacer",
+        "statusCategory": "new",
+        "assignee": "Alexander Talavera",
+        "updated": "2026-07-21T21:23:25.479+0100",
+        "priority": "Importante",
+        "labels": []
+      },
+      {
+        "key": "WSC-1620",
+        "url": "https://e2x.atlassian.net/browse/WSC-1620",
+        "summary": "Shared Redis caching at the Alokai middleware layer",
+        "status": "IN QA",
+        "statusCategory": "indeterminate",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-07-21T20:28:01.563+0100",
+        "priority": "Not Set",
+        "labels": []
+      },
+      {
+        "key": "WSC-1587",
+        "url": "https://e2x.atlassian.net/browse/WSC-1587",
+        "summary": "CHECKOUT - Saved address dropdown resets to \"Enter a new address\" and forces manual form entry upon selection",
+        "status": "Deprecated",
+        "statusCategory": "done",
+        "assignee": "Ingrith Santamaria",
+        "updated": "2026-07-21T20:18:50.979+0100",
+        "priority": "Importante",
+        "labels": []
+      },
+      {
+        "key": "WSC-1560",
+        "url": "https://e2x.atlassian.net/browse/WSC-1560",
+        "summary": "CHECKOUT IDENTITY PAGE - minor amend for Apple Pay Express",
+        "status": "Tech Review",
+        "statusCategory": "indeterminate",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-07-21T18:36:33.476+0100",
+        "priority": "Importante",
+        "labels": [
+          "Needs-QA",
+          "manualQA"
+        ]
+      },
       {
         "key": "WSC-1602",
         "url": "https://e2x.atlassian.net/browse/WSC-1602",
@@ -69,17 +166,6 @@
           "Needs-QA",
           "automatable"
         ]
-      },
-      {
-        "key": "WSC-1620",
-        "url": "https://e2x.atlassian.net/browse/WSC-1620",
-        "summary": "Shared Redis caching at the Alokai middleware layer",
-        "status": "En curso",
-        "statusCategory": "indeterminate",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-07-21T15:56:48.830+0100",
-        "priority": "Not Set",
-        "labels": []
       },
       {
         "key": "WSC-1615",
@@ -598,19 +684,6 @@
         ]
       },
       {
-        "key": "WSC-1575",
-        "url": "https://e2x.atlassian.net/browse/WSC-1575",
-        "summary": "PDP - remove size button for 'ONESIZE' products",
-        "status": "QA Approved",
-        "statusCategory": "indeterminate",
-        "assignee": "Ingrith Santamaria",
-        "updated": "2026-07-20T17:41:26.020+0100",
-        "priority": "Poco importante",
-        "labels": [
-          "Needs-QA"
-        ]
-      },
-      {
         "key": "WSC-1586",
         "url": "https://e2x.atlassian.net/browse/WSC-1586",
         "summary": "PDP - toggle amends 2",
@@ -647,19 +720,6 @@
         "labels": [
           "Needs-QA",
           "automatable"
-        ]
-      },
-      {
-        "key": "WSC-1412",
-        "url": "https://e2x.atlassian.net/browse/WSC-1412",
-        "summary": "Mobile: BREADCRUMB - amendments",
-        "status": "QA Approved",
-        "statusCategory": "indeterminate",
-        "assignee": "Ingrith Santamaria",
-        "updated": "2026-07-20T17:41:24.250+0100",
-        "priority": "Poco importante",
-        "labels": [
-          "Needs-QA"
         ]
       },
       {
@@ -703,17 +763,6 @@
         ]
       },
       {
-        "key": "WSC-1624",
-        "url": "https://e2x.atlassian.net/browse/WSC-1624",
-        "summary": "BREADCRUMB  - amendments",
-        "status": "QA Approved",
-        "statusCategory": "indeterminate",
-        "assignee": "Ingrith Santamaria",
-        "updated": "2026-07-20T17:41:22.262+0100",
-        "priority": "Poco importante",
-        "labels": []
-      },
-      {
         "key": "WSC-1405",
         "url": "https://e2x.atlassian.net/browse/WSC-1405",
         "summary": "BAG - savings display and checkout CTA button",
@@ -721,17 +770,6 @@
         "statusCategory": "indeterminate",
         "assignee": "Gerardo Romero",
         "updated": "2026-07-20T17:41:21.382+0100",
-        "priority": "Poco importante",
-        "labels": []
-      },
-      {
-        "key": "WSC-1549",
-        "url": "https://e2x.atlassian.net/browse/WSC-1549",
-        "summary": "CONSTRUCTOR",
-        "status": "QA Approved",
-        "statusCategory": "indeterminate",
-        "assignee": "Ingrith Santamaria",
-        "updated": "2026-07-20T17:41:20.872+0100",
         "priority": "Poco importante",
         "labels": []
       },
@@ -955,20 +993,6 @@
         ]
       },
       {
-        "key": "WSC-1560",
-        "url": "https://e2x.atlassian.net/browse/WSC-1560",
-        "summary": "CHECKOUT IDENTITY PAGE - minor amend for Apple Pay Express",
-        "status": "Tech Review",
-        "statusCategory": "indeterminate",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-07-09T20:32:23.575+0100",
-        "priority": "Importante",
-        "labels": [
-          "Needs-QA",
-          "manualQA"
-        ]
-      },
-      {
         "key": "WSC-1563",
         "url": "https://e2x.atlassian.net/browse/WSC-1563",
         "summary": "MINI BAG - minor amend for Apple Pay Express",
@@ -1030,17 +1054,6 @@
         "labels": [
           "NO_QA_REQUIRED"
         ]
-      },
-      {
-        "key": "WSC-1587",
-        "url": "https://e2x.atlassian.net/browse/WSC-1587",
-        "summary": "CHECKOUT - Saved address dropdown resets to \"Enter a new address\" and forces manual form entry upon selection",
-        "status": "Deprecated",
-        "statusCategory": "done",
-        "assignee": "Ingrith Santamaria",
-        "updated": "2026-07-06T14:29:45.065+0100",
-        "priority": "Importante",
-        "labels": []
       },
       {
         "key": "WSC-1515",
