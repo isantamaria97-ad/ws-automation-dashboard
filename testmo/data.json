@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-22T17:49:04.422786+00:00",
+  "lastUpdated": "2026-07-22T18:54:15.677364+00:00",
   "milestones": [
     {
       "id": 235,
@@ -114,12 +114,12 @@
       "total": 74,
       "completed": 74,
       "remaining": 0,
-      "passed": 52,
+      "passed": 74,
       "failed": 0,
       "retest": 0,
       "blocked": 0,
       "untested": 0,
-      "skipped": 22,
+      "skipped": 0,
       "statusCounts": {
         "Untested": {
           "id": 1,
@@ -127,7 +127,7 @@
         },
         "Passed": {
           "id": 2,
-          "count": 52
+          "count": 74
         },
         "Failed": {
           "id": 3,
@@ -143,7 +143,7 @@
         },
         "Skipped": {
           "id": 6,
-          "count": 22
+          "count": 0
         },
         "Status 7": {
           "id": 7,
@@ -365,6 +365,28 @@
           "updatedAt": "2026-07-22T16:38:22.671Z"
         },
         {
+          "caseId": 114334,
+          "testId": 1643249,
+          "name": "EU/US Checkout - Europe Standard Auto-Updates To UK Standard For UK Postcode",
+          "tags": [],
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-07-22T18:15:11.079Z"
+        },
+        {
+          "caseId": 114335,
+          "testId": 1643250,
+          "name": "EU/US Checkout - Unsupported Country Shows Non-Deliverable Message And Blocks Continue",
+          "tags": [],
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-07-22T18:15:19.398Z"
+        },
+        {
           "caseId": 127264,
           "testId": 1643277,
           "name": "EU: zone options visible; UK-only options hidden",
@@ -429,6 +451,28 @@
           "note": "",
           "assigneeId": null,
           "updatedAt": "2026-07-22T16:38:31.215Z"
+        },
+        {
+          "caseId": 114352,
+          "testId": 1643264,
+          "name": "Percent Coupon Applied Successfully At Checkout For Guest User",
+          "tags": [],
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-07-22T18:21:19.644Z"
+        },
+        {
+          "caseId": 114354,
+          "testId": 1643265,
+          "name": "Percent Coupon Applied Successfully At Checkout In EU Locale",
+          "tags": [],
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-07-22T18:21:31.663Z"
         },
         {
           "caseId": 114315,
@@ -541,6 +585,28 @@
           "updatedAt": "2026-07-22T16:38:31.215Z"
         },
         {
+          "caseId": 114287,
+          "testId": 1643206,
+          "name": "User Can Register A New Account",
+          "tags": [],
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-07-22T18:03:46.567Z"
+        },
+        {
+          "caseId": 114288,
+          "testId": 1643207,
+          "name": "User Cannot Submit Registration Form With Invalid Password",
+          "tags": [],
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-07-22T18:04:28.471Z"
+        },
+        {
           "caseId": 114301,
           "testId": 1643218,
           "name": "Verify Add To Bag Button Is Enabled After Selecting All Required Variants",
@@ -550,6 +616,28 @@
           "note": "",
           "assigneeId": null,
           "updatedAt": "2026-07-22T16:38:22.671Z"
+        },
+        {
+          "caseId": 114324,
+          "testId": 1643240,
+          "name": "Verify Adyen Terms And Conditions Must Be Accepted Before Payment",
+          "tags": [],
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-07-22T18:13:00.267Z"
+        },
+        {
+          "caseId": 114348,
+          "testId": 1643262,
+          "name": "Verify All Payment Methods Are Available When No Gift Card Is In Cart",
+          "tags": [],
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-07-22T18:21:05.882Z"
         },
         {
           "caseId": 122711,
@@ -574,6 +662,28 @@
           "updatedAt": "2026-07-22T16:38:22.671Z"
         },
         {
+          "caseId": 114326,
+          "testId": 1643242,
+          "name": "Verify Billing Section Allows Manual Entry Of A Different Billing Address",
+          "tags": [],
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-07-22T18:13:49.427Z"
+        },
+        {
+          "caseId": 114325,
+          "testId": 1643241,
+          "name": "Verify Billing Section Is Auto-Populated From Shipping Address",
+          "tags": [],
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-07-22T18:13:25.229Z"
+        },
+        {
           "caseId": 122712,
           "testId": 1643273,
           "name": "Verify Cart Items And GBP Prices Are Preserved When Navigating Within UK Store",
@@ -583,6 +693,17 @@
           "note": "",
           "assigneeId": null,
           "updatedAt": "2026-07-22T16:38:31.215Z"
+        },
+        {
+          "caseId": 114321,
+          "testId": 1643237,
+          "name": "Verify Cart Summary Is Displayed Correctly At Checkout",
+          "tags": [],
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-07-22T18:06:28.520Z"
         },
         {
           "caseId": 114296,
@@ -596,6 +717,39 @@
           "updatedAt": "2026-07-22T16:38:22.671Z"
         },
         {
+          "caseId": 114345,
+          "testId": 1643260,
+          "name": "Verify Currency Is Displayed Correctly Throughout Checkout And Order Confirmation - EUR",
+          "tags": [],
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-07-22T18:18:46.837Z"
+        },
+        {
+          "caseId": 114344,
+          "testId": 1643259,
+          "name": "Verify Currency Is Displayed Correctly Throughout Checkout And Order Confirmation - GBP",
+          "tags": [],
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-07-22T18:16:35.200Z"
+        },
+        {
+          "caseId": 114346,
+          "testId": 1643261,
+          "name": "Verify Currency Is Displayed Correctly Throughout Checkout And Order Confirmation - USD",
+          "tags": [],
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-07-22T18:20:54.335Z"
+        },
+        {
           "caseId": 114291,
           "testId": 1643210,
           "name": "Verify Display Of Bag Items",
@@ -605,6 +759,17 @@
           "note": "",
           "assigneeId": null,
           "updatedAt": "2026-07-22T16:38:22.671Z"
+        },
+        {
+          "caseId": 114351,
+          "testId": 1643263,
+          "name": "Verify E-Gift Card Order Confirmation Shows Correct E-Card Details",
+          "tags": [],
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-07-22T18:21:13.266Z"
         },
         {
           "caseId": 114295,
@@ -627,6 +792,28 @@
           "note": "",
           "assigneeId": null,
           "updatedAt": "2026-07-22T16:38:26.836Z"
+        },
+        {
+          "caseId": 122034,
+          "testId": 1643267,
+          "name": "Verify Express Delivery Checkout Reaches Order Confirmation",
+          "tags": [],
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-07-22T18:21:47.476Z"
+        },
+        {
+          "caseId": 114322,
+          "testId": 1643238,
+          "name": "Verify Full Order Confirmation Flow For Guest User With Card Payment",
+          "tags": [],
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-07-22T18:09:59.893Z"
         },
         {
           "caseId": 114298,
@@ -695,6 +882,17 @@
           "updatedAt": "2026-07-22T16:38:31.215Z"
         },
         {
+          "caseId": 114323,
+          "testId": 1643239,
+          "name": "Verify Payment Failure Notice Is Displayed For Invalid Card",
+          "tags": [],
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-07-22T18:12:21.084Z"
+        },
+        {
           "caseId": 114305,
           "testId": 1643222,
           "name": "Verify PDP Accordion Content Expands And Collapses Correctly",
@@ -739,6 +937,28 @@
           "updatedAt": "2026-07-22T16:38:22.671Z"
         },
         {
+          "caseId": 122037,
+          "testId": 1643270,
+          "name": "Verify Percent Coupon Reduces Order Total In Checkout Order Summary (UK)",
+          "tags": [],
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-07-22T18:22:15.630Z"
+        },
+        {
+          "caseId": 114331,
+          "testId": 1643247,
+          "name": "Verify Physical Gift Card Limits Delivery Options And Shows Restriction Message",
+          "tags": [],
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-07-22T18:14:53.127Z"
+        },
+        {
           "caseId": 114316,
           "testId": 1643232,
           "name": "Verify PLP Images Are Loaded From Amplience CDN",
@@ -772,6 +992,17 @@
           "updatedAt": "2026-07-22T16:38:26.836Z"
         },
         {
+          "caseId": 114327,
+          "testId": 1643243,
+          "name": "Verify Signed-In User Saved Addresses Are Displayed In Delivery And Billing Sections",
+          "tags": [],
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-07-22T18:14:05.271Z"
+        },
+        {
           "caseId": 114310,
           "testId": 1643227,
           "name": "Verify User Can Navigate Using Breadcrumb On PDP Page",
@@ -794,246 +1025,15 @@
           "updatedAt": "2026-07-22T16:38:22.671Z"
         },
         {
-          "caseId": 114334,
-          "testId": 1643249,
-          "name": "EU/US Checkout - Europe Standard Auto-Updates To UK Standard For UK Postcode",
-          "tags": [],
-          "statusId": 6,
-          "status": "Skipped",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-07-22T16:42:01.638Z"
-        },
-        {
-          "caseId": 114335,
-          "testId": 1643250,
-          "name": "EU/US Checkout - Unsupported Country Shows Non-Deliverable Message And Blocks Continue",
-          "tags": [],
-          "statusId": 6,
-          "status": "Skipped",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-07-22T16:42:11.122Z"
-        },
-        {
-          "caseId": 114352,
-          "testId": 1643264,
-          "name": "Percent Coupon Applied Successfully At Checkout For Guest User",
-          "tags": [],
-          "statusId": 6,
-          "status": "Skipped",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-07-22T16:39:02.443Z"
-        },
-        {
-          "caseId": 114354,
-          "testId": 1643265,
-          "name": "Percent Coupon Applied Successfully At Checkout In EU Locale",
-          "tags": [],
-          "statusId": 6,
-          "status": "Skipped",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-07-22T16:39:21.208Z"
-        },
-        {
-          "caseId": 114287,
-          "testId": 1643206,
-          "name": "User Can Register A New Account",
-          "tags": [],
-          "statusId": 6,
-          "status": "Skipped",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-07-22T16:38:38.579Z"
-        },
-        {
-          "caseId": 114288,
-          "testId": 1643207,
-          "name": "User Cannot Submit Registration Form With Invalid Password",
-          "tags": [],
-          "statusId": 6,
-          "status": "Skipped",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-07-22T16:38:50.097Z"
-        },
-        {
-          "caseId": 114324,
-          "testId": 1643240,
-          "name": "Verify Adyen Terms And Conditions Must Be Accepted Before Payment",
-          "tags": [],
-          "statusId": 6,
-          "status": "Skipped",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-07-22T16:41:44.841Z"
-        },
-        {
-          "caseId": 114348,
-          "testId": 1643262,
-          "name": "Verify All Payment Methods Are Available When No Gift Card Is In Cart",
-          "tags": [],
-          "statusId": 6,
-          "status": "Skipped",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-07-22T16:41:37.400Z"
-        },
-        {
-          "caseId": 114326,
-          "testId": 1643242,
-          "name": "Verify Billing Section Allows Manual Entry Of A Different Billing Address",
-          "tags": [],
-          "statusId": 6,
-          "status": "Skipped",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-07-22T16:40:20.441Z"
-        },
-        {
-          "caseId": 114325,
-          "testId": 1643241,
-          "name": "Verify Billing Section Is Auto-Populated From Shipping Address",
-          "tags": [],
-          "statusId": 6,
-          "status": "Skipped",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-07-22T16:40:09.590Z"
-        },
-        {
-          "caseId": 114321,
-          "testId": 1643237,
-          "name": "Verify Cart Summary Is Displayed Correctly At Checkout",
-          "tags": [],
-          "statusId": 6,
-          "status": "Skipped",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-07-22T16:39:49.659Z"
-        },
-        {
-          "caseId": 114345,
-          "testId": 1643260,
-          "name": "Verify Currency Is Displayed Correctly Throughout Checkout And Order Confirmation - EUR",
-          "tags": [],
-          "statusId": 6,
-          "status": "Skipped",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-07-22T16:41:18.950Z"
-        },
-        {
-          "caseId": 114344,
-          "testId": 1643259,
-          "name": "Verify Currency Is Displayed Correctly Throughout Checkout And Order Confirmation - GBP",
-          "tags": [],
-          "statusId": 6,
-          "status": "Skipped",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-07-22T16:41:28.322Z"
-        },
-        {
-          "caseId": 114346,
-          "testId": 1643261,
-          "name": "Verify Currency Is Displayed Correctly Throughout Checkout And Order Confirmation - USD",
-          "tags": [],
-          "statusId": 6,
-          "status": "Skipped",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-07-22T16:41:08.654Z"
-        },
-        {
-          "caseId": 114351,
-          "testId": 1643263,
-          "name": "Verify E-Gift Card Order Confirmation Shows Correct E-Card Details",
-          "tags": [],
-          "statusId": 6,
-          "status": "Skipped",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-07-22T16:41:53.165Z"
-        },
-        {
-          "caseId": 122034,
-          "testId": 1643267,
-          "name": "Verify Express Delivery Checkout Reaches Order Confirmation",
-          "tags": [],
-          "statusId": 6,
-          "status": "Skipped",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-07-22T16:40:29.747Z"
-        },
-        {
-          "caseId": 114322,
-          "testId": 1643238,
-          "name": "Verify Full Order Confirmation Flow For Guest User With Card Payment",
-          "tags": [],
-          "statusId": 6,
-          "status": "Skipped",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-07-22T16:39:59.680Z"
-        },
-        {
-          "caseId": 114323,
-          "testId": 1643239,
-          "name": "Verify Payment Failure Notice Is Displayed For Invalid Card",
-          "tags": [],
-          "statusId": 6,
-          "status": "Skipped",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-07-22T16:40:57.599Z"
-        },
-        {
-          "caseId": 122037,
-          "testId": 1643270,
-          "name": "Verify Percent Coupon Reduces Order Total In Checkout Order Summary (UK)",
-          "tags": [],
-          "statusId": 6,
-          "status": "Skipped",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-07-22T16:39:12.476Z"
-        },
-        {
-          "caseId": 114331,
-          "testId": 1643247,
-          "name": "Verify Physical Gift Card Limits Delivery Options And Shows Restriction Message",
-          "tags": [],
-          "statusId": 6,
-          "status": "Skipped",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-07-22T16:40:48.190Z"
-        },
-        {
-          "caseId": 114327,
-          "testId": 1643243,
-          "name": "Verify Signed-In User Saved Addresses Are Displayed In Delivery And Billing Sections",
-          "tags": [],
-          "statusId": 6,
-          "status": "Skipped",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-07-22T16:42:19.343Z"
-        },
-        {
           "caseId": 114330,
           "testId": 1643246,
           "name": "Verify Warehouse Stock Bag Shows Full UK Delivery Option Set",
           "tags": [],
-          "statusId": 6,
-          "status": "Skipped",
+          "statusId": 2,
+          "status": "Passed",
           "note": "",
           "assigneeId": null,
-          "updatedAt": "2026-07-22T16:40:39.232Z"
+          "updatedAt": "2026-07-22T18:14:29.160Z"
         }
       ]
     },
