@@ -1,13 +1,13 @@
 {
-  "lastUpdated": "2026-07-22T18:56:31.270871+00:00",
+  "lastUpdated": "2026-07-22T21:09:28.363717+00:00",
   "jira": {
     "summary": {
       "total": 298,
       "byStatus": {
-        "Tech Review": 16,
-        "QA Approved": 12,
-        "Finalizada": 229,
         "En curso": 5,
+        "QA Approved": 12,
+        "Tech Review": 16,
+        "Finalizada": 229,
         "IN UAT": 6,
         "Deprecated": 10,
         "Listo": 3,
@@ -19,6 +19,82 @@
       }
     },
     "tickets": [
+      {
+        "key": "WSC-1610",
+        "url": "https://e2x.atlassian.net/browse/WSC-1610",
+        "summary": "CHECKOUT - minor amendment for EUR and USD",
+        "status": "En curso",
+        "statusCategory": "indeterminate",
+        "assignee": "Jair Huaman",
+        "updated": "2026-07-22T20:04:13.180+0100",
+        "priority": "Cr\u00edtica",
+        "labels": []
+      },
+      {
+        "key": "WSC-1574",
+        "url": "https://e2x.atlassian.net/browse/WSC-1574",
+        "summary": "CHECKOUT - wording amendment for ParcelShop",
+        "status": "QA Approved",
+        "statusCategory": "indeterminate",
+        "assignee": "Gerardo Romero",
+        "updated": "2026-07-22T20:00:47.391+0100",
+        "priority": "Poco importante",
+        "labels": [
+          "Needs-QA"
+        ]
+      },
+      {
+        "key": "WSC-1392",
+        "url": "https://e2x.atlassian.net/browse/WSC-1392",
+        "summary": "HHG - SEO text block",
+        "status": "Tech Review",
+        "statusCategory": "indeterminate",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-07-22T19:57:38.563+0100",
+        "priority": "Poco importante",
+        "labels": []
+      },
+      {
+        "key": "WSC-1561",
+        "url": "https://e2x.atlassian.net/browse/WSC-1561",
+        "summary": "BAG - minor amendments for Apple Pay Express",
+        "status": "Tech Review",
+        "statusCategory": "indeterminate",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-07-22T19:57:34.667+0100",
+        "priority": "Importante",
+        "labels": [
+          "Needs-QA",
+          "manualQA"
+        ]
+      },
+      {
+        "key": "WSC-1563",
+        "url": "https://e2x.atlassian.net/browse/WSC-1563",
+        "summary": "MINI BAG - minor amend for Apple Pay Express",
+        "status": "Tech Review",
+        "statusCategory": "indeterminate",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-07-22T19:57:30.221+0100",
+        "priority": "Importante",
+        "labels": [
+          "Needs-QA"
+        ]
+      },
+      {
+        "key": "WSC-1560",
+        "url": "https://e2x.atlassian.net/browse/WSC-1560",
+        "summary": "CHECKOUT IDENTITY PAGE - minor amend for Apple Pay Express",
+        "status": "Tech Review",
+        "statusCategory": "indeterminate",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-07-22T19:57:25.035+0100",
+        "priority": "Importante",
+        "labels": [
+          "Needs-QA",
+          "manualQA"
+        ]
+      },
       {
         "key": "WSC-1602",
         "url": "https://e2x.atlassian.net/browse/WSC-1602",
@@ -61,17 +137,6 @@
         "assignee": "Jair Huaman",
         "updated": "2026-07-22T16:20:05.871+0100",
         "priority": "Not Set",
-        "labels": []
-      },
-      {
-        "key": "WSC-1610",
-        "url": "https://e2x.atlassian.net/browse/WSC-1610",
-        "summary": "CHECKOUT - minor amendment for EUR and USD",
-        "status": "En curso",
-        "statusCategory": "indeterminate",
-        "assignee": "Jair Huaman",
-        "updated": "2026-07-22T15:46:55.973+0100",
-        "priority": "Cr\u00edtica",
         "labels": []
       },
       {
@@ -181,20 +246,6 @@
         "updated": "2026-07-21T20:18:50.979+0100",
         "priority": "Importante",
         "labels": []
-      },
-      {
-        "key": "WSC-1560",
-        "url": "https://e2x.atlassian.net/browse/WSC-1560",
-        "summary": "CHECKOUT IDENTITY PAGE - minor amend for Apple Pay Express",
-        "status": "Tech Review",
-        "statusCategory": "indeterminate",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-07-21T18:36:33.476+0100",
-        "priority": "Importante",
-        "labels": [
-          "Needs-QA",
-          "manualQA"
-        ]
       },
       {
         "key": "WSC-1493",
@@ -717,19 +768,6 @@
         ]
       },
       {
-        "key": "WSC-1574",
-        "url": "https://e2x.atlassian.net/browse/WSC-1574",
-        "summary": "CHECKOUT - wording amendment for ParcelShop",
-        "status": "QA Approved",
-        "statusCategory": "indeterminate",
-        "assignee": "Gerardo Romero",
-        "updated": "2026-07-20T17:41:26.466+0100",
-        "priority": "Poco importante",
-        "labels": [
-          "Needs-QA"
-        ]
-      },
-      {
         "key": "WSC-1597",
         "url": "https://e2x.atlassian.net/browse/WSC-1597",
         "summary": "SALE BADGES - show/don't show",
@@ -859,17 +897,6 @@
         ]
       },
       {
-        "key": "WSC-1392",
-        "url": "https://e2x.atlassian.net/browse/WSC-1392",
-        "summary": "HHG - SEO text block",
-        "status": "Tech Review",
-        "statusCategory": "indeterminate",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-07-17T14:43:11.570+0100",
-        "priority": "Poco importante",
-        "labels": []
-      },
-      {
         "key": "WSC-1422",
         "url": "https://e2x.atlassian.net/browse/WSC-1422",
         "summary": "Desktop/Mobile: SIDE PANEL - standardise width",
@@ -971,33 +998,6 @@
         "assignee": "enmanuel.ramirez",
         "updated": "2026-07-10T17:23:32.764+0100",
         "priority": "Poco importante",
-        "labels": [
-          "Needs-QA"
-        ]
-      },
-      {
-        "key": "WSC-1561",
-        "url": "https://e2x.atlassian.net/browse/WSC-1561",
-        "summary": "BAG - minor amendments for Apple Pay Express",
-        "status": "Tech Review",
-        "statusCategory": "indeterminate",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-07-09T20:32:33.472+0100",
-        "priority": "Importante",
-        "labels": [
-          "Needs-QA",
-          "manualQA"
-        ]
-      },
-      {
-        "key": "WSC-1563",
-        "url": "https://e2x.atlassian.net/browse/WSC-1563",
-        "summary": "MINI BAG - minor amend for Apple Pay Express",
-        "status": "Tech Review",
-        "statusCategory": "indeterminate",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-07-09T20:30:33.250+0100",
-        "priority": "Importante",
         "labels": [
           "Needs-QA"
         ]
