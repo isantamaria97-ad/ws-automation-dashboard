@@ -1,12 +1,12 @@
 {
-  "lastUpdated": "2026-07-22T17:21:07.083925+00:00",
+  "lastUpdated": "2026-07-22T18:49:43.429049+00:00",
   "jira": {
     "summary": {
       "total": 298,
       "byStatus": {
+        "En curso": 6,
         "QA Approved": 12,
         "Finalizada": 229,
-        "En curso": 6,
         "IN UAT": 6,
         "Deprecated": 10,
         "Tech Review": 15,
@@ -19,6 +19,17 @@
       }
     },
     "tickets": [
+      {
+        "key": "WSC-1602",
+        "url": "https://e2x.atlassian.net/browse/WSC-1602",
+        "summary": "[WSSD-642] - CHECKOUT - Investigate Apple Pay Express discount loss after dismissed/timed-out payment sheet",
+        "status": "En curso",
+        "statusCategory": "indeterminate",
+        "assignee": "Jair Huaman",
+        "updated": "2026-07-22T19:02:06.930+0100",
+        "priority": "Importante",
+        "labels": []
+      },
       {
         "key": "WSC-1586",
         "url": "https://e2x.atlassian.net/browse/WSC-1586",
@@ -50,17 +61,6 @@
         "assignee": "Jair Huaman",
         "updated": "2026-07-22T16:20:05.871+0100",
         "priority": "Not Set",
-        "labels": []
-      },
-      {
-        "key": "WSC-1602",
-        "url": "https://e2x.atlassian.net/browse/WSC-1602",
-        "summary": "[WSSD-642] - CHECKOUT - Investigate Apple Pay Express discount loss after dismissed/timed-out payment sheet",
-        "status": "En curso",
-        "statusCategory": "indeterminate",
-        "assignee": "Jair Huaman",
-        "updated": "2026-07-22T16:18:32.759+0100",
-        "priority": "Importante",
         "labels": []
       },
       {
@@ -3796,7 +3796,7 @@
     },
     "runs": {
       "total": 52,
-      "latestPassed": 52,
+      "latestPassed": 74,
       "latestFailed": 0,
       "latestPending": 0,
       "latestTotal": 74,
@@ -3815,7 +3815,7 @@
           "elapsed_ms": null,
           "created_at": "2026-07-22T12:30:31.333Z",
           "completed_at": null,
-          "passed": 52,
+          "passed": 74,
           "failed": 0,
           "pending": 0,
           "completed": 74,
@@ -3849,7 +3849,7 @@
           "elapsed_ms": null,
           "created_at": "2026-07-22T12:30:31.323Z",
           "completed_at": null,
-          "passed": 67,
+          "passed": 74,
           "failed": 0,
           "pending": 0,
           "completed": 74,
