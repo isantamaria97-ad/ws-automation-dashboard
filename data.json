@@ -1,16 +1,16 @@
 {
-  "lastUpdated": "2026-07-22T11:06:20.142477+00:00",
+  "lastUpdated": "2026-07-22T13:58:00.599172+00:00",
   "jira": {
     "summary": {
       "total": 298,
       "byStatus": {
         "Pre-prioritized": 1,
+        "En curso": 4,
         "QA Approved": 14,
         "IN UAT": 6,
         "Tareas por hacer": 1,
         "Deprecated": 10,
         "Tech Review": 15,
-        "En curso": 4,
         "Finalizada": 227,
         "Listo": 3,
         "Blocked": 4,
@@ -27,9 +27,58 @@
         "summary": "CHECKOUT - minor amendment for EUR and USD",
         "status": "Pre-prioritized",
         "statusCategory": "new",
-        "assignee": "Unassigned",
-        "updated": "2026-07-22T09:54:18.359+0100",
+        "assignee": "Jair Huaman",
+        "updated": "2026-07-22T14:32:00.026+0100",
         "priority": "Cr\u00edtica",
+        "labels": []
+      },
+      {
+        "key": "WSC-1602",
+        "url": "https://e2x.atlassian.net/browse/WSC-1602",
+        "summary": "[WSSD-642] - CHECKOUT - Investigate Apple Pay Express discount loss after dismissed/timed-out payment sheet",
+        "status": "En curso",
+        "statusCategory": "indeterminate",
+        "assignee": "Jair Huaman",
+        "updated": "2026-07-22T13:49:52.805+0100",
+        "priority": "Importante",
+        "labels": []
+      },
+      {
+        "key": "WSC-1604",
+        "url": "https://e2x.atlassian.net/browse/WSC-1604",
+        "summary": "SALE BADGE - new colour",
+        "status": "QA Approved",
+        "statusCategory": "indeterminate",
+        "assignee": "Gerardo Romero",
+        "updated": "2026-07-22T13:04:30.826+0100",
+        "priority": "Cr\u00edtica",
+        "labels": [
+          "Needs-QA"
+        ]
+      },
+      {
+        "key": "WSC-1588",
+        "url": "https://e2x.atlassian.net/browse/WSC-1588",
+        "summary": "[Header] Clicking account icon in non-UK locales forcefully logs user out instead of navigating to /my-account",
+        "status": "QA Approved",
+        "statusCategory": "indeterminate",
+        "assignee": "Gerardo Romero",
+        "updated": "2026-07-22T13:01:40.071+0100",
+        "priority": "Importante",
+        "labels": [
+          "Needs-QA",
+          "automatable"
+        ]
+      },
+      {
+        "key": "WSC-1620",
+        "url": "https://e2x.atlassian.net/browse/WSC-1620",
+        "summary": "Shared Redis caching at the Alokai middleware layer",
+        "status": "QA Approved",
+        "statusCategory": "indeterminate",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-07-22T12:54:17.742+0100",
+        "priority": "Not Set",
         "labels": []
       },
       {
@@ -40,17 +89,6 @@
         "statusCategory": "indeterminate",
         "assignee": "Jair Huaman",
         "updated": "2026-07-21T22:30:52.784+0100",
-        "priority": "Not Set",
-        "labels": []
-      },
-      {
-        "key": "WSC-1620",
-        "url": "https://e2x.atlassian.net/browse/WSC-1620",
-        "summary": "Shared Redis caching at the Alokai middleware layer",
-        "status": "QA Approved",
-        "statusCategory": "indeterminate",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-07-21T22:30:18.235+0100",
         "priority": "Not Set",
         "labels": []
       },
@@ -148,17 +186,6 @@
           "Needs-QA",
           "manualQA"
         ]
-      },
-      {
-        "key": "WSC-1602",
-        "url": "https://e2x.atlassian.net/browse/WSC-1602",
-        "summary": "[WSSD-642] - CHECKOUT - Investigate Apple Pay Express discount loss after dismissed/timed-out payment sheet",
-        "status": "En curso",
-        "statusCategory": "indeterminate",
-        "assignee": "Jair Huaman",
-        "updated": "2026-07-21T18:05:46.445+0100",
-        "priority": "Importante",
-        "labels": []
       },
       {
         "key": "WSC-1493",
@@ -719,20 +746,6 @@
         ]
       },
       {
-        "key": "WSC-1588",
-        "url": "https://e2x.atlassian.net/browse/WSC-1588",
-        "summary": "[Header] Clicking account icon in non-UK locales forcefully logs user out instead of navigating to /my-account",
-        "status": "QA Approved",
-        "statusCategory": "indeterminate",
-        "assignee": "Gerardo Romero",
-        "updated": "2026-07-20T17:41:24.679+0100",
-        "priority": "Importante",
-        "labels": [
-          "Needs-QA",
-          "automatable"
-        ]
-      },
-      {
         "key": "WSC-1600",
         "url": "https://e2x.atlassian.net/browse/WSC-1600",
         "summary": "Fix failing jobs in Playwright GitHub Actions workflow",
@@ -768,19 +781,6 @@
         "assignee": "Ingrith Santamaria",
         "updated": "2026-07-20T17:41:22.645+0100",
         "priority": "Poco importante",
-        "labels": [
-          "Needs-QA"
-        ]
-      },
-      {
-        "key": "WSC-1604",
-        "url": "https://e2x.atlassian.net/browse/WSC-1604",
-        "summary": "SALE BADGE - new colour",
-        "status": "QA Approved",
-        "statusCategory": "indeterminate",
-        "assignee": "Gerardo Romero",
-        "updated": "2026-07-20T17:41:20.397+0100",
-        "priority": "Cr\u00edtica",
         "labels": [
           "Needs-QA"
         ]
@@ -3797,15 +3797,83 @@
       ]
     },
     "runs": {
-      "total": 48,
-      "latestPassed": 74,
+      "total": 52,
+      "latestPassed": 0,
       "latestFailed": 0,
-      "latestPending": 0,
+      "latestPending": 74,
       "latestTotal": 74,
-      "latestRunName": "Regression 20/07/26",
-      "latestRunDate": "2026-07-20T21:04:41.119Z",
+      "latestRunName": "Regression 22/07/26",
+      "latestRunDate": "2026-07-22T12:30:31.333Z",
       "passRate": 99.8,
       "recent": [
+        {
+          "id": 1977,
+          "name": "Regression 22/07/26",
+          "source_id": null,
+          "milestone_id": 235,
+          "config_id": 14,
+          "status": null,
+          "is_completed": false,
+          "elapsed_ms": null,
+          "created_at": "2026-07-22T12:30:31.333Z",
+          "completed_at": null,
+          "passed": 0,
+          "failed": 0,
+          "pending": 74,
+          "completed": 0,
+          "total": 74
+        },
+        {
+          "id": 1976,
+          "name": "Regression 22/07/26",
+          "source_id": null,
+          "milestone_id": 235,
+          "config_id": 13,
+          "status": null,
+          "is_completed": false,
+          "elapsed_ms": null,
+          "created_at": "2026-07-22T12:30:31.328Z",
+          "completed_at": null,
+          "passed": 0,
+          "failed": 0,
+          "pending": 74,
+          "completed": 0,
+          "total": 74
+        },
+        {
+          "id": 1975,
+          "name": "Regression 22/07/26",
+          "source_id": null,
+          "milestone_id": 235,
+          "config_id": 10,
+          "status": null,
+          "is_completed": false,
+          "elapsed_ms": null,
+          "created_at": "2026-07-22T12:30:31.323Z",
+          "completed_at": null,
+          "passed": 0,
+          "failed": 0,
+          "pending": 74,
+          "completed": 0,
+          "total": 74
+        },
+        {
+          "id": 1974,
+          "name": "Regression 22/07/26",
+          "source_id": null,
+          "milestone_id": 235,
+          "config_id": 9,
+          "status": null,
+          "is_completed": false,
+          "elapsed_ms": null,
+          "created_at": "2026-07-22T12:30:31.315Z",
+          "completed_at": null,
+          "passed": 0,
+          "failed": 0,
+          "pending": 74,
+          "completed": 0,
+          "total": 74
+        },
         {
           "id": 1966,
           "name": "Regression 20/07/26",
@@ -3901,74 +3969,6 @@
           "is_completed": false,
           "elapsed_ms": null,
           "created_at": "2026-07-16T13:21:37.485Z",
-          "completed_at": null,
-          "passed": 74,
-          "failed": 0,
-          "pending": 0,
-          "completed": 74,
-          "total": 74
-        },
-        {
-          "id": 1951,
-          "name": "Regression 16/07/26",
-          "source_id": null,
-          "milestone_id": 233,
-          "config_id": 10,
-          "status": null,
-          "is_completed": false,
-          "elapsed_ms": null,
-          "created_at": "2026-07-16T13:21:37.480Z",
-          "completed_at": null,
-          "passed": 74,
-          "failed": 0,
-          "pending": 0,
-          "completed": 74,
-          "total": 74
-        },
-        {
-          "id": 1950,
-          "name": "Regression 16/07/26",
-          "source_id": null,
-          "milestone_id": 233,
-          "config_id": 9,
-          "status": null,
-          "is_completed": false,
-          "elapsed_ms": null,
-          "created_at": "2026-07-16T13:21:37.472Z",
-          "completed_at": null,
-          "passed": 74,
-          "failed": 0,
-          "pending": 0,
-          "completed": 74,
-          "total": 74
-        },
-        {
-          "id": 1871,
-          "name": "Regression 02/07/26",
-          "source_id": null,
-          "milestone_id": 227,
-          "config_id": 14,
-          "status": null,
-          "is_completed": false,
-          "elapsed_ms": null,
-          "created_at": "2026-07-02T15:44:29.008Z",
-          "completed_at": null,
-          "passed": 74,
-          "failed": 0,
-          "pending": 0,
-          "completed": 74,
-          "total": 74
-        },
-        {
-          "id": 1870,
-          "name": "Regression 02/07/26",
-          "source_id": null,
-          "milestone_id": 227,
-          "config_id": 13,
-          "status": null,
-          "is_completed": false,
-          "elapsed_ms": null,
-          "created_at": "2026-07-02T15:44:28.998Z",
           "completed_at": null,
           "passed": 74,
           "failed": 0,
