@@ -1,16 +1,15 @@
 {
-  "lastUpdated": "2026-07-21T21:11:16.505959+00:00",
+  "lastUpdated": "2026-07-22T02:45:14.750494+00:00",
   "jira": {
     "summary": {
       "total": 298,
       "byStatus": {
-        "IN UAT": 5,
+        "QA Approved": 14,
+        "IN UAT": 6,
         "Tareas por hacer": 1,
-        "IN QA": 1,
         "Deprecated": 10,
-        "Tech Review": 16,
+        "Tech Review": 15,
         "En curso": 4,
-        "QA Approved": 13,
         "Finalizada": 227,
         "Listo": 3,
         "Blocked": 4,
@@ -22,6 +21,39 @@
       }
     },
     "tickets": [
+      {
+        "key": "WSC-1618",
+        "url": "https://e2x.atlassian.net/browse/WSC-1618",
+        "summary": "Outbound HTTP connection pooling & keep-alive for middleware API clients",
+        "status": "QA Approved",
+        "statusCategory": "indeterminate",
+        "assignee": "Jair Huaman",
+        "updated": "2026-07-21T22:30:52.784+0100",
+        "priority": "Not Set",
+        "labels": []
+      },
+      {
+        "key": "WSC-1620",
+        "url": "https://e2x.atlassian.net/browse/WSC-1620",
+        "summary": "Shared Redis caching at the Alokai middleware layer",
+        "status": "QA Approved",
+        "statusCategory": "indeterminate",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-07-21T22:30:18.235+0100",
+        "priority": "Not Set",
+        "labels": []
+      },
+      {
+        "key": "WSC-1405",
+        "url": "https://e2x.atlassian.net/browse/WSC-1405",
+        "summary": "BAG - savings display and checkout CTA button",
+        "status": "IN UAT",
+        "statusCategory": "indeterminate",
+        "assignee": "Gerardo Romero",
+        "updated": "2026-07-21T22:24:35.415+0100",
+        "priority": "Poco importante",
+        "labels": []
+      },
       {
         "key": "WSC-1549",
         "url": "https://e2x.atlassian.net/browse/WSC-1549",
@@ -82,17 +114,6 @@
         "labels": []
       },
       {
-        "key": "WSC-1620",
-        "url": "https://e2x.atlassian.net/browse/WSC-1620",
-        "summary": "Shared Redis caching at the Alokai middleware layer",
-        "status": "IN QA",
-        "statusCategory": "indeterminate",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-07-21T20:28:01.563+0100",
-        "priority": "Not Set",
-        "labels": []
-      },
-      {
         "key": "WSC-1587",
         "url": "https://e2x.atlassian.net/browse/WSC-1587",
         "summary": "CHECKOUT - Saved address dropdown resets to \"Enter a new address\" and forces manual form entry upon selection",
@@ -141,17 +162,6 @@
           "Needs-QA",
           "manualQA"
         ]
-      },
-      {
-        "key": "WSC-1618",
-        "url": "https://e2x.atlassian.net/browse/WSC-1618",
-        "summary": "Outbound HTTP connection pooling & keep-alive for middleware API clients",
-        "status": "Tech Review",
-        "statusCategory": "indeterminate",
-        "assignee": "Jair Huaman",
-        "updated": "2026-07-21T17:22:12.145+0100",
-        "priority": "Not Set",
-        "labels": []
       },
       {
         "key": "WSC-1594",
@@ -761,17 +771,6 @@
         "labels": [
           "Needs-QA"
         ]
-      },
-      {
-        "key": "WSC-1405",
-        "url": "https://e2x.atlassian.net/browse/WSC-1405",
-        "summary": "BAG - savings display and checkout CTA button",
-        "status": "QA Approved",
-        "statusCategory": "indeterminate",
-        "assignee": "Gerardo Romero",
-        "updated": "2026-07-20T17:41:21.382+0100",
-        "priority": "Poco importante",
-        "labels": []
       },
       {
         "key": "WSC-1604",
