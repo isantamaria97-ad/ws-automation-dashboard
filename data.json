@@ -1,15 +1,15 @@
 {
-  "lastUpdated": "2026-07-22T18:49:43.429049+00:00",
+  "lastUpdated": "2026-07-22T18:56:31.270871+00:00",
   "jira": {
     "summary": {
       "total": 298,
       "byStatus": {
-        "En curso": 6,
+        "Tech Review": 16,
         "QA Approved": 12,
         "Finalizada": 229,
+        "En curso": 5,
         "IN UAT": 6,
         "Deprecated": 10,
-        "Tech Review": 15,
         "Listo": 3,
         "Blocked": 4,
         "Ready for Refinement": 3,
@@ -23,10 +23,10 @@
         "key": "WSC-1602",
         "url": "https://e2x.atlassian.net/browse/WSC-1602",
         "summary": "[WSSD-642] - CHECKOUT - Investigate Apple Pay Express discount loss after dismissed/timed-out payment sheet",
-        "status": "En curso",
+        "status": "Tech Review",
         "statusCategory": "indeterminate",
-        "assignee": "Jair Huaman",
-        "updated": "2026-07-22T19:02:06.930+0100",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-07-22T19:54:23.776+0100",
         "priority": "Importante",
         "labels": []
       },
