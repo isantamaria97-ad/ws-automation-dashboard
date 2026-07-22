@@ -1,9 +1,10 @@
 {
-  "lastUpdated": "2026-07-22T06:29:45.707476+00:00",
+  "lastUpdated": "2026-07-22T11:06:20.142477+00:00",
   "jira": {
     "summary": {
       "total": 298,
       "byStatus": {
+        "Pre-prioritized": 1,
         "QA Approved": 14,
         "IN UAT": 6,
         "Tareas por hacer": 1,
@@ -13,7 +14,6 @@
         "Finalizada": 227,
         "Listo": 3,
         "Blocked": 4,
-        "Pre-prioritized": 1,
         "Ready for Refinement": 3,
         "READY FOR RELEASE": 2,
         "Backlog": 5,
@@ -21,6 +21,17 @@
       }
     },
     "tickets": [
+      {
+        "key": "WSC-1610",
+        "url": "https://e2x.atlassian.net/browse/WSC-1610",
+        "summary": "CHECKOUT - minor amendment for EUR and USD",
+        "status": "Pre-prioritized",
+        "statusCategory": "new",
+        "assignee": "Unassigned",
+        "updated": "2026-07-22T09:54:18.359+0100",
+        "priority": "Cr\u00edtica",
+        "labels": []
+      },
       {
         "key": "WSC-1618",
         "url": "https://e2x.atlassian.net/browse/WSC-1618",
@@ -278,17 +289,6 @@
           "CSP",
           "NO_QA_REQUIRED"
         ]
-      },
-      {
-        "key": "WSC-1610",
-        "url": "https://e2x.atlassian.net/browse/WSC-1610",
-        "summary": "CHECKOUT - minor amendment for EUR and USD",
-        "status": "Pre-prioritized",
-        "statusCategory": "new",
-        "assignee": "Stuart Young",
-        "updated": "2026-07-21T11:57:33.777+0100",
-        "priority": "Cr\u00edtica",
-        "labels": []
       },
       {
         "key": "WSC-388",
