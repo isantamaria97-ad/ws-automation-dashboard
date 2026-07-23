@@ -1,13 +1,13 @@
 {
-  "lastUpdated": "2026-07-22T21:09:28.363717+00:00",
+  "lastUpdated": "2026-07-23T02:51:03.515376+00:00",
   "jira": {
     "summary": {
       "total": 298,
       "byStatus": {
-        "En curso": 5,
-        "QA Approved": 12,
-        "Tech Review": 16,
+        "Tech Review": 17,
+        "En curso": 4,
         "Finalizada": 229,
+        "QA Approved": 12,
         "IN UAT": 6,
         "Deprecated": 10,
         "Listo": 3,
@@ -19,6 +19,50 @@
       }
     },
     "tickets": [
+      {
+        "key": "WSC-1632",
+        "url": "https://e2x.atlassian.net/browse/WSC-1632",
+        "summary": "CHECKOUT - custom checkout BigCommerce API",
+        "status": "Tech Review",
+        "statusCategory": "indeterminate",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-07-23T02:37:09.825+0100",
+        "priority": "Importante",
+        "labels": []
+      },
+      {
+        "key": "WSC-1522",
+        "url": "https://e2x.atlassian.net/browse/WSC-1522",
+        "summary": "CONTENT - Personalisation",
+        "status": "En curso",
+        "statusCategory": "indeterminate",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-07-23T02:22:09.085+0100",
+        "priority": "Importante",
+        "labels": []
+      },
+      {
+        "key": "WSC-1620",
+        "url": "https://e2x.atlassian.net/browse/WSC-1620",
+        "summary": "Shared Redis caching at the Alokai middleware layer",
+        "status": "Finalizada",
+        "statusCategory": "done",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-07-23T02:20:39.380+0100",
+        "priority": "Not Set",
+        "labels": []
+      },
+      {
+        "key": "WSC-1602",
+        "url": "https://e2x.atlassian.net/browse/WSC-1602",
+        "summary": "[WSSD-642] - VSF - Investigate Apple Pay Express discount loss after dismissed/timed-out payment sheet",
+        "status": "Tech Review",
+        "statusCategory": "indeterminate",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-07-23T00:57:58.457+0100",
+        "priority": "Importante",
+        "labels": []
+      },
       {
         "key": "WSC-1610",
         "url": "https://e2x.atlassian.net/browse/WSC-1610",
@@ -96,17 +140,6 @@
         ]
       },
       {
-        "key": "WSC-1602",
-        "url": "https://e2x.atlassian.net/browse/WSC-1602",
-        "summary": "[WSSD-642] - CHECKOUT - Investigate Apple Pay Express discount loss after dismissed/timed-out payment sheet",
-        "status": "Tech Review",
-        "statusCategory": "indeterminate",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-07-22T19:54:23.776+0100",
-        "priority": "Importante",
-        "labels": []
-      },
-      {
         "key": "WSC-1586",
         "url": "https://e2x.atlassian.net/browse/WSC-1586",
         "summary": "PDP - toggle amends 2",
@@ -118,17 +151,6 @@
         "labels": []
       },
       {
-        "key": "WSC-1620",
-        "url": "https://e2x.atlassian.net/browse/WSC-1620",
-        "summary": "Shared Redis caching at the Alokai middleware layer",
-        "status": "Finalizada",
-        "statusCategory": "done",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-07-22T16:20:10.044+0100",
-        "priority": "Not Set",
-        "labels": []
-      },
-      {
         "key": "WSC-1618",
         "url": "https://e2x.atlassian.net/browse/WSC-1618",
         "summary": "Outbound HTTP connection pooling & keep-alive for middleware API clients",
@@ -137,17 +159,6 @@
         "assignee": "Jair Huaman",
         "updated": "2026-07-22T16:20:05.871+0100",
         "priority": "Not Set",
-        "labels": []
-      },
-      {
-        "key": "WSC-1632",
-        "url": "https://e2x.atlassian.net/browse/WSC-1632",
-        "summary": "CHECKOUT - custom checkout BigCommerce API",
-        "status": "En curso",
-        "statusCategory": "indeterminate",
-        "assignee": "Alexander Talavera",
-        "updated": "2026-07-22T15:09:25.695+0100",
-        "priority": "Importante",
         "labels": []
       },
       {
@@ -351,17 +362,6 @@
           "CSP",
           "NO_QA_REQUIRED"
         ]
-      },
-      {
-        "key": "WSC-1522",
-        "url": "https://e2x.atlassian.net/browse/WSC-1522",
-        "summary": "CONTENT - Personalisation",
-        "status": "En curso",
-        "statusCategory": "indeterminate",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-07-21T13:29:32.562+0100",
-        "priority": "Importante",
-        "labels": []
       },
       {
         "key": "WSC-1482",
