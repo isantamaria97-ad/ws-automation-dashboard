@@ -1,20 +1,19 @@
 {
-  "lastUpdated": "2026-07-23T14:03:16.578298+00:00",
+  "lastUpdated": "2026-07-23T17:23:31.715564+00:00",
   "jira": {
     "summary": {
-      "total": 298,
+      "total": 299,
       "byStatus": {
-        "IN QA": 2,
-        "QA Approved": 13,
+        "Ready for Refinement": 4,
+        "QA Approved": 15,
+        "Ready to QA": 1,
         "En curso": 4,
         "Tech Review": 14,
-        "Ready to QA": 1,
         "Finalizada": 229,
         "IN UAT": 6,
         "Deprecated": 10,
         "Listo": 2,
         "Blocked": 4,
-        "Ready for Refinement": 3,
         "READY FOR RELEASE": 2,
         "Backlog": 5,
         "PENDING DEV DEPLOY": 3
@@ -22,13 +21,24 @@
     },
     "tickets": [
       {
+        "key": "WSC-1629",
+        "url": "https://e2x.atlassian.net/browse/WSC-1629",
+        "summary": "SPIKE - product family for multi-item products (PLP/PDP)",
+        "status": "Ready for Refinement",
+        "statusCategory": "new",
+        "assignee": "Unassigned",
+        "updated": "2026-07-23T18:17:40.558+0100",
+        "priority": "Importante",
+        "labels": []
+      },
+      {
         "key": "WSC-1561",
         "url": "https://e2x.atlassian.net/browse/WSC-1561",
         "summary": "BAG - minor amendments for Apple Pay Express",
-        "status": "IN QA",
+        "status": "QA Approved",
         "statusCategory": "indeterminate",
         "assignee": "Ingrith Santamaria",
-        "updated": "2026-07-23T14:56:17.111+0100",
+        "updated": "2026-07-23T17:20:50.732+0100",
         "priority": "Importante",
         "labels": [
           "Needs-QA",
@@ -36,13 +46,24 @@
         ]
       },
       {
+        "key": "WSC-1392",
+        "url": "https://e2x.atlassian.net/browse/WSC-1392",
+        "summary": "HHG - SEO text block",
+        "status": "Ready to QA",
+        "statusCategory": "new",
+        "assignee": "Gerardo Romero",
+        "updated": "2026-07-23T15:57:29.375+0100",
+        "priority": "Poco importante",
+        "labels": []
+      },
+      {
         "key": "WSC-1563",
         "url": "https://e2x.atlassian.net/browse/WSC-1563",
         "summary": "MINI BAG - minor amend for Apple Pay Express",
-        "status": "IN QA",
+        "status": "QA Approved",
         "statusCategory": "indeterminate",
         "assignee": "Ingrith Santamaria",
-        "updated": "2026-07-23T14:51:18.439+0100",
+        "updated": "2026-07-23T15:33:25.288+0100",
         "priority": "Importante",
         "labels": [
           "Needs-QA"
@@ -85,17 +106,6 @@
         "assignee": "enmanuel.ramirez",
         "updated": "2026-07-23T14:16:58.281+0100",
         "priority": "Cr\u00edtica",
-        "labels": []
-      },
-      {
-        "key": "WSC-1392",
-        "url": "https://e2x.atlassian.net/browse/WSC-1392",
-        "summary": "HHG - SEO text block",
-        "status": "Ready to QA",
-        "statusCategory": "new",
-        "assignee": "Unassigned",
-        "updated": "2026-07-23T13:40:02.597+0100",
-        "priority": "Poco importante",
         "labels": []
       },
       {
