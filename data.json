@@ -1,19 +1,20 @@
 {
-  "lastUpdated": "2026-07-23T17:23:31.715564+00:00",
+  "lastUpdated": "2026-07-23T21:05:52.342141+00:00",
   "jira": {
     "summary": {
-      "total": 299,
+      "total": 308,
       "byStatus": {
-        "Ready for Refinement": 4,
-        "QA Approved": 15,
-        "Ready to QA": 1,
-        "En curso": 4,
+        "En curso": 6,
+        "Listo": 9,
         "Tech Review": 14,
+        "IN QA": 1,
+        "Tareas por hacer": 1,
+        "QA Approved": 15,
         "Finalizada": 229,
         "IN UAT": 6,
         "Deprecated": 10,
-        "Listo": 2,
         "Blocked": 4,
+        "Ready for Refinement": 3,
         "READY FOR RELEASE": 2,
         "Backlog": 5,
         "PENDING DEV DEPLOY": 3
@@ -21,15 +22,154 @@
     },
     "tickets": [
       {
+        "key": "WSC-1634",
+        "url": "https://e2x.atlassian.net/browse/WSC-1634",
+        "summary": "PLP header - new styling",
+        "status": "En curso",
+        "statusCategory": "indeterminate",
+        "assignee": "Chiara Davies",
+        "updated": "2026-07-23T20:41:13.700+0100",
+        "priority": "Importante",
+        "labels": []
+      },
+      {
+        "key": "WSC-1611",
+        "url": "https://e2x.atlassian.net/browse/WSC-1611",
+        "summary": "CONTENT - SlimBanner 'Sale' exclusions",
+        "status": "En curso",
+        "statusCategory": "indeterminate",
+        "assignee": "Jair Huaman",
+        "updated": "2026-07-23T20:20:13.846+0100",
+        "priority": "Poco importante",
+        "labels": []
+      },
+      {
+        "key": "WSC-1616",
+        "url": "https://e2x.atlassian.net/browse/WSC-1616",
+        "summary": "LOCALE SELECTOR - change of name",
+        "status": "Listo",
+        "statusCategory": "new",
+        "assignee": "Unassigned",
+        "updated": "2026-07-23T20:20:06.698+0100",
+        "priority": "Poco importante",
+        "labels": []
+      },
+      {
+        "key": "WSC-1527",
+        "url": "https://e2x.atlassian.net/browse/WSC-1527",
+        "summary": "Apple Pay Express fails at checkout when Free Shipping campaign (Talon.One) is active",
+        "status": "Listo",
+        "statusCategory": "new",
+        "assignee": "Unassigned",
+        "updated": "2026-07-23T18:56:05.583+0100",
+        "priority": "Poco importante",
+        "labels": [
+          "Needs-QA",
+          "apple-pay",
+          "bug",
+          "checkout",
+          "manualQA",
+          "talon-one"
+        ]
+      },
+      {
+        "key": "WSC-1613",
+        "url": "https://e2x.atlassian.net/browse/WSC-1613",
+        "summary": "COLOUR NAME (CHECKOUT) - change source field",
+        "status": "Listo",
+        "statusCategory": "new",
+        "assignee": "Unassigned",
+        "updated": "2026-07-23T18:49:52.874+0100",
+        "priority": "Poco importante",
+        "labels": [
+          "Needs-QA",
+          "manualQA"
+        ]
+      },
+      {
+        "key": "WSC-1612",
+        "url": "https://e2x.atlassian.net/browse/WSC-1612",
+        "summary": "COLOUR NAME (VSF) - change source field",
+        "status": "Listo",
+        "statusCategory": "new",
+        "assignee": "Unassigned",
+        "updated": "2026-07-23T18:48:41.420+0100",
+        "priority": "Poco importante",
+        "labels": [
+          "Needs-QA",
+          "manualQA"
+        ]
+      },
+      {
+        "key": "WSC-173",
+        "url": "https://e2x.atlassian.net/browse/WSC-173",
+        "summary": "SEO - fix to product schema for PDP for reviews and ratings",
+        "status": "Tech Review",
+        "statusCategory": "indeterminate",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-07-23T18:42:48.413+0100",
+        "priority": "Poco importante",
+        "labels": [
+          "Needs-QA"
+        ]
+      },
+      {
+        "key": "WSC-1392",
+        "url": "https://e2x.atlassian.net/browse/WSC-1392",
+        "summary": "HHG - SEO text block",
+        "status": "IN QA",
+        "statusCategory": "indeterminate",
+        "assignee": "Gerardo Romero",
+        "updated": "2026-07-23T18:41:21.309+0100",
+        "priority": "Poco importante",
+        "labels": []
+      },
+      {
         "key": "WSC-1629",
         "url": "https://e2x.atlassian.net/browse/WSC-1629",
         "summary": "SPIKE - product family for multi-item products (PLP/PDP)",
-        "status": "Ready for Refinement",
+        "status": "Tareas por hacer",
         "statusCategory": "new",
         "assignee": "Unassigned",
-        "updated": "2026-07-23T18:17:40.558+0100",
+        "updated": "2026-07-23T18:38:07.983+0100",
         "priority": "Importante",
         "labels": []
+      },
+      {
+        "key": "WSC-1609",
+        "url": "https://e2x.atlassian.net/browse/WSC-1609",
+        "summary": "CONTENT - Product Link Group - amendments",
+        "status": "Listo",
+        "statusCategory": "new",
+        "assignee": "Unassigned",
+        "updated": "2026-07-23T18:35:58.875+0100",
+        "priority": "Poco importante",
+        "labels": []
+      },
+      {
+        "key": "WSC-1633",
+        "url": "https://e2x.atlassian.net/browse/WSC-1633",
+        "summary": "PDP - DESKTOP - CTA group not centred on the page",
+        "status": "Listo",
+        "statusCategory": "new",
+        "assignee": "Chiara Davies",
+        "updated": "2026-07-23T18:28:54.171+0100",
+        "priority": "Poco importante",
+        "labels": []
+      },
+      {
+        "key": "WSC-1614",
+        "url": "https://e2x.atlassian.net/browse/WSC-1614",
+        "summary": "LIVE CHAT - z-index changes",
+        "status": "Listo",
+        "statusCategory": "new",
+        "assignee": "Unassigned",
+        "updated": "2026-07-23T18:26:20.734+0100",
+        "priority": "Importante",
+        "labels": [
+          "Needs-QA",
+          "automatable"
+        ]
       },
       {
         "key": "WSC-1561",
@@ -44,17 +184,6 @@
           "Needs-QA",
           "manualQA"
         ]
-      },
-      {
-        "key": "WSC-1392",
-        "url": "https://e2x.atlassian.net/browse/WSC-1392",
-        "summary": "HHG - SEO text block",
-        "status": "Ready to QA",
-        "statusCategory": "new",
-        "assignee": "Gerardo Romero",
-        "updated": "2026-07-23T15:57:29.375+0100",
-        "priority": "Poco importante",
-        "labels": []
       },
       {
         "key": "WSC-1563",
@@ -856,19 +985,6 @@
         "updated": "2026-07-20T17:41:19.124+0100",
         "priority": "Not Set",
         "labels": []
-      },
-      {
-        "key": "WSC-173",
-        "url": "https://e2x.atlassian.net/browse/WSC-173",
-        "summary": "SEO - fix to product schema for PDP for reviews and ratings",
-        "status": "Tech Review",
-        "statusCategory": "indeterminate",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-07-17T17:55:10.606+0100",
-        "priority": "Poco importante",
-        "labels": [
-          "Needs-QA"
-        ]
       },
       {
         "key": "WSC-1465",
