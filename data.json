@@ -1,16 +1,18 @@
 {
-  "lastUpdated": "2026-07-23T10:24:16.916695+00:00",
+  "lastUpdated": "2026-07-23T14:03:16.578298+00:00",
   "jira": {
     "summary": {
       "total": 298,
       "byStatus": {
-        "Tech Review": 17,
+        "IN QA": 2,
+        "QA Approved": 13,
         "En curso": 4,
+        "Tech Review": 14,
+        "Ready to QA": 1,
         "Finalizada": 229,
-        "QA Approved": 12,
         "IN UAT": 6,
         "Deprecated": 10,
-        "Listo": 3,
+        "Listo": 2,
         "Blocked": 4,
         "Ready for Refinement": 3,
         "READY FOR RELEASE": 2,
@@ -19,6 +21,83 @@
       }
     },
     "tickets": [
+      {
+        "key": "WSC-1561",
+        "url": "https://e2x.atlassian.net/browse/WSC-1561",
+        "summary": "BAG - minor amendments for Apple Pay Express",
+        "status": "IN QA",
+        "statusCategory": "indeterminate",
+        "assignee": "Ingrith Santamaria",
+        "updated": "2026-07-23T14:56:17.111+0100",
+        "priority": "Importante",
+        "labels": [
+          "Needs-QA",
+          "manualQA"
+        ]
+      },
+      {
+        "key": "WSC-1563",
+        "url": "https://e2x.atlassian.net/browse/WSC-1563",
+        "summary": "MINI BAG - minor amend for Apple Pay Express",
+        "status": "IN QA",
+        "statusCategory": "indeterminate",
+        "assignee": "Ingrith Santamaria",
+        "updated": "2026-07-23T14:51:18.439+0100",
+        "priority": "Importante",
+        "labels": [
+          "Needs-QA"
+        ]
+      },
+      {
+        "key": "WSC-1560",
+        "url": "https://e2x.atlassian.net/browse/WSC-1560",
+        "summary": "CHECKOUT IDENTITY PAGE - minor amend for Apple Pay Express",
+        "status": "QA Approved",
+        "statusCategory": "indeterminate",
+        "assignee": "Ingrith Santamaria",
+        "updated": "2026-07-23T14:43:36.518+0100",
+        "priority": "Importante",
+        "labels": [
+          "Needs-QA",
+          "manualQA"
+        ]
+      },
+      {
+        "key": "WSC-1520",
+        "url": "https://e2x.atlassian.net/browse/WSC-1520",
+        "summary": "[Automation] Expand & Standardize Axe Accessibility Test Coverage",
+        "status": "En curso",
+        "statusCategory": "indeterminate",
+        "assignee": "Gerardo Romero",
+        "updated": "2026-07-23T14:36:52.122+0100",
+        "priority": "Poco importante",
+        "labels": [
+          "Needs-QA",
+          "automatable"
+        ]
+      },
+      {
+        "key": "WSC-1610",
+        "url": "https://e2x.atlassian.net/browse/WSC-1610",
+        "summary": "CHECKOUT - minor amendment for EUR and USD",
+        "status": "Tech Review",
+        "statusCategory": "indeterminate",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-07-23T14:16:58.281+0100",
+        "priority": "Cr\u00edtica",
+        "labels": []
+      },
+      {
+        "key": "WSC-1392",
+        "url": "https://e2x.atlassian.net/browse/WSC-1392",
+        "summary": "HHG - SEO text block",
+        "status": "Ready to QA",
+        "statusCategory": "new",
+        "assignee": "Unassigned",
+        "updated": "2026-07-23T13:40:02.597+0100",
+        "priority": "Poco importante",
+        "labels": []
+      },
       {
         "key": "WSC-1632",
         "url": "https://e2x.atlassian.net/browse/WSC-1632",
@@ -64,17 +143,6 @@
         "labels": []
       },
       {
-        "key": "WSC-1610",
-        "url": "https://e2x.atlassian.net/browse/WSC-1610",
-        "summary": "CHECKOUT - minor amendment for EUR and USD",
-        "status": "En curso",
-        "statusCategory": "indeterminate",
-        "assignee": "Jair Huaman",
-        "updated": "2026-07-22T20:04:13.180+0100",
-        "priority": "Cr\u00edtica",
-        "labels": []
-      },
-      {
         "key": "WSC-1574",
         "url": "https://e2x.atlassian.net/browse/WSC-1574",
         "summary": "CHECKOUT - wording amendment for ParcelShop",
@@ -85,58 +153,6 @@
         "priority": "Poco importante",
         "labels": [
           "Needs-QA"
-        ]
-      },
-      {
-        "key": "WSC-1392",
-        "url": "https://e2x.atlassian.net/browse/WSC-1392",
-        "summary": "HHG - SEO text block",
-        "status": "Tech Review",
-        "statusCategory": "indeterminate",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-07-22T19:57:38.563+0100",
-        "priority": "Poco importante",
-        "labels": []
-      },
-      {
-        "key": "WSC-1561",
-        "url": "https://e2x.atlassian.net/browse/WSC-1561",
-        "summary": "BAG - minor amendments for Apple Pay Express",
-        "status": "Tech Review",
-        "statusCategory": "indeterminate",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-07-22T19:57:34.667+0100",
-        "priority": "Importante",
-        "labels": [
-          "Needs-QA",
-          "manualQA"
-        ]
-      },
-      {
-        "key": "WSC-1563",
-        "url": "https://e2x.atlassian.net/browse/WSC-1563",
-        "summary": "MINI BAG - minor amend for Apple Pay Express",
-        "status": "Tech Review",
-        "statusCategory": "indeterminate",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-07-22T19:57:30.221+0100",
-        "priority": "Importante",
-        "labels": [
-          "Needs-QA"
-        ]
-      },
-      {
-        "key": "WSC-1560",
-        "url": "https://e2x.atlassian.net/browse/WSC-1560",
-        "summary": "CHECKOUT IDENTITY PAGE - minor amend for Apple Pay Express",
-        "status": "Tech Review",
-        "statusCategory": "indeterminate",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-07-22T19:57:25.035+0100",
-        "priority": "Importante",
-        "labels": [
-          "Needs-QA",
-          "manualQA"
         ]
       },
       {
@@ -736,20 +752,6 @@
         "priority": "Importante",
         "labels": [
           "NO_QA_REQUIRED"
-        ]
-      },
-      {
-        "key": "WSC-1520",
-        "url": "https://e2x.atlassian.net/browse/WSC-1520",
-        "summary": "[Automation] Expand & Standardize Axe Accessibility Test Coverage",
-        "status": "Listo",
-        "statusCategory": "new",
-        "assignee": "Gerardo Romero",
-        "updated": "2026-07-20T19:06:39.794+0100",
-        "priority": "Poco importante",
-        "labels": [
-          "Needs-QA",
-          "automatable"
         ]
       },
       {
