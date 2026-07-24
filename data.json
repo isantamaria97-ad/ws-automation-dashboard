@@ -1,19 +1,20 @@
 {
-  "lastUpdated": "2026-07-24T10:19:30.472408+00:00",
+  "lastUpdated": "2026-07-24T13:47:28.710628+00:00",
   "jira": {
     "summary": {
       "total": 308,
       "byStatus": {
-        "Listo": 8,
+        "IN QA": 2,
+        "Ready to QA": 1,
+        "Listo": 7,
         "En curso": 7,
-        "Tech Review": 14,
-        "IN QA": 1,
+        "Blocked": 4,
+        "Finalizada": 229,
+        "Tech Review": 13,
         "Tareas por hacer": 1,
         "QA Approved": 15,
-        "Finalizada": 229,
         "IN UAT": 6,
         "Deprecated": 10,
-        "Blocked": 4,
         "Ready for Refinement": 3,
         "READY FOR RELEASE": 2,
         "Backlog": 5,
@@ -22,18 +23,101 @@
     },
     "tickets": [
       {
+        "key": "WSC-1610",
+        "url": "https://e2x.atlassian.net/browse/WSC-1610",
+        "summary": "CHECKOUT - minor amendment for EUR and USD",
+        "status": "IN QA",
+        "statusCategory": "indeterminate",
+        "assignee": "Ingrith Santamaria",
+        "updated": "2026-07-24T14:44:07.199+0100",
+        "priority": "Cr\u00edtica",
+        "labels": []
+      },
+      {
+        "key": "WSC-1611",
+        "url": "https://e2x.atlassian.net/browse/WSC-1611",
+        "summary": "CONTENT - SlimBanner 'Sale' exclusions",
+        "status": "Ready to QA",
+        "statusCategory": "new",
+        "assignee": "Unassigned",
+        "updated": "2026-07-24T14:43:39.091+0100",
+        "priority": "Poco importante",
+        "labels": []
+      },
+      {
+        "key": "WSC-1612",
+        "url": "https://e2x.atlassian.net/browse/WSC-1612",
+        "summary": "COLOUR NAME (VSF) - change source field",
+        "status": "Listo",
+        "statusCategory": "new",
+        "assignee": "Jair Huaman",
+        "updated": "2026-07-24T14:36:20.705+0100",
+        "priority": "Poco importante",
+        "labels": [
+          "Needs-QA",
+          "manualQA"
+        ]
+      },
+      {
+        "key": "WSC-1616",
+        "url": "https://e2x.atlassian.net/browse/WSC-1616",
+        "summary": "LOCALE SELECTOR - change of name",
+        "status": "En curso",
+        "statusCategory": "indeterminate",
+        "assignee": "Jair Huaman",
+        "updated": "2026-07-24T14:26:00.689+0100",
+        "priority": "Poco importante",
+        "labels": []
+      },
+      {
+        "key": "WSC-1480",
+        "url": "https://e2x.atlassian.net/browse/WSC-1480",
+        "summary": "Cloudflare CSP Infrastructure & Reporting Setup",
+        "status": "Blocked",
+        "statusCategory": "new",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-07-24T14:14:06.259+0100",
+        "priority": "Not Set",
+        "labels": [
+          "CSP",
+          "NO_QA_REQUIRED"
+        ]
+      },
+      {
         "key": "WSC-1614",
         "url": "https://e2x.atlassian.net/browse/WSC-1614",
         "summary": "LIVE CHAT - z-index changes",
         "status": "Listo",
         "statusCategory": "new",
         "assignee": "Alexander Talavera",
-        "updated": "2026-07-23T23:13:37.461+0100",
+        "updated": "2026-07-24T14:01:28.880+0100",
         "priority": "Importante",
         "labels": [
           "Needs-QA",
           "automatable"
         ]
+      },
+      {
+        "key": "WSC-1620",
+        "url": "https://e2x.atlassian.net/browse/WSC-1620",
+        "summary": "Shared Redis caching at the Alokai middleware layer",
+        "status": "Finalizada",
+        "statusCategory": "done",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-07-24T13:56:03.546+0100",
+        "priority": "Not Set",
+        "labels": []
+      },
+      {
+        "key": "WSC-1522",
+        "url": "https://e2x.atlassian.net/browse/WSC-1522",
+        "summary": "CONTENT - Personalisation",
+        "status": "En curso",
+        "statusCategory": "indeterminate",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-07-24T13:54:46.770+0100",
+        "priority": "Importante",
+        "labels": []
       },
       {
         "key": "WSC-1609",
@@ -55,28 +139,6 @@
         "assignee": "Chiara Davies",
         "updated": "2026-07-23T20:41:13.700+0100",
         "priority": "Importante",
-        "labels": []
-      },
-      {
-        "key": "WSC-1611",
-        "url": "https://e2x.atlassian.net/browse/WSC-1611",
-        "summary": "CONTENT - SlimBanner 'Sale' exclusions",
-        "status": "En curso",
-        "statusCategory": "indeterminate",
-        "assignee": "Jair Huaman",
-        "updated": "2026-07-23T20:20:13.846+0100",
-        "priority": "Poco importante",
-        "labels": []
-      },
-      {
-        "key": "WSC-1616",
-        "url": "https://e2x.atlassian.net/browse/WSC-1616",
-        "summary": "LOCALE SELECTOR - change of name",
-        "status": "Listo",
-        "statusCategory": "new",
-        "assignee": "Unassigned",
-        "updated": "2026-07-23T20:20:06.698+0100",
-        "priority": "Poco importante",
         "labels": []
       },
       {
@@ -105,20 +167,6 @@
         "statusCategory": "new",
         "assignee": "Unassigned",
         "updated": "2026-07-23T18:49:52.874+0100",
-        "priority": "Poco importante",
-        "labels": [
-          "Needs-QA",
-          "manualQA"
-        ]
-      },
-      {
-        "key": "WSC-1612",
-        "url": "https://e2x.atlassian.net/browse/WSC-1612",
-        "summary": "COLOUR NAME (VSF) - change source field",
-        "status": "Listo",
-        "statusCategory": "new",
-        "assignee": "Unassigned",
-        "updated": "2026-07-23T18:48:41.420+0100",
         "priority": "Poco importante",
         "labels": [
           "Needs-QA",
@@ -227,17 +275,6 @@
         ]
       },
       {
-        "key": "WSC-1610",
-        "url": "https://e2x.atlassian.net/browse/WSC-1610",
-        "summary": "CHECKOUT - minor amendment for EUR and USD",
-        "status": "Tech Review",
-        "statusCategory": "indeterminate",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-07-23T14:16:58.281+0100",
-        "priority": "Cr\u00edtica",
-        "labels": []
-      },
-      {
         "key": "WSC-1632",
         "url": "https://e2x.atlassian.net/browse/WSC-1632",
         "summary": "CHECKOUT - custom checkout BigCommerce API",
@@ -246,28 +283,6 @@
         "assignee": "enmanuel.ramirez",
         "updated": "2026-07-23T02:37:09.825+0100",
         "priority": "Importante",
-        "labels": []
-      },
-      {
-        "key": "WSC-1522",
-        "url": "https://e2x.atlassian.net/browse/WSC-1522",
-        "summary": "CONTENT - Personalisation",
-        "status": "En curso",
-        "statusCategory": "indeterminate",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-07-23T02:22:09.085+0100",
-        "priority": "Importante",
-        "labels": []
-      },
-      {
-        "key": "WSC-1620",
-        "url": "https://e2x.atlassian.net/browse/WSC-1620",
-        "summary": "Shared Redis caching at the Alokai middleware layer",
-        "status": "Finalizada",
-        "statusCategory": "done",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-07-23T02:20:39.380+0100",
-        "priority": "Not Set",
         "labels": []
       },
       {
@@ -502,20 +517,6 @@
         "priority": "Not Set",
         "labels": [
           "CSP"
-        ]
-      },
-      {
-        "key": "WSC-1480",
-        "url": "https://e2x.atlassian.net/browse/WSC-1480",
-        "summary": "Cloudflare CSP Infrastructure & Reporting Setup",
-        "status": "Blocked",
-        "statusCategory": "new",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-07-21T13:30:09.787+0100",
-        "priority": "Not Set",
-        "labels": [
-          "CSP",
-          "NO_QA_REQUIRED"
         ]
       },
       {
