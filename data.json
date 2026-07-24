@@ -1,9 +1,10 @@
 {
-  "lastUpdated": "2026-07-24T17:38:44.895729+00:00",
+  "lastUpdated": "2026-07-24T21:05:05.411360+00:00",
   "jira": {
     "summary": {
-      "total": 310,
+      "total": 311,
       "byStatus": {
+        "Ready for Refinement": 4,
         "Ready to QA": 3,
         "En curso": 8,
         "Blocked": 4,
@@ -15,13 +16,26 @@
         "Tareas por hacer": 1,
         "IN UAT": 6,
         "Deprecated": 10,
-        "Ready for Refinement": 3,
         "READY FOR RELEASE": 2,
         "Backlog": 5,
         "PENDING DEV DEPLOY": 3
       }
     },
     "tickets": [
+      {
+        "key": "WSC-1510",
+        "url": "https://e2x.atlassian.net/browse/WSC-1510",
+        "summary": "[WSSD-609] - Duplicate payment in Adyen",
+        "status": "Ready for Refinement",
+        "statusCategory": "new",
+        "assignee": "Unassigned",
+        "updated": "2026-07-24T20:09:41.112+0100",
+        "priority": "Poco importante",
+        "labels": [
+          "FastFollow",
+          "Needs-QA"
+        ]
+      },
       {
         "key": "WSC-1609",
         "url": "https://e2x.atlassian.net/browse/WSC-1609",
