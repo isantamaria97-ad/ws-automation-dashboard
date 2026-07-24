@@ -1,11 +1,11 @@
 {
-  "lastUpdated": "2026-07-23T21:05:52.342141+00:00",
+  "lastUpdated": "2026-07-24T02:45:58.647943+00:00",
   "jira": {
     "summary": {
       "total": 308,
       "byStatus": {
-        "En curso": 6,
-        "Listo": 9,
+        "Listo": 8,
+        "En curso": 7,
         "Tech Review": 14,
         "IN QA": 1,
         "Tareas por hacer": 1,
@@ -21,6 +21,31 @@
       }
     },
     "tickets": [
+      {
+        "key": "WSC-1614",
+        "url": "https://e2x.atlassian.net/browse/WSC-1614",
+        "summary": "LIVE CHAT - z-index changes",
+        "status": "Listo",
+        "statusCategory": "new",
+        "assignee": "Alexander Talavera",
+        "updated": "2026-07-23T23:13:37.461+0100",
+        "priority": "Importante",
+        "labels": [
+          "Needs-QA",
+          "automatable"
+        ]
+      },
+      {
+        "key": "WSC-1609",
+        "url": "https://e2x.atlassian.net/browse/WSC-1609",
+        "summary": "CONTENT - Product Link Group - amendments",
+        "status": "En curso",
+        "statusCategory": "indeterminate",
+        "assignee": "Alexander Talavera",
+        "updated": "2026-07-23T23:13:14.352+0100",
+        "priority": "Poco importante",
+        "labels": []
+      },
       {
         "key": "WSC-1634",
         "url": "https://e2x.atlassian.net/browse/WSC-1634",
@@ -136,17 +161,6 @@
         "labels": []
       },
       {
-        "key": "WSC-1609",
-        "url": "https://e2x.atlassian.net/browse/WSC-1609",
-        "summary": "CONTENT - Product Link Group - amendments",
-        "status": "Listo",
-        "statusCategory": "new",
-        "assignee": "Unassigned",
-        "updated": "2026-07-23T18:35:58.875+0100",
-        "priority": "Poco importante",
-        "labels": []
-      },
-      {
         "key": "WSC-1633",
         "url": "https://e2x.atlassian.net/browse/WSC-1633",
         "summary": "PDP - DESKTOP - CTA group not centred on the page",
@@ -156,20 +170,6 @@
         "updated": "2026-07-23T18:28:54.171+0100",
         "priority": "Poco importante",
         "labels": []
-      },
-      {
-        "key": "WSC-1614",
-        "url": "https://e2x.atlassian.net/browse/WSC-1614",
-        "summary": "LIVE CHAT - z-index changes",
-        "status": "Listo",
-        "statusCategory": "new",
-        "assignee": "Unassigned",
-        "updated": "2026-07-23T18:26:20.734+0100",
-        "priority": "Importante",
-        "labels": [
-          "Needs-QA",
-          "automatable"
-        ]
       },
       {
         "key": "WSC-1561",
