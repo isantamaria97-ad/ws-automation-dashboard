@@ -1,21 +1,21 @@
 {
-  "lastUpdated": "2026-07-27T11:23:58.885943+00:00",
+  "lastUpdated": "2026-07-27T14:37:20.679522+00:00",
   "jira": {
     "summary": {
       "total": 311,
       "byStatus": {
-        "Listo": 6,
-        "Ready for Refinement": 4,
+        "IN QA": 2,
+        "QA Approved": 17,
+        "En curso": 9,
         "Ready to QA": 3,
-        "En curso": 8,
-        "Blocked": 4,
-        "QA Approved": 16,
-        "Finalizada": 229,
+        "Finalizada": 230,
+        "Deprecated": 11,
+        "Ready for Refinement": 3,
+        "Listo": 4,
         "Tech Review": 13,
-        "IN QA": 1,
         "Tareas por hacer": 1,
-        "IN UAT": 6,
-        "Deprecated": 10,
+        "IN UAT": 5,
+        "Blocked": 3,
         "READY FOR RELEASE": 2,
         "Backlog": 5,
         "PENDING DEV DEPLOY": 3
@@ -23,14 +23,153 @@
     },
     "tickets": [
       {
+        "key": "WSC-1633",
+        "url": "https://e2x.atlassian.net/browse/WSC-1633",
+        "summary": "PDP - DESKTOP - CTA group not centred on the page",
+        "status": "IN QA",
+        "statusCategory": "indeterminate",
+        "assignee": "Ingrith Santamaria",
+        "updated": "2026-07-27T15:32:39.805+0100",
+        "priority": "Poco importante",
+        "labels": []
+      },
+      {
+        "key": "WSC-1611",
+        "url": "https://e2x.atlassian.net/browse/WSC-1611",
+        "summary": "CONTENT - SlimBanner 'Sale' exclusions",
+        "status": "QA Approved",
+        "statusCategory": "indeterminate",
+        "assignee": "Ingrith Santamaria",
+        "updated": "2026-07-27T15:19:40.985+0100",
+        "priority": "Poco importante",
+        "labels": []
+      },
+      {
         "key": "WSC-1638",
         "url": "https://e2x.atlassian.net/browse/WSC-1638",
         "summary": "APPLE PAY EXPRESS - CTA font size",
-        "status": "Listo",
-        "statusCategory": "new",
+        "status": "En curso",
+        "statusCategory": "indeterminate",
         "assignee": "Alexander Talavera",
-        "updated": "2026-07-27T09:36:11.438+0100",
+        "updated": "2026-07-27T15:12:37.125+0100",
         "priority": "Importante",
+        "labels": []
+      },
+      {
+        "key": "WSC-1639",
+        "url": "https://e2x.atlassian.net/browse/WSC-1639",
+        "summary": "PDP - remove promo copy above product name",
+        "status": "En curso",
+        "statusCategory": "indeterminate",
+        "assignee": "Chiara Davies",
+        "updated": "2026-07-27T15:09:40.352+0100",
+        "priority": "Importante",
+        "labels": [
+          "FastFollow"
+        ]
+      },
+      {
+        "key": "WSC-1481",
+        "url": "https://e2x.atlassian.net/browse/WSC-1481",
+        "summary": "Initial CSP Report-Only Rollout",
+        "status": "En curso",
+        "statusCategory": "indeterminate",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-07-27T15:07:40.146+0100",
+        "priority": "Not Set",
+        "labels": [
+          "CSP"
+        ]
+      },
+      {
+        "key": "WSC-1480",
+        "url": "https://e2x.atlassian.net/browse/WSC-1480",
+        "summary": "Cloudflare CSP Infrastructure & Reporting Setup",
+        "status": "En curso",
+        "statusCategory": "indeterminate",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-07-27T15:07:28.469+0100",
+        "priority": "Not Set",
+        "labels": [
+          "CSP",
+          "NO_QA_REQUIRED"
+        ]
+      },
+      {
+        "key": "WSC-1522",
+        "url": "https://e2x.atlassian.net/browse/WSC-1522",
+        "summary": "CONTENT - Personalisation",
+        "status": "En curso",
+        "statusCategory": "indeterminate",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-07-27T15:05:16.762+0100",
+        "priority": "Importante",
+        "labels": []
+      },
+      {
+        "key": "WSC-1609",
+        "url": "https://e2x.atlassian.net/browse/WSC-1609",
+        "summary": "CONTENT - Product Link Group - amendments",
+        "status": "Ready to QA",
+        "statusCategory": "new",
+        "assignee": "Gerardo Romero",
+        "updated": "2026-07-27T14:42:44.434+0100",
+        "priority": "Poco importante",
+        "labels": []
+      },
+      {
+        "key": "WSC-1616",
+        "url": "https://e2x.atlassian.net/browse/WSC-1616",
+        "summary": "LOCALE SELECTOR - change of name",
+        "status": "Ready to QA",
+        "statusCategory": "new",
+        "assignee": "Ingrith Santamaria",
+        "updated": "2026-07-27T14:42:18.715+0100",
+        "priority": "Poco importante",
+        "labels": []
+      },
+      {
+        "key": "WSC-1634",
+        "url": "https://e2x.atlassian.net/browse/WSC-1634",
+        "summary": "PLP header - new styling",
+        "status": "Ready to QA",
+        "statusCategory": "new",
+        "assignee": "Gerardo Romero",
+        "updated": "2026-07-27T14:41:40.155+0100",
+        "priority": "Importante",
+        "labels": []
+      },
+      {
+        "key": "WSC-1530",
+        "url": "https://e2x.atlassian.net/browse/WSC-1530",
+        "summary": "SPIKE: CONTENTSQUARE (CSQ) - unmasking JS script errors",
+        "status": "Finalizada",
+        "statusCategory": "done",
+        "assignee": "Stuart Young",
+        "updated": "2026-07-27T14:13:33.156+0100",
+        "priority": "Importante",
+        "labels": []
+      },
+      {
+        "key": "WSC-80",
+        "url": "https://e2x.atlassian.net/browse/WSC-80",
+        "summary": "PLP/SEARCH RESULTS - add a 'back to top' button",
+        "status": "Deprecated",
+        "statusCategory": "done",
+        "assignee": "Unassigned",
+        "updated": "2026-07-27T13:37:08.213+0100",
+        "priority": "Poco importante",
+        "labels": []
+      },
+      {
+        "key": "WSC-388",
+        "url": "https://e2x.atlassian.net/browse/WSC-388",
+        "summary": "HEADER - quantity overlaps bag icon when more than 1 digit",
+        "status": "Ready for Refinement",
+        "statusCategory": "new",
+        "assignee": "Unassigned",
+        "updated": "2026-07-27T13:09:05.303+0100",
+        "priority": "Trivial",
         "labels": []
       },
       {
@@ -48,17 +187,6 @@
         ]
       },
       {
-        "key": "WSC-1609",
-        "url": "https://e2x.atlassian.net/browse/WSC-1609",
-        "summary": "CONTENT - Product Link Group - amendments",
-        "status": "Ready to QA",
-        "statusCategory": "new",
-        "assignee": "Unassigned",
-        "updated": "2026-07-24T18:15:21.752+0100",
-        "priority": "Poco importante",
-        "labels": []
-      },
-      {
         "key": "WSC-1614",
         "url": "https://e2x.atlassian.net/browse/WSC-1614",
         "summary": "LIVE CHAT - z-index changes",
@@ -73,31 +201,6 @@
         ]
       },
       {
-        "key": "WSC-1480",
-        "url": "https://e2x.atlassian.net/browse/WSC-1480",
-        "summary": "Cloudflare CSP Infrastructure & Reporting Setup",
-        "status": "Blocked",
-        "statusCategory": "new",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-07-24T17:02:27.246+0100",
-        "priority": "Not Set",
-        "labels": [
-          "CSP",
-          "NO_QA_REQUIRED"
-        ]
-      },
-      {
-        "key": "WSC-1611",
-        "url": "https://e2x.atlassian.net/browse/WSC-1611",
-        "summary": "CONTENT - SlimBanner 'Sale' exclusions",
-        "status": "Ready to QA",
-        "statusCategory": "new",
-        "assignee": "Ingrith Santamaria",
-        "updated": "2026-07-24T17:01:22.476+0100",
-        "priority": "Poco importante",
-        "labels": []
-      },
-      {
         "key": "WSC-1612",
         "url": "https://e2x.atlassian.net/browse/WSC-1612",
         "summary": "COLOUR NAME (VSF) - change source field",
@@ -110,17 +213,6 @@
           "Needs-QA",
           "manualQA"
         ]
-      },
-      {
-        "key": "WSC-1616",
-        "url": "https://e2x.atlassian.net/browse/WSC-1616",
-        "summary": "LOCALE SELECTOR - change of name",
-        "status": "Ready to QA",
-        "statusCategory": "new",
-        "assignee": "Unassigned",
-        "updated": "2026-07-24T16:24:01.441+0100",
-        "priority": "Poco importante",
-        "labels": []
       },
       {
         "key": "WSC-1610",
@@ -175,41 +267,6 @@
         ]
       },
       {
-        "key": "WSC-1639",
-        "url": "https://e2x.atlassian.net/browse/WSC-1639",
-        "summary": "PDP - remove promo copy above product name",
-        "status": "Listo",
-        "statusCategory": "new",
-        "assignee": "Chiara Davies",
-        "updated": "2026-07-24T15:23:08.239+0100",
-        "priority": "Importante",
-        "labels": [
-          "FastFollow"
-        ]
-      },
-      {
-        "key": "WSC-1634",
-        "url": "https://e2x.atlassian.net/browse/WSC-1634",
-        "summary": "PLP header - new styling",
-        "status": "En curso",
-        "statusCategory": "indeterminate",
-        "assignee": "Chiara Davies",
-        "updated": "2026-07-24T15:07:57.458+0100",
-        "priority": "Importante",
-        "labels": []
-      },
-      {
-        "key": "WSC-1633",
-        "url": "https://e2x.atlassian.net/browse/WSC-1633",
-        "summary": "PDP - DESKTOP - CTA group not centred on the page",
-        "status": "En curso",
-        "statusCategory": "indeterminate",
-        "assignee": "Chiara Davies",
-        "updated": "2026-07-24T15:07:19.886+0100",
-        "priority": "Poco importante",
-        "labels": []
-      },
-      {
         "key": "WSC-1484",
         "url": "https://e2x.atlassian.net/browse/WSC-1484",
         "summary": "CSP Enforcement Rollout & Hardening",
@@ -232,17 +289,6 @@
         "assignee": "enmanuel.ramirez",
         "updated": "2026-07-24T13:56:03.546+0100",
         "priority": "Not Set",
-        "labels": []
-      },
-      {
-        "key": "WSC-1522",
-        "url": "https://e2x.atlassian.net/browse/WSC-1522",
-        "summary": "CONTENT - Personalisation",
-        "status": "En curso",
-        "statusCategory": "indeterminate",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-07-24T13:54:46.770+0100",
-        "priority": "Importante",
         "labels": []
       },
       {
@@ -545,19 +591,6 @@
         ]
       },
       {
-        "key": "WSC-1481",
-        "url": "https://e2x.atlassian.net/browse/WSC-1481",
-        "summary": "Initial CSP Report-Only Rollout",
-        "status": "En curso",
-        "statusCategory": "indeterminate",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-07-21T13:30:14.881+0100",
-        "priority": "Not Set",
-        "labels": [
-          "CSP"
-        ]
-      },
-      {
         "key": "WSC-1482",
         "url": "https://e2x.atlassian.net/browse/WSC-1482",
         "summary": "CSP Analysis & Policy Refinement",
@@ -569,31 +602,6 @@
         "labels": [
           "CSP",
           "NO_QA_REQUIRED"
-        ]
-      },
-      {
-        "key": "WSC-388",
-        "url": "https://e2x.atlassian.net/browse/WSC-388",
-        "summary": "HEADER - quantity overlaps bag icon when more than 1 digit",
-        "status": "Ready for Refinement",
-        "statusCategory": "new",
-        "assignee": "Stuart Young",
-        "updated": "2026-07-21T11:56:31.020+0100",
-        "priority": "Trivial",
-        "labels": []
-      },
-      {
-        "key": "WSC-80",
-        "url": "https://e2x.atlassian.net/browse/WSC-80",
-        "summary": "PLP/SEARCH RESULTS - add a 'back to top' button",
-        "status": "Ready for Refinement",
-        "statusCategory": "new",
-        "assignee": "Stuart Young",
-        "updated": "2026-07-21T11:55:18.527+0100",
-        "priority": "Poco importante",
-        "labels": [
-          "Needs-QA",
-          "automatable"
         ]
       },
       {
@@ -1302,17 +1310,6 @@
         "labels": [
           "NO_QA_REQUIRED"
         ]
-      },
-      {
-        "key": "WSC-1530",
-        "url": "https://e2x.atlassian.net/browse/WSC-1530",
-        "summary": "SPIKE: CONTENTSQUARE (CSQ) - unmasking JS script errors",
-        "status": "IN UAT",
-        "statusCategory": "indeterminate",
-        "assignee": "Stuart Young",
-        "updated": "2026-07-01T15:11:36.884+0100",
-        "priority": "Importante",
-        "labels": []
       },
       {
         "key": "WSC-1578",
