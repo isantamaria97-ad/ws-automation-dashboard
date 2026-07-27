@@ -1,15 +1,15 @@
 {
-  "lastUpdated": "2026-07-27T07:33:33.219333+00:00",
+  "lastUpdated": "2026-07-27T11:23:58.885943+00:00",
   "jira": {
     "summary": {
       "total": 311,
       "byStatus": {
+        "Listo": 6,
         "Ready for Refinement": 4,
         "Ready to QA": 3,
         "En curso": 8,
         "Blocked": 4,
         "QA Approved": 16,
-        "Listo": 6,
         "Finalizada": 229,
         "Tech Review": 13,
         "IN QA": 1,
@@ -22,6 +22,17 @@
       }
     },
     "tickets": [
+      {
+        "key": "WSC-1638",
+        "url": "https://e2x.atlassian.net/browse/WSC-1638",
+        "summary": "APPLE PAY EXPRESS - CTA font size",
+        "status": "Listo",
+        "statusCategory": "new",
+        "assignee": "Alexander Talavera",
+        "updated": "2026-07-27T09:36:11.438+0100",
+        "priority": "Importante",
+        "labels": []
+      },
       {
         "key": "WSC-1510",
         "url": "https://e2x.atlassian.net/browse/WSC-1510",
@@ -162,17 +173,6 @@
         "labels": [
           "Needs-QA"
         ]
-      },
-      {
-        "key": "WSC-1638",
-        "url": "https://e2x.atlassian.net/browse/WSC-1638",
-        "summary": "APPLE PAY EXPRESS - CTA font size",
-        "status": "Listo",
-        "statusCategory": "new",
-        "assignee": "Alexander Talavera",
-        "updated": "2026-07-24T15:24:27.848+0100",
-        "priority": "Importante",
-        "labels": []
       },
       {
         "key": "WSC-1639",
