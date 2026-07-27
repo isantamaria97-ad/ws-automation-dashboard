@@ -1,13 +1,12 @@
 {
-  "lastUpdated": "2026-07-27T17:43:13.651757+00:00",
+  "lastUpdated": "2026-07-27T21:11:30.467922+00:00",
   "jira": {
     "summary": {
       "total": 311,
       "byStatus": {
+        "En curso": 7,
         "Ready to QA": 3,
-        "RETURNED BY QA": 1,
         "IN QA": 1,
-        "En curso": 6,
         "QA Approved": 19,
         "Tech Review": 14,
         "Listo": 4,
@@ -24,6 +23,44 @@
     },
     "tickets": [
       {
+        "key": "WSC-1580",
+        "url": "https://e2x.atlassian.net/browse/WSC-1580",
+        "summary": "SITESPECT - deploy to Production",
+        "status": "En curso",
+        "statusCategory": "indeterminate",
+        "assignee": "Jair Huaman",
+        "updated": "2026-07-27T21:09:04.168+0100",
+        "priority": "Importante",
+        "labels": [
+          "NO_QA_REQUIRED"
+        ]
+      },
+      {
+        "key": "WSC-1612",
+        "url": "https://e2x.atlassian.net/browse/WSC-1612",
+        "summary": "COLOUR NAME (VSF) - change source field",
+        "status": "En curso",
+        "statusCategory": "indeterminate",
+        "assignee": "Jair Huaman",
+        "updated": "2026-07-27T21:08:36.576+0100",
+        "priority": "Poco importante",
+        "labels": [
+          "Needs-QA",
+          "manualQA"
+        ]
+      },
+      {
+        "key": "WSC-1392",
+        "url": "https://e2x.atlassian.net/browse/WSC-1392",
+        "summary": "HHG - SEO text block",
+        "status": "En curso",
+        "statusCategory": "indeterminate",
+        "assignee": "Alexander Talavera",
+        "updated": "2026-07-27T19:31:55.217+0100",
+        "priority": "Poco importante",
+        "labels": []
+      },
+      {
         "key": "WSC-1638",
         "url": "https://e2x.atlassian.net/browse/WSC-1638",
         "summary": "APPLE PAY EXPRESS - CTA font size",
@@ -32,17 +69,6 @@
         "assignee": "Ingrith Santamaria",
         "updated": "2026-07-27T18:17:36.590+0100",
         "priority": "Importante",
-        "labels": []
-      },
-      {
-        "key": "WSC-1392",
-        "url": "https://e2x.atlassian.net/browse/WSC-1392",
-        "summary": "HHG - SEO text block",
-        "status": "RETURNED BY QA",
-        "statusCategory": "indeterminate",
-        "assignee": "Gerardo Romero",
-        "updated": "2026-07-27T18:12:26.783+0100",
-        "priority": "Poco importante",
         "labels": []
       },
       {
@@ -224,20 +250,6 @@
         "labels": [
           "Needs-QA",
           "automatable"
-        ]
-      },
-      {
-        "key": "WSC-1612",
-        "url": "https://e2x.atlassian.net/browse/WSC-1612",
-        "summary": "COLOUR NAME (VSF) - change source field",
-        "status": "En curso",
-        "statusCategory": "indeterminate",
-        "assignee": "Jair Huaman",
-        "updated": "2026-07-24T16:52:38.326+0100",
-        "priority": "Poco importante",
-        "labels": [
-          "Needs-QA",
-          "manualQA"
         ]
       },
       {
@@ -1109,19 +1121,6 @@
         "priority": "Importante",
         "labels": [
           "Needs-QA"
-        ]
-      },
-      {
-        "key": "WSC-1580",
-        "url": "https://e2x.atlassian.net/browse/WSC-1580",
-        "summary": "SITESPECT - deploy to Production",
-        "status": "En curso",
-        "statusCategory": "indeterminate",
-        "assignee": "Jair Huaman",
-        "updated": "2026-07-13T17:42:32.968+0100",
-        "priority": "Importante",
-        "labels": [
-          "NO_QA_REQUIRED"
         ]
       },
       {
