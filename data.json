@@ -1,24 +1,221 @@
 {
-  "lastUpdated": "2026-07-28T17:35:51.637698+00:00",
+  "lastUpdated": "2026-07-28T21:09:47.330316+00:00",
   "jira": {
     "summary": {
-      "total": 311,
+      "total": 323,
       "byStatus": {
-        "QA Approved": 12,
-        "Tech Review": 15,
-        "Blocked": 3,
-        "En curso": 5,
-        "READY FOR RELEASE": 2,
+        "Listo": 11,
+        "En curso": 6,
+        "Backlog": 7,
+        "QA Approved": 13,
+        "Blocked": 4,
         "Finalizada": 248,
-        "Listo": 3,
+        "Tech Review": 14,
+        "READY FOR RELEASE": 2,
         "Deprecated": 11,
         "Ready for Refinement": 3,
         "Tareas por hacer": 1,
-        "Backlog": 5,
         "PENDING DEV DEPLOY": 3
       }
     },
     "tickets": [
+      {
+        "key": "WSC-1648",
+        "url": "https://e2x.atlassian.net/browse/WSC-1648",
+        "summary": "[WSSD-666] outcome - User cannot switch to USA & Canada / RoW in 2 PLPs",
+        "status": "Listo",
+        "statusCategory": "new",
+        "assignee": "Alexander Talavera",
+        "updated": "2026-07-28T20:15:52.062+0100",
+        "priority": "Poco importante",
+        "labels": [
+          "Needs-QA",
+          "automatable"
+        ]
+      },
+      {
+        "key": "WSC-1522",
+        "url": "https://e2x.atlassian.net/browse/WSC-1522",
+        "summary": "CONTENT - Personalisation",
+        "status": "En curso",
+        "statusCategory": "indeterminate",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-07-28T19:54:56.036+0100",
+        "priority": "Importante",
+        "labels": []
+      },
+      {
+        "key": "WSC-1643",
+        "url": "https://e2x.atlassian.net/browse/WSC-1643",
+        "summary": "Unmasking JS errors - vendor outreach",
+        "status": "Listo",
+        "statusCategory": "new",
+        "assignee": "Unassigned",
+        "updated": "2026-07-28T19:54:30.635+0100",
+        "priority": "Importante",
+        "labels": [
+          "NO_QA_REQUIRED"
+        ]
+      },
+      {
+        "key": "WSC-1650",
+        "url": "https://e2x.atlassian.net/browse/WSC-1650",
+        "summary": "Google Maps API loaded globally on all pages instead of only where needed",
+        "status": "Listo",
+        "statusCategory": "new",
+        "assignee": "Unassigned",
+        "updated": "2026-07-28T19:52:49.464+0100",
+        "priority": "Importante",
+        "labels": [
+          "Needs-QA"
+        ]
+      },
+      {
+        "key": "WSC-1649",
+        "url": "https://e2x.atlassian.net/browse/WSC-1649",
+        "summary": "PDP - spacing issue",
+        "status": "Listo",
+        "statusCategory": "new",
+        "assignee": "Unassigned",
+        "updated": "2026-07-28T19:52:29.870+0100",
+        "priority": "Poco importante",
+        "labels": [
+          "Needs-QA",
+          "manualQA"
+        ]
+      },
+      {
+        "key": "WSC-1642",
+        "url": "https://e2x.atlassian.net/browse/WSC-1642",
+        "summary": "Unmasking JS errors - Infrastructure (Cloudflare)",
+        "status": "Listo",
+        "statusCategory": "new",
+        "assignee": "Unassigned",
+        "updated": "2026-07-28T19:51:45.061+0100",
+        "priority": "Importante",
+        "labels": [
+          "NO_QA_REQUIRED"
+        ]
+      },
+      {
+        "key": "WSC-1641",
+        "url": "https://e2x.atlassian.net/browse/WSC-1641",
+        "summary": "Unmasking JS errors - Checkout",
+        "status": "Listo",
+        "statusCategory": "new",
+        "assignee": "Unassigned",
+        "updated": "2026-07-28T19:51:39.648+0100",
+        "priority": "Importante",
+        "labels": [
+          "NO_QA_REQUIRED"
+        ]
+      },
+      {
+        "key": "WSC-1419",
+        "url": "https://e2x.atlassian.net/browse/WSC-1419",
+        "summary": "Shipping registered user  info gets saved when switching between locales from to guest user",
+        "status": "Backlog",
+        "statusCategory": "new",
+        "assignee": "Unassigned",
+        "updated": "2026-07-28T19:27:52.871+0100",
+        "priority": "Not Set",
+        "labels": [
+          "Needs-QA"
+        ]
+      },
+      {
+        "key": "WSC-1634",
+        "url": "https://e2x.atlassian.net/browse/WSC-1634",
+        "summary": "PLP header - new styling",
+        "status": "QA Approved",
+        "statusCategory": "indeterminate",
+        "assignee": "Gerardo Romero",
+        "updated": "2026-07-28T19:21:26.507+0100",
+        "priority": "Importante",
+        "labels": []
+      },
+      {
+        "key": "WSC-1534",
+        "url": "https://e2x.atlassian.net/browse/WSC-1534",
+        "summary": "Investigate 403 Forbidden errors originating from Azure blocking Playwright tests in UAT",
+        "status": "En curso",
+        "statusCategory": "indeterminate",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-07-28T19:21:04.125+0100",
+        "priority": "Not Set",
+        "labels": []
+      },
+      {
+        "key": "WSC-1504",
+        "url": "https://e2x.atlassian.net/browse/WSC-1504",
+        "summary": "ACCOUNT CREATION - post purchase sign up bug",
+        "status": "Blocked",
+        "statusCategory": "new",
+        "assignee": "Stuart Young",
+        "updated": "2026-07-28T19:18:58.559+0100",
+        "priority": "Importante",
+        "labels": []
+      },
+      {
+        "key": "WSC-1533",
+        "url": "https://e2x.atlassian.net/browse/WSC-1533",
+        "summary": "[UAT] Apple Pay payment fails when ordering specific products with multiple active campaigns",
+        "status": "Backlog",
+        "statusCategory": "new",
+        "assignee": "Alexander Talavera",
+        "updated": "2026-07-28T19:14:45.343+0100",
+        "priority": "Not Set",
+        "labels": [
+          "Needs-QA",
+          "manualQA"
+        ]
+      },
+      {
+        "key": "WSC-1625",
+        "url": "https://e2x.atlassian.net/browse/WSC-1625",
+        "summary": "SLIM BANNER - further amendments",
+        "status": "Finalizada",
+        "statusCategory": "done",
+        "assignee": "Gerardo Romero",
+        "updated": "2026-07-28T19:02:34.976+0100",
+        "priority": "Poco importante",
+        "labels": []
+      },
+      {
+        "key": "WSC-1640",
+        "url": "https://e2x.atlassian.net/browse/WSC-1640",
+        "summary": "Unmasking JS errors - VSF",
+        "status": "Listo",
+        "statusCategory": "new",
+        "assignee": "Unassigned",
+        "updated": "2026-07-28T19:01:36.401+0100",
+        "priority": "Importante",
+        "labels": [
+          "NO_QA_REQUIRED"
+        ]
+      },
+      {
+        "key": "WSC-1615",
+        "url": "https://e2x.atlassian.net/browse/WSC-1615",
+        "summary": "Configure Cloudflare native alerts (DDoS, 5xx rate, traffic anomaly)",
+        "status": "Finalizada",
+        "statusCategory": "done",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-07-28T19:01:28.932+0100",
+        "priority": "Not Set",
+        "labels": []
+      },
+      {
+        "key": "WSC-1382",
+        "url": "https://e2x.atlassian.net/browse/WSC-1382",
+        "summary": "Implement Content Security Policy (CSP)",
+        "status": "Listo",
+        "statusCategory": "new",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-07-28T19:00:26.000+0100",
+        "priority": "Cr\u00edtica",
+        "labels": []
+      },
       {
         "key": "WSC-1520",
         "url": "https://e2x.atlassian.net/browse/WSC-1520",
@@ -32,17 +229,6 @@
           "Needs-QA",
           "automatable"
         ]
-      },
-      {
-        "key": "WSC-1634",
-        "url": "https://e2x.atlassian.net/browse/WSC-1634",
-        "summary": "PLP header - new styling",
-        "status": "Tech Review",
-        "statusCategory": "indeterminate",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-07-28T18:30:30.320+0100",
-        "priority": "Importante",
-        "labels": []
       },
       {
         "key": "WSC-1483",
@@ -248,17 +434,6 @@
         ]
       },
       {
-        "key": "WSC-1625",
-        "url": "https://e2x.atlassian.net/browse/WSC-1625",
-        "summary": "SLIM BANNER - further amendments",
-        "status": "Finalizada",
-        "statusCategory": "done",
-        "assignee": "Gerardo Romero",
-        "updated": "2026-07-28T14:27:19.633+0100",
-        "priority": "Poco importante",
-        "labels": []
-      },
-      {
         "key": "WSC-1606",
         "url": "https://e2x.atlassian.net/browse/WSC-1606",
         "summary": "Mobile: BREADCRUMB - amendments part 2",
@@ -399,17 +574,6 @@
         "labels": [
           "NO_QA_REQUIRED"
         ]
-      },
-      {
-        "key": "WSC-1522",
-        "url": "https://e2x.atlassian.net/browse/WSC-1522",
-        "summary": "CONTENT - Personalisation",
-        "status": "En curso",
-        "statusCategory": "indeterminate",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-07-27T17:27:08.640+0100",
-        "priority": "Importante",
-        "labels": []
       },
       {
         "key": "WSC-1616",
@@ -694,17 +858,6 @@
           "Needs-QA",
           "automatable"
         ]
-      },
-      {
-        "key": "WSC-1615",
-        "url": "https://e2x.atlassian.net/browse/WSC-1615",
-        "summary": "Configure Cloudflare native alerts (DDoS, 5xx rate, traffic anomaly)",
-        "status": "Finalizada",
-        "statusCategory": "done",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-07-21T15:28:32.090+0100",
-        "priority": "Not Set",
-        "labels": []
       },
       {
         "key": "WSC-1551",
