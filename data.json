@@ -1,44 +1,121 @@
 {
-  "lastUpdated": "2026-07-28T14:09:26.927214+00:00",
+  "lastUpdated": "2026-07-28T17:35:51.637698+00:00",
   "jira": {
     "summary": {
       "total": 311,
       "byStatus": {
-        "IN QA": 3,
-        "READY FOR RELEASE": 2,
-        "En curso": 5,
-        "QA Approved": 8,
-        "Finalizada": 248,
+        "QA Approved": 12,
         "Tech Review": 15,
-        "Listo": 4,
+        "Blocked": 3,
+        "En curso": 5,
+        "READY FOR RELEASE": 2,
+        "Finalizada": 248,
+        "Listo": 3,
         "Deprecated": 11,
         "Ready for Refinement": 3,
         "Tareas por hacer": 1,
-        "Blocked": 3,
         "Backlog": 5,
         "PENDING DEV DEPLOY": 3
       }
     },
     "tickets": [
       {
+        "key": "WSC-1520",
+        "url": "https://e2x.atlassian.net/browse/WSC-1520",
+        "summary": "[Automation] Expand & Standardize Axe Accessibility Test Coverage",
+        "status": "QA Approved",
+        "statusCategory": "indeterminate",
+        "assignee": "Gerardo Romero",
+        "updated": "2026-07-28T18:35:06.154+0100",
+        "priority": "Poco importante",
+        "labels": [
+          "Needs-QA",
+          "automatable"
+        ]
+      },
+      {
+        "key": "WSC-1634",
+        "url": "https://e2x.atlassian.net/browse/WSC-1634",
+        "summary": "PLP header - new styling",
+        "status": "Tech Review",
+        "statusCategory": "indeterminate",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-07-28T18:30:30.320+0100",
+        "priority": "Importante",
+        "labels": []
+      },
+      {
+        "key": "WSC-1483",
+        "url": "https://e2x.atlassian.net/browse/WSC-1483",
+        "summary": "CSP - QA: Checkout & Critical Flow Validation after Enforcement",
+        "status": "Blocked",
+        "statusCategory": "new",
+        "assignee": "Gerardo Romero",
+        "updated": "2026-07-28T18:29:35.946+0100",
+        "priority": "Not Set",
+        "labels": [
+          "CSP",
+          "Needs-QA"
+        ]
+      },
+      {
         "key": "WSC-1609",
         "url": "https://e2x.atlassian.net/browse/WSC-1609",
         "summary": "CONTENT - Product Link Group - amendments",
-        "status": "IN QA",
+        "status": "QA Approved",
         "statusCategory": "indeterminate",
         "assignee": "Gerardo Romero",
-        "updated": "2026-07-28T15:05:57.302+0100",
+        "updated": "2026-07-28T17:21:07.931+0100",
         "priority": "Poco importante",
         "labels": []
+      },
+      {
+        "key": "WSC-1392",
+        "url": "https://e2x.atlassian.net/browse/WSC-1392",
+        "summary": "HHG - SEO text block",
+        "status": "QA Approved",
+        "statusCategory": "indeterminate",
+        "assignee": "Gerardo Romero",
+        "updated": "2026-07-28T17:19:49.596+0100",
+        "priority": "Poco importante",
+        "labels": []
+      },
+      {
+        "key": "WSC-1612",
+        "url": "https://e2x.atlassian.net/browse/WSC-1612",
+        "summary": "COLOUR NAME (VSF) - change source field",
+        "status": "Tech Review",
+        "statusCategory": "indeterminate",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-07-28T16:32:53.500+0100",
+        "priority": "Poco importante",
+        "labels": [
+          "Needs-QA",
+          "manualQA"
+        ]
+      },
+      {
+        "key": "WSC-1613",
+        "url": "https://e2x.atlassian.net/browse/WSC-1613",
+        "summary": "COLOUR NAME (CHECKOUT) - change source field",
+        "status": "En curso",
+        "statusCategory": "indeterminate",
+        "assignee": "Andre Mogrovejo",
+        "updated": "2026-07-28T16:21:24.013+0100",
+        "priority": "Poco importante",
+        "labels": [
+          "Needs-QA",
+          "manualQA"
+        ]
       },
       {
         "key": "WSC-1639",
         "url": "https://e2x.atlassian.net/browse/WSC-1639",
         "summary": "PDP - remove promo copy above product name",
-        "status": "IN QA",
+        "status": "QA Approved",
         "statusCategory": "indeterminate",
         "assignee": "Ingrith Santamaria",
-        "updated": "2026-07-28T15:00:03.340+0100",
+        "updated": "2026-07-28T16:13:19.888+0100",
         "priority": "Importante",
         "labels": [
           "FastFollow"
@@ -51,7 +128,7 @@
         "status": "READY FOR RELEASE",
         "statusCategory": "new",
         "assignee": "enmanuel.ramirez",
-        "updated": "2026-07-28T14:50:40.565+0100",
+        "updated": "2026-07-28T15:55:38.914+0100",
         "priority": "Not Set",
         "labels": [
           "CSP",
@@ -65,7 +142,7 @@
         "status": "En curso",
         "statusCategory": "indeterminate",
         "assignee": "Alexander Talavera",
-        "updated": "2026-07-28T14:39:22.290+0100",
+        "updated": "2026-07-28T15:15:20.512+0100",
         "priority": "Importante",
         "labels": [
           "Needs-QA",
@@ -311,56 +388,6 @@
         "labels": []
       },
       {
-        "key": "WSC-1612",
-        "url": "https://e2x.atlassian.net/browse/WSC-1612",
-        "summary": "COLOUR NAME (VSF) - change source field",
-        "status": "En curso",
-        "statusCategory": "indeterminate",
-        "assignee": "Jair Huaman",
-        "updated": "2026-07-28T13:48:55.155+0100",
-        "priority": "Poco importante",
-        "labels": [
-          "Needs-QA",
-          "manualQA"
-        ]
-      },
-      {
-        "key": "WSC-1520",
-        "url": "https://e2x.atlassian.net/browse/WSC-1520",
-        "summary": "[Automation] Expand & Standardize Axe Accessibility Test Coverage",
-        "status": "Tech Review",
-        "statusCategory": "indeterminate",
-        "assignee": "Gerardo Romero",
-        "updated": "2026-07-28T04:36:59.447+0100",
-        "priority": "Poco importante",
-        "labels": [
-          "Needs-QA",
-          "automatable"
-        ]
-      },
-      {
-        "key": "WSC-1634",
-        "url": "https://e2x.atlassian.net/browse/WSC-1634",
-        "summary": "PLP header - new styling",
-        "status": "IN QA",
-        "statusCategory": "indeterminate",
-        "assignee": "Gerardo Romero",
-        "updated": "2026-07-28T04:33:11.415+0100",
-        "priority": "Importante",
-        "labels": []
-      },
-      {
-        "key": "WSC-1392",
-        "url": "https://e2x.atlassian.net/browse/WSC-1392",
-        "summary": "HHG - SEO text block",
-        "status": "Tech Review",
-        "statusCategory": "indeterminate",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-07-28T00:05:53.532+0100",
-        "priority": "Poco importante",
-        "labels": []
-      },
-      {
         "key": "WSC-1580",
         "url": "https://e2x.atlassian.net/browse/WSC-1580",
         "summary": "SITESPECT - deploy to Production",
@@ -587,20 +614,6 @@
         ]
       },
       {
-        "key": "WSC-1613",
-        "url": "https://e2x.atlassian.net/browse/WSC-1613",
-        "summary": "COLOUR NAME (CHECKOUT) - change source field",
-        "status": "Listo",
-        "statusCategory": "new",
-        "assignee": "Unassigned",
-        "updated": "2026-07-23T18:49:52.874+0100",
-        "priority": "Poco importante",
-        "labels": [
-          "Needs-QA",
-          "manualQA"
-        ]
-      },
-      {
         "key": "WSC-173",
         "url": "https://e2x.atlassian.net/browse/WSC-173",
         "summary": "SEO - fix to product schema for PDP for reviews and ratings",
@@ -692,20 +705,6 @@
         "updated": "2026-07-21T15:28:32.090+0100",
         "priority": "Not Set",
         "labels": []
-      },
-      {
-        "key": "WSC-1483",
-        "url": "https://e2x.atlassian.net/browse/WSC-1483",
-        "summary": "CSP - QA: Checkout & Critical Flow Validation after Enforcement",
-        "status": "Blocked",
-        "statusCategory": "new",
-        "assignee": "Gerardo Romero",
-        "updated": "2026-07-21T13:30:37.594+0100",
-        "priority": "Not Set",
-        "labels": [
-          "CSP",
-          "Needs-QA"
-        ]
       },
       {
         "key": "WSC-1551",
