@@ -1,13 +1,13 @@
 {
-  "lastUpdated": "2026-07-28T02:37:28.669508+00:00",
+  "lastUpdated": "2026-07-28T06:27:45.385879+00:00",
   "jira": {
     "summary": {
       "total": 311,
       "byStatus": {
-        "Tech Review": 15,
-        "En curso": 6,
-        "Ready to QA": 3,
+        "Tech Review": 16,
         "IN QA": 1,
+        "Ready to QA": 3,
+        "En curso": 5,
         "QA Approved": 19,
         "Listo": 4,
         "Finalizada": 230,
@@ -22,6 +22,44 @@
       }
     },
     "tickets": [
+      {
+        "key": "WSC-1520",
+        "url": "https://e2x.atlassian.net/browse/WSC-1520",
+        "summary": "[Automation] Expand & Standardize Axe Accessibility Test Coverage",
+        "status": "Tech Review",
+        "statusCategory": "indeterminate",
+        "assignee": "Gerardo Romero",
+        "updated": "2026-07-28T04:36:59.447+0100",
+        "priority": "Poco importante",
+        "labels": [
+          "Needs-QA",
+          "automatable"
+        ]
+      },
+      {
+        "key": "WSC-1634",
+        "url": "https://e2x.atlassian.net/browse/WSC-1634",
+        "summary": "PLP header - new styling",
+        "status": "IN QA",
+        "statusCategory": "indeterminate",
+        "assignee": "Gerardo Romero",
+        "updated": "2026-07-28T04:33:11.415+0100",
+        "priority": "Importante",
+        "labels": []
+      },
+      {
+        "key": "WSC-1639",
+        "url": "https://e2x.atlassian.net/browse/WSC-1639",
+        "summary": "PDP - remove promo copy above product name",
+        "status": "Ready to QA",
+        "statusCategory": "new",
+        "assignee": "Gerardo Romero",
+        "updated": "2026-07-28T04:06:31.548+0100",
+        "priority": "Importante",
+        "labels": [
+          "FastFollow"
+        ]
+      },
       {
         "key": "WSC-1392",
         "url": "https://e2x.atlassian.net/browse/WSC-1392",
@@ -72,17 +110,6 @@
         "labels": []
       },
       {
-        "key": "WSC-1634",
-        "url": "https://e2x.atlassian.net/browse/WSC-1634",
-        "summary": "PLP header - new styling",
-        "status": "IN QA",
-        "statusCategory": "indeterminate",
-        "assignee": "Gerardo Romero",
-        "updated": "2026-07-27T17:29:18.503+0100",
-        "priority": "Importante",
-        "labels": []
-      },
-      {
         "key": "WSC-1522",
         "url": "https://e2x.atlassian.net/browse/WSC-1522",
         "summary": "CONTENT - Personalisation",
@@ -103,19 +130,6 @@
         "updated": "2026-07-27T17:06:02.386+0100",
         "priority": "Poco importante",
         "labels": []
-      },
-      {
-        "key": "WSC-1639",
-        "url": "https://e2x.atlassian.net/browse/WSC-1639",
-        "summary": "PDP - remove promo copy above product name",
-        "status": "Ready to QA",
-        "statusCategory": "new",
-        "assignee": "Unassigned",
-        "updated": "2026-07-27T16:20:54.126+0100",
-        "priority": "Importante",
-        "labels": [
-          "FastFollow"
-        ]
       },
       {
         "key": "WSC-1480",
@@ -384,20 +398,6 @@
         "updated": "2026-07-23T18:38:07.983+0100",
         "priority": "Importante",
         "labels": []
-      },
-      {
-        "key": "WSC-1520",
-        "url": "https://e2x.atlassian.net/browse/WSC-1520",
-        "summary": "[Automation] Expand & Standardize Axe Accessibility Test Coverage",
-        "status": "En curso",
-        "statusCategory": "indeterminate",
-        "assignee": "Gerardo Romero",
-        "updated": "2026-07-23T14:36:52.122+0100",
-        "priority": "Poco importante",
-        "labels": [
-          "Needs-QA",
-          "automatable"
-        ]
       },
       {
         "key": "WSC-1632",
