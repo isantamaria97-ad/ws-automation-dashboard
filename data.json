@@ -1,14 +1,14 @@
 {
-  "lastUpdated": "2026-07-27T21:11:30.467922+00:00",
+  "lastUpdated": "2026-07-28T02:37:28.669508+00:00",
   "jira": {
     "summary": {
       "total": 311,
       "byStatus": {
-        "En curso": 7,
+        "Tech Review": 15,
+        "En curso": 6,
         "Ready to QA": 3,
         "IN QA": 1,
         "QA Approved": 19,
-        "Tech Review": 14,
         "Listo": 4,
         "Finalizada": 230,
         "Deprecated": 11,
@@ -22,6 +22,17 @@
       }
     },
     "tickets": [
+      {
+        "key": "WSC-1392",
+        "url": "https://e2x.atlassian.net/browse/WSC-1392",
+        "summary": "HHG - SEO text block",
+        "status": "Tech Review",
+        "statusCategory": "indeterminate",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-07-28T00:05:53.532+0100",
+        "priority": "Poco importante",
+        "labels": []
+      },
       {
         "key": "WSC-1580",
         "url": "https://e2x.atlassian.net/browse/WSC-1580",
@@ -48,17 +59,6 @@
           "Needs-QA",
           "manualQA"
         ]
-      },
-      {
-        "key": "WSC-1392",
-        "url": "https://e2x.atlassian.net/browse/WSC-1392",
-        "summary": "HHG - SEO text block",
-        "status": "En curso",
-        "statusCategory": "indeterminate",
-        "assignee": "Alexander Talavera",
-        "updated": "2026-07-27T19:31:55.217+0100",
-        "priority": "Poco importante",
-        "labels": []
       },
       {
         "key": "WSC-1638",
