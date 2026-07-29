@@ -1,11 +1,11 @@
 {
-  "lastUpdated": "2026-07-28T21:09:47.330316+00:00",
+  "lastUpdated": "2026-07-29T02:44:10.066458+00:00",
   "jira": {
     "summary": {
       "total": 323,
       "byStatus": {
-        "Listo": 11,
         "En curso": 6,
+        "Listo": 11,
         "Backlog": 7,
         "QA Approved": 13,
         "Blocked": 4,
@@ -19,6 +19,19 @@
       }
     },
     "tickets": [
+      {
+        "key": "WSC-1580",
+        "url": "https://e2x.atlassian.net/browse/WSC-1580",
+        "summary": "SITESPECT - deploy to Production",
+        "status": "En curso",
+        "statusCategory": "indeterminate",
+        "assignee": "Jair Huaman",
+        "updated": "2026-07-28T23:09:24.480+0100",
+        "priority": "Importante",
+        "labels": [
+          "NO_QA_REQUIRED"
+        ]
+      },
       {
         "key": "WSC-1648",
         "url": "https://e2x.atlassian.net/browse/WSC-1648",
@@ -561,19 +574,6 @@
         "updated": "2026-07-28T14:25:20.890+0100",
         "priority": "Poco importante",
         "labels": []
-      },
-      {
-        "key": "WSC-1580",
-        "url": "https://e2x.atlassian.net/browse/WSC-1580",
-        "summary": "SITESPECT - deploy to Production",
-        "status": "En curso",
-        "statusCategory": "indeterminate",
-        "assignee": "Jair Huaman",
-        "updated": "2026-07-27T21:09:04.168+0100",
-        "priority": "Importante",
-        "labels": [
-          "NO_QA_REQUIRED"
-        ]
       },
       {
         "key": "WSC-1616",
