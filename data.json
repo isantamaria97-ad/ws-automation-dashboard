@@ -1,13 +1,13 @@
 {
-  "lastUpdated": "2026-07-29T06:31:56.871171+00:00",
+  "lastUpdated": "2026-07-29T10:40:26.003676+00:00",
   "jira": {
     "summary": {
       "total": 323,
       "byStatus": {
+        "QA Approved": 13,
         "En curso": 6,
         "Listo": 11,
         "Backlog": 7,
-        "QA Approved": 13,
         "Blocked": 4,
         "Finalizada": 248,
         "Tech Review": 14,
@@ -19,6 +19,17 @@
       }
     },
     "tickets": [
+      {
+        "key": "WSC-1634",
+        "url": "https://e2x.atlassian.net/browse/WSC-1634",
+        "summary": "PLP header - new styling",
+        "status": "QA Approved",
+        "statusCategory": "indeterminate",
+        "assignee": "Gerardo Romero",
+        "updated": "2026-07-29T11:05:34.897+0100",
+        "priority": "Importante",
+        "labels": []
+      },
       {
         "key": "WSC-1580",
         "url": "https://e2x.atlassian.net/browse/WSC-1580",
@@ -135,17 +146,6 @@
         "labels": [
           "Needs-QA"
         ]
-      },
-      {
-        "key": "WSC-1634",
-        "url": "https://e2x.atlassian.net/browse/WSC-1634",
-        "summary": "PLP header - new styling",
-        "status": "QA Approved",
-        "statusCategory": "indeterminate",
-        "assignee": "Gerardo Romero",
-        "updated": "2026-07-28T19:21:26.507+0100",
-        "priority": "Importante",
-        "labels": []
       },
       {
         "key": "WSC-1534",
