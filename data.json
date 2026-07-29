@@ -1,25 +1,102 @@
 {
-  "lastUpdated": "2026-07-29T17:16:06.665828+00:00",
+  "lastUpdated": "2026-07-29T20:57:22.534164+00:00",
   "jira": {
     "summary": {
       "total": 323,
       "byStatus": {
-        "En curso": 6,
-        "Listo": 10,
-        "Tech Review": 13,
+        "QA Approved": 16,
+        "Tech Review": 14,
+        "Listo": 11,
+        "En curso": 5,
+        "Finalizada": 248,
         "PENDING DEV DEPLOY": 3,
-        "QA Approved": 14,
-        "Ready to QA": 1,
         "Backlog": 7,
         "Blocked": 4,
-        "Finalizada": 248,
         "READY FOR RELEASE": 2,
         "Deprecated": 11,
-        "Ready for Refinement": 3,
+        "Ready for Refinement": 1,
         "Tareas por hacer": 1
       }
     },
     "tickets": [
+      {
+        "key": "WSC-1593",
+        "url": "https://e2x.atlassian.net/browse/WSC-1593",
+        "summary": "MY ACCOUNT - restrictions on /saved-addresses for name and address ",
+        "status": "QA Approved",
+        "statusCategory": "indeterminate",
+        "assignee": "Ingrith Santamaria",
+        "updated": "2026-07-29T21:36:13.067+0100",
+        "priority": "Poco importante",
+        "labels": [
+          "Needs-QA",
+          "automatable"
+        ]
+      },
+      {
+        "key": "WSC-1613",
+        "url": "https://e2x.atlassian.net/browse/WSC-1613",
+        "summary": "COLOUR NAME (CHECKOUT) - change source field",
+        "status": "Tech Review",
+        "statusCategory": "indeterminate",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-07-29T21:00:31.288+0100",
+        "priority": "Poco importante",
+        "labels": [
+          "Needs-QA",
+          "manualQA"
+        ]
+      },
+      {
+        "key": "WSC-388",
+        "url": "https://e2x.atlassian.net/browse/WSC-388",
+        "summary": "HEADER - quantity overlaps bag icon when more than 1 digit",
+        "status": "Listo",
+        "statusCategory": "new",
+        "assignee": "Unassigned",
+        "updated": "2026-07-29T20:24:12.034+0100",
+        "priority": "Trivial",
+        "labels": [
+          "Needs-QA"
+        ]
+      },
+      {
+        "key": "WSC-1640",
+        "url": "https://e2x.atlassian.net/browse/WSC-1640",
+        "summary": "Unmasking JS errors - VSF",
+        "status": "Listo",
+        "statusCategory": "new",
+        "assignee": "Unassigned",
+        "updated": "2026-07-29T20:23:25.188+0100",
+        "priority": "Importante",
+        "labels": [
+          "NO_QA_REQUIRED"
+        ]
+      },
+      {
+        "key": "WSC-1138",
+        "url": "https://e2x.atlassian.net/browse/WSC-1138",
+        "summary": "GOOD STUFF - add preferred shop to 'My Details'",
+        "status": "Listo",
+        "statusCategory": "new",
+        "assignee": "Unassigned",
+        "updated": "2026-07-29T20:06:09.787+0100",
+        "priority": "Importante",
+        "labels": [
+          "Needs-QA"
+        ]
+      },
+      {
+        "key": "WSC-1392",
+        "url": "https://e2x.atlassian.net/browse/WSC-1392",
+        "summary": "HHG - SEO text block",
+        "status": "QA Approved",
+        "statusCategory": "indeterminate",
+        "assignee": "Gerardo Romero",
+        "updated": "2026-07-29T19:46:53.044+0100",
+        "priority": "Poco importante",
+        "labels": []
+      },
       {
         "key": "WSC-1580",
         "url": "https://e2x.atlassian.net/browse/WSC-1580",
@@ -27,37 +104,91 @@
         "status": "En curso",
         "statusCategory": "indeterminate",
         "assignee": "Jair Huaman",
-        "updated": "2026-07-29T17:44:26.556+0100",
+        "updated": "2026-07-29T19:45:18.744+0100",
         "priority": "Importante",
         "labels": [
           "NO_QA_REQUIRED"
         ]
       },
       {
-        "key": "WSC-1413",
-        "url": "https://e2x.atlassian.net/browse/WSC-1413",
-        "summary": "Only Mobile: GOOD STUFF - remove header padding",
+        "key": "WSC-1501",
+        "url": "https://e2x.atlassian.net/browse/WSC-1501",
+        "summary": "Talon One - Alignment UAT - PROD",
+        "status": "Finalizada",
+        "statusCategory": "done",
+        "assignee": "Jair Huaman",
+        "updated": "2026-07-29T19:14:10.021+0100",
+        "priority": "Not Set",
+        "labels": [
+          "FastFollow"
+        ]
+      },
+      {
+        "key": "WSC-1522",
+        "url": "https://e2x.atlassian.net/browse/WSC-1522",
+        "summary": "CONTENT - Personalisation",
         "status": "En curso",
         "statusCategory": "indeterminate",
-        "assignee": "Alexander Talavera",
-        "updated": "2026-07-29T17:08:07.773+0100",
-        "priority": "Poco importante",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-07-29T19:11:36.511+0100",
+        "priority": "Importante",
         "labels": [
-          "Needs-QA"
+          "Needs-QA",
+          "manualQA"
         ]
       },
       {
         "key": "WSC-1648",
         "url": "https://e2x.atlassian.net/browse/WSC-1648",
         "summary": "[WSSD-666] outcome - User cannot switch to USA & Canada / RoW in 2 PLPs",
-        "status": "Listo",
-        "statusCategory": "new",
+        "status": "En curso",
+        "statusCategory": "indeterminate",
         "assignee": "Alexander Talavera",
-        "updated": "2026-07-29T17:08:06.004+0100",
+        "updated": "2026-07-29T19:11:35.735+0100",
         "priority": "Poco importante",
         "labels": [
           "Needs-QA",
           "automatable"
+        ]
+      },
+      {
+        "key": "WSC-1650",
+        "url": "https://e2x.atlassian.net/browse/WSC-1650",
+        "summary": "Google Maps API loaded globally on all pages instead of only where needed",
+        "status": "Listo",
+        "statusCategory": "new",
+        "assignee": "Alexander Talavera",
+        "updated": "2026-07-29T19:11:21.994+0100",
+        "priority": "Importante",
+        "labels": [
+          "Needs-QA"
+        ]
+      },
+      {
+        "key": "WSC-1413",
+        "url": "https://e2x.atlassian.net/browse/WSC-1413",
+        "summary": "Only Mobile: GOOD STUFF - remove header padding",
+        "status": "QA Approved",
+        "statusCategory": "indeterminate",
+        "assignee": "Gerardo Romero",
+        "updated": "2026-07-29T19:10:10.853+0100",
+        "priority": "Poco importante",
+        "labels": [
+          "Needs-QA"
+        ]
+      },
+      {
+        "key": "WSC-1612",
+        "url": "https://e2x.atlassian.net/browse/WSC-1612",
+        "summary": "COLOUR NAME (VSF) - change source field",
+        "status": "Tech Review",
+        "statusCategory": "indeterminate",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-07-29T18:18:36.192+0100",
+        "priority": "Poco importante",
+        "labels": [
+          "Needs-QA",
+          "manualQA"
         ]
       },
       {
@@ -103,20 +234,6 @@
         ]
       },
       {
-        "key": "WSC-1593",
-        "url": "https://e2x.atlassian.net/browse/WSC-1593",
-        "summary": "MY ACCOUNT - restrictions on /saved-addresses for name and address ",
-        "status": "Ready to QA",
-        "statusCategory": "new",
-        "assignee": "Ingrith Santamaria",
-        "updated": "2026-07-29T16:20:00.981+0100",
-        "priority": "Poco importante",
-        "labels": [
-          "Needs-QA",
-          "automatable"
-        ]
-      },
-      {
         "key": "WSC-1634",
         "url": "https://e2x.atlassian.net/browse/WSC-1634",
         "summary": "PLP header - new styling",
@@ -124,31 +241,6 @@
         "statusCategory": "indeterminate",
         "assignee": "Gerardo Romero",
         "updated": "2026-07-29T15:49:55.500+0100",
-        "priority": "Importante",
-        "labels": []
-      },
-      {
-        "key": "WSC-1613",
-        "url": "https://e2x.atlassian.net/browse/WSC-1613",
-        "summary": "COLOUR NAME (CHECKOUT) - change source field",
-        "status": "En curso",
-        "statusCategory": "indeterminate",
-        "assignee": "Jair Huaman",
-        "updated": "2026-07-29T14:52:15.726+0100",
-        "priority": "Poco importante",
-        "labels": [
-          "Needs-QA",
-          "manualQA"
-        ]
-      },
-      {
-        "key": "WSC-1522",
-        "url": "https://e2x.atlassian.net/browse/WSC-1522",
-        "summary": "CONTENT - Personalisation",
-        "status": "En curso",
-        "statusCategory": "indeterminate",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-07-28T19:54:56.036+0100",
         "priority": "Importante",
         "labels": []
       },
@@ -163,19 +255,6 @@
         "priority": "Importante",
         "labels": [
           "NO_QA_REQUIRED"
-        ]
-      },
-      {
-        "key": "WSC-1650",
-        "url": "https://e2x.atlassian.net/browse/WSC-1650",
-        "summary": "Google Maps API loaded globally on all pages instead of only where needed",
-        "status": "Listo",
-        "statusCategory": "new",
-        "assignee": "Unassigned",
-        "updated": "2026-07-28T19:52:49.464+0100",
-        "priority": "Importante",
-        "labels": [
-          "Needs-QA"
         ]
       },
       {
@@ -265,19 +344,6 @@
         "labels": []
       },
       {
-        "key": "WSC-1640",
-        "url": "https://e2x.atlassian.net/browse/WSC-1640",
-        "summary": "Unmasking JS errors - VSF",
-        "status": "Listo",
-        "statusCategory": "new",
-        "assignee": "Unassigned",
-        "updated": "2026-07-28T19:01:36.401+0100",
-        "priority": "Importante",
-        "labels": [
-          "NO_QA_REQUIRED"
-        ]
-      },
-      {
         "key": "WSC-1615",
         "url": "https://e2x.atlassian.net/browse/WSC-1615",
         "summary": "Configure Cloudflare native alerts (DDoS, 5xx rate, traffic anomaly)",
@@ -337,31 +403,6 @@
         "updated": "2026-07-28T17:21:07.931+0100",
         "priority": "Poco importante",
         "labels": []
-      },
-      {
-        "key": "WSC-1392",
-        "url": "https://e2x.atlassian.net/browse/WSC-1392",
-        "summary": "HHG - SEO text block",
-        "status": "QA Approved",
-        "statusCategory": "indeterminate",
-        "assignee": "Gerardo Romero",
-        "updated": "2026-07-28T17:19:49.596+0100",
-        "priority": "Poco importante",
-        "labels": []
-      },
-      {
-        "key": "WSC-1612",
-        "url": "https://e2x.atlassian.net/browse/WSC-1612",
-        "summary": "COLOUR NAME (VSF) - change source field",
-        "status": "Tech Review",
-        "statusCategory": "indeterminate",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-07-28T16:32:53.500+0100",
-        "priority": "Poco importante",
-        "labels": [
-          "Needs-QA",
-          "manualQA"
-        ]
       },
       {
         "key": "WSC-1639",
@@ -697,17 +738,6 @@
         "assignee": "Unassigned",
         "updated": "2026-07-27T13:37:08.213+0100",
         "priority": "Poco importante",
-        "labels": []
-      },
-      {
-        "key": "WSC-388",
-        "url": "https://e2x.atlassian.net/browse/WSC-388",
-        "summary": "HEADER - quantity overlaps bag icon when more than 1 digit",
-        "status": "Ready for Refinement",
-        "statusCategory": "new",
-        "assignee": "Unassigned",
-        "updated": "2026-07-27T13:09:05.303+0100",
-        "priority": "Trivial",
         "labels": []
       },
       {
@@ -1303,19 +1333,6 @@
         ]
       },
       {
-        "key": "WSC-1138",
-        "url": "https://e2x.atlassian.net/browse/WSC-1138",
-        "summary": "GOOD STUFF - add preferred shop to 'My Details'",
-        "status": "Ready for Refinement",
-        "statusCategory": "new",
-        "assignee": "Unassigned",
-        "updated": "2026-07-14T11:46:19.187+0100",
-        "priority": "Importante",
-        "labels": [
-          "Needs-QA"
-        ]
-      },
-      {
         "key": "WSC-1591",
         "url": "https://e2x.atlassian.net/browse/WSC-1591",
         "summary": "Shop Pages \u2014 Canonical URL & Hreflang Fix",
@@ -1777,19 +1794,6 @@
         "updated": "2026-06-25T15:22:19.682+0100",
         "priority": "Not Set",
         "labels": []
-      },
-      {
-        "key": "WSC-1501",
-        "url": "https://e2x.atlassian.net/browse/WSC-1501",
-        "summary": "Talon One - Alignment UAT - PROD",
-        "status": "Finalizada",
-        "statusCategory": "done",
-        "assignee": "Jair Huaman",
-        "updated": "2026-06-18T15:09:53.817+0100",
-        "priority": "Not Set",
-        "labels": [
-          "FastFollow"
-        ]
       },
       {
         "key": "WSC-1490",
