@@ -1,18 +1,18 @@
 {
-  "lastUpdated": "2026-07-29T14:12:05.094135+00:00",
+  "lastUpdated": "2026-07-29T17:16:06.665828+00:00",
   "jira": {
     "summary": {
       "total": 323,
       "byStatus": {
-        "Tech Review": 14,
-        "PENDING DEV DEPLOY": 3,
-        "Ready to QA": 1,
-        "En curso": 7,
+        "En curso": 6,
         "Listo": 10,
+        "Tech Review": 13,
+        "PENDING DEV DEPLOY": 3,
+        "QA Approved": 14,
+        "Ready to QA": 1,
         "Backlog": 7,
         "Blocked": 4,
         "Finalizada": 248,
-        "QA Approved": 12,
         "READY FOR RELEASE": 2,
         "Deprecated": 11,
         "Ready for Refinement": 3,
@@ -21,13 +21,39 @@
     },
     "tickets": [
       {
-        "key": "WSC-1593",
-        "url": "https://e2x.atlassian.net/browse/WSC-1593",
-        "summary": "MY ACCOUNT - restrictions on /saved-addresses for name and address ",
-        "status": "Tech Review",
+        "key": "WSC-1580",
+        "url": "https://e2x.atlassian.net/browse/WSC-1580",
+        "summary": "SITESPECT - deploy to Production",
+        "status": "En curso",
         "statusCategory": "indeterminate",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-07-29T15:08:19.531+0100",
+        "assignee": "Jair Huaman",
+        "updated": "2026-07-29T17:44:26.556+0100",
+        "priority": "Importante",
+        "labels": [
+          "NO_QA_REQUIRED"
+        ]
+      },
+      {
+        "key": "WSC-1413",
+        "url": "https://e2x.atlassian.net/browse/WSC-1413",
+        "summary": "Only Mobile: GOOD STUFF - remove header padding",
+        "status": "En curso",
+        "statusCategory": "indeterminate",
+        "assignee": "Alexander Talavera",
+        "updated": "2026-07-29T17:08:07.773+0100",
+        "priority": "Poco importante",
+        "labels": [
+          "Needs-QA"
+        ]
+      },
+      {
+        "key": "WSC-1648",
+        "url": "https://e2x.atlassian.net/browse/WSC-1648",
+        "summary": "[WSSD-666] outcome - User cannot switch to USA & Canada / RoW in 2 PLPs",
+        "status": "Listo",
+        "statusCategory": "new",
+        "assignee": "Alexander Talavera",
+        "updated": "2026-07-29T17:08:06.004+0100",
         "priority": "Poco importante",
         "labels": [
           "Needs-QA",
@@ -35,13 +61,27 @@
         ]
       },
       {
-        "key": "WSC-1542",
-        "url": "https://e2x.atlassian.net/browse/WSC-1542",
-        "summary": "CONTENT - Accordion2 amendments",
+        "key": "WSC-1614",
+        "url": "https://e2x.atlassian.net/browse/WSC-1614",
+        "summary": "LIVE CHAT - z-index changes",
         "status": "Tech Review",
         "statusCategory": "indeterminate",
         "assignee": "enmanuel.ramirez",
-        "updated": "2026-07-29T15:07:19.874+0100",
+        "updated": "2026-07-29T16:58:19.617+0100",
+        "priority": "Importante",
+        "labels": [
+          "Needs-QA",
+          "automatable"
+        ]
+      },
+      {
+        "key": "WSC-1649",
+        "url": "https://e2x.atlassian.net/browse/WSC-1649",
+        "summary": "PDP - spacing issue",
+        "status": "PENDING DEV DEPLOY",
+        "statusCategory": "new",
+        "assignee": "Andre Mogrovejo",
+        "updated": "2026-07-29T16:57:14.615+0100",
         "priority": "Poco importante",
         "labels": [
           "Needs-QA",
@@ -49,26 +89,41 @@
         ]
       },
       {
-        "key": "WSC-1413",
-        "url": "https://e2x.atlassian.net/browse/WSC-1413",
-        "summary": "Only Mobile: GOOD STUFF - remove header padding",
-        "status": "PENDING DEV DEPLOY",
-        "statusCategory": "new",
+        "key": "WSC-1542",
+        "url": "https://e2x.atlassian.net/browse/WSC-1542",
+        "summary": "CONTENT - Accordion2 amendments",
+        "status": "QA Approved",
+        "statusCategory": "indeterminate",
         "assignee": "Gerardo Romero",
-        "updated": "2026-07-29T15:06:18.515+0100",
+        "updated": "2026-07-29T16:46:13.739+0100",
         "priority": "Poco importante",
         "labels": [
-          "Needs-QA"
+          "Needs-QA",
+          "manualQA"
+        ]
+      },
+      {
+        "key": "WSC-1593",
+        "url": "https://e2x.atlassian.net/browse/WSC-1593",
+        "summary": "MY ACCOUNT - restrictions on /saved-addresses for name and address ",
+        "status": "Ready to QA",
+        "statusCategory": "new",
+        "assignee": "Ingrith Santamaria",
+        "updated": "2026-07-29T16:20:00.981+0100",
+        "priority": "Poco importante",
+        "labels": [
+          "Needs-QA",
+          "automatable"
         ]
       },
       {
         "key": "WSC-1634",
         "url": "https://e2x.atlassian.net/browse/WSC-1634",
         "summary": "PLP header - new styling",
-        "status": "Ready to QA",
-        "statusCategory": "new",
+        "status": "QA Approved",
+        "statusCategory": "indeterminate",
         "assignee": "Gerardo Romero",
-        "updated": "2026-07-29T15:04:52.186+0100",
+        "updated": "2026-07-29T15:49:55.500+0100",
         "priority": "Importante",
         "labels": []
       },
@@ -84,47 +139,6 @@
         "labels": [
           "Needs-QA",
           "manualQA"
-        ]
-      },
-      {
-        "key": "WSC-1649",
-        "url": "https://e2x.atlassian.net/browse/WSC-1649",
-        "summary": "PDP - spacing issue",
-        "status": "En curso",
-        "statusCategory": "indeterminate",
-        "assignee": "Andre Mogrovejo",
-        "updated": "2026-07-29T14:33:02.157+0100",
-        "priority": "Poco importante",
-        "labels": [
-          "Needs-QA",
-          "manualQA"
-        ]
-      },
-      {
-        "key": "WSC-1580",
-        "url": "https://e2x.atlassian.net/browse/WSC-1580",
-        "summary": "SITESPECT - deploy to Production",
-        "status": "En curso",
-        "statusCategory": "indeterminate",
-        "assignee": "Jair Huaman",
-        "updated": "2026-07-29T14:05:27.290+0100",
-        "priority": "Importante",
-        "labels": [
-          "NO_QA_REQUIRED"
-        ]
-      },
-      {
-        "key": "WSC-1648",
-        "url": "https://e2x.atlassian.net/browse/WSC-1648",
-        "summary": "[WSSD-666] outcome - User cannot switch to USA & Canada / RoW in 2 PLPs",
-        "status": "Listo",
-        "statusCategory": "new",
-        "assignee": "Alexander Talavera",
-        "updated": "2026-07-28T20:15:52.062+0100",
-        "priority": "Poco importante",
-        "labels": [
-          "Needs-QA",
-          "automatable"
         ]
       },
       {
@@ -374,20 +388,6 @@
         "labels": [
           "CSP",
           "NO_QA_REQUIRED"
-        ]
-      },
-      {
-        "key": "WSC-1614",
-        "url": "https://e2x.atlassian.net/browse/WSC-1614",
-        "summary": "LIVE CHAT - z-index changes",
-        "status": "En curso",
-        "statusCategory": "indeterminate",
-        "assignee": "Alexander Talavera",
-        "updated": "2026-07-28T15:15:20.512+0100",
-        "priority": "Importante",
-        "labels": [
-          "Needs-QA",
-          "automatable"
         ]
       },
       {
