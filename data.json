@@ -1,12 +1,12 @@
 {
-  "lastUpdated": "2026-07-30T17:28:32.635101+00:00",
+  "lastUpdated": "2026-07-30T21:11:21.320160+00:00",
   "jira": {
     "summary": {
-      "total": 325,
+      "total": 329,
       "byStatus": {
         "En curso": 7,
+        "Listo": 15,
         "Finalizada": 249,
-        "Listo": 10,
         "PENDING DEV DEPLOY": 3,
         "QA Approved": 16,
         "Tech Review": 14,
@@ -14,7 +14,6 @@
         "Backlog": 7,
         "Blocked": 4,
         "Deprecated": 11,
-        "Ready for Refinement": 1,
         "Tareas por hacer": 1
       }
     },
@@ -26,9 +25,70 @@
         "status": "En curso",
         "statusCategory": "indeterminate",
         "assignee": "Jair Huaman",
-        "updated": "2026-07-30T16:47:52.675+0100",
+        "updated": "2026-07-30T21:07:13.875+0100",
         "priority": "Importante",
         "labels": []
+      },
+      {
+        "key": "WSC-1607",
+        "url": "https://e2x.atlassian.net/browse/WSC-1607",
+        "summary": "PDP - Stylitics - Android issue",
+        "status": "Listo",
+        "statusCategory": "new",
+        "assignee": "Unassigned",
+        "updated": "2026-07-30T19:23:19.931+0100",
+        "priority": "Poco importante",
+        "labels": []
+      },
+      {
+        "key": "WSC-1433",
+        "url": "https://e2x.atlassian.net/browse/WSC-1433",
+        "summary": "PDP - attributes",
+        "status": "Listo",
+        "statusCategory": "new",
+        "assignee": "Unassigned",
+        "updated": "2026-07-30T19:15:38.533+0100",
+        "priority": "Poco importante",
+        "labels": []
+      },
+      {
+        "key": "WSC-1510",
+        "url": "https://e2x.atlassian.net/browse/WSC-1510",
+        "summary": "[WSSD-609] - Duplicate payment in Adyen",
+        "status": "Listo",
+        "statusCategory": "new",
+        "assignee": "Unassigned",
+        "updated": "2026-07-30T19:08:13.424+0100",
+        "priority": "Poco importante",
+        "labels": [
+          "FastFollow",
+          "Needs-QA"
+        ]
+      },
+      {
+        "key": "WSC-1647",
+        "url": "https://e2x.atlassian.net/browse/WSC-1647",
+        "summary": "CONTENT - new wider version of SEOTextBlock",
+        "status": "Listo",
+        "statusCategory": "new",
+        "assignee": "Unassigned",
+        "updated": "2026-07-30T19:03:50.022+0100",
+        "priority": "Importante",
+        "labels": []
+      },
+      {
+        "key": "WSC-1646",
+        "url": "https://e2x.atlassian.net/browse/WSC-1646",
+        "summary": "CONTENT - new wider version of Accordion2",
+        "status": "Listo",
+        "statusCategory": "new",
+        "assignee": "Unassigned",
+        "updated": "2026-07-30T19:02:04.159+0100",
+        "priority": "Importante",
+        "labels": [
+          "Needs-QA",
+          "manualQA"
+        ]
       },
       {
         "key": "WSC-1648",
@@ -824,20 +884,6 @@
         "updated": "2026-07-27T13:37:08.213+0100",
         "priority": "Poco importante",
         "labels": []
-      },
-      {
-        "key": "WSC-1510",
-        "url": "https://e2x.atlassian.net/browse/WSC-1510",
-        "summary": "[WSSD-609] - Duplicate payment in Adyen",
-        "status": "Ready for Refinement",
-        "statusCategory": "new",
-        "assignee": "Unassigned",
-        "updated": "2026-07-24T20:09:41.112+0100",
-        "priority": "Poco importante",
-        "labels": [
-          "FastFollow",
-          "Needs-QA"
-        ]
       },
       {
         "key": "WSC-1484",
