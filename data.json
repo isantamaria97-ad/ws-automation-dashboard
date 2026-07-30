@@ -1,12 +1,12 @@
 {
-  "lastUpdated": "2026-07-30T06:29:41.820245+00:00",
+  "lastUpdated": "2026-07-30T10:25:31.978748+00:00",
   "jira": {
     "summary": {
       "total": 323,
       "byStatus": {
+        "Listo": 11,
         "Tech Review": 14,
         "QA Approved": 16,
-        "Listo": 11,
         "En curso": 5,
         "Finalizada": 248,
         "PENDING DEV DEPLOY": 3,
@@ -19,6 +19,19 @@
       }
     },
     "tickets": [
+      {
+        "key": "WSC-388",
+        "url": "https://e2x.atlassian.net/browse/WSC-388",
+        "summary": "HEADER - quantity overlaps bag icon when more than 1 digit",
+        "status": "Listo",
+        "statusCategory": "new",
+        "assignee": "Unassigned",
+        "updated": "2026-07-30T09:18:24.110+0100",
+        "priority": "Trivial",
+        "labels": [
+          "Needs-QA"
+        ]
+      },
       {
         "key": "WSC-1602",
         "url": "https://e2x.atlassian.net/browse/WSC-1602",
@@ -56,19 +69,6 @@
         "labels": [
           "Needs-QA",
           "manualQA"
-        ]
-      },
-      {
-        "key": "WSC-388",
-        "url": "https://e2x.atlassian.net/browse/WSC-388",
-        "summary": "HEADER - quantity overlaps bag icon when more than 1 digit",
-        "status": "Listo",
-        "statusCategory": "new",
-        "assignee": "Unassigned",
-        "updated": "2026-07-29T20:24:12.034+0100",
-        "priority": "Trivial",
-        "labels": [
-          "Needs-QA"
         ]
       },
       {
