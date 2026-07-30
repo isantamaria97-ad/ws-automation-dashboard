@@ -1,17 +1,17 @@
 {
-  "lastUpdated": "2026-07-30T14:04:58.381904+00:00",
+  "lastUpdated": "2026-07-30T17:28:32.635101+00:00",
   "jira": {
     "summary": {
-      "total": 324,
+      "total": 325,
       "byStatus": {
-        "En curso": 5,
+        "En curso": 7,
+        "Finalizada": 249,
+        "Listo": 10,
+        "PENDING DEV DEPLOY": 3,
         "QA Approved": 16,
         "Tech Review": 14,
-        "Backlog": 8,
-        "PENDING DEV DEPLOY": 3,
         "READY FOR RELEASE": 2,
-        "Listo": 11,
-        "Finalizada": 248,
+        "Backlog": 7,
         "Blocked": 4,
         "Deprecated": 11,
         "Ready for Refinement": 1,
@@ -20,17 +20,92 @@
     },
     "tickets": [
       {
+        "key": "WSC-1652",
+        "url": "https://e2x.atlassian.net/browse/WSC-1652",
+        "summary": "MONETATE - identify where this is implemented",
+        "status": "En curso",
+        "statusCategory": "indeterminate",
+        "assignee": "Jair Huaman",
+        "updated": "2026-07-30T16:47:52.675+0100",
+        "priority": "Importante",
+        "labels": []
+      },
+      {
         "key": "WSC-1648",
         "url": "https://e2x.atlassian.net/browse/WSC-1648",
         "summary": "[WSSD-666] outcome - User cannot switch to USA & Canada / RoW in 2 PLPs",
         "status": "En curso",
         "statusCategory": "indeterminate",
         "assignee": "Alexander Talavera",
-        "updated": "2026-07-30T14:38:34.730+0100",
+        "updated": "2026-07-30T15:24:15.820+0100",
         "priority": "Poco importante",
         "labels": [
           "Needs-QA",
           "automatable"
+        ]
+      },
+      {
+        "key": "WSC-1580",
+        "url": "https://e2x.atlassian.net/browse/WSC-1580",
+        "summary": "SITESPECT - deploy to Production",
+        "status": "Finalizada",
+        "statusCategory": "done",
+        "assignee": "Jair Huaman",
+        "updated": "2026-07-30T15:12:45.549+0100",
+        "priority": "Importante",
+        "labels": [
+          "NO_QA_REQUIRED"
+        ]
+      },
+      {
+        "key": "WSC-1657",
+        "url": "https://e2x.atlassian.net/browse/WSC-1657",
+        "summary": "Review and Update of Playwright Affected Testcases for Release 14.0",
+        "status": "En curso",
+        "statusCategory": "indeterminate",
+        "assignee": "Gerardo Romero",
+        "updated": "2026-07-30T15:11:33.359+0100",
+        "priority": "Not Set",
+        "labels": []
+      },
+      {
+        "key": "WSC-388",
+        "url": "https://e2x.atlassian.net/browse/WSC-388",
+        "summary": "HEADER - quantity overlaps bag icon when more than 1 digit",
+        "status": "En curso",
+        "statusCategory": "indeterminate",
+        "assignee": "Andre Mogrovejo",
+        "updated": "2026-07-30T15:09:31.851+0100",
+        "priority": "Trivial",
+        "labels": [
+          "Needs-QA"
+        ]
+      },
+      {
+        "key": "WSC-1640",
+        "url": "https://e2x.atlassian.net/browse/WSC-1640",
+        "summary": "Unmasking JS errors - VSF",
+        "status": "Listo",
+        "statusCategory": "new",
+        "assignee": "Andre Mogrovejo",
+        "updated": "2026-07-30T15:07:09.593+0100",
+        "priority": "Importante",
+        "labels": [
+          "NO_QA_REQUIRED"
+        ]
+      },
+      {
+        "key": "WSC-1649",
+        "url": "https://e2x.atlassian.net/browse/WSC-1649",
+        "summary": "PDP - spacing issue",
+        "status": "PENDING DEV DEPLOY",
+        "statusCategory": "new",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-07-30T15:05:58.030+0100",
+        "priority": "Poco importante",
+        "labels": [
+          "Needs-QA",
+          "manualQA"
         ]
       },
       {
@@ -58,31 +133,6 @@
         "labels": [
           "Needs-QA",
           "automatable"
-        ]
-      },
-      {
-        "key": "WSC-1657",
-        "url": "https://e2x.atlassian.net/browse/WSC-1657",
-        "summary": "Review and Update of Playwright Affected Testcases for Release 14.0",
-        "status": "Backlog",
-        "statusCategory": "new",
-        "assignee": "Gerardo Romero",
-        "updated": "2026-07-30T14:31:18.179+0100",
-        "priority": "Not Set",
-        "labels": []
-      },
-      {
-        "key": "WSC-1649",
-        "url": "https://e2x.atlassian.net/browse/WSC-1649",
-        "summary": "PDP - spacing issue",
-        "status": "PENDING DEV DEPLOY",
-        "statusCategory": "new",
-        "assignee": "Andre Mogrovejo",
-        "updated": "2026-07-30T14:25:51.839+0100",
-        "priority": "Poco importante",
-        "labels": [
-          "Needs-QA",
-          "manualQA"
         ]
       },
       {
@@ -295,19 +345,6 @@
         "labels": []
       },
       {
-        "key": "WSC-388",
-        "url": "https://e2x.atlassian.net/browse/WSC-388",
-        "summary": "HEADER - quantity overlaps bag icon when more than 1 digit",
-        "status": "Listo",
-        "statusCategory": "new",
-        "assignee": "Unassigned",
-        "updated": "2026-07-30T13:01:50.890+0100",
-        "priority": "Trivial",
-        "labels": [
-          "Needs-QA"
-        ]
-      },
-      {
         "key": "WSC-1522",
         "url": "https://e2x.atlassian.net/browse/WSC-1522",
         "summary": "CONTENT - Personalisation",
@@ -336,19 +373,6 @@
         ]
       },
       {
-        "key": "WSC-1640",
-        "url": "https://e2x.atlassian.net/browse/WSC-1640",
-        "summary": "Unmasking JS errors - VSF",
-        "status": "Listo",
-        "statusCategory": "new",
-        "assignee": "Unassigned",
-        "updated": "2026-07-29T20:23:25.188+0100",
-        "priority": "Importante",
-        "labels": [
-          "NO_QA_REQUIRED"
-        ]
-      },
-      {
         "key": "WSC-1138",
         "url": "https://e2x.atlassian.net/browse/WSC-1138",
         "summary": "GOOD STUFF - add preferred shop to 'My Details'",
@@ -359,19 +383,6 @@
         "priority": "Importante",
         "labels": [
           "Needs-QA"
-        ]
-      },
-      {
-        "key": "WSC-1580",
-        "url": "https://e2x.atlassian.net/browse/WSC-1580",
-        "summary": "SITESPECT - deploy to Production",
-        "status": "En curso",
-        "statusCategory": "indeterminate",
-        "assignee": "Jair Huaman",
-        "updated": "2026-07-29T19:45:18.744+0100",
-        "priority": "Importante",
-        "labels": [
-          "NO_QA_REQUIRED"
         ]
       },
       {
@@ -4125,15 +4136,83 @@
       ]
     },
     "runs": {
-      "total": 52,
-      "latestPassed": 74,
+      "total": 56,
+      "latestPassed": 0,
       "latestFailed": 0,
-      "latestPending": 0,
-      "latestTotal": 74,
-      "latestRunName": "Regression 22/07/26",
-      "latestRunDate": "2026-07-22T12:30:31.333Z",
+      "latestPending": 83,
+      "latestTotal": 83,
+      "latestRunName": "Regression 30/07/26",
+      "latestRunDate": "2026-07-30T14:48:01.709Z",
       "passRate": 99.8,
       "recent": [
+        {
+          "id": 2014,
+          "name": "Regression 30/07/26",
+          "source_id": null,
+          "milestone_id": 236,
+          "config_id": 14,
+          "status": null,
+          "is_completed": false,
+          "elapsed_ms": null,
+          "created_at": "2026-07-30T14:48:01.709Z",
+          "completed_at": null,
+          "passed": 0,
+          "failed": 0,
+          "pending": 83,
+          "completed": 0,
+          "total": 83
+        },
+        {
+          "id": 2013,
+          "name": "Regression 30/07/26",
+          "source_id": null,
+          "milestone_id": 236,
+          "config_id": 13,
+          "status": null,
+          "is_completed": false,
+          "elapsed_ms": null,
+          "created_at": "2026-07-30T14:48:01.704Z",
+          "completed_at": null,
+          "passed": 0,
+          "failed": 0,
+          "pending": 83,
+          "completed": 0,
+          "total": 83
+        },
+        {
+          "id": 2012,
+          "name": "Regression 30/07/26",
+          "source_id": null,
+          "milestone_id": 236,
+          "config_id": 10,
+          "status": null,
+          "is_completed": false,
+          "elapsed_ms": null,
+          "created_at": "2026-07-30T14:48:01.698Z",
+          "completed_at": null,
+          "passed": 0,
+          "failed": 0,
+          "pending": 83,
+          "completed": 0,
+          "total": 83
+        },
+        {
+          "id": 2011,
+          "name": "Regression 30/07/26",
+          "source_id": null,
+          "milestone_id": 236,
+          "config_id": 9,
+          "status": null,
+          "is_completed": false,
+          "elapsed_ms": null,
+          "created_at": "2026-07-30T14:48:01.682Z",
+          "completed_at": null,
+          "passed": 0,
+          "failed": 0,
+          "pending": 83,
+          "completed": 0,
+          "total": 83
+        },
         {
           "id": 1977,
           "name": "Regression 22/07/26",
@@ -4229,74 +4308,6 @@
           "is_completed": false,
           "elapsed_ms": null,
           "created_at": "2026-07-20T21:04:41.110Z",
-          "completed_at": null,
-          "passed": 74,
-          "failed": 0,
-          "pending": 0,
-          "completed": 74,
-          "total": 74
-        },
-        {
-          "id": 1964,
-          "name": "Regression 20/07/26",
-          "source_id": null,
-          "milestone_id": 234,
-          "config_id": 10,
-          "status": null,
-          "is_completed": false,
-          "elapsed_ms": null,
-          "created_at": "2026-07-20T21:04:41.100Z",
-          "completed_at": null,
-          "passed": 74,
-          "failed": 0,
-          "pending": 0,
-          "completed": 74,
-          "total": 74
-        },
-        {
-          "id": 1963,
-          "name": "Regression 20/07/26",
-          "source_id": null,
-          "milestone_id": 234,
-          "config_id": 9,
-          "status": null,
-          "is_completed": false,
-          "elapsed_ms": null,
-          "created_at": "2026-07-20T21:04:41.090Z",
-          "completed_at": null,
-          "passed": 74,
-          "failed": 0,
-          "pending": 0,
-          "completed": 74,
-          "total": 74
-        },
-        {
-          "id": 1953,
-          "name": "Regression 16/07/26",
-          "source_id": null,
-          "milestone_id": 233,
-          "config_id": 14,
-          "status": null,
-          "is_completed": false,
-          "elapsed_ms": null,
-          "created_at": "2026-07-16T13:21:37.491Z",
-          "completed_at": null,
-          "passed": 74,
-          "failed": 0,
-          "pending": 0,
-          "completed": 74,
-          "total": 74
-        },
-        {
-          "id": 1952,
-          "name": "Regression 16/07/26",
-          "source_id": null,
-          "milestone_id": 233,
-          "config_id": 13,
-          "status": null,
-          "is_completed": false,
-          "elapsed_ms": null,
-          "created_at": "2026-07-16T13:21:37.485Z",
           "completed_at": null,
           "passed": 74,
           "failed": 0,
