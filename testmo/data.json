@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-31T15:38:11.488406+00:00",
+  "lastUpdated": "2026-07-31T17:40:04.341405+00:00",
   "milestones": [
     {
       "id": 236,
@@ -1156,12 +1156,12 @@
       "total": 83,
       "completed": 83,
       "remaining": 0,
-      "passed": 69,
+      "passed": 83,
       "failed": 0,
       "retest": 0,
       "blocked": 0,
       "untested": 0,
-      "skipped": 14,
+      "skipped": 0,
       "statusCounts": {
         "Untested": {
           "id": 1,
@@ -1169,7 +1169,7 @@
         },
         "Passed": {
           "id": 2,
-          "count": 69
+          "count": 83
         },
         "Failed": {
           "id": 3,
@@ -1185,7 +1185,7 @@
         },
         "Skipped": {
           "id": 6,
-          "count": 14
+          "count": 0
         },
         "Status 7": {
           "id": 7,
@@ -1440,6 +1440,17 @@
           "updatedAt": "2026-07-31T02:44:47.785Z"
         },
         {
+          "caseId": 132954,
+          "testId": 1658231,
+          "name": "EUR Checkout Shows FREE For Europe Standard When Bag Value Is \u20ac150 Or Above",
+          "tags": [],
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-07-31T16:25:52.402Z"
+        },
+        {
           "caseId": 132953,
           "testId": 1658230,
           "name": "EUR Checkout Shows From \u20ac7.00 For Europe Standard When Bag Value Is Below \u20ac150",
@@ -1460,6 +1471,61 @@
           "note": "",
           "assigneeId": null,
           "updatedAt": "2026-07-31T02:44:52.619Z"
+        },
+        {
+          "caseId": 114318,
+          "testId": 1658184,
+          "name": "Header Search - Entering Search Term Displays Related Products",
+          "tags": [],
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-07-31T15:43:27.678Z"
+        },
+        {
+          "caseId": 114319,
+          "testId": 1658185,
+          "name": "Header Search - Entering Search Term Displays Related Search Terms",
+          "tags": [],
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-07-31T15:43:22.203Z"
+        },
+        {
+          "caseId": 114317,
+          "testId": 1658183,
+          "name": "Header Search - Pressing Enter In Search Box Redirects To Search Results Page",
+          "tags": [],
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-07-31T15:43:32.817Z"
+        },
+        {
+          "caseId": 114320,
+          "testId": 1658186,
+          "name": "Header Search - Search Box Can Be Hidden By Clicking The X Icon",
+          "tags": [],
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-07-31T15:43:42.766Z"
+        },
+        {
+          "caseId": 122033,
+          "testId": 1658216,
+          "name": "Header Search - Search Box Can Be Hidden By Pressing The Escape Key",
+          "tags": [],
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-07-31T15:43:55.509Z"
         },
         {
           "caseId": 114352,
@@ -1484,6 +1550,17 @@
           "updatedAt": "2026-07-31T02:44:47.785Z"
         },
         {
+          "caseId": 114315,
+          "testId": 1658181,
+          "name": "PLP - User Can Click Alternative Colour To Navigate To That Product Variant PDP",
+          "tags": [],
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-07-31T15:42:59.717Z"
+        },
+        {
           "caseId": 114313,
           "testId": 1658179,
           "name": "PLP - User Can Click Product Image To Navigate To PDP",
@@ -1493,6 +1570,17 @@
           "note": "",
           "assigneeId": null,
           "updatedAt": "2026-07-31T02:44:34.803Z"
+        },
+        {
+          "caseId": 114312,
+          "testId": 1658178,
+          "name": "PLP - User Can Click Product Name To Navigate To PDP",
+          "tags": [],
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-07-31T15:42:28.682Z"
         },
         {
           "caseId": 114314,
@@ -1550,6 +1638,17 @@
           "updatedAt": "2026-07-31T02:44:52.619Z"
         },
         {
+          "caseId": 122036,
+          "testId": 1658219,
+          "name": "Selecting A Different Colour Resets Size Variant Selection On PDP",
+          "tags": [],
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-07-31T15:44:23.681Z"
+        },
+        {
           "caseId": 127261,
           "testId": 1658224,
           "name": "UK: configured options visible; zone options hidden",
@@ -1603,6 +1702,28 @@
           "note": "",
           "assigneeId": null,
           "updatedAt": "2026-07-31T02:44:47.785Z"
+        },
+        {
+          "caseId": 132956,
+          "testId": 1658233,
+          "name": "USD Checkout Shows FREE For International Standard When Bag Value Is $150 Or Above",
+          "tags": [],
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-07-31T16:25:58.344Z"
+        },
+        {
+          "caseId": 132955,
+          "testId": 1658232,
+          "name": "USD Checkout Shows From $7.00 For International Standard When Bag Value Is Below $150",
+          "tags": [],
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-07-31T16:25:55.884Z"
         },
         {
           "caseId": 114287,
@@ -1924,6 +2045,28 @@
           "updatedAt": "2026-07-31T15:33:32.770Z"
         },
         {
+          "caseId": 114307,
+          "testId": 1658174,
+          "name": "Verify PDP Currency Is Displayed Correctly Per Locale",
+          "tags": [],
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-07-31T15:41:50.713Z"
+        },
+        {
+          "caseId": 114309,
+          "testId": 1658176,
+          "name": "Verify PDP Displays 404 Error For Non-Existent Product",
+          "tags": [],
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-07-31T15:42:07.505Z"
+        },
+        {
           "caseId": 114306,
           "testId": 1658173,
           "name": "Verify PDP Variant Stock States Are Displayed Correctly",
@@ -1955,6 +2098,17 @@
           "note": "",
           "assigneeId": null,
           "updatedAt": "2026-07-31T02:44:40.075Z"
+        },
+        {
+          "caseId": 114316,
+          "testId": 1658182,
+          "name": "Verify PLP Images Are Loaded From Amplience CDN",
+          "tags": [],
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-07-31T15:43:04.147Z"
         },
         {
           "caseId": 114329,
@@ -2021,160 +2175,6 @@
           "note": "",
           "assigneeId": null,
           "updatedAt": "2026-07-31T02:44:40.075Z"
-        },
-        {
-          "caseId": 132954,
-          "testId": 1658231,
-          "name": "EUR Checkout Shows FREE For Europe Standard When Bag Value Is \u20ac150 Or Above",
-          "tags": [],
-          "statusId": 6,
-          "status": "Skipped",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-07-31T02:46:10.719Z"
-        },
-        {
-          "caseId": 114318,
-          "testId": 1658184,
-          "name": "Header Search - Entering Search Term Displays Related Products",
-          "tags": [],
-          "statusId": 6,
-          "status": "Skipped",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-07-31T02:46:46.602Z"
-        },
-        {
-          "caseId": 114319,
-          "testId": 1658185,
-          "name": "Header Search - Entering Search Term Displays Related Search Terms",
-          "tags": [],
-          "statusId": 6,
-          "status": "Skipped",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-07-31T02:47:27.878Z"
-        },
-        {
-          "caseId": 114317,
-          "testId": 1658183,
-          "name": "Header Search - Pressing Enter In Search Box Redirects To Search Results Page",
-          "tags": [],
-          "statusId": 6,
-          "status": "Skipped",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-07-31T02:47:17.032Z"
-        },
-        {
-          "caseId": 114320,
-          "testId": 1658186,
-          "name": "Header Search - Search Box Can Be Hidden By Clicking The X Icon",
-          "tags": [],
-          "statusId": 6,
-          "status": "Skipped",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-07-31T02:46:56.065Z"
-        },
-        {
-          "caseId": 122033,
-          "testId": 1658216,
-          "name": "Header Search - Search Box Can Be Hidden By Pressing The Escape Key",
-          "tags": [],
-          "statusId": 6,
-          "status": "Skipped",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-07-31T02:47:06.334Z"
-        },
-        {
-          "caseId": 114315,
-          "testId": 1658181,
-          "name": "PLP - User Can Click Alternative Colour To Navigate To That Product Variant PDP",
-          "tags": [],
-          "statusId": 6,
-          "status": "Skipped",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-07-31T02:45:43.496Z"
-        },
-        {
-          "caseId": 114312,
-          "testId": 1658178,
-          "name": "PLP - User Can Click Product Name To Navigate To PDP",
-          "tags": [],
-          "statusId": 6,
-          "status": "Skipped",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-07-31T02:45:31.909Z"
-        },
-        {
-          "caseId": 122036,
-          "testId": 1658219,
-          "name": "Selecting A Different Colour Resets Size Variant Selection On PDP",
-          "tags": [],
-          "statusId": 6,
-          "status": "Skipped",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-07-31T02:48:37.375Z"
-        },
-        {
-          "caseId": 132956,
-          "testId": 1658233,
-          "name": "USD Checkout Shows FREE For International Standard When Bag Value Is $150 Or Above",
-          "tags": [],
-          "statusId": 6,
-          "status": "Skipped",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-07-31T02:46:33.512Z"
-        },
-        {
-          "caseId": 132955,
-          "testId": 1658232,
-          "name": "USD Checkout Shows From $7.00 For International Standard When Bag Value Is Below $150",
-          "tags": [],
-          "statusId": 6,
-          "status": "Skipped",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-07-31T02:46:21.855Z"
-        },
-        {
-          "caseId": 114307,
-          "testId": 1658174,
-          "name": "Verify PDP Currency Is Displayed Correctly Per Locale",
-          "tags": [],
-          "statusId": 6,
-          "status": "Skipped",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-07-31T02:48:50.116Z"
-        },
-        {
-          "caseId": 114309,
-          "testId": 1658176,
-          "name": "Verify PDP Displays 404 Error For Non-Existent Product",
-          "tags": [],
-          "statusId": 6,
-          "status": "Skipped",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-07-31T02:49:02.063Z"
-        },
-        {
-          "caseId": 114316,
-          "testId": 1658182,
-          "name": "Verify PLP Images Are Loaded From Amplience CDN",
-          "tags": [],
-          "statusId": 6,
-          "status": "Skipped",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-07-31T02:45:57.376Z"
         }
       ]
     },
@@ -2192,12 +2192,12 @@
       "total": 83,
       "completed": 83,
       "remaining": 0,
-      "passed": 79,
+      "passed": 83,
       "failed": 0,
       "retest": 0,
       "blocked": 0,
       "untested": 0,
-      "skipped": 4,
+      "skipped": 0,
       "statusCounts": {
         "Untested": {
           "id": 1,
@@ -2205,7 +2205,7 @@
         },
         "Passed": {
           "id": 2,
-          "count": 79
+          "count": 83
         },
         "Failed": {
           "id": 3,
@@ -2221,7 +2221,7 @@
         },
         "Skipped": {
           "id": 6,
-          "count": 4
+          "count": 0
         },
         "Status 7": {
           "id": 7,
@@ -2410,6 +2410,17 @@
           "updatedAt": "2026-07-31T02:53:11.080Z"
         },
         {
+          "caseId": 114339,
+          "testId": 1658077,
+          "name": "Click And Collect Overlay - User Can Update Store Finder Location",
+          "tags": [],
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-07-31T15:48:57.850Z"
+        },
+        {
           "caseId": 114290,
           "testId": 1658032,
           "name": "Email Address Persists When Navigating To Reset Password From Checkout Identity Page",
@@ -2463,6 +2474,17 @@
           "note": "",
           "assigneeId": null,
           "updatedAt": "2026-07-31T02:53:17.369Z"
+        },
+        {
+          "caseId": 132954,
+          "testId": 1658104,
+          "name": "EUR Checkout Shows FREE For Europe Standard When Bag Value Is \u20ac150 Or Above",
+          "tags": [],
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-07-31T16:26:03.429Z"
         },
         {
           "caseId": 132953,
@@ -2716,6 +2738,28 @@
           "note": "",
           "assigneeId": null,
           "updatedAt": "2026-07-31T02:53:17.369Z"
+        },
+        {
+          "caseId": 132956,
+          "testId": 1658106,
+          "name": "USD Checkout Shows FREE For International Standard When Bag Value Is $150 Or Above",
+          "tags": [],
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-07-31T16:26:08.705Z"
+        },
+        {
+          "caseId": 132955,
+          "testId": 1658105,
+          "name": "USD Checkout Shows From $7.00 For International Standard When Bag Value Is Below $150",
+          "tags": [],
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-07-31T16:26:06.024Z"
         },
         {
           "caseId": 114287,
@@ -3167,50 +3211,6 @@
           "note": "",
           "assigneeId": null,
           "updatedAt": "2026-07-31T02:53:11.080Z"
-        },
-        {
-          "caseId": 114339,
-          "testId": 1658077,
-          "name": "Click And Collect Overlay - User Can Update Store Finder Location",
-          "tags": [],
-          "statusId": 6,
-          "status": "Skipped",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-07-31T02:53:42.534Z"
-        },
-        {
-          "caseId": 132954,
-          "testId": 1658104,
-          "name": "EUR Checkout Shows FREE For Europe Standard When Bag Value Is \u20ac150 Or Above",
-          "tags": [],
-          "statusId": 6,
-          "status": "Skipped",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-07-31T02:55:01.698Z"
-        },
-        {
-          "caseId": 132956,
-          "testId": 1658106,
-          "name": "USD Checkout Shows FREE For International Standard When Bag Value Is $150 Or Above",
-          "tags": [],
-          "statusId": 6,
-          "status": "Skipped",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-07-31T02:55:31.111Z"
-        },
-        {
-          "caseId": 132955,
-          "testId": 1658105,
-          "name": "USD Checkout Shows From $7.00 For International Standard When Bag Value Is Below $150",
-          "tags": [],
-          "statusId": 6,
-          "status": "Skipped",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-07-31T02:55:12.822Z"
         }
       ]
     },
@@ -3228,12 +3228,12 @@
       "total": 83,
       "completed": 83,
       "remaining": 0,
-      "passed": 76,
+      "passed": 83,
       "failed": 0,
       "retest": 0,
       "blocked": 0,
       "untested": 0,
-      "skipped": 7,
+      "skipped": 0,
       "statusCounts": {
         "Untested": {
           "id": 1,
@@ -3241,7 +3241,7 @@
         },
         "Passed": {
           "id": 2,
-          "count": 76
+          "count": 83
         },
         "Failed": {
           "id": 3,
@@ -3257,7 +3257,7 @@
         },
         "Skipped": {
           "id": 6,
-          "count": 7
+          "count": 0
         },
         "Status 7": {
           "id": 7,
@@ -3512,6 +3512,17 @@
           "updatedAt": "2026-07-31T02:49:42.403Z"
         },
         {
+          "caseId": 132954,
+          "testId": 1657977,
+          "name": "EUR Checkout Shows FREE For Europe Standard When Bag Value Is \u20ac150 Or Above",
+          "tags": [],
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-07-31T16:26:12.903Z"
+        },
+        {
           "caseId": 132953,
           "testId": 1657976,
           "name": "EUR Checkout Shows From \u20ac7.00 For Europe Standard When Bag Value Is Below \u20ac150",
@@ -3609,6 +3620,50 @@
           "note": "",
           "assigneeId": null,
           "updatedAt": "2026-07-31T02:49:42.403Z"
+        },
+        {
+          "caseId": 114315,
+          "testId": 1657927,
+          "name": "PLP - User Can Click Alternative Colour To Navigate To That Product Variant PDP",
+          "tags": [],
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-07-31T16:05:34.365Z"
+        },
+        {
+          "caseId": 114313,
+          "testId": 1657925,
+          "name": "PLP - User Can Click Product Image To Navigate To PDP",
+          "tags": [],
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-07-31T16:04:59.064Z"
+        },
+        {
+          "caseId": 114312,
+          "testId": 1657924,
+          "name": "PLP - User Can Click Product Name To Navigate To PDP",
+          "tags": [],
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-07-31T16:04:53.301Z"
+        },
+        {
+          "caseId": 114314,
+          "testId": 1657926,
+          "name": "PLP - User Can See Correct Product Price Per Locale",
+          "tags": [],
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-07-31T16:05:16.308Z"
         },
         {
           "caseId": 133819,
@@ -3719,6 +3774,28 @@
           "note": "",
           "assigneeId": null,
           "updatedAt": "2026-07-31T02:49:42.403Z"
+        },
+        {
+          "caseId": 132956,
+          "testId": 1657979,
+          "name": "USD Checkout Shows FREE For International Standard When Bag Value Is $150 Or Above",
+          "tags": [],
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-07-31T16:26:18.440Z"
+        },
+        {
+          "caseId": 132955,
+          "testId": 1657978,
+          "name": "USD Checkout Shows From $7.00 For International Standard When Bag Value Is Below $150",
+          "tags": [],
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-07-31T16:26:15.778Z"
         },
         {
           "caseId": 114287,
@@ -4170,83 +4247,6 @@
           "note": "",
           "assigneeId": null,
           "updatedAt": "2026-07-31T02:49:36.459Z"
-        },
-        {
-          "caseId": 132954,
-          "testId": 1657977,
-          "name": "EUR Checkout Shows FREE For Europe Standard When Bag Value Is \u20ac150 Or Above",
-          "tags": [],
-          "statusId": 6,
-          "status": "Skipped",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-07-31T02:49:55.391Z"
-        },
-        {
-          "caseId": 114315,
-          "testId": 1657927,
-          "name": "PLP - User Can Click Alternative Colour To Navigate To That Product Variant PDP",
-          "tags": [],
-          "statusId": 6,
-          "status": "Skipped",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-07-31T02:50:56.761Z"
-        },
-        {
-          "caseId": 114313,
-          "testId": 1657925,
-          "name": "PLP - User Can Click Product Image To Navigate To PDP",
-          "tags": [],
-          "statusId": 6,
-          "status": "Skipped",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-07-31T02:50:45.497Z"
-        },
-        {
-          "caseId": 114312,
-          "testId": 1657924,
-          "name": "PLP - User Can Click Product Name To Navigate To PDP",
-          "tags": [],
-          "statusId": 6,
-          "status": "Skipped",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-07-31T02:50:34.421Z"
-        },
-        {
-          "caseId": 114314,
-          "testId": 1657926,
-          "name": "PLP - User Can See Correct Product Price Per Locale",
-          "tags": [],
-          "statusId": 6,
-          "status": "Skipped",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-07-31T02:51:06.476Z"
-        },
-        {
-          "caseId": 132956,
-          "testId": 1657979,
-          "name": "USD Checkout Shows FREE For International Standard When Bag Value Is $150 Or Above",
-          "tags": [],
-          "statusId": 6,
-          "status": "Skipped",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-07-31T02:50:19.919Z"
-        },
-        {
-          "caseId": 132955,
-          "testId": 1657978,
-          "name": "USD Checkout Shows From $7.00 For International Standard When Bag Value Is Below $150",
-          "tags": [],
-          "statusId": 6,
-          "status": "Skipped",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-07-31T02:50:08.882Z"
         }
       ]
     },
