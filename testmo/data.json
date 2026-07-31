@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-31T13:15:01.149070+00:00",
+  "lastUpdated": "2026-07-31T15:38:11.488406+00:00",
   "milestones": [
     {
       "id": 236,
@@ -1156,12 +1156,12 @@
       "total": 83,
       "completed": 83,
       "remaining": 0,
-      "passed": 62,
+      "passed": 69,
       "failed": 0,
       "retest": 0,
       "blocked": 0,
       "untested": 0,
-      "skipped": 21,
+      "skipped": 14,
       "statusCounts": {
         "Untested": {
           "id": 1,
@@ -1169,7 +1169,7 @@
         },
         "Passed": {
           "id": 2,
-          "count": 62
+          "count": 69
         },
         "Failed": {
           "id": 3,
@@ -1185,7 +1185,7 @@
         },
         "Skipped": {
           "id": 6,
-          "count": 21
+          "count": 14
         },
         "Status 7": {
           "id": 7,
@@ -1263,6 +1263,39 @@
       "config": "Safari, Desktop",
       "url": "https://applydigital.testmo.net/runs/view/2013",
       "cases": [
+        {
+          "caseId": 114304,
+          "testId": 1658171,
+          "name": "Add To Bag - Checkout Button Navigates To Checkout",
+          "tags": [],
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-07-31T15:31:59.777Z"
+        },
+        {
+          "caseId": 114302,
+          "testId": 1658169,
+          "name": "Add To Bag - Confirmation Modal Is Displayed With Correct Product Details",
+          "tags": [],
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-07-31T15:31:16.513Z"
+        },
+        {
+          "caseId": 114303,
+          "testId": 1658170,
+          "name": "Add To Bag - View Bag Button Navigates To Bag Page",
+          "tags": [],
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-07-31T15:31:25.288Z"
+        },
         {
           "caseId": 114342,
           "testId": 1658207,
@@ -1572,6 +1605,39 @@
           "updatedAt": "2026-07-31T02:44:47.785Z"
         },
         {
+          "caseId": 114287,
+          "testId": 1658156,
+          "name": "User Can Register A New Account",
+          "tags": [],
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-07-31T15:28:24.467Z"
+        },
+        {
+          "caseId": 114288,
+          "testId": 1658157,
+          "name": "User Cannot Submit Registration Form With Invalid Password",
+          "tags": [],
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-07-31T15:29:56.516Z"
+        },
+        {
+          "caseId": 114301,
+          "testId": 1658168,
+          "name": "Verify Add To Bag Button Is Enabled After Selecting All Required Variants",
+          "tags": [],
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-07-31T15:31:01.281Z"
+        },
+        {
           "caseId": 114324,
           "testId": 1658190,
           "name": "Verify Adyen Terms And Conditions Must Be Accepted Before Payment",
@@ -1847,6 +1913,17 @@
           "updatedAt": "2026-07-31T02:44:40.075Z"
         },
         {
+          "caseId": 114305,
+          "testId": 1658172,
+          "name": "Verify PDP Accordion Content Expands And Collapses Correctly",
+          "tags": [],
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-07-31T15:33:32.770Z"
+        },
+        {
           "caseId": 114306,
           "testId": 1658173,
           "name": "Verify PDP Variant Stock States Are Displayed Correctly",
@@ -1944,39 +2021,6 @@
           "note": "",
           "assigneeId": null,
           "updatedAt": "2026-07-31T02:44:40.075Z"
-        },
-        {
-          "caseId": 114304,
-          "testId": 1658171,
-          "name": "Add To Bag - Checkout Button Navigates To Checkout",
-          "tags": [],
-          "statusId": 6,
-          "status": "Skipped",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-07-31T02:48:26.915Z"
-        },
-        {
-          "caseId": 114302,
-          "testId": 1658169,
-          "name": "Add To Bag - Confirmation Modal Is Displayed With Correct Product Details",
-          "tags": [],
-          "statusId": 6,
-          "status": "Skipped",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-07-31T02:48:01.235Z"
-        },
-        {
-          "caseId": 114303,
-          "testId": 1658170,
-          "name": "Add To Bag - View Bag Button Navigates To Bag Page",
-          "tags": [],
-          "statusId": 6,
-          "status": "Skipped",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-07-31T02:48:12.057Z"
         },
         {
           "caseId": 132954,
@@ -2100,50 +2144,6 @@
           "updatedAt": "2026-07-31T02:46:21.855Z"
         },
         {
-          "caseId": 114287,
-          "testId": 1658156,
-          "name": "User Can Register A New Account",
-          "tags": [],
-          "statusId": 6,
-          "status": "Skipped",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-07-31T02:45:09.155Z"
-        },
-        {
-          "caseId": 114288,
-          "testId": 1658157,
-          "name": "User Cannot Submit Registration Form With Invalid Password",
-          "tags": [],
-          "statusId": 6,
-          "status": "Skipped",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-07-31T02:45:20.149Z"
-        },
-        {
-          "caseId": 114301,
-          "testId": 1658168,
-          "name": "Verify Add To Bag Button Is Enabled After Selecting All Required Variants",
-          "tags": [],
-          "statusId": 6,
-          "status": "Skipped",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-07-31T02:47:40.821Z"
-        },
-        {
-          "caseId": 114305,
-          "testId": 1658172,
-          "name": "Verify PDP Accordion Content Expands And Collapses Correctly",
-          "tags": [],
-          "statusId": 6,
-          "status": "Skipped",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-07-31T02:47:51.440Z"
-        },
-        {
           "caseId": 114307,
           "testId": 1658174,
           "name": "Verify PDP Currency Is Displayed Correctly Per Locale",
@@ -2192,12 +2192,12 @@
       "total": 83,
       "completed": 83,
       "remaining": 0,
-      "passed": 77,
+      "passed": 79,
       "failed": 0,
       "retest": 0,
       "blocked": 0,
       "untested": 0,
-      "skipped": 6,
+      "skipped": 4,
       "statusCounts": {
         "Untested": {
           "id": 1,
@@ -2205,7 +2205,7 @@
         },
         "Passed": {
           "id": 2,
-          "count": 77
+          "count": 79
         },
         "Failed": {
           "id": 3,
@@ -2221,7 +2221,7 @@
         },
         "Skipped": {
           "id": 6,
-          "count": 6
+          "count": 4
         },
         "Status 7": {
           "id": 7,
@@ -2718,6 +2718,28 @@
           "updatedAt": "2026-07-31T02:53:17.369Z"
         },
         {
+          "caseId": 114287,
+          "testId": 1658029,
+          "name": "User Can Register A New Account",
+          "tags": [],
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-07-31T15:30:02.849Z"
+        },
+        {
+          "caseId": 114288,
+          "testId": 1658030,
+          "name": "User Cannot Submit Registration Form With Invalid Password",
+          "tags": [],
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-07-31T15:30:05.474Z"
+        },
+        {
           "caseId": 114301,
           "testId": 1658041,
           "name": "Verify Add To Bag Button Is Enabled After Selecting All Required Variants",
@@ -3189,28 +3211,6 @@
           "note": "",
           "assigneeId": null,
           "updatedAt": "2026-07-31T02:55:12.822Z"
-        },
-        {
-          "caseId": 114287,
-          "testId": 1658029,
-          "name": "User Can Register A New Account",
-          "tags": [],
-          "statusId": 6,
-          "status": "Skipped",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-07-31T02:53:54.693Z"
-        },
-        {
-          "caseId": 114288,
-          "testId": 1658030,
-          "name": "User Cannot Submit Registration Form With Invalid Password",
-          "tags": [],
-          "statusId": 6,
-          "status": "Skipped",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-07-31T02:54:05.301Z"
         }
       ]
     },
