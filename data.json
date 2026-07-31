@@ -1,14 +1,14 @@
 {
-  "lastUpdated": "2026-07-31T06:44:49.005412+00:00",
+  "lastUpdated": "2026-07-31T10:40:13.823044+00:00",
   "jira": {
     "summary": {
       "total": 329,
       "byStatus": {
+        "Listo": 14,
         "QA Approved": 12,
         "En curso": 7,
         "Tech Review": 15,
         "IN UAT": 4,
-        "Listo": 14,
         "Finalizada": 249,
         "PENDING DEV DEPLOY": 3,
         "READY FOR RELEASE": 2,
@@ -19,6 +19,31 @@
       }
     },
     "tickets": [
+      {
+        "key": "WSC-1646",
+        "url": "https://e2x.atlassian.net/browse/WSC-1646",
+        "summary": "CONTENT - new wider version of Accordion2",
+        "status": "Listo",
+        "statusCategory": "new",
+        "assignee": "Unassigned",
+        "updated": "2026-07-31T09:00:34.669+0100",
+        "priority": "Importante",
+        "labels": [
+          "Needs-QA",
+          "manualQA"
+        ]
+      },
+      {
+        "key": "WSC-1647",
+        "url": "https://e2x.atlassian.net/browse/WSC-1647",
+        "summary": "CONTENT - new wider version of SEOTextBlock",
+        "status": "Listo",
+        "statusCategory": "new",
+        "assignee": "Unassigned",
+        "updated": "2026-07-31T09:00:06.781+0100",
+        "priority": "Importante",
+        "labels": []
+      },
       {
         "key": "WSC-1634",
         "url": "https://e2x.atlassian.net/browse/WSC-1634",
@@ -190,31 +215,6 @@
         "labels": [
           "FastFollow",
           "Needs-QA"
-        ]
-      },
-      {
-        "key": "WSC-1647",
-        "url": "https://e2x.atlassian.net/browse/WSC-1647",
-        "summary": "CONTENT - new wider version of SEOTextBlock",
-        "status": "Listo",
-        "statusCategory": "new",
-        "assignee": "Unassigned",
-        "updated": "2026-07-30T19:03:50.022+0100",
-        "priority": "Importante",
-        "labels": []
-      },
-      {
-        "key": "WSC-1646",
-        "url": "https://e2x.atlassian.net/browse/WSC-1646",
-        "summary": "CONTENT - new wider version of Accordion2",
-        "status": "Listo",
-        "statusCategory": "new",
-        "assignee": "Unassigned",
-        "updated": "2026-07-30T19:02:04.159+0100",
-        "priority": "Importante",
-        "labels": [
-          "Needs-QA",
-          "manualQA"
         ]
       },
       {
