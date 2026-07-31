@@ -1,15 +1,16 @@
 {
-  "lastUpdated": "2026-07-30T21:11:21.320160+00:00",
+  "lastUpdated": "2026-07-31T02:54:38.882726+00:00",
   "jira": {
     "summary": {
       "total": 329,
       "byStatus": {
+        "QA Approved": 12,
         "En curso": 7,
-        "Listo": 15,
+        "Tech Review": 15,
+        "IN UAT": 4,
+        "Listo": 14,
         "Finalizada": 249,
         "PENDING DEV DEPLOY": 3,
-        "QA Approved": 16,
-        "Tech Review": 14,
         "READY FOR RELEASE": 2,
         "Backlog": 7,
         "Blocked": 4,
@@ -18,6 +19,132 @@
       }
     },
     "tickets": [
+      {
+        "key": "WSC-1634",
+        "url": "https://e2x.atlassian.net/browse/WSC-1634",
+        "summary": "PLP header - new styling",
+        "status": "QA Approved",
+        "statusCategory": "indeterminate",
+        "assignee": "Gerardo Romero",
+        "updated": "2026-07-31T03:32:48.330+0100",
+        "priority": "Importante",
+        "labels": []
+      },
+      {
+        "key": "WSC-1633",
+        "url": "https://e2x.atlassian.net/browse/WSC-1633",
+        "summary": "PDP - DESKTOP - CTA group not centred on the page",
+        "status": "QA Approved",
+        "statusCategory": "indeterminate",
+        "assignee": "Ingrith Santamaria",
+        "updated": "2026-07-31T03:24:53.300+0100",
+        "priority": "Poco importante",
+        "labels": []
+      },
+      {
+        "key": "WSC-1616",
+        "url": "https://e2x.atlassian.net/browse/WSC-1616",
+        "summary": "LOCALE SELECTOR - change of name",
+        "status": "QA Approved",
+        "statusCategory": "indeterminate",
+        "assignee": "Ingrith Santamaria",
+        "updated": "2026-07-31T03:22:12.538+0100",
+        "priority": "Poco importante",
+        "labels": []
+      },
+      {
+        "key": "WSC-1593",
+        "url": "https://e2x.atlassian.net/browse/WSC-1593",
+        "summary": "MY ACCOUNT - restrictions on /saved-addresses for name and address ",
+        "status": "QA Approved",
+        "statusCategory": "indeterminate",
+        "assignee": "Ingrith Santamaria",
+        "updated": "2026-07-31T03:18:58.822+0100",
+        "priority": "Poco importante",
+        "labels": [
+          "Needs-QA",
+          "automatable"
+        ]
+      },
+      {
+        "key": "WSC-1650",
+        "url": "https://e2x.atlassian.net/browse/WSC-1650",
+        "summary": "Google Maps API loaded globally on all pages instead of only where needed",
+        "status": "En curso",
+        "statusCategory": "indeterminate",
+        "assignee": "Alexander Talavera",
+        "updated": "2026-07-31T00:34:32.614+0100",
+        "priority": "Importante",
+        "labels": [
+          "Needs-QA"
+        ]
+      },
+      {
+        "key": "WSC-1648",
+        "url": "https://e2x.atlassian.net/browse/WSC-1648",
+        "summary": "[WSSD-666] outcome - User cannot switch to USA & Canada / RoW in 2 PLPs",
+        "status": "Tech Review",
+        "statusCategory": "indeterminate",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-07-31T00:34:12.084+0100",
+        "priority": "Poco importante",
+        "labels": [
+          "Needs-QA",
+          "automatable"
+        ]
+      },
+      {
+        "key": "WSC-1638",
+        "url": "https://e2x.atlassian.net/browse/WSC-1638",
+        "summary": "APPLE PAY EXPRESS - CTA font size",
+        "status": "IN UAT",
+        "statusCategory": "indeterminate",
+        "assignee": "Ingrith Santamaria",
+        "updated": "2026-07-30T23:27:30.678+0100",
+        "priority": "Importante",
+        "labels": []
+      },
+      {
+        "key": "WSC-1563",
+        "url": "https://e2x.atlassian.net/browse/WSC-1563",
+        "summary": "MINI BAG - minor amend for Apple Pay Express",
+        "status": "IN UAT",
+        "statusCategory": "indeterminate",
+        "assignee": "Ingrith Santamaria",
+        "updated": "2026-07-30T23:18:12.074+0100",
+        "priority": "Importante",
+        "labels": [
+          "Needs-QA"
+        ]
+      },
+      {
+        "key": "WSC-1561",
+        "url": "https://e2x.atlassian.net/browse/WSC-1561",
+        "summary": "BAG - minor amendments for Apple Pay Express",
+        "status": "IN UAT",
+        "statusCategory": "indeterminate",
+        "assignee": "Ingrith Santamaria",
+        "updated": "2026-07-30T23:14:34.258+0100",
+        "priority": "Importante",
+        "labels": [
+          "Needs-QA",
+          "manualQA"
+        ]
+      },
+      {
+        "key": "WSC-1560",
+        "url": "https://e2x.atlassian.net/browse/WSC-1560",
+        "summary": "CHECKOUT IDENTITY PAGE - minor amend for Apple Pay Express",
+        "status": "IN UAT",
+        "statusCategory": "indeterminate",
+        "assignee": "Ingrith Santamaria",
+        "updated": "2026-07-30T23:11:16.558+0100",
+        "priority": "Importante",
+        "labels": [
+          "Needs-QA",
+          "manualQA"
+        ]
+      },
       {
         "key": "WSC-1652",
         "url": "https://e2x.atlassian.net/browse/WSC-1652",
@@ -88,20 +215,6 @@
         "labels": [
           "Needs-QA",
           "manualQA"
-        ]
-      },
-      {
-        "key": "WSC-1648",
-        "url": "https://e2x.atlassian.net/browse/WSC-1648",
-        "summary": "[WSSD-666] outcome - User cannot switch to USA & Canada / RoW in 2 PLPs",
-        "status": "En curso",
-        "statusCategory": "indeterminate",
-        "assignee": "Alexander Talavera",
-        "updated": "2026-07-30T15:24:15.820+0100",
-        "priority": "Poco importante",
-        "labels": [
-          "Needs-QA",
-          "automatable"
         ]
       },
       {
@@ -232,61 +345,6 @@
         ]
       },
       {
-        "key": "WSC-1560",
-        "url": "https://e2x.atlassian.net/browse/WSC-1560",
-        "summary": "CHECKOUT IDENTITY PAGE - minor amend for Apple Pay Express",
-        "status": "QA Approved",
-        "statusCategory": "indeterminate",
-        "assignee": "Ingrith Santamaria",
-        "updated": "2026-07-30T13:41:15.350+0100",
-        "priority": "Importante",
-        "labels": [
-          "Needs-QA",
-          "manualQA"
-        ]
-      },
-      {
-        "key": "WSC-1593",
-        "url": "https://e2x.atlassian.net/browse/WSC-1593",
-        "summary": "MY ACCOUNT - restrictions on /saved-addresses for name and address ",
-        "status": "QA Approved",
-        "statusCategory": "indeterminate",
-        "assignee": "Ingrith Santamaria",
-        "updated": "2026-07-30T13:41:14.887+0100",
-        "priority": "Poco importante",
-        "labels": [
-          "Needs-QA",
-          "automatable"
-        ]
-      },
-      {
-        "key": "WSC-1561",
-        "url": "https://e2x.atlassian.net/browse/WSC-1561",
-        "summary": "BAG - minor amendments for Apple Pay Express",
-        "status": "QA Approved",
-        "statusCategory": "indeterminate",
-        "assignee": "Ingrith Santamaria",
-        "updated": "2026-07-30T13:41:14.376+0100",
-        "priority": "Importante",
-        "labels": [
-          "Needs-QA",
-          "manualQA"
-        ]
-      },
-      {
-        "key": "WSC-1563",
-        "url": "https://e2x.atlassian.net/browse/WSC-1563",
-        "summary": "MINI BAG - minor amend for Apple Pay Express",
-        "status": "QA Approved",
-        "statusCategory": "indeterminate",
-        "assignee": "Ingrith Santamaria",
-        "updated": "2026-07-30T13:41:13.884+0100",
-        "priority": "Importante",
-        "labels": [
-          "Needs-QA"
-        ]
-      },
-      {
         "key": "WSC-1520",
         "url": "https://e2x.atlassian.net/browse/WSC-1520",
         "summary": "[Automation] Expand & Standardize Axe Accessibility Test Coverage",
@@ -326,17 +384,6 @@
         "labels": []
       },
       {
-        "key": "WSC-1633",
-        "url": "https://e2x.atlassian.net/browse/WSC-1633",
-        "summary": "PDP - DESKTOP - CTA group not centred on the page",
-        "status": "QA Approved",
-        "statusCategory": "indeterminate",
-        "assignee": "Ingrith Santamaria",
-        "updated": "2026-07-30T13:41:11.291+0100",
-        "priority": "Poco importante",
-        "labels": []
-      },
-      {
         "key": "WSC-1611",
         "url": "https://e2x.atlassian.net/browse/WSC-1611",
         "summary": "CONTENT - SlimBanner 'Sale' exclusions",
@@ -345,39 +392,6 @@
         "assignee": "Ingrith Santamaria",
         "updated": "2026-07-30T13:41:10.816+0100",
         "priority": "Poco importante",
-        "labels": []
-      },
-      {
-        "key": "WSC-1634",
-        "url": "https://e2x.atlassian.net/browse/WSC-1634",
-        "summary": "PLP header - new styling",
-        "status": "QA Approved",
-        "statusCategory": "indeterminate",
-        "assignee": "Gerardo Romero",
-        "updated": "2026-07-30T13:41:10.269+0100",
-        "priority": "Importante",
-        "labels": []
-      },
-      {
-        "key": "WSC-1616",
-        "url": "https://e2x.atlassian.net/browse/WSC-1616",
-        "summary": "LOCALE SELECTOR - change of name",
-        "status": "QA Approved",
-        "statusCategory": "indeterminate",
-        "assignee": "Ingrith Santamaria",
-        "updated": "2026-07-30T13:41:09.095+0100",
-        "priority": "Poco importante",
-        "labels": []
-      },
-      {
-        "key": "WSC-1638",
-        "url": "https://e2x.atlassian.net/browse/WSC-1638",
-        "summary": "APPLE PAY EXPRESS - CTA font size",
-        "status": "QA Approved",
-        "statusCategory": "indeterminate",
-        "assignee": "Ingrith Santamaria",
-        "updated": "2026-07-30T13:41:08.555+0100",
-        "priority": "Importante",
         "labels": []
       },
       {
@@ -456,19 +470,6 @@
         "priority": "Not Set",
         "labels": [
           "FastFollow"
-        ]
-      },
-      {
-        "key": "WSC-1650",
-        "url": "https://e2x.atlassian.net/browse/WSC-1650",
-        "summary": "Google Maps API loaded globally on all pages instead of only where needed",
-        "status": "Listo",
-        "statusCategory": "new",
-        "assignee": "Alexander Talavera",
-        "updated": "2026-07-29T19:11:21.994+0100",
-        "priority": "Importante",
-        "labels": [
-          "Needs-QA"
         ]
       },
       {
@@ -4183,13 +4184,13 @@
     },
     "runs": {
       "total": 56,
-      "latestPassed": 0,
+      "latestPassed": 79,
       "latestFailed": 0,
-      "latestPending": 83,
+      "latestPending": 0,
       "latestTotal": 83,
       "latestRunName": "Regression 30/07/26",
       "latestRunDate": "2026-07-30T14:48:01.709Z",
-      "passRate": 99.8,
+      "passRate": 99.9,
       "recent": [
         {
           "id": 2014,
@@ -4202,10 +4203,10 @@
           "elapsed_ms": null,
           "created_at": "2026-07-30T14:48:01.709Z",
           "completed_at": null,
-          "passed": 0,
+          "passed": 79,
           "failed": 0,
-          "pending": 83,
-          "completed": 0,
+          "pending": 0,
+          "completed": 83,
           "total": 83
         },
         {
@@ -4219,10 +4220,10 @@
           "elapsed_ms": null,
           "created_at": "2026-07-30T14:48:01.704Z",
           "completed_at": null,
-          "passed": 0,
+          "passed": 62,
           "failed": 0,
-          "pending": 83,
-          "completed": 0,
+          "pending": 0,
+          "completed": 83,
           "total": 83
         },
         {
@@ -4236,10 +4237,10 @@
           "elapsed_ms": null,
           "created_at": "2026-07-30T14:48:01.698Z",
           "completed_at": null,
-          "passed": 0,
+          "passed": 79,
           "failed": 0,
-          "pending": 83,
-          "completed": 0,
+          "pending": 0,
+          "completed": 83,
           "total": 83
         },
         {
@@ -4253,10 +4254,10 @@
           "elapsed_ms": null,
           "created_at": "2026-07-30T14:48:01.682Z",
           "completed_at": null,
-          "passed": 0,
+          "passed": 76,
           "failed": 0,
-          "pending": 83,
-          "completed": 0,
+          "pending": 0,
+          "completed": 83,
           "total": 83
         },
         {
