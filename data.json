@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-31T02:54:38.882726+00:00",
+  "lastUpdated": "2026-07-31T06:44:49.005412+00:00",
   "jira": {
     "summary": {
       "total": 329,
@@ -4237,7 +4237,7 @@
           "elapsed_ms": null,
           "created_at": "2026-07-30T14:48:01.698Z",
           "completed_at": null,
-          "passed": 79,
+          "passed": 77,
           "failed": 0,
           "pending": 0,
           "completed": 83,
