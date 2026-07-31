@@ -1,14 +1,14 @@
 {
-  "lastUpdated": "2026-07-31T10:40:13.823044+00:00",
+  "lastUpdated": "2026-07-31T14:09:26.527121+00:00",
   "jira": {
     "summary": {
-      "total": 329,
+      "total": 330,
       "byStatus": {
         "Listo": 14,
-        "QA Approved": 12,
-        "En curso": 7,
-        "Tech Review": 15,
-        "IN UAT": 4,
+        "En curso": 6,
+        "Tech Review": 17,
+        "IN UAT": 5,
+        "QA Approved": 11,
         "Finalizada": 249,
         "PENDING DEV DEPLOY": 3,
         "READY FOR RELEASE": 2,
@@ -19,6 +19,89 @@
       }
     },
     "tickets": [
+      {
+        "key": "WSC-1367",
+        "url": "https://e2x.atlassian.net/browse/WSC-1367",
+        "summary": "PLP - further pagination amend",
+        "status": "Listo",
+        "statusCategory": "new",
+        "assignee": "Unassigned",
+        "updated": "2026-07-31T15:02:29.923+0100",
+        "priority": "Poco importante",
+        "labels": [
+          "Needs-QA"
+        ]
+      },
+      {
+        "key": "WSC-1641",
+        "url": "https://e2x.atlassian.net/browse/WSC-1641",
+        "summary": "Unmasking JS errors - Checkout",
+        "status": "Listo",
+        "statusCategory": "new",
+        "assignee": "Alexander Talavera",
+        "updated": "2026-07-31T14:56:00.564+0100",
+        "priority": "Importante",
+        "labels": [
+          "NO_QA_REQUIRED"
+        ]
+      },
+      {
+        "key": "WSC-1433",
+        "url": "https://e2x.atlassian.net/browse/WSC-1433",
+        "summary": "PDP - attributes",
+        "status": "En curso",
+        "statusCategory": "indeterminate",
+        "assignee": "Jair Huaman",
+        "updated": "2026-07-31T14:55:53.293+0100",
+        "priority": "Poco importante",
+        "labels": []
+      },
+      {
+        "key": "WSC-388",
+        "url": "https://e2x.atlassian.net/browse/WSC-388",
+        "summary": "HEADER - quantity overlaps bag icon when more than 1 digit",
+        "status": "Tech Review",
+        "statusCategory": "indeterminate",
+        "assignee": "Andre Mogrovejo",
+        "updated": "2026-07-31T14:39:22.413+0100",
+        "priority": "Trivial",
+        "labels": [
+          "Needs-QA"
+        ]
+      },
+      {
+        "key": "WSC-1657",
+        "url": "https://e2x.atlassian.net/browse/WSC-1657",
+        "summary": "Review and Update of Playwright Affected Testcases for Release 14.0",
+        "status": "En curso",
+        "statusCategory": "indeterminate",
+        "assignee": "Gerardo Romero",
+        "updated": "2026-07-31T14:26:42.293+0100",
+        "priority": "Not Set",
+        "labels": []
+      },
+      {
+        "key": "WSC-1610",
+        "url": "https://e2x.atlassian.net/browse/WSC-1610",
+        "summary": "CHECKOUT - minor amendment for EUR and USD",
+        "status": "IN UAT",
+        "statusCategory": "indeterminate",
+        "assignee": "Ingrith Santamaria",
+        "updated": "2026-07-31T13:56:06.128+0100",
+        "priority": "Cr\u00edtica",
+        "labels": []
+      },
+      {
+        "key": "WSC-1652",
+        "url": "https://e2x.atlassian.net/browse/WSC-1652",
+        "summary": "MONETATE - identify where this is implemented",
+        "status": "Tech Review",
+        "statusCategory": "indeterminate",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-07-31T13:50:52.016+0100",
+        "priority": "Importante",
+        "labels": []
+      },
       {
         "key": "WSC-1646",
         "url": "https://e2x.atlassian.net/browse/WSC-1646",
@@ -171,17 +254,6 @@
         ]
       },
       {
-        "key": "WSC-1652",
-        "url": "https://e2x.atlassian.net/browse/WSC-1652",
-        "summary": "MONETATE - identify where this is implemented",
-        "status": "En curso",
-        "statusCategory": "indeterminate",
-        "assignee": "Jair Huaman",
-        "updated": "2026-07-30T21:07:13.875+0100",
-        "priority": "Importante",
-        "labels": []
-      },
-      {
         "key": "WSC-1607",
         "url": "https://e2x.atlassian.net/browse/WSC-1607",
         "summary": "PDP - Stylitics - Android issue",
@@ -189,17 +261,6 @@
         "statusCategory": "new",
         "assignee": "Unassigned",
         "updated": "2026-07-30T19:23:19.931+0100",
-        "priority": "Poco importante",
-        "labels": []
-      },
-      {
-        "key": "WSC-1433",
-        "url": "https://e2x.atlassian.net/browse/WSC-1433",
-        "summary": "PDP - attributes",
-        "status": "Listo",
-        "statusCategory": "new",
-        "assignee": "Unassigned",
-        "updated": "2026-07-30T19:15:38.533+0100",
         "priority": "Poco importante",
         "labels": []
       },
@@ -228,30 +289,6 @@
         "priority": "Importante",
         "labels": [
           "NO_QA_REQUIRED"
-        ]
-      },
-      {
-        "key": "WSC-1657",
-        "url": "https://e2x.atlassian.net/browse/WSC-1657",
-        "summary": "Review and Update of Playwright Affected Testcases for Release 14.0",
-        "status": "En curso",
-        "statusCategory": "indeterminate",
-        "assignee": "Gerardo Romero",
-        "updated": "2026-07-30T15:11:33.359+0100",
-        "priority": "Not Set",
-        "labels": []
-      },
-      {
-        "key": "WSC-388",
-        "url": "https://e2x.atlassian.net/browse/WSC-388",
-        "summary": "HEADER - quantity overlaps bag icon when more than 1 digit",
-        "status": "En curso",
-        "statusCategory": "indeterminate",
-        "assignee": "Andre Mogrovejo",
-        "updated": "2026-07-30T15:09:31.851+0100",
-        "priority": "Trivial",
-        "labels": [
-          "Needs-QA"
         ]
       },
       {
@@ -371,17 +408,6 @@
           "Needs-QA",
           "manualQA"
         ]
-      },
-      {
-        "key": "WSC-1610",
-        "url": "https://e2x.atlassian.net/browse/WSC-1610",
-        "summary": "CHECKOUT - minor amendment for EUR and USD",
-        "status": "QA Approved",
-        "statusCategory": "indeterminate",
-        "assignee": "Ingrith Santamaria",
-        "updated": "2026-07-30T13:41:12.282+0100",
-        "priority": "Cr\u00edtica",
-        "labels": []
       },
       {
         "key": "WSC-1611",
@@ -507,19 +533,6 @@
         "statusCategory": "new",
         "assignee": "Unassigned",
         "updated": "2026-07-28T19:51:45.061+0100",
-        "priority": "Importante",
-        "labels": [
-          "NO_QA_REQUIRED"
-        ]
-      },
-      {
-        "key": "WSC-1641",
-        "url": "https://e2x.atlassian.net/browse/WSC-1641",
-        "summary": "Unmasking JS errors - Checkout",
-        "status": "Listo",
-        "statusCategory": "new",
-        "assignee": "Unassigned",
-        "updated": "2026-07-28T19:51:39.648+0100",
         "priority": "Importante",
         "labels": [
           "NO_QA_REQUIRED"
@@ -4184,7 +4197,7 @@
     },
     "runs": {
       "total": 56,
-      "latestPassed": 79,
+      "latestPassed": 83,
       "latestFailed": 0,
       "latestPending": 0,
       "latestTotal": 83,
@@ -4203,7 +4216,7 @@
           "elapsed_ms": null,
           "created_at": "2026-07-30T14:48:01.709Z",
           "completed_at": null,
-          "passed": 79,
+          "passed": 83,
           "failed": 0,
           "pending": 0,
           "completed": 83,
