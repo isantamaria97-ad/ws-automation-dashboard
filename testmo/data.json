@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-31T11:07:06.044705+00:00",
+  "lastUpdated": "2026-07-31T13:15:01.149070+00:00",
   "milestones": [
     {
       "id": 236,
@@ -120,12 +120,12 @@
       "total": 83,
       "completed": 83,
       "remaining": 0,
-      "passed": 79,
+      "passed": 83,
       "failed": 0,
       "retest": 0,
       "blocked": 0,
       "untested": 0,
-      "skipped": 4,
+      "skipped": 0,
       "statusCounts": {
         "Untested": {
           "id": 1,
@@ -133,7 +133,7 @@
         },
         "Passed": {
           "id": 2,
-          "count": 79
+          "count": 83
         },
         "Failed": {
           "id": 3,
@@ -149,7 +149,7 @@
         },
         "Skipped": {
           "id": 6,
-          "count": 4
+          "count": 0
         },
         "Status 7": {
           "id": 7,
@@ -402,6 +402,17 @@
           "note": "",
           "assigneeId": null,
           "updatedAt": "2026-07-31T02:43:21.264Z"
+        },
+        {
+          "caseId": 132954,
+          "testId": 1658358,
+          "name": "EUR Checkout Shows FREE For Europe Standard When Bag Value Is \u20ac150 Or Above",
+          "tags": [],
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-07-31T13:02:14.107Z"
         },
         {
           "caseId": 132953,
@@ -657,6 +668,28 @@
           "updatedAt": "2026-07-31T02:43:21.264Z"
         },
         {
+          "caseId": 132956,
+          "testId": 1658360,
+          "name": "USD Checkout Shows FREE For International Standard When Bag Value Is $150 Or Above",
+          "tags": [],
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-07-31T13:02:14.107Z"
+        },
+        {
+          "caseId": 132955,
+          "testId": 1658359,
+          "name": "USD Checkout Shows From $7.00 For International Standard When Bag Value Is Below $150",
+          "tags": [],
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-07-31T13:02:14.107Z"
+        },
+        {
           "caseId": 114287,
           "testId": 1658283,
           "name": "User Can Register A New Account",
@@ -666,6 +699,17 @@
           "note": "",
           "assigneeId": null,
           "updatedAt": "2026-07-31T02:43:08.575Z"
+        },
+        {
+          "caseId": 114288,
+          "testId": 1658284,
+          "name": "User Cannot Submit Registration Form With Invalid Password",
+          "tags": [],
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-07-31T13:02:01.012Z"
         },
         {
           "caseId": 114301,
@@ -1095,50 +1139,6 @@
           "note": "",
           "assigneeId": null,
           "updatedAt": "2026-07-31T02:43:14.697Z"
-        },
-        {
-          "caseId": 132954,
-          "testId": 1658358,
-          "name": "EUR Checkout Shows FREE For Europe Standard When Bag Value Is \u20ac150 Or Above",
-          "tags": [],
-          "statusId": 6,
-          "status": "Skipped",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-07-31T02:43:50.773Z"
-        },
-        {
-          "caseId": 132956,
-          "testId": 1658360,
-          "name": "USD Checkout Shows FREE For International Standard When Bag Value Is $150 Or Above",
-          "tags": [],
-          "statusId": 6,
-          "status": "Skipped",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-07-31T02:44:18.697Z"
-        },
-        {
-          "caseId": 132955,
-          "testId": 1658359,
-          "name": "USD Checkout Shows From $7.00 For International Standard When Bag Value Is Below $150",
-          "tags": [],
-          "statusId": 6,
-          "status": "Skipped",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-07-31T02:44:06.348Z"
-        },
-        {
-          "caseId": 114288,
-          "testId": 1658284,
-          "name": "User Cannot Submit Registration Form With Invalid Password",
-          "tags": [],
-          "statusId": 6,
-          "status": "Skipped",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-07-31T02:43:32.793Z"
         }
       ]
     },
