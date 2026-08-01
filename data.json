@@ -1,15 +1,15 @@
 {
-  "lastUpdated": "2026-07-31T21:05:20.503852+00:00",
+  "lastUpdated": "2026-08-01T02:53:54.482903+00:00",
   "jira": {
     "summary": {
       "total": 330,
       "byStatus": {
+        "En curso": 6,
         "Finalizada": 249,
         "IN UAT": 6,
         "QA Approved": 10,
         "Blocked": 4,
         "Listo": 14,
-        "En curso": 6,
         "Tech Review": 17,
         "PENDING DEV DEPLOY": 3,
         "READY FOR RELEASE": 2,
@@ -19,6 +19,17 @@
       }
     },
     "tickets": [
+      {
+        "key": "WSC-1433",
+        "url": "https://e2x.atlassian.net/browse/WSC-1433",
+        "summary": "PDP - attributes",
+        "status": "En curso",
+        "statusCategory": "indeterminate",
+        "assignee": "Jair Huaman",
+        "updated": "2026-08-01T03:41:18.939+0100",
+        "priority": "Poco importante",
+        "labels": []
+      },
       {
         "key": "WSC-1580",
         "url": "https://e2x.atlassian.net/browse/WSC-1580",
@@ -177,17 +188,6 @@
         "labels": [
           "NO_QA_REQUIRED"
         ]
-      },
-      {
-        "key": "WSC-1433",
-        "url": "https://e2x.atlassian.net/browse/WSC-1433",
-        "summary": "PDP - attributes",
-        "status": "En curso",
-        "statusCategory": "indeterminate",
-        "assignee": "Jair Huaman",
-        "updated": "2026-07-31T14:55:53.293+0100",
-        "priority": "Poco importante",
-        "labels": []
       },
       {
         "key": "WSC-388",
