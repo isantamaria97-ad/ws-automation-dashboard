@@ -1,16 +1,16 @@
 {
-  "lastUpdated": "2026-08-01T02:53:54.482903+00:00",
+  "lastUpdated": "2026-08-01T06:30:12.582768+00:00",
   "jira": {
     "summary": {
       "total": 330,
       "byStatus": {
-        "En curso": 6,
+        "Tech Review": 18,
         "Finalizada": 249,
         "IN UAT": 6,
         "QA Approved": 10,
         "Blocked": 4,
         "Listo": 14,
-        "Tech Review": 17,
+        "En curso": 5,
         "PENDING DEV DEPLOY": 3,
         "READY FOR RELEASE": 2,
         "Backlog": 7,
@@ -23,10 +23,10 @@
         "key": "WSC-1433",
         "url": "https://e2x.atlassian.net/browse/WSC-1433",
         "summary": "PDP - attributes",
-        "status": "En curso",
+        "status": "Tech Review",
         "statusCategory": "indeterminate",
-        "assignee": "Jair Huaman",
-        "updated": "2026-08-01T03:41:18.939+0100",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-08-01T03:56:59.660+0100",
         "priority": "Poco importante",
         "labels": []
       },
