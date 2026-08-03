@@ -1,10 +1,11 @@
 {
-  "lastUpdated": "2026-08-03T17:52:17.959917+00:00",
+  "lastUpdated": "2026-08-03T21:04:04.419735+00:00",
   "jira": {
     "summary": {
       "total": 330,
       "byStatus": {
-        "Ready to QA": 6,
+        "Ready to QA": 5,
+        "IN QA": 1,
         "Tech Review": 15,
         "PENDING DEV DEPLOY": 2,
         "En curso": 4,
@@ -21,6 +22,62 @@
     },
     "tickets": [
       {
+        "key": "WSC-1591",
+        "url": "https://e2x.atlassian.net/browse/WSC-1591",
+        "summary": "Shop Pages \u2014 Canonical URL & Hreflang Fix",
+        "status": "Ready to QA",
+        "statusCategory": "new",
+        "assignee": "Gerardo Romero",
+        "updated": "2026-08-03T18:59:14.626+0100",
+        "priority": "Importante",
+        "labels": [
+          "Needs-QA",
+          "manualQA"
+        ]
+      },
+      {
+        "key": "WSC-1614",
+        "url": "https://e2x.atlassian.net/browse/WSC-1614",
+        "summary": "LIVE CHAT - z-index changes",
+        "status": "IN QA",
+        "statusCategory": "indeterminate",
+        "assignee": "Gerardo Romero",
+        "updated": "2026-08-03T18:58:54.623+0100",
+        "priority": "Importante",
+        "labels": [
+          "Needs-QA",
+          "automatable"
+        ]
+      },
+      {
+        "key": "WSC-1649",
+        "url": "https://e2x.atlassian.net/browse/WSC-1649",
+        "summary": "PDP - spacing issue",
+        "status": "Ready to QA",
+        "statusCategory": "new",
+        "assignee": "Ingrith Santamaria",
+        "updated": "2026-08-03T18:57:12.905+0100",
+        "priority": "Poco importante",
+        "labels": [
+          "Needs-QA",
+          "manualQA"
+        ]
+      },
+      {
+        "key": "WSC-1648",
+        "url": "https://e2x.atlassian.net/browse/WSC-1648",
+        "summary": "[WSSD-666] outcome - User cannot switch to USA & Canada / RoW in 2 PLPs",
+        "status": "Ready to QA",
+        "statusCategory": "new",
+        "assignee": "Ingrith Santamaria",
+        "updated": "2026-08-03T18:56:47.774+0100",
+        "priority": "Poco importante",
+        "labels": [
+          "Needs-QA",
+          "automatable"
+        ]
+      },
+      {
         "key": "WSC-1544",
         "url": "https://e2x.atlassian.net/browse/WSC-1544",
         "summary": "Talon.One SDK v26.x upgrade",
@@ -31,20 +88,6 @@
         "priority": "Cr\u00edtica",
         "labels": [
           "NO_QA_REQUIRED"
-        ]
-      },
-      {
-        "key": "WSC-1591",
-        "url": "https://e2x.atlassian.net/browse/WSC-1591",
-        "summary": "Shop Pages \u2014 Canonical URL & Hreflang Fix",
-        "status": "Ready to QA",
-        "statusCategory": "new",
-        "assignee": "Unassigned",
-        "updated": "2026-08-03T18:32:56.422+0100",
-        "priority": "Importante",
-        "labels": [
-          "Needs-QA",
-          "manualQA"
         ]
       },
       {
@@ -61,20 +104,6 @@
         ]
       },
       {
-        "key": "WSC-1649",
-        "url": "https://e2x.atlassian.net/browse/WSC-1649",
-        "summary": "PDP - spacing issue",
-        "status": "Ready to QA",
-        "statusCategory": "new",
-        "assignee": "Unassigned",
-        "updated": "2026-08-03T18:21:06.674+0100",
-        "priority": "Poco importante",
-        "labels": [
-          "Needs-QA",
-          "manualQA"
-        ]
-      },
-      {
         "key": "WSC-1640",
         "url": "https://e2x.atlassian.net/browse/WSC-1640",
         "summary": "Unmasking JS errors - VSF",
@@ -85,34 +114,6 @@
         "priority": "Importante",
         "labels": [
           "NO_QA_REQUIRED"
-        ]
-      },
-      {
-        "key": "WSC-1614",
-        "url": "https://e2x.atlassian.net/browse/WSC-1614",
-        "summary": "LIVE CHAT - z-index changes",
-        "status": "Ready to QA",
-        "statusCategory": "new",
-        "assignee": "Unassigned",
-        "updated": "2026-08-03T18:13:03.624+0100",
-        "priority": "Importante",
-        "labels": [
-          "Needs-QA",
-          "automatable"
-        ]
-      },
-      {
-        "key": "WSC-1648",
-        "url": "https://e2x.atlassian.net/browse/WSC-1648",
-        "summary": "[WSSD-666] outcome - User cannot switch to USA & Canada / RoW in 2 PLPs",
-        "status": "Ready to QA",
-        "statusCategory": "new",
-        "assignee": "Unassigned",
-        "updated": "2026-08-03T18:12:55.042+0100",
-        "priority": "Poco importante",
-        "labels": [
-          "Needs-QA",
-          "automatable"
         ]
       },
       {
