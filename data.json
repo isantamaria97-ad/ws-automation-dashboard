@@ -1,19 +1,18 @@
 {
-  "lastUpdated": "2026-08-04T17:49:45.411268+00:00",
+  "lastUpdated": "2026-08-04T21:13:26.477369+00:00",
   "jira": {
     "summary": {
-      "total": 330,
+      "total": 334,
       "byStatus": {
-        "RETURNED BY QA": 1,
-        "Ready to QA": 4,
-        "IN QA": 1,
+        "IN QA": 3,
+        "En curso": 4,
+        "Listo": 16,
+        "Ready to QA": 3,
+        "PENDING DEV DEPLOY": 3,
         "READY FOR RELEASE": 3,
         "QA Approved": 13,
-        "Tech Review": 12,
-        "PENDING DEV DEPLOY": 2,
-        "En curso": 3,
         "IN UAT": 7,
-        "Listo": 12,
+        "Tech Review": 10,
         "Finalizada": 249,
         "Blocked": 4,
         "Backlog": 7,
@@ -23,17 +22,87 @@
     },
     "tickets": [
       {
-        "key": "WSC-1614",
-        "url": "https://e2x.atlassian.net/browse/WSC-1614",
-        "summary": "LIVE CHAT - z-index changes",
-        "status": "RETURNED BY QA",
+        "key": "WSC-1591",
+        "url": "https://e2x.atlassian.net/browse/WSC-1591",
+        "summary": "Shop Pages \u2014 Canonical URL & Hreflang Fix",
+        "status": "IN QA",
         "statusCategory": "indeterminate",
         "assignee": "Gerardo Romero",
-        "updated": "2026-08-04T18:47:19.925+0100",
+        "updated": "2026-08-04T21:55:12.276+0100",
         "priority": "Importante",
         "labels": [
           "Needs-QA",
           "automatable"
+        ]
+      },
+      {
+        "key": "WSC-1594",
+        "url": "https://e2x.atlassian.net/browse/WSC-1594",
+        "summary": "SFS - item SFS data on VSF",
+        "status": "En curso",
+        "statusCategory": "indeterminate",
+        "assignee": "Alexander Talavera",
+        "updated": "2026-08-04T20:31:52.202+0100",
+        "priority": "Importante",
+        "labels": [
+          "Needs-QA",
+          "automatable"
+        ]
+      },
+      {
+        "key": "WSC-76",
+        "url": "https://e2x.atlassian.net/browse/WSC-76",
+        "summary": "HOTSPOTS - bug when no URL is set",
+        "status": "Listo",
+        "statusCategory": "new",
+        "assignee": "Unassigned",
+        "updated": "2026-08-04T20:22:59.960+0100",
+        "priority": "Poco importante",
+        "labels": [
+          "Needs-QA",
+          "manualQA"
+        ]
+      },
+      {
+        "key": "WSC-1599",
+        "url": "https://e2x.atlassian.net/browse/WSC-1599",
+        "summary": "CONTENT - Default Search Term - move into Footer component",
+        "status": "Listo",
+        "statusCategory": "new",
+        "assignee": "Ruth Recalde",
+        "updated": "2026-08-04T20:12:32.425+0100",
+        "priority": "Poco importante",
+        "labels": [
+          "Needs-QA",
+          "manualQA"
+        ]
+      },
+      {
+        "key": "WSC-1660",
+        "url": "https://e2x.atlassian.net/browse/WSC-1660",
+        "summary": "PDP - hide review stars when stars = 0",
+        "status": "Listo",
+        "statusCategory": "new",
+        "assignee": "Unassigned",
+        "updated": "2026-08-04T19:47:01.077+0100",
+        "priority": "Poco importante",
+        "labels": [
+          "Needs-QA",
+          "automatable"
+        ]
+      },
+      {
+        "key": "WSC-1601",
+        "url": "https://e2x.atlassian.net/browse/WSC-1601",
+        "summary": "CONTENT - TwoForBanner amendments - notations",
+        "status": "Listo",
+        "statusCategory": "new",
+        "assignee": "Unassigned",
+        "updated": "2026-08-04T19:44:55.105+0100",
+        "priority": "Importante",
+        "labels": [
+          "Needs-QA",
+          "manualQA"
         ]
       },
       {
@@ -42,21 +111,35 @@
         "summary": "Google Maps API loaded globally on all pages instead of only where needed",
         "status": "Ready to QA",
         "statusCategory": "new",
-        "assignee": "Unassigned",
-        "updated": "2026-08-04T17:55:29.545+0100",
+        "assignee": "Gerardo Romero",
+        "updated": "2026-08-04T19:24:18.635+0100",
         "priority": "Importante",
         "labels": [
           "Needs-QA"
         ]
       },
       {
-        "key": "WSC-1591",
-        "url": "https://e2x.atlassian.net/browse/WSC-1591",
-        "summary": "Shop Pages \u2014 Canonical URL & Hreflang Fix",
-        "status": "Ready to QA",
-        "statusCategory": "new",
+        "key": "WSC-1614",
+        "url": "https://e2x.atlassian.net/browse/WSC-1614",
+        "summary": "LIVE CHAT - z-index changes",
+        "status": "IN QA",
+        "statusCategory": "indeterminate",
         "assignee": "Gerardo Romero",
-        "updated": "2026-08-04T16:23:31.109+0100",
+        "updated": "2026-08-04T19:22:45.918+0100",
+        "priority": "Importante",
+        "labels": [
+          "Needs-QA",
+          "automatable"
+        ]
+      },
+      {
+        "key": "WSC-1522",
+        "url": "https://e2x.atlassian.net/browse/WSC-1522",
+        "summary": "CONTENT - Personalisation",
+        "status": "PENDING DEV DEPLOY",
+        "statusCategory": "new",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-08-04T18:53:11.523+0100",
         "priority": "Importante",
         "labels": [
           "Needs-QA",
@@ -132,20 +215,6 @@
         ]
       },
       {
-        "key": "WSC-1522",
-        "url": "https://e2x.atlassian.net/browse/WSC-1522",
-        "summary": "CONTENT - Personalisation",
-        "status": "Tech Review",
-        "statusCategory": "indeterminate",
-        "assignee": "Alexander Talavera",
-        "updated": "2026-08-04T14:38:57.198+0100",
-        "priority": "Importante",
-        "labels": [
-          "Needs-QA",
-          "manualQA"
-        ]
-      },
-      {
         "key": "WSC-1649",
         "url": "https://e2x.atlassian.net/browse/WSC-1649",
         "summary": "PDP - spacing issue",
@@ -206,20 +275,6 @@
         "updated": "2026-08-04T13:38:40.670+0100",
         "priority": "Importante",
         "labels": []
-      },
-      {
-        "key": "WSC-1594",
-        "url": "https://e2x.atlassian.net/browse/WSC-1594",
-        "summary": "SFS - item SFS data on VSF",
-        "status": "Tech Review",
-        "statusCategory": "indeterminate",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-08-03T18:05:18.877+0100",
-        "priority": "Importante",
-        "labels": [
-          "Needs-QA",
-          "automatable"
-        ]
       },
       {
         "key": "WSC-1657",
