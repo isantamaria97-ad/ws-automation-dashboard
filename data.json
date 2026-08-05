@@ -1,17 +1,17 @@
 {
-  "lastUpdated": "2026-08-05T10:36:15.085664+00:00",
+  "lastUpdated": "2026-08-05T14:11:09.984320+00:00",
   "jira": {
     "summary": {
       "total": 334,
       "byStatus": {
-        "Blocked": 5,
-        "IN QA": 3,
         "En curso": 3,
+        "Ready to QA": 4,
+        "QA Approved": 14,
+        "Blocked": 5,
+        "IN QA": 2,
         "Listo": 16,
-        "Ready to QA": 3,
-        "PENDING DEV DEPLOY": 3,
         "READY FOR RELEASE": 3,
-        "QA Approved": 13,
+        "PENDING DEV DEPLOY": 2,
         "IN UAT": 7,
         "Tech Review": 10,
         "Finalizada": 249,
@@ -21,6 +21,61 @@
       }
     },
     "tickets": [
+      {
+        "key": "WSC-1594",
+        "url": "https://e2x.atlassian.net/browse/WSC-1594",
+        "summary": "SFS - item SFS data on VSF",
+        "status": "En curso",
+        "statusCategory": "indeterminate",
+        "assignee": "Alexander Talavera",
+        "updated": "2026-08-05T14:44:59.268+0100",
+        "priority": "Importante",
+        "labels": [
+          "Needs-QA",
+          "automatable"
+        ]
+      },
+      {
+        "key": "WSC-1522",
+        "url": "https://e2x.atlassian.net/browse/WSC-1522",
+        "summary": "CONTENT - Personalisation",
+        "status": "Ready to QA",
+        "statusCategory": "new",
+        "assignee": "Ingrith Santamaria",
+        "updated": "2026-08-05T14:41:59.382+0100",
+        "priority": "Importante",
+        "labels": [
+          "Needs-QA",
+          "manualQA"
+        ]
+      },
+      {
+        "key": "WSC-1650",
+        "url": "https://e2x.atlassian.net/browse/WSC-1650",
+        "summary": "Google Maps API loaded globally on all pages instead of only where needed",
+        "status": "Ready to QA",
+        "statusCategory": "new",
+        "assignee": "Gerardo Romero",
+        "updated": "2026-08-05T14:33:39.885+0100",
+        "priority": "Importante",
+        "labels": [
+          "Needs-QA"
+        ]
+      },
+      {
+        "key": "WSC-1614",
+        "url": "https://e2x.atlassian.net/browse/WSC-1614",
+        "summary": "LIVE CHAT - z-index changes",
+        "status": "QA Approved",
+        "statusCategory": "indeterminate",
+        "assignee": "Gerardo Romero",
+        "updated": "2026-08-05T12:35:04.451+0100",
+        "priority": "Importante",
+        "labels": [
+          "Needs-QA",
+          "automatable"
+        ]
+      },
       {
         "key": "WSC-1642",
         "url": "https://e2x.atlassian.net/browse/WSC-1642",
@@ -42,20 +97,6 @@
         "statusCategory": "indeterminate",
         "assignee": "Gerardo Romero",
         "updated": "2026-08-04T21:55:12.276+0100",
-        "priority": "Importante",
-        "labels": [
-          "Needs-QA",
-          "automatable"
-        ]
-      },
-      {
-        "key": "WSC-1594",
-        "url": "https://e2x.atlassian.net/browse/WSC-1594",
-        "summary": "SFS - item SFS data on VSF",
-        "status": "En curso",
-        "statusCategory": "indeterminate",
-        "assignee": "Alexander Talavera",
-        "updated": "2026-08-04T20:31:52.202+0100",
         "priority": "Importante",
         "labels": [
           "Needs-QA",
@@ -112,47 +153,6 @@
         "statusCategory": "new",
         "assignee": "Unassigned",
         "updated": "2026-08-04T19:44:55.105+0100",
-        "priority": "Importante",
-        "labels": [
-          "Needs-QA",
-          "manualQA"
-        ]
-      },
-      {
-        "key": "WSC-1650",
-        "url": "https://e2x.atlassian.net/browse/WSC-1650",
-        "summary": "Google Maps API loaded globally on all pages instead of only where needed",
-        "status": "Ready to QA",
-        "statusCategory": "new",
-        "assignee": "Gerardo Romero",
-        "updated": "2026-08-04T19:24:18.635+0100",
-        "priority": "Importante",
-        "labels": [
-          "Needs-QA"
-        ]
-      },
-      {
-        "key": "WSC-1614",
-        "url": "https://e2x.atlassian.net/browse/WSC-1614",
-        "summary": "LIVE CHAT - z-index changes",
-        "status": "IN QA",
-        "statusCategory": "indeterminate",
-        "assignee": "Gerardo Romero",
-        "updated": "2026-08-04T19:22:45.918+0100",
-        "priority": "Importante",
-        "labels": [
-          "Needs-QA",
-          "automatable"
-        ]
-      },
-      {
-        "key": "WSC-1522",
-        "url": "https://e2x.atlassian.net/browse/WSC-1522",
-        "summary": "CONTENT - Personalisation",
-        "status": "PENDING DEV DEPLOY",
-        "statusCategory": "new",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-08-04T18:53:11.523+0100",
         "priority": "Importante",
         "labels": [
           "Needs-QA",
