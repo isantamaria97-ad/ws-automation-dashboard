@@ -1,19 +1,19 @@
 {
-  "lastUpdated": "2026-08-05T17:38:56.517769+00:00",
+  "lastUpdated": "2026-08-05T21:10:33.596674+00:00",
   "jira": {
     "summary": {
-      "total": 336,
+      "total": 337,
       "byStatus": {
-        "Ready to QA": 4,
-        "PENDING DEV DEPLOY": 3,
+        "QA Approved": 17,
         "Deprecated": 12,
+        "IN QA": 2,
+        "Ready to QA": 3,
         "Finalizada": 249,
         "Listo": 16,
         "En curso": 3,
-        "QA Approved": 14,
         "Blocked": 5,
-        "IN QA": 2,
         "READY FOR RELEASE": 3,
+        "PENDING DEV DEPLOY": 2,
         "IN UAT": 7,
         "Tech Review": 10,
         "Backlog": 7,
@@ -21,6 +21,68 @@
       }
     },
     "tickets": [
+      {
+        "key": "WSC-1665",
+        "url": "https://e2x.atlassian.net/browse/WSC-1665",
+        "summary": "[PDP] UX issues with new style category CTAs \u2014 Desktop & Tablet ",
+        "status": "QA Approved",
+        "statusCategory": "indeterminate",
+        "assignee": "Gerardo Romero",
+        "updated": "2026-08-05T21:14:08.886+0100",
+        "priority": "Poco importante",
+        "labels": []
+      },
+      {
+        "key": "WSC-1667",
+        "url": "https://e2x.atlassian.net/browse/WSC-1667",
+        "summary": "PLP - restore review stars div",
+        "status": "QA Approved",
+        "statusCategory": "indeterminate",
+        "assignee": "Gerardo Romero",
+        "updated": "2026-08-05T20:10:32.841+0100",
+        "priority": "Poco importante",
+        "labels": [
+          "Needs-QA"
+        ]
+      },
+      {
+        "key": "WSC-1666",
+        "url": "https://e2x.atlassian.net/browse/WSC-1666",
+        "summary": "Revert WSC-1564",
+        "status": "Deprecated",
+        "statusCategory": "done",
+        "assignee": "Unassigned",
+        "updated": "2026-08-05T20:10:32.289+0100",
+        "priority": "Not Set",
+        "labels": []
+      },
+      {
+        "key": "WSC-1650",
+        "url": "https://e2x.atlassian.net/browse/WSC-1650",
+        "summary": "Google Maps API loaded globally on all pages instead of only where needed",
+        "status": "IN QA",
+        "statusCategory": "indeterminate",
+        "assignee": "Gerardo Romero",
+        "updated": "2026-08-05T19:59:51.318+0100",
+        "priority": "Importante",
+        "labels": [
+          "Needs-QA"
+        ]
+      },
+      {
+        "key": "WSC-1591",
+        "url": "https://e2x.atlassian.net/browse/WSC-1591",
+        "summary": "Shop Pages \u2014 Canonical URL & Hreflang Fix",
+        "status": "QA Approved",
+        "statusCategory": "indeterminate",
+        "assignee": "Gerardo Romero",
+        "updated": "2026-08-05T19:59:42.301+0100",
+        "priority": "Importante",
+        "labels": [
+          "Needs-QA",
+          "automatable"
+        ]
+      },
       {
         "key": "WSC-1522",
         "url": "https://e2x.atlassian.net/browse/WSC-1522",
@@ -48,30 +110,6 @@
           "Needs-QA",
           "manualQA"
         ]
-      },
-      {
-        "key": "WSC-1667",
-        "url": "https://e2x.atlassian.net/browse/WSC-1667",
-        "summary": "PLP - restore review stars div",
-        "status": "PENDING DEV DEPLOY",
-        "statusCategory": "new",
-        "assignee": "Andre Mogrovejo",
-        "updated": "2026-08-05T17:14:07.884+0100",
-        "priority": "Poco importante",
-        "labels": [
-          "Needs-QA"
-        ]
-      },
-      {
-        "key": "WSC-1666",
-        "url": "https://e2x.atlassian.net/browse/WSC-1666",
-        "summary": "Revert WSC-1564",
-        "status": "Deprecated",
-        "statusCategory": "done",
-        "assignee": "Unassigned",
-        "updated": "2026-08-05T16:14:46.491+0100",
-        "priority": "Not Set",
-        "labels": []
       },
       {
         "key": "WSC-1564",
@@ -115,19 +153,6 @@
         ]
       },
       {
-        "key": "WSC-1650",
-        "url": "https://e2x.atlassian.net/browse/WSC-1650",
-        "summary": "Google Maps API loaded globally on all pages instead of only where needed",
-        "status": "Ready to QA",
-        "statusCategory": "new",
-        "assignee": "Gerardo Romero",
-        "updated": "2026-08-05T14:33:39.885+0100",
-        "priority": "Importante",
-        "labels": [
-          "Needs-QA"
-        ]
-      },
-      {
         "key": "WSC-1614",
         "url": "https://e2x.atlassian.net/browse/WSC-1614",
         "summary": "LIVE CHAT - z-index changes",
@@ -152,20 +177,6 @@
         "priority": "Importante",
         "labels": [
           "NO_QA_REQUIRED"
-        ]
-      },
-      {
-        "key": "WSC-1591",
-        "url": "https://e2x.atlassian.net/browse/WSC-1591",
-        "summary": "Shop Pages \u2014 Canonical URL & Hreflang Fix",
-        "status": "IN QA",
-        "statusCategory": "indeterminate",
-        "assignee": "Gerardo Romero",
-        "updated": "2026-08-04T21:55:12.276+0100",
-        "priority": "Importante",
-        "labels": [
-          "Needs-QA",
-          "automatable"
         ]
       },
       {
