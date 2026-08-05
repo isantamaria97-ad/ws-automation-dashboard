@@ -1,26 +1,105 @@
 {
-  "lastUpdated": "2026-08-05T14:11:09.984320+00:00",
+  "lastUpdated": "2026-08-05T17:38:56.517769+00:00",
   "jira": {
     "summary": {
-      "total": 334,
+      "total": 336,
       "byStatus": {
-        "En curso": 3,
         "Ready to QA": 4,
+        "PENDING DEV DEPLOY": 3,
+        "Deprecated": 12,
+        "Finalizada": 249,
+        "Listo": 16,
+        "En curso": 3,
         "QA Approved": 14,
         "Blocked": 5,
         "IN QA": 2,
-        "Listo": 16,
         "READY FOR RELEASE": 3,
-        "PENDING DEV DEPLOY": 2,
         "IN UAT": 7,
         "Tech Review": 10,
-        "Finalizada": 249,
         "Backlog": 7,
-        "Deprecated": 11,
         "Tareas por hacer": 1
       }
     },
     "tickets": [
+      {
+        "key": "WSC-1522",
+        "url": "https://e2x.atlassian.net/browse/WSC-1522",
+        "summary": "CONTENT - Personalisation",
+        "status": "Ready to QA",
+        "statusCategory": "new",
+        "assignee": "Gerardo Romero",
+        "updated": "2026-08-05T17:56:33.787+0100",
+        "priority": "Importante",
+        "labels": [
+          "Needs-QA",
+          "manualQA"
+        ]
+      },
+      {
+        "key": "WSC-1612",
+        "url": "https://e2x.atlassian.net/browse/WSC-1612",
+        "summary": "COLOUR NAME (VSF) - change source field",
+        "status": "Ready to QA",
+        "statusCategory": "new",
+        "assignee": "Stuart Young",
+        "updated": "2026-08-05T17:15:02.784+0100",
+        "priority": "Poco importante",
+        "labels": [
+          "Needs-QA",
+          "manualQA"
+        ]
+      },
+      {
+        "key": "WSC-1667",
+        "url": "https://e2x.atlassian.net/browse/WSC-1667",
+        "summary": "PLP - restore review stars div",
+        "status": "PENDING DEV DEPLOY",
+        "statusCategory": "new",
+        "assignee": "Andre Mogrovejo",
+        "updated": "2026-08-05T17:14:07.884+0100",
+        "priority": "Poco importante",
+        "labels": [
+          "Needs-QA"
+        ]
+      },
+      {
+        "key": "WSC-1666",
+        "url": "https://e2x.atlassian.net/browse/WSC-1666",
+        "summary": "Revert WSC-1564",
+        "status": "Deprecated",
+        "statusCategory": "done",
+        "assignee": "Unassigned",
+        "updated": "2026-08-05T16:14:46.491+0100",
+        "priority": "Not Set",
+        "labels": []
+      },
+      {
+        "key": "WSC-1564",
+        "url": "https://e2x.atlassian.net/browse/WSC-1564",
+        "summary": "PLP - remove review stars div",
+        "status": "Finalizada",
+        "statusCategory": "done",
+        "assignee": "Ingrith Santamaria",
+        "updated": "2026-08-05T15:21:23.093+0100",
+        "priority": "Poco importante",
+        "labels": [
+          "Needs-QA"
+        ]
+      },
+      {
+        "key": "WSC-1599",
+        "url": "https://e2x.atlassian.net/browse/WSC-1599",
+        "summary": "CONTENT - Default Search Term - move into Footer component",
+        "status": "Listo",
+        "statusCategory": "new",
+        "assignee": "Unassigned",
+        "updated": "2026-08-05T15:17:04.082+0100",
+        "priority": "Poco importante",
+        "labels": [
+          "Needs-QA",
+          "manualQA"
+        ]
+      },
       {
         "key": "WSC-1594",
         "url": "https://e2x.atlassian.net/browse/WSC-1594",
@@ -33,20 +112,6 @@
         "labels": [
           "Needs-QA",
           "automatable"
-        ]
-      },
-      {
-        "key": "WSC-1522",
-        "url": "https://e2x.atlassian.net/browse/WSC-1522",
-        "summary": "CONTENT - Personalisation",
-        "status": "Ready to QA",
-        "statusCategory": "new",
-        "assignee": "Ingrith Santamaria",
-        "updated": "2026-08-05T14:41:59.382+0100",
-        "priority": "Importante",
-        "labels": [
-          "Needs-QA",
-          "manualQA"
         ]
       },
       {
@@ -118,20 +183,6 @@
         ]
       },
       {
-        "key": "WSC-1599",
-        "url": "https://e2x.atlassian.net/browse/WSC-1599",
-        "summary": "CONTENT - Default Search Term - move into Footer component",
-        "status": "Listo",
-        "statusCategory": "new",
-        "assignee": "Ruth Recalde",
-        "updated": "2026-08-04T20:12:32.425+0100",
-        "priority": "Poco importante",
-        "labels": [
-          "Needs-QA",
-          "manualQA"
-        ]
-      },
-      {
         "key": "WSC-1660",
         "url": "https://e2x.atlassian.net/browse/WSC-1660",
         "summary": "PDP - hide review stars when stars = 0",
@@ -193,20 +244,6 @@
         "statusCategory": "new",
         "assignee": "Stuart Young",
         "updated": "2026-08-04T15:11:59.981+0100",
-        "priority": "Poco importante",
-        "labels": [
-          "Needs-QA",
-          "manualQA"
-        ]
-      },
-      {
-        "key": "WSC-1612",
-        "url": "https://e2x.atlassian.net/browse/WSC-1612",
-        "summary": "COLOUR NAME (VSF) - change source field",
-        "status": "Ready to QA",
-        "statusCategory": "new",
-        "assignee": "Stuart Young",
-        "updated": "2026-08-04T15:11:54.732+0100",
         "priority": "Poco importante",
         "labels": [
           "Needs-QA",
@@ -1157,19 +1194,6 @@
         "priority": "Importante",
         "labels": [
           "NO_QA_REQUIRED"
-        ]
-      },
-      {
-        "key": "WSC-1564",
-        "url": "https://e2x.atlassian.net/browse/WSC-1564",
-        "summary": "PLP - remove review stars div",
-        "status": "Finalizada",
-        "statusCategory": "done",
-        "assignee": "Ingrith Santamaria",
-        "updated": "2026-07-20T20:58:50.218+0100",
-        "priority": "Poco importante",
-        "labels": [
-          "Needs-QA"
         ]
       },
       {
