@@ -1,11 +1,12 @@
 {
-  "lastUpdated": "2026-08-04T21:13:26.477369+00:00",
+  "lastUpdated": "2026-08-05T02:36:19.952039+00:00",
   "jira": {
     "summary": {
       "total": 334,
       "byStatus": {
+        "Blocked": 5,
         "IN QA": 3,
-        "En curso": 4,
+        "En curso": 3,
         "Listo": 16,
         "Ready to QA": 3,
         "PENDING DEV DEPLOY": 3,
@@ -14,13 +15,25 @@
         "IN UAT": 7,
         "Tech Review": 10,
         "Finalizada": 249,
-        "Blocked": 4,
         "Backlog": 7,
         "Deprecated": 11,
         "Tareas por hacer": 1
       }
     },
     "tickets": [
+      {
+        "key": "WSC-1642",
+        "url": "https://e2x.atlassian.net/browse/WSC-1642",
+        "summary": "Unmasking JS errors - Infrastructure (Cloudflare)",
+        "status": "Blocked",
+        "statusCategory": "new",
+        "assignee": "Alexander Talavera",
+        "updated": "2026-08-04T23:24:19.751+0100",
+        "priority": "Importante",
+        "labels": [
+          "NO_QA_REQUIRED"
+        ]
+      },
       {
         "key": "WSC-1591",
         "url": "https://e2x.atlassian.net/browse/WSC-1591",
@@ -239,19 +252,6 @@
         "priority": "Trivial",
         "labels": [
           "Needs-QA"
-        ]
-      },
-      {
-        "key": "WSC-1642",
-        "url": "https://e2x.atlassian.net/browse/WSC-1642",
-        "summary": "Unmasking JS errors - Infrastructure (Cloudflare)",
-        "status": "En curso",
-        "statusCategory": "indeterminate",
-        "assignee": "Alexander Talavera",
-        "updated": "2026-08-04T14:16:22.624+0100",
-        "priority": "Importante",
-        "labels": [
-          "NO_QA_REQUIRED"
         ]
       },
       {
