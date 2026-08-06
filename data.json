@@ -1,26 +1,142 @@
 {
-  "lastUpdated": "2026-08-06T10:40:18.927813+00:00",
+  "lastUpdated": "2026-08-06T14:11:55.004747+00:00",
   "jira": {
     "summary": {
       "total": 337,
       "byStatus": {
-        "QA Approved": 17,
+        "En curso": 3,
+        "Tech Review": 11,
+        "Listo": 15,
+        "Blocked": 5,
         "Deprecated": 12,
         "IN QA": 2,
-        "Ready to QA": 3,
+        "QA Approved": 18,
+        "Ready to QA": 2,
         "Finalizada": 249,
-        "Listo": 16,
-        "En curso": 3,
-        "Blocked": 5,
         "READY FOR RELEASE": 3,
         "PENDING DEV DEPLOY": 2,
         "IN UAT": 7,
-        "Tech Review": 10,
         "Backlog": 7,
         "Tareas por hacer": 1
       }
     },
     "tickets": [
+      {
+        "key": "WSC-1641",
+        "url": "https://e2x.atlassian.net/browse/WSC-1641",
+        "summary": "Unmasking JS errors - Checkout",
+        "status": "En curso",
+        "statusCategory": "indeterminate",
+        "assignee": "Alexander Talavera",
+        "updated": "2026-08-06T14:43:49.746+0100",
+        "priority": "Importante",
+        "labels": [
+          "NO_QA_REQUIRED"
+        ]
+      },
+      {
+        "key": "WSC-1594",
+        "url": "https://e2x.atlassian.net/browse/WSC-1594",
+        "summary": "SFS - item SFS data on VSF",
+        "status": "Tech Review",
+        "statusCategory": "indeterminate",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-08-06T14:43:15.635+0100",
+        "priority": "Importante",
+        "labels": [
+          "Needs-QA",
+          "automatable"
+        ]
+      },
+      {
+        "key": "WSC-1647",
+        "url": "https://e2x.atlassian.net/browse/WSC-1647",
+        "summary": "CONTENT - new wider version of SEOTextBlock",
+        "status": "Listo",
+        "statusCategory": "new",
+        "assignee": "Alexander Talavera",
+        "updated": "2026-08-06T14:37:42.849+0100",
+        "priority": "Importante",
+        "labels": []
+      },
+      {
+        "key": "WSC-1138",
+        "url": "https://e2x.atlassian.net/browse/WSC-1138",
+        "summary": "GOOD STUFF - add preferred shop to 'My Details'",
+        "status": "Listo",
+        "statusCategory": "new",
+        "assignee": "Unassigned",
+        "updated": "2026-08-06T13:58:12.425+0100",
+        "priority": "Importante",
+        "labels": [
+          "Needs-QA"
+        ]
+      },
+      {
+        "key": "WSC-1660",
+        "url": "https://e2x.atlassian.net/browse/WSC-1660",
+        "summary": "PDP - hide review stars when stars = 0",
+        "status": "Listo",
+        "statusCategory": "new",
+        "assignee": "Unassigned",
+        "updated": "2026-08-06T13:57:59.627+0100",
+        "priority": "Poco importante",
+        "labels": [
+          "Needs-QA",
+          "automatable"
+        ]
+      },
+      {
+        "key": "WSC-1642",
+        "url": "https://e2x.atlassian.net/browse/WSC-1642",
+        "summary": "Unmasking JS errors - Infrastructure (Cloudflare)",
+        "status": "Blocked",
+        "statusCategory": "new",
+        "assignee": "Alexander Talavera",
+        "updated": "2026-08-06T13:49:16.024+0100",
+        "priority": "Importante",
+        "labels": [
+          "NO_QA_REQUIRED"
+        ]
+      },
+      {
+        "key": "WSC-1666",
+        "url": "https://e2x.atlassian.net/browse/WSC-1666",
+        "summary": "Revert WSC-1564",
+        "status": "Deprecated",
+        "statusCategory": "done",
+        "assignee": "Unassigned",
+        "updated": "2026-08-06T13:24:14.158+0100",
+        "priority": "Not Set",
+        "labels": []
+      },
+      {
+        "key": "WSC-1522",
+        "url": "https://e2x.atlassian.net/browse/WSC-1522",
+        "summary": "CONTENT - Personalisation",
+        "status": "IN QA",
+        "statusCategory": "indeterminate",
+        "assignee": "Gerardo Romero",
+        "updated": "2026-08-06T13:10:32.663+0100",
+        "priority": "Importante",
+        "labels": [
+          "Needs-QA",
+          "manualQA"
+        ]
+      },
+      {
+        "key": "WSC-1650",
+        "url": "https://e2x.atlassian.net/browse/WSC-1650",
+        "summary": "Google Maps API loaded globally on all pages instead of only where needed",
+        "status": "QA Approved",
+        "statusCategory": "indeterminate",
+        "assignee": "Gerardo Romero",
+        "updated": "2026-08-06T13:10:25.314+0100",
+        "priority": "Importante",
+        "labels": [
+          "Needs-QA"
+        ]
+      },
       {
         "key": "WSC-1665",
         "url": "https://e2x.atlassian.net/browse/WSC-1665",
@@ -28,7 +144,7 @@
         "status": "QA Approved",
         "statusCategory": "indeterminate",
         "assignee": "Gerardo Romero",
-        "updated": "2026-08-05T21:14:08.886+0100",
+        "updated": "2026-08-06T12:40:47.393+0100",
         "priority": "Poco importante",
         "labels": []
       },
@@ -39,32 +155,8 @@
         "status": "QA Approved",
         "statusCategory": "indeterminate",
         "assignee": "Gerardo Romero",
-        "updated": "2026-08-05T20:10:32.841+0100",
+        "updated": "2026-08-06T12:39:58.699+0100",
         "priority": "Poco importante",
-        "labels": [
-          "Needs-QA"
-        ]
-      },
-      {
-        "key": "WSC-1666",
-        "url": "https://e2x.atlassian.net/browse/WSC-1666",
-        "summary": "Revert WSC-1564",
-        "status": "Deprecated",
-        "statusCategory": "done",
-        "assignee": "Unassigned",
-        "updated": "2026-08-05T20:10:32.289+0100",
-        "priority": "Not Set",
-        "labels": []
-      },
-      {
-        "key": "WSC-1650",
-        "url": "https://e2x.atlassian.net/browse/WSC-1650",
-        "summary": "Google Maps API loaded globally on all pages instead of only where needed",
-        "status": "IN QA",
-        "statusCategory": "indeterminate",
-        "assignee": "Gerardo Romero",
-        "updated": "2026-08-05T19:59:51.318+0100",
-        "priority": "Importante",
         "labels": [
           "Needs-QA"
         ]
@@ -81,20 +173,6 @@
         "labels": [
           "Needs-QA",
           "automatable"
-        ]
-      },
-      {
-        "key": "WSC-1522",
-        "url": "https://e2x.atlassian.net/browse/WSC-1522",
-        "summary": "CONTENT - Personalisation",
-        "status": "Ready to QA",
-        "statusCategory": "new",
-        "assignee": "Gerardo Romero",
-        "updated": "2026-08-05T17:56:33.787+0100",
-        "priority": "Importante",
-        "labels": [
-          "Needs-QA",
-          "manualQA"
         ]
       },
       {
@@ -139,20 +217,6 @@
         ]
       },
       {
-        "key": "WSC-1594",
-        "url": "https://e2x.atlassian.net/browse/WSC-1594",
-        "summary": "SFS - item SFS data on VSF",
-        "status": "En curso",
-        "statusCategory": "indeterminate",
-        "assignee": "Alexander Talavera",
-        "updated": "2026-08-05T14:44:59.268+0100",
-        "priority": "Importante",
-        "labels": [
-          "Needs-QA",
-          "automatable"
-        ]
-      },
-      {
         "key": "WSC-1614",
         "url": "https://e2x.atlassian.net/browse/WSC-1614",
         "summary": "LIVE CHAT - z-index changes",
@@ -167,19 +231,6 @@
         ]
       },
       {
-        "key": "WSC-1642",
-        "url": "https://e2x.atlassian.net/browse/WSC-1642",
-        "summary": "Unmasking JS errors - Infrastructure (Cloudflare)",
-        "status": "Blocked",
-        "statusCategory": "new",
-        "assignee": "Alexander Talavera",
-        "updated": "2026-08-04T23:24:19.751+0100",
-        "priority": "Importante",
-        "labels": [
-          "NO_QA_REQUIRED"
-        ]
-      },
-      {
         "key": "WSC-76",
         "url": "https://e2x.atlassian.net/browse/WSC-76",
         "summary": "HOTSPOTS - bug when no URL is set",
@@ -191,20 +242,6 @@
         "labels": [
           "Needs-QA",
           "manualQA"
-        ]
-      },
-      {
-        "key": "WSC-1660",
-        "url": "https://e2x.atlassian.net/browse/WSC-1660",
-        "summary": "PDP - hide review stars when stars = 0",
-        "status": "Listo",
-        "statusCategory": "new",
-        "assignee": "Unassigned",
-        "updated": "2026-08-04T19:47:01.077+0100",
-        "priority": "Poco importante",
-        "labels": [
-          "Needs-QA",
-          "automatable"
         ]
       },
       {
@@ -349,19 +386,6 @@
         ]
       },
       {
-        "key": "WSC-1641",
-        "url": "https://e2x.atlassian.net/browse/WSC-1641",
-        "summary": "Unmasking JS errors - Checkout",
-        "status": "Listo",
-        "statusCategory": "new",
-        "assignee": "Alexander Talavera",
-        "updated": "2026-08-03T13:59:57.814+0100",
-        "priority": "Importante",
-        "labels": [
-          "NO_QA_REQUIRED"
-        ]
-      },
-      {
         "key": "WSC-1433",
         "url": "https://e2x.atlassian.net/browse/WSC-1433",
         "summary": "PDP - attributes",
@@ -477,17 +501,6 @@
         "statusCategory": "new",
         "assignee": "Stuart Young",
         "updated": "2026-07-31T16:15:33.311+0100",
-        "priority": "Importante",
-        "labels": []
-      },
-      {
-        "key": "WSC-1647",
-        "url": "https://e2x.atlassian.net/browse/WSC-1647",
-        "summary": "CONTENT - new wider version of SEOTextBlock",
-        "status": "Listo",
-        "statusCategory": "new",
-        "assignee": "Unassigned",
-        "updated": "2026-07-31T15:49:55.210+0100",
         "priority": "Importante",
         "labels": []
       },
@@ -682,19 +695,6 @@
         "updated": "2026-07-30T13:41:07.408+0100",
         "priority": "Poco importante",
         "labels": []
-      },
-      {
-        "key": "WSC-1138",
-        "url": "https://e2x.atlassian.net/browse/WSC-1138",
-        "summary": "GOOD STUFF - add preferred shop to 'My Details'",
-        "status": "Listo",
-        "statusCategory": "new",
-        "assignee": "Unassigned",
-        "updated": "2026-07-29T20:06:09.787+0100",
-        "priority": "Importante",
-        "labels": [
-          "Needs-QA"
-        ]
       },
       {
         "key": "WSC-1501",
