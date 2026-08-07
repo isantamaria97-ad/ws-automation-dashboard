@@ -1,15 +1,15 @@
 {
-  "lastUpdated": "2026-08-07T00:52:50.349868+00:00",
+  "lastUpdated": "2026-08-07T05:40:52.166460+00:00",
   "jira": {
     "summary": {
       "total": 341,
       "byStatus": {
-        "Listo": 19,
+        "En curso": 3,
+        "Tech Review": 13,
+        "Listo": 18,
         "QA Approved": 18,
         "Ready to QA": 2,
-        "Tech Review": 12,
         "RETURNED BY QA": 1,
-        "En curso": 3,
         "Deprecated": 12,
         "Finalizada": 249,
         "IN QA": 1,
@@ -22,6 +22,33 @@
       }
     },
     "tickets": [
+      {
+        "key": "WSC-1646",
+        "url": "https://e2x.atlassian.net/browse/WSC-1646",
+        "summary": "CONTENT - new wider version of Accordion2",
+        "status": "En curso",
+        "statusCategory": "indeterminate",
+        "assignee": "Alexander Talavera",
+        "updated": "2026-08-07T03:45:54.928+0100",
+        "priority": "Importante",
+        "labels": [
+          "Needs-QA",
+          "manualQA"
+        ]
+      },
+      {
+        "key": "WSC-1641",
+        "url": "https://e2x.atlassian.net/browse/WSC-1641",
+        "summary": "Unmasking JS errors - Checkout",
+        "status": "Tech Review",
+        "statusCategory": "indeterminate",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-08-07T03:44:13.032+0100",
+        "priority": "Importante",
+        "labels": [
+          "NO_QA_REQUIRED"
+        ]
+      },
       {
         "key": "WSC-1658",
         "url": "https://e2x.atlassian.net/browse/WSC-1658",
@@ -179,19 +206,6 @@
         "labels": [
           "Needs-QA",
           "manualQA"
-        ]
-      },
-      {
-        "key": "WSC-1641",
-        "url": "https://e2x.atlassian.net/browse/WSC-1641",
-        "summary": "Unmasking JS errors - Checkout",
-        "status": "En curso",
-        "statusCategory": "indeterminate",
-        "assignee": "Alexander Talavera",
-        "updated": "2026-08-06T14:43:49.746+0100",
-        "priority": "Importante",
-        "labels": [
-          "NO_QA_REQUIRED"
         ]
       },
       {
@@ -570,20 +584,6 @@
         "updated": "2026-07-31T16:15:33.311+0100",
         "priority": "Importante",
         "labels": []
-      },
-      {
-        "key": "WSC-1646",
-        "url": "https://e2x.atlassian.net/browse/WSC-1646",
-        "summary": "CONTENT - new wider version of Accordion2",
-        "status": "Listo",
-        "statusCategory": "new",
-        "assignee": "Unassigned",
-        "updated": "2026-07-31T15:49:46.760+0100",
-        "priority": "Importante",
-        "labels": [
-          "Needs-QA",
-          "manualQA"
-        ]
       },
       {
         "key": "WSC-1367",
