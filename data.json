@@ -1,26 +1,186 @@
 {
-  "lastUpdated": "2026-08-06T14:11:55.004747+00:00",
+  "lastUpdated": "2026-08-07T00:52:50.349868+00:00",
   "jira": {
     "summary": {
-      "total": 337,
+      "total": 341,
       "byStatus": {
-        "En curso": 3,
-        "Tech Review": 11,
-        "Listo": 15,
-        "Blocked": 5,
-        "Deprecated": 12,
-        "IN QA": 2,
+        "Listo": 19,
         "QA Approved": 18,
         "Ready to QA": 2,
+        "Tech Review": 12,
+        "RETURNED BY QA": 1,
+        "En curso": 3,
+        "Deprecated": 12,
         "Finalizada": 249,
+        "IN QA": 1,
         "READY FOR RELEASE": 3,
         "PENDING DEV DEPLOY": 2,
         "IN UAT": 7,
+        "Blocked": 4,
         "Backlog": 7,
         "Tareas por hacer": 1
       }
     },
     "tickets": [
+      {
+        "key": "WSC-1658",
+        "url": "https://e2x.atlassian.net/browse/WSC-1658",
+        "summary": "BAG ORDER SUMMARY - redesign",
+        "status": "Listo",
+        "statusCategory": "new",
+        "assignee": "Chiara Davies",
+        "updated": "2026-08-06T19:50:10.816+0100",
+        "priority": "Importante",
+        "labels": [
+          "Needs-QA"
+        ]
+      },
+      {
+        "key": "WSC-1656",
+        "url": "https://e2x.atlassian.net/browse/WSC-1656",
+        "summary": "MINI BAG - redesign",
+        "status": "Listo",
+        "statusCategory": "new",
+        "assignee": "Chiara Davies",
+        "updated": "2026-08-06T19:50:07.515+0100",
+        "priority": "Importante",
+        "labels": [
+          "Needs-QA"
+        ]
+      },
+      {
+        "key": "WSC-1661",
+        "url": "https://e2x.atlassian.net/browse/WSC-1661",
+        "summary": "BAG PRODUCT SECTION - redesign",
+        "status": "Listo",
+        "statusCategory": "new",
+        "assignee": "Chiara Davies",
+        "updated": "2026-08-06T19:50:00.293+0100",
+        "priority": "Importante",
+        "labels": [
+          "FastFollow"
+        ]
+      },
+      {
+        "key": "WSC-1659",
+        "url": "https://e2x.atlassian.net/browse/WSC-1659",
+        "summary": "BAG ORDER SUMMARY - sticky CTAs on tablet/mobile",
+        "status": "Listo",
+        "statusCategory": "new",
+        "assignee": "Chiara Davies",
+        "updated": "2026-08-06T19:49:54.062+0100",
+        "priority": "Importante",
+        "labels": [
+          "Needs-QA"
+        ]
+      },
+      {
+        "key": "WSC-1657",
+        "url": "https://e2x.atlassian.net/browse/WSC-1657",
+        "summary": "Review and Update of Playwright Affected Testcases for Release 14.0",
+        "status": "QA Approved",
+        "statusCategory": "indeterminate",
+        "assignee": "Gerardo Romero",
+        "updated": "2026-08-06T18:30:59.696+0100",
+        "priority": "Not Set",
+        "labels": []
+      },
+      {
+        "key": "WSC-1520",
+        "url": "https://e2x.atlassian.net/browse/WSC-1520",
+        "summary": "[Automation] Expand & Standardize Axe Accessibility Test Coverage",
+        "status": "QA Approved",
+        "statusCategory": "indeterminate",
+        "assignee": "Gerardo Romero",
+        "updated": "2026-08-06T18:30:42.491+0100",
+        "priority": "Poco importante",
+        "labels": [
+          "Needs-QA",
+          "automatable"
+        ]
+      },
+      {
+        "key": "WSC-1667",
+        "url": "https://e2x.atlassian.net/browse/WSC-1667",
+        "summary": "PLP - restore review stars div",
+        "status": "QA Approved",
+        "statusCategory": "indeterminate",
+        "assignee": "Gerardo Romero",
+        "updated": "2026-08-06T18:29:39.393+0100",
+        "priority": "Poco importante",
+        "labels": [
+          "Needs-QA"
+        ]
+      },
+      {
+        "key": "WSC-1613",
+        "url": "https://e2x.atlassian.net/browse/WSC-1613",
+        "summary": "COLOUR NAME (CHECKOUT) - change source field",
+        "status": "Ready to QA",
+        "statusCategory": "new",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-08-06T18:25:16.064+0100",
+        "priority": "Poco importante",
+        "labels": [
+          "Needs-QA",
+          "manualQA"
+        ]
+      },
+      {
+        "key": "WSC-1594",
+        "url": "https://e2x.atlassian.net/browse/WSC-1594",
+        "summary": "SFS - item SFS data on VSF",
+        "status": "Tech Review",
+        "statusCategory": "indeterminate",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-08-06T17:22:38.952+0100",
+        "priority": "Importante",
+        "labels": [
+          "Needs-QA",
+          "automatable"
+        ]
+      },
+      {
+        "key": "WSC-1522",
+        "url": "https://e2x.atlassian.net/browse/WSC-1522",
+        "summary": "CONTENT - Personalisation",
+        "status": "RETURNED BY QA",
+        "statusCategory": "indeterminate",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-08-06T16:40:31.045+0100",
+        "priority": "Importante",
+        "labels": [
+          "Needs-QA",
+          "manualQA"
+        ]
+      },
+      {
+        "key": "WSC-1642",
+        "url": "https://e2x.atlassian.net/browse/WSC-1642",
+        "summary": "Unmasking JS errors - Infrastructure (Cloudflare)",
+        "status": "Tech Review",
+        "statusCategory": "indeterminate",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-08-06T15:32:51.860+0100",
+        "priority": "Importante",
+        "labels": [
+          "NO_QA_REQUIRED"
+        ]
+      },
+      {
+        "key": "WSC-1612",
+        "url": "https://e2x.atlassian.net/browse/WSC-1612",
+        "summary": "COLOUR NAME (VSF) - change source field",
+        "status": "Ready to QA",
+        "statusCategory": "new",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-08-06T15:12:02.572+0100",
+        "priority": "Poco importante",
+        "labels": [
+          "Needs-QA",
+          "manualQA"
+        ]
+      },
       {
         "key": "WSC-1641",
         "url": "https://e2x.atlassian.net/browse/WSC-1641",
@@ -32,20 +192,6 @@
         "priority": "Importante",
         "labels": [
           "NO_QA_REQUIRED"
-        ]
-      },
-      {
-        "key": "WSC-1594",
-        "url": "https://e2x.atlassian.net/browse/WSC-1594",
-        "summary": "SFS - item SFS data on VSF",
-        "status": "Tech Review",
-        "statusCategory": "indeterminate",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-08-06T14:43:15.635+0100",
-        "priority": "Importante",
-        "labels": [
-          "Needs-QA",
-          "automatable"
         ]
       },
       {
@@ -87,19 +233,6 @@
         ]
       },
       {
-        "key": "WSC-1642",
-        "url": "https://e2x.atlassian.net/browse/WSC-1642",
-        "summary": "Unmasking JS errors - Infrastructure (Cloudflare)",
-        "status": "Blocked",
-        "statusCategory": "new",
-        "assignee": "Alexander Talavera",
-        "updated": "2026-08-06T13:49:16.024+0100",
-        "priority": "Importante",
-        "labels": [
-          "NO_QA_REQUIRED"
-        ]
-      },
-      {
         "key": "WSC-1666",
         "url": "https://e2x.atlassian.net/browse/WSC-1666",
         "summary": "Revert WSC-1564",
@@ -109,20 +242,6 @@
         "updated": "2026-08-06T13:24:14.158+0100",
         "priority": "Not Set",
         "labels": []
-      },
-      {
-        "key": "WSC-1522",
-        "url": "https://e2x.atlassian.net/browse/WSC-1522",
-        "summary": "CONTENT - Personalisation",
-        "status": "IN QA",
-        "statusCategory": "indeterminate",
-        "assignee": "Gerardo Romero",
-        "updated": "2026-08-06T13:10:32.663+0100",
-        "priority": "Importante",
-        "labels": [
-          "Needs-QA",
-          "manualQA"
-        ]
       },
       {
         "key": "WSC-1650",
@@ -149,19 +268,6 @@
         "labels": []
       },
       {
-        "key": "WSC-1667",
-        "url": "https://e2x.atlassian.net/browse/WSC-1667",
-        "summary": "PLP - restore review stars div",
-        "status": "QA Approved",
-        "statusCategory": "indeterminate",
-        "assignee": "Gerardo Romero",
-        "updated": "2026-08-06T12:39:58.699+0100",
-        "priority": "Poco importante",
-        "labels": [
-          "Needs-QA"
-        ]
-      },
-      {
         "key": "WSC-1591",
         "url": "https://e2x.atlassian.net/browse/WSC-1591",
         "summary": "Shop Pages \u2014 Canonical URL & Hreflang Fix",
@@ -173,20 +279,6 @@
         "labels": [
           "Needs-QA",
           "automatable"
-        ]
-      },
-      {
-        "key": "WSC-1612",
-        "url": "https://e2x.atlassian.net/browse/WSC-1612",
-        "summary": "COLOUR NAME (VSF) - change source field",
-        "status": "Ready to QA",
-        "statusCategory": "new",
-        "assignee": "Stuart Young",
-        "updated": "2026-08-05T17:15:02.784+0100",
-        "priority": "Poco importante",
-        "labels": [
-          "Needs-QA",
-          "manualQA"
         ]
       },
       {
@@ -285,20 +377,6 @@
         ]
       },
       {
-        "key": "WSC-1613",
-        "url": "https://e2x.atlassian.net/browse/WSC-1613",
-        "summary": "COLOUR NAME (CHECKOUT) - change source field",
-        "status": "Ready to QA",
-        "statusCategory": "new",
-        "assignee": "Stuart Young",
-        "updated": "2026-08-04T15:11:59.981+0100",
-        "priority": "Poco importante",
-        "labels": [
-          "Needs-QA",
-          "manualQA"
-        ]
-      },
-      {
         "key": "WSC-1648",
         "url": "https://e2x.atlassian.net/browse/WSC-1648",
         "summary": "[WSSD-666] outcome - User cannot switch to USA & Canada / RoW in 2 PLPs",
@@ -359,17 +437,6 @@
         "assignee": "Stuart Young",
         "updated": "2026-08-04T13:38:40.670+0100",
         "priority": "Importante",
-        "labels": []
-      },
-      {
-        "key": "WSC-1657",
-        "url": "https://e2x.atlassian.net/browse/WSC-1657",
-        "summary": "Review and Update of Playwright Affected Testcases for Release 14.0",
-        "status": "QA Approved",
-        "statusCategory": "indeterminate",
-        "assignee": "Gerardo Romero",
-        "updated": "2026-08-03T15:30:00.671+0100",
-        "priority": "Not Set",
         "labels": []
       },
       {
@@ -655,20 +722,6 @@
         "labels": [
           "CSP",
           "NO_QA_REQUIRED"
-        ]
-      },
-      {
-        "key": "WSC-1520",
-        "url": "https://e2x.atlassian.net/browse/WSC-1520",
-        "summary": "[Automation] Expand & Standardize Axe Accessibility Test Coverage",
-        "status": "QA Approved",
-        "statusCategory": "indeterminate",
-        "assignee": "Gerardo Romero",
-        "updated": "2026-07-30T13:41:13.330+0100",
-        "priority": "Poco importante",
-        "labels": [
-          "Needs-QA",
-          "automatable"
         ]
       },
       {
