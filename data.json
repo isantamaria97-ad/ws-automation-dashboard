@@ -1,11 +1,11 @@
 {
-  "lastUpdated": "2026-08-07T05:40:52.166460+00:00",
+  "lastUpdated": "2026-08-07T09:00:01.094477+00:00",
   "jira": {
     "summary": {
       "total": 341,
       "byStatus": {
-        "En curso": 3,
         "Tech Review": 13,
+        "En curso": 3,
         "Listo": 18,
         "QA Approved": 18,
         "Ready to QA": 2,
@@ -22,6 +22,20 @@
       }
     },
     "tickets": [
+      {
+        "key": "WSC-1594",
+        "url": "https://e2x.atlassian.net/browse/WSC-1594",
+        "summary": "SFS - item SFS data on VSF",
+        "status": "Tech Review",
+        "statusCategory": "indeterminate",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-08-07T09:11:13.052+0100",
+        "priority": "Importante",
+        "labels": [
+          "Needs-QA",
+          "automatable"
+        ]
+      },
       {
         "key": "WSC-1646",
         "url": "https://e2x.atlassian.net/browse/WSC-1646",
@@ -151,20 +165,6 @@
         "labels": [
           "Needs-QA",
           "manualQA"
-        ]
-      },
-      {
-        "key": "WSC-1594",
-        "url": "https://e2x.atlassian.net/browse/WSC-1594",
-        "summary": "SFS - item SFS data on VSF",
-        "status": "Tech Review",
-        "statusCategory": "indeterminate",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-08-06T17:22:38.952+0100",
-        "priority": "Importante",
-        "labels": [
-          "Needs-QA",
-          "automatable"
         ]
       },
       {
