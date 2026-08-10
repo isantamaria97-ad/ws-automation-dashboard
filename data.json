@@ -1,14 +1,14 @@
 {
-  "lastUpdated": "2026-08-10T05:27:45.565128+00:00",
+  "lastUpdated": "2026-08-10T09:23:26.085833+00:00",
   "jira": {
     "summary": {
       "total": 344,
       "byStatus": {
-        "Ready to QA": 7,
-        "En curso": 4,
-        "Blocked": 4,
-        "Listo": 18,
         "IN QA": 2,
+        "Ready to QA": 7,
+        "En curso": 5,
+        "Blocked": 4,
+        "Listo": 17,
         "QA Approved": 18,
         "Deprecated": 12,
         "Finalizada": 249,
@@ -21,6 +21,59 @@
       }
     },
     "tickets": [
+      {
+        "key": "WSC-1522",
+        "url": "https://e2x.atlassian.net/browse/WSC-1522",
+        "summary": "CONTENT - Personalisation",
+        "status": "IN QA",
+        "statusCategory": "indeterminate",
+        "assignee": "Gerardo Romero",
+        "updated": "2026-08-10T09:55:53.177+0100",
+        "priority": "Importante",
+        "labels": [
+          "Needs-QA",
+          "manualQA"
+        ]
+      },
+      {
+        "key": "WSC-1612",
+        "url": "https://e2x.atlassian.net/browse/WSC-1612",
+        "summary": "COLOUR NAME (VSF) - change source field",
+        "status": "Ready to QA",
+        "statusCategory": "new",
+        "assignee": "Gerardo Romero",
+        "updated": "2026-08-10T09:36:25.429+0100",
+        "priority": "Poco importante",
+        "labels": [
+          "Needs-QA",
+          "manualQA"
+        ]
+      },
+      {
+        "key": "WSC-1613",
+        "url": "https://e2x.atlassian.net/browse/WSC-1613",
+        "summary": "COLOUR NAME (CHECKOUT) - change source field",
+        "status": "Ready to QA",
+        "statusCategory": "new",
+        "assignee": "Gerardo Romero",
+        "updated": "2026-08-10T09:30:57.333+0100",
+        "priority": "Poco importante",
+        "labels": [
+          "Needs-QA",
+          "manualQA"
+        ]
+      },
+      {
+        "key": "WSC-1669",
+        "url": "https://e2x.atlassian.net/browse/WSC-1669",
+        "summary": "PLP header scroller",
+        "status": "En curso",
+        "statusCategory": "indeterminate",
+        "assignee": "Chiara Davies",
+        "updated": "2026-08-10T09:02:32.036+0100",
+        "priority": "Cr\u00edtica",
+        "labels": []
+      },
       {
         "key": "WSC-1641",
         "url": "https://e2x.atlassian.net/browse/WSC-1641",
@@ -44,34 +97,6 @@
         "updated": "2026-08-07T20:47:44.395+0100",
         "priority": "Not Set",
         "labels": []
-      },
-      {
-        "key": "WSC-1613",
-        "url": "https://e2x.atlassian.net/browse/WSC-1613",
-        "summary": "COLOUR NAME (CHECKOUT) - change source field",
-        "status": "Ready to QA",
-        "statusCategory": "new",
-        "assignee": "Gerardo Romero",
-        "updated": "2026-08-07T19:49:53.217+0100",
-        "priority": "Poco importante",
-        "labels": [
-          "Needs-QA",
-          "manualQA"
-        ]
-      },
-      {
-        "key": "WSC-1612",
-        "url": "https://e2x.atlassian.net/browse/WSC-1612",
-        "summary": "COLOUR NAME (VSF) - change source field",
-        "status": "Ready to QA",
-        "statusCategory": "new",
-        "assignee": "Gerardo Romero",
-        "updated": "2026-08-07T19:49:47.665+0100",
-        "priority": "Poco importante",
-        "labels": [
-          "Needs-QA",
-          "manualQA"
-        ]
       },
       {
         "key": "WSC-1481",
@@ -175,20 +200,6 @@
         ]
       },
       {
-        "key": "WSC-1522",
-        "url": "https://e2x.atlassian.net/browse/WSC-1522",
-        "summary": "CONTENT - Personalisation",
-        "status": "IN QA",
-        "statusCategory": "indeterminate",
-        "assignee": "Gerardo Romero",
-        "updated": "2026-08-07T17:40:31.998+0100",
-        "priority": "Importante",
-        "labels": [
-          "Needs-QA",
-          "manualQA"
-        ]
-      },
-      {
         "key": "WSC-1643",
         "url": "https://e2x.atlassian.net/browse/WSC-1643",
         "summary": "Unmasking JS errors - vendor outreach",
@@ -213,17 +224,6 @@
         "labels": [
           "NO_QA_REQUIRED"
         ]
-      },
-      {
-        "key": "WSC-1669",
-        "url": "https://e2x.atlassian.net/browse/WSC-1669",
-        "summary": "PLP header scroller",
-        "status": "Listo",
-        "statusCategory": "new",
-        "assignee": "Chiara Davies",
-        "updated": "2026-08-07T15:06:23.730+0100",
-        "priority": "Cr\u00edtica",
-        "labels": []
       },
       {
         "key": "WSC-1658",
