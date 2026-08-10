@@ -1,15 +1,15 @@
 {
-  "lastUpdated": "2026-08-10T16:54:13.701557+00:00",
+  "lastUpdated": "2026-08-10T20:43:07.446767+00:00",
   "jira": {
     "summary": {
       "total": 345,
       "byStatus": {
-        "Ready to QA": 5,
-        "IN QA": 2,
-        "Tech Review": 12,
-        "QA Approved": 19,
-        "Listo": 16,
+        "IN QA": 3,
+        "QA Approved": 21,
         "En curso": 5,
+        "Tech Review": 12,
+        "Listo": 15,
+        "Ready to QA": 3,
         "Finalizada": 250,
         "Deprecated": 13,
         "Blocked": 4,
@@ -22,13 +22,41 @@
     },
     "tickets": [
       {
+        "key": "WSC-1522",
+        "url": "https://e2x.atlassian.net/browse/WSC-1522",
+        "summary": "CONTENT - Personalisation",
+        "status": "IN QA",
+        "statusCategory": "indeterminate",
+        "assignee": "Gerardo Romero",
+        "updated": "2026-08-10T21:23:33.615+0100",
+        "priority": "Importante",
+        "labels": [
+          "Needs-QA",
+          "automatable"
+        ]
+      },
+      {
+        "key": "WSC-1594",
+        "url": "https://e2x.atlassian.net/browse/WSC-1594",
+        "summary": "SFS - item SFS data on VSF",
+        "status": "IN QA",
+        "statusCategory": "indeterminate",
+        "assignee": "Gerardo Romero",
+        "updated": "2026-08-10T20:48:18.829+0100",
+        "priority": "Importante",
+        "labels": [
+          "Needs-QA",
+          "automatable"
+        ]
+      },
+      {
         "key": "WSC-1613",
         "url": "https://e2x.atlassian.net/browse/WSC-1613",
         "summary": "COLOUR NAME (CHECKOUT) - change source field",
-        "status": "Ready to QA",
-        "statusCategory": "new",
+        "status": "QA Approved",
+        "statusCategory": "indeterminate",
         "assignee": "Gerardo Romero",
-        "updated": "2026-08-10T17:44:45.795+0100",
+        "updated": "2026-08-10T19:46:07.914+0100",
         "priority": "Poco importante",
         "labels": [
           "Needs-QA",
@@ -39,10 +67,10 @@
         "key": "WSC-1612",
         "url": "https://e2x.atlassian.net/browse/WSC-1612",
         "summary": "COLOUR NAME (VSF) - change source field",
-        "status": "IN QA",
+        "status": "QA Approved",
         "statusCategory": "indeterminate",
         "assignee": "Gerardo Romero",
-        "updated": "2026-08-10T17:42:16.043+0100",
+        "updated": "2026-08-10T19:40:08.099+0100",
         "priority": "Poco importante",
         "labels": [
           "Needs-QA",
@@ -50,18 +78,55 @@
         ]
       },
       {
-        "key": "WSC-1522",
-        "url": "https://e2x.atlassian.net/browse/WSC-1522",
-        "summary": "CONTENT - Personalisation",
+        "key": "WSC-1367",
+        "url": "https://e2x.atlassian.net/browse/WSC-1367",
+        "summary": "PLP - further pagination amend",
+        "status": "En curso",
+        "statusCategory": "indeterminate",
+        "assignee": "Jair Huaman",
+        "updated": "2026-08-10T19:16:03.015+0100",
+        "priority": "Poco importante",
+        "labels": [
+          "Needs-QA"
+        ]
+      },
+      {
+        "key": "WSC-1660",
+        "url": "https://e2x.atlassian.net/browse/WSC-1660",
+        "summary": "PDP - hide review stars when stars = 0",
         "status": "Tech Review",
         "statusCategory": "indeterminate",
         "assignee": "enmanuel.ramirez",
-        "updated": "2026-08-10T17:36:33.804+0100",
-        "priority": "Importante",
+        "updated": "2026-08-10T18:50:42.415+0100",
+        "priority": "Poco importante",
         "labels": [
           "Needs-QA",
-          "manualQA"
+          "automatable"
         ]
+      },
+      {
+        "key": "WSC-1643",
+        "url": "https://e2x.atlassian.net/browse/WSC-1643",
+        "summary": "Unmasking JS errors - vendor outreach",
+        "status": "En curso",
+        "statusCategory": "indeterminate",
+        "assignee": "Alexander Talavera",
+        "updated": "2026-08-10T18:26:47.044+0100",
+        "priority": "Importante",
+        "labels": [
+          "NO_QA_REQUIRED"
+        ]
+      },
+      {
+        "key": "WSC-1647",
+        "url": "https://e2x.atlassian.net/browse/WSC-1647",
+        "summary": "CONTENT - new wider version of SEOTextBlock",
+        "status": "Listo",
+        "statusCategory": "new",
+        "assignee": "Alexander Talavera",
+        "updated": "2026-08-10T18:26:45.104+0100",
+        "priority": "Importante",
+        "labels": []
       },
       {
         "key": "WSC-1671",
@@ -102,20 +167,6 @@
         ]
       },
       {
-        "key": "WSC-1594",
-        "url": "https://e2x.atlassian.net/browse/WSC-1594",
-        "summary": "SFS - item SFS data on VSF",
-        "status": "Ready to QA",
-        "statusCategory": "new",
-        "assignee": "Gerardo Romero",
-        "updated": "2026-08-10T16:59:52.860+0100",
-        "priority": "Importante",
-        "labels": [
-          "Needs-QA",
-          "automatable"
-        ]
-      },
-      {
         "key": "WSC-1646",
         "url": "https://e2x.atlassian.net/browse/WSC-1646",
         "summary": "CONTENT - new wider version of Accordion2",
@@ -127,31 +178,6 @@
         "labels": [
           "Needs-QA",
           "manualQA"
-        ]
-      },
-      {
-        "key": "WSC-1647",
-        "url": "https://e2x.atlassian.net/browse/WSC-1647",
-        "summary": "CONTENT - new wider version of SEOTextBlock",
-        "status": "En curso",
-        "statusCategory": "indeterminate",
-        "assignee": "Alexander Talavera",
-        "updated": "2026-08-10T16:46:46.246+0100",
-        "priority": "Importante",
-        "labels": []
-      },
-      {
-        "key": "WSC-1660",
-        "url": "https://e2x.atlassian.net/browse/WSC-1660",
-        "summary": "PDP - hide review stars when stars = 0",
-        "status": "En curso",
-        "statusCategory": "indeterminate",
-        "assignee": "Jair Huaman",
-        "updated": "2026-08-10T16:01:39.998+0100",
-        "priority": "Poco importante",
-        "labels": [
-          "Needs-QA",
-          "automatable"
         ]
       },
       {
@@ -247,19 +273,6 @@
         "updated": "2026-08-07T18:58:51.191+0100",
         "priority": "Importante",
         "labels": []
-      },
-      {
-        "key": "WSC-1643",
-        "url": "https://e2x.atlassian.net/browse/WSC-1643",
-        "summary": "Unmasking JS errors - vendor outreach",
-        "status": "Listo",
-        "statusCategory": "new",
-        "assignee": "Alexander Talavera",
-        "updated": "2026-08-07T15:15:33.045+0100",
-        "priority": "Importante",
-        "labels": [
-          "NO_QA_REQUIRED"
-        ]
       },
       {
         "key": "WSC-1658",
@@ -640,19 +653,6 @@
         "updated": "2026-07-31T17:16:26.054+0100",
         "priority": "Poco importante",
         "labels": []
-      },
-      {
-        "key": "WSC-1367",
-        "url": "https://e2x.atlassian.net/browse/WSC-1367",
-        "summary": "PLP - further pagination amend",
-        "status": "Listo",
-        "statusCategory": "new",
-        "assignee": "Unassigned",
-        "updated": "2026-07-31T15:02:29.923+0100",
-        "priority": "Poco importante",
-        "labels": [
-          "Needs-QA"
-        ]
       },
       {
         "key": "WSC-1652",
