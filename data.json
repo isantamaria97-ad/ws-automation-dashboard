@@ -1,26 +1,271 @@
 {
-  "lastUpdated": "2026-08-10T20:43:07.446767+00:00",
+  "lastUpdated": "2026-08-11T01:49:23.533106+00:00",
   "jira": {
     "summary": {
       "total": 345,
       "byStatus": {
+        "Finalizada": 270,
         "IN QA": 3,
-        "QA Approved": 21,
+        "QA Approved": 8,
         "En curso": 5,
         "Tech Review": 12,
         "Listo": 15,
         "Ready to QA": 3,
-        "Finalizada": 250,
         "Deprecated": 13,
         "Blocked": 4,
-        "READY FOR RELEASE": 3,
+        "READY FOR RELEASE": 2,
         "PENDING DEV DEPLOY": 2,
-        "IN UAT": 6,
         "Backlog": 7,
         "Tareas por hacer": 1
       }
     },
     "tickets": [
+      {
+        "key": "WSC-1413",
+        "url": "https://e2x.atlassian.net/browse/WSC-1413",
+        "summary": "Only Mobile: GOOD STUFF - remove header padding",
+        "status": "Finalizada",
+        "statusCategory": "done",
+        "assignee": "Gerardo Romero",
+        "updated": "2026-08-11T00:57:07.972+0100",
+        "priority": "Poco importante",
+        "labels": [
+          "Needs-QA"
+        ]
+      },
+      {
+        "key": "WSC-1593",
+        "url": "https://e2x.atlassian.net/browse/WSC-1593",
+        "summary": "MY ACCOUNT - restrictions on /saved-addresses for name and address ",
+        "status": "Finalizada",
+        "statusCategory": "done",
+        "assignee": "Ingrith Santamaria",
+        "updated": "2026-08-11T00:56:58.703+0100",
+        "priority": "Poco importante",
+        "labels": [
+          "Needs-QA",
+          "automatable"
+        ]
+      },
+      {
+        "key": "WSC-1392",
+        "url": "https://e2x.atlassian.net/browse/WSC-1392",
+        "summary": "HHG - SEO text block",
+        "status": "Finalizada",
+        "statusCategory": "done",
+        "assignee": "Gerardo Romero",
+        "updated": "2026-08-11T00:56:49.357+0100",
+        "priority": "Poco importante",
+        "labels": []
+      },
+      {
+        "key": "WSC-1667",
+        "url": "https://e2x.atlassian.net/browse/WSC-1667",
+        "summary": "PLP - restore review stars div",
+        "status": "Finalizada",
+        "statusCategory": "done",
+        "assignee": "Gerardo Romero",
+        "updated": "2026-08-10T22:20:31.827+0100",
+        "priority": "Poco importante",
+        "labels": [
+          "Needs-QA"
+        ]
+      },
+      {
+        "key": "WSC-1665",
+        "url": "https://e2x.atlassian.net/browse/WSC-1665",
+        "summary": "[PDP] UX issues with new style category CTAs \u2014 Desktop & Tablet ",
+        "status": "Finalizada",
+        "statusCategory": "done",
+        "assignee": "Gerardo Romero",
+        "updated": "2026-08-10T22:20:26.709+0100",
+        "priority": "Poco importante",
+        "labels": []
+      },
+      {
+        "key": "WSC-1611",
+        "url": "https://e2x.atlassian.net/browse/WSC-1611",
+        "summary": "CONTENT - SlimBanner 'Sale' exclusions",
+        "status": "Finalizada",
+        "statusCategory": "done",
+        "assignee": "Ingrith Santamaria",
+        "updated": "2026-08-10T22:17:35.298+0100",
+        "priority": "Poco importante",
+        "labels": []
+      },
+      {
+        "key": "WSC-1634",
+        "url": "https://e2x.atlassian.net/browse/WSC-1634",
+        "summary": "PLP header - new styling",
+        "status": "Finalizada",
+        "statusCategory": "done",
+        "assignee": "Gerardo Romero",
+        "updated": "2026-08-10T22:17:32.811+0100",
+        "priority": "Importante",
+        "labels": []
+      },
+      {
+        "key": "WSC-1633",
+        "url": "https://e2x.atlassian.net/browse/WSC-1633",
+        "summary": "PDP - DESKTOP - CTA group not centred on the page",
+        "status": "Finalizada",
+        "statusCategory": "done",
+        "assignee": "Ingrith Santamaria",
+        "updated": "2026-08-10T22:17:30.263+0100",
+        "priority": "Poco importante",
+        "labels": []
+      },
+      {
+        "key": "WSC-1616",
+        "url": "https://e2x.atlassian.net/browse/WSC-1616",
+        "summary": "LOCALE SELECTOR - change of name",
+        "status": "Finalizada",
+        "statusCategory": "done",
+        "assignee": "Ingrith Santamaria",
+        "updated": "2026-08-10T22:17:27.586+0100",
+        "priority": "Poco importante",
+        "labels": []
+      },
+      {
+        "key": "WSC-1610",
+        "url": "https://e2x.atlassian.net/browse/WSC-1610",
+        "summary": "CHECKOUT - minor amendment for EUR and USD",
+        "status": "Finalizada",
+        "statusCategory": "done",
+        "assignee": "Ingrith Santamaria",
+        "updated": "2026-08-10T22:17:25.472+0100",
+        "priority": "Cr\u00edtica",
+        "labels": []
+      },
+      {
+        "key": "WSC-1480",
+        "url": "https://e2x.atlassian.net/browse/WSC-1480",
+        "summary": "Cloudflare CSP Infrastructure & Reporting Setup",
+        "status": "Finalizada",
+        "statusCategory": "done",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-08-10T22:17:21.191+0100",
+        "priority": "Not Set",
+        "labels": [
+          "CSP",
+          "NO_QA_REQUIRED"
+        ]
+      },
+      {
+        "key": "WSC-1520",
+        "url": "https://e2x.atlassian.net/browse/WSC-1520",
+        "summary": "[Automation] Expand & Standardize Axe Accessibility Test Coverage",
+        "status": "Finalizada",
+        "statusCategory": "done",
+        "assignee": "Gerardo Romero",
+        "updated": "2026-08-10T22:17:19.056+0100",
+        "priority": "Poco importante",
+        "labels": [
+          "Needs-QA",
+          "automatable"
+        ]
+      },
+      {
+        "key": "WSC-1542",
+        "url": "https://e2x.atlassian.net/browse/WSC-1542",
+        "summary": "CONTENT - Accordion2 amendments",
+        "status": "Finalizada",
+        "statusCategory": "done",
+        "assignee": "Gerardo Romero",
+        "updated": "2026-08-10T22:17:16.948+0100",
+        "priority": "Poco importante",
+        "labels": [
+          "Needs-QA",
+          "manualQA"
+        ]
+      },
+      {
+        "key": "WSC-1563",
+        "url": "https://e2x.atlassian.net/browse/WSC-1563",
+        "summary": "MINI BAG - minor amend for Apple Pay Express",
+        "status": "Finalizada",
+        "statusCategory": "done",
+        "assignee": "Ingrith Santamaria",
+        "updated": "2026-08-10T22:17:12.203+0100",
+        "priority": "Importante",
+        "labels": [
+          "Needs-QA"
+        ]
+      },
+      {
+        "key": "WSC-1561",
+        "url": "https://e2x.atlassian.net/browse/WSC-1561",
+        "summary": "BAG - minor amendments for Apple Pay Express",
+        "status": "Finalizada",
+        "statusCategory": "done",
+        "assignee": "Ingrith Santamaria",
+        "updated": "2026-08-10T22:17:10.136+0100",
+        "priority": "Importante",
+        "labels": [
+          "Needs-QA",
+          "manualQA"
+        ]
+      },
+      {
+        "key": "WSC-1560",
+        "url": "https://e2x.atlassian.net/browse/WSC-1560",
+        "summary": "CHECKOUT IDENTITY PAGE - minor amend for Apple Pay Express",
+        "status": "Finalizada",
+        "statusCategory": "done",
+        "assignee": "Ingrith Santamaria",
+        "updated": "2026-08-10T22:17:07.832+0100",
+        "priority": "Importante",
+        "labels": [
+          "Needs-QA",
+          "manualQA"
+        ]
+      },
+      {
+        "key": "WSC-1638",
+        "url": "https://e2x.atlassian.net/browse/WSC-1638",
+        "summary": "APPLE PAY EXPRESS - CTA font size",
+        "status": "Finalizada",
+        "statusCategory": "done",
+        "assignee": "Ingrith Santamaria",
+        "updated": "2026-08-10T22:17:05.286+0100",
+        "priority": "Importante",
+        "labels": []
+      },
+      {
+        "key": "WSC-1657",
+        "url": "https://e2x.atlassian.net/browse/WSC-1657",
+        "summary": "Review and Update of Playwright Affected Testcases for Release 14.0",
+        "status": "Finalizada",
+        "statusCategory": "done",
+        "assignee": "Gerardo Romero",
+        "updated": "2026-08-10T22:17:02.928+0100",
+        "priority": "Not Set",
+        "labels": []
+      },
+      {
+        "key": "WSC-1639",
+        "url": "https://e2x.atlassian.net/browse/WSC-1639",
+        "summary": "PDP - remove promo copy above product name",
+        "status": "Finalizada",
+        "statusCategory": "done",
+        "assignee": "Ingrith Santamaria",
+        "updated": "2026-08-10T22:17:00.155+0100",
+        "priority": "Importante",
+        "labels": [
+          "FastFollow"
+        ]
+      },
+      {
+        "key": "WSC-1609",
+        "url": "https://e2x.atlassian.net/browse/WSC-1609",
+        "summary": "CONTENT - Product Link Group - amendments",
+        "status": "Finalizada",
+        "statusCategory": "done",
+        "assignee": "Gerardo Romero",
+        "updated": "2026-08-10T22:16:56.869+0100",
+        "priority": "Poco importante",
+        "labels": []
+      },
       {
         "key": "WSC-1522",
         "url": "https://e2x.atlassian.net/browse/WSC-1522",
@@ -327,44 +572,6 @@
         ]
       },
       {
-        "key": "WSC-1657",
-        "url": "https://e2x.atlassian.net/browse/WSC-1657",
-        "summary": "Review and Update of Playwright Affected Testcases for Release 14.0",
-        "status": "QA Approved",
-        "statusCategory": "indeterminate",
-        "assignee": "Gerardo Romero",
-        "updated": "2026-08-06T18:30:59.696+0100",
-        "priority": "Not Set",
-        "labels": []
-      },
-      {
-        "key": "WSC-1520",
-        "url": "https://e2x.atlassian.net/browse/WSC-1520",
-        "summary": "[Automation] Expand & Standardize Axe Accessibility Test Coverage",
-        "status": "QA Approved",
-        "statusCategory": "indeterminate",
-        "assignee": "Gerardo Romero",
-        "updated": "2026-08-06T18:30:42.491+0100",
-        "priority": "Poco importante",
-        "labels": [
-          "Needs-QA",
-          "automatable"
-        ]
-      },
-      {
-        "key": "WSC-1667",
-        "url": "https://e2x.atlassian.net/browse/WSC-1667",
-        "summary": "PLP - restore review stars div",
-        "status": "QA Approved",
-        "statusCategory": "indeterminate",
-        "assignee": "Gerardo Romero",
-        "updated": "2026-08-06T18:29:39.393+0100",
-        "priority": "Poco importante",
-        "labels": [
-          "Needs-QA"
-        ]
-      },
-      {
         "key": "WSC-1138",
         "url": "https://e2x.atlassian.net/browse/WSC-1138",
         "summary": "GOOD STUFF - add preferred shop to 'My Details'",
@@ -400,17 +607,6 @@
         "labels": [
           "Needs-QA"
         ]
-      },
-      {
-        "key": "WSC-1665",
-        "url": "https://e2x.atlassian.net/browse/WSC-1665",
-        "summary": "[PDP] UX issues with new style category CTAs \u2014 Desktop & Tablet ",
-        "status": "QA Approved",
-        "statusCategory": "indeterminate",
-        "assignee": "Gerardo Romero",
-        "updated": "2026-08-06T12:40:47.393+0100",
-        "priority": "Poco importante",
-        "labels": []
       },
       {
         "key": "WSC-1591",
@@ -536,17 +732,6 @@
         ]
       },
       {
-        "key": "WSC-1634",
-        "url": "https://e2x.atlassian.net/browse/WSC-1634",
-        "summary": "PLP header - new styling",
-        "status": "QA Approved",
-        "statusCategory": "indeterminate",
-        "assignee": "Gerardo Romero",
-        "updated": "2026-08-04T13:41:37.256+0100",
-        "priority": "Importante",
-        "labels": []
-      },
-      {
         "key": "WSC-1433",
         "url": "https://e2x.atlassian.net/browse/WSC-1433",
         "summary": "PDP - attributes",
@@ -571,55 +756,6 @@
         ]
       },
       {
-        "key": "WSC-1610",
-        "url": "https://e2x.atlassian.net/browse/WSC-1610",
-        "summary": "CHECKOUT - minor amendment for EUR and USD",
-        "status": "IN UAT",
-        "statusCategory": "indeterminate",
-        "assignee": "Ingrith Santamaria",
-        "updated": "2026-07-31T17:22:38.636+0100",
-        "priority": "Cr\u00edtica",
-        "labels": []
-      },
-      {
-        "key": "WSC-1593",
-        "url": "https://e2x.atlassian.net/browse/WSC-1593",
-        "summary": "MY ACCOUNT - restrictions on /saved-addresses for name and address ",
-        "status": "IN UAT",
-        "statusCategory": "indeterminate",
-        "assignee": "Ingrith Santamaria",
-        "updated": "2026-07-31T17:20:28.328+0100",
-        "priority": "Poco importante",
-        "labels": [
-          "Needs-QA",
-          "automatable"
-        ]
-      },
-      {
-        "key": "WSC-1639",
-        "url": "https://e2x.atlassian.net/browse/WSC-1639",
-        "summary": "PDP - remove promo copy above product name",
-        "status": "QA Approved",
-        "statusCategory": "indeterminate",
-        "assignee": "Ingrith Santamaria",
-        "updated": "2026-07-31T17:19:25.605+0100",
-        "priority": "Importante",
-        "labels": [
-          "FastFollow"
-        ]
-      },
-      {
-        "key": "WSC-1616",
-        "url": "https://e2x.atlassian.net/browse/WSC-1616",
-        "summary": "LOCALE SELECTOR - change of name",
-        "status": "QA Approved",
-        "statusCategory": "indeterminate",
-        "assignee": "Ingrith Santamaria",
-        "updated": "2026-07-31T17:18:45.494+0100",
-        "priority": "Poco importante",
-        "labels": []
-      },
-      {
         "key": "WSC-1575",
         "url": "https://e2x.atlassian.net/browse/WSC-1575",
         "summary": "PDP - remove size button for 'ONESIZE' products",
@@ -633,28 +769,6 @@
         ]
       },
       {
-        "key": "WSC-1633",
-        "url": "https://e2x.atlassian.net/browse/WSC-1633",
-        "summary": "PDP - DESKTOP - CTA group not centred on the page",
-        "status": "QA Approved",
-        "statusCategory": "indeterminate",
-        "assignee": "Ingrith Santamaria",
-        "updated": "2026-07-31T17:18:14.450+0100",
-        "priority": "Poco importante",
-        "labels": []
-      },
-      {
-        "key": "WSC-1611",
-        "url": "https://e2x.atlassian.net/browse/WSC-1611",
-        "summary": "CONTENT - SlimBanner 'Sale' exclusions",
-        "status": "QA Approved",
-        "statusCategory": "indeterminate",
-        "assignee": "Ingrith Santamaria",
-        "updated": "2026-07-31T17:16:26.054+0100",
-        "priority": "Poco importante",
-        "labels": []
-      },
-      {
         "key": "WSC-1652",
         "url": "https://e2x.atlassian.net/browse/WSC-1652",
         "summary": "MONETATE - identify where this is implemented",
@@ -664,58 +778,6 @@
         "updated": "2026-07-31T13:50:52.016+0100",
         "priority": "Importante",
         "labels": []
-      },
-      {
-        "key": "WSC-1638",
-        "url": "https://e2x.atlassian.net/browse/WSC-1638",
-        "summary": "APPLE PAY EXPRESS - CTA font size",
-        "status": "IN UAT",
-        "statusCategory": "indeterminate",
-        "assignee": "Ingrith Santamaria",
-        "updated": "2026-07-30T23:27:30.678+0100",
-        "priority": "Importante",
-        "labels": []
-      },
-      {
-        "key": "WSC-1563",
-        "url": "https://e2x.atlassian.net/browse/WSC-1563",
-        "summary": "MINI BAG - minor amend for Apple Pay Express",
-        "status": "IN UAT",
-        "statusCategory": "indeterminate",
-        "assignee": "Ingrith Santamaria",
-        "updated": "2026-07-30T23:18:12.074+0100",
-        "priority": "Importante",
-        "labels": [
-          "Needs-QA"
-        ]
-      },
-      {
-        "key": "WSC-1561",
-        "url": "https://e2x.atlassian.net/browse/WSC-1561",
-        "summary": "BAG - minor amendments for Apple Pay Express",
-        "status": "IN UAT",
-        "statusCategory": "indeterminate",
-        "assignee": "Ingrith Santamaria",
-        "updated": "2026-07-30T23:14:34.258+0100",
-        "priority": "Importante",
-        "labels": [
-          "Needs-QA",
-          "manualQA"
-        ]
-      },
-      {
-        "key": "WSC-1560",
-        "url": "https://e2x.atlassian.net/browse/WSC-1560",
-        "summary": "CHECKOUT IDENTITY PAGE - minor amend for Apple Pay Express",
-        "status": "IN UAT",
-        "statusCategory": "indeterminate",
-        "assignee": "Ingrith Santamaria",
-        "updated": "2026-07-30T23:11:16.558+0100",
-        "priority": "Importante",
-        "labels": [
-          "Needs-QA",
-          "manualQA"
-        ]
       },
       {
         "key": "WSC-1607",
@@ -741,69 +803,6 @@
           "FastFollow",
           "Needs-QA"
         ]
-      },
-      {
-        "key": "WSC-1413",
-        "url": "https://e2x.atlassian.net/browse/WSC-1413",
-        "summary": "Only Mobile: GOOD STUFF - remove header padding",
-        "status": "QA Approved",
-        "statusCategory": "indeterminate",
-        "assignee": "Gerardo Romero",
-        "updated": "2026-07-30T14:37:51.543+0100",
-        "priority": "Poco importante",
-        "labels": [
-          "Needs-QA"
-        ]
-      },
-      {
-        "key": "WSC-1392",
-        "url": "https://e2x.atlassian.net/browse/WSC-1392",
-        "summary": "HHG - SEO text block",
-        "status": "QA Approved",
-        "statusCategory": "indeterminate",
-        "assignee": "Gerardo Romero",
-        "updated": "2026-07-30T13:41:16.488+0100",
-        "priority": "Poco importante",
-        "labels": []
-      },
-      {
-        "key": "WSC-1480",
-        "url": "https://e2x.atlassian.net/browse/WSC-1480",
-        "summary": "Cloudflare CSP Infrastructure & Reporting Setup",
-        "status": "READY FOR RELEASE",
-        "statusCategory": "new",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-07-30T13:41:15.920+0100",
-        "priority": "Not Set",
-        "labels": [
-          "CSP",
-          "NO_QA_REQUIRED"
-        ]
-      },
-      {
-        "key": "WSC-1542",
-        "url": "https://e2x.atlassian.net/browse/WSC-1542",
-        "summary": "CONTENT - Accordion2 amendments",
-        "status": "QA Approved",
-        "statusCategory": "indeterminate",
-        "assignee": "Gerardo Romero",
-        "updated": "2026-07-30T13:41:12.840+0100",
-        "priority": "Poco importante",
-        "labels": [
-          "Needs-QA",
-          "manualQA"
-        ]
-      },
-      {
-        "key": "WSC-1609",
-        "url": "https://e2x.atlassian.net/browse/WSC-1609",
-        "summary": "CONTENT - Product Link Group - amendments",
-        "status": "QA Approved",
-        "statusCategory": "indeterminate",
-        "assignee": "Gerardo Romero",
-        "updated": "2026-07-30T13:41:07.408+0100",
-        "priority": "Poco importante",
-        "labels": []
       },
       {
         "key": "WSC-1501",
