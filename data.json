@@ -1,15 +1,15 @@
 {
-  "lastUpdated": "2026-08-11T05:10:03.217511+00:00",
+  "lastUpdated": "2026-08-11T08:58:01.875824+00:00",
   "jira": {
     "summary": {
       "total": 345,
       "byStatus": {
-        "Finalizada": 270,
         "IN QA": 3,
+        "Listo": 15,
+        "Finalizada": 270,
         "QA Approved": 8,
         "En curso": 5,
         "Tech Review": 12,
-        "Listo": 15,
         "Ready to QA": 3,
         "Deprecated": 13,
         "Blocked": 4,
@@ -20,6 +20,34 @@
       }
     },
     "tickets": [
+      {
+        "key": "WSC-1594",
+        "url": "https://e2x.atlassian.net/browse/WSC-1594",
+        "summary": "SFS - item SFS data on VSF",
+        "status": "IN QA",
+        "statusCategory": "indeterminate",
+        "assignee": "Gerardo Romero",
+        "updated": "2026-08-11T09:45:14.553+0100",
+        "priority": "Importante",
+        "labels": [
+          "Needs-QA",
+          "automatable"
+        ]
+      },
+      {
+        "key": "WSC-1601",
+        "url": "https://e2x.atlassian.net/browse/WSC-1601",
+        "summary": "CONTENT - TwoForBanner amendments - notations",
+        "status": "Listo",
+        "statusCategory": "new",
+        "assignee": "Alexander Talavera",
+        "updated": "2026-08-11T09:38:06.156+0100",
+        "priority": "Importante",
+        "labels": [
+          "Needs-QA",
+          "manualQA"
+        ]
+      },
       {
         "key": "WSC-1413",
         "url": "https://e2x.atlassian.net/browse/WSC-1413",
@@ -281,20 +309,6 @@
         ]
       },
       {
-        "key": "WSC-1594",
-        "url": "https://e2x.atlassian.net/browse/WSC-1594",
-        "summary": "SFS - item SFS data on VSF",
-        "status": "IN QA",
-        "statusCategory": "indeterminate",
-        "assignee": "Gerardo Romero",
-        "updated": "2026-08-10T20:48:18.829+0100",
-        "priority": "Importante",
-        "labels": [
-          "Needs-QA",
-          "automatable"
-        ]
-      },
-      {
         "key": "WSC-1613",
         "url": "https://e2x.atlassian.net/browse/WSC-1613",
         "summary": "COLOUR NAME (CHECKOUT) - change source field",
@@ -383,20 +397,6 @@
         "updated": "2026-08-10T17:34:59.503+0100",
         "priority": "Not Set",
         "labels": []
-      },
-      {
-        "key": "WSC-1601",
-        "url": "https://e2x.atlassian.net/browse/WSC-1601",
-        "summary": "CONTENT - TwoForBanner amendments - notations",
-        "status": "Listo",
-        "statusCategory": "new",
-        "assignee": "Alexander Talavera",
-        "updated": "2026-08-10T17:00:37.321+0100",
-        "priority": "Importante",
-        "labels": [
-          "Needs-QA",
-          "manualQA"
-        ]
       },
       {
         "key": "WSC-1641",
