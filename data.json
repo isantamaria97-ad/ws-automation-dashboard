@@ -1,13 +1,13 @@
 {
-  "lastUpdated": "2026-08-12T02:01:54.817898+00:00",
+  "lastUpdated": "2026-08-12T05:38:03.522102+00:00",
   "jira": {
     "summary": {
       "total": 351,
       "byStatus": {
+        "Blocked": 5,
+        "En curso": 3,
         "RETURNED BY QA": 1,
         "QA Approved": 10,
-        "En curso": 3,
-        "Blocked": 5,
         "Tech Review": 13,
         "Listo": 20,
         "Ready for Refinement": 1,
@@ -22,6 +22,31 @@
       }
     },
     "tickets": [
+      {
+        "key": "WSC-1504",
+        "url": "https://e2x.atlassian.net/browse/WSC-1504",
+        "summary": "ACCOUNT CREATION - post purchase sign up bug",
+        "status": "Blocked",
+        "statusCategory": "new",
+        "assignee": "Stuart Young",
+        "updated": "2026-08-12T03:26:59.237+0100",
+        "priority": "Importante",
+        "labels": []
+      },
+      {
+        "key": "WSC-1522",
+        "url": "https://e2x.atlassian.net/browse/WSC-1522",
+        "summary": "CONTENT - Personalisation",
+        "status": "En curso",
+        "statusCategory": "indeterminate",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-08-12T03:26:53.870+0100",
+        "priority": "Importante",
+        "labels": [
+          "Needs-QA",
+          "automatable"
+        ]
+      },
       {
         "key": "WSC-1583",
         "url": "https://e2x.atlassian.net/browse/WSC-1583",
@@ -42,31 +67,6 @@
         "assignee": "Gerardo Romero",
         "updated": "2026-08-12T02:54:14.936+0100",
         "priority": "Cr\u00edtica",
-        "labels": []
-      },
-      {
-        "key": "WSC-1522",
-        "url": "https://e2x.atlassian.net/browse/WSC-1522",
-        "summary": "CONTENT - Personalisation",
-        "status": "En curso",
-        "statusCategory": "indeterminate",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-08-12T02:50:28.854+0100",
-        "priority": "Importante",
-        "labels": [
-          "Needs-QA",
-          "automatable"
-        ]
-      },
-      {
-        "key": "WSC-1504",
-        "url": "https://e2x.atlassian.net/browse/WSC-1504",
-        "summary": "ACCOUNT CREATION - post purchase sign up bug",
-        "status": "Blocked",
-        "statusCategory": "new",
-        "assignee": "Stuart Young",
-        "updated": "2026-08-12T02:48:41.903+0100",
-        "priority": "Importante",
         "labels": []
       },
       {
