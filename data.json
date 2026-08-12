@@ -1,16 +1,16 @@
 {
-  "lastUpdated": "2026-08-12T13:11:17.283102+00:00",
+  "lastUpdated": "2026-08-12T16:57:40.820421+00:00",
   "jira": {
     "summary": {
       "total": 351,
       "byStatus": {
+        "Tech Review": 15,
         "PENDING DEV DEPLOY": 3,
-        "Tech Review": 14,
-        "En curso": 4,
-        "QA Approved": 9,
-        "RETURNED BY QA": 1,
+        "Pre-prioritized": 2,
+        "QA Approved": 10,
+        "En curso": 3,
         "Blocked": 5,
-        "Listo": 18,
+        "Listo": 16,
         "Ready for Refinement": 1,
         "Tareas por hacer": 1,
         "READY FOR RELEASE": 2,
@@ -23,13 +23,81 @@
     },
     "tickets": [
       {
-        "key": "WSC-1583",
-        "url": "https://e2x.atlassian.net/browse/WSC-1583",
-        "summary": "CONTENT - TwoForBanner amendments",
+        "key": "WSC-1649",
+        "url": "https://e2x.atlassian.net/browse/WSC-1649",
+        "summary": "PDP - spacing issue",
+        "status": "Tech Review",
+        "statusCategory": "indeterminate",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-08-12T17:57:16.200+0100",
+        "priority": "Poco importante",
+        "labels": [
+          "Needs-QA",
+          "manualQA"
+        ]
+      },
+      {
+        "key": "WSC-1647",
+        "url": "https://e2x.atlassian.net/browse/WSC-1647",
+        "summary": "CONTENT - new wider version of SEOTextBlock",
         "status": "PENDING DEV DEPLOY",
         "statusCategory": "new",
         "assignee": "enmanuel.ramirez",
-        "updated": "2026-08-12T14:07:00.911+0100",
+        "updated": "2026-08-12T17:31:58.050+0100",
+        "priority": "Importante",
+        "labels": []
+      },
+      {
+        "key": "WSC-76",
+        "url": "https://e2x.atlassian.net/browse/WSC-76",
+        "summary": "HOTSPOTS - bug when no URL is set",
+        "status": "Pre-prioritized",
+        "statusCategory": "new",
+        "assignee": "Jair Huaman",
+        "updated": "2026-08-12T16:47:19.111+0100",
+        "priority": "Poco importante",
+        "labels": [
+          "Needs-QA",
+          "manualQA"
+        ]
+      },
+      {
+        "key": "WSC-1527",
+        "url": "https://e2x.atlassian.net/browse/WSC-1527",
+        "summary": "Apple Pay Express fails at checkout when Free Shipping campaign (Talon.One) is active",
+        "status": "Pre-prioritized",
+        "statusCategory": "new",
+        "assignee": "Alexander Talavera",
+        "updated": "2026-08-12T16:47:18.838+0100",
+        "priority": "Poco importante",
+        "labels": [
+          "Needs-QA",
+          "apple-pay",
+          "bug",
+          "checkout",
+          "manualQA",
+          "talon-one"
+        ]
+      },
+      {
+        "key": "WSC-1669",
+        "url": "https://e2x.atlassian.net/browse/WSC-1669",
+        "summary": "PLP header scroller",
+        "status": "QA Approved",
+        "statusCategory": "indeterminate",
+        "assignee": "Gerardo Romero",
+        "updated": "2026-08-12T16:35:51.984+0100",
+        "priority": "Cr\u00edtica",
+        "labels": []
+      },
+      {
+        "key": "WSC-1583",
+        "url": "https://e2x.atlassian.net/browse/WSC-1583",
+        "summary": "CONTENT - TwoForBanner amendments",
+        "status": "QA Approved",
+        "statusCategory": "indeterminate",
+        "assignee": "Ingrith Santamaria",
+        "updated": "2026-08-12T16:13:07.491+0100",
         "priority": "Importante",
         "labels": []
       },
@@ -43,42 +111,6 @@
         "updated": "2026-08-12T13:48:10.087+0100",
         "priority": "Not Set",
         "labels": []
-      },
-      {
-        "key": "WSC-1647",
-        "url": "https://e2x.atlassian.net/browse/WSC-1647",
-        "summary": "CONTENT - new wider version of SEOTextBlock",
-        "status": "En curso",
-        "statusCategory": "indeterminate",
-        "assignee": "Alexander Talavera",
-        "updated": "2026-08-12T13:47:43.952+0100",
-        "priority": "Importante",
-        "labels": []
-      },
-      {
-        "key": "WSC-1669",
-        "url": "https://e2x.atlassian.net/browse/WSC-1669",
-        "summary": "PLP header scroller",
-        "status": "QA Approved",
-        "statusCategory": "indeterminate",
-        "assignee": "Gerardo Romero",
-        "updated": "2026-08-12T13:41:52.729+0100",
-        "priority": "Cr\u00edtica",
-        "labels": []
-      },
-      {
-        "key": "WSC-1649",
-        "url": "https://e2x.atlassian.net/browse/WSC-1649",
-        "summary": "PDP - spacing issue",
-        "status": "RETURNED BY QA",
-        "statusCategory": "indeterminate",
-        "assignee": "Alexander Talavera",
-        "updated": "2026-08-12T13:36:36.365+0100",
-        "priority": "Poco importante",
-        "labels": [
-          "Needs-QA",
-          "manualQA"
-        ]
       },
       {
         "key": "WSC-1482",
@@ -171,20 +203,6 @@
         "labels": []
       },
       {
-        "key": "WSC-76",
-        "url": "https://e2x.atlassian.net/browse/WSC-76",
-        "summary": "HOTSPOTS - bug when no URL is set",
-        "status": "Listo",
-        "statusCategory": "new",
-        "assignee": "Jair Huaman",
-        "updated": "2026-08-11T20:51:58.495+0100",
-        "priority": "Poco importante",
-        "labels": [
-          "Needs-QA",
-          "manualQA"
-        ]
-      },
-      {
         "key": "WSC-1674",
         "url": "https://e2x.atlassian.net/browse/WSC-1674",
         "summary": "UX - email and password validation",
@@ -254,24 +272,6 @@
         "labels": [
           "Needs-QA",
           "manualQA"
-        ]
-      },
-      {
-        "key": "WSC-1527",
-        "url": "https://e2x.atlassian.net/browse/WSC-1527",
-        "summary": "Apple Pay Express fails at checkout when Free Shipping campaign (Talon.One) is active",
-        "status": "Listo",
-        "statusCategory": "new",
-        "assignee": "Alexander Talavera",
-        "updated": "2026-08-11T20:46:22.593+0100",
-        "priority": "Poco importante",
-        "labels": [
-          "Needs-QA",
-          "apple-pay",
-          "bug",
-          "checkout",
-          "manualQA",
-          "talon-one"
         ]
       },
       {
