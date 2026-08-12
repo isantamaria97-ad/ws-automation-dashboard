@@ -1,27 +1,114 @@
 {
-  "lastUpdated": "2026-08-11T20:45:29.929086+00:00",
+  "lastUpdated": "2026-08-12T02:01:54.817898+00:00",
   "jira": {
     "summary": {
       "total": 351,
       "byStatus": {
+        "RETURNED BY QA": 1,
         "QA Approved": 10,
-        "Listo": 19,
+        "En curso": 3,
+        "Blocked": 5,
+        "Tech Review": 13,
+        "Listo": 20,
         "Ready for Refinement": 1,
         "Tareas por hacer": 1,
-        "RETURNED BY QA": 2,
         "READY FOR RELEASE": 2,
         "IN QA": 1,
         "Ready to QA": 2,
-        "Blocked": 5,
-        "En curso": 4,
         "Finalizada": 270,
-        "Tech Review": 12,
         "Deprecated": 13,
         "PENDING DEV DEPLOY": 2,
         "Backlog": 7
       }
     },
     "tickets": [
+      {
+        "key": "WSC-1583",
+        "url": "https://e2x.atlassian.net/browse/WSC-1583",
+        "summary": "CONTENT - TwoForBanner amendments",
+        "status": "RETURNED BY QA",
+        "statusCategory": "indeterminate",
+        "assignee": "Chiara Davies",
+        "updated": "2026-08-12T02:54:28.682+0100",
+        "priority": "Importante",
+        "labels": []
+      },
+      {
+        "key": "WSC-1669",
+        "url": "https://e2x.atlassian.net/browse/WSC-1669",
+        "summary": "PLP header scroller",
+        "status": "QA Approved",
+        "statusCategory": "indeterminate",
+        "assignee": "Gerardo Romero",
+        "updated": "2026-08-12T02:54:14.936+0100",
+        "priority": "Cr\u00edtica",
+        "labels": []
+      },
+      {
+        "key": "WSC-1522",
+        "url": "https://e2x.atlassian.net/browse/WSC-1522",
+        "summary": "CONTENT - Personalisation",
+        "status": "En curso",
+        "statusCategory": "indeterminate",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-08-12T02:50:28.854+0100",
+        "priority": "Importante",
+        "labels": [
+          "Needs-QA",
+          "automatable"
+        ]
+      },
+      {
+        "key": "WSC-1504",
+        "url": "https://e2x.atlassian.net/browse/WSC-1504",
+        "summary": "ACCOUNT CREATION - post purchase sign up bug",
+        "status": "Blocked",
+        "statusCategory": "new",
+        "assignee": "Stuart Young",
+        "updated": "2026-08-12T02:48:41.903+0100",
+        "priority": "Importante",
+        "labels": []
+      },
+      {
+        "key": "WSC-1367",
+        "url": "https://e2x.atlassian.net/browse/WSC-1367",
+        "summary": "PLP - further pagination amend",
+        "status": "Tech Review",
+        "statusCategory": "indeterminate",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-08-11T23:41:51.581+0100",
+        "priority": "Poco importante",
+        "labels": [
+          "Needs-QA"
+        ]
+      },
+      {
+        "key": "WSC-1481",
+        "url": "https://e2x.atlassian.net/browse/WSC-1481",
+        "summary": "Initial CSP Report-Only Rollout  (Production)",
+        "status": "Listo",
+        "statusCategory": "new",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-08-11T22:00:34.636+0100",
+        "priority": "Not Set",
+        "labels": [
+          "CSP"
+        ]
+      },
+      {
+        "key": "WSC-1482",
+        "url": "https://e2x.atlassian.net/browse/WSC-1482",
+        "summary": "CSP Analysis & Policy Refinement",
+        "status": "Listo",
+        "statusCategory": "new",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-08-11T21:59:29.601+0100",
+        "priority": "Cr\u00edtica",
+        "labels": [
+          "CSP",
+          "NO_QA_REQUIRED"
+        ]
+      },
       {
         "key": "WSC-1594",
         "url": "https://e2x.atlassian.net/browse/WSC-1594",
@@ -35,17 +122,6 @@
           "Needs-QA",
           "automatable"
         ]
-      },
-      {
-        "key": "WSC-1669",
-        "url": "https://e2x.atlassian.net/browse/WSC-1669",
-        "summary": "PLP header scroller",
-        "status": "QA Approved",
-        "statusCategory": "indeterminate",
-        "assignee": "Gerardo Romero",
-        "updated": "2026-08-11T21:02:02.134+0100",
-        "priority": "Cr\u00edtica",
-        "labels": []
       },
       {
         "key": "WSC-1607",
@@ -212,31 +288,6 @@
         "labels": []
       },
       {
-        "key": "WSC-1522",
-        "url": "https://e2x.atlassian.net/browse/WSC-1522",
-        "summary": "CONTENT - Personalisation",
-        "status": "RETURNED BY QA",
-        "statusCategory": "indeterminate",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-08-11T19:56:45.251+0100",
-        "priority": "Importante",
-        "labels": [
-          "Needs-QA",
-          "automatable"
-        ]
-      },
-      {
-        "key": "WSC-1583",
-        "url": "https://e2x.atlassian.net/browse/WSC-1583",
-        "summary": "CONTENT - TwoForBanner amendments",
-        "status": "RETURNED BY QA",
-        "statusCategory": "indeterminate",
-        "assignee": "Chiara Davies",
-        "updated": "2026-08-11T19:56:09.143+0100",
-        "priority": "Importante",
-        "labels": []
-      },
-      {
         "key": "WSC-1544",
         "url": "https://e2x.atlassian.net/browse/WSC-1544",
         "summary": "Talon.One SDK v26.x upgrade",
@@ -383,33 +434,6 @@
         ]
       },
       {
-        "key": "WSC-1481",
-        "url": "https://e2x.atlassian.net/browse/WSC-1481",
-        "summary": "Initial CSP Report-Only Rollout",
-        "status": "En curso",
-        "statusCategory": "indeterminate",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-08-11T19:29:07.588+0100",
-        "priority": "Not Set",
-        "labels": [
-          "CSP"
-        ]
-      },
-      {
-        "key": "WSC-1482",
-        "url": "https://e2x.atlassian.net/browse/WSC-1482",
-        "summary": "CSP Analysis & Policy Refinement",
-        "status": "Listo",
-        "statusCategory": "new",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-08-11T19:29:06.898+0100",
-        "priority": "Cr\u00edtica",
-        "labels": [
-          "CSP",
-          "NO_QA_REQUIRED"
-        ]
-      },
-      {
         "key": "WSC-1591",
         "url": "https://e2x.atlassian.net/browse/WSC-1591",
         "summary": "Shop Pages \u2014 Canonical URL & Hreflang Fix",
@@ -460,19 +484,6 @@
         "assignee": "Gerardo Romero",
         "updated": "2026-08-11T19:29:03.996+0100",
         "priority": "Importante",
-        "labels": [
-          "Needs-QA"
-        ]
-      },
-      {
-        "key": "WSC-1367",
-        "url": "https://e2x.atlassian.net/browse/WSC-1367",
-        "summary": "PLP - further pagination amend",
-        "status": "En curso",
-        "statusCategory": "indeterminate",
-        "assignee": "Jair Huaman",
-        "updated": "2026-08-11T17:48:43.428+0100",
-        "priority": "Poco importante",
         "labels": [
           "Needs-QA"
         ]
@@ -795,17 +806,6 @@
         "statusCategory": "done",
         "assignee": "Stuart Young",
         "updated": "2026-08-10T11:57:40.794+0100",
-        "priority": "Importante",
-        "labels": []
-      },
-      {
-        "key": "WSC-1504",
-        "url": "https://e2x.atlassian.net/browse/WSC-1504",
-        "summary": "ACCOUNT CREATION - post purchase sign up bug",
-        "status": "Blocked",
-        "statusCategory": "new",
-        "assignee": "Stuart Young",
-        "updated": "2026-08-07T18:58:51.191+0100",
         "priority": "Importante",
         "labels": []
       },
