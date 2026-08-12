@@ -1,60 +1,34 @@
 {
-  "lastUpdated": "2026-08-12T16:57:40.820421+00:00",
+  "lastUpdated": "2026-08-12T20:46:15.812662+00:00",
   "jira": {
     "summary": {
       "total": 351,
       "byStatus": {
-        "Tech Review": 15,
-        "PENDING DEV DEPLOY": 3,
-        "Pre-prioritized": 2,
-        "QA Approved": 10,
-        "En curso": 3,
+        "Backlog": 9,
+        "Listo": 15,
+        "QA Approved": 11,
+        "En curso": 4,
         "Blocked": 5,
-        "Listo": 16,
-        "Ready for Refinement": 1,
-        "Tareas por hacer": 1,
-        "READY FOR RELEASE": 2,
         "IN QA": 1,
         "Ready to QA": 2,
+        "READY FOR RELEASE": 2,
+        "PENDING DEV DEPLOY": 3,
+        "Tech Review": 14,
+        "Ready for Refinement": 1,
+        "Tareas por hacer": 1,
         "Finalizada": 270,
-        "Deprecated": 13,
-        "Backlog": 7
+        "Deprecated": 13
       }
     },
     "tickets": [
       {
-        "key": "WSC-1649",
-        "url": "https://e2x.atlassian.net/browse/WSC-1649",
-        "summary": "PDP - spacing issue",
-        "status": "Tech Review",
-        "statusCategory": "indeterminate",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-08-12T17:57:16.200+0100",
-        "priority": "Poco importante",
-        "labels": [
-          "Needs-QA",
-          "manualQA"
-        ]
-      },
-      {
-        "key": "WSC-1647",
-        "url": "https://e2x.atlassian.net/browse/WSC-1647",
-        "summary": "CONTENT - new wider version of SEOTextBlock",
-        "status": "PENDING DEV DEPLOY",
-        "statusCategory": "new",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-08-12T17:31:58.050+0100",
-        "priority": "Importante",
-        "labels": []
-      },
-      {
         "key": "WSC-76",
         "url": "https://e2x.atlassian.net/browse/WSC-76",
         "summary": "HOTSPOTS - bug when no URL is set",
-        "status": "Pre-prioritized",
+        "status": "Backlog",
         "statusCategory": "new",
         "assignee": "Jair Huaman",
-        "updated": "2026-08-12T16:47:19.111+0100",
+        "updated": "2026-08-12T21:35:51.227+0100",
         "priority": "Poco importante",
         "labels": [
           "Needs-QA",
@@ -65,10 +39,10 @@
         "key": "WSC-1527",
         "url": "https://e2x.atlassian.net/browse/WSC-1527",
         "summary": "Apple Pay Express fails at checkout when Free Shipping campaign (Talon.One) is active",
-        "status": "Pre-prioritized",
+        "status": "Backlog",
         "statusCategory": "new",
         "assignee": "Alexander Talavera",
-        "updated": "2026-08-12T16:47:18.838+0100",
+        "updated": "2026-08-12T21:35:32.971+0100",
         "priority": "Poco importante",
         "labels": [
           "Needs-QA",
@@ -80,15 +54,73 @@
         ]
       },
       {
-        "key": "WSC-1669",
-        "url": "https://e2x.atlassian.net/browse/WSC-1669",
-        "summary": "PLP header scroller",
+        "key": "WSC-1481",
+        "url": "https://e2x.atlassian.net/browse/WSC-1481",
+        "summary": "Initial CSP Report-Only Rollout  (Production)",
+        "status": "Listo",
+        "statusCategory": "new",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-08-12T20:59:38.776+0100",
+        "priority": "Not Set",
+        "labels": [
+          "CSP"
+        ]
+      },
+      {
+        "key": "WSC-1591",
+        "url": "https://e2x.atlassian.net/browse/WSC-1591",
+        "summary": "Shop Pages \u2014 Canonical URL & Hreflang Fix",
         "status": "QA Approved",
         "statusCategory": "indeterminate",
         "assignee": "Gerardo Romero",
-        "updated": "2026-08-12T16:35:51.984+0100",
+        "updated": "2026-08-12T20:59:38.342+0100",
+        "priority": "Importante",
+        "labels": [
+          "Needs-QA",
+          "automatable"
+        ]
+      },
+      {
+        "key": "WSC-1482",
+        "url": "https://e2x.atlassian.net/browse/WSC-1482",
+        "summary": "CSP Analysis & Policy Refinement",
+        "status": "En curso",
+        "statusCategory": "indeterminate",
+        "assignee": "Jair Huaman",
+        "updated": "2026-08-12T20:59:37.936+0100",
         "priority": "Cr\u00edtica",
-        "labels": []
+        "labels": [
+          "CSP",
+          "NO_QA_REQUIRED"
+        ]
+      },
+      {
+        "key": "WSC-1483",
+        "url": "https://e2x.atlassian.net/browse/WSC-1483",
+        "summary": "CSP - QA: Checkout & Critical Flow Validation after Enforcement",
+        "status": "Blocked",
+        "statusCategory": "new",
+        "assignee": "Gerardo Romero",
+        "updated": "2026-08-12T20:59:37.576+0100",
+        "priority": "Not Set",
+        "labels": [
+          "CSP",
+          "Needs-QA"
+        ]
+      },
+      {
+        "key": "WSC-1484",
+        "url": "https://e2x.atlassian.net/browse/WSC-1484",
+        "summary": "CSP Enforcement Rollout & Hardening",
+        "status": "Listo",
+        "statusCategory": "new",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-08-12T20:59:37.240+0100",
+        "priority": "Cr\u00edtica",
+        "labels": [
+          "CSP",
+          "NO_QA_REQUIRED"
+        ]
       },
       {
         "key": "WSC-1583",
@@ -97,7 +129,227 @@
         "status": "QA Approved",
         "statusCategory": "indeterminate",
         "assignee": "Ingrith Santamaria",
-        "updated": "2026-08-12T16:13:07.491+0100",
+        "updated": "2026-08-12T20:59:36.829+0100",
+        "priority": "Importante",
+        "labels": []
+      },
+      {
+        "key": "WSC-1594",
+        "url": "https://e2x.atlassian.net/browse/WSC-1594",
+        "summary": "SFS - item SFS data on VSF",
+        "status": "QA Approved",
+        "statusCategory": "indeterminate",
+        "assignee": "Gerardo Romero",
+        "updated": "2026-08-12T20:59:36.528+0100",
+        "priority": "Importante",
+        "labels": [
+          "Needs-QA",
+          "automatable"
+        ]
+      },
+      {
+        "key": "WSC-1671",
+        "url": "https://e2x.atlassian.net/browse/WSC-1671",
+        "summary": "Slim Banner component preview not rendering in Amplience",
+        "status": "QA Approved",
+        "statusCategory": "indeterminate",
+        "assignee": "Gerardo Romero",
+        "updated": "2026-08-12T20:59:36.227+0100",
+        "priority": "Not Set",
+        "labels": []
+      },
+      {
+        "key": "WSC-1650",
+        "url": "https://e2x.atlassian.net/browse/WSC-1650",
+        "summary": "Google Maps API loaded globally on all pages instead of only where needed",
+        "status": "QA Approved",
+        "statusCategory": "indeterminate",
+        "assignee": "Gerardo Romero",
+        "updated": "2026-08-12T20:59:35.820+0100",
+        "priority": "Importante",
+        "labels": [
+          "Needs-QA"
+        ]
+      },
+      {
+        "key": "WSC-1640",
+        "url": "https://e2x.atlassian.net/browse/WSC-1640",
+        "summary": "Unmasking JS errors - VSF",
+        "status": "IN QA",
+        "statusCategory": "indeterminate",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-08-12T20:59:35.384+0100",
+        "priority": "Importante",
+        "labels": [
+          "NO_QA_REQUIRED"
+        ]
+      },
+      {
+        "key": "WSC-1641",
+        "url": "https://e2x.atlassian.net/browse/WSC-1641",
+        "summary": "Unmasking JS errors - Checkout",
+        "status": "Ready to QA",
+        "statusCategory": "new",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-08-12T20:59:34.989+0100",
+        "priority": "Importante",
+        "labels": [
+          "NO_QA_REQUIRED"
+        ]
+      },
+      {
+        "key": "WSC-1642",
+        "url": "https://e2x.atlassian.net/browse/WSC-1642",
+        "summary": "Unmasking JS errors - Infrastructure (Cloudflare)",
+        "status": "Ready to QA",
+        "statusCategory": "new",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-08-12T20:59:34.578+0100",
+        "priority": "Importante",
+        "labels": [
+          "NO_QA_REQUIRED"
+        ]
+      },
+      {
+        "key": "WSC-1643",
+        "url": "https://e2x.atlassian.net/browse/WSC-1643",
+        "summary": "Unmasking JS errors - vendor outreach",
+        "status": "Blocked",
+        "statusCategory": "new",
+        "assignee": "Alexander Talavera",
+        "updated": "2026-08-12T20:59:34.218+0100",
+        "priority": "Importante",
+        "labels": [
+          "NO_QA_REQUIRED"
+        ]
+      },
+      {
+        "key": "WSC-1544",
+        "url": "https://e2x.atlassian.net/browse/WSC-1544",
+        "summary": "Talon.One SDK v26.x upgrade",
+        "status": "READY FOR RELEASE",
+        "statusCategory": "new",
+        "assignee": "Unassigned",
+        "updated": "2026-08-12T20:59:33.766+0100",
+        "priority": "Cr\u00edtica",
+        "labels": [
+          "NO_QA_REQUIRED"
+        ]
+      },
+      {
+        "key": "WSC-1522",
+        "url": "https://e2x.atlassian.net/browse/WSC-1522",
+        "summary": "CONTENT - Personalisation",
+        "status": "En curso",
+        "statusCategory": "indeterminate",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-08-12T20:59:33.228+0100",
+        "priority": "Importante",
+        "labels": [
+          "Needs-QA",
+          "automatable"
+        ]
+      },
+      {
+        "key": "WSC-1612",
+        "url": "https://e2x.atlassian.net/browse/WSC-1612",
+        "summary": "COLOUR NAME (VSF) - change source field",
+        "status": "QA Approved",
+        "statusCategory": "indeterminate",
+        "assignee": "Gerardo Romero",
+        "updated": "2026-08-12T20:59:32.705+0100",
+        "priority": "Poco importante",
+        "labels": [
+          "Needs-QA",
+          "manualQA"
+        ]
+      },
+      {
+        "key": "WSC-1613",
+        "url": "https://e2x.atlassian.net/browse/WSC-1613",
+        "summary": "COLOUR NAME (CHECKOUT) - change source field",
+        "status": "QA Approved",
+        "statusCategory": "indeterminate",
+        "assignee": "Gerardo Romero",
+        "updated": "2026-08-12T20:59:32.220+0100",
+        "priority": "Poco importante",
+        "labels": [
+          "Needs-QA",
+          "manualQA"
+        ]
+      },
+      {
+        "key": "WSC-1614",
+        "url": "https://e2x.atlassian.net/browse/WSC-1614",
+        "summary": "LIVE CHAT - z-index changes",
+        "status": "QA Approved",
+        "statusCategory": "indeterminate",
+        "assignee": "Gerardo Romero",
+        "updated": "2026-08-12T20:59:31.766+0100",
+        "priority": "Importante",
+        "labels": [
+          "Needs-QA",
+          "automatable"
+        ]
+      },
+      {
+        "key": "WSC-1669",
+        "url": "https://e2x.atlassian.net/browse/WSC-1669",
+        "summary": "PLP header scroller",
+        "status": "QA Approved",
+        "statusCategory": "indeterminate",
+        "assignee": "Gerardo Romero",
+        "updated": "2026-08-12T20:59:31.304+0100",
+        "priority": "Cr\u00edtica",
+        "labels": []
+      },
+      {
+        "key": "WSC-1648",
+        "url": "https://e2x.atlassian.net/browse/WSC-1648",
+        "summary": "[WSSD-666] outcome - User cannot switch to USA & Canada / RoW in 2 PLPs",
+        "status": "QA Approved",
+        "statusCategory": "indeterminate",
+        "assignee": "Ingrith Santamaria",
+        "updated": "2026-08-12T20:59:30.830+0100",
+        "priority": "Poco importante",
+        "labels": [
+          "Needs-QA",
+          "automatable"
+        ]
+      },
+      {
+        "key": "WSC-1649",
+        "url": "https://e2x.atlassian.net/browse/WSC-1649",
+        "summary": "PDP - spacing issue",
+        "status": "QA Approved",
+        "statusCategory": "indeterminate",
+        "assignee": "Gerardo Romero",
+        "updated": "2026-08-12T20:59:30.272+0100",
+        "priority": "Poco importante",
+        "labels": [
+          "Needs-QA",
+          "manualQA"
+        ]
+      },
+      {
+        "key": "WSC-1607",
+        "url": "https://e2x.atlassian.net/browse/WSC-1607",
+        "summary": "PDP - Stylitics - Android issue",
+        "status": "En curso",
+        "statusCategory": "indeterminate",
+        "assignee": "Alexander Talavera",
+        "updated": "2026-08-12T18:36:18.224+0100",
+        "priority": "Poco importante",
+        "labels": []
+      },
+      {
+        "key": "WSC-1647",
+        "url": "https://e2x.atlassian.net/browse/WSC-1647",
+        "summary": "CONTENT - new wider version of SEOTextBlock",
+        "status": "PENDING DEV DEPLOY",
+        "statusCategory": "new",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-08-12T17:31:58.050+0100",
         "priority": "Importante",
         "labels": []
       },
@@ -113,20 +365,6 @@
         "labels": []
       },
       {
-        "key": "WSC-1482",
-        "url": "https://e2x.atlassian.net/browse/WSC-1482",
-        "summary": "CSP Analysis & Policy Refinement",
-        "status": "En curso",
-        "statusCategory": "indeterminate",
-        "assignee": "Jair Huaman",
-        "updated": "2026-08-12T13:31:27.433+0100",
-        "priority": "Cr\u00edtica",
-        "labels": [
-          "CSP",
-          "NO_QA_REQUIRED"
-        ]
-      },
-      {
         "key": "WSC-1504",
         "url": "https://e2x.atlassian.net/browse/WSC-1504",
         "summary": "ACCOUNT CREATION - post purchase sign up bug",
@@ -136,20 +374,6 @@
         "updated": "2026-08-12T03:26:59.237+0100",
         "priority": "Importante",
         "labels": []
-      },
-      {
-        "key": "WSC-1522",
-        "url": "https://e2x.atlassian.net/browse/WSC-1522",
-        "summary": "CONTENT - Personalisation",
-        "status": "En curso",
-        "statusCategory": "indeterminate",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-08-12T03:26:53.870+0100",
-        "priority": "Importante",
-        "labels": [
-          "Needs-QA",
-          "automatable"
-        ]
       },
       {
         "key": "WSC-1367",
@@ -163,44 +387,6 @@
         "labels": [
           "Needs-QA"
         ]
-      },
-      {
-        "key": "WSC-1481",
-        "url": "https://e2x.atlassian.net/browse/WSC-1481",
-        "summary": "Initial CSP Report-Only Rollout  (Production)",
-        "status": "Listo",
-        "statusCategory": "new",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-08-11T22:00:34.636+0100",
-        "priority": "Not Set",
-        "labels": [
-          "CSP"
-        ]
-      },
-      {
-        "key": "WSC-1594",
-        "url": "https://e2x.atlassian.net/browse/WSC-1594",
-        "summary": "SFS - item SFS data on VSF",
-        "status": "QA Approved",
-        "statusCategory": "indeterminate",
-        "assignee": "Gerardo Romero",
-        "updated": "2026-08-11T21:15:06.876+0100",
-        "priority": "Importante",
-        "labels": [
-          "Needs-QA",
-          "automatable"
-        ]
-      },
-      {
-        "key": "WSC-1607",
-        "url": "https://e2x.atlassian.net/browse/WSC-1607",
-        "summary": "PDP - Stylitics - Android issue",
-        "status": "Listo",
-        "statusCategory": "new",
-        "assignee": "Alexander Talavera",
-        "updated": "2026-08-11T20:52:37.045+0100",
-        "priority": "Poco importante",
-        "labels": []
       },
       {
         "key": "WSC-1674",
@@ -311,193 +497,6 @@
         "updated": "2026-08-11T20:40:25.640+0100",
         "priority": "Importante",
         "labels": []
-      },
-      {
-        "key": "WSC-1544",
-        "url": "https://e2x.atlassian.net/browse/WSC-1544",
-        "summary": "Talon.One SDK v26.x upgrade",
-        "status": "READY FOR RELEASE",
-        "statusCategory": "new",
-        "assignee": "Unassigned",
-        "updated": "2026-08-11T19:29:14.997+0100",
-        "priority": "Cr\u00edtica",
-        "labels": [
-          "NO_QA_REQUIRED"
-        ]
-      },
-      {
-        "key": "WSC-1640",
-        "url": "https://e2x.atlassian.net/browse/WSC-1640",
-        "summary": "Unmasking JS errors - VSF",
-        "status": "IN QA",
-        "statusCategory": "indeterminate",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-08-11T19:29:14.514+0100",
-        "priority": "Importante",
-        "labels": [
-          "NO_QA_REQUIRED"
-        ]
-      },
-      {
-        "key": "WSC-1612",
-        "url": "https://e2x.atlassian.net/browse/WSC-1612",
-        "summary": "COLOUR NAME (VSF) - change source field",
-        "status": "QA Approved",
-        "statusCategory": "indeterminate",
-        "assignee": "Gerardo Romero",
-        "updated": "2026-08-11T19:29:13.308+0100",
-        "priority": "Poco importante",
-        "labels": [
-          "Needs-QA",
-          "manualQA"
-        ]
-      },
-      {
-        "key": "WSC-1613",
-        "url": "https://e2x.atlassian.net/browse/WSC-1613",
-        "summary": "COLOUR NAME (CHECKOUT) - change source field",
-        "status": "QA Approved",
-        "statusCategory": "indeterminate",
-        "assignee": "Gerardo Romero",
-        "updated": "2026-08-11T19:29:12.783+0100",
-        "priority": "Poco importante",
-        "labels": [
-          "Needs-QA",
-          "manualQA"
-        ]
-      },
-      {
-        "key": "WSC-1671",
-        "url": "https://e2x.atlassian.net/browse/WSC-1671",
-        "summary": "Slim Banner component preview not rendering in Amplience",
-        "status": "QA Approved",
-        "statusCategory": "indeterminate",
-        "assignee": "Gerardo Romero",
-        "updated": "2026-08-11T19:29:11.682+0100",
-        "priority": "Not Set",
-        "labels": []
-      },
-      {
-        "key": "WSC-1642",
-        "url": "https://e2x.atlassian.net/browse/WSC-1642",
-        "summary": "Unmasking JS errors - Infrastructure (Cloudflare)",
-        "status": "Ready to QA",
-        "statusCategory": "new",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-08-11T19:29:11.150+0100",
-        "priority": "Importante",
-        "labels": [
-          "NO_QA_REQUIRED"
-        ]
-      },
-      {
-        "key": "WSC-1641",
-        "url": "https://e2x.atlassian.net/browse/WSC-1641",
-        "summary": "Unmasking JS errors - Checkout",
-        "status": "Ready to QA",
-        "statusCategory": "new",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-08-11T19:29:10.589+0100",
-        "priority": "Importante",
-        "labels": [
-          "NO_QA_REQUIRED"
-        ]
-      },
-      {
-        "key": "WSC-1483",
-        "url": "https://e2x.atlassian.net/browse/WSC-1483",
-        "summary": "CSP - QA: Checkout & Critical Flow Validation after Enforcement",
-        "status": "Blocked",
-        "statusCategory": "new",
-        "assignee": "Gerardo Romero",
-        "updated": "2026-08-11T19:29:09.947+0100",
-        "priority": "Not Set",
-        "labels": [
-          "CSP",
-          "Needs-QA"
-        ]
-      },
-      {
-        "key": "WSC-1614",
-        "url": "https://e2x.atlassian.net/browse/WSC-1614",
-        "summary": "LIVE CHAT - z-index changes",
-        "status": "QA Approved",
-        "statusCategory": "indeterminate",
-        "assignee": "Gerardo Romero",
-        "updated": "2026-08-11T19:29:09.401+0100",
-        "priority": "Importante",
-        "labels": [
-          "Needs-QA",
-          "automatable"
-        ]
-      },
-      {
-        "key": "WSC-1484",
-        "url": "https://e2x.atlassian.net/browse/WSC-1484",
-        "summary": "CSP Enforcement Rollout & Hardening",
-        "status": "Listo",
-        "statusCategory": "new",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-08-11T19:29:08.774+0100",
-        "priority": "Cr\u00edtica",
-        "labels": [
-          "CSP",
-          "NO_QA_REQUIRED"
-        ]
-      },
-      {
-        "key": "WSC-1643",
-        "url": "https://e2x.atlassian.net/browse/WSC-1643",
-        "summary": "Unmasking JS errors - vendor outreach",
-        "status": "Blocked",
-        "statusCategory": "new",
-        "assignee": "Alexander Talavera",
-        "updated": "2026-08-11T19:29:08.260+0100",
-        "priority": "Importante",
-        "labels": [
-          "NO_QA_REQUIRED"
-        ]
-      },
-      {
-        "key": "WSC-1591",
-        "url": "https://e2x.atlassian.net/browse/WSC-1591",
-        "summary": "Shop Pages \u2014 Canonical URL & Hreflang Fix",
-        "status": "QA Approved",
-        "statusCategory": "indeterminate",
-        "assignee": "Gerardo Romero",
-        "updated": "2026-08-11T19:29:06.330+0100",
-        "priority": "Importante",
-        "labels": [
-          "Needs-QA",
-          "automatable"
-        ]
-      },
-      {
-        "key": "WSC-1648",
-        "url": "https://e2x.atlassian.net/browse/WSC-1648",
-        "summary": "[WSSD-666] outcome - User cannot switch to USA & Canada / RoW in 2 PLPs",
-        "status": "QA Approved",
-        "statusCategory": "indeterminate",
-        "assignee": "Ingrith Santamaria",
-        "updated": "2026-08-11T19:29:05.737+0100",
-        "priority": "Poco importante",
-        "labels": [
-          "Needs-QA",
-          "automatable"
-        ]
-      },
-      {
-        "key": "WSC-1650",
-        "url": "https://e2x.atlassian.net/browse/WSC-1650",
-        "summary": "Google Maps API loaded globally on all pages instead of only where needed",
-        "status": "QA Approved",
-        "statusCategory": "indeterminate",
-        "assignee": "Gerardo Romero",
-        "updated": "2026-08-11T19:29:03.996+0100",
-        "priority": "Importante",
-        "labels": [
-          "Needs-QA"
-        ]
       },
       {
         "key": "WSC-1601",
