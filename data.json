@@ -1,15 +1,16 @@
 {
-  "lastUpdated": "2026-08-12T09:12:41.853414+00:00",
+  "lastUpdated": "2026-08-12T13:11:17.283102+00:00",
   "jira": {
     "summary": {
       "total": 351,
       "byStatus": {
-        "Blocked": 5,
-        "En curso": 3,
+        "PENDING DEV DEPLOY": 3,
+        "Tech Review": 14,
+        "En curso": 4,
+        "QA Approved": 9,
         "RETURNED BY QA": 1,
-        "QA Approved": 10,
-        "Tech Review": 13,
-        "Listo": 20,
+        "Blocked": 5,
+        "Listo": 18,
         "Ready for Refinement": 1,
         "Tareas por hacer": 1,
         "READY FOR RELEASE": 2,
@@ -17,11 +18,82 @@
         "Ready to QA": 2,
         "Finalizada": 270,
         "Deprecated": 13,
-        "PENDING DEV DEPLOY": 2,
         "Backlog": 7
       }
     },
     "tickets": [
+      {
+        "key": "WSC-1583",
+        "url": "https://e2x.atlassian.net/browse/WSC-1583",
+        "summary": "CONTENT - TwoForBanner amendments",
+        "status": "PENDING DEV DEPLOY",
+        "statusCategory": "new",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-08-12T14:07:00.911+0100",
+        "priority": "Importante",
+        "labels": []
+      },
+      {
+        "key": "WSC-1681",
+        "url": "https://e2x.atlassian.net/browse/WSC-1681",
+        "summary": "[WS] Monthly vulnerability review (Snyk) Aug for Jul 2026 Maintain Report",
+        "status": "Tech Review",
+        "statusCategory": "indeterminate",
+        "assignee": "Rafael Paranagu\u00e1",
+        "updated": "2026-08-12T13:48:10.087+0100",
+        "priority": "Not Set",
+        "labels": []
+      },
+      {
+        "key": "WSC-1647",
+        "url": "https://e2x.atlassian.net/browse/WSC-1647",
+        "summary": "CONTENT - new wider version of SEOTextBlock",
+        "status": "En curso",
+        "statusCategory": "indeterminate",
+        "assignee": "Alexander Talavera",
+        "updated": "2026-08-12T13:47:43.952+0100",
+        "priority": "Importante",
+        "labels": []
+      },
+      {
+        "key": "WSC-1669",
+        "url": "https://e2x.atlassian.net/browse/WSC-1669",
+        "summary": "PLP header scroller",
+        "status": "QA Approved",
+        "statusCategory": "indeterminate",
+        "assignee": "Gerardo Romero",
+        "updated": "2026-08-12T13:41:52.729+0100",
+        "priority": "Cr\u00edtica",
+        "labels": []
+      },
+      {
+        "key": "WSC-1649",
+        "url": "https://e2x.atlassian.net/browse/WSC-1649",
+        "summary": "PDP - spacing issue",
+        "status": "RETURNED BY QA",
+        "statusCategory": "indeterminate",
+        "assignee": "Alexander Talavera",
+        "updated": "2026-08-12T13:36:36.365+0100",
+        "priority": "Poco importante",
+        "labels": [
+          "Needs-QA",
+          "manualQA"
+        ]
+      },
+      {
+        "key": "WSC-1482",
+        "url": "https://e2x.atlassian.net/browse/WSC-1482",
+        "summary": "CSP Analysis & Policy Refinement",
+        "status": "En curso",
+        "statusCategory": "indeterminate",
+        "assignee": "Jair Huaman",
+        "updated": "2026-08-12T13:31:27.433+0100",
+        "priority": "Cr\u00edtica",
+        "labels": [
+          "CSP",
+          "NO_QA_REQUIRED"
+        ]
+      },
       {
         "key": "WSC-1504",
         "url": "https://e2x.atlassian.net/browse/WSC-1504",
@@ -48,28 +120,6 @@
         ]
       },
       {
-        "key": "WSC-1583",
-        "url": "https://e2x.atlassian.net/browse/WSC-1583",
-        "summary": "CONTENT - TwoForBanner amendments",
-        "status": "RETURNED BY QA",
-        "statusCategory": "indeterminate",
-        "assignee": "Chiara Davies",
-        "updated": "2026-08-12T02:54:28.682+0100",
-        "priority": "Importante",
-        "labels": []
-      },
-      {
-        "key": "WSC-1669",
-        "url": "https://e2x.atlassian.net/browse/WSC-1669",
-        "summary": "PLP header scroller",
-        "status": "QA Approved",
-        "statusCategory": "indeterminate",
-        "assignee": "Gerardo Romero",
-        "updated": "2026-08-12T02:54:14.936+0100",
-        "priority": "Cr\u00edtica",
-        "labels": []
-      },
-      {
         "key": "WSC-1367",
         "url": "https://e2x.atlassian.net/browse/WSC-1367",
         "summary": "PLP - further pagination amend",
@@ -93,20 +143,6 @@
         "priority": "Not Set",
         "labels": [
           "CSP"
-        ]
-      },
-      {
-        "key": "WSC-1482",
-        "url": "https://e2x.atlassian.net/browse/WSC-1482",
-        "summary": "CSP Analysis & Policy Refinement",
-        "status": "Listo",
-        "statusCategory": "new",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-08-11T21:59:29.601+0100",
-        "priority": "Cr\u00edtica",
-        "labels": [
-          "CSP",
-          "NO_QA_REQUIRED"
         ]
       },
       {
@@ -219,17 +255,6 @@
           "Needs-QA",
           "manualQA"
         ]
-      },
-      {
-        "key": "WSC-1681",
-        "url": "https://e2x.atlassian.net/browse/WSC-1681",
-        "summary": "[WS] Monthly vulnerability review (Snyk) Aug for Jul 2026 Maintain Report",
-        "status": "Listo",
-        "statusCategory": "new",
-        "assignee": "Alexander Talavera",
-        "updated": "2026-08-11T20:46:29.209+0100",
-        "priority": "Not Set",
-        "labels": []
       },
       {
         "key": "WSC-1527",
@@ -462,20 +487,6 @@
         ]
       },
       {
-        "key": "WSC-1649",
-        "url": "https://e2x.atlassian.net/browse/WSC-1649",
-        "summary": "PDP - spacing issue",
-        "status": "QA Approved",
-        "statusCategory": "indeterminate",
-        "assignee": "Ingrith Santamaria",
-        "updated": "2026-08-11T19:29:05.137+0100",
-        "priority": "Poco importante",
-        "labels": [
-          "Needs-QA",
-          "manualQA"
-        ]
-      },
-      {
         "key": "WSC-1650",
         "url": "https://e2x.atlassian.net/browse/WSC-1650",
         "summary": "Google Maps API loaded globally on all pages instead of only where needed",
@@ -501,17 +512,6 @@
           "Needs-QA",
           "manualQA"
         ]
-      },
-      {
-        "key": "WSC-1647",
-        "url": "https://e2x.atlassian.net/browse/WSC-1647",
-        "summary": "CONTENT - new wider version of SEOTextBlock",
-        "status": "En curso",
-        "statusCategory": "indeterminate",
-        "assignee": "Alexander Talavera",
-        "updated": "2026-08-11T15:51:32.012+0100",
-        "priority": "Importante",
-        "labels": []
       },
       {
         "key": "WSC-1413",
