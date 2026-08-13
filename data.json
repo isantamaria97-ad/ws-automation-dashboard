@@ -1,63 +1,84 @@
 {
-  "lastUpdated": "2026-08-13T13:13:11.095836+00:00",
+  "lastUpdated": "2026-08-13T16:56:57.654230+00:00",
   "jira": {
     "summary": {
-      "total": 351,
+      "total": 352,
       "byStatus": {
-        "En curso": 4,
-        "Listo": 15,
+        "IN QA": 3,
+        "QA Approved": 12,
+        "Ready to QA": 1,
+        "Listo": 13,
         "Blocked": 5,
+        "En curso": 4,
         "Tech Review": 14,
-        "Backlog": 9,
-        "QA Approved": 11,
-        "IN QA": 1,
-        "Ready to QA": 2,
+        "Backlog": 10,
+        "Finalizada": 271,
         "READY FOR RELEASE": 2,
         "PENDING DEV DEPLOY": 3,
         "Ready for Refinement": 1,
-        "Tareas por hacer": 1,
-        "Finalizada": 270,
         "Deprecated": 13
       }
     },
     "tickets": [
       {
-        "key": "WSC-1607",
-        "url": "https://e2x.atlassian.net/browse/WSC-1607",
-        "summary": "PDP - Stylitics - Android issue",
-        "status": "En curso",
-        "statusCategory": "indeterminate",
-        "assignee": "Alexander Talavera",
-        "updated": "2026-08-13T14:12:43.593+0100",
-        "priority": "Poco importante",
-        "labels": []
-      },
-      {
-        "key": "WSC-1522",
-        "url": "https://e2x.atlassian.net/browse/WSC-1522",
-        "summary": "CONTENT - Personalisation",
-        "status": "En curso",
+        "key": "WSC-1642",
+        "url": "https://e2x.atlassian.net/browse/WSC-1642",
+        "summary": "Unmasking JS errors - Infrastructure (Cloudflare)",
+        "status": "IN QA",
         "statusCategory": "indeterminate",
         "assignee": "enmanuel.ramirez",
-        "updated": "2026-08-13T14:01:05.345+0100",
+        "updated": "2026-08-13T17:33:48.639+0100",
         "priority": "Importante",
         "labels": [
-          "Needs-QA",
-          "automatable"
+          "NO_QA_REQUIRED"
         ]
       },
       {
-        "key": "WSC-1484",
-        "url": "https://e2x.atlassian.net/browse/WSC-1484",
-        "summary": "CSP Enforcement Rollout & Hardening",
+        "key": "WSC-1641",
+        "url": "https://e2x.atlassian.net/browse/WSC-1641",
+        "summary": "Unmasking JS errors - Checkout",
+        "status": "IN QA",
+        "statusCategory": "indeterminate",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-08-13T17:33:46.160+0100",
+        "priority": "Importante",
+        "labels": [
+          "NO_QA_REQUIRED"
+        ]
+      },
+      {
+        "key": "WSC-1669",
+        "url": "https://e2x.atlassian.net/browse/WSC-1669",
+        "summary": "PLP header scroller",
+        "status": "QA Approved",
+        "statusCategory": "indeterminate",
+        "assignee": "Gerardo Romero",
+        "updated": "2026-08-13T17:05:51.264+0100",
+        "priority": "Cr\u00edtica",
+        "labels": []
+      },
+      {
+        "key": "WSC-1680",
+        "url": "https://e2x.atlassian.net/browse/WSC-1680",
+        "summary": "PLP header iOS issue",
+        "status": "Ready to QA",
+        "statusCategory": "new",
+        "assignee": "Unassigned",
+        "updated": "2026-08-13T17:00:37.647+0100",
+        "priority": "Importante",
+        "labels": []
+      },
+      {
+        "key": "WSC-1481",
+        "url": "https://e2x.atlassian.net/browse/WSC-1481",
+        "summary": "Initial CSP Report-Only Rollout  (Production)",
         "status": "Listo",
         "statusCategory": "new",
         "assignee": "enmanuel.ramirez",
-        "updated": "2026-08-13T13:33:52.532+0100",
-        "priority": "Cr\u00edtica",
+        "updated": "2026-08-13T17:00:37.186+0100",
+        "priority": "Not Set",
         "labels": [
-          "CSP",
-          "NO_QA_REQUIRED"
+          "CSP"
         ]
       },
       {
@@ -67,7 +88,7 @@
         "status": "Blocked",
         "statusCategory": "new",
         "assignee": "Gerardo Romero",
-        "updated": "2026-08-13T13:33:41.601+0100",
+        "updated": "2026-08-13T17:00:36.695+0100",
         "priority": "Not Set",
         "labels": [
           "CSP",
@@ -75,29 +96,156 @@
         ]
       },
       {
-        "key": "WSC-1681",
-        "url": "https://e2x.atlassian.net/browse/WSC-1681",
-        "summary": "[WS] Monthly vulnerability review (Snyk) Aug for Jul 2026 Maintain Report",
-        "status": "Tech Review",
-        "statusCategory": "indeterminate",
-        "assignee": "Rafael Paranagu\u00e1",
-        "updated": "2026-08-13T12:53:57.637+0100",
-        "priority": "Not Set",
-        "labels": []
-      },
-      {
-        "key": "WSC-1482",
-        "url": "https://e2x.atlassian.net/browse/WSC-1482",
-        "summary": "CSP Analysis & Policy Refinement",
-        "status": "En curso",
-        "statusCategory": "indeterminate",
-        "assignee": "Jair Huaman",
-        "updated": "2026-08-12T22:05:04.887+0100",
+        "key": "WSC-1484",
+        "url": "https://e2x.atlassian.net/browse/WSC-1484",
+        "summary": "CSP Enforcement Rollout & Hardening",
+        "status": "Listo",
+        "statusCategory": "new",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-08-13T17:00:36.226+0100",
         "priority": "Cr\u00edtica",
         "labels": [
           "CSP",
           "NO_QA_REQUIRED"
         ]
+      },
+      {
+        "key": "WSC-1599",
+        "url": "https://e2x.atlassian.net/browse/WSC-1599",
+        "summary": "CONTENT - Default Search Term - move into Footer component",
+        "status": "En curso",
+        "statusCategory": "indeterminate",
+        "assignee": "Jair Huaman",
+        "updated": "2026-08-13T16:12:35.063+0100",
+        "priority": "Poco importante",
+        "labels": [
+          "Needs-QA",
+          "manualQA"
+        ]
+      },
+      {
+        "key": "WSC-1482",
+        "url": "https://e2x.atlassian.net/browse/WSC-1482",
+        "summary": "CSP Analysis & Policy Refinement",
+        "status": "Tech Review",
+        "statusCategory": "indeterminate",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-08-13T15:58:43.724+0100",
+        "priority": "Cr\u00edtica",
+        "labels": [
+          "CSP",
+          "NO_QA_REQUIRED"
+        ]
+      },
+      {
+        "key": "WSC-1629",
+        "url": "https://e2x.atlassian.net/browse/WSC-1629",
+        "summary": "SPIKE - product family for multi-item products (PLP/PDP)",
+        "status": "Backlog",
+        "statusCategory": "new",
+        "assignee": "Unassigned",
+        "updated": "2026-08-13T15:53:55.777+0100",
+        "priority": "Importante",
+        "labels": []
+      },
+      {
+        "key": "WSC-1522",
+        "url": "https://e2x.atlassian.net/browse/WSC-1522",
+        "summary": "CONTENT - Personalisation",
+        "status": "QA Approved",
+        "statusCategory": "indeterminate",
+        "assignee": "Gerardo Romero",
+        "updated": "2026-08-13T15:35:37.249+0100",
+        "priority": "Importante",
+        "labels": [
+          "Needs-QA",
+          "automatable"
+        ]
+      },
+      {
+        "key": "WSC-1656",
+        "url": "https://e2x.atlassian.net/browse/WSC-1656",
+        "summary": "MINI BAG - redesign",
+        "status": "En curso",
+        "statusCategory": "indeterminate",
+        "assignee": "Chiara Davies",
+        "updated": "2026-08-13T15:20:54.741+0100",
+        "priority": "Importante",
+        "labels": [
+          "Needs-QA"
+        ]
+      },
+      {
+        "key": "WSC-1659",
+        "url": "https://e2x.atlassian.net/browse/WSC-1659",
+        "summary": "BAG ORDER SUMMARY - sticky CTAs on tablet/mobile",
+        "status": "Listo",
+        "statusCategory": "new",
+        "assignee": "Unassigned",
+        "updated": "2026-08-13T15:15:06.860+0100",
+        "priority": "Importante",
+        "labels": [
+          "Needs-QA"
+        ]
+      },
+      {
+        "key": "WSC-1658",
+        "url": "https://e2x.atlassian.net/browse/WSC-1658",
+        "summary": "BAG ORDER SUMMARY - redesign",
+        "status": "Listo",
+        "statusCategory": "new",
+        "assignee": "Unassigned",
+        "updated": "2026-08-13T15:15:04.130+0100",
+        "priority": "Importante",
+        "labels": [
+          "Needs-QA"
+        ]
+      },
+      {
+        "key": "WSC-1661",
+        "url": "https://e2x.atlassian.net/browse/WSC-1661",
+        "summary": "BAG PRODUCT SECTION - redesign",
+        "status": "Listo",
+        "statusCategory": "new",
+        "assignee": "Unassigned",
+        "updated": "2026-08-13T15:15:01.160+0100",
+        "priority": "Importante",
+        "labels": [
+          "FastFollow"
+        ]
+      },
+      {
+        "key": "WSC-1504",
+        "url": "https://e2x.atlassian.net/browse/WSC-1504",
+        "summary": "ACCOUNT CREATION - post purchase sign up bug",
+        "status": "Blocked",
+        "statusCategory": "new",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-08-13T15:13:13.923+0100",
+        "priority": "Importante",
+        "labels": []
+      },
+      {
+        "key": "WSC-1681",
+        "url": "https://e2x.atlassian.net/browse/WSC-1681",
+        "summary": "[WS] Monthly vulnerability review (Snyk) Aug for Jul 2026 Maintain Report",
+        "status": "Finalizada",
+        "statusCategory": "done",
+        "assignee": "Rafael Paranagu\u00e1",
+        "updated": "2026-08-13T15:12:55.843+0100",
+        "priority": "Not Set",
+        "labels": []
+      },
+      {
+        "key": "WSC-1607",
+        "url": "https://e2x.atlassian.net/browse/WSC-1607",
+        "summary": "PDP - Stylitics - Android issue",
+        "status": "En curso",
+        "statusCategory": "indeterminate",
+        "assignee": "Alexander Talavera",
+        "updated": "2026-08-13T14:13:14.347+0100",
+        "priority": "Poco importante",
+        "labels": []
       },
       {
         "key": "WSC-76",
@@ -129,19 +277,6 @@
           "checkout",
           "manualQA",
           "talon-one"
-        ]
-      },
-      {
-        "key": "WSC-1481",
-        "url": "https://e2x.atlassian.net/browse/WSC-1481",
-        "summary": "Initial CSP Report-Only Rollout  (Production)",
-        "status": "Listo",
-        "statusCategory": "new",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-08-12T20:59:38.776+0100",
-        "priority": "Not Set",
-        "labels": [
-          "CSP"
         ]
       },
       {
@@ -221,32 +356,6 @@
         ]
       },
       {
-        "key": "WSC-1641",
-        "url": "https://e2x.atlassian.net/browse/WSC-1641",
-        "summary": "Unmasking JS errors - Checkout",
-        "status": "Ready to QA",
-        "statusCategory": "new",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-08-12T20:59:34.989+0100",
-        "priority": "Importante",
-        "labels": [
-          "NO_QA_REQUIRED"
-        ]
-      },
-      {
-        "key": "WSC-1642",
-        "url": "https://e2x.atlassian.net/browse/WSC-1642",
-        "summary": "Unmasking JS errors - Infrastructure (Cloudflare)",
-        "status": "Ready to QA",
-        "statusCategory": "new",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-08-12T20:59:34.578+0100",
-        "priority": "Importante",
-        "labels": [
-          "NO_QA_REQUIRED"
-        ]
-      },
-      {
         "key": "WSC-1643",
         "url": "https://e2x.atlassian.net/browse/WSC-1643",
         "summary": "Unmasking JS errors - vendor outreach",
@@ -315,17 +424,6 @@
         ]
       },
       {
-        "key": "WSC-1669",
-        "url": "https://e2x.atlassian.net/browse/WSC-1669",
-        "summary": "PLP header scroller",
-        "status": "QA Approved",
-        "statusCategory": "indeterminate",
-        "assignee": "Gerardo Romero",
-        "updated": "2026-08-12T20:59:31.304+0100",
-        "priority": "Cr\u00edtica",
-        "labels": []
-      },
-      {
         "key": "WSC-1648",
         "url": "https://e2x.atlassian.net/browse/WSC-1648",
         "summary": "[WSSD-666] outcome - User cannot switch to USA & Canada / RoW in 2 PLPs",
@@ -361,17 +459,6 @@
         "statusCategory": "new",
         "assignee": "enmanuel.ramirez",
         "updated": "2026-08-12T17:31:58.050+0100",
-        "priority": "Importante",
-        "labels": []
-      },
-      {
-        "key": "WSC-1504",
-        "url": "https://e2x.atlassian.net/browse/WSC-1504",
-        "summary": "ACCOUNT CREATION - post purchase sign up bug",
-        "status": "Blocked",
-        "statusCategory": "new",
-        "assignee": "Stuart Young",
-        "updated": "2026-08-12T03:26:59.237+0100",
         "priority": "Importante",
         "labels": []
       },
@@ -447,20 +534,6 @@
         "labels": []
       },
       {
-        "key": "WSC-1599",
-        "url": "https://e2x.atlassian.net/browse/WSC-1599",
-        "summary": "CONTENT - Default Search Term - move into Footer component",
-        "status": "Listo",
-        "statusCategory": "new",
-        "assignee": "Jair Huaman",
-        "updated": "2026-08-11T20:48:21.614+0100",
-        "priority": "Poco importante",
-        "labels": [
-          "Needs-QA",
-          "manualQA"
-        ]
-      },
-      {
         "key": "WSC-1510",
         "url": "https://e2x.atlassian.net/browse/WSC-1510",
         "summary": "[WSSD-609] - Duplicate payment in Adyen",
@@ -486,17 +559,6 @@
         "labels": [
           "Needs-QA"
         ]
-      },
-      {
-        "key": "WSC-1629",
-        "url": "https://e2x.atlassian.net/browse/WSC-1629",
-        "summary": "SPIKE - product family for multi-item products (PLP/PDP)",
-        "status": "Tareas por hacer",
-        "statusCategory": "new",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-08-11T20:40:25.640+0100",
-        "priority": "Importante",
-        "labels": []
       },
       {
         "key": "WSC-1601",
@@ -807,58 +869,6 @@
         "updated": "2026-08-10T11:57:40.794+0100",
         "priority": "Importante",
         "labels": []
-      },
-      {
-        "key": "WSC-1658",
-        "url": "https://e2x.atlassian.net/browse/WSC-1658",
-        "summary": "BAG ORDER SUMMARY - redesign",
-        "status": "Listo",
-        "statusCategory": "new",
-        "assignee": "Chiara Davies",
-        "updated": "2026-08-06T19:50:10.816+0100",
-        "priority": "Importante",
-        "labels": [
-          "Needs-QA"
-        ]
-      },
-      {
-        "key": "WSC-1656",
-        "url": "https://e2x.atlassian.net/browse/WSC-1656",
-        "summary": "MINI BAG - redesign",
-        "status": "Listo",
-        "statusCategory": "new",
-        "assignee": "Chiara Davies",
-        "updated": "2026-08-06T19:50:07.515+0100",
-        "priority": "Importante",
-        "labels": [
-          "Needs-QA"
-        ]
-      },
-      {
-        "key": "WSC-1661",
-        "url": "https://e2x.atlassian.net/browse/WSC-1661",
-        "summary": "BAG PRODUCT SECTION - redesign",
-        "status": "Listo",
-        "statusCategory": "new",
-        "assignee": "Chiara Davies",
-        "updated": "2026-08-06T19:50:00.293+0100",
-        "priority": "Importante",
-        "labels": [
-          "FastFollow"
-        ]
-      },
-      {
-        "key": "WSC-1659",
-        "url": "https://e2x.atlassian.net/browse/WSC-1659",
-        "summary": "BAG ORDER SUMMARY - sticky CTAs on tablet/mobile",
-        "status": "Listo",
-        "statusCategory": "new",
-        "assignee": "Chiara Davies",
-        "updated": "2026-08-06T19:49:54.062+0100",
-        "priority": "Importante",
-        "labels": [
-          "Needs-QA"
-        ]
       },
       {
         "key": "WSC-1666",
@@ -4364,11 +4374,11 @@
       "scopeFolderName": "Regression"
     },
     "coverage": {
-      "total": 83,
+      "total": 84,
       "automated": 83,
-      "notAutomated": 0,
+      "notAutomated": 1,
       "unclassified": 0,
-      "automatedPct": 100.0,
+      "automatedPct": 98.8,
       "byFolder": [
         {
           "folderId": null,
@@ -4384,9 +4394,9 @@
           "name": "Other",
           "group": "Components",
           "automated": 12,
-          "notAutomated": 0,
+          "notAutomated": 1,
           "unclassified": 0,
-          "total": 12
+          "total": 13
         },
         {
           "folderId": null,
@@ -4636,6 +4646,14 @@
       ]
     },
     "cases": [
+      {
+        "id": 140451,
+        "name": "Personalisation - As a first-time visitor I should have the ws_segment cookie set to unresolved",
+        "folderId": 20991,
+        "folderPath": "Regression",
+        "bucket": "notAutomated",
+        "priority": 2
+      },
       {
         "id": 133819,
         "name": "Saved Addresses Character Restrictions Apply When Editing An Existing Address",
