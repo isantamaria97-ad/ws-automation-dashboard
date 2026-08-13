@@ -1,13 +1,13 @@
 {
-  "lastUpdated": "2026-08-12T20:46:15.812662+00:00",
+  "lastUpdated": "2026-08-13T02:04:06.420183+00:00",
   "jira": {
     "summary": {
       "total": 351,
       "byStatus": {
+        "En curso": 4,
         "Backlog": 9,
         "Listo": 15,
         "QA Approved": 11,
-        "En curso": 4,
         "Blocked": 5,
         "IN QA": 1,
         "Ready to QA": 2,
@@ -21,6 +21,20 @@
       }
     },
     "tickets": [
+      {
+        "key": "WSC-1482",
+        "url": "https://e2x.atlassian.net/browse/WSC-1482",
+        "summary": "CSP Analysis & Policy Refinement",
+        "status": "En curso",
+        "statusCategory": "indeterminate",
+        "assignee": "Jair Huaman",
+        "updated": "2026-08-12T22:05:04.887+0100",
+        "priority": "Cr\u00edtica",
+        "labels": [
+          "CSP",
+          "NO_QA_REQUIRED"
+        ]
+      },
       {
         "key": "WSC-76",
         "url": "https://e2x.atlassian.net/browse/WSC-76",
@@ -78,20 +92,6 @@
         "labels": [
           "Needs-QA",
           "automatable"
-        ]
-      },
-      {
-        "key": "WSC-1482",
-        "url": "https://e2x.atlassian.net/browse/WSC-1482",
-        "summary": "CSP Analysis & Policy Refinement",
-        "status": "En curso",
-        "statusCategory": "indeterminate",
-        "assignee": "Jair Huaman",
-        "updated": "2026-08-12T20:59:37.936+0100",
-        "priority": "Cr\u00edtica",
-        "labels": [
-          "CSP",
-          "NO_QA_REQUIRED"
         ]
       },
       {
