@@ -1,17 +1,18 @@
 {
-  "lastUpdated": "2026-08-13T16:56:57.654230+00:00",
+  "lastUpdated": "2026-08-13T20:43:55.930346+00:00",
   "jira": {
     "summary": {
-      "total": 352,
+      "total": 353,
       "byStatus": {
-        "IN QA": 3,
-        "QA Approved": 12,
+        "QA Approved": 10,
+        "IN QA": 4,
+        "IN UAT": 1,
+        "Backlog": 10,
+        "Listo": 14,
         "Ready to QA": 1,
-        "Listo": 13,
         "Blocked": 5,
         "En curso": 4,
         "Tech Review": 14,
-        "Backlog": 10,
         "Finalizada": 271,
         "READY FOR RELEASE": 2,
         "PENDING DEV DEPLOY": 3,
@@ -20,6 +21,170 @@
       }
     },
     "tickets": [
+      {
+        "key": "WSC-1669",
+        "url": "https://e2x.atlassian.net/browse/WSC-1669",
+        "summary": "PLP header scroller",
+        "status": "QA Approved",
+        "statusCategory": "indeterminate",
+        "assignee": "Gerardo Romero",
+        "updated": "2026-08-13T21:43:49.429+0100",
+        "priority": "Cr\u00edtica",
+        "labels": []
+      },
+      {
+        "key": "WSC-1650",
+        "url": "https://e2x.atlassian.net/browse/WSC-1650",
+        "summary": "Google Maps API loaded globally on all pages instead of only where needed",
+        "status": "IN QA",
+        "statusCategory": "indeterminate",
+        "assignee": "Gerardo Romero",
+        "updated": "2026-08-13T21:07:03.402+0100",
+        "priority": "Importante",
+        "labels": [
+          "Needs-QA"
+        ]
+      },
+      {
+        "key": "WSC-1614",
+        "url": "https://e2x.atlassian.net/browse/WSC-1614",
+        "summary": "LIVE CHAT - z-index changes",
+        "status": "QA Approved",
+        "statusCategory": "indeterminate",
+        "assignee": "Gerardo Romero",
+        "updated": "2026-08-13T21:06:34.040+0100",
+        "priority": "Importante",
+        "labels": [
+          "Needs-QA",
+          "automatable"
+        ]
+      },
+      {
+        "key": "WSC-1594",
+        "url": "https://e2x.atlassian.net/browse/WSC-1594",
+        "summary": "SFS - item SFS data on VSF",
+        "status": "QA Approved",
+        "statusCategory": "indeterminate",
+        "assignee": "Gerardo Romero",
+        "updated": "2026-08-13T21:00:46.745+0100",
+        "priority": "Importante",
+        "labels": [
+          "Needs-QA",
+          "automatable"
+        ]
+      },
+      {
+        "key": "WSC-1648",
+        "url": "https://e2x.atlassian.net/browse/WSC-1648",
+        "summary": "[WSSD-666] outcome - User cannot switch to USA & Canada / RoW in 2 PLPs",
+        "status": "IN UAT",
+        "statusCategory": "indeterminate",
+        "assignee": "Ingrith Santamaria",
+        "updated": "2026-08-13T20:46:27.538+0100",
+        "priority": "Poco importante",
+        "labels": [
+          "Needs-QA",
+          "automatable"
+        ]
+      },
+      {
+        "key": "WSC-1641",
+        "url": "https://e2x.atlassian.net/browse/WSC-1641",
+        "summary": "Unmasking JS errors - Checkout",
+        "status": "IN QA",
+        "statusCategory": "indeterminate",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-08-13T19:47:33.220+0100",
+        "priority": "Importante",
+        "labels": [
+          "NO_QA_REQUIRED"
+        ]
+      },
+      {
+        "key": "WSC-1522",
+        "url": "https://e2x.atlassian.net/browse/WSC-1522",
+        "summary": "CONTENT - Personalisation",
+        "status": "QA Approved",
+        "statusCategory": "indeterminate",
+        "assignee": "Gerardo Romero",
+        "updated": "2026-08-13T19:45:47.220+0100",
+        "priority": "Importante",
+        "labels": [
+          "Needs-QA",
+          "automatable"
+        ]
+      },
+      {
+        "key": "WSC-76",
+        "url": "https://e2x.atlassian.net/browse/WSC-76",
+        "summary": "HOTSPOTS - bug when no URL is set",
+        "status": "Backlog",
+        "statusCategory": "new",
+        "assignee": "Jair Huaman",
+        "updated": "2026-08-13T19:18:50.311+0100",
+        "priority": "Poco importante",
+        "labels": [
+          "Needs-QA",
+          "manualQA"
+        ]
+      },
+      {
+        "key": "WSC-1527",
+        "url": "https://e2x.atlassian.net/browse/WSC-1527",
+        "summary": "Apple Pay Express fails at checkout when Free Shipping campaign (Talon.One) is active",
+        "status": "Backlog",
+        "statusCategory": "new",
+        "assignee": "Alexander Talavera",
+        "updated": "2026-08-13T19:18:47.986+0100",
+        "priority": "Poco importante",
+        "labels": [
+          "Needs-QA",
+          "apple-pay",
+          "bug",
+          "checkout",
+          "manualQA",
+          "talon-one"
+        ]
+      },
+      {
+        "key": "WSC-1629",
+        "url": "https://e2x.atlassian.net/browse/WSC-1629",
+        "summary": "SPIKE - product family for multi-item products (PLP/PDP)",
+        "status": "Backlog",
+        "statusCategory": "new",
+        "assignee": "Unassigned",
+        "updated": "2026-08-13T19:18:45.490+0100",
+        "priority": "Importante",
+        "labels": []
+      },
+      {
+        "key": "WSC-1676",
+        "url": "https://e2x.atlassian.net/browse/WSC-1676",
+        "summary": "APPLE PAY EXPRESS",
+        "status": "Listo",
+        "statusCategory": "new",
+        "assignee": "Unassigned",
+        "updated": "2026-08-13T19:18:24.005+0100",
+        "priority": "Importante",
+        "labels": [
+          "Needs-QA",
+          "manualQA"
+        ]
+      },
+      {
+        "key": "WSC-1649",
+        "url": "https://e2x.atlassian.net/browse/WSC-1649",
+        "summary": "PDP - spacing issue",
+        "status": "QA Approved",
+        "statusCategory": "indeterminate",
+        "assignee": "Gerardo Romero",
+        "updated": "2026-08-13T19:04:13.165+0100",
+        "priority": "Poco importante",
+        "labels": [
+          "Needs-QA",
+          "manualQA"
+        ]
+      },
       {
         "key": "WSC-1642",
         "url": "https://e2x.atlassian.net/browse/WSC-1642",
@@ -32,30 +197,6 @@
         "labels": [
           "NO_QA_REQUIRED"
         ]
-      },
-      {
-        "key": "WSC-1641",
-        "url": "https://e2x.atlassian.net/browse/WSC-1641",
-        "summary": "Unmasking JS errors - Checkout",
-        "status": "IN QA",
-        "statusCategory": "indeterminate",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-08-13T17:33:46.160+0100",
-        "priority": "Importante",
-        "labels": [
-          "NO_QA_REQUIRED"
-        ]
-      },
-      {
-        "key": "WSC-1669",
-        "url": "https://e2x.atlassian.net/browse/WSC-1669",
-        "summary": "PLP header scroller",
-        "status": "QA Approved",
-        "statusCategory": "indeterminate",
-        "assignee": "Gerardo Romero",
-        "updated": "2026-08-13T17:05:51.264+0100",
-        "priority": "Cr\u00edtica",
-        "labels": []
       },
       {
         "key": "WSC-1680",
@@ -135,31 +276,6 @@
         "labels": [
           "CSP",
           "NO_QA_REQUIRED"
-        ]
-      },
-      {
-        "key": "WSC-1629",
-        "url": "https://e2x.atlassian.net/browse/WSC-1629",
-        "summary": "SPIKE - product family for multi-item products (PLP/PDP)",
-        "status": "Backlog",
-        "statusCategory": "new",
-        "assignee": "Unassigned",
-        "updated": "2026-08-13T15:53:55.777+0100",
-        "priority": "Importante",
-        "labels": []
-      },
-      {
-        "key": "WSC-1522",
-        "url": "https://e2x.atlassian.net/browse/WSC-1522",
-        "summary": "CONTENT - Personalisation",
-        "status": "QA Approved",
-        "statusCategory": "indeterminate",
-        "assignee": "Gerardo Romero",
-        "updated": "2026-08-13T15:35:37.249+0100",
-        "priority": "Importante",
-        "labels": [
-          "Needs-QA",
-          "automatable"
         ]
       },
       {
@@ -248,38 +364,6 @@
         "labels": []
       },
       {
-        "key": "WSC-76",
-        "url": "https://e2x.atlassian.net/browse/WSC-76",
-        "summary": "HOTSPOTS - bug when no URL is set",
-        "status": "Backlog",
-        "statusCategory": "new",
-        "assignee": "Jair Huaman",
-        "updated": "2026-08-12T21:35:51.227+0100",
-        "priority": "Poco importante",
-        "labels": [
-          "Needs-QA",
-          "manualQA"
-        ]
-      },
-      {
-        "key": "WSC-1527",
-        "url": "https://e2x.atlassian.net/browse/WSC-1527",
-        "summary": "Apple Pay Express fails at checkout when Free Shipping campaign (Talon.One) is active",
-        "status": "Backlog",
-        "statusCategory": "new",
-        "assignee": "Alexander Talavera",
-        "updated": "2026-08-12T21:35:32.971+0100",
-        "priority": "Poco importante",
-        "labels": [
-          "Needs-QA",
-          "apple-pay",
-          "bug",
-          "checkout",
-          "manualQA",
-          "talon-one"
-        ]
-      },
-      {
         "key": "WSC-1591",
         "url": "https://e2x.atlassian.net/browse/WSC-1591",
         "summary": "Shop Pages \u2014 Canonical URL & Hreflang Fix",
@@ -305,20 +389,6 @@
         "labels": []
       },
       {
-        "key": "WSC-1594",
-        "url": "https://e2x.atlassian.net/browse/WSC-1594",
-        "summary": "SFS - item SFS data on VSF",
-        "status": "QA Approved",
-        "statusCategory": "indeterminate",
-        "assignee": "Gerardo Romero",
-        "updated": "2026-08-12T20:59:36.528+0100",
-        "priority": "Importante",
-        "labels": [
-          "Needs-QA",
-          "automatable"
-        ]
-      },
-      {
         "key": "WSC-1671",
         "url": "https://e2x.atlassian.net/browse/WSC-1671",
         "summary": "Slim Banner component preview not rendering in Amplience",
@@ -328,19 +398,6 @@
         "updated": "2026-08-12T20:59:36.227+0100",
         "priority": "Not Set",
         "labels": []
-      },
-      {
-        "key": "WSC-1650",
-        "url": "https://e2x.atlassian.net/browse/WSC-1650",
-        "summary": "Google Maps API loaded globally on all pages instead of only where needed",
-        "status": "QA Approved",
-        "statusCategory": "indeterminate",
-        "assignee": "Gerardo Romero",
-        "updated": "2026-08-12T20:59:35.820+0100",
-        "priority": "Importante",
-        "labels": [
-          "Needs-QA"
-        ]
       },
       {
         "key": "WSC-1640",
@@ -403,48 +460,6 @@
         "statusCategory": "indeterminate",
         "assignee": "Gerardo Romero",
         "updated": "2026-08-12T20:59:32.220+0100",
-        "priority": "Poco importante",
-        "labels": [
-          "Needs-QA",
-          "manualQA"
-        ]
-      },
-      {
-        "key": "WSC-1614",
-        "url": "https://e2x.atlassian.net/browse/WSC-1614",
-        "summary": "LIVE CHAT - z-index changes",
-        "status": "QA Approved",
-        "statusCategory": "indeterminate",
-        "assignee": "Gerardo Romero",
-        "updated": "2026-08-12T20:59:31.766+0100",
-        "priority": "Importante",
-        "labels": [
-          "Needs-QA",
-          "automatable"
-        ]
-      },
-      {
-        "key": "WSC-1648",
-        "url": "https://e2x.atlassian.net/browse/WSC-1648",
-        "summary": "[WSSD-666] outcome - User cannot switch to USA & Canada / RoW in 2 PLPs",
-        "status": "QA Approved",
-        "statusCategory": "indeterminate",
-        "assignee": "Ingrith Santamaria",
-        "updated": "2026-08-12T20:59:30.830+0100",
-        "priority": "Poco importante",
-        "labels": [
-          "Needs-QA",
-          "automatable"
-        ]
-      },
-      {
-        "key": "WSC-1649",
-        "url": "https://e2x.atlassian.net/browse/WSC-1649",
-        "summary": "PDP - spacing issue",
-        "status": "QA Approved",
-        "statusCategory": "indeterminate",
-        "assignee": "Gerardo Romero",
-        "updated": "2026-08-12T20:59:30.272+0100",
         "priority": "Poco importante",
         "labels": [
           "Needs-QA",
@@ -4464,15 +4479,83 @@
       ]
     },
     "runs": {
-      "total": 56,
-      "latestPassed": 83,
+      "total": 60,
+      "latestPassed": 0,
       "latestFailed": 0,
-      "latestPending": 0,
-      "latestTotal": 83,
-      "latestRunName": "Regression 30/07/26",
-      "latestRunDate": "2026-07-30T14:48:01.709Z",
+      "latestPending": 84,
+      "latestTotal": 84,
+      "latestRunName": "Regression 13/08/26",
+      "latestRunDate": "2026-08-13T19:09:57.843Z",
       "passRate": 99.9,
       "recent": [
+        {
+          "id": 2062,
+          "name": "Regression 13/08/26",
+          "source_id": null,
+          "milestone_id": 240,
+          "config_id": 14,
+          "status": null,
+          "is_completed": false,
+          "elapsed_ms": null,
+          "created_at": "2026-08-13T19:09:57.843Z",
+          "completed_at": null,
+          "passed": 0,
+          "failed": 0,
+          "pending": 84,
+          "completed": 0,
+          "total": 84
+        },
+        {
+          "id": 2061,
+          "name": "Regression 13/08/26",
+          "source_id": null,
+          "milestone_id": 240,
+          "config_id": 13,
+          "status": null,
+          "is_completed": false,
+          "elapsed_ms": null,
+          "created_at": "2026-08-13T19:09:57.837Z",
+          "completed_at": null,
+          "passed": 0,
+          "failed": 0,
+          "pending": 84,
+          "completed": 0,
+          "total": 84
+        },
+        {
+          "id": 2060,
+          "name": "Regression 13/08/26",
+          "source_id": null,
+          "milestone_id": 240,
+          "config_id": 10,
+          "status": null,
+          "is_completed": false,
+          "elapsed_ms": null,
+          "created_at": "2026-08-13T19:09:57.830Z",
+          "completed_at": null,
+          "passed": 0,
+          "failed": 0,
+          "pending": 84,
+          "completed": 0,
+          "total": 84
+        },
+        {
+          "id": 2059,
+          "name": "Regression 13/08/26",
+          "source_id": null,
+          "milestone_id": 240,
+          "config_id": 9,
+          "status": null,
+          "is_completed": false,
+          "elapsed_ms": null,
+          "created_at": "2026-08-13T19:09:57.811Z",
+          "completed_at": null,
+          "passed": 0,
+          "failed": 0,
+          "pending": 84,
+          "completed": 0,
+          "total": 84
+        },
         {
           "id": 2014,
           "name": "Regression 30/07/26",
@@ -4568,74 +4651,6 @@
           "is_completed": false,
           "elapsed_ms": null,
           "created_at": "2026-07-22T12:30:31.328Z",
-          "completed_at": null,
-          "passed": 74,
-          "failed": 0,
-          "pending": 0,
-          "completed": 74,
-          "total": 74
-        },
-        {
-          "id": 1975,
-          "name": "Regression 22/07/26",
-          "source_id": null,
-          "milestone_id": 235,
-          "config_id": 10,
-          "status": null,
-          "is_completed": false,
-          "elapsed_ms": null,
-          "created_at": "2026-07-22T12:30:31.323Z",
-          "completed_at": null,
-          "passed": 74,
-          "failed": 0,
-          "pending": 0,
-          "completed": 74,
-          "total": 74
-        },
-        {
-          "id": 1974,
-          "name": "Regression 22/07/26",
-          "source_id": null,
-          "milestone_id": 235,
-          "config_id": 9,
-          "status": null,
-          "is_completed": false,
-          "elapsed_ms": null,
-          "created_at": "2026-07-22T12:30:31.315Z",
-          "completed_at": null,
-          "passed": 74,
-          "failed": 0,
-          "pending": 0,
-          "completed": 74,
-          "total": 74
-        },
-        {
-          "id": 1966,
-          "name": "Regression 20/07/26",
-          "source_id": null,
-          "milestone_id": 234,
-          "config_id": 14,
-          "status": null,
-          "is_completed": false,
-          "elapsed_ms": null,
-          "created_at": "2026-07-20T21:04:41.119Z",
-          "completed_at": null,
-          "passed": 74,
-          "failed": 0,
-          "pending": 0,
-          "completed": 74,
-          "total": 74
-        },
-        {
-          "id": 1965,
-          "name": "Regression 20/07/26",
-          "source_id": null,
-          "milestone_id": 234,
-          "config_id": 13,
-          "status": null,
-          "is_completed": false,
-          "elapsed_ms": null,
-          "created_at": "2026-07-20T21:04:41.110Z",
           "completed_at": null,
           "passed": 74,
           "failed": 0,
