@@ -1,19 +1,19 @@
 {
-  "lastUpdated": "2026-08-13T09:13:26.284484+00:00",
+  "lastUpdated": "2026-08-13T13:13:11.095836+00:00",
   "jira": {
     "summary": {
       "total": 351,
       "byStatus": {
         "En curso": 4,
-        "Backlog": 9,
         "Listo": 15,
-        "QA Approved": 11,
         "Blocked": 5,
+        "Tech Review": 14,
+        "Backlog": 9,
+        "QA Approved": 11,
         "IN QA": 1,
         "Ready to QA": 2,
         "READY FOR RELEASE": 2,
         "PENDING DEV DEPLOY": 3,
-        "Tech Review": 14,
         "Ready for Refinement": 1,
         "Tareas por hacer": 1,
         "Finalizada": 270,
@@ -21,6 +21,70 @@
       }
     },
     "tickets": [
+      {
+        "key": "WSC-1607",
+        "url": "https://e2x.atlassian.net/browse/WSC-1607",
+        "summary": "PDP - Stylitics - Android issue",
+        "status": "En curso",
+        "statusCategory": "indeterminate",
+        "assignee": "Alexander Talavera",
+        "updated": "2026-08-13T14:12:43.593+0100",
+        "priority": "Poco importante",
+        "labels": []
+      },
+      {
+        "key": "WSC-1522",
+        "url": "https://e2x.atlassian.net/browse/WSC-1522",
+        "summary": "CONTENT - Personalisation",
+        "status": "En curso",
+        "statusCategory": "indeterminate",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-08-13T14:01:05.345+0100",
+        "priority": "Importante",
+        "labels": [
+          "Needs-QA",
+          "automatable"
+        ]
+      },
+      {
+        "key": "WSC-1484",
+        "url": "https://e2x.atlassian.net/browse/WSC-1484",
+        "summary": "CSP Enforcement Rollout & Hardening",
+        "status": "Listo",
+        "statusCategory": "new",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-08-13T13:33:52.532+0100",
+        "priority": "Cr\u00edtica",
+        "labels": [
+          "CSP",
+          "NO_QA_REQUIRED"
+        ]
+      },
+      {
+        "key": "WSC-1483",
+        "url": "https://e2x.atlassian.net/browse/WSC-1483",
+        "summary": "CSP - QA: Checkout & Critical Flow Validation after Enforcement",
+        "status": "Blocked",
+        "statusCategory": "new",
+        "assignee": "Gerardo Romero",
+        "updated": "2026-08-13T13:33:41.601+0100",
+        "priority": "Not Set",
+        "labels": [
+          "CSP",
+          "Needs-QA"
+        ]
+      },
+      {
+        "key": "WSC-1681",
+        "url": "https://e2x.atlassian.net/browse/WSC-1681",
+        "summary": "[WS] Monthly vulnerability review (Snyk) Aug for Jul 2026 Maintain Report",
+        "status": "Tech Review",
+        "statusCategory": "indeterminate",
+        "assignee": "Rafael Paranagu\u00e1",
+        "updated": "2026-08-13T12:53:57.637+0100",
+        "priority": "Not Set",
+        "labels": []
+      },
       {
         "key": "WSC-1482",
         "url": "https://e2x.atlassian.net/browse/WSC-1482",
@@ -92,34 +156,6 @@
         "labels": [
           "Needs-QA",
           "automatable"
-        ]
-      },
-      {
-        "key": "WSC-1483",
-        "url": "https://e2x.atlassian.net/browse/WSC-1483",
-        "summary": "CSP - QA: Checkout & Critical Flow Validation after Enforcement",
-        "status": "Blocked",
-        "statusCategory": "new",
-        "assignee": "Gerardo Romero",
-        "updated": "2026-08-12T20:59:37.576+0100",
-        "priority": "Not Set",
-        "labels": [
-          "CSP",
-          "Needs-QA"
-        ]
-      },
-      {
-        "key": "WSC-1484",
-        "url": "https://e2x.atlassian.net/browse/WSC-1484",
-        "summary": "CSP Enforcement Rollout & Hardening",
-        "status": "Listo",
-        "statusCategory": "new",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-08-12T20:59:37.240+0100",
-        "priority": "Cr\u00edtica",
-        "labels": [
-          "CSP",
-          "NO_QA_REQUIRED"
         ]
       },
       {
@@ -237,20 +273,6 @@
         ]
       },
       {
-        "key": "WSC-1522",
-        "url": "https://e2x.atlassian.net/browse/WSC-1522",
-        "summary": "CONTENT - Personalisation",
-        "status": "En curso",
-        "statusCategory": "indeterminate",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-08-12T20:59:33.228+0100",
-        "priority": "Importante",
-        "labels": [
-          "Needs-QA",
-          "automatable"
-        ]
-      },
-      {
         "key": "WSC-1612",
         "url": "https://e2x.atlassian.net/browse/WSC-1612",
         "summary": "COLOUR NAME (VSF) - change source field",
@@ -332,17 +354,6 @@
         ]
       },
       {
-        "key": "WSC-1607",
-        "url": "https://e2x.atlassian.net/browse/WSC-1607",
-        "summary": "PDP - Stylitics - Android issue",
-        "status": "En curso",
-        "statusCategory": "indeterminate",
-        "assignee": "Alexander Talavera",
-        "updated": "2026-08-12T18:36:18.224+0100",
-        "priority": "Poco importante",
-        "labels": []
-      },
-      {
         "key": "WSC-1647",
         "url": "https://e2x.atlassian.net/browse/WSC-1647",
         "summary": "CONTENT - new wider version of SEOTextBlock",
@@ -351,17 +362,6 @@
         "assignee": "enmanuel.ramirez",
         "updated": "2026-08-12T17:31:58.050+0100",
         "priority": "Importante",
-        "labels": []
-      },
-      {
-        "key": "WSC-1681",
-        "url": "https://e2x.atlassian.net/browse/WSC-1681",
-        "summary": "[WS] Monthly vulnerability review (Snyk) Aug for Jul 2026 Maintain Report",
-        "status": "Tech Review",
-        "statusCategory": "indeterminate",
-        "assignee": "Rafael Paranagu\u00e1",
-        "updated": "2026-08-12T13:48:10.087+0100",
-        "priority": "Not Set",
         "labels": []
       },
       {
