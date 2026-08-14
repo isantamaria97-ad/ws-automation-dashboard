@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-14T19:50:12.451572+00:00",
+  "lastUpdated": "2026-08-14T20:33:09.536739+00:00",
   "milestones": [
     {
       "id": 240,
@@ -126,12 +126,12 @@
       "total": 84,
       "completed": 84,
       "remaining": 0,
-      "passed": 78,
+      "passed": 84,
       "failed": 0,
       "retest": 0,
       "blocked": 0,
       "untested": 0,
-      "skipped": 6,
+      "skipped": 0,
       "statusCounts": {
         "Untested": {
           "id": 1,
@@ -139,7 +139,7 @@
         },
         "Passed": {
           "id": 2,
-          "count": 78
+          "count": 84
         },
         "Failed": {
           "id": 3,
@@ -155,7 +155,7 @@
         },
         "Skipped": {
           "id": 6,
-          "count": 6
+          "count": 0
         },
         "Status 7": {
           "id": 7,
@@ -234,6 +234,17 @@
       "url": "https://applydigital.testmo.net/runs/view/2062",
       "cases": [
         {
+          "caseId": 114304,
+          "testId": 1697290,
+          "name": "Add To Bag - Checkout Button Navigates To Checkout",
+          "tags": [],
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-08-14T19:59:15.676Z"
+        },
+        {
           "caseId": 114302,
           "testId": 1697288,
           "name": "Add To Bag - Confirmation Modal Is Displayed With Correct Product Details",
@@ -242,7 +253,7 @@
           "status": "Passed",
           "note": "",
           "assigneeId": null,
-          "updatedAt": "2026-08-14T13:35:33.172Z"
+          "updatedAt": "2026-08-14T19:59:15.676Z"
         },
         {
           "caseId": 114303,
@@ -253,7 +264,7 @@
           "status": "Passed",
           "note": "",
           "assigneeId": null,
-          "updatedAt": "2026-08-14T13:35:33.172Z"
+          "updatedAt": "2026-08-14T19:59:15.676Z"
         },
         {
           "caseId": 114342,
@@ -264,7 +275,7 @@
           "status": "Passed",
           "note": "",
           "assigneeId": null,
-          "updatedAt": "2026-08-14T13:35:46.981Z"
+          "updatedAt": "2026-08-14T19:59:34.193Z"
         },
         {
           "caseId": 114341,
@@ -275,7 +286,7 @@
           "status": "Passed",
           "note": "",
           "assigneeId": null,
-          "updatedAt": "2026-08-14T13:35:46.981Z"
+          "updatedAt": "2026-08-14T19:59:34.193Z"
         },
         {
           "caseId": 114340,
@@ -286,7 +297,7 @@
           "status": "Passed",
           "note": "",
           "assigneeId": null,
-          "updatedAt": "2026-08-14T13:35:41.172Z"
+          "updatedAt": "2026-08-14T19:59:25.214Z"
         },
         {
           "caseId": 114343,
@@ -297,7 +308,7 @@
           "status": "Passed",
           "note": "",
           "assigneeId": null,
-          "updatedAt": "2026-08-14T13:35:46.981Z"
+          "updatedAt": "2026-08-14T19:59:34.193Z"
         },
         {
           "caseId": 114338,
@@ -308,7 +319,7 @@
           "status": "Passed",
           "note": "",
           "assigneeId": null,
-          "updatedAt": "2026-08-14T13:35:41.172Z"
+          "updatedAt": "2026-08-14T19:59:25.214Z"
         },
         {
           "caseId": 114336,
@@ -319,7 +330,7 @@
           "status": "Passed",
           "note": "",
           "assigneeId": null,
-          "updatedAt": "2026-08-14T13:35:41.172Z"
+          "updatedAt": "2026-08-14T19:59:25.214Z"
         },
         {
           "caseId": 114337,
@@ -330,7 +341,7 @@
           "status": "Passed",
           "note": "",
           "assigneeId": null,
-          "updatedAt": "2026-08-14T13:35:41.172Z"
+          "updatedAt": "2026-08-14T19:59:25.214Z"
         },
         {
           "caseId": 114339,
@@ -341,7 +352,7 @@
           "status": "Passed",
           "note": "",
           "assigneeId": null,
-          "updatedAt": "2026-08-14T13:35:41.172Z"
+          "updatedAt": "2026-08-14T19:59:25.214Z"
         },
         {
           "caseId": 114290,
@@ -352,7 +363,7 @@
           "status": "Passed",
           "note": "",
           "assigneeId": null,
-          "updatedAt": "2026-08-14T13:35:33.172Z"
+          "updatedAt": "2026-08-14T19:59:15.676Z"
         },
         {
           "caseId": 114289,
@@ -363,7 +374,7 @@
           "status": "Passed",
           "note": "",
           "assigneeId": null,
-          "updatedAt": "2026-08-14T13:35:33.172Z"
+          "updatedAt": "2026-08-14T19:59:15.676Z"
         },
         {
           "caseId": 114334,
@@ -374,7 +385,7 @@
           "status": "Passed",
           "note": "",
           "assigneeId": null,
-          "updatedAt": "2026-08-14T13:35:41.172Z"
+          "updatedAt": "2026-08-14T19:59:25.214Z"
         },
         {
           "caseId": 114335,
@@ -385,7 +396,7 @@
           "status": "Passed",
           "note": "",
           "assigneeId": null,
-          "updatedAt": "2026-08-14T13:35:41.172Z"
+          "updatedAt": "2026-08-14T19:59:25.214Z"
         },
         {
           "caseId": 127264,
@@ -396,7 +407,7 @@
           "status": "Passed",
           "note": "",
           "assigneeId": null,
-          "updatedAt": "2026-08-14T13:35:46.981Z"
+          "updatedAt": "2026-08-14T19:59:34.193Z"
         },
         {
           "caseId": 132954,
@@ -418,7 +429,7 @@
           "status": "Passed",
           "note": "",
           "assigneeId": null,
-          "updatedAt": "2026-08-14T13:35:46.981Z"
+          "updatedAt": "2026-08-14T19:59:34.193Z"
         },
         {
           "caseId": 132957,
@@ -432,6 +443,61 @@
           "updatedAt": "2026-08-14T13:35:53.280Z"
         },
         {
+          "caseId": 114318,
+          "testId": 1697303,
+          "name": "Header Search - Entering Search Term Displays Related Products",
+          "tags": [],
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-08-14T19:59:25.214Z"
+        },
+        {
+          "caseId": 114319,
+          "testId": 1697304,
+          "name": "Header Search - Entering Search Term Displays Related Search Terms",
+          "tags": [],
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-08-14T19:59:25.214Z"
+        },
+        {
+          "caseId": 114317,
+          "testId": 1697302,
+          "name": "Header Search - Pressing Enter In Search Box Redirects To Search Results Page",
+          "tags": [],
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-08-14T19:59:25.214Z"
+        },
+        {
+          "caseId": 114320,
+          "testId": 1697305,
+          "name": "Header Search - Search Box Can Be Hidden By Clicking The X Icon",
+          "tags": [],
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-08-14T19:59:25.214Z"
+        },
+        {
+          "caseId": 122033,
+          "testId": 1697335,
+          "name": "Header Search - Search Box Can Be Hidden By Pressing The Escape Key",
+          "tags": [],
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-08-14T19:59:34.193Z"
+        },
+        {
           "caseId": 114352,
           "testId": 1697333,
           "name": "Percent Coupon Applied Successfully At Checkout For Guest User",
@@ -440,7 +506,7 @@
           "status": "Passed",
           "note": "",
           "assigneeId": null,
-          "updatedAt": "2026-08-14T13:35:46.981Z"
+          "updatedAt": "2026-08-14T19:59:34.193Z"
         },
         {
           "caseId": 114354,
@@ -451,7 +517,7 @@
           "status": "Passed",
           "note": "",
           "assigneeId": null,
-          "updatedAt": "2026-08-14T13:35:46.981Z"
+          "updatedAt": "2026-08-14T19:59:34.193Z"
         },
         {
           "caseId": 140451,
@@ -473,7 +539,7 @@
           "status": "Passed",
           "note": "",
           "assigneeId": null,
-          "updatedAt": "2026-08-14T13:35:41.172Z"
+          "updatedAt": "2026-08-14T19:59:25.214Z"
         },
         {
           "caseId": 114313,
@@ -484,7 +550,7 @@
           "status": "Passed",
           "note": "",
           "assigneeId": null,
-          "updatedAt": "2026-08-14T13:35:33.172Z"
+          "updatedAt": "2026-08-14T19:59:15.676Z"
         },
         {
           "caseId": 114312,
@@ -495,7 +561,7 @@
           "status": "Passed",
           "note": "",
           "assigneeId": null,
-          "updatedAt": "2026-08-14T13:35:33.172Z"
+          "updatedAt": "2026-08-14T19:59:15.676Z"
         },
         {
           "caseId": 114314,
@@ -506,7 +572,7 @@
           "status": "Passed",
           "note": "",
           "assigneeId": null,
-          "updatedAt": "2026-08-14T13:35:33.172Z"
+          "updatedAt": "2026-08-14T19:59:15.676Z"
         },
         {
           "caseId": 133819,
@@ -561,7 +627,7 @@
           "status": "Passed",
           "note": "",
           "assigneeId": null,
-          "updatedAt": "2026-08-14T13:35:46.981Z"
+          "updatedAt": "2026-08-14T19:59:34.193Z"
         },
         {
           "caseId": 127261,
@@ -572,7 +638,7 @@
           "status": "Passed",
           "note": "",
           "assigneeId": null,
-          "updatedAt": "2026-08-14T13:35:46.981Z"
+          "updatedAt": "2026-08-14T19:59:34.193Z"
         },
         {
           "caseId": 127265,
@@ -583,7 +649,7 @@
           "status": "Passed",
           "note": "",
           "assigneeId": null,
-          "updatedAt": "2026-08-14T13:35:46.981Z"
+          "updatedAt": "2026-08-14T19:59:34.193Z"
         },
         {
           "caseId": 127262,
@@ -594,7 +660,7 @@
           "status": "Passed",
           "note": "",
           "assigneeId": null,
-          "updatedAt": "2026-08-14T13:35:46.981Z"
+          "updatedAt": "2026-08-14T19:59:34.193Z"
         },
         {
           "caseId": 127266,
@@ -605,7 +671,7 @@
           "status": "Passed",
           "note": "",
           "assigneeId": null,
-          "updatedAt": "2026-08-14T13:35:46.981Z"
+          "updatedAt": "2026-08-14T19:59:34.193Z"
         },
         {
           "caseId": 127263,
@@ -616,7 +682,7 @@
           "status": "Passed",
           "note": "",
           "assigneeId": null,
-          "updatedAt": "2026-08-14T13:35:46.981Z"
+          "updatedAt": "2026-08-14T19:59:34.193Z"
         },
         {
           "caseId": 132956,
@@ -649,7 +715,7 @@
           "status": "Passed",
           "note": "",
           "assigneeId": null,
-          "updatedAt": "2026-08-14T13:35:33.172Z"
+          "updatedAt": "2026-08-14T19:59:15.676Z"
         },
         {
           "caseId": 114288,
@@ -660,7 +726,7 @@
           "status": "Passed",
           "note": "",
           "assigneeId": null,
-          "updatedAt": "2026-08-14T13:35:33.172Z"
+          "updatedAt": "2026-08-14T19:59:15.676Z"
         },
         {
           "caseId": 114301,
@@ -671,7 +737,7 @@
           "status": "Passed",
           "note": "",
           "assigneeId": null,
-          "updatedAt": "2026-08-14T13:35:33.172Z"
+          "updatedAt": "2026-08-14T19:59:15.676Z"
         },
         {
           "caseId": 114324,
@@ -682,7 +748,7 @@
           "status": "Passed",
           "note": "",
           "assigneeId": null,
-          "updatedAt": "2026-08-14T13:35:41.172Z"
+          "updatedAt": "2026-08-14T19:59:25.214Z"
         },
         {
           "caseId": 114348,
@@ -693,7 +759,7 @@
           "status": "Passed",
           "note": "",
           "assigneeId": null,
-          "updatedAt": "2026-08-14T13:35:46.981Z"
+          "updatedAt": "2026-08-14T19:59:34.193Z"
         },
         {
           "caseId": 122711,
@@ -704,7 +770,7 @@
           "status": "Passed",
           "note": "",
           "assigneeId": null,
-          "updatedAt": "2026-08-14T13:35:46.981Z"
+          "updatedAt": "2026-08-14T19:59:34.193Z"
         },
         {
           "caseId": 114297,
@@ -715,7 +781,7 @@
           "status": "Passed",
           "note": "",
           "assigneeId": null,
-          "updatedAt": "2026-08-14T13:35:33.172Z"
+          "updatedAt": "2026-08-14T19:59:15.676Z"
         },
         {
           "caseId": 114326,
@@ -726,7 +792,7 @@
           "status": "Passed",
           "note": "",
           "assigneeId": null,
-          "updatedAt": "2026-08-14T13:35:41.172Z"
+          "updatedAt": "2026-08-14T19:59:25.214Z"
         },
         {
           "caseId": 114325,
@@ -737,7 +803,7 @@
           "status": "Passed",
           "note": "",
           "assigneeId": null,
-          "updatedAt": "2026-08-14T13:35:41.172Z"
+          "updatedAt": "2026-08-14T19:59:25.214Z"
         },
         {
           "caseId": 122712,
@@ -748,7 +814,7 @@
           "status": "Passed",
           "note": "",
           "assigneeId": null,
-          "updatedAt": "2026-08-14T13:35:46.981Z"
+          "updatedAt": "2026-08-14T19:59:34.193Z"
         },
         {
           "caseId": 114321,
@@ -759,7 +825,7 @@
           "status": "Passed",
           "note": "",
           "assigneeId": null,
-          "updatedAt": "2026-08-14T13:35:41.172Z"
+          "updatedAt": "2026-08-14T19:59:25.214Z"
         },
         {
           "caseId": 114296,
@@ -770,7 +836,7 @@
           "status": "Passed",
           "note": "",
           "assigneeId": null,
-          "updatedAt": "2026-08-14T13:35:33.172Z"
+          "updatedAt": "2026-08-14T19:59:15.676Z"
         },
         {
           "caseId": 114345,
@@ -781,7 +847,7 @@
           "status": "Passed",
           "note": "",
           "assigneeId": null,
-          "updatedAt": "2026-08-14T13:35:46.981Z"
+          "updatedAt": "2026-08-14T19:59:34.193Z"
         },
         {
           "caseId": 114344,
@@ -792,7 +858,7 @@
           "status": "Passed",
           "note": "",
           "assigneeId": null,
-          "updatedAt": "2026-08-14T13:35:46.981Z"
+          "updatedAt": "2026-08-14T19:59:34.193Z"
         },
         {
           "caseId": 114346,
@@ -803,7 +869,7 @@
           "status": "Passed",
           "note": "",
           "assigneeId": null,
-          "updatedAt": "2026-08-14T13:35:46.981Z"
+          "updatedAt": "2026-08-14T19:59:34.193Z"
         },
         {
           "caseId": 114291,
@@ -814,7 +880,7 @@
           "status": "Passed",
           "note": "",
           "assigneeId": null,
-          "updatedAt": "2026-08-14T13:35:33.172Z"
+          "updatedAt": "2026-08-14T19:59:15.676Z"
         },
         {
           "caseId": 114351,
@@ -825,7 +891,7 @@
           "status": "Passed",
           "note": "",
           "assigneeId": null,
-          "updatedAt": "2026-08-14T13:35:46.981Z"
+          "updatedAt": "2026-08-14T19:59:34.193Z"
         },
         {
           "caseId": 114295,
@@ -836,7 +902,7 @@
           "status": "Passed",
           "note": "",
           "assigneeId": null,
-          "updatedAt": "2026-08-14T13:35:33.172Z"
+          "updatedAt": "2026-08-14T19:59:15.676Z"
         },
         {
           "caseId": 114333,
@@ -847,7 +913,7 @@
           "status": "Passed",
           "note": "",
           "assigneeId": null,
-          "updatedAt": "2026-08-14T13:35:41.172Z"
+          "updatedAt": "2026-08-14T19:59:25.214Z"
         },
         {
           "caseId": 122034,
@@ -858,7 +924,7 @@
           "status": "Passed",
           "note": "",
           "assigneeId": null,
-          "updatedAt": "2026-08-14T13:35:46.981Z"
+          "updatedAt": "2026-08-14T19:59:34.193Z"
         },
         {
           "caseId": 114322,
@@ -869,7 +935,7 @@
           "status": "Passed",
           "note": "",
           "assigneeId": null,
-          "updatedAt": "2026-08-14T13:35:41.172Z"
+          "updatedAt": "2026-08-14T19:59:25.214Z"
         },
         {
           "caseId": 114298,
@@ -880,7 +946,7 @@
           "status": "Passed",
           "note": "",
           "assigneeId": null,
-          "updatedAt": "2026-08-14T13:35:33.172Z"
+          "updatedAt": "2026-08-14T19:59:15.676Z"
         },
         {
           "caseId": 114293,
@@ -891,7 +957,7 @@
           "status": "Passed",
           "note": "",
           "assigneeId": null,
-          "updatedAt": "2026-08-14T13:35:33.172Z"
+          "updatedAt": "2026-08-14T19:59:15.676Z"
         },
         {
           "caseId": 114294,
@@ -902,7 +968,7 @@
           "status": "Passed",
           "note": "",
           "assigneeId": null,
-          "updatedAt": "2026-08-14T13:35:33.172Z"
+          "updatedAt": "2026-08-14T19:59:15.676Z"
         },
         {
           "caseId": 114292,
@@ -913,7 +979,7 @@
           "status": "Passed",
           "note": "",
           "assigneeId": null,
-          "updatedAt": "2026-08-14T13:35:33.172Z"
+          "updatedAt": "2026-08-14T19:59:15.676Z"
         },
         {
           "caseId": 122710,
@@ -924,7 +990,7 @@
           "status": "Passed",
           "note": "",
           "assigneeId": null,
-          "updatedAt": "2026-08-14T13:35:46.981Z"
+          "updatedAt": "2026-08-14T19:59:34.193Z"
         },
         {
           "caseId": 122035,
@@ -935,7 +1001,7 @@
           "status": "Passed",
           "note": "",
           "assigneeId": null,
-          "updatedAt": "2026-08-14T13:35:46.981Z"
+          "updatedAt": "2026-08-14T19:59:34.193Z"
         },
         {
           "caseId": 114323,
@@ -946,7 +1012,7 @@
           "status": "Passed",
           "note": "",
           "assigneeId": null,
-          "updatedAt": "2026-08-14T13:35:41.172Z"
+          "updatedAt": "2026-08-14T19:59:25.214Z"
         },
         {
           "caseId": 114305,
@@ -957,7 +1023,7 @@
           "status": "Passed",
           "note": "",
           "assigneeId": null,
-          "updatedAt": "2026-08-14T13:35:33.172Z"
+          "updatedAt": "2026-08-14T19:59:15.676Z"
         },
         {
           "caseId": 114307,
@@ -968,7 +1034,7 @@
           "status": "Passed",
           "note": "",
           "assigneeId": null,
-          "updatedAt": "2026-08-14T13:35:33.172Z"
+          "updatedAt": "2026-08-14T19:59:15.676Z"
         },
         {
           "caseId": 114309,
@@ -979,7 +1045,7 @@
           "status": "Passed",
           "note": "",
           "assigneeId": null,
-          "updatedAt": "2026-08-14T13:35:33.172Z"
+          "updatedAt": "2026-08-14T19:59:15.676Z"
         },
         {
           "caseId": 114306,
@@ -990,7 +1056,7 @@
           "status": "Passed",
           "note": "",
           "assigneeId": null,
-          "updatedAt": "2026-08-14T13:35:33.172Z"
+          "updatedAt": "2026-08-14T19:59:15.676Z"
         },
         {
           "caseId": 122037,
@@ -1001,7 +1067,7 @@
           "status": "Passed",
           "note": "",
           "assigneeId": null,
-          "updatedAt": "2026-08-14T13:35:46.981Z"
+          "updatedAt": "2026-08-14T19:59:34.193Z"
         },
         {
           "caseId": 114331,
@@ -1012,7 +1078,7 @@
           "status": "Passed",
           "note": "",
           "assigneeId": null,
-          "updatedAt": "2026-08-14T13:35:41.172Z"
+          "updatedAt": "2026-08-14T19:59:25.214Z"
         },
         {
           "caseId": 114316,
@@ -1023,7 +1089,7 @@
           "status": "Passed",
           "note": "",
           "assigneeId": null,
-          "updatedAt": "2026-08-14T13:35:41.172Z"
+          "updatedAt": "2026-08-14T19:59:25.214Z"
         },
         {
           "caseId": 114329,
@@ -1034,7 +1100,7 @@
           "status": "Passed",
           "note": "",
           "assigneeId": null,
-          "updatedAt": "2026-08-14T13:35:41.172Z"
+          "updatedAt": "2026-08-14T19:59:25.214Z"
         },
         {
           "caseId": 114328,
@@ -1045,7 +1111,7 @@
           "status": "Passed",
           "note": "",
           "assigneeId": null,
-          "updatedAt": "2026-08-14T13:35:41.172Z"
+          "updatedAt": "2026-08-14T19:59:25.214Z"
         },
         {
           "caseId": 114327,
@@ -1056,7 +1122,7 @@
           "status": "Passed",
           "note": "",
           "assigneeId": null,
-          "updatedAt": "2026-08-14T13:35:41.172Z"
+          "updatedAt": "2026-08-14T19:59:25.214Z"
         },
         {
           "caseId": 114310,
@@ -1067,7 +1133,7 @@
           "status": "Passed",
           "note": "",
           "assigneeId": null,
-          "updatedAt": "2026-08-14T13:35:33.172Z"
+          "updatedAt": "2026-08-14T19:59:15.676Z"
         },
         {
           "caseId": 114308,
@@ -1078,7 +1144,7 @@
           "status": "Passed",
           "note": "",
           "assigneeId": null,
-          "updatedAt": "2026-08-14T13:35:33.172Z"
+          "updatedAt": "2026-08-14T19:59:15.676Z"
         },
         {
           "caseId": 114330,
@@ -1089,73 +1155,7 @@
           "status": "Passed",
           "note": "",
           "assigneeId": null,
-          "updatedAt": "2026-08-14T13:35:41.172Z"
-        },
-        {
-          "caseId": 114304,
-          "testId": 1697290,
-          "name": "Add To Bag - Checkout Button Navigates To Checkout",
-          "tags": [],
-          "statusId": 6,
-          "status": "Skipped",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-08-14T13:38:19.191Z"
-        },
-        {
-          "caseId": 114318,
-          "testId": 1697303,
-          "name": "Header Search - Entering Search Term Displays Related Products",
-          "tags": [],
-          "statusId": 6,
-          "status": "Skipped",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-08-14T13:36:52.638Z"
-        },
-        {
-          "caseId": 114319,
-          "testId": 1697304,
-          "name": "Header Search - Entering Search Term Displays Related Search Terms",
-          "tags": [],
-          "statusId": 6,
-          "status": "Skipped",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-08-14T13:37:06.949Z"
-        },
-        {
-          "caseId": 114317,
-          "testId": 1697302,
-          "name": "Header Search - Pressing Enter In Search Box Redirects To Search Results Page",
-          "tags": [],
-          "statusId": 6,
-          "status": "Skipped",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-08-14T13:37:25.342Z"
-        },
-        {
-          "caseId": 114320,
-          "testId": 1697305,
-          "name": "Header Search - Search Box Can Be Hidden By Clicking The X Icon",
-          "tags": [],
-          "statusId": 6,
-          "status": "Skipped",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-08-14T13:37:44.542Z"
-        },
-        {
-          "caseId": 122033,
-          "testId": 1697335,
-          "name": "Header Search - Search Box Can Be Hidden By Pressing The Escape Key",
-          "tags": [],
-          "statusId": 6,
-          "status": "Skipped",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-08-14T13:38:01.601Z"
+          "updatedAt": "2026-08-14T19:59:25.214Z"
         }
       ]
     },
