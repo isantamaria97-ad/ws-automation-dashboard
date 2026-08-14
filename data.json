@@ -1,20 +1,20 @@
 {
-  "lastUpdated": "2026-08-14T13:08:04.877840+00:00",
+  "lastUpdated": "2026-08-14T16:54:11.887052+00:00",
   "jira": {
     "summary": {
-      "total": 353,
+      "total": 354,
       "byStatus": {
         "QA Approved": 9,
-        "En curso": 3,
-        "Ready to QA": 1,
-        "Tech Review": 15,
-        "Blocked": 5,
-        "IN QA": 4,
-        "IN UAT": 2,
-        "Backlog": 10,
-        "Listo": 14,
+        "En curso": 4,
+        "Tech Review": 16,
         "Finalizada": 271,
-        "READY FOR RELEASE": 2,
+        "Ready to QA": 1,
+        "Listo": 13,
+        "READY FOR RELEASE": 3,
+        "IN UAT": 3,
+        "Blocked": 5,
+        "IN QA": 2,
+        "Backlog": 10,
         "PENDING DEV DEPLOY": 3,
         "Ready for Refinement": 1,
         "Deprecated": 13
@@ -22,28 +22,78 @@
     },
     "tickets": [
       {
-        "key": "WSC-1594",
-        "url": "https://e2x.atlassian.net/browse/WSC-1594",
-        "summary": "SFS - item SFS data on VSF",
+        "key": "WSC-1583",
+        "url": "https://e2x.atlassian.net/browse/WSC-1583",
+        "summary": "CONTENT - TwoForBanner amendments",
         "status": "QA Approved",
         "statusCategory": "indeterminate",
-        "assignee": "Gerardo Romero",
-        "updated": "2026-08-14T14:05:53.718+0100",
+        "assignee": "Ingrith Santamaria",
+        "updated": "2026-08-14T17:52:09.030+0100",
+        "priority": "Importante",
+        "labels": []
+      },
+      {
+        "key": "WSC-1601",
+        "url": "https://e2x.atlassian.net/browse/WSC-1601",
+        "summary": "CONTENT - TwoForBanner amendments - notations",
+        "status": "En curso",
+        "statusCategory": "indeterminate",
+        "assignee": "Alexander Talavera",
+        "updated": "2026-08-14T17:51:51.857+0100",
         "priority": "Importante",
         "labels": [
           "Needs-QA",
-          "automatable"
+          "manualQA"
+        ]
+      },
+      {
+        "key": "WSC-1650",
+        "url": "https://e2x.atlassian.net/browse/WSC-1650",
+        "summary": "Google Maps API loaded globally on all pages instead of only where needed",
+        "status": "QA Approved",
+        "statusCategory": "indeterminate",
+        "assignee": "Gerardo Romero",
+        "updated": "2026-08-14T17:47:49.246+0100",
+        "priority": "Importante",
+        "labels": [
+          "Needs-QA"
         ]
       },
       {
         "key": "WSC-1607",
         "url": "https://e2x.atlassian.net/browse/WSC-1607",
         "summary": "PDP - Stylitics - Android issue",
+        "status": "Tech Review",
+        "statusCategory": "indeterminate",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-08-14T16:59:42.395+0100",
+        "priority": "Poco importante",
+        "labels": [
+          "accelerated"
+        ]
+      },
+      {
+        "key": "WSC-1698",
+        "url": "https://e2x.atlassian.net/browse/WSC-1698",
+        "summary": "[WSSD-708] - PDP - BazaarVoice reviews only appear when navigating from PLP",
         "status": "En curso",
         "statusCategory": "indeterminate",
-        "assignee": "Alexander Talavera",
-        "updated": "2026-08-14T14:04:59.639+0100",
-        "priority": "Poco importante",
+        "assignee": "Jair Huaman",
+        "updated": "2026-08-14T16:58:05.314+0100",
+        "priority": "Importante",
+        "labels": [
+          "Needs-QA"
+        ]
+      },
+      {
+        "key": "WSC-1681",
+        "url": "https://e2x.atlassian.net/browse/WSC-1681",
+        "summary": "[WS] Monthly vulnerability review (Snyk) Aug for Jul 2026 Maintain Report",
+        "status": "Finalizada",
+        "statusCategory": "done",
+        "assignee": "Rafael Paranagu\u00e1",
+        "updated": "2026-08-14T16:05:34.438+0100",
+        "priority": "Not Set",
         "labels": []
       },
       {
@@ -53,9 +103,71 @@
         "status": "Ready to QA",
         "statusCategory": "new",
         "assignee": "Stuart Young",
-        "updated": "2026-08-14T13:56:40.411+0100",
+        "updated": "2026-08-14T15:16:50.099+0100",
         "priority": "Importante",
+        "labels": [
+          "NO_QA_REQUIRED"
+        ]
+      },
+      {
+        "key": "WSC-1677",
+        "url": "https://e2x.atlassian.net/browse/WSC-1677",
+        "summary": "API 404 error - https://www.whitestuff.com/api/bigcommerce/getCart",
+        "status": "Listo",
+        "statusCategory": "new",
+        "assignee": "Alexander Talavera",
+        "updated": "2026-08-14T15:07:41.555+0100",
+        "priority": "Poco importante",
         "labels": []
+      },
+      {
+        "key": "WSC-1673",
+        "url": "https://e2x.atlassian.net/browse/WSC-1673",
+        "summary": "API 404 error - https://www.whitestuff.com/api/ampl/getContent",
+        "status": "Listo",
+        "statusCategory": "new",
+        "assignee": "Alexander Talavera",
+        "updated": "2026-08-14T15:07:10.929+0100",
+        "priority": "Poco importante",
+        "labels": []
+      },
+      {
+        "key": "WSC-1672",
+        "url": "https://e2x.atlassian.net/browse/WSC-1672",
+        "summary": "API 404 error - https://www.whitestuff.com/api/talonone/getCustomerSession",
+        "status": "Listo",
+        "statusCategory": "new",
+        "assignee": "Alexander Talavera",
+        "updated": "2026-08-14T15:07:01.342+0100",
+        "priority": "Poco importante",
+        "labels": []
+      },
+      {
+        "key": "WSC-1642",
+        "url": "https://e2x.atlassian.net/browse/WSC-1642",
+        "summary": "Unmasking JS errors - Infrastructure (Cloudflare)",
+        "status": "READY FOR RELEASE",
+        "statusCategory": "new",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-08-14T14:27:25.649+0100",
+        "priority": "Importante",
+        "labels": [
+          "NO_QA_REQUIRED"
+        ]
+      },
+      {
+        "key": "WSC-1594",
+        "url": "https://e2x.atlassian.net/browse/WSC-1594",
+        "summary": "SFS - item SFS data on VSF",
+        "status": "IN UAT",
+        "statusCategory": "indeterminate",
+        "assignee": "Gerardo Romero",
+        "updated": "2026-08-14T14:13:26.459+0100",
+        "priority": "Importante",
+        "labels": [
+          "Needs-QA",
+          "automatable"
+        ]
       },
       {
         "key": "WSC-1599",
@@ -80,19 +192,6 @@
         "statusCategory": "new",
         "assignee": "Alexander Talavera",
         "updated": "2026-08-14T13:06:16.702+0100",
-        "priority": "Importante",
-        "labels": [
-          "NO_QA_REQUIRED"
-        ]
-      },
-      {
-        "key": "WSC-1642",
-        "url": "https://e2x.atlassian.net/browse/WSC-1642",
-        "summary": "Unmasking JS errors - Infrastructure (Cloudflare)",
-        "status": "IN QA",
-        "statusCategory": "indeterminate",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-08-14T13:05:24.538+0100",
         "priority": "Importante",
         "labels": [
           "NO_QA_REQUIRED"
@@ -148,19 +247,6 @@
         "updated": "2026-08-13T21:43:52.454+0100",
         "priority": "Cr\u00edtica",
         "labels": []
-      },
-      {
-        "key": "WSC-1650",
-        "url": "https://e2x.atlassian.net/browse/WSC-1650",
-        "summary": "Google Maps API loaded globally on all pages instead of only where needed",
-        "status": "IN QA",
-        "statusCategory": "indeterminate",
-        "assignee": "Gerardo Romero",
-        "updated": "2026-08-13T21:07:03.402+0100",
-        "priority": "Importante",
-        "labels": [
-          "Needs-QA"
-        ]
       },
       {
         "key": "WSC-1614",
@@ -380,17 +466,6 @@
         "labels": []
       },
       {
-        "key": "WSC-1681",
-        "url": "https://e2x.atlassian.net/browse/WSC-1681",
-        "summary": "[WS] Monthly vulnerability review (Snyk) Aug for Jul 2026 Maintain Report",
-        "status": "Finalizada",
-        "statusCategory": "done",
-        "assignee": "Rafael Paranagu\u00e1",
-        "updated": "2026-08-13T15:12:55.843+0100",
-        "priority": "Not Set",
-        "labels": []
-      },
-      {
         "key": "WSC-1591",
         "url": "https://e2x.atlassian.net/browse/WSC-1591",
         "summary": "Shop Pages \u2014 Canonical URL & Hreflang Fix",
@@ -403,17 +478,6 @@
           "Needs-QA",
           "automatable"
         ]
-      },
-      {
-        "key": "WSC-1583",
-        "url": "https://e2x.atlassian.net/browse/WSC-1583",
-        "summary": "CONTENT - TwoForBanner amendments",
-        "status": "QA Approved",
-        "statusCategory": "indeterminate",
-        "assignee": "Ingrith Santamaria",
-        "updated": "2026-08-12T20:59:36.829+0100",
-        "priority": "Importante",
-        "labels": []
       },
       {
         "key": "WSC-1671",
@@ -517,39 +581,6 @@
         "labels": []
       },
       {
-        "key": "WSC-1673",
-        "url": "https://e2x.atlassian.net/browse/WSC-1673",
-        "summary": "API 404 error - https://www.whitestuff.com/api/ampl/getContent",
-        "status": "Listo",
-        "statusCategory": "new",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-08-11T20:49:35.188+0100",
-        "priority": "Poco importante",
-        "labels": []
-      },
-      {
-        "key": "WSC-1677",
-        "url": "https://e2x.atlassian.net/browse/WSC-1677",
-        "summary": "API 404 error - https://www.whitestuff.com/api/bigcommerce/getCart",
-        "status": "Listo",
-        "statusCategory": "new",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-08-11T20:49:25.454+0100",
-        "priority": "Poco importante",
-        "labels": []
-      },
-      {
-        "key": "WSC-1672",
-        "url": "https://e2x.atlassian.net/browse/WSC-1672",
-        "summary": "API 404 error - https://www.whitestuff.com/api/talonone/getCustomerSession",
-        "status": "Listo",
-        "statusCategory": "new",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-08-11T20:48:57.646+0100",
-        "priority": "Poco importante",
-        "labels": []
-      },
-      {
         "key": "WSC-1510",
         "url": "https://e2x.atlassian.net/browse/WSC-1510",
         "summary": "[WSSD-609] - Duplicate payment in Adyen",
@@ -574,20 +605,6 @@
         "priority": "Importante",
         "labels": [
           "Needs-QA"
-        ]
-      },
-      {
-        "key": "WSC-1601",
-        "url": "https://e2x.atlassian.net/browse/WSC-1601",
-        "summary": "CONTENT - TwoForBanner amendments - notations",
-        "status": "Listo",
-        "statusCategory": "new",
-        "assignee": "Alexander Talavera",
-        "updated": "2026-08-11T17:22:02.641+0100",
-        "priority": "Importante",
-        "labels": [
-          "Needs-QA",
-          "manualQA"
         ]
       },
       {
@@ -4481,9 +4498,9 @@
     },
     "runs": {
       "total": 60,
-      "latestPassed": 0,
+      "latestPassed": 78,
       "latestFailed": 0,
-      "latestPending": 84,
+      "latestPending": 0,
       "latestTotal": 84,
       "latestRunName": "Regression 13/08/26",
       "latestRunDate": "2026-08-13T19:09:57.843Z",
@@ -4500,10 +4517,10 @@
           "elapsed_ms": null,
           "created_at": "2026-08-13T19:09:57.843Z",
           "completed_at": null,
-          "passed": 0,
+          "passed": 78,
           "failed": 0,
-          "pending": 84,
-          "completed": 0,
+          "pending": 0,
+          "completed": 84,
           "total": 84
         },
         {
@@ -4517,10 +4534,10 @@
           "elapsed_ms": null,
           "created_at": "2026-08-13T19:09:57.837Z",
           "completed_at": null,
-          "passed": 0,
+          "passed": 84,
           "failed": 0,
-          "pending": 84,
-          "completed": 0,
+          "pending": 0,
+          "completed": 84,
           "total": 84
         },
         {
@@ -4534,10 +4551,10 @@
           "elapsed_ms": null,
           "created_at": "2026-08-13T19:09:57.830Z",
           "completed_at": null,
-          "passed": 0,
+          "passed": 83,
           "failed": 0,
-          "pending": 84,
-          "completed": 0,
+          "pending": 0,
+          "completed": 84,
           "total": 84
         },
         {
@@ -4551,10 +4568,10 @@
           "elapsed_ms": null,
           "created_at": "2026-08-13T19:09:57.811Z",
           "completed_at": null,
-          "passed": 0,
+          "passed": 83,
           "failed": 0,
-          "pending": 84,
-          "completed": 0,
+          "pending": 0,
+          "completed": 84,
           "total": 84
         },
         {
