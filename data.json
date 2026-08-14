@@ -1,19 +1,19 @@
 {
-  "lastUpdated": "2026-08-14T16:54:11.887052+00:00",
+  "lastUpdated": "2026-08-14T20:31:51.754212+00:00",
   "jira": {
     "summary": {
-      "total": 354,
+      "total": 355,
       "byStatus": {
+        "Finalizada": 272,
+        "IN QA": 2,
         "QA Approved": 9,
         "En curso": 4,
         "Tech Review": 16,
-        "Finalizada": 271,
         "Ready to QA": 1,
         "Listo": 13,
         "READY FOR RELEASE": 3,
         "IN UAT": 3,
         "Blocked": 5,
-        "IN QA": 2,
         "Backlog": 10,
         "PENDING DEV DEPLOY": 3,
         "Ready for Refinement": 1,
@@ -21,6 +21,41 @@
       }
     },
     "tickets": [
+      {
+        "key": "WSC-1681",
+        "url": "https://e2x.atlassian.net/browse/WSC-1681",
+        "summary": "[WS] Monthly vulnerability review (Snyk) Aug for Jul 2026 Maintain Report",
+        "status": "Finalizada",
+        "statusCategory": "done",
+        "assignee": "Rafael Paranagu\u00e1",
+        "updated": "2026-08-14T19:11:31.233+0100",
+        "priority": "Not Set",
+        "labels": []
+      },
+      {
+        "key": "WSC-1630",
+        "url": "https://e2x.atlassian.net/browse/WSC-1630",
+        "summary": "Document White Stuff Vendors",
+        "status": "Finalizada",
+        "statusCategory": "done",
+        "assignee": "jamie.moffatt",
+        "updated": "2026-08-14T18:48:55.684+0100",
+        "priority": "Not Set",
+        "labels": []
+      },
+      {
+        "key": "WSC-1640",
+        "url": "https://e2x.atlassian.net/browse/WSC-1640",
+        "summary": "Unmasking JS errors - VSF",
+        "status": "IN QA",
+        "statusCategory": "indeterminate",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-08-14T18:09:37.576+0100",
+        "priority": "Importante",
+        "labels": [
+          "NO_QA_REQUIRED"
+        ]
+      },
       {
         "key": "WSC-1583",
         "url": "https://e2x.atlassian.net/browse/WSC-1583",
@@ -84,17 +119,6 @@
         "labels": [
           "Needs-QA"
         ]
-      },
-      {
-        "key": "WSC-1681",
-        "url": "https://e2x.atlassian.net/browse/WSC-1681",
-        "summary": "[WS] Monthly vulnerability review (Snyk) Aug for Jul 2026 Maintain Report",
-        "status": "Finalizada",
-        "statusCategory": "done",
-        "assignee": "Rafael Paranagu\u00e1",
-        "updated": "2026-08-14T16:05:34.438+0100",
-        "priority": "Not Set",
-        "labels": []
       },
       {
         "key": "WSC-1680",
@@ -205,19 +229,6 @@
         "statusCategory": "indeterminate",
         "assignee": "enmanuel.ramirez",
         "updated": "2026-08-14T13:05:19.839+0100",
-        "priority": "Importante",
-        "labels": [
-          "NO_QA_REQUIRED"
-        ]
-      },
-      {
-        "key": "WSC-1640",
-        "url": "https://e2x.atlassian.net/browse/WSC-1640",
-        "summary": "Unmasking JS errors - VSF",
-        "status": "IN QA",
-        "statusCategory": "indeterminate",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-08-14T13:05:15.031+0100",
         "priority": "Importante",
         "labels": [
           "NO_QA_REQUIRED"
@@ -4498,7 +4509,7 @@
     },
     "runs": {
       "total": 60,
-      "latestPassed": 78,
+      "latestPassed": 84,
       "latestFailed": 0,
       "latestPending": 0,
       "latestTotal": 84,
@@ -4517,7 +4528,7 @@
           "elapsed_ms": null,
           "created_at": "2026-08-13T19:09:57.843Z",
           "completed_at": null,
-          "passed": 78,
+          "passed": 84,
           "failed": 0,
           "pending": 0,
           "completed": 84,
