@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-14T14:31:04.757815+00:00",
+  "lastUpdated": "2026-08-14T15:53:32.891680+00:00",
   "milestones": [
     {
       "id": 240,
@@ -2220,12 +2220,12 @@
       "total": 84,
       "completed": 84,
       "remaining": 0,
-      "passed": 81,
+      "passed": 83,
       "failed": 0,
       "retest": 0,
       "blocked": 0,
       "untested": 0,
-      "skipped": 3,
+      "skipped": 1,
       "statusCounts": {
         "Untested": {
           "id": 1,
@@ -2233,7 +2233,7 @@
         },
         "Passed": {
           "id": 2,
-          "count": 81
+          "count": 83
         },
         "Failed": {
           "id": 3,
@@ -2249,7 +2249,7 @@
         },
         "Skipped": {
           "id": 6,
-          "count": 3
+          "count": 1
         },
         "Status 7": {
           "id": 7,
@@ -2447,6 +2447,17 @@
           "note": "",
           "assigneeId": null,
           "updatedAt": "2026-08-14T13:50:21.043Z"
+        },
+        {
+          "caseId": 114290,
+          "testId": 1697024,
+          "name": "Email Address Persists When Navigating To Reset Password From Checkout Identity Page",
+          "tags": [],
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-08-14T15:38:56.329Z"
         },
         {
           "caseId": 114289,
@@ -2777,6 +2788,17 @@
           "note": "",
           "assigneeId": null,
           "updatedAt": "2026-08-14T13:50:32.637Z"
+        },
+        {
+          "caseId": 114287,
+          "testId": 1697021,
+          "name": "User Can Register A New Account",
+          "tags": [],
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-08-14T15:38:30.778Z"
         },
         {
           "caseId": 114288,
@@ -3219,17 +3241,6 @@
           "updatedAt": "2026-08-14T13:50:21.043Z"
         },
         {
-          "caseId": 114290,
-          "testId": 1697024,
-          "name": "Email Address Persists When Navigating To Reset Password From Checkout Identity Page",
-          "tags": [],
-          "statusId": 6,
-          "status": "Skipped",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-08-14T13:50:41.327Z"
-        },
-        {
           "caseId": 140451,
           "testId": 1697104,
           "name": "Personalisation - As a first-time visitor I should have the ws_segment cookie set to unresolved",
@@ -3239,17 +3250,6 @@
           "note": "",
           "assigneeId": null,
           "updatedAt": "2026-08-14T14:07:05.394Z"
-        },
-        {
-          "caseId": 114287,
-          "testId": 1697021,
-          "name": "User Can Register A New Account",
-          "tags": [],
-          "statusId": 6,
-          "status": "Skipped",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-08-14T13:50:58.750Z"
         }
       ]
     },
@@ -3267,12 +3267,12 @@
       "total": 84,
       "completed": 84,
       "remaining": 0,
-      "passed": 59,
+      "passed": 83,
       "failed": 0,
       "retest": 0,
       "blocked": 0,
       "untested": 0,
-      "skipped": 25,
+      "skipped": 1,
       "statusCounts": {
         "Untested": {
           "id": 1,
@@ -3280,7 +3280,7 @@
         },
         "Passed": {
           "id": 2,
-          "count": 59
+          "count": 83
         },
         "Failed": {
           "id": 3,
@@ -3296,7 +3296,7 @@
         },
         "Skipped": {
           "id": 6,
-          "count": 25
+          "count": 1
         },
         "Status 7": {
           "id": 7,
@@ -3463,6 +3463,17 @@
           "updatedAt": "2026-08-14T13:41:24.404Z"
         },
         {
+          "caseId": 114336,
+          "testId": 1696939,
+          "name": "Click And Collect Overlay - Modal Is Displayed With Store Details",
+          "tags": [],
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-08-14T15:16:22.438Z"
+        },
+        {
           "caseId": 114337,
           "testId": 1696940,
           "name": "Click And Collect Overlay - User Can Switch Between Store Locations",
@@ -3472,6 +3483,28 @@
           "note": "",
           "assigneeId": null,
           "updatedAt": "2026-08-14T13:41:24.404Z"
+        },
+        {
+          "caseId": 114339,
+          "testId": 1696942,
+          "name": "Click And Collect Overlay - User Can Update Store Finder Location",
+          "tags": [],
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-08-14T15:16:39.284Z"
+        },
+        {
+          "caseId": 114290,
+          "testId": 1696897,
+          "name": "Email Address Persists When Navigating To Reset Password From Checkout Identity Page",
+          "tags": [],
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-08-14T15:09:33.146Z"
         },
         {
           "caseId": 114289,
@@ -3538,6 +3571,72 @@
           "note": "",
           "assigneeId": null,
           "updatedAt": "2026-08-14T13:41:32.225Z"
+        },
+        {
+          "caseId": 132957,
+          "testId": 1696972,
+          "name": "GBP Checkout UK Standard Delivery Is Not Affected By EUR USD Changes",
+          "tags": [],
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-08-14T15:19:45.031Z"
+        },
+        {
+          "caseId": 114318,
+          "testId": 1696922,
+          "name": "Header Search - Entering Search Term Displays Related Products",
+          "tags": [],
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-08-14T15:13:22.121Z"
+        },
+        {
+          "caseId": 114319,
+          "testId": 1696923,
+          "name": "Header Search - Entering Search Term Displays Related Search Terms",
+          "tags": [],
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-08-14T15:13:40.983Z"
+        },
+        {
+          "caseId": 114317,
+          "testId": 1696921,
+          "name": "Header Search - Pressing Enter In Search Box Redirects To Search Results Page",
+          "tags": [],
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-08-14T15:13:26.816Z"
+        },
+        {
+          "caseId": 114320,
+          "testId": 1696924,
+          "name": "Header Search - Search Box Can Be Hidden By Clicking The X Icon",
+          "tags": [],
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-08-14T15:13:43.918Z"
+        },
+        {
+          "caseId": 122033,
+          "testId": 1696954,
+          "name": "Header Search - Search Box Can Be Hidden By Pressing The Escape Key",
+          "tags": [],
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-08-14T15:16:53.301Z"
         },
         {
           "caseId": 114352,
@@ -3793,6 +3892,39 @@
           "updatedAt": "2026-08-14T13:41:32.225Z"
         },
         {
+          "caseId": 122711,
+          "testId": 1696960,
+          "name": "Verify Bag Is Discarded When Guest User Switches From UK Store To Ireland Store",
+          "tags": [],
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-08-14T15:18:07.608Z"
+        },
+        {
+          "caseId": 114297,
+          "testId": 1696904,
+          "name": "Verify Bag Is Empty When User Changes Currency From GBP To USD",
+          "tags": [],
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-08-14T15:11:47.695Z"
+        },
+        {
+          "caseId": 114326,
+          "testId": 1696930,
+          "name": "Verify Billing Section Allows Manual Entry Of A Different Billing Address",
+          "tags": [],
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-08-14T15:15:38.893Z"
+        },
+        {
           "caseId": 114325,
           "testId": 1696929,
           "name": "Verify Billing Section Is Auto-Populated From Shipping Address",
@@ -3804,6 +3936,17 @@
           "updatedAt": "2026-08-14T13:41:24.404Z"
         },
         {
+          "caseId": 122712,
+          "testId": 1696961,
+          "name": "Verify Cart Items And GBP Prices Are Preserved When Navigating Within UK Store",
+          "tags": [],
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-08-14T15:18:30.506Z"
+        },
+        {
           "caseId": 114321,
           "testId": 1696925,
           "name": "Verify Cart Summary Is Displayed Correctly At Checkout",
@@ -3813,6 +3956,17 @@
           "note": "",
           "assigneeId": null,
           "updatedAt": "2026-08-14T13:41:24.404Z"
+        },
+        {
+          "caseId": 114296,
+          "testId": 1696903,
+          "name": "Verify Continue Shopping Button Redirects To Homepage",
+          "tags": [],
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-08-14T15:11:33.729Z"
         },
         {
           "caseId": 114345,
@@ -3848,6 +4002,17 @@
           "updatedAt": "2026-08-14T13:41:32.225Z"
         },
         {
+          "caseId": 114291,
+          "testId": 1696898,
+          "name": "Verify Display Of Bag Items",
+          "tags": [],
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-08-14T15:10:26.272Z"
+        },
+        {
           "caseId": 114351,
           "testId": 1696951,
           "name": "Verify E-Gift Card Order Confirmation Shows Correct E-Card Details",
@@ -3857,6 +4022,17 @@
           "note": "",
           "assigneeId": null,
           "updatedAt": "2026-08-14T13:41:32.225Z"
+        },
+        {
+          "caseId": 114295,
+          "testId": 1696902,
+          "name": "Verify Empty Basket Message Is Displayed After Removing All Items",
+          "tags": [],
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-08-14T15:11:09.968Z"
         },
         {
           "caseId": 114333,
@@ -3892,6 +4068,17 @@
           "updatedAt": "2026-08-14T13:41:24.404Z"
         },
         {
+          "caseId": 114298,
+          "testId": 1696905,
+          "name": "Verify Gift Card Details Are Displayed Correctly In The Bag",
+          "tags": [],
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-08-14T15:12:58.395Z"
+        },
+        {
           "caseId": 114293,
           "testId": 1696900,
           "name": "Verify Increase And Decrease Functionality Of Item Quantity In Bag",
@@ -3901,6 +4088,50 @@
           "note": "",
           "assigneeId": null,
           "updatedAt": "2026-08-14T13:41:18.344Z"
+        },
+        {
+          "caseId": 114294,
+          "testId": 1696901,
+          "name": "Verify Item Is Removed When Decrease Button Is Clicked At Quantity One",
+          "tags": [],
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-08-14T15:11:04.969Z"
+        },
+        {
+          "caseId": 114292,
+          "testId": 1696899,
+          "name": "Verify Order Summary Details On The Bag Page",
+          "tags": [],
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-08-14T15:10:40.151Z"
+        },
+        {
+          "caseId": 122710,
+          "testId": 1696959,
+          "name": "Verify Order Summary Items Are Sorted With Newest Added Item First",
+          "tags": [],
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-08-14T15:18:00.076Z"
+        },
+        {
+          "caseId": 122035,
+          "testId": 1696956,
+          "name": "Verify Out Of Stock Alert Is Visible On The Bag Page",
+          "tags": [],
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-08-14T15:17:02.097Z"
         },
         {
           "caseId": 114323,
@@ -3969,6 +4200,28 @@
           "updatedAt": "2026-08-14T13:41:32.225Z"
         },
         {
+          "caseId": 114331,
+          "testId": 1696935,
+          "name": "Verify Physical Gift Card Limits Delivery Options And Shows Restriction Message",
+          "tags": [],
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-08-14T15:15:58.941Z"
+        },
+        {
+          "caseId": 114316,
+          "testId": 1696920,
+          "name": "Verify PLP Images Are Loaded From Amplience CDN",
+          "tags": [],
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-08-14T15:13:08.691Z"
+        },
+        {
           "caseId": 114329,
           "testId": 1696933,
           "name": "Verify Shipping Options - Home Delivery Express Is Selectable At Checkout",
@@ -3989,6 +4242,17 @@
           "note": "",
           "assigneeId": null,
           "updatedAt": "2026-08-14T13:41:24.404Z"
+        },
+        {
+          "caseId": 114327,
+          "testId": 1696931,
+          "name": "Verify Signed-In User Saved Addresses Are Displayed In Delivery And Billing Sections",
+          "tags": [],
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-08-14T15:15:53.973Z"
         },
         {
           "caseId": 114310,
@@ -4024,105 +4288,6 @@
           "updatedAt": "2026-08-14T13:41:24.404Z"
         },
         {
-          "caseId": 114336,
-          "testId": 1696939,
-          "name": "Click And Collect Overlay - Modal Is Displayed With Store Details",
-          "tags": [],
-          "statusId": 6,
-          "status": "Skipped",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-08-14T13:45:10.159Z"
-        },
-        {
-          "caseId": 114339,
-          "testId": 1696942,
-          "name": "Click And Collect Overlay - User Can Update Store Finder Location",
-          "tags": [],
-          "statusId": 6,
-          "status": "Skipped",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-08-14T13:45:23.737Z"
-        },
-        {
-          "caseId": 114290,
-          "testId": 1696897,
-          "name": "Email Address Persists When Navigating To Reset Password From Checkout Identity Page",
-          "tags": [],
-          "statusId": 6,
-          "status": "Skipped",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-08-14T13:42:01.795Z"
-        },
-        {
-          "caseId": 132957,
-          "testId": 1696972,
-          "name": "GBP Checkout UK Standard Delivery Is Not Affected By EUR USD Changes",
-          "tags": [],
-          "statusId": 6,
-          "status": "Skipped",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-08-14T13:45:44.151Z"
-        },
-        {
-          "caseId": 114318,
-          "testId": 1696922,
-          "name": "Header Search - Entering Search Term Displays Related Products",
-          "tags": [],
-          "statusId": 6,
-          "status": "Skipped",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-08-14T13:47:10.543Z"
-        },
-        {
-          "caseId": 114319,
-          "testId": 1696923,
-          "name": "Header Search - Entering Search Term Displays Related Search Terms",
-          "tags": [],
-          "statusId": 6,
-          "status": "Skipped",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-08-14T13:47:26.830Z"
-        },
-        {
-          "caseId": 114317,
-          "testId": 1696921,
-          "name": "Header Search - Pressing Enter In Search Box Redirects To Search Results Page",
-          "tags": [],
-          "statusId": 6,
-          "status": "Skipped",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-08-14T13:47:43.445Z"
-        },
-        {
-          "caseId": 114320,
-          "testId": 1696924,
-          "name": "Header Search - Search Box Can Be Hidden By Clicking The X Icon",
-          "tags": [],
-          "statusId": 6,
-          "status": "Skipped",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-08-14T13:47:58.627Z"
-        },
-        {
-          "caseId": 122033,
-          "testId": 1696954,
-          "name": "Header Search - Search Box Can Be Hidden By Pressing The Escape Key",
-          "tags": [],
-          "statusId": 6,
-          "status": "Skipped",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-08-14T13:48:14.013Z"
-        },
-        {
           "caseId": 140451,
           "testId": 1696977,
           "name": "Personalisation - As a first-time visitor I should have the ws_segment cookie set to unresolved",
@@ -4132,171 +4297,6 @@
           "note": "",
           "assigneeId": null,
           "updatedAt": "2026-08-14T14:07:22.567Z"
-        },
-        {
-          "caseId": 122711,
-          "testId": 1696960,
-          "name": "Verify Bag Is Discarded When Guest User Switches From UK Store To Ireland Store",
-          "tags": [],
-          "statusId": 6,
-          "status": "Skipped",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-08-14T13:42:21.719Z"
-        },
-        {
-          "caseId": 114297,
-          "testId": 1696904,
-          "name": "Verify Bag Is Empty When User Changes Currency From GBP To USD",
-          "tags": [],
-          "statusId": 6,
-          "status": "Skipped",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-08-14T13:42:38.377Z"
-        },
-        {
-          "caseId": 114326,
-          "testId": 1696930,
-          "name": "Verify Billing Section Allows Manual Entry Of A Different Billing Address",
-          "tags": [],
-          "statusId": 6,
-          "status": "Skipped",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-08-14T13:46:21.398Z"
-        },
-        {
-          "caseId": 122712,
-          "testId": 1696961,
-          "name": "Verify Cart Items And GBP Prices Are Preserved When Navigating Within UK Store",
-          "tags": [],
-          "statusId": 6,
-          "status": "Skipped",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-08-14T13:42:54.818Z"
-        },
-        {
-          "caseId": 114296,
-          "testId": 1696903,
-          "name": "Verify Continue Shopping Button Redirects To Homepage",
-          "tags": [],
-          "statusId": 6,
-          "status": "Skipped",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-08-14T13:43:13.269Z"
-        },
-        {
-          "caseId": 114291,
-          "testId": 1696898,
-          "name": "Verify Display Of Bag Items",
-          "tags": [],
-          "statusId": 6,
-          "status": "Skipped",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-08-14T13:43:27.154Z"
-        },
-        {
-          "caseId": 114295,
-          "testId": 1696902,
-          "name": "Verify Empty Basket Message Is Displayed After Removing All Items",
-          "tags": [],
-          "statusId": 6,
-          "status": "Skipped",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-08-14T13:43:41.691Z"
-        },
-        {
-          "caseId": 114298,
-          "testId": 1696905,
-          "name": "Verify Gift Card Details Are Displayed Correctly In The Bag",
-          "tags": [],
-          "statusId": 6,
-          "status": "Skipped",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-08-14T13:43:54.911Z"
-        },
-        {
-          "caseId": 114294,
-          "testId": 1696901,
-          "name": "Verify Item Is Removed When Decrease Button Is Clicked At Quantity One",
-          "tags": [],
-          "statusId": 6,
-          "status": "Skipped",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-08-14T13:44:10.190Z"
-        },
-        {
-          "caseId": 114292,
-          "testId": 1696899,
-          "name": "Verify Order Summary Details On The Bag Page",
-          "tags": [],
-          "statusId": 6,
-          "status": "Skipped",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-08-14T13:44:24.433Z"
-        },
-        {
-          "caseId": 122710,
-          "testId": 1696959,
-          "name": "Verify Order Summary Items Are Sorted With Newest Added Item First",
-          "tags": [],
-          "statusId": 6,
-          "status": "Skipped",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-08-14T13:46:36.576Z"
-        },
-        {
-          "caseId": 122035,
-          "testId": 1696956,
-          "name": "Verify Out Of Stock Alert Is Visible On The Bag Page",
-          "tags": [],
-          "statusId": 6,
-          "status": "Skipped",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-08-14T13:44:45.840Z"
-        },
-        {
-          "caseId": 114331,
-          "testId": 1696935,
-          "name": "Verify Physical Gift Card Limits Delivery Options And Shows Restriction Message",
-          "tags": [],
-          "statusId": 6,
-          "status": "Skipped",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-08-14T13:46:02.139Z"
-        },
-        {
-          "caseId": 114316,
-          "testId": 1696920,
-          "name": "Verify PLP Images Are Loaded From Amplience CDN",
-          "tags": [],
-          "statusId": 6,
-          "status": "Skipped",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-08-14T13:49:13.530Z"
-        },
-        {
-          "caseId": 114327,
-          "testId": 1696931,
-          "name": "Verify Signed-In User Saved Addresses Are Displayed In Delivery And Billing Sections",
-          "tags": [],
-          "statusId": 6,
-          "status": "Skipped",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-08-14T13:46:51.190Z"
         }
       ]
     },
