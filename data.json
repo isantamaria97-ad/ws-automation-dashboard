@@ -1,18 +1,18 @@
 {
-  "lastUpdated": "2026-08-14T09:07:41.061848+00:00",
+  "lastUpdated": "2026-08-14T13:08:04.877840+00:00",
   "jira": {
     "summary": {
       "total": 353,
       "byStatus": {
-        "IN QA": 4,
         "QA Approved": 9,
+        "En curso": 3,
+        "Ready to QA": 1,
+        "Tech Review": 15,
+        "Blocked": 5,
+        "IN QA": 4,
         "IN UAT": 2,
         "Backlog": 10,
         "Listo": 14,
-        "Ready to QA": 1,
-        "Blocked": 5,
-        "En curso": 4,
-        "Tech Review": 14,
         "Finalizada": 271,
         "READY FOR RELEASE": 2,
         "PENDING DEV DEPLOY": 3,
@@ -22,13 +22,103 @@
     },
     "tickets": [
       {
+        "key": "WSC-1594",
+        "url": "https://e2x.atlassian.net/browse/WSC-1594",
+        "summary": "SFS - item SFS data on VSF",
+        "status": "QA Approved",
+        "statusCategory": "indeterminate",
+        "assignee": "Gerardo Romero",
+        "updated": "2026-08-14T14:05:53.718+0100",
+        "priority": "Importante",
+        "labels": [
+          "Needs-QA",
+          "automatable"
+        ]
+      },
+      {
+        "key": "WSC-1607",
+        "url": "https://e2x.atlassian.net/browse/WSC-1607",
+        "summary": "PDP - Stylitics - Android issue",
+        "status": "En curso",
+        "statusCategory": "indeterminate",
+        "assignee": "Alexander Talavera",
+        "updated": "2026-08-14T14:04:59.639+0100",
+        "priority": "Poco importante",
+        "labels": []
+      },
+      {
+        "key": "WSC-1680",
+        "url": "https://e2x.atlassian.net/browse/WSC-1680",
+        "summary": "PLP header iOS issue",
+        "status": "Ready to QA",
+        "statusCategory": "new",
+        "assignee": "Stuart Young",
+        "updated": "2026-08-14T13:56:40.411+0100",
+        "priority": "Importante",
+        "labels": []
+      },
+      {
+        "key": "WSC-1599",
+        "url": "https://e2x.atlassian.net/browse/WSC-1599",
+        "summary": "CONTENT - Default Search Term - move into Footer component",
+        "status": "Tech Review",
+        "statusCategory": "indeterminate",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-08-14T13:49:47.735+0100",
+        "priority": "Poco importante",
+        "labels": [
+          "Needs-QA",
+          "accelerated",
+          "manualQA"
+        ]
+      },
+      {
+        "key": "WSC-1643",
+        "url": "https://e2x.atlassian.net/browse/WSC-1643",
+        "summary": "Unmasking JS errors - vendor outreach",
+        "status": "Blocked",
+        "statusCategory": "new",
+        "assignee": "Alexander Talavera",
+        "updated": "2026-08-14T13:06:16.702+0100",
+        "priority": "Importante",
+        "labels": [
+          "NO_QA_REQUIRED"
+        ]
+      },
+      {
+        "key": "WSC-1642",
+        "url": "https://e2x.atlassian.net/browse/WSC-1642",
+        "summary": "Unmasking JS errors - Infrastructure (Cloudflare)",
+        "status": "IN QA",
+        "statusCategory": "indeterminate",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-08-14T13:05:24.538+0100",
+        "priority": "Importante",
+        "labels": [
+          "NO_QA_REQUIRED"
+        ]
+      },
+      {
         "key": "WSC-1641",
         "url": "https://e2x.atlassian.net/browse/WSC-1641",
         "summary": "Unmasking JS errors - Checkout",
         "status": "IN QA",
         "statusCategory": "indeterminate",
         "assignee": "enmanuel.ramirez",
-        "updated": "2026-08-14T01:18:05.993+0100",
+        "updated": "2026-08-14T13:05:19.839+0100",
+        "priority": "Importante",
+        "labels": [
+          "NO_QA_REQUIRED"
+        ]
+      },
+      {
+        "key": "WSC-1640",
+        "url": "https://e2x.atlassian.net/browse/WSC-1640",
+        "summary": "Unmasking JS errors - VSF",
+        "status": "IN QA",
+        "statusCategory": "indeterminate",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-08-14T13:05:15.031+0100",
         "priority": "Importante",
         "labels": [
           "NO_QA_REQUIRED"
@@ -80,20 +170,6 @@
         "statusCategory": "indeterminate",
         "assignee": "Gerardo Romero",
         "updated": "2026-08-13T21:06:34.040+0100",
-        "priority": "Importante",
-        "labels": [
-          "Needs-QA",
-          "automatable"
-        ]
-      },
-      {
-        "key": "WSC-1594",
-        "url": "https://e2x.atlassian.net/browse/WSC-1594",
-        "summary": "SFS - item SFS data on VSF",
-        "status": "QA Approved",
-        "statusCategory": "indeterminate",
-        "assignee": "Gerardo Romero",
-        "updated": "2026-08-13T21:00:46.745+0100",
         "priority": "Importante",
         "labels": [
           "Needs-QA",
@@ -186,30 +262,6 @@
         ]
       },
       {
-        "key": "WSC-1642",
-        "url": "https://e2x.atlassian.net/browse/WSC-1642",
-        "summary": "Unmasking JS errors - Infrastructure (Cloudflare)",
-        "status": "IN QA",
-        "statusCategory": "indeterminate",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-08-13T17:33:48.639+0100",
-        "priority": "Importante",
-        "labels": [
-          "NO_QA_REQUIRED"
-        ]
-      },
-      {
-        "key": "WSC-1680",
-        "url": "https://e2x.atlassian.net/browse/WSC-1680",
-        "summary": "PLP header iOS issue",
-        "status": "Ready to QA",
-        "statusCategory": "new",
-        "assignee": "Unassigned",
-        "updated": "2026-08-13T17:00:37.647+0100",
-        "priority": "Importante",
-        "labels": []
-      },
-      {
         "key": "WSC-1481",
         "url": "https://e2x.atlassian.net/browse/WSC-1481",
         "summary": "Initial CSP Report-Only Rollout  (Production)",
@@ -248,20 +300,6 @@
         "labels": [
           "CSP",
           "NO_QA_REQUIRED"
-        ]
-      },
-      {
-        "key": "WSC-1599",
-        "url": "https://e2x.atlassian.net/browse/WSC-1599",
-        "summary": "CONTENT - Default Search Term - move into Footer component",
-        "status": "En curso",
-        "statusCategory": "indeterminate",
-        "assignee": "Jair Huaman",
-        "updated": "2026-08-13T16:12:35.063+0100",
-        "priority": "Poco importante",
-        "labels": [
-          "Needs-QA",
-          "manualQA"
         ]
       },
       {
@@ -353,17 +391,6 @@
         "labels": []
       },
       {
-        "key": "WSC-1607",
-        "url": "https://e2x.atlassian.net/browse/WSC-1607",
-        "summary": "PDP - Stylitics - Android issue",
-        "status": "En curso",
-        "statusCategory": "indeterminate",
-        "assignee": "Alexander Talavera",
-        "updated": "2026-08-13T14:13:14.347+0100",
-        "priority": "Poco importante",
-        "labels": []
-      },
-      {
         "key": "WSC-1591",
         "url": "https://e2x.atlassian.net/browse/WSC-1591",
         "summary": "Shop Pages \u2014 Canonical URL & Hreflang Fix",
@@ -398,32 +425,6 @@
         "updated": "2026-08-12T20:59:36.227+0100",
         "priority": "Not Set",
         "labels": []
-      },
-      {
-        "key": "WSC-1640",
-        "url": "https://e2x.atlassian.net/browse/WSC-1640",
-        "summary": "Unmasking JS errors - VSF",
-        "status": "IN QA",
-        "statusCategory": "indeterminate",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-08-12T20:59:35.384+0100",
-        "priority": "Importante",
-        "labels": [
-          "NO_QA_REQUIRED"
-        ]
-      },
-      {
-        "key": "WSC-1643",
-        "url": "https://e2x.atlassian.net/browse/WSC-1643",
-        "summary": "Unmasking JS errors - vendor outreach",
-        "status": "Blocked",
-        "statusCategory": "new",
-        "assignee": "Alexander Talavera",
-        "updated": "2026-08-12T20:59:34.218+0100",
-        "priority": "Importante",
-        "labels": [
-          "NO_QA_REQUIRED"
-        ]
       },
       {
         "key": "WSC-1544",
