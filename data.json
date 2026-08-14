@@ -1,12 +1,12 @@
 {
-  "lastUpdated": "2026-08-13T20:43:55.930346+00:00",
+  "lastUpdated": "2026-08-14T02:01:59.290931+00:00",
   "jira": {
     "summary": {
       "total": 353,
       "byStatus": {
-        "QA Approved": 10,
         "IN QA": 4,
-        "IN UAT": 1,
+        "QA Approved": 9,
+        "IN UAT": 2,
         "Backlog": 10,
         "Listo": 14,
         "Ready to QA": 1,
@@ -22,13 +22,40 @@
     },
     "tickets": [
       {
-        "key": "WSC-1669",
-        "url": "https://e2x.atlassian.net/browse/WSC-1669",
-        "summary": "PLP header scroller",
+        "key": "WSC-1641",
+        "url": "https://e2x.atlassian.net/browse/WSC-1641",
+        "summary": "Unmasking JS errors - Checkout",
+        "status": "IN QA",
+        "statusCategory": "indeterminate",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-08-14T01:18:05.993+0100",
+        "priority": "Importante",
+        "labels": [
+          "NO_QA_REQUIRED"
+        ]
+      },
+      {
+        "key": "WSC-1522",
+        "url": "https://e2x.atlassian.net/browse/WSC-1522",
+        "summary": "CONTENT - Personalisation",
         "status": "QA Approved",
         "statusCategory": "indeterminate",
         "assignee": "Gerardo Romero",
-        "updated": "2026-08-13T21:43:49.429+0100",
+        "updated": "2026-08-14T01:16:36.455+0100",
+        "priority": "Importante",
+        "labels": [
+          "Needs-QA",
+          "automatable"
+        ]
+      },
+      {
+        "key": "WSC-1669",
+        "url": "https://e2x.atlassian.net/browse/WSC-1669",
+        "summary": "PLP header scroller",
+        "status": "IN UAT",
+        "statusCategory": "indeterminate",
+        "assignee": "Gerardo Romero",
+        "updated": "2026-08-13T21:43:52.454+0100",
         "priority": "Cr\u00edtica",
         "labels": []
       },
@@ -82,33 +109,6 @@
         "assignee": "Ingrith Santamaria",
         "updated": "2026-08-13T20:46:27.538+0100",
         "priority": "Poco importante",
-        "labels": [
-          "Needs-QA",
-          "automatable"
-        ]
-      },
-      {
-        "key": "WSC-1641",
-        "url": "https://e2x.atlassian.net/browse/WSC-1641",
-        "summary": "Unmasking JS errors - Checkout",
-        "status": "IN QA",
-        "statusCategory": "indeterminate",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-08-13T19:47:33.220+0100",
-        "priority": "Importante",
-        "labels": [
-          "NO_QA_REQUIRED"
-        ]
-      },
-      {
-        "key": "WSC-1522",
-        "url": "https://e2x.atlassian.net/browse/WSC-1522",
-        "summary": "CONTENT - Personalisation",
-        "status": "QA Approved",
-        "statusCategory": "indeterminate",
-        "assignee": "Gerardo Romero",
-        "updated": "2026-08-13T19:45:47.220+0100",
-        "priority": "Importante",
         "labels": [
           "Needs-QA",
           "automatable"
