@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-14T15:53:32.891680+00:00",
+  "lastUpdated": "2026-08-14T16:55:11.194467+00:00",
   "milestones": [
     {
       "id": 240,
@@ -1173,12 +1173,12 @@
       "total": 84,
       "completed": 84,
       "remaining": 0,
-      "passed": 70,
+      "passed": 84,
       "failed": 0,
       "retest": 0,
       "blocked": 0,
       "untested": 0,
-      "skipped": 14,
+      "skipped": 0,
       "statusCounts": {
         "Untested": {
           "id": 1,
@@ -1186,7 +1186,7 @@
         },
         "Passed": {
           "id": 2,
-          "count": 70
+          "count": 84
         },
         "Failed": {
           "id": 3,
@@ -1202,7 +1202,7 @@
         },
         "Skipped": {
           "id": 6,
-          "count": 14
+          "count": 0
         },
         "Status 7": {
           "id": 7,
@@ -1314,6 +1314,17 @@
           "updatedAt": "2026-08-14T13:25:02.993Z"
         },
         {
+          "caseId": 114342,
+          "testId": 1697199,
+          "name": "Click And Collect - User Changes Collection Location During Checkout And Completes Order",
+          "tags": [],
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-08-14T16:48:46.398Z"
+        },
+        {
           "caseId": 114341,
           "testId": 1697198,
           "name": "Click And Collect - User Selects Parcel Stop Location And Confirms Collection Details",
@@ -1322,7 +1333,7 @@
           "status": "Passed",
           "note": "",
           "assigneeId": null,
-          "updatedAt": "2026-08-14T13:25:19.165Z"
+          "updatedAt": "2026-08-14T16:48:46.398Z"
         },
         {
           "caseId": 114340,
@@ -1333,7 +1344,7 @@
           "status": "Passed",
           "note": "",
           "assigneeId": null,
-          "updatedAt": "2026-08-14T13:25:11.774Z"
+          "updatedAt": "2026-08-14T16:48:36.903Z"
         },
         {
           "caseId": 114343,
@@ -1344,7 +1355,29 @@
           "status": "Passed",
           "note": "",
           "assigneeId": null,
-          "updatedAt": "2026-08-14T13:25:19.165Z"
+          "updatedAt": "2026-08-14T16:48:46.398Z"
+        },
+        {
+          "caseId": 114338,
+          "testId": 1697195,
+          "name": "Click And Collect Overlay - Map Is Displayed",
+          "tags": [],
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-08-14T16:48:36.903Z"
+        },
+        {
+          "caseId": 114336,
+          "testId": 1697193,
+          "name": "Click And Collect Overlay - Modal Is Displayed With Store Details",
+          "tags": [],
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-08-14T16:48:36.903Z"
         },
         {
           "caseId": 114337,
@@ -1355,7 +1388,18 @@
           "status": "Passed",
           "note": "",
           "assigneeId": null,
-          "updatedAt": "2026-08-14T13:25:11.774Z"
+          "updatedAt": "2026-08-14T16:48:36.903Z"
+        },
+        {
+          "caseId": 114339,
+          "testId": 1697196,
+          "name": "Click And Collect Overlay - User Can Update Store Finder Location",
+          "tags": [],
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-08-14T16:48:36.903Z"
         },
         {
           "caseId": 114290,
@@ -1388,7 +1432,7 @@
           "status": "Passed",
           "note": "",
           "assigneeId": null,
-          "updatedAt": "2026-08-14T13:25:11.774Z"
+          "updatedAt": "2026-08-14T16:48:36.903Z"
         },
         {
           "caseId": 114335,
@@ -1399,7 +1443,7 @@
           "status": "Passed",
           "note": "",
           "assigneeId": null,
-          "updatedAt": "2026-08-14T13:25:11.774Z"
+          "updatedAt": "2026-08-14T16:48:36.903Z"
         },
         {
           "caseId": 127264,
@@ -1410,7 +1454,18 @@
           "status": "Passed",
           "note": "",
           "assigneeId": null,
-          "updatedAt": "2026-08-14T13:25:19.165Z"
+          "updatedAt": "2026-08-14T16:48:46.398Z"
+        },
+        {
+          "caseId": 132954,
+          "testId": 1697223,
+          "name": "EUR Checkout Shows FREE For Europe Standard When Bag Value Is \u20ac150 Or Above",
+          "tags": [],
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-08-14T16:48:54.416Z"
         },
         {
           "caseId": 132953,
@@ -1421,7 +1476,7 @@
           "status": "Passed",
           "note": "",
           "assigneeId": null,
-          "updatedAt": "2026-08-14T13:25:19.165Z"
+          "updatedAt": "2026-08-14T16:48:46.398Z"
         },
         {
           "caseId": 132957,
@@ -1432,7 +1487,51 @@
           "status": "Passed",
           "note": "",
           "assigneeId": null,
-          "updatedAt": "2026-08-14T13:25:25.641Z"
+          "updatedAt": "2026-08-14T16:48:54.416Z"
+        },
+        {
+          "caseId": 114318,
+          "testId": 1697176,
+          "name": "Header Search - Entering Search Term Displays Related Products",
+          "tags": [],
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-08-14T16:48:36.903Z"
+        },
+        {
+          "caseId": 114319,
+          "testId": 1697177,
+          "name": "Header Search - Entering Search Term Displays Related Search Terms",
+          "tags": [],
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-08-14T16:48:36.903Z"
+        },
+        {
+          "caseId": 114317,
+          "testId": 1697175,
+          "name": "Header Search - Pressing Enter In Search Box Redirects To Search Results Page",
+          "tags": [],
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-08-14T16:48:36.903Z"
+        },
+        {
+          "caseId": 114320,
+          "testId": 1697178,
+          "name": "Header Search - Search Box Can Be Hidden By Clicking The X Icon",
+          "tags": [],
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-08-14T16:48:36.903Z"
         },
         {
           "caseId": 122033,
@@ -1443,7 +1542,7 @@
           "status": "Passed",
           "note": "",
           "assigneeId": null,
-          "updatedAt": "2026-08-14T13:25:19.165Z"
+          "updatedAt": "2026-08-14T16:48:46.398Z"
         },
         {
           "caseId": 114352,
@@ -1454,7 +1553,7 @@
           "status": "Passed",
           "note": "",
           "assigneeId": null,
-          "updatedAt": "2026-08-14T13:25:19.165Z"
+          "updatedAt": "2026-08-14T16:48:46.398Z"
         },
         {
           "caseId": 114354,
@@ -1465,7 +1564,7 @@
           "status": "Passed",
           "note": "",
           "assigneeId": null,
-          "updatedAt": "2026-08-14T13:25:19.165Z"
+          "updatedAt": "2026-08-14T16:48:46.398Z"
         },
         {
           "caseId": 140451,
@@ -1476,7 +1575,7 @@
           "status": "Passed",
           "note": "",
           "assigneeId": null,
-          "updatedAt": "2026-08-14T13:25:25.641Z"
+          "updatedAt": "2026-08-14T16:48:54.416Z"
         },
         {
           "caseId": 114315,
@@ -1487,7 +1586,7 @@
           "status": "Passed",
           "note": "",
           "assigneeId": null,
-          "updatedAt": "2026-08-14T13:25:11.774Z"
+          "updatedAt": "2026-08-14T16:48:36.903Z"
         },
         {
           "caseId": 114313,
@@ -1531,7 +1630,7 @@
           "status": "Passed",
           "note": "",
           "assigneeId": null,
-          "updatedAt": "2026-08-14T13:25:25.641Z"
+          "updatedAt": "2026-08-14T16:48:54.416Z"
         },
         {
           "caseId": 133817,
@@ -1542,7 +1641,7 @@
           "status": "Passed",
           "note": "",
           "assigneeId": null,
-          "updatedAt": "2026-08-14T13:25:25.641Z"
+          "updatedAt": "2026-08-14T16:48:54.416Z"
         },
         {
           "caseId": 133816,
@@ -1553,7 +1652,7 @@
           "status": "Passed",
           "note": "",
           "assigneeId": null,
-          "updatedAt": "2026-08-14T13:25:25.641Z"
+          "updatedAt": "2026-08-14T16:48:54.416Z"
         },
         {
           "caseId": 133818,
@@ -1564,7 +1663,7 @@
           "status": "Passed",
           "note": "",
           "assigneeId": null,
-          "updatedAt": "2026-08-14T13:25:25.641Z"
+          "updatedAt": "2026-08-14T16:48:54.416Z"
         },
         {
           "caseId": 122036,
@@ -1575,7 +1674,7 @@
           "status": "Passed",
           "note": "",
           "assigneeId": null,
-          "updatedAt": "2026-08-14T13:25:19.165Z"
+          "updatedAt": "2026-08-14T16:48:46.398Z"
         },
         {
           "caseId": 127261,
@@ -1586,7 +1685,18 @@
           "status": "Passed",
           "note": "",
           "assigneeId": null,
-          "updatedAt": "2026-08-14T13:25:19.165Z"
+          "updatedAt": "2026-08-14T16:48:46.398Z"
+        },
+        {
+          "caseId": 127265,
+          "testId": 1697220,
+          "name": "UK: gift card info message shown below DELIVERY heading",
+          "tags": [],
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-08-14T16:48:46.398Z"
         },
         {
           "caseId": 127262,
@@ -1597,7 +1707,7 @@
           "status": "Passed",
           "note": "",
           "assigneeId": null,
-          "updatedAt": "2026-08-14T13:25:19.165Z"
+          "updatedAt": "2026-08-14T16:48:46.398Z"
         },
         {
           "caseId": 127266,
@@ -1608,7 +1718,7 @@
           "status": "Passed",
           "note": "",
           "assigneeId": null,
-          "updatedAt": "2026-08-14T13:25:19.165Z"
+          "updatedAt": "2026-08-14T16:48:46.398Z"
         },
         {
           "caseId": 127263,
@@ -1619,7 +1729,7 @@
           "status": "Passed",
           "note": "",
           "assigneeId": null,
-          "updatedAt": "2026-08-14T13:25:19.165Z"
+          "updatedAt": "2026-08-14T16:48:46.398Z"
         },
         {
           "caseId": 132956,
@@ -1630,7 +1740,18 @@
           "status": "Passed",
           "note": "",
           "assigneeId": null,
-          "updatedAt": "2026-08-14T13:25:25.641Z"
+          "updatedAt": "2026-08-14T16:48:54.416Z"
+        },
+        {
+          "caseId": 132955,
+          "testId": 1697224,
+          "name": "USD Checkout Shows From $7.00 For International Standard When Bag Value Is Below $150",
+          "tags": [],
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-08-14T16:48:54.416Z"
         },
         {
           "caseId": 114287,
@@ -1674,7 +1795,7 @@
           "status": "Passed",
           "note": "",
           "assigneeId": null,
-          "updatedAt": "2026-08-14T13:25:11.774Z"
+          "updatedAt": "2026-08-14T16:48:36.903Z"
         },
         {
           "caseId": 114348,
@@ -1685,7 +1806,7 @@
           "status": "Passed",
           "note": "",
           "assigneeId": null,
-          "updatedAt": "2026-08-14T13:25:19.165Z"
+          "updatedAt": "2026-08-14T16:48:46.398Z"
         },
         {
           "caseId": 122711,
@@ -1696,7 +1817,7 @@
           "status": "Passed",
           "note": "",
           "assigneeId": null,
-          "updatedAt": "2026-08-14T13:25:19.165Z"
+          "updatedAt": "2026-08-14T16:48:46.398Z"
         },
         {
           "caseId": 114297,
@@ -1718,7 +1839,7 @@
           "status": "Passed",
           "note": "",
           "assigneeId": null,
-          "updatedAt": "2026-08-14T13:25:11.774Z"
+          "updatedAt": "2026-08-14T16:48:36.903Z"
         },
         {
           "caseId": 114325,
@@ -1729,7 +1850,7 @@
           "status": "Passed",
           "note": "",
           "assigneeId": null,
-          "updatedAt": "2026-08-14T13:25:11.774Z"
+          "updatedAt": "2026-08-14T16:48:36.903Z"
         },
         {
           "caseId": 122712,
@@ -1740,7 +1861,7 @@
           "status": "Passed",
           "note": "",
           "assigneeId": null,
-          "updatedAt": "2026-08-14T13:25:19.165Z"
+          "updatedAt": "2026-08-14T16:48:46.398Z"
         },
         {
           "caseId": 114321,
@@ -1751,7 +1872,7 @@
           "status": "Passed",
           "note": "",
           "assigneeId": null,
-          "updatedAt": "2026-08-14T13:25:11.774Z"
+          "updatedAt": "2026-08-14T16:48:36.903Z"
         },
         {
           "caseId": 114296,
@@ -1773,7 +1894,7 @@
           "status": "Passed",
           "note": "",
           "assigneeId": null,
-          "updatedAt": "2026-08-14T13:25:19.165Z"
+          "updatedAt": "2026-08-14T16:48:46.398Z"
         },
         {
           "caseId": 114344,
@@ -1784,7 +1905,7 @@
           "status": "Passed",
           "note": "",
           "assigneeId": null,
-          "updatedAt": "2026-08-14T13:25:19.165Z"
+          "updatedAt": "2026-08-14T16:48:46.398Z"
         },
         {
           "caseId": 114346,
@@ -1795,7 +1916,7 @@
           "status": "Passed",
           "note": "",
           "assigneeId": null,
-          "updatedAt": "2026-08-14T13:25:19.165Z"
+          "updatedAt": "2026-08-14T16:48:46.398Z"
         },
         {
           "caseId": 114291,
@@ -1817,7 +1938,7 @@
           "status": "Passed",
           "note": "",
           "assigneeId": null,
-          "updatedAt": "2026-08-14T13:25:19.165Z"
+          "updatedAt": "2026-08-14T16:48:46.398Z"
         },
         {
           "caseId": 114295,
@@ -1831,6 +1952,17 @@
           "updatedAt": "2026-08-14T13:25:02.993Z"
         },
         {
+          "caseId": 114333,
+          "testId": 1697190,
+          "name": "Verify EU/US Checkout Shows Zone-Based Delivery Options With From Pricing",
+          "tags": [],
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-08-14T16:48:36.903Z"
+        },
+        {
           "caseId": 122034,
           "testId": 1697209,
           "name": "Verify Express Delivery Checkout Reaches Order Confirmation",
@@ -1839,7 +1971,7 @@
           "status": "Passed",
           "note": "",
           "assigneeId": null,
-          "updatedAt": "2026-08-14T13:25:19.165Z"
+          "updatedAt": "2026-08-14T16:48:46.398Z"
         },
         {
           "caseId": 114322,
@@ -1850,7 +1982,7 @@
           "status": "Passed",
           "note": "",
           "assigneeId": null,
-          "updatedAt": "2026-08-14T13:25:11.774Z"
+          "updatedAt": "2026-08-14T16:48:36.903Z"
         },
         {
           "caseId": 114298,
@@ -1905,7 +2037,7 @@
           "status": "Passed",
           "note": "",
           "assigneeId": null,
-          "updatedAt": "2026-08-14T13:25:19.165Z"
+          "updatedAt": "2026-08-14T16:48:46.398Z"
         },
         {
           "caseId": 122035,
@@ -1916,7 +2048,7 @@
           "status": "Passed",
           "note": "",
           "assigneeId": null,
-          "updatedAt": "2026-08-14T13:25:19.165Z"
+          "updatedAt": "2026-08-14T16:48:46.398Z"
         },
         {
           "caseId": 114323,
@@ -1927,7 +2059,7 @@
           "status": "Passed",
           "note": "",
           "assigneeId": null,
-          "updatedAt": "2026-08-14T13:25:11.774Z"
+          "updatedAt": "2026-08-14T16:48:36.903Z"
         },
         {
           "caseId": 114305,
@@ -1982,7 +2114,7 @@
           "status": "Passed",
           "note": "",
           "assigneeId": null,
-          "updatedAt": "2026-08-14T13:25:19.165Z"
+          "updatedAt": "2026-08-14T16:48:46.398Z"
         },
         {
           "caseId": 114331,
@@ -1993,7 +2125,18 @@
           "status": "Passed",
           "note": "",
           "assigneeId": null,
-          "updatedAt": "2026-08-14T13:25:11.774Z"
+          "updatedAt": "2026-08-14T16:48:36.903Z"
+        },
+        {
+          "caseId": 114316,
+          "testId": 1697174,
+          "name": "Verify PLP Images Are Loaded From Amplience CDN",
+          "tags": [],
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-08-14T16:48:36.903Z"
         },
         {
           "caseId": 114329,
@@ -2004,7 +2147,18 @@
           "status": "Passed",
           "note": "",
           "assigneeId": null,
-          "updatedAt": "2026-08-14T13:25:11.774Z"
+          "updatedAt": "2026-08-14T16:48:36.903Z"
+        },
+        {
+          "caseId": 114328,
+          "testId": 1697186,
+          "name": "Verify Shipping Options - Home Delivery Standard Is Selectable At Checkout",
+          "tags": [],
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-08-14T16:48:36.903Z"
         },
         {
           "caseId": 114327,
@@ -2015,7 +2169,7 @@
           "status": "Passed",
           "note": "",
           "assigneeId": null,
-          "updatedAt": "2026-08-14T13:25:11.774Z"
+          "updatedAt": "2026-08-14T16:48:36.903Z"
         },
         {
           "caseId": 114310,
@@ -2048,161 +2202,7 @@
           "status": "Passed",
           "note": "",
           "assigneeId": null,
-          "updatedAt": "2026-08-14T13:25:11.774Z"
-        },
-        {
-          "caseId": 114342,
-          "testId": 1697199,
-          "name": "Click And Collect - User Changes Collection Location During Checkout And Completes Order",
-          "tags": [],
-          "statusId": 6,
-          "status": "Skipped",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-08-14T13:26:15.362Z"
-        },
-        {
-          "caseId": 114338,
-          "testId": 1697195,
-          "name": "Click And Collect Overlay - Map Is Displayed",
-          "tags": [],
-          "statusId": 6,
-          "status": "Skipped",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-08-14T13:26:50.173Z"
-        },
-        {
-          "caseId": 114336,
-          "testId": 1697193,
-          "name": "Click And Collect Overlay - Modal Is Displayed With Store Details",
-          "tags": [],
-          "statusId": 6,
-          "status": "Skipped",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-08-14T13:27:11.691Z"
-        },
-        {
-          "caseId": 114339,
-          "testId": 1697196,
-          "name": "Click And Collect Overlay - User Can Update Store Finder Location",
-          "tags": [],
-          "statusId": 6,
-          "status": "Skipped",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-08-14T13:27:33.443Z"
-        },
-        {
-          "caseId": 132954,
-          "testId": 1697223,
-          "name": "EUR Checkout Shows FREE For Europe Standard When Bag Value Is \u20ac150 Or Above",
-          "tags": [],
-          "statusId": 6,
-          "status": "Skipped",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-08-14T13:29:19.129Z"
-        },
-        {
-          "caseId": 114318,
-          "testId": 1697176,
-          "name": "Header Search - Entering Search Term Displays Related Products",
-          "tags": [],
-          "statusId": 6,
-          "status": "Skipped",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-08-14T13:33:33.527Z"
-        },
-        {
-          "caseId": 114319,
-          "testId": 1697177,
-          "name": "Header Search - Entering Search Term Displays Related Search Terms",
-          "tags": [],
-          "statusId": 6,
-          "status": "Skipped",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-08-14T13:33:49.200Z"
-        },
-        {
-          "caseId": 114317,
-          "testId": 1697175,
-          "name": "Header Search - Pressing Enter In Search Box Redirects To Search Results Page",
-          "tags": [],
-          "statusId": 6,
-          "status": "Skipped",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-08-14T13:34:24.397Z"
-        },
-        {
-          "caseId": 114320,
-          "testId": 1697178,
-          "name": "Header Search - Search Box Can Be Hidden By Clicking The X Icon",
-          "tags": [],
-          "statusId": 6,
-          "status": "Skipped",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-08-14T13:34:39.449Z"
-        },
-        {
-          "caseId": 127265,
-          "testId": 1697220,
-          "name": "UK: gift card info message shown below DELIVERY heading",
-          "tags": [],
-          "statusId": 6,
-          "status": "Skipped",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-08-14T13:28:01.627Z"
-        },
-        {
-          "caseId": 132955,
-          "testId": 1697224,
-          "name": "USD Checkout Shows From $7.00 For International Standard When Bag Value Is Below $150",
-          "tags": [],
-          "statusId": 6,
-          "status": "Skipped",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-08-14T13:29:35.056Z"
-        },
-        {
-          "caseId": 114333,
-          "testId": 1697190,
-          "name": "Verify EU/US Checkout Shows Zone-Based Delivery Options With From Pricing",
-          "tags": [],
-          "statusId": 6,
-          "status": "Skipped",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-08-14T13:32:55.508Z"
-        },
-        {
-          "caseId": 114316,
-          "testId": 1697174,
-          "name": "Verify PLP Images Are Loaded From Amplience CDN",
-          "tags": [],
-          "statusId": 6,
-          "status": "Skipped",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-08-14T13:35:04.721Z"
-        },
-        {
-          "caseId": 114328,
-          "testId": 1697186,
-          "name": "Verify Shipping Options - Home Delivery Standard Is Selectable At Checkout",
-          "tags": [],
-          "statusId": 6,
-          "status": "Skipped",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-08-14T13:33:12.359Z"
+          "updatedAt": "2026-08-14T16:48:36.903Z"
         }
       ]
     },
