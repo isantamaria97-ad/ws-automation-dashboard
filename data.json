@@ -1,20 +1,20 @@
 {
-  "lastUpdated": "2026-08-17T12:45:14.793999+00:00",
+  "lastUpdated": "2026-08-17T16:28:16.566672+00:00",
   "jira": {
     "summary": {
       "total": 355,
       "byStatus": {
+        "Backlog": 10,
+        "Listo": 13,
+        "Tech Review": 17,
         "Finalizada": 272,
         "IN QA": 2,
         "QA Approved": 9,
-        "En curso": 4,
-        "Tech Review": 16,
+        "En curso": 3,
         "Ready to QA": 1,
-        "Listo": 13,
         "READY FOR RELEASE": 3,
         "IN UAT": 3,
         "Blocked": 5,
-        "Backlog": 10,
         "PENDING DEV DEPLOY": 3,
         "Ready for Refinement": 1,
         "Deprecated": 13
@@ -22,13 +22,116 @@
     },
     "tickets": [
       {
+        "key": "WSC-1629",
+        "url": "https://e2x.atlassian.net/browse/WSC-1629",
+        "summary": "SPIKE - product family for multi-item products (PLP/PDP)",
+        "status": "Backlog",
+        "statusCategory": "new",
+        "assignee": "Unassigned",
+        "updated": "2026-08-17T15:23:30.511+0100",
+        "priority": "Importante",
+        "labels": []
+      },
+      {
+        "key": "WSC-1676",
+        "url": "https://e2x.atlassian.net/browse/WSC-1676",
+        "summary": "APPLE PAY EXPRESS",
+        "status": "Listo",
+        "statusCategory": "new",
+        "assignee": "Unassigned",
+        "updated": "2026-08-17T15:19:00.346+0100",
+        "priority": "Importante",
+        "labels": [
+          "Needs-QA",
+          "manualQA"
+        ]
+      },
+      {
+        "key": "WSC-1679",
+        "url": "https://e2x.atlassian.net/browse/WSC-1679",
+        "summary": "SLIM BANNER - control Benefit Bar",
+        "status": "Listo",
+        "statusCategory": "new",
+        "assignee": "Jair Huaman",
+        "updated": "2026-08-17T15:18:52.256+0100",
+        "priority": "Importante",
+        "labels": []
+      },
+      {
+        "key": "WSC-1674",
+        "url": "https://e2x.atlassian.net/browse/WSC-1674",
+        "summary": "UX - email and password validation",
+        "status": "Listo",
+        "statusCategory": "new",
+        "assignee": "Jair Huaman",
+        "updated": "2026-08-17T15:18:47.714+0100",
+        "priority": "Importante",
+        "labels": [
+          "Needs-QA",
+          "automatable"
+        ]
+      },
+      {
+        "key": "WSC-1659",
+        "url": "https://e2x.atlassian.net/browse/WSC-1659",
+        "summary": "BAG ORDER SUMMARY - sticky CTAs on tablet/mobile",
+        "status": "Listo",
+        "statusCategory": "new",
+        "assignee": "Unassigned",
+        "updated": "2026-08-17T15:18:31.088+0100",
+        "priority": "Importante",
+        "labels": [
+          "Needs-QA"
+        ]
+      },
+      {
+        "key": "WSC-1658",
+        "url": "https://e2x.atlassian.net/browse/WSC-1658",
+        "summary": "BAG ORDER SUMMARY - redesign",
+        "status": "Listo",
+        "statusCategory": "new",
+        "assignee": "Unassigned",
+        "updated": "2026-08-17T15:18:15.505+0100",
+        "priority": "Importante",
+        "labels": [
+          "Needs-QA"
+        ]
+      },
+      {
+        "key": "WSC-1661",
+        "url": "https://e2x.atlassian.net/browse/WSC-1661",
+        "summary": "BAG PRODUCT SECTION - redesign",
+        "status": "Listo",
+        "statusCategory": "new",
+        "assignee": "Unassigned",
+        "updated": "2026-08-17T15:17:56.311+0100",
+        "priority": "Importante",
+        "labels": [
+          "FastFollow"
+        ]
+      },
+      {
+        "key": "WSC-1698",
+        "url": "https://e2x.atlassian.net/browse/WSC-1698",
+        "summary": "[WSSD-708] - PDP - BazaarVoice reviews only appear when navigating from PLP",
+        "status": "Tech Review",
+        "statusCategory": "indeterminate",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-08-17T14:51:28.409+0100",
+        "priority": "Importante",
+        "labels": [
+          "Needs-QA",
+          "accelerated"
+        ]
+      },
+      {
         "key": "WSC-1681",
         "url": "https://e2x.atlassian.net/browse/WSC-1681",
         "summary": "[WS] Monthly vulnerability review (Snyk) Aug for Jul 2026 Maintain Report",
         "status": "Finalizada",
         "statusCategory": "done",
         "assignee": "Rafael Paranagu\u00e1",
-        "updated": "2026-08-14T19:11:31.233+0100",
+        "updated": "2026-08-17T14:03:32.773+0100",
         "priority": "Not Set",
         "labels": []
       },
@@ -105,19 +208,6 @@
         "priority": "Poco importante",
         "labels": [
           "accelerated"
-        ]
-      },
-      {
-        "key": "WSC-1698",
-        "url": "https://e2x.atlassian.net/browse/WSC-1698",
-        "summary": "[WSSD-708] - PDP - BazaarVoice reviews only appear when navigating from PLP",
-        "status": "En curso",
-        "statusCategory": "indeterminate",
-        "assignee": "Jair Huaman",
-        "updated": "2026-08-14T16:58:05.314+0100",
-        "priority": "Importante",
-        "labels": [
-          "Needs-QA"
         ]
       },
       {
@@ -320,31 +410,6 @@
         ]
       },
       {
-        "key": "WSC-1629",
-        "url": "https://e2x.atlassian.net/browse/WSC-1629",
-        "summary": "SPIKE - product family for multi-item products (PLP/PDP)",
-        "status": "Backlog",
-        "statusCategory": "new",
-        "assignee": "Unassigned",
-        "updated": "2026-08-13T19:18:45.490+0100",
-        "priority": "Importante",
-        "labels": []
-      },
-      {
-        "key": "WSC-1676",
-        "url": "https://e2x.atlassian.net/browse/WSC-1676",
-        "summary": "APPLE PAY EXPRESS",
-        "status": "Listo",
-        "statusCategory": "new",
-        "assignee": "Unassigned",
-        "updated": "2026-08-13T19:18:24.005+0100",
-        "priority": "Importante",
-        "labels": [
-          "Needs-QA",
-          "manualQA"
-        ]
-      },
-      {
         "key": "WSC-1649",
         "url": "https://e2x.atlassian.net/browse/WSC-1649",
         "summary": "PDP - spacing issue",
@@ -424,45 +489,6 @@
         "priority": "Importante",
         "labels": [
           "Needs-QA"
-        ]
-      },
-      {
-        "key": "WSC-1659",
-        "url": "https://e2x.atlassian.net/browse/WSC-1659",
-        "summary": "BAG ORDER SUMMARY - sticky CTAs on tablet/mobile",
-        "status": "Listo",
-        "statusCategory": "new",
-        "assignee": "Unassigned",
-        "updated": "2026-08-13T15:15:06.860+0100",
-        "priority": "Importante",
-        "labels": [
-          "Needs-QA"
-        ]
-      },
-      {
-        "key": "WSC-1658",
-        "url": "https://e2x.atlassian.net/browse/WSC-1658",
-        "summary": "BAG ORDER SUMMARY - redesign",
-        "status": "Listo",
-        "statusCategory": "new",
-        "assignee": "Unassigned",
-        "updated": "2026-08-13T15:15:04.130+0100",
-        "priority": "Importante",
-        "labels": [
-          "Needs-QA"
-        ]
-      },
-      {
-        "key": "WSC-1661",
-        "url": "https://e2x.atlassian.net/browse/WSC-1661",
-        "summary": "BAG PRODUCT SECTION - redesign",
-        "status": "Listo",
-        "statusCategory": "new",
-        "assignee": "Unassigned",
-        "updated": "2026-08-13T15:15:01.160+0100",
-        "priority": "Importante",
-        "labels": [
-          "FastFollow"
         ]
       },
       {
@@ -565,31 +591,6 @@
         "labels": [
           "Needs-QA"
         ]
-      },
-      {
-        "key": "WSC-1674",
-        "url": "https://e2x.atlassian.net/browse/WSC-1674",
-        "summary": "UX - email and password validation",
-        "status": "Listo",
-        "statusCategory": "new",
-        "assignee": "Jair Huaman",
-        "updated": "2026-08-11T20:51:53.911+0100",
-        "priority": "Importante",
-        "labels": [
-          "Needs-QA",
-          "automatable"
-        ]
-      },
-      {
-        "key": "WSC-1679",
-        "url": "https://e2x.atlassian.net/browse/WSC-1679",
-        "summary": "SLIM BANNER - control Benefit Bar",
-        "status": "Listo",
-        "statusCategory": "new",
-        "assignee": "Jair Huaman",
-        "updated": "2026-08-11T20:51:30.582+0100",
-        "priority": "Importante",
-        "labels": []
       },
       {
         "key": "WSC-1510",
