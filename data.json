@@ -1,18 +1,17 @@
 {
-  "lastUpdated": "2026-08-17T16:28:16.566672+00:00",
+  "lastUpdated": "2026-08-17T20:27:57.823848+00:00",
   "jira": {
     "summary": {
-      "total": 355,
+      "total": 358,
       "byStatus": {
-        "Backlog": 10,
-        "Listo": 13,
+        "READY FOR RELEASE": 6,
+        "En curso": 4,
+        "Backlog": 11,
         "Tech Review": 17,
+        "Listo": 13,
         "Finalizada": 272,
-        "IN QA": 2,
         "QA Approved": 9,
-        "En curso": 3,
         "Ready to QA": 1,
-        "READY FOR RELEASE": 3,
         "IN UAT": 3,
         "Blocked": 5,
         "PENDING DEV DEPLOY": 3,
@@ -21,6 +20,95 @@
       }
     },
     "tickets": [
+      {
+        "key": "WSC-1482",
+        "url": "https://e2x.atlassian.net/browse/WSC-1482",
+        "summary": "CSP Analysis & Policy Refinement",
+        "status": "READY FOR RELEASE",
+        "statusCategory": "new",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-08-17T21:27:39.614+0100",
+        "priority": "Cr\u00edtica",
+        "labels": [
+          "CSP",
+          "NO_QA_REQUIRED"
+        ]
+      },
+      {
+        "key": "WSC-1700",
+        "url": "https://e2x.atlassian.net/browse/WSC-1700",
+        "summary": "[WSSD-712] - APPLE PAY EXPRESS - fails in mini bag, bag & checkout identity when a coupon code is applied",
+        "status": "En curso",
+        "statusCategory": "indeterminate",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-08-17T21:25:50.155+0100",
+        "priority": "Importante",
+        "labels": []
+      },
+      {
+        "key": "WSC-1702",
+        "url": "https://e2x.atlassian.net/browse/WSC-1702",
+        "summary": "[Automation] Remove local Nuxt dependency from Playwright test runs",
+        "status": "Backlog",
+        "statusCategory": "new",
+        "assignee": "Unassigned",
+        "updated": "2026-08-17T20:31:37.073+0100",
+        "priority": "Not Set",
+        "labels": []
+      },
+      {
+        "key": "WSC-1601",
+        "url": "https://e2x.atlassian.net/browse/WSC-1601",
+        "summary": "CONTENT - TwoForBanner amendments - notations",
+        "status": "Tech Review",
+        "statusCategory": "indeterminate",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-08-17T20:22:49.566+0100",
+        "priority": "Importante",
+        "labels": [
+          "Needs-QA",
+          "manualQA"
+        ]
+      },
+      {
+        "key": "WSC-1641",
+        "url": "https://e2x.atlassian.net/browse/WSC-1641",
+        "summary": "Unmasking JS errors - Checkout",
+        "status": "READY FOR RELEASE",
+        "statusCategory": "new",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-08-17T17:46:47.168+0100",
+        "priority": "Importante",
+        "labels": [
+          "NO_QA_REQUIRED"
+        ]
+      },
+      {
+        "key": "WSC-1640",
+        "url": "https://e2x.atlassian.net/browse/WSC-1640",
+        "summary": "Unmasking JS errors - VSF",
+        "status": "READY FOR RELEASE",
+        "statusCategory": "new",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-08-17T17:45:57.794+0100",
+        "priority": "Importante",
+        "labels": [
+          "NO_QA_REQUIRED"
+        ]
+      },
+      {
+        "key": "WSC-1619",
+        "url": "https://e2x.atlassian.net/browse/WSC-1619",
+        "summary": "Outbound request resilience: 429 backoff, concurrency limits & circuit breaking",
+        "status": "En curso",
+        "statusCategory": "indeterminate",
+        "assignee": "Jair Huaman",
+        "updated": "2026-08-17T17:37:48.344+0100",
+        "priority": "Not Set",
+        "labels": [
+          "NO_QA_REQUIRED"
+        ]
+      },
       {
         "key": "WSC-1629",
         "url": "https://e2x.atlassian.net/browse/WSC-1629",
@@ -147,19 +235,6 @@
         "labels": []
       },
       {
-        "key": "WSC-1640",
-        "url": "https://e2x.atlassian.net/browse/WSC-1640",
-        "summary": "Unmasking JS errors - VSF",
-        "status": "IN QA",
-        "statusCategory": "indeterminate",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-08-14T18:09:37.576+0100",
-        "priority": "Importante",
-        "labels": [
-          "NO_QA_REQUIRED"
-        ]
-      },
-      {
         "key": "WSC-1583",
         "url": "https://e2x.atlassian.net/browse/WSC-1583",
         "summary": "CONTENT - TwoForBanner amendments",
@@ -169,20 +244,6 @@
         "updated": "2026-08-14T17:52:09.030+0100",
         "priority": "Importante",
         "labels": []
-      },
-      {
-        "key": "WSC-1601",
-        "url": "https://e2x.atlassian.net/browse/WSC-1601",
-        "summary": "CONTENT - TwoForBanner amendments - notations",
-        "status": "En curso",
-        "statusCategory": "indeterminate",
-        "assignee": "Alexander Talavera",
-        "updated": "2026-08-14T17:51:51.857+0100",
-        "priority": "Importante",
-        "labels": [
-          "Needs-QA",
-          "manualQA"
-        ]
       },
       {
         "key": "WSC-1650",
@@ -306,19 +367,6 @@
         "statusCategory": "new",
         "assignee": "Alexander Talavera",
         "updated": "2026-08-14T13:06:16.702+0100",
-        "priority": "Importante",
-        "labels": [
-          "NO_QA_REQUIRED"
-        ]
-      },
-      {
-        "key": "WSC-1641",
-        "url": "https://e2x.atlassian.net/browse/WSC-1641",
-        "summary": "Unmasking JS errors - Checkout",
-        "status": "IN QA",
-        "statusCategory": "indeterminate",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-08-14T13:05:19.839+0100",
         "priority": "Importante",
         "labels": [
           "NO_QA_REQUIRED"
@@ -458,20 +506,6 @@
         "statusCategory": "new",
         "assignee": "enmanuel.ramirez",
         "updated": "2026-08-13T17:00:36.226+0100",
-        "priority": "Cr\u00edtica",
-        "labels": [
-          "CSP",
-          "NO_QA_REQUIRED"
-        ]
-      },
-      {
-        "key": "WSC-1482",
-        "url": "https://e2x.atlassian.net/browse/WSC-1482",
-        "summary": "CSP Analysis & Policy Refinement",
-        "status": "Tech Review",
-        "statusCategory": "indeterminate",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-08-13T15:58:43.724+0100",
         "priority": "Cr\u00edtica",
         "labels": [
           "CSP",
