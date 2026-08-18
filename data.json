@@ -1,20 +1,18 @@
 {
-  "lastUpdated": "2026-08-18T12:48:24.420876+00:00",
+  "lastUpdated": "2026-08-18T16:32:45.012343+00:00",
   "jira": {
     "summary": {
       "total": 358,
       "byStatus": {
-        "READY FOR RELEASE": 6,
-        "IN QA": 1,
-        "Backlog": 11,
-        "Tech Review": 17,
-        "En curso": 3,
-        "Listo": 13,
-        "Finalizada": 272,
-        "QA Approved": 9,
-        "Ready to QA": 1,
+        "QA Approved": 10,
         "IN UAT": 3,
         "Blocked": 5,
+        "Backlog": 11,
+        "Finalizada": 273,
+        "En curso": 3,
+        "READY FOR RELEASE": 6,
+        "Tech Review": 17,
+        "Listo": 13,
         "PENDING DEV DEPLOY": 3,
         "Ready for Refinement": 1,
         "Deprecated": 13
@@ -22,13 +20,93 @@
     },
     "tickets": [
       {
+        "key": "WSC-1700",
+        "url": "https://e2x.atlassian.net/browse/WSC-1700",
+        "summary": "[WSSD-712] - APPLE PAY EXPRESS - fails in mini bag, bag & checkout identity when a coupon code is applied",
+        "status": "QA Approved",
+        "statusCategory": "indeterminate",
+        "assignee": "Ingrith Santamaria",
+        "updated": "2026-08-18T17:03:37.675+0100",
+        "priority": "Importante",
+        "labels": []
+      },
+      {
+        "key": "WSC-1594",
+        "url": "https://e2x.atlassian.net/browse/WSC-1594",
+        "summary": "SFS - item SFS data on VSF",
+        "status": "IN UAT",
+        "statusCategory": "indeterminate",
+        "assignee": "Gerardo Romero",
+        "updated": "2026-08-18T16:50:53.443+0100",
+        "priority": "Importante",
+        "labels": [
+          "Needs-QA",
+          "automatable"
+        ]
+      },
+      {
+        "key": "WSC-1504",
+        "url": "https://e2x.atlassian.net/browse/WSC-1504",
+        "summary": "ACCOUNT CREATION - post purchase sign up bug",
+        "status": "Blocked",
+        "statusCategory": "new",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-08-18T16:38:04.509+0100",
+        "priority": "Importante",
+        "labels": []
+      },
+      {
+        "key": "WSC-1527",
+        "url": "https://e2x.atlassian.net/browse/WSC-1527",
+        "summary": "Apple Pay Express fails at checkout when Free Shipping campaign (Talon.One) is active",
+        "status": "Backlog",
+        "statusCategory": "new",
+        "assignee": "Alexander Talavera",
+        "updated": "2026-08-18T16:26:05.448+0100",
+        "priority": "Poco importante",
+        "labels": [
+          "Needs-QA",
+          "apple-pay",
+          "bug",
+          "checkout",
+          "manualQA",
+          "talon-one"
+        ]
+      },
+      {
+        "key": "WSC-1680",
+        "url": "https://e2x.atlassian.net/browse/WSC-1680",
+        "summary": "PLP header iOS issue",
+        "status": "Finalizada",
+        "statusCategory": "done",
+        "assignee": "Stuart Young",
+        "updated": "2026-08-18T16:24:41.184+0100",
+        "priority": "Importante",
+        "labels": [
+          "NO_QA_REQUIRED"
+        ]
+      },
+      {
+        "key": "WSC-1619",
+        "url": "https://e2x.atlassian.net/browse/WSC-1619",
+        "summary": "Outbound request resilience: 429 backoff, concurrency limits & circuit breaking",
+        "status": "En curso",
+        "statusCategory": "indeterminate",
+        "assignee": "Jair Huaman",
+        "updated": "2026-08-18T14:07:48.946+0100",
+        "priority": "Not Set",
+        "labels": [
+          "NO_QA_REQUIRED"
+        ]
+      },
+      {
         "key": "WSC-1482",
         "url": "https://e2x.atlassian.net/browse/WSC-1482",
         "summary": "CSP Analysis & Policy Refinement",
         "status": "READY FOR RELEASE",
         "statusCategory": "new",
         "assignee": "enmanuel.ramirez",
-        "updated": "2026-08-17T23:34:31.989+0100",
+        "updated": "2026-08-18T14:07:34.824+0100",
         "priority": "Cr\u00edtica",
         "labels": [
           "CSP",
@@ -36,15 +114,18 @@
         ]
       },
       {
-        "key": "WSC-1700",
-        "url": "https://e2x.atlassian.net/browse/WSC-1700",
-        "summary": "[WSSD-712] - APPLE PAY EXPRESS - fails in mini bag, bag & checkout identity when a coupon code is applied",
-        "status": "IN QA",
+        "key": "WSC-1522",
+        "url": "https://e2x.atlassian.net/browse/WSC-1522",
+        "summary": "CONTENT - Personalisation",
+        "status": "QA Approved",
         "statusCategory": "indeterminate",
-        "assignee": "Ingrith Santamaria",
-        "updated": "2026-08-17T23:24:19.381+0100",
+        "assignee": "Gerardo Romero",
+        "updated": "2026-08-18T14:04:24.944+0100",
         "priority": "Importante",
-        "labels": []
+        "labels": [
+          "Needs-QA",
+          "automatable"
+        ]
       },
       {
         "key": "WSC-1702",
@@ -93,19 +174,6 @@
         "assignee": "enmanuel.ramirez",
         "updated": "2026-08-17T17:45:57.794+0100",
         "priority": "Importante",
-        "labels": [
-          "NO_QA_REQUIRED"
-        ]
-      },
-      {
-        "key": "WSC-1619",
-        "url": "https://e2x.atlassian.net/browse/WSC-1619",
-        "summary": "Outbound request resilience: 429 backoff, concurrency limits & circuit breaking",
-        "status": "En curso",
-        "statusCategory": "indeterminate",
-        "assignee": "Jair Huaman",
-        "updated": "2026-08-17T17:37:48.344+0100",
-        "priority": "Not Set",
         "labels": [
           "NO_QA_REQUIRED"
         ]
@@ -273,19 +341,6 @@
         ]
       },
       {
-        "key": "WSC-1680",
-        "url": "https://e2x.atlassian.net/browse/WSC-1680",
-        "summary": "PLP header iOS issue",
-        "status": "Ready to QA",
-        "statusCategory": "new",
-        "assignee": "Stuart Young",
-        "updated": "2026-08-14T15:16:50.099+0100",
-        "priority": "Importante",
-        "labels": [
-          "NO_QA_REQUIRED"
-        ]
-      },
-      {
         "key": "WSC-1677",
         "url": "https://e2x.atlassian.net/browse/WSC-1677",
         "summary": "API 404 error - https://www.whitestuff.com/api/bigcommerce/getCart",
@@ -332,20 +387,6 @@
         ]
       },
       {
-        "key": "WSC-1594",
-        "url": "https://e2x.atlassian.net/browse/WSC-1594",
-        "summary": "SFS - item SFS data on VSF",
-        "status": "IN UAT",
-        "statusCategory": "indeterminate",
-        "assignee": "Gerardo Romero",
-        "updated": "2026-08-14T14:13:26.459+0100",
-        "priority": "Importante",
-        "labels": [
-          "Needs-QA",
-          "automatable"
-        ]
-      },
-      {
         "key": "WSC-1599",
         "url": "https://e2x.atlassian.net/browse/WSC-1599",
         "summary": "CONTENT - Default Search Term - move into Footer component",
@@ -371,20 +412,6 @@
         "priority": "Importante",
         "labels": [
           "NO_QA_REQUIRED"
-        ]
-      },
-      {
-        "key": "WSC-1522",
-        "url": "https://e2x.atlassian.net/browse/WSC-1522",
-        "summary": "CONTENT - Personalisation",
-        "status": "QA Approved",
-        "statusCategory": "indeterminate",
-        "assignee": "Gerardo Romero",
-        "updated": "2026-08-14T01:16:36.455+0100",
-        "priority": "Importante",
-        "labels": [
-          "Needs-QA",
-          "automatable"
         ]
       },
       {
@@ -438,24 +465,6 @@
         "labels": [
           "Needs-QA",
           "manualQA"
-        ]
-      },
-      {
-        "key": "WSC-1527",
-        "url": "https://e2x.atlassian.net/browse/WSC-1527",
-        "summary": "Apple Pay Express fails at checkout when Free Shipping campaign (Talon.One) is active",
-        "status": "Backlog",
-        "statusCategory": "new",
-        "assignee": "Alexander Talavera",
-        "updated": "2026-08-13T19:18:47.986+0100",
-        "priority": "Poco importante",
-        "labels": [
-          "Needs-QA",
-          "apple-pay",
-          "bug",
-          "checkout",
-          "manualQA",
-          "talon-one"
         ]
       },
       {
@@ -525,17 +534,6 @@
         "labels": [
           "Needs-QA"
         ]
-      },
-      {
-        "key": "WSC-1504",
-        "url": "https://e2x.atlassian.net/browse/WSC-1504",
-        "summary": "ACCOUNT CREATION - post purchase sign up bug",
-        "status": "Blocked",
-        "statusCategory": "new",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-08-13T15:13:13.923+0100",
-        "priority": "Importante",
-        "labels": []
       },
       {
         "key": "WSC-1591",
