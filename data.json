@@ -1,13 +1,14 @@
 {
-  "lastUpdated": "2026-08-17T20:27:57.823848+00:00",
+  "lastUpdated": "2026-08-18T01:16:12.952337+00:00",
   "jira": {
     "summary": {
       "total": 358,
       "byStatus": {
         "READY FOR RELEASE": 6,
-        "En curso": 4,
+        "IN QA": 1,
         "Backlog": 11,
         "Tech Review": 17,
+        "En curso": 3,
         "Listo": 13,
         "Finalizada": 272,
         "QA Approved": 9,
@@ -27,7 +28,7 @@
         "status": "READY FOR RELEASE",
         "statusCategory": "new",
         "assignee": "enmanuel.ramirez",
-        "updated": "2026-08-17T21:27:39.614+0100",
+        "updated": "2026-08-17T23:34:31.989+0100",
         "priority": "Cr\u00edtica",
         "labels": [
           "CSP",
@@ -38,10 +39,10 @@
         "key": "WSC-1700",
         "url": "https://e2x.atlassian.net/browse/WSC-1700",
         "summary": "[WSSD-712] - APPLE PAY EXPRESS - fails in mini bag, bag & checkout identity when a coupon code is applied",
-        "status": "En curso",
+        "status": "IN QA",
         "statusCategory": "indeterminate",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-08-17T21:25:50.155+0100",
+        "assignee": "Ingrith Santamaria",
+        "updated": "2026-08-17T23:24:19.381+0100",
         "priority": "Importante",
         "labels": []
       },
