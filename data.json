@@ -1,25 +1,417 @@
 {
-  "lastUpdated": "2026-08-19T12:48:57.115921+00:00",
+  "lastUpdated": "2026-08-19T16:32:29.871163+00:00",
   "jira": {
     "summary": {
       "total": 359,
       "byStatus": {
-        "En curso": 4,
-        "Ready to QA": 12,
-        "READY FOR RELEASE": 6,
+        "RETURNED BY QA": 1,
+        "IN QA": 1,
+        "QA Approved": 1,
+        "Finalizada": 290,
+        "Ready to QA": 9,
         "Listo": 14,
-        "IN UAT": 3,
+        "En curso": 4,
         "Tech Review": 7,
         "Blocked": 5,
         "Backlog": 11,
-        "Finalizada": 273,
-        "QA Approved": 9,
         "Ready for Refinement": 1,
         "Deprecated": 13,
-        "PENDING DEV DEPLOY": 1
+        "PENDING DEV DEPLOY": 1,
+        "READY FOR RELEASE": 1
       }
     },
     "tickets": [
+      {
+        "key": "WSC-1660",
+        "url": "https://e2x.atlassian.net/browse/WSC-1660",
+        "summary": "PDP - hide review stars when stars = 0",
+        "status": "RETURNED BY QA",
+        "statusCategory": "indeterminate",
+        "assignee": "Jair Huaman",
+        "updated": "2026-08-19T17:04:40.768+0100",
+        "priority": "Poco importante",
+        "labels": [
+          "Needs-QA",
+          "automatable"
+        ]
+      },
+      {
+        "key": "WSC-1545",
+        "url": "https://e2x.atlassian.net/browse/WSC-1545",
+        "summary": "PLP - fix price for gift and e-gift cards",
+        "status": "IN QA",
+        "statusCategory": "indeterminate",
+        "assignee": "Gerardo Romero",
+        "updated": "2026-08-19T16:32:00.113+0100",
+        "priority": "Poco importante",
+        "labels": [
+          "Needs-QA"
+        ]
+      },
+      {
+        "key": "WSC-388",
+        "url": "https://e2x.atlassian.net/browse/WSC-388",
+        "summary": "HEADER - quantity overlaps bag icon when more than 1 digit",
+        "status": "QA Approved",
+        "statusCategory": "indeterminate",
+        "assignee": "Ingrith Santamaria",
+        "updated": "2026-08-19T16:23:57.353+0100",
+        "priority": "Trivial",
+        "labels": [
+          "Needs-QA"
+        ]
+      },
+      {
+        "key": "WSC-1700",
+        "url": "https://e2x.atlassian.net/browse/WSC-1700",
+        "summary": "[WSSD-712] - APPLE PAY EXPRESS - fails in mini bag, bag & checkout identity when a coupon code is applied",
+        "status": "Finalizada",
+        "statusCategory": "done",
+        "assignee": "Ingrith Santamaria",
+        "updated": "2026-08-19T16:06:24.042+0100",
+        "priority": "Importante",
+        "labels": []
+      },
+      {
+        "key": "WSC-1522",
+        "url": "https://e2x.atlassian.net/browse/WSC-1522",
+        "summary": "CONTENT - Personalisation",
+        "status": "Finalizada",
+        "statusCategory": "done",
+        "assignee": "Gerardo Romero",
+        "updated": "2026-08-19T16:05:45.583+0100",
+        "priority": "Importante",
+        "labels": [
+          "Needs-QA",
+          "automatable"
+        ]
+      },
+      {
+        "key": "WSC-1544",
+        "url": "https://e2x.atlassian.net/browse/WSC-1544",
+        "summary": "Talon.One SDK v26.x upgrade",
+        "status": "Finalizada",
+        "statusCategory": "done",
+        "assignee": "Unassigned",
+        "updated": "2026-08-19T16:05:43.480+0100",
+        "priority": "Cr\u00edtica",
+        "labels": [
+          "NO_QA_REQUIRED"
+        ]
+      },
+      {
+        "key": "WSC-1583",
+        "url": "https://e2x.atlassian.net/browse/WSC-1583",
+        "summary": "CONTENT - TwoForBanner amendments",
+        "status": "Finalizada",
+        "statusCategory": "done",
+        "assignee": "Ingrith Santamaria",
+        "updated": "2026-08-19T16:05:42.054+0100",
+        "priority": "Importante",
+        "labels": []
+      },
+      {
+        "key": "WSC-1591",
+        "url": "https://e2x.atlassian.net/browse/WSC-1591",
+        "summary": "Shop Pages \u2014 Canonical URL & Hreflang Fix",
+        "status": "Finalizada",
+        "statusCategory": "done",
+        "assignee": "Gerardo Romero",
+        "updated": "2026-08-19T16:05:38.993+0100",
+        "priority": "Importante",
+        "labels": [
+          "Needs-QA",
+          "automatable"
+        ]
+      },
+      {
+        "key": "WSC-1640",
+        "url": "https://e2x.atlassian.net/browse/WSC-1640",
+        "summary": "Unmasking JS errors - VSF",
+        "status": "Finalizada",
+        "statusCategory": "done",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-08-19T16:05:36.642+0100",
+        "priority": "Importante",
+        "labels": [
+          "NO_QA_REQUIRED"
+        ]
+      },
+      {
+        "key": "WSC-1612",
+        "url": "https://e2x.atlassian.net/browse/WSC-1612",
+        "summary": "COLOUR NAME (VSF) - change source field",
+        "status": "Finalizada",
+        "statusCategory": "done",
+        "assignee": "Gerardo Romero",
+        "updated": "2026-08-19T16:05:34.369+0100",
+        "priority": "Poco importante",
+        "labels": [
+          "Needs-QA",
+          "manualQA"
+        ]
+      },
+      {
+        "key": "WSC-1614",
+        "url": "https://e2x.atlassian.net/browse/WSC-1614",
+        "summary": "LIVE CHAT - z-index changes",
+        "status": "Finalizada",
+        "statusCategory": "done",
+        "assignee": "Gerardo Romero",
+        "updated": "2026-08-19T16:05:28.607+0100",
+        "priority": "Importante",
+        "labels": [
+          "Needs-QA",
+          "automatable"
+        ]
+      },
+      {
+        "key": "WSC-1641",
+        "url": "https://e2x.atlassian.net/browse/WSC-1641",
+        "summary": "Unmasking JS errors - Checkout",
+        "status": "Finalizada",
+        "statusCategory": "done",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-08-19T16:05:26.348+0100",
+        "priority": "Importante",
+        "labels": [
+          "NO_QA_REQUIRED"
+        ]
+      },
+      {
+        "key": "WSC-1671",
+        "url": "https://e2x.atlassian.net/browse/WSC-1671",
+        "summary": "Slim Banner component preview not rendering in Amplience",
+        "status": "Finalizada",
+        "statusCategory": "done",
+        "assignee": "Gerardo Romero",
+        "updated": "2026-08-19T16:05:23.741+0100",
+        "priority": "Not Set",
+        "labels": []
+      },
+      {
+        "key": "WSC-1669",
+        "url": "https://e2x.atlassian.net/browse/WSC-1669",
+        "summary": "PLP header scroller",
+        "status": "Finalizada",
+        "statusCategory": "done",
+        "assignee": "Gerardo Romero",
+        "updated": "2026-08-19T16:05:20.682+0100",
+        "priority": "Cr\u00edtica",
+        "labels": []
+      },
+      {
+        "key": "WSC-1650",
+        "url": "https://e2x.atlassian.net/browse/WSC-1650",
+        "summary": "Google Maps API loaded globally on all pages instead of only where needed",
+        "status": "Finalizada",
+        "statusCategory": "done",
+        "assignee": "Gerardo Romero",
+        "updated": "2026-08-19T16:05:18.073+0100",
+        "priority": "Importante",
+        "labels": [
+          "Needs-QA"
+        ]
+      },
+      {
+        "key": "WSC-1649",
+        "url": "https://e2x.atlassian.net/browse/WSC-1649",
+        "summary": "PDP - spacing issue",
+        "status": "Finalizada",
+        "statusCategory": "done",
+        "assignee": "Gerardo Romero",
+        "updated": "2026-08-19T16:05:15.319+0100",
+        "priority": "Poco importante",
+        "labels": [
+          "Needs-QA",
+          "manualQA"
+        ]
+      },
+      {
+        "key": "WSC-1648",
+        "url": "https://e2x.atlassian.net/browse/WSC-1648",
+        "summary": "[WSSD-666] outcome - User cannot switch to USA & Canada / RoW in 2 PLPs",
+        "status": "Finalizada",
+        "statusCategory": "done",
+        "assignee": "Ingrith Santamaria",
+        "updated": "2026-08-19T16:05:12.600+0100",
+        "priority": "Poco importante",
+        "labels": [
+          "Needs-QA",
+          "automatable"
+        ]
+      },
+      {
+        "key": "WSC-1642",
+        "url": "https://e2x.atlassian.net/browse/WSC-1642",
+        "summary": "Unmasking JS errors - Infrastructure (Cloudflare)",
+        "status": "Finalizada",
+        "statusCategory": "done",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-08-19T16:05:09.814+0100",
+        "priority": "Importante",
+        "labels": [
+          "NO_QA_REQUIRED"
+        ]
+      },
+      {
+        "key": "WSC-1613",
+        "url": "https://e2x.atlassian.net/browse/WSC-1613",
+        "summary": "COLOUR NAME (CHECKOUT) - change source field",
+        "status": "Finalizada",
+        "statusCategory": "done",
+        "assignee": "Gerardo Romero",
+        "updated": "2026-08-19T16:05:07.728+0100",
+        "priority": "Poco importante",
+        "labels": [
+          "Needs-QA",
+          "manualQA"
+        ]
+      },
+      {
+        "key": "WSC-1482",
+        "url": "https://e2x.atlassian.net/browse/WSC-1482",
+        "summary": "CSP Analysis & Policy Refinement",
+        "status": "Finalizada",
+        "statusCategory": "done",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-08-19T16:05:05.656+0100",
+        "priority": "Cr\u00edtica",
+        "labels": [
+          "CSP",
+          "NO_QA_REQUIRED"
+        ]
+      },
+      {
+        "key": "WSC-173",
+        "url": "https://e2x.atlassian.net/browse/WSC-173",
+        "summary": "SEO - fix to product schema for PDP for reviews and ratings",
+        "status": "Ready to QA",
+        "statusCategory": "new",
+        "assignee": "Gerardo Romero",
+        "updated": "2026-08-19T15:11:41.911+0100",
+        "priority": "Poco importante",
+        "labels": [
+          "Needs-QA"
+        ]
+      },
+      {
+        "key": "WSC-1577",
+        "url": "https://e2x.atlassian.net/browse/WSC-1577",
+        "summary": "[WSSD-633] Add per-email rate limiting to the password reset endpoint",
+        "status": "Ready to QA",
+        "statusCategory": "new",
+        "assignee": "Gerardo Romero",
+        "updated": "2026-08-19T15:11:32.630+0100",
+        "priority": "Importante",
+        "labels": [
+          "Needs-QA"
+        ]
+      },
+      {
+        "key": "WSC-1594",
+        "url": "https://e2x.atlassian.net/browse/WSC-1594",
+        "summary": "SFS - item SFS data on VSF",
+        "status": "Listo",
+        "statusCategory": "new",
+        "assignee": "Alexander Talavera",
+        "updated": "2026-08-19T15:10:12.365+0100",
+        "priority": "Importante",
+        "labels": [
+          "Needs-QA",
+          "automatable"
+        ]
+      },
+      {
+        "key": "WSC-1422",
+        "url": "https://e2x.atlassian.net/browse/WSC-1422",
+        "summary": "Desktop/Mobile: SIDE PANEL - standardise width",
+        "status": "Ready to QA",
+        "statusCategory": "new",
+        "assignee": "Gerardo Romero",
+        "updated": "2026-08-19T14:52:49.470+0100",
+        "priority": "Poco importante",
+        "labels": [
+          "Needs-QA"
+        ]
+      },
+      {
+        "key": "WSC-1578",
+        "url": "https://e2x.atlassian.net/browse/WSC-1578",
+        "summary": "[WSSD-633] Add Cloudflare rate limiting rule for the password reset endpoint",
+        "status": "Ready to QA",
+        "statusCategory": "new",
+        "assignee": "Gerardo Romero",
+        "updated": "2026-08-19T14:52:26.345+0100",
+        "priority": "Importante",
+        "labels": []
+      },
+      {
+        "key": "WSC-1601",
+        "url": "https://e2x.atlassian.net/browse/WSC-1601",
+        "summary": "CONTENT - TwoForBanner amendments - notations",
+        "status": "Ready to QA",
+        "statusCategory": "new",
+        "assignee": "Gerardo Romero",
+        "updated": "2026-08-19T14:52:18.601+0100",
+        "priority": "Importante",
+        "labels": [
+          "Needs-QA",
+          "manualQA"
+        ]
+      },
+      {
+        "key": "WSC-1646",
+        "url": "https://e2x.atlassian.net/browse/WSC-1646",
+        "summary": "CONTENT - new wider version of Accordion2",
+        "status": "Ready to QA",
+        "statusCategory": "new",
+        "assignee": "Gerardo Romero",
+        "updated": "2026-08-19T14:52:10.805+0100",
+        "priority": "Importante",
+        "labels": [
+          "Needs-QA",
+          "manualQA"
+        ]
+      },
+      {
+        "key": "WSC-1698",
+        "url": "https://e2x.atlassian.net/browse/WSC-1698",
+        "summary": "[WSSD-708] - PDP - BazaarVoice reviews only appear when navigating from PLP",
+        "status": "Ready to QA",
+        "statusCategory": "new",
+        "assignee": "Ingrith Santamaria",
+        "updated": "2026-08-19T14:51:50.727+0100",
+        "priority": "Importante",
+        "labels": [
+          "Needs-QA",
+          "accelerated"
+        ]
+      },
+      {
+        "key": "WSC-1647",
+        "url": "https://e2x.atlassian.net/browse/WSC-1647",
+        "summary": "CONTENT - new wider version of SEOTextBlock",
+        "status": "Ready to QA",
+        "statusCategory": "new",
+        "assignee": "Ingrith Santamaria",
+        "updated": "2026-08-19T14:51:31.364+0100",
+        "priority": "Importante",
+        "labels": []
+      },
+      {
+        "key": "WSC-1607",
+        "url": "https://e2x.atlassian.net/browse/WSC-1607",
+        "summary": "PDP - Stylitics - Android issue",
+        "status": "Ready to QA",
+        "statusCategory": "new",
+        "assignee": "Ingrith Santamaria",
+        "updated": "2026-08-19T14:51:10.088+0100",
+        "priority": "Poco importante",
+        "labels": [
+          "accelerated"
+        ]
+      },
       {
         "key": "WSC-1654",
         "url": "https://e2x.atlassian.net/browse/WSC-1654",
@@ -45,201 +437,6 @@
         "labels": [
           "NO_QA_REQUIRED"
         ]
-      },
-      {
-        "key": "WSC-388",
-        "url": "https://e2x.atlassian.net/browse/WSC-388",
-        "summary": "HEADER - quantity overlaps bag icon when more than 1 digit",
-        "status": "Ready to QA",
-        "statusCategory": "new",
-        "assignee": "Unassigned",
-        "updated": "2026-08-19T13:43:15.374+0100",
-        "priority": "Trivial",
-        "labels": [
-          "Needs-QA"
-        ]
-      },
-      {
-        "key": "WSC-1601",
-        "url": "https://e2x.atlassian.net/browse/WSC-1601",
-        "summary": "CONTENT - TwoForBanner amendments - notations",
-        "status": "Ready to QA",
-        "statusCategory": "new",
-        "assignee": "Unassigned",
-        "updated": "2026-08-19T11:00:21.621+0100",
-        "priority": "Importante",
-        "labels": [
-          "Needs-QA",
-          "manualQA"
-        ]
-      },
-      {
-        "key": "WSC-1422",
-        "url": "https://e2x.atlassian.net/browse/WSC-1422",
-        "summary": "Desktop/Mobile: SIDE PANEL - standardise width",
-        "status": "Ready to QA",
-        "statusCategory": "new",
-        "assignee": "Unassigned",
-        "updated": "2026-08-19T02:04:11.586+0100",
-        "priority": "Poco importante",
-        "labels": [
-          "Needs-QA"
-        ]
-      },
-      {
-        "key": "WSC-1577",
-        "url": "https://e2x.atlassian.net/browse/WSC-1577",
-        "summary": "[WSSD-633] Add per-email rate limiting to the password reset endpoint",
-        "status": "Ready to QA",
-        "statusCategory": "new",
-        "assignee": "Unassigned",
-        "updated": "2026-08-19T01:31:20.280+0100",
-        "priority": "Importante",
-        "labels": [
-          "Needs-QA"
-        ]
-      },
-      {
-        "key": "WSC-1607",
-        "url": "https://e2x.atlassian.net/browse/WSC-1607",
-        "summary": "PDP - Stylitics - Android issue",
-        "status": "Ready to QA",
-        "statusCategory": "new",
-        "assignee": "Unassigned",
-        "updated": "2026-08-19T00:10:46.099+0100",
-        "priority": "Poco importante",
-        "labels": [
-          "accelerated"
-        ]
-      },
-      {
-        "key": "WSC-1647",
-        "url": "https://e2x.atlassian.net/browse/WSC-1647",
-        "summary": "CONTENT - new wider version of SEOTextBlock",
-        "status": "Ready to QA",
-        "statusCategory": "new",
-        "assignee": "Unassigned",
-        "updated": "2026-08-18T23:46:40.454+0100",
-        "priority": "Importante",
-        "labels": []
-      },
-      {
-        "key": "WSC-1646",
-        "url": "https://e2x.atlassian.net/browse/WSC-1646",
-        "summary": "CONTENT - new wider version of Accordion2",
-        "status": "Ready to QA",
-        "statusCategory": "new",
-        "assignee": "Unassigned",
-        "updated": "2026-08-18T22:09:26.092+0100",
-        "priority": "Importante",
-        "labels": [
-          "Needs-QA",
-          "manualQA"
-        ]
-      },
-      {
-        "key": "WSC-1482",
-        "url": "https://e2x.atlassian.net/browse/WSC-1482",
-        "summary": "CSP Analysis & Policy Refinement",
-        "status": "READY FOR RELEASE",
-        "statusCategory": "new",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-08-18T22:09:08.150+0100",
-        "priority": "Cr\u00edtica",
-        "labels": [
-          "CSP",
-          "NO_QA_REQUIRED"
-        ]
-      },
-      {
-        "key": "WSC-173",
-        "url": "https://e2x.atlassian.net/browse/WSC-173",
-        "summary": "SEO - fix to product schema for PDP for reviews and ratings",
-        "status": "Ready to QA",
-        "statusCategory": "new",
-        "assignee": "Unassigned",
-        "updated": "2026-08-18T22:08:19.675+0100",
-        "priority": "Poco importante",
-        "labels": [
-          "Needs-QA"
-        ]
-      },
-      {
-        "key": "WSC-1660",
-        "url": "https://e2x.atlassian.net/browse/WSC-1660",
-        "summary": "PDP - hide review stars when stars = 0",
-        "status": "Ready to QA",
-        "statusCategory": "new",
-        "assignee": "Unassigned",
-        "updated": "2026-08-18T22:07:57.592+0100",
-        "priority": "Poco importante",
-        "labels": [
-          "Needs-QA",
-          "automatable"
-        ]
-      },
-      {
-        "key": "WSC-1545",
-        "url": "https://e2x.atlassian.net/browse/WSC-1545",
-        "summary": "PLP - fix price for gift and e-gift cards",
-        "status": "Ready to QA",
-        "statusCategory": "new",
-        "assignee": "Unassigned",
-        "updated": "2026-08-18T21:47:25.752+0100",
-        "priority": "Poco importante",
-        "labels": [
-          "Needs-QA"
-        ]
-      },
-      {
-        "key": "WSC-1698",
-        "url": "https://e2x.atlassian.net/browse/WSC-1698",
-        "summary": "[WSSD-708] - PDP - BazaarVoice reviews only appear when navigating from PLP",
-        "status": "Ready to QA",
-        "statusCategory": "new",
-        "assignee": "Unassigned",
-        "updated": "2026-08-18T21:36:50.406+0100",
-        "priority": "Importante",
-        "labels": [
-          "Needs-QA",
-          "accelerated"
-        ]
-      },
-      {
-        "key": "WSC-1594",
-        "url": "https://e2x.atlassian.net/browse/WSC-1594",
-        "summary": "SFS - item SFS data on VSF",
-        "status": "Listo",
-        "statusCategory": "new",
-        "assignee": "Unassigned",
-        "updated": "2026-08-18T21:28:27.421+0100",
-        "priority": "Importante",
-        "labels": [
-          "Needs-QA",
-          "automatable"
-        ]
-      },
-      {
-        "key": "WSC-1700",
-        "url": "https://e2x.atlassian.net/browse/WSC-1700",
-        "summary": "[WSSD-712] - APPLE PAY EXPRESS - fails in mini bag, bag & checkout identity when a coupon code is applied",
-        "status": "IN UAT",
-        "statusCategory": "indeterminate",
-        "assignee": "Ingrith Santamaria",
-        "updated": "2026-08-18T20:58:31.624+0100",
-        "priority": "Importante",
-        "labels": []
-      },
-      {
-        "key": "WSC-1578",
-        "url": "https://e2x.atlassian.net/browse/WSC-1578",
-        "summary": "[WSSD-633] Add Cloudflare rate limiting rule for the password reset endpoint",
-        "status": "Ready to QA",
-        "statusCategory": "new",
-        "assignee": "Unassigned",
-        "updated": "2026-08-18T19:50:26.534+0100",
-        "priority": "Importante",
-        "labels": []
       },
       {
         "key": "WSC-1674",
@@ -381,20 +578,6 @@
         ]
       },
       {
-        "key": "WSC-1522",
-        "url": "https://e2x.atlassian.net/browse/WSC-1522",
-        "summary": "CONTENT - Personalisation",
-        "status": "QA Approved",
-        "statusCategory": "indeterminate",
-        "assignee": "Gerardo Romero",
-        "updated": "2026-08-18T14:04:24.944+0100",
-        "priority": "Importante",
-        "labels": [
-          "Needs-QA",
-          "automatable"
-        ]
-      },
-      {
         "key": "WSC-1702",
         "url": "https://e2x.atlassian.net/browse/WSC-1702",
         "summary": "[Automation] Remove local Nuxt dependency from Playwright test runs",
@@ -404,32 +587,6 @@
         "updated": "2026-08-17T20:31:37.073+0100",
         "priority": "Not Set",
         "labels": []
-      },
-      {
-        "key": "WSC-1641",
-        "url": "https://e2x.atlassian.net/browse/WSC-1641",
-        "summary": "Unmasking JS errors - Checkout",
-        "status": "READY FOR RELEASE",
-        "statusCategory": "new",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-08-17T17:46:47.168+0100",
-        "priority": "Importante",
-        "labels": [
-          "NO_QA_REQUIRED"
-        ]
-      },
-      {
-        "key": "WSC-1640",
-        "url": "https://e2x.atlassian.net/browse/WSC-1640",
-        "summary": "Unmasking JS errors - VSF",
-        "status": "READY FOR RELEASE",
-        "statusCategory": "new",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-08-17T17:45:57.794+0100",
-        "priority": "Importante",
-        "labels": [
-          "NO_QA_REQUIRED"
-        ]
       },
       {
         "key": "WSC-1629",
@@ -518,30 +675,6 @@
         "labels": []
       },
       {
-        "key": "WSC-1583",
-        "url": "https://e2x.atlassian.net/browse/WSC-1583",
-        "summary": "CONTENT - TwoForBanner amendments",
-        "status": "QA Approved",
-        "statusCategory": "indeterminate",
-        "assignee": "Ingrith Santamaria",
-        "updated": "2026-08-14T17:52:09.030+0100",
-        "priority": "Importante",
-        "labels": []
-      },
-      {
-        "key": "WSC-1650",
-        "url": "https://e2x.atlassian.net/browse/WSC-1650",
-        "summary": "Google Maps API loaded globally on all pages instead of only where needed",
-        "status": "QA Approved",
-        "statusCategory": "indeterminate",
-        "assignee": "Gerardo Romero",
-        "updated": "2026-08-14T17:47:49.246+0100",
-        "priority": "Importante",
-        "labels": [
-          "Needs-QA"
-        ]
-      },
-      {
         "key": "WSC-1677",
         "url": "https://e2x.atlassian.net/browse/WSC-1677",
         "summary": "API 404 error - https://www.whitestuff.com/api/bigcommerce/getCart",
@@ -575,19 +708,6 @@
         "labels": []
       },
       {
-        "key": "WSC-1642",
-        "url": "https://e2x.atlassian.net/browse/WSC-1642",
-        "summary": "Unmasking JS errors - Infrastructure (Cloudflare)",
-        "status": "READY FOR RELEASE",
-        "statusCategory": "new",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-08-14T14:27:25.649+0100",
-        "priority": "Importante",
-        "labels": [
-          "NO_QA_REQUIRED"
-        ]
-      },
-      {
         "key": "WSC-1643",
         "url": "https://e2x.atlassian.net/browse/WSC-1643",
         "summary": "Unmasking JS errors - vendor outreach",
@@ -601,45 +721,6 @@
         ]
       },
       {
-        "key": "WSC-1669",
-        "url": "https://e2x.atlassian.net/browse/WSC-1669",
-        "summary": "PLP header scroller",
-        "status": "IN UAT",
-        "statusCategory": "indeterminate",
-        "assignee": "Gerardo Romero",
-        "updated": "2026-08-13T21:43:52.454+0100",
-        "priority": "Cr\u00edtica",
-        "labels": []
-      },
-      {
-        "key": "WSC-1614",
-        "url": "https://e2x.atlassian.net/browse/WSC-1614",
-        "summary": "LIVE CHAT - z-index changes",
-        "status": "QA Approved",
-        "statusCategory": "indeterminate",
-        "assignee": "Gerardo Romero",
-        "updated": "2026-08-13T21:06:34.040+0100",
-        "priority": "Importante",
-        "labels": [
-          "Needs-QA",
-          "automatable"
-        ]
-      },
-      {
-        "key": "WSC-1648",
-        "url": "https://e2x.atlassian.net/browse/WSC-1648",
-        "summary": "[WSSD-666] outcome - User cannot switch to USA & Canada / RoW in 2 PLPs",
-        "status": "IN UAT",
-        "statusCategory": "indeterminate",
-        "assignee": "Ingrith Santamaria",
-        "updated": "2026-08-13T20:46:27.538+0100",
-        "priority": "Poco importante",
-        "labels": [
-          "Needs-QA",
-          "automatable"
-        ]
-      },
-      {
         "key": "WSC-76",
         "url": "https://e2x.atlassian.net/browse/WSC-76",
         "summary": "HOTSPOTS - bug when no URL is set",
@@ -647,20 +728,6 @@
         "statusCategory": "new",
         "assignee": "Jair Huaman",
         "updated": "2026-08-13T19:18:50.311+0100",
-        "priority": "Poco importante",
-        "labels": [
-          "Needs-QA",
-          "manualQA"
-        ]
-      },
-      {
-        "key": "WSC-1649",
-        "url": "https://e2x.atlassian.net/browse/WSC-1649",
-        "summary": "PDP - spacing issue",
-        "status": "QA Approved",
-        "statusCategory": "indeterminate",
-        "assignee": "Gerardo Romero",
-        "updated": "2026-08-13T19:04:13.165+0100",
         "priority": "Poco importante",
         "labels": [
           "Needs-QA",
@@ -719,72 +786,6 @@
         "priority": "Importante",
         "labels": [
           "Needs-QA"
-        ]
-      },
-      {
-        "key": "WSC-1591",
-        "url": "https://e2x.atlassian.net/browse/WSC-1591",
-        "summary": "Shop Pages \u2014 Canonical URL & Hreflang Fix",
-        "status": "QA Approved",
-        "statusCategory": "indeterminate",
-        "assignee": "Gerardo Romero",
-        "updated": "2026-08-12T20:59:38.342+0100",
-        "priority": "Importante",
-        "labels": [
-          "Needs-QA",
-          "automatable"
-        ]
-      },
-      {
-        "key": "WSC-1671",
-        "url": "https://e2x.atlassian.net/browse/WSC-1671",
-        "summary": "Slim Banner component preview not rendering in Amplience",
-        "status": "QA Approved",
-        "statusCategory": "indeterminate",
-        "assignee": "Gerardo Romero",
-        "updated": "2026-08-12T20:59:36.227+0100",
-        "priority": "Not Set",
-        "labels": []
-      },
-      {
-        "key": "WSC-1544",
-        "url": "https://e2x.atlassian.net/browse/WSC-1544",
-        "summary": "Talon.One SDK v26.x upgrade",
-        "status": "READY FOR RELEASE",
-        "statusCategory": "new",
-        "assignee": "Unassigned",
-        "updated": "2026-08-12T20:59:33.766+0100",
-        "priority": "Cr\u00edtica",
-        "labels": [
-          "NO_QA_REQUIRED"
-        ]
-      },
-      {
-        "key": "WSC-1612",
-        "url": "https://e2x.atlassian.net/browse/WSC-1612",
-        "summary": "COLOUR NAME (VSF) - change source field",
-        "status": "QA Approved",
-        "statusCategory": "indeterminate",
-        "assignee": "Gerardo Romero",
-        "updated": "2026-08-12T20:59:32.705+0100",
-        "priority": "Poco importante",
-        "labels": [
-          "Needs-QA",
-          "manualQA"
-        ]
-      },
-      {
-        "key": "WSC-1613",
-        "url": "https://e2x.atlassian.net/browse/WSC-1613",
-        "summary": "COLOUR NAME (CHECKOUT) - change source field",
-        "status": "QA Approved",
-        "statusCategory": "indeterminate",
-        "assignee": "Gerardo Romero",
-        "updated": "2026-08-12T20:59:32.220+0100",
-        "priority": "Poco importante",
-        "labels": [
-          "Needs-QA",
-          "manualQA"
         ]
       },
       {
