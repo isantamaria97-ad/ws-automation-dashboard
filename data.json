@@ -1,25 +1,78 @@
 {
-  "lastUpdated": "2026-08-19T08:38:32.757844+00:00",
+  "lastUpdated": "2026-08-19T12:48:57.115921+00:00",
   "jira": {
     "summary": {
-      "total": 358,
+      "total": 359,
       "byStatus": {
-        "Ready to QA": 11,
+        "En curso": 4,
+        "Ready to QA": 12,
         "READY FOR RELEASE": 6,
         "Listo": 14,
         "IN UAT": 3,
-        "En curso": 3,
         "Tech Review": 7,
-        "PENDING DEV DEPLOY": 2,
         "Blocked": 5,
         "Backlog": 11,
         "Finalizada": 273,
         "QA Approved": 9,
         "Ready for Refinement": 1,
-        "Deprecated": 13
+        "Deprecated": 13,
+        "PENDING DEV DEPLOY": 1
       }
     },
     "tickets": [
+      {
+        "key": "WSC-1654",
+        "url": "https://e2x.atlassian.net/browse/WSC-1654",
+        "summary": "Short-circuit unknown content-page URLs using an Amplience-derived valid-slug registry",
+        "status": "En curso",
+        "statusCategory": "indeterminate",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-08-19T13:46:34.649+0100",
+        "priority": "Not Set",
+        "labels": [
+          "NO_QA_REQUIRED"
+        ]
+      },
+      {
+        "key": "WSC-1619",
+        "url": "https://e2x.atlassian.net/browse/WSC-1619",
+        "summary": "Outbound request resilience: 429 backoff, concurrency limits & circuit breaking",
+        "status": "En curso",
+        "statusCategory": "indeterminate",
+        "assignee": "Jair Huaman",
+        "updated": "2026-08-19T13:43:54.323+0100",
+        "priority": "Not Set",
+        "labels": [
+          "NO_QA_REQUIRED"
+        ]
+      },
+      {
+        "key": "WSC-388",
+        "url": "https://e2x.atlassian.net/browse/WSC-388",
+        "summary": "HEADER - quantity overlaps bag icon when more than 1 digit",
+        "status": "Ready to QA",
+        "statusCategory": "new",
+        "assignee": "Unassigned",
+        "updated": "2026-08-19T13:43:15.374+0100",
+        "priority": "Trivial",
+        "labels": [
+          "Needs-QA"
+        ]
+      },
+      {
+        "key": "WSC-1601",
+        "url": "https://e2x.atlassian.net/browse/WSC-1601",
+        "summary": "CONTENT - TwoForBanner amendments - notations",
+        "status": "Ready to QA",
+        "statusCategory": "new",
+        "assignee": "Unassigned",
+        "updated": "2026-08-19T11:00:21.621+0100",
+        "priority": "Importante",
+        "labels": [
+          "Needs-QA",
+          "manualQA"
+        ]
+      },
       {
         "key": "WSC-1422",
         "url": "https://e2x.atlassian.net/browse/WSC-1422",
@@ -44,20 +97,6 @@
         "priority": "Importante",
         "labels": [
           "Needs-QA"
-        ]
-      },
-      {
-        "key": "WSC-1601",
-        "url": "https://e2x.atlassian.net/browse/WSC-1601",
-        "summary": "CONTENT - TwoForBanner amendments - notations",
-        "status": "Ready to QA",
-        "statusCategory": "new",
-        "assignee": "Unassigned",
-        "updated": "2026-08-19T00:34:26.647+0100",
-        "priority": "Importante",
-        "labels": [
-          "Needs-QA",
-          "manualQA"
         ]
       },
       {
@@ -203,19 +242,6 @@
         "labels": []
       },
       {
-        "key": "WSC-1619",
-        "url": "https://e2x.atlassian.net/browse/WSC-1619",
-        "summary": "Outbound request resilience: 429 backoff, concurrency limits & circuit breaking",
-        "status": "En curso",
-        "statusCategory": "indeterminate",
-        "assignee": "Jair Huaman",
-        "updated": "2026-08-18T19:17:31.140+0100",
-        "priority": "Not Set",
-        "labels": [
-          "NO_QA_REQUIRED"
-        ]
-      },
-      {
         "key": "WSC-1674",
         "url": "https://e2x.atlassian.net/browse/WSC-1674",
         "summary": "UX - email and password validation",
@@ -311,19 +337,6 @@
         "updated": "2026-08-18T17:39:57.866+0100",
         "priority": "Importante",
         "labels": []
-      },
-      {
-        "key": "WSC-388",
-        "url": "https://e2x.atlassian.net/browse/WSC-388",
-        "summary": "HEADER - quantity overlaps bag icon when more than 1 digit",
-        "status": "PENDING DEV DEPLOY",
-        "statusCategory": "new",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-08-18T17:39:25.920+0100",
-        "priority": "Trivial",
-        "labels": [
-          "Needs-QA"
-        ]
       },
       {
         "key": "WSC-1504",
