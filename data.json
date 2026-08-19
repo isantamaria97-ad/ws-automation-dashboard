@@ -1,19 +1,19 @@
 {
-  "lastUpdated": "2026-08-18T20:24:55.578504+00:00",
+  "lastUpdated": "2026-08-19T01:17:57.389387+00:00",
   "jira": {
     "summary": {
       "total": 358,
       "byStatus": {
-        "PENDING DEV DEPLOY": 10,
-        "Ready to QA": 3,
-        "IN UAT": 4,
+        "Ready to QA": 11,
+        "READY FOR RELEASE": 6,
+        "Listo": 14,
+        "IN UAT": 3,
         "En curso": 3,
-        "Listo": 13,
         "Tech Review": 7,
+        "PENDING DEV DEPLOY": 2,
         "Blocked": 5,
         "Backlog": 11,
         "Finalizada": 273,
-        "READY FOR RELEASE": 6,
         "QA Approved": 9,
         "Ready for Refinement": 1,
         "Deprecated": 13
@@ -24,23 +24,102 @@
         "key": "WSC-1422",
         "url": "https://e2x.atlassian.net/browse/WSC-1422",
         "summary": "Desktop/Mobile: SIDE PANEL - standardise width",
-        "status": "PENDING DEV DEPLOY",
+        "status": "Ready to QA",
         "statusCategory": "new",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-08-18T21:24:51.643+0100",
+        "assignee": "Unassigned",
+        "updated": "2026-08-19T02:04:11.586+0100",
         "priority": "Poco importante",
         "labels": [
           "Needs-QA"
         ]
       },
       {
-        "key": "WSC-1545",
-        "url": "https://e2x.atlassian.net/browse/WSC-1545",
-        "summary": "PLP - fix price for gift and e-gift cards",
-        "status": "PENDING DEV DEPLOY",
+        "key": "WSC-1577",
+        "url": "https://e2x.atlassian.net/browse/WSC-1577",
+        "summary": "[WSSD-633] Add per-email rate limiting to the password reset endpoint",
+        "status": "Ready to QA",
+        "statusCategory": "new",
+        "assignee": "Unassigned",
+        "updated": "2026-08-19T01:31:20.280+0100",
+        "priority": "Importante",
+        "labels": [
+          "Needs-QA"
+        ]
+      },
+      {
+        "key": "WSC-1601",
+        "url": "https://e2x.atlassian.net/browse/WSC-1601",
+        "summary": "CONTENT - TwoForBanner amendments - notations",
+        "status": "Ready to QA",
+        "statusCategory": "new",
+        "assignee": "Unassigned",
+        "updated": "2026-08-19T00:34:26.647+0100",
+        "priority": "Importante",
+        "labels": [
+          "Needs-QA",
+          "manualQA"
+        ]
+      },
+      {
+        "key": "WSC-1607",
+        "url": "https://e2x.atlassian.net/browse/WSC-1607",
+        "summary": "PDP - Stylitics - Android issue",
+        "status": "Ready to QA",
+        "statusCategory": "new",
+        "assignee": "Unassigned",
+        "updated": "2026-08-19T00:10:46.099+0100",
+        "priority": "Poco importante",
+        "labels": [
+          "accelerated"
+        ]
+      },
+      {
+        "key": "WSC-1647",
+        "url": "https://e2x.atlassian.net/browse/WSC-1647",
+        "summary": "CONTENT - new wider version of SEOTextBlock",
+        "status": "Ready to QA",
+        "statusCategory": "new",
+        "assignee": "Unassigned",
+        "updated": "2026-08-18T23:46:40.454+0100",
+        "priority": "Importante",
+        "labels": []
+      },
+      {
+        "key": "WSC-1646",
+        "url": "https://e2x.atlassian.net/browse/WSC-1646",
+        "summary": "CONTENT - new wider version of Accordion2",
+        "status": "Ready to QA",
+        "statusCategory": "new",
+        "assignee": "Unassigned",
+        "updated": "2026-08-18T22:09:26.092+0100",
+        "priority": "Importante",
+        "labels": [
+          "Needs-QA",
+          "manualQA"
+        ]
+      },
+      {
+        "key": "WSC-1482",
+        "url": "https://e2x.atlassian.net/browse/WSC-1482",
+        "summary": "CSP Analysis & Policy Refinement",
+        "status": "READY FOR RELEASE",
         "statusCategory": "new",
         "assignee": "enmanuel.ramirez",
-        "updated": "2026-08-18T21:22:38.444+0100",
+        "updated": "2026-08-18T22:09:08.150+0100",
+        "priority": "Cr\u00edtica",
+        "labels": [
+          "CSP",
+          "NO_QA_REQUIRED"
+        ]
+      },
+      {
+        "key": "WSC-173",
+        "url": "https://e2x.atlassian.net/browse/WSC-173",
+        "summary": "SEO - fix to product schema for PDP for reviews and ratings",
+        "status": "Ready to QA",
+        "statusCategory": "new",
+        "assignee": "Unassigned",
+        "updated": "2026-08-18T22:08:19.675+0100",
         "priority": "Poco importante",
         "labels": [
           "Needs-QA"
@@ -53,7 +132,7 @@
         "status": "Ready to QA",
         "statusCategory": "new",
         "assignee": "Unassigned",
-        "updated": "2026-08-18T21:16:00.479+0100",
+        "updated": "2026-08-18T22:07:57.592+0100",
         "priority": "Poco importante",
         "labels": [
           "Needs-QA",
@@ -61,16 +140,44 @@
         ]
       },
       {
-        "key": "WSC-173",
-        "url": "https://e2x.atlassian.net/browse/WSC-173",
-        "summary": "SEO - fix to product schema for PDP for reviews and ratings",
+        "key": "WSC-1545",
+        "url": "https://e2x.atlassian.net/browse/WSC-1545",
+        "summary": "PLP - fix price for gift and e-gift cards",
         "status": "Ready to QA",
         "statusCategory": "new",
         "assignee": "Unassigned",
-        "updated": "2026-08-18T21:15:38.576+0100",
+        "updated": "2026-08-18T21:47:25.752+0100",
         "priority": "Poco importante",
         "labels": [
           "Needs-QA"
+        ]
+      },
+      {
+        "key": "WSC-1698",
+        "url": "https://e2x.atlassian.net/browse/WSC-1698",
+        "summary": "[WSSD-708] - PDP - BazaarVoice reviews only appear when navigating from PLP",
+        "status": "Ready to QA",
+        "statusCategory": "new",
+        "assignee": "Unassigned",
+        "updated": "2026-08-18T21:36:50.406+0100",
+        "priority": "Importante",
+        "labels": [
+          "Needs-QA",
+          "accelerated"
+        ]
+      },
+      {
+        "key": "WSC-1594",
+        "url": "https://e2x.atlassian.net/browse/WSC-1594",
+        "summary": "SFS - item SFS data on VSF",
+        "status": "Listo",
+        "statusCategory": "new",
+        "assignee": "Unassigned",
+        "updated": "2026-08-18T21:28:27.421+0100",
+        "priority": "Importante",
+        "labels": [
+          "Needs-QA",
+          "automatable"
         ]
       },
       {
@@ -85,46 +192,6 @@
         "labels": []
       },
       {
-        "key": "WSC-1607",
-        "url": "https://e2x.atlassian.net/browse/WSC-1607",
-        "summary": "PDP - Stylitics - Android issue",
-        "status": "PENDING DEV DEPLOY",
-        "statusCategory": "new",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-08-18T20:38:23.935+0100",
-        "priority": "Poco importante",
-        "labels": [
-          "accelerated"
-        ]
-      },
-      {
-        "key": "WSC-1698",
-        "url": "https://e2x.atlassian.net/browse/WSC-1698",
-        "summary": "[WSSD-708] - PDP - BazaarVoice reviews only appear when navigating from PLP",
-        "status": "PENDING DEV DEPLOY",
-        "statusCategory": "new",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-08-18T20:05:14.157+0100",
-        "priority": "Importante",
-        "labels": [
-          "Needs-QA",
-          "accelerated"
-        ]
-      },
-      {
-        "key": "WSC-1577",
-        "url": "https://e2x.atlassian.net/browse/WSC-1577",
-        "summary": "[WSSD-633] Add per-email rate limiting to the password reset endpoint",
-        "status": "PENDING DEV DEPLOY",
-        "statusCategory": "new",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-08-18T19:55:46.175+0100",
-        "priority": "Importante",
-        "labels": [
-          "Needs-QA"
-        ]
-      },
-      {
         "key": "WSC-1578",
         "url": "https://e2x.atlassian.net/browse/WSC-1578",
         "summary": "[WSSD-633] Add Cloudflare rate limiting rule for the password reset endpoint",
@@ -134,34 +201,6 @@
         "updated": "2026-08-18T19:50:26.534+0100",
         "priority": "Importante",
         "labels": []
-      },
-      {
-        "key": "WSC-1601",
-        "url": "https://e2x.atlassian.net/browse/WSC-1601",
-        "summary": "CONTENT - TwoForBanner amendments - notations",
-        "status": "PENDING DEV DEPLOY",
-        "statusCategory": "new",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-08-18T19:44:01.067+0100",
-        "priority": "Importante",
-        "labels": [
-          "Needs-QA",
-          "manualQA"
-        ]
-      },
-      {
-        "key": "WSC-1646",
-        "url": "https://e2x.atlassian.net/browse/WSC-1646",
-        "summary": "CONTENT - new wider version of Accordion2",
-        "status": "PENDING DEV DEPLOY",
-        "statusCategory": "new",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-08-18T19:38:52.641+0100",
-        "priority": "Importante",
-        "labels": [
-          "Needs-QA",
-          "manualQA"
-        ]
       },
       {
         "key": "WSC-1619",
@@ -174,20 +213,6 @@
         "priority": "Not Set",
         "labels": [
           "NO_QA_REQUIRED"
-        ]
-      },
-      {
-        "key": "WSC-1594",
-        "url": "https://e2x.atlassian.net/browse/WSC-1594",
-        "summary": "SFS - item SFS data on VSF",
-        "status": "IN UAT",
-        "statusCategory": "indeterminate",
-        "assignee": "Gerardo Romero",
-        "updated": "2026-08-18T18:12:50.801+0100",
-        "priority": "Importante",
-        "labels": [
-          "Needs-QA",
-          "automatable"
         ]
       },
       {
@@ -288,17 +313,6 @@
         "labels": []
       },
       {
-        "key": "WSC-1647",
-        "url": "https://e2x.atlassian.net/browse/WSC-1647",
-        "summary": "CONTENT - new wider version of SEOTextBlock",
-        "status": "PENDING DEV DEPLOY",
-        "statusCategory": "new",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-08-18T17:39:38.018+0100",
-        "priority": "Importante",
-        "labels": []
-      },
-      {
         "key": "WSC-388",
         "url": "https://e2x.atlassian.net/browse/WSC-388",
         "summary": "HEADER - quantity overlaps bag icon when more than 1 digit",
@@ -350,20 +364,6 @@
         "updated": "2026-08-18T16:24:41.184+0100",
         "priority": "Importante",
         "labels": [
-          "NO_QA_REQUIRED"
-        ]
-      },
-      {
-        "key": "WSC-1482",
-        "url": "https://e2x.atlassian.net/browse/WSC-1482",
-        "summary": "CSP Analysis & Policy Refinement",
-        "status": "READY FOR RELEASE",
-        "statusCategory": "new",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-08-18T14:07:34.824+0100",
-        "priority": "Cr\u00edtica",
-        "labels": [
-          "CSP",
           "NO_QA_REQUIRED"
         ]
       },
