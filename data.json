@@ -1,18 +1,17 @@
 {
-  "lastUpdated": "2026-08-19T16:32:29.871163+00:00",
+  "lastUpdated": "2026-08-19T20:28:35.896146+00:00",
   "jira": {
     "summary": {
       "total": 359,
       "byStatus": {
-        "RETURNED BY QA": 1,
-        "IN QA": 1,
+        "Ready to QA": 9,
+        "IN QA": 2,
+        "Tech Review": 8,
+        "Blocked": 5,
         "QA Approved": 1,
         "Finalizada": 290,
-        "Ready to QA": 9,
         "Listo": 14,
-        "En curso": 4,
-        "Tech Review": 7,
-        "Blocked": 5,
+        "En curso": 3,
         "Backlog": 11,
         "Ready for Refinement": 1,
         "Deprecated": 13,
@@ -22,17 +21,58 @@
     },
     "tickets": [
       {
+        "key": "WSC-1601",
+        "url": "https://e2x.atlassian.net/browse/WSC-1601",
+        "summary": "CONTENT - TwoForBanner amendments - notations",
+        "status": "Ready to QA",
+        "statusCategory": "new",
+        "assignee": "Gerardo Romero",
+        "updated": "2026-08-19T20:50:48.983+0100",
+        "priority": "Importante",
+        "labels": [
+          "Needs-QA",
+          "manualQA"
+        ]
+      },
+      {
         "key": "WSC-1660",
         "url": "https://e2x.atlassian.net/browse/WSC-1660",
         "summary": "PDP - hide review stars when stars = 0",
-        "status": "RETURNED BY QA",
+        "status": "IN QA",
         "statusCategory": "indeterminate",
-        "assignee": "Jair Huaman",
-        "updated": "2026-08-19T17:04:40.768+0100",
+        "assignee": "Ingrith Santamaria",
+        "updated": "2026-08-19T20:23:16.863+0100",
         "priority": "Poco importante",
         "labels": [
           "Needs-QA",
           "automatable"
+        ]
+      },
+      {
+        "key": "WSC-1619",
+        "url": "https://e2x.atlassian.net/browse/WSC-1619",
+        "summary": "Outbound request resilience: 429 backoff, concurrency limits & circuit breaking",
+        "status": "Tech Review",
+        "statusCategory": "indeterminate",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-08-19T20:22:06.500+0100",
+        "priority": "Not Set",
+        "labels": [
+          "NO_QA_REQUIRED",
+          "co-build"
+        ]
+      },
+      {
+        "key": "WSC-1643",
+        "url": "https://e2x.atlassian.net/browse/WSC-1643",
+        "summary": "Unmasking JS errors - vendor outreach",
+        "status": "Blocked",
+        "statusCategory": "new",
+        "assignee": "Alexander Talavera",
+        "updated": "2026-08-19T20:17:23.005+0100",
+        "priority": "Importante",
+        "labels": [
+          "NO_QA_REQUIRED"
         ]
       },
       {
@@ -347,20 +387,6 @@
         "labels": []
       },
       {
-        "key": "WSC-1601",
-        "url": "https://e2x.atlassian.net/browse/WSC-1601",
-        "summary": "CONTENT - TwoForBanner amendments - notations",
-        "status": "Ready to QA",
-        "statusCategory": "new",
-        "assignee": "Gerardo Romero",
-        "updated": "2026-08-19T14:52:18.601+0100",
-        "priority": "Importante",
-        "labels": [
-          "Needs-QA",
-          "manualQA"
-        ]
-      },
-      {
         "key": "WSC-1646",
         "url": "https://e2x.atlassian.net/browse/WSC-1646",
         "summary": "CONTENT - new wider version of Accordion2",
@@ -420,19 +446,6 @@
         "statusCategory": "indeterminate",
         "assignee": "enmanuel.ramirez",
         "updated": "2026-08-19T13:46:34.649+0100",
-        "priority": "Not Set",
-        "labels": [
-          "NO_QA_REQUIRED"
-        ]
-      },
-      {
-        "key": "WSC-1619",
-        "url": "https://e2x.atlassian.net/browse/WSC-1619",
-        "summary": "Outbound request resilience: 429 backoff, concurrency limits & circuit breaking",
-        "status": "En curso",
-        "statusCategory": "indeterminate",
-        "assignee": "Jair Huaman",
-        "updated": "2026-08-19T13:43:54.323+0100",
         "priority": "Not Set",
         "labels": [
           "NO_QA_REQUIRED"
@@ -706,19 +719,6 @@
         "updated": "2026-08-14T15:07:01.342+0100",
         "priority": "Poco importante",
         "labels": []
-      },
-      {
-        "key": "WSC-1643",
-        "url": "https://e2x.atlassian.net/browse/WSC-1643",
-        "summary": "Unmasking JS errors - vendor outreach",
-        "status": "Blocked",
-        "statusCategory": "new",
-        "assignee": "Alexander Talavera",
-        "updated": "2026-08-14T13:06:16.702+0100",
-        "priority": "Importante",
-        "labels": [
-          "NO_QA_REQUIRED"
-        ]
       },
       {
         "key": "WSC-76",
