@@ -1,26 +1,65 @@
 {
-  "lastUpdated": "2026-08-20T16:35:55.944038+00:00",
+  "lastUpdated": "2026-08-20T20:29:28.665915+00:00",
   "jira": {
     "summary": {
       "total": 371,
       "byStatus": {
+        "Listo": 21,
+        "Ready to QA": 7,
         "Backlog": 12,
         "Tech Review": 8,
         "QA Approved": 3,
-        "Ready to QA": 7,
         "RETURNED BY QA": 1,
-        "Ready for Refinement": 2,
-        "Listo": 20,
         "Blocked": 6,
         "IN QA": 1,
         "En curso": 6,
         "Finalizada": 290,
+        "Ready for Refinement": 1,
         "Deprecated": 13,
         "PENDING DEV DEPLOY": 1,
         "READY FOR RELEASE": 1
       }
     },
     "tickets": [
+      {
+        "key": "WSC-1670",
+        "url": "https://e2x.atlassian.net/browse/WSC-1670",
+        "summary": "PDP - shop stock look-up",
+        "status": "Listo",
+        "statusCategory": "new",
+        "assignee": "Unassigned",
+        "updated": "2026-08-20T18:23:44.996+0100",
+        "priority": "Importante",
+        "labels": []
+      },
+      {
+        "key": "WSC-1601",
+        "url": "https://e2x.atlassian.net/browse/WSC-1601",
+        "summary": "CONTENT - TwoForBanner amendments - notations",
+        "status": "Ready to QA",
+        "statusCategory": "new",
+        "assignee": "Ingrith Santamaria",
+        "updated": "2026-08-20T17:51:15.728+0100",
+        "priority": "Importante",
+        "labels": [
+          "Needs-QA",
+          "manualQA"
+        ]
+      },
+      {
+        "key": "WSC-1646",
+        "url": "https://e2x.atlassian.net/browse/WSC-1646",
+        "summary": "CONTENT - new wider version of Accordion2",
+        "status": "Ready to QA",
+        "statusCategory": "new",
+        "assignee": "Ingrith Santamaria",
+        "updated": "2026-08-20T17:50:35.908+0100",
+        "priority": "Importante",
+        "labels": [
+          "Needs-QA",
+          "manualQA"
+        ]
+      },
       {
         "key": "WSC-1527",
         "url": "https://e2x.atlassian.net/browse/WSC-1527",
@@ -114,17 +153,6 @@
           "Needs-QA",
           "accelerated"
         ]
-      },
-      {
-        "key": "WSC-1670",
-        "url": "https://e2x.atlassian.net/browse/WSC-1670",
-        "summary": "PDP - shop stock look-up",
-        "status": "Ready for Refinement",
-        "statusCategory": "new",
-        "assignee": "Unassigned",
-        "updated": "2026-08-20T16:04:36.597+0100",
-        "priority": "Importante",
-        "labels": []
       },
       {
         "key": "WSC-1695",
@@ -305,20 +333,6 @@
         "labels": [
           "Needs-QA",
           "automatable"
-        ]
-      },
-      {
-        "key": "WSC-1601",
-        "url": "https://e2x.atlassian.net/browse/WSC-1601",
-        "summary": "CONTENT - TwoForBanner amendments - notations",
-        "status": "Ready to QA",
-        "statusCategory": "new",
-        "assignee": "Gerardo Romero",
-        "updated": "2026-08-20T13:38:16.662+0100",
-        "priority": "Importante",
-        "labels": [
-          "Needs-QA",
-          "manualQA"
         ]
       },
       {
@@ -605,20 +619,6 @@
         "updated": "2026-08-19T14:52:26.345+0100",
         "priority": "Importante",
         "labels": []
-      },
-      {
-        "key": "WSC-1646",
-        "url": "https://e2x.atlassian.net/browse/WSC-1646",
-        "summary": "CONTENT - new wider version of Accordion2",
-        "status": "Ready to QA",
-        "statusCategory": "new",
-        "assignee": "Gerardo Romero",
-        "updated": "2026-08-19T14:52:10.805+0100",
-        "priority": "Importante",
-        "labels": [
-          "Needs-QA",
-          "manualQA"
-        ]
       },
       {
         "key": "WSC-1674",
