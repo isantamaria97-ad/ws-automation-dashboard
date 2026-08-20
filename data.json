@@ -1,17 +1,17 @@
 {
-  "lastUpdated": "2026-08-20T08:39:25.851056+00:00",
+  "lastUpdated": "2026-08-20T12:51:33.898838+00:00",
   "jira": {
     "summary": {
       "total": 359,
       "byStatus": {
         "Ready to QA": 9,
-        "IN QA": 2,
+        "QA Approved": 2,
+        "En curso": 3,
         "Tech Review": 8,
         "Blocked": 5,
-        "QA Approved": 1,
+        "IN QA": 1,
         "Finalizada": 290,
         "Listo": 14,
-        "En curso": 3,
         "Backlog": 11,
         "Ready for Refinement": 1,
         "Deprecated": 13,
@@ -21,13 +21,54 @@
     },
     "tickets": [
       {
+        "key": "WSC-1607",
+        "url": "https://e2x.atlassian.net/browse/WSC-1607",
+        "summary": "PDP - Stylitics - Android issue",
+        "status": "Ready to QA",
+        "statusCategory": "new",
+        "assignee": "Ingrith Santamaria",
+        "updated": "2026-08-20T13:50:56.365+0100",
+        "priority": "Poco importante",
+        "labels": [
+          "accelerated"
+        ]
+      },
+      {
+        "key": "WSC-1698",
+        "url": "https://e2x.atlassian.net/browse/WSC-1698",
+        "summary": "[WSSD-708] - PDP - BazaarVoice reviews only appear when navigating from PLP",
+        "status": "Ready to QA",
+        "statusCategory": "new",
+        "assignee": "Ingrith Santamaria",
+        "updated": "2026-08-20T13:50:35.285+0100",
+        "priority": "Importante",
+        "labels": [
+          "Needs-QA",
+          "accelerated"
+        ]
+      },
+      {
+        "key": "WSC-1660",
+        "url": "https://e2x.atlassian.net/browse/WSC-1660",
+        "summary": "PDP - hide review stars when stars = 0",
+        "status": "QA Approved",
+        "statusCategory": "indeterminate",
+        "assignee": "Ingrith Santamaria",
+        "updated": "2026-08-20T13:46:45.624+0100",
+        "priority": "Poco importante",
+        "labels": [
+          "Needs-QA",
+          "automatable"
+        ]
+      },
+      {
         "key": "WSC-1601",
         "url": "https://e2x.atlassian.net/browse/WSC-1601",
         "summary": "CONTENT - TwoForBanner amendments - notations",
         "status": "Ready to QA",
         "statusCategory": "new",
         "assignee": "Gerardo Romero",
-        "updated": "2026-08-19T20:50:48.983+0100",
+        "updated": "2026-08-20T13:38:16.662+0100",
         "priority": "Importante",
         "labels": [
           "Needs-QA",
@@ -35,17 +76,16 @@
         ]
       },
       {
-        "key": "WSC-1660",
-        "url": "https://e2x.atlassian.net/browse/WSC-1660",
-        "summary": "PDP - hide review stars when stars = 0",
-        "status": "IN QA",
+        "key": "WSC-1654",
+        "url": "https://e2x.atlassian.net/browse/WSC-1654",
+        "summary": "Short-circuit unknown content-page URLs using an Amplience-derived valid-slug registry",
+        "status": "En curso",
         "statusCategory": "indeterminate",
-        "assignee": "Ingrith Santamaria",
-        "updated": "2026-08-19T20:23:16.863+0100",
-        "priority": "Poco importante",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-08-20T13:16:06.630+0100",
+        "priority": "Not Set",
         "labels": [
-          "Needs-QA",
-          "automatable"
+          "NO_QA_REQUIRED"
         ]
       },
       {
@@ -401,20 +441,6 @@
         ]
       },
       {
-        "key": "WSC-1698",
-        "url": "https://e2x.atlassian.net/browse/WSC-1698",
-        "summary": "[WSSD-708] - PDP - BazaarVoice reviews only appear when navigating from PLP",
-        "status": "Ready to QA",
-        "statusCategory": "new",
-        "assignee": "Ingrith Santamaria",
-        "updated": "2026-08-19T14:51:50.727+0100",
-        "priority": "Importante",
-        "labels": [
-          "Needs-QA",
-          "accelerated"
-        ]
-      },
-      {
         "key": "WSC-1647",
         "url": "https://e2x.atlassian.net/browse/WSC-1647",
         "summary": "CONTENT - new wider version of SEOTextBlock",
@@ -424,32 +450,6 @@
         "updated": "2026-08-19T14:51:31.364+0100",
         "priority": "Importante",
         "labels": []
-      },
-      {
-        "key": "WSC-1607",
-        "url": "https://e2x.atlassian.net/browse/WSC-1607",
-        "summary": "PDP - Stylitics - Android issue",
-        "status": "Ready to QA",
-        "statusCategory": "new",
-        "assignee": "Ingrith Santamaria",
-        "updated": "2026-08-19T14:51:10.088+0100",
-        "priority": "Poco importante",
-        "labels": [
-          "accelerated"
-        ]
-      },
-      {
-        "key": "WSC-1654",
-        "url": "https://e2x.atlassian.net/browse/WSC-1654",
-        "summary": "Short-circuit unknown content-page URLs using an Amplience-derived valid-slug registry",
-        "status": "En curso",
-        "statusCategory": "indeterminate",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-08-19T13:46:34.649+0100",
-        "priority": "Not Set",
-        "labels": [
-          "NO_QA_REQUIRED"
-        ]
       },
       {
         "key": "WSC-1674",
