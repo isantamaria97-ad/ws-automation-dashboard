@@ -1,15 +1,15 @@
 {
-  "lastUpdated": "2026-08-21T08:40:57.476987+00:00",
+  "lastUpdated": "2026-08-21T12:49:41.237453+00:00",
   "jira": {
     "summary": {
       "total": 371,
       "byStatus": {
-        "IN QA": 1,
-        "Ready to QA": 7,
+        "IN QA": 2,
+        "Listo": 21,
+        "Ready to QA": 5,
         "En curso": 6,
         "Tech Review": 9,
         "Backlog": 12,
-        "Listo": 20,
         "QA Approved": 3,
         "RETURNED BY QA": 1,
         "Blocked": 6,
@@ -28,10 +28,37 @@
         "status": "IN QA",
         "statusCategory": "indeterminate",
         "assignee": "Gerardo Romero",
-        "updated": "2026-08-21T03:55:22.143+0100",
+        "updated": "2026-08-21T13:48:14.570+0100",
         "priority": "Poco importante",
         "labels": [
           "Needs-QA"
+        ]
+      },
+      {
+        "key": "WSC-1422",
+        "url": "https://e2x.atlassian.net/browse/WSC-1422",
+        "summary": "Desktop/Mobile: SIDE PANEL - standardise width",
+        "status": "Listo",
+        "statusCategory": "new",
+        "assignee": "Unassigned",
+        "updated": "2026-08-21T13:47:52.649+0100",
+        "priority": "Poco importante",
+        "labels": [
+          "Needs-QA"
+        ]
+      },
+      {
+        "key": "WSC-1646",
+        "url": "https://e2x.atlassian.net/browse/WSC-1646",
+        "summary": "CONTENT - new wider version of Accordion2",
+        "status": "IN QA",
+        "statusCategory": "indeterminate",
+        "assignee": "Ingrith Santamaria",
+        "updated": "2026-08-21T13:40:48.178+0100",
+        "priority": "Importante",
+        "labels": [
+          "Needs-QA",
+          "manualQA"
         ]
       },
       {
@@ -121,20 +148,6 @@
         "labels": []
       },
       {
-        "key": "WSC-1646",
-        "url": "https://e2x.atlassian.net/browse/WSC-1646",
-        "summary": "CONTENT - new wider version of Accordion2",
-        "status": "Ready to QA",
-        "statusCategory": "new",
-        "assignee": "Ingrith Santamaria",
-        "updated": "2026-08-20T17:50:35.908+0100",
-        "priority": "Importante",
-        "labels": [
-          "Needs-QA",
-          "manualQA"
-        ]
-      },
-      {
         "key": "WSC-1527",
         "url": "https://e2x.atlassian.net/browse/WSC-1527",
         "summary": "Apple Pay Express fails at checkout when Free Shipping campaign (Talon.One) is active",
@@ -163,19 +176,6 @@
         "priority": "Poco importante",
         "labels": [
           "accelerated"
-        ]
-      },
-      {
-        "key": "WSC-1422",
-        "url": "https://e2x.atlassian.net/browse/WSC-1422",
-        "summary": "Desktop/Mobile: SIDE PANEL - standardise width",
-        "status": "Ready to QA",
-        "statusCategory": "new",
-        "assignee": "Gerardo Romero",
-        "updated": "2026-08-20T17:02:22.027+0100",
-        "priority": "Poco importante",
-        "labels": [
-          "Needs-QA"
         ]
       },
       {
