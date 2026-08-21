@@ -1,26 +1,226 @@
 {
-  "lastUpdated": "2026-08-21T16:35:38.676464+00:00",
+  "lastUpdated": "2026-08-21T20:26:41.902310+00:00",
   "jira": {
     "summary": {
-      "total": 371,
+      "total": 372,
       "byStatus": {
-        "IN QA": 1,
-        "PENDING DEV DEPLOY": 2,
-        "RETURNED BY QA": 2,
-        "Backlog": 12,
+        "Ready to QA": 6,
+        "Blocked": 6,
+        "En curso": 5,
+        "Tech Review": 8,
+        "Listo": 21,
         "Finalizada": 290,
         "QA Approved": 5,
-        "En curso": 5,
-        "Tech Review": 10,
-        "Ready to QA": 2,
-        "Listo": 21,
-        "Blocked": 6,
+        "RETURNED BY QA": 2,
+        "IN QA": 1,
+        "Backlog": 12,
         "Ready for Refinement": 1,
         "Deprecated": 13,
+        "PENDING DEV DEPLOY": 1,
         "READY FOR RELEASE": 1
       }
     },
     "tickets": [
+      {
+        "key": "WSC-1715",
+        "url": "https://e2x.atlassian.net/browse/WSC-1715",
+        "summary": "Fix PLP hydration mismatch by hoisting useContent out of useAsync",
+        "status": "Ready to QA",
+        "statusCategory": "new",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-08-21T20:19:47.348+0100",
+        "priority": "Not Set",
+        "labels": [
+          "NO_QA_REQUIRED"
+        ]
+      },
+      {
+        "key": "WSC-1703",
+        "url": "https://e2x.atlassian.net/browse/WSC-1703",
+        "summary": "Add timeouts to Nuxt SSR HTTP clients",
+        "status": "Ready to QA",
+        "statusCategory": "new",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-08-21T19:44:13.989+0100",
+        "priority": "Cr\u00edtica",
+        "labels": []
+      },
+      {
+        "key": "WSC-1654",
+        "url": "https://e2x.atlassian.net/browse/WSC-1654",
+        "summary": "Short-circuit unknown content-page URLs using an Amplience-derived valid-slug registry",
+        "status": "Ready to QA",
+        "statusCategory": "new",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-08-21T19:10:25.954+0100",
+        "priority": "Cr\u00edtica",
+        "labels": [
+          "NO_QA_REQUIRED",
+          "accelerated"
+        ]
+      },
+      {
+        "key": "WSC-1637",
+        "url": "https://e2x.atlassian.net/browse/WSC-1637",
+        "summary": "Add Cloudflare rate limiting rules for excessive 404/403 responses (page-level and API)",
+        "status": "Blocked",
+        "statusCategory": "new",
+        "assignee": "Alexander Talavera",
+        "updated": "2026-08-21T19:10:00.520+0100",
+        "priority": "Cr\u00edtica",
+        "labels": []
+      },
+      {
+        "key": "WSC-1664",
+        "url": "https://e2x.atlassian.net/browse/WSC-1664",
+        "summary": "Restore site response times after Cloudflare cache rule change (SiteSpect/Forte)",
+        "status": "En curso",
+        "statusCategory": "indeterminate",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-08-21T19:08:16.645+0100",
+        "priority": "Cr\u00edtica",
+        "labels": []
+      },
+      {
+        "key": "WSC-1636",
+        "url": "https://e2x.atlassian.net/browse/WSC-1636",
+        "summary": "Tighten Super Bot Fight Mode policy: Block Automated, Managed Challenge Likely Automated",
+        "status": "Tech Review",
+        "statusCategory": "indeterminate",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-08-21T19:07:29.143+0100",
+        "priority": "Cr\u00edtica",
+        "labels": []
+      },
+      {
+        "key": "WSC-1619",
+        "url": "https://e2x.atlassian.net/browse/WSC-1619",
+        "summary": "Outbound request resilience: 429 backoff, concurrency limits & circuit breaking",
+        "status": "Ready to QA",
+        "statusCategory": "new",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-08-21T19:03:01.678+0100",
+        "priority": "Cr\u00edtica",
+        "labels": [
+          "NO_QA_REQUIRED",
+          "co-build"
+        ]
+      },
+      {
+        "key": "WSC-1422",
+        "url": "https://e2x.atlassian.net/browse/WSC-1422",
+        "summary": "Desktop/Mobile: SIDE PANEL - standardise width",
+        "status": "Listo",
+        "statusCategory": "new",
+        "assignee": "Alexander Talavera",
+        "updated": "2026-08-21T18:05:14.983+0100",
+        "priority": "Poco importante",
+        "labels": [
+          "Needs-QA"
+        ]
+      },
+      {
+        "key": "WSC-1577",
+        "url": "https://e2x.atlassian.net/browse/WSC-1577",
+        "summary": "[WSSD-633] Add per-email rate limiting to the password reset endpoint",
+        "status": "Ready to QA",
+        "statusCategory": "new",
+        "assignee": "Alexander Talavera",
+        "updated": "2026-08-21T18:04:58.335+0100",
+        "priority": "Importante",
+        "labels": [
+          "Needs-QA"
+        ]
+      },
+      {
+        "key": "WSC-1578",
+        "url": "https://e2x.atlassian.net/browse/WSC-1578",
+        "summary": "[WSSD-633] Add Cloudflare rate limiting rule for the password reset endpoint",
+        "status": "Ready to QA",
+        "statusCategory": "new",
+        "assignee": "Alexander Talavera",
+        "updated": "2026-08-21T18:04:56.646+0100",
+        "priority": "Importante",
+        "labels": []
+      },
+      {
+        "key": "WSC-1594",
+        "url": "https://e2x.atlassian.net/browse/WSC-1594",
+        "summary": "SFS - item SFS data on VSF",
+        "status": "En curso",
+        "statusCategory": "indeterminate",
+        "assignee": "Alexander Talavera",
+        "updated": "2026-08-21T18:03:35.725+0100",
+        "priority": "Importante",
+        "labels": [
+          "Needs-QA",
+          "automatable"
+        ]
+      },
+      {
+        "key": "WSC-1580",
+        "url": "https://e2x.atlassian.net/browse/WSC-1580",
+        "summary": "SITESPECT - deploy to Production",
+        "status": "Finalizada",
+        "statusCategory": "done",
+        "assignee": "Jair Huaman",
+        "updated": "2026-08-21T18:03:27.586+0100",
+        "priority": "Importante",
+        "labels": [
+          "NO_QA_REQUIRED"
+        ]
+      },
+      {
+        "key": "WSC-1698",
+        "url": "https://e2x.atlassian.net/browse/WSC-1698",
+        "summary": "[WSSD-708] - PDP - BazaarVoice reviews only appear when navigating from PLP",
+        "status": "En curso",
+        "statusCategory": "indeterminate",
+        "assignee": "Jair Huaman",
+        "updated": "2026-08-21T18:01:26.444+0100",
+        "priority": "Importante",
+        "labels": [
+          "Needs-QA",
+          "accelerated"
+        ]
+      },
+      {
+        "key": "WSC-388",
+        "url": "https://e2x.atlassian.net/browse/WSC-388",
+        "summary": "HEADER - quantity overlaps bag icon when more than 1 digit",
+        "status": "QA Approved",
+        "statusCategory": "indeterminate",
+        "assignee": "Ingrith Santamaria",
+        "updated": "2026-08-21T17:57:56.044+0100",
+        "priority": "Trivial",
+        "labels": [
+          "Needs-QA"
+        ]
+      },
+      {
+        "key": "WSC-173",
+        "url": "https://e2x.atlassian.net/browse/WSC-173",
+        "summary": "SEO - fix to product schema for PDP for reviews and ratings",
+        "status": "RETURNED BY QA",
+        "statusCategory": "indeterminate",
+        "assignee": "Rafael Paranagu\u00e1",
+        "updated": "2026-08-21T17:46:47.744+0100",
+        "priority": "Poco importante",
+        "labels": [
+          "Needs-QA"
+        ]
+      },
+      {
+        "key": "WSC-1681",
+        "url": "https://e2x.atlassian.net/browse/WSC-1681",
+        "summary": "[WS] Monthly vulnerability review (Snyk) Aug for Jul 2026 Maintain Report",
+        "status": "Finalizada",
+        "statusCategory": "done",
+        "assignee": "Rafael Paranagu\u00e1",
+        "updated": "2026-08-21T17:45:51.008+0100",
+        "priority": "Not Set",
+        "labels": []
+      },
       {
         "key": "WSC-1601",
         "url": "https://e2x.atlassian.net/browse/WSC-1601",
@@ -33,32 +233,6 @@
         "labels": [
           "Needs-QA",
           "manualQA"
-        ]
-      },
-      {
-        "key": "WSC-1654",
-        "url": "https://e2x.atlassian.net/browse/WSC-1654",
-        "summary": "Short-circuit unknown content-page URLs using an Amplience-derived valid-slug registry",
-        "status": "PENDING DEV DEPLOY",
-        "statusCategory": "new",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-08-21T17:16:35.890+0100",
-        "priority": "Cr\u00edtica",
-        "labels": [
-          "NO_QA_REQUIRED"
-        ]
-      },
-      {
-        "key": "WSC-173",
-        "url": "https://e2x.atlassian.net/browse/WSC-173",
-        "summary": "SEO - fix to product schema for PDP for reviews and ratings",
-        "status": "RETURNED BY QA",
-        "statusCategory": "indeterminate",
-        "assignee": "Rafael Paranagu\u00e1",
-        "updated": "2026-08-21T16:58:29.047+0100",
-        "priority": "Poco importante",
-        "labels": [
-          "Needs-QA"
         ]
       },
       {
@@ -122,20 +296,6 @@
         ]
       },
       {
-        "key": "WSC-1698",
-        "url": "https://e2x.atlassian.net/browse/WSC-1698",
-        "summary": "[WSSD-708] - PDP - BazaarVoice reviews only appear when navigating from PLP",
-        "status": "En curso",
-        "statusCategory": "indeterminate",
-        "assignee": "Jair Huaman",
-        "updated": "2026-08-21T16:27:38.376+0100",
-        "priority": "Importante",
-        "labels": [
-          "Needs-QA",
-          "accelerated"
-        ]
-      },
-      {
         "key": "WSC-1660",
         "url": "https://e2x.atlassian.net/browse/WSC-1660",
         "summary": "PDP - hide review stars when stars = 0",
@@ -150,92 +310,6 @@
         ]
       },
       {
-        "key": "WSC-388",
-        "url": "https://e2x.atlassian.net/browse/WSC-388",
-        "summary": "HEADER - quantity overlaps bag icon when more than 1 digit",
-        "status": "QA Approved",
-        "statusCategory": "indeterminate",
-        "assignee": "Ingrith Santamaria",
-        "updated": "2026-08-21T16:25:23.250+0100",
-        "priority": "Trivial",
-        "labels": [
-          "Needs-QA"
-        ]
-      },
-      {
-        "key": "WSC-1664",
-        "url": "https://e2x.atlassian.net/browse/WSC-1664",
-        "summary": "Restore site response times after Cloudflare cache rule change (SiteSpect/Forte)",
-        "status": "En curso",
-        "statusCategory": "indeterminate",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-08-21T16:04:29.466+0100",
-        "priority": "Cr\u00edtica",
-        "labels": []
-      },
-      {
-        "key": "WSC-1703",
-        "url": "https://e2x.atlassian.net/browse/WSC-1703",
-        "summary": "Add timeouts to Nuxt SSR HTTP clients",
-        "status": "Tech Review",
-        "statusCategory": "indeterminate",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-08-21T15:50:38.336+0100",
-        "priority": "Cr\u00edtica",
-        "labels": []
-      },
-      {
-        "key": "WSC-1578",
-        "url": "https://e2x.atlassian.net/browse/WSC-1578",
-        "summary": "[WSSD-633] Add Cloudflare rate limiting rule for the password reset endpoint",
-        "status": "Ready to QA",
-        "statusCategory": "new",
-        "assignee": "Alexander Talavera",
-        "updated": "2026-08-21T15:11:05.442+0100",
-        "priority": "Importante",
-        "labels": []
-      },
-      {
-        "key": "WSC-1577",
-        "url": "https://e2x.atlassian.net/browse/WSC-1577",
-        "summary": "[WSSD-633] Add per-email rate limiting to the password reset endpoint",
-        "status": "Ready to QA",
-        "statusCategory": "new",
-        "assignee": "Alexander Talavera",
-        "updated": "2026-08-21T15:10:36.182+0100",
-        "priority": "Importante",
-        "labels": [
-          "Needs-QA"
-        ]
-      },
-      {
-        "key": "WSC-1619",
-        "url": "https://e2x.atlassian.net/browse/WSC-1619",
-        "summary": "Outbound request resilience: 429 backoff, concurrency limits & circuit breaking",
-        "status": "Tech Review",
-        "statusCategory": "indeterminate",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-08-21T14:45:18.030+0100",
-        "priority": "Cr\u00edtica",
-        "labels": [
-          "NO_QA_REQUIRED",
-          "co-build"
-        ]
-      },
-      {
-        "key": "WSC-1422",
-        "url": "https://e2x.atlassian.net/browse/WSC-1422",
-        "summary": "Desktop/Mobile: SIDE PANEL - standardise width",
-        "status": "Listo",
-        "statusCategory": "new",
-        "assignee": "Alexander Talavera",
-        "updated": "2026-08-21T14:13:04.096+0100",
-        "priority": "Poco importante",
-        "labels": [
-          "Needs-QA"
-        ]
-      },
-      {
         "key": "WSC-1545",
         "url": "https://e2x.atlassian.net/browse/WSC-1545",
         "summary": "PLP - fix price for gift and e-gift cards",
@@ -247,31 +321,6 @@
         "labels": [
           "Needs-QA"
         ]
-      },
-      {
-        "key": "WSC-1594",
-        "url": "https://e2x.atlassian.net/browse/WSC-1594",
-        "summary": "SFS - item SFS data on VSF",
-        "status": "En curso",
-        "statusCategory": "indeterminate",
-        "assignee": "Alexander Talavera",
-        "updated": "2026-08-21T02:58:49.138+0100",
-        "priority": "Importante",
-        "labels": [
-          "Needs-QA",
-          "automatable"
-        ]
-      },
-      {
-        "key": "WSC-1636",
-        "url": "https://e2x.atlassian.net/browse/WSC-1636",
-        "summary": "Tighten Super Bot Fight Mode policy: Block Automated, Managed Challenge Likely Automated",
-        "status": "Tech Review",
-        "statusCategory": "indeterminate",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-08-21T02:55:56.052+0100",
-        "priority": "Cr\u00edtica",
-        "labels": []
       },
       {
         "key": "WSC-1670",
@@ -316,17 +365,6 @@
           "automatable",
           "manualQA"
         ]
-      },
-      {
-        "key": "WSC-1637",
-        "url": "https://e2x.atlassian.net/browse/WSC-1637",
-        "summary": "Add Cloudflare rate limiting rules for excessive 404/403 responses (page-level and API)",
-        "status": "Blocked",
-        "statusCategory": "new",
-        "assignee": "Alexander Talavera",
-        "updated": "2026-08-20T15:49:46.775+0100",
-        "priority": "Cr\u00edtica",
-        "labels": []
       },
       {
         "key": "WSC-1643",
@@ -817,17 +855,6 @@
         ]
       },
       {
-        "key": "WSC-1681",
-        "url": "https://e2x.atlassian.net/browse/WSC-1681",
-        "summary": "[WS] Monthly vulnerability review (Snyk) Aug for Jul 2026 Maintain Report",
-        "status": "Finalizada",
-        "statusCategory": "done",
-        "assignee": "Rafael Paranagu\u00e1",
-        "updated": "2026-08-17T14:03:32.773+0100",
-        "priority": "Not Set",
-        "labels": []
-      },
-      {
         "key": "WSC-1630",
         "url": "https://e2x.atlassian.net/browse/WSC-1630",
         "summary": "Document White Stuff Vendors",
@@ -1256,19 +1283,6 @@
         "priority": "Poco importante",
         "labels": [
           "Needs-QA"
-        ]
-      },
-      {
-        "key": "WSC-1580",
-        "url": "https://e2x.atlassian.net/browse/WSC-1580",
-        "summary": "SITESPECT - deploy to Production",
-        "status": "Finalizada",
-        "statusCategory": "done",
-        "assignee": "Jair Huaman",
-        "updated": "2026-07-31T17:38:16.370+0100",
-        "priority": "Importante",
-        "labels": [
-          "NO_QA_REQUIRED"
         ]
       },
       {
