@@ -1,18 +1,18 @@
 {
-  "lastUpdated": "2026-08-20T20:29:28.665915+00:00",
+  "lastUpdated": "2026-08-21T01:20:48.223828+00:00",
   "jira": {
     "summary": {
       "total": 371,
       "byStatus": {
+        "Backlog": 12,
+        "En curso": 6,
+        "Tech Review": 8,
         "Listo": 21,
         "Ready to QA": 7,
-        "Backlog": 12,
-        "Tech Review": 8,
         "QA Approved": 3,
         "RETURNED BY QA": 1,
         "Blocked": 6,
         "IN QA": 1,
-        "En curso": 6,
         "Finalizada": 290,
         "Ready for Refinement": 1,
         "Deprecated": 13,
@@ -21,6 +21,42 @@
       }
     },
     "tickets": [
+      {
+        "key": "WSC-1712",
+        "url": "https://e2x.atlassian.net/browse/WSC-1712",
+        "summary": "[Automation] E2E Coverage for PDP Hard Refresh and SFS Product Scenarios",
+        "status": "Backlog",
+        "statusCategory": "new",
+        "assignee": "Gerardo Romero",
+        "updated": "2026-08-20T22:44:09.380+0100",
+        "priority": "Not Set",
+        "labels": []
+      },
+      {
+        "key": "WSC-1703",
+        "url": "https://e2x.atlassian.net/browse/WSC-1703",
+        "summary": "Add timeouts to Nuxt SSR HTTP clients",
+        "status": "En curso",
+        "statusCategory": "indeterminate",
+        "assignee": "Jair Huaman",
+        "updated": "2026-08-20T21:47:09.709+0100",
+        "priority": "Cr\u00edtica",
+        "labels": []
+      },
+      {
+        "key": "WSC-1619",
+        "url": "https://e2x.atlassian.net/browse/WSC-1619",
+        "summary": "Outbound request resilience: 429 backoff, concurrency limits & circuit breaking",
+        "status": "Tech Review",
+        "statusCategory": "indeterminate",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-08-20T21:46:22.938+0100",
+        "priority": "Cr\u00edtica",
+        "labels": [
+          "NO_QA_REQUIRED",
+          "co-build"
+        ]
+      },
       {
         "key": "WSC-1670",
         "url": "https://e2x.atlassian.net/browse/WSC-1670",
@@ -79,20 +115,6 @@
         ]
       },
       {
-        "key": "WSC-1619",
-        "url": "https://e2x.atlassian.net/browse/WSC-1619",
-        "summary": "Outbound request resilience: 429 backoff, concurrency limits & circuit breaking",
-        "status": "Tech Review",
-        "statusCategory": "indeterminate",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-08-20T17:17:18.256+0100",
-        "priority": "Cr\u00edtica",
-        "labels": [
-          "NO_QA_REQUIRED",
-          "co-build"
-        ]
-      },
-      {
         "key": "WSC-1607",
         "url": "https://e2x.atlassian.net/browse/WSC-1607",
         "summary": "PDP - Stylitics - Android issue",
@@ -117,17 +139,6 @@
         "labels": [
           "Needs-QA"
         ]
-      },
-      {
-        "key": "WSC-1712",
-        "url": "https://e2x.atlassian.net/browse/WSC-1712",
-        "summary": "[Automation] E2E Coverage for PDP Hard Refresh and SFS Product Scenarios",
-        "status": "Backlog",
-        "statusCategory": "new",
-        "assignee": "Gerardo Romero",
-        "updated": "2026-08-20T16:57:04.111+0100",
-        "priority": "Not Set",
-        "labels": []
       },
       {
         "key": "WSC-1647",
@@ -294,17 +305,6 @@
         "statusCategory": "indeterminate",
         "assignee": "enmanuel.ramirez",
         "updated": "2026-08-20T14:14:39.463+0100",
-        "priority": "Cr\u00edtica",
-        "labels": []
-      },
-      {
-        "key": "WSC-1703",
-        "url": "https://e2x.atlassian.net/browse/WSC-1703",
-        "summary": "Add timeouts to Nuxt SSR HTTP clients",
-        "status": "En curso",
-        "statusCategory": "indeterminate",
-        "assignee": "Jair Huaman",
-        "updated": "2026-08-20T14:14:36.351+0100",
         "priority": "Cr\u00edtica",
         "labels": []
       },
