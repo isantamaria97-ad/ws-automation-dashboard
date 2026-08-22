@@ -1,34 +1,82 @@
 {
-  "lastUpdated": "2026-08-21T20:26:41.902310+00:00",
+  "lastUpdated": "2026-08-22T01:16:25.757368+00:00",
   "jira": {
     "summary": {
       "total": 372,
       "byStatus": {
-        "Ready to QA": 6,
+        "PENDING DEV DEPLOY": 2,
+        "IN QA": 5,
+        "QA Approved": 7,
         "Blocked": 6,
         "En curso": 5,
         "Tech Review": 8,
         "Listo": 21,
         "Finalizada": 290,
-        "QA Approved": 5,
-        "RETURNED BY QA": 2,
-        "IN QA": 1,
+        "RETURNED BY QA": 1,
         "Backlog": 12,
         "Ready for Refinement": 1,
         "Deprecated": 13,
-        "PENDING DEV DEPLOY": 1,
         "READY FOR RELEASE": 1
       }
     },
     "tickets": [
       {
+        "key": "WSC-1647",
+        "url": "https://e2x.atlassian.net/browse/WSC-1647",
+        "summary": "CONTENT - new wider version of SEOTextBlock",
+        "status": "PENDING DEV DEPLOY",
+        "statusCategory": "new",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-08-22T01:29:55.240+0100",
+        "priority": "Importante",
+        "labels": []
+      },
+      {
+        "key": "WSC-1601",
+        "url": "https://e2x.atlassian.net/browse/WSC-1601",
+        "summary": "CONTENT - TwoForBanner amendments - notations",
+        "status": "IN QA",
+        "statusCategory": "indeterminate",
+        "assignee": "Gerardo Romero",
+        "updated": "2026-08-22T01:27:04.134+0100",
+        "priority": "Importante",
+        "labels": [
+          "Needs-QA",
+          "manualQA"
+        ]
+      },
+      {
+        "key": "WSC-1577",
+        "url": "https://e2x.atlassian.net/browse/WSC-1577",
+        "summary": "[WSSD-633] Add per-email rate limiting to the password reset endpoint",
+        "status": "QA Approved",
+        "statusCategory": "indeterminate",
+        "assignee": "Alexander Talavera",
+        "updated": "2026-08-22T01:25:10.375+0100",
+        "priority": "Importante",
+        "labels": [
+          "Needs-QA"
+        ]
+      },
+      {
+        "key": "WSC-1578",
+        "url": "https://e2x.atlassian.net/browse/WSC-1578",
+        "summary": "[WSSD-633] Add Cloudflare rate limiting rule for the password reset endpoint",
+        "status": "QA Approved",
+        "statusCategory": "indeterminate",
+        "assignee": "Alexander Talavera",
+        "updated": "2026-08-22T01:24:28.363+0100",
+        "priority": "Importante",
+        "labels": []
+      },
+      {
         "key": "WSC-1715",
         "url": "https://e2x.atlassian.net/browse/WSC-1715",
         "summary": "Fix PLP hydration mismatch by hoisting useContent out of useAsync",
-        "status": "Ready to QA",
-        "statusCategory": "new",
+        "status": "IN QA",
+        "statusCategory": "indeterminate",
         "assignee": "enmanuel.ramirez",
-        "updated": "2026-08-21T20:19:47.348+0100",
+        "updated": "2026-08-22T00:08:29.509+0100",
         "priority": "Not Set",
         "labels": [
           "NO_QA_REQUIRED"
@@ -38,10 +86,10 @@
         "key": "WSC-1703",
         "url": "https://e2x.atlassian.net/browse/WSC-1703",
         "summary": "Add timeouts to Nuxt SSR HTTP clients",
-        "status": "Ready to QA",
-        "statusCategory": "new",
+        "status": "IN QA",
+        "statusCategory": "indeterminate",
         "assignee": "enmanuel.ramirez",
-        "updated": "2026-08-21T19:44:13.989+0100",
+        "updated": "2026-08-22T00:08:23.894+0100",
         "priority": "Cr\u00edtica",
         "labels": []
       },
@@ -49,14 +97,28 @@
         "key": "WSC-1654",
         "url": "https://e2x.atlassian.net/browse/WSC-1654",
         "summary": "Short-circuit unknown content-page URLs using an Amplience-derived valid-slug registry",
-        "status": "Ready to QA",
-        "statusCategory": "new",
+        "status": "IN QA",
+        "statusCategory": "indeterminate",
         "assignee": "enmanuel.ramirez",
-        "updated": "2026-08-21T19:10:25.954+0100",
+        "updated": "2026-08-22T00:08:13.704+0100",
         "priority": "Cr\u00edtica",
         "labels": [
           "NO_QA_REQUIRED",
           "accelerated"
+        ]
+      },
+      {
+        "key": "WSC-1619",
+        "url": "https://e2x.atlassian.net/browse/WSC-1619",
+        "summary": "Outbound request resilience: 429 backoff, concurrency limits & circuit breaking",
+        "status": "IN QA",
+        "statusCategory": "indeterminate",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-08-22T00:08:07.912+0100",
+        "priority": "Cr\u00edtica",
+        "labels": [
+          "NO_QA_REQUIRED",
+          "co-build"
         ]
       },
       {
@@ -93,20 +155,6 @@
         "labels": []
       },
       {
-        "key": "WSC-1619",
-        "url": "https://e2x.atlassian.net/browse/WSC-1619",
-        "summary": "Outbound request resilience: 429 backoff, concurrency limits & circuit breaking",
-        "status": "Ready to QA",
-        "statusCategory": "new",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-08-21T19:03:01.678+0100",
-        "priority": "Cr\u00edtica",
-        "labels": [
-          "NO_QA_REQUIRED",
-          "co-build"
-        ]
-      },
-      {
         "key": "WSC-1422",
         "url": "https://e2x.atlassian.net/browse/WSC-1422",
         "summary": "Desktop/Mobile: SIDE PANEL - standardise width",
@@ -118,30 +166,6 @@
         "labels": [
           "Needs-QA"
         ]
-      },
-      {
-        "key": "WSC-1577",
-        "url": "https://e2x.atlassian.net/browse/WSC-1577",
-        "summary": "[WSSD-633] Add per-email rate limiting to the password reset endpoint",
-        "status": "Ready to QA",
-        "statusCategory": "new",
-        "assignee": "Alexander Talavera",
-        "updated": "2026-08-21T18:04:58.335+0100",
-        "priority": "Importante",
-        "labels": [
-          "Needs-QA"
-        ]
-      },
-      {
-        "key": "WSC-1578",
-        "url": "https://e2x.atlassian.net/browse/WSC-1578",
-        "summary": "[WSSD-633] Add Cloudflare rate limiting rule for the password reset endpoint",
-        "status": "Ready to QA",
-        "statusCategory": "new",
-        "assignee": "Alexander Talavera",
-        "updated": "2026-08-21T18:04:56.646+0100",
-        "priority": "Importante",
-        "labels": []
       },
       {
         "key": "WSC-1594",
@@ -222,20 +246,6 @@
         "labels": []
       },
       {
-        "key": "WSC-1601",
-        "url": "https://e2x.atlassian.net/browse/WSC-1601",
-        "summary": "CONTENT - TwoForBanner amendments - notations",
-        "status": "IN QA",
-        "statusCategory": "indeterminate",
-        "assignee": "Gerardo Romero",
-        "updated": "2026-08-21T17:17:03.946+0100",
-        "priority": "Importante",
-        "labels": [
-          "Needs-QA",
-          "manualQA"
-        ]
-      },
-      {
         "key": "WSC-1712",
         "url": "https://e2x.atlassian.net/browse/WSC-1712",
         "summary": "[Automation] E2E Coverage for PDP Hard Refresh and SFS Product Scenarios",
@@ -270,17 +280,6 @@
           "Needs-QA",
           "manualQA"
         ]
-      },
-      {
-        "key": "WSC-1647",
-        "url": "https://e2x.atlassian.net/browse/WSC-1647",
-        "summary": "CONTENT - new wider version of SEOTextBlock",
-        "status": "RETURNED BY QA",
-        "statusCategory": "indeterminate",
-        "assignee": "Alexander Talavera",
-        "updated": "2026-08-21T16:29:45.634+0100",
-        "priority": "Importante",
-        "labels": []
       },
       {
         "key": "WSC-1607",
