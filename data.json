@@ -1,15 +1,15 @@
 {
-  "lastUpdated": "2026-08-22T12:40:11.679520+00:00",
+  "lastUpdated": "2026-08-22T16:25:26.505730+00:00",
   "jira": {
     "summary": {
       "total": 372,
       "byStatus": {
+        "Tech Review": 9,
         "PENDING DEV DEPLOY": 2,
         "IN QA": 5,
         "QA Approved": 7,
         "Blocked": 6,
-        "En curso": 5,
-        "Tech Review": 8,
+        "En curso": 4,
         "Listo": 21,
         "Finalizada": 290,
         "RETURNED BY QA": 1,
@@ -20,6 +20,20 @@
       }
     },
     "tickets": [
+      {
+        "key": "WSC-1698",
+        "url": "https://e2x.atlassian.net/browse/WSC-1698",
+        "summary": "[WSSD-708] - PDP - BazaarVoice reviews only appear when navigating from PLP",
+        "status": "Tech Review",
+        "statusCategory": "indeterminate",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-08-22T17:09:59.358+0100",
+        "priority": "Importante",
+        "labels": [
+          "Needs-QA",
+          "accelerated"
+        ]
+      },
       {
         "key": "WSC-1647",
         "url": "https://e2x.atlassian.net/browse/WSC-1647",
@@ -192,20 +206,6 @@
         "priority": "Importante",
         "labels": [
           "NO_QA_REQUIRED"
-        ]
-      },
-      {
-        "key": "WSC-1698",
-        "url": "https://e2x.atlassian.net/browse/WSC-1698",
-        "summary": "[WSSD-708] - PDP - BazaarVoice reviews only appear when navigating from PLP",
-        "status": "En curso",
-        "statusCategory": "indeterminate",
-        "assignee": "Jair Huaman",
-        "updated": "2026-08-21T18:01:26.444+0100",
-        "priority": "Importante",
-        "labels": [
-          "Needs-QA",
-          "accelerated"
         ]
       },
       {
