@@ -1,35 +1,152 @@
 {
-  "lastUpdated": "2026-08-24T12:51:53.747052+00:00",
+  "lastUpdated": "2026-08-24T16:38:14.153535+00:00",
   "jira": {
     "summary": {
-      "total": 372,
+      "total": 373,
       "byStatus": {
+        "PENDING DEV DEPLOY": 2,
+        "Ready to QA": 1,
+        "En curso": 5,
+        "IN QA": 5,
+        "RETURNED BY QA": 1,
+        "Deprecated": 14,
+        "Listo": 19,
         "Backlog": 12,
         "QA Approved": 7,
-        "IN QA": 5,
-        "Tech Review": 10,
-        "PENDING DEV DEPLOY": 2,
+        "Tech Review": 9,
         "Blocked": 6,
-        "En curso": 4,
-        "Listo": 20,
         "Finalizada": 290,
-        "RETURNED BY QA": 1,
         "Ready for Refinement": 1,
-        "Deprecated": 13,
         "READY FOR RELEASE": 1
       }
     },
     "tickets": [
       {
+        "key": "WSC-1647",
+        "url": "https://e2x.atlassian.net/browse/WSC-1647",
+        "summary": "CONTENT - new wider version of SEOTextBlock",
+        "status": "PENDING DEV DEPLOY",
+        "statusCategory": "new",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-08-24T17:19:58.823+0100",
+        "priority": "Importante",
+        "labels": []
+      },
+      {
+        "key": "WSC-1679",
+        "url": "https://e2x.atlassian.net/browse/WSC-1679",
+        "summary": "SLIM BANNER - control Benefit Bar",
+        "status": "Ready to QA",
+        "statusCategory": "new",
+        "assignee": "Ingrith Santamaria",
+        "updated": "2026-08-24T17:19:57.040+0100",
+        "priority": "Importante",
+        "labels": [
+          "co-build"
+        ]
+      },
+      {
+        "key": "WSC-1674",
+        "url": "https://e2x.atlassian.net/browse/WSC-1674",
+        "summary": "UX - email and password validation",
+        "status": "En curso",
+        "statusCategory": "indeterminate",
+        "assignee": "Jair Huaman",
+        "updated": "2026-08-24T17:12:36.140+0100",
+        "priority": "Importante",
+        "labels": [
+          "Needs-QA",
+          "automatable"
+        ]
+      },
+      {
         "key": "WSC-1712",
         "url": "https://e2x.atlassian.net/browse/WSC-1712",
         "summary": "[Automation] E2E Coverage for PDP Hard Refresh and SFS Product Scenarios",
-        "status": "Backlog",
-        "statusCategory": "new",
+        "status": "En curso",
+        "statusCategory": "indeterminate",
         "assignee": "Gerardo Romero",
-        "updated": "2026-08-24T13:49:55.556+0100",
+        "updated": "2026-08-24T16:49:28.647+0100",
         "priority": "Not Set",
         "labels": []
+      },
+      {
+        "key": "WSC-1601",
+        "url": "https://e2x.atlassian.net/browse/WSC-1601",
+        "summary": "CONTENT - TwoForBanner amendments - notations",
+        "status": "IN QA",
+        "statusCategory": "indeterminate",
+        "assignee": "Gerardo Romero",
+        "updated": "2026-08-24T15:50:14.137+0100",
+        "priority": "Importante",
+        "labels": [
+          "Needs-QA",
+          "manualQA"
+        ]
+      },
+      {
+        "key": "WSC-1422",
+        "url": "https://e2x.atlassian.net/browse/WSC-1422",
+        "summary": "Desktop/Mobile: SIDE PANEL - standardise width",
+        "status": "En curso",
+        "statusCategory": "indeterminate",
+        "assignee": "Alexander Talavera",
+        "updated": "2026-08-24T15:27:16.228+0100",
+        "priority": "Poco importante",
+        "labels": [
+          "Needs-QA"
+        ]
+      },
+      {
+        "key": "WSC-173",
+        "url": "https://e2x.atlassian.net/browse/WSC-173",
+        "summary": "SEO - fix to product schema for PDP for reviews and ratings",
+        "status": "RETURNED BY QA",
+        "statusCategory": "indeterminate",
+        "assignee": "Jair Huaman",
+        "updated": "2026-08-24T15:22:35.144+0100",
+        "priority": "Poco importante",
+        "labels": [
+          "Needs-QA"
+        ]
+      },
+      {
+        "key": "WSC-1664",
+        "url": "https://e2x.atlassian.net/browse/WSC-1664",
+        "summary": "Restore site response times after Cloudflare cache rule change (SiteSpect/Forte)",
+        "status": "Deprecated",
+        "statusCategory": "done",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-08-24T15:21:09.074+0100",
+        "priority": "Cr\u00edtica",
+        "labels": []
+      },
+      {
+        "key": "WSC-1594",
+        "url": "https://e2x.atlassian.net/browse/WSC-1594",
+        "summary": "SFS - item SFS data on VSF",
+        "status": "Listo",
+        "statusCategory": "new",
+        "assignee": "Alexander Talavera",
+        "updated": "2026-08-24T15:13:06.133+0100",
+        "priority": "Importante",
+        "labels": [
+          "Needs-QA",
+          "automatable"
+        ]
+      },
+      {
+        "key": "WSC-1714",
+        "url": "https://e2x.atlassian.net/browse/WSC-1714",
+        "summary": "HOME - Safari mobile - Page clips to the right when navigating to home via the White Stuff logo",
+        "status": "Backlog",
+        "statusCategory": "new",
+        "assignee": "Unassigned",
+        "updated": "2026-08-24T15:07:37.589+0100",
+        "priority": "Importante",
+        "labels": [
+          "Needs-QA"
+        ]
       },
       {
         "key": "WSC-1607",
@@ -45,31 +162,6 @@
         ]
       },
       {
-        "key": "WSC-1601",
-        "url": "https://e2x.atlassian.net/browse/WSC-1601",
-        "summary": "CONTENT - TwoForBanner amendments - notations",
-        "status": "IN QA",
-        "statusCategory": "indeterminate",
-        "assignee": "Gerardo Romero",
-        "updated": "2026-08-24T10:45:33.501+0100",
-        "priority": "Importante",
-        "labels": [
-          "Needs-QA",
-          "manualQA"
-        ]
-      },
-      {
-        "key": "WSC-1679",
-        "url": "https://e2x.atlassian.net/browse/WSC-1679",
-        "summary": "SLIM BANNER - control Benefit Bar",
-        "status": "Tech Review",
-        "statusCategory": "indeterminate",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-08-24T03:08:33.129+0100",
-        "priority": "Importante",
-        "labels": []
-      },
-      {
         "key": "WSC-1698",
         "url": "https://e2x.atlassian.net/browse/WSC-1698",
         "summary": "[WSSD-708] - PDP - BazaarVoice reviews only appear when navigating from PLP",
@@ -82,17 +174,6 @@
           "Needs-QA",
           "accelerated"
         ]
-      },
-      {
-        "key": "WSC-1647",
-        "url": "https://e2x.atlassian.net/browse/WSC-1647",
-        "summary": "CONTENT - new wider version of SEOTextBlock",
-        "status": "PENDING DEV DEPLOY",
-        "statusCategory": "new",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-08-22T01:29:55.240+0100",
-        "priority": "Importante",
-        "labels": []
       },
       {
         "key": "WSC-1577",
@@ -182,17 +263,6 @@
         "labels": []
       },
       {
-        "key": "WSC-1664",
-        "url": "https://e2x.atlassian.net/browse/WSC-1664",
-        "summary": "Restore site response times after Cloudflare cache rule change (SiteSpect/Forte)",
-        "status": "En curso",
-        "statusCategory": "indeterminate",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-08-21T19:08:16.645+0100",
-        "priority": "Cr\u00edtica",
-        "labels": []
-      },
-      {
         "key": "WSC-1636",
         "url": "https://e2x.atlassian.net/browse/WSC-1636",
         "summary": "Tighten Super Bot Fight Mode policy: Block Automated, Managed Challenge Likely Automated",
@@ -202,33 +272,6 @@
         "updated": "2026-08-21T19:07:29.143+0100",
         "priority": "Cr\u00edtica",
         "labels": []
-      },
-      {
-        "key": "WSC-1422",
-        "url": "https://e2x.atlassian.net/browse/WSC-1422",
-        "summary": "Desktop/Mobile: SIDE PANEL - standardise width",
-        "status": "Listo",
-        "statusCategory": "new",
-        "assignee": "Alexander Talavera",
-        "updated": "2026-08-21T18:05:14.983+0100",
-        "priority": "Poco importante",
-        "labels": [
-          "Needs-QA"
-        ]
-      },
-      {
-        "key": "WSC-1594",
-        "url": "https://e2x.atlassian.net/browse/WSC-1594",
-        "summary": "SFS - item SFS data on VSF",
-        "status": "En curso",
-        "statusCategory": "indeterminate",
-        "assignee": "Alexander Talavera",
-        "updated": "2026-08-21T18:03:35.725+0100",
-        "priority": "Importante",
-        "labels": [
-          "Needs-QA",
-          "automatable"
-        ]
       },
       {
         "key": "WSC-1580",
@@ -252,19 +295,6 @@
         "assignee": "Ingrith Santamaria",
         "updated": "2026-08-21T17:57:56.044+0100",
         "priority": "Trivial",
-        "labels": [
-          "Needs-QA"
-        ]
-      },
-      {
-        "key": "WSC-173",
-        "url": "https://e2x.atlassian.net/browse/WSC-173",
-        "summary": "SEO - fix to product schema for PDP for reviews and ratings",
-        "status": "RETURNED BY QA",
-        "statusCategory": "indeterminate",
-        "assignee": "Rafael Paranagu\u00e1",
-        "updated": "2026-08-21T17:46:47.744+0100",
-        "priority": "Poco importante",
         "labels": [
           "Needs-QA"
         ]
@@ -666,20 +696,6 @@
         "labels": [
           "CSP",
           "NO_QA_REQUIRED"
-        ]
-      },
-      {
-        "key": "WSC-1674",
-        "url": "https://e2x.atlassian.net/browse/WSC-1674",
-        "summary": "UX - email and password validation",
-        "status": "Listo",
-        "statusCategory": "new",
-        "assignee": "Jair Huaman",
-        "updated": "2026-08-18T17:44:25.477+0100",
-        "priority": "Importante",
-        "labels": [
-          "Needs-QA",
-          "automatable"
         ]
       },
       {
