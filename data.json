@@ -1,16 +1,16 @@
 {
-  "lastUpdated": "2026-08-24T01:20:36.988834+00:00",
+  "lastUpdated": "2026-08-24T04:45:47.610163+00:00",
   "jira": {
     "summary": {
       "total": 372,
       "byStatus": {
-        "Tech Review": 9,
+        "Tech Review": 10,
         "PENDING DEV DEPLOY": 2,
         "IN QA": 5,
         "QA Approved": 7,
         "Blocked": 6,
         "En curso": 4,
-        "Listo": 21,
+        "Listo": 20,
         "Finalizada": 290,
         "RETURNED BY QA": 1,
         "Backlog": 12,
@@ -20,6 +20,17 @@
       }
     },
     "tickets": [
+      {
+        "key": "WSC-1679",
+        "url": "https://e2x.atlassian.net/browse/WSC-1679",
+        "summary": "SLIM BANNER - control Benefit Bar",
+        "status": "Tech Review",
+        "statusCategory": "indeterminate",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-08-24T03:08:33.129+0100",
+        "priority": "Importante",
+        "labels": []
+      },
       {
         "key": "WSC-1698",
         "url": "https://e2x.atlassian.net/browse/WSC-1698",
@@ -670,17 +681,6 @@
           "Needs-QA",
           "automatable"
         ]
-      },
-      {
-        "key": "WSC-1679",
-        "url": "https://e2x.atlassian.net/browse/WSC-1679",
-        "summary": "SLIM BANNER - control Benefit Bar",
-        "status": "Listo",
-        "statusCategory": "new",
-        "assignee": "Jair Huaman",
-        "updated": "2026-08-18T17:44:12.099+0100",
-        "priority": "Importante",
-        "labels": []
       },
       {
         "key": "WSC-1433",
