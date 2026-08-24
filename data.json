@@ -1,25 +1,63 @@
 {
-  "lastUpdated": "2026-08-24T08:49:26.545132+00:00",
+  "lastUpdated": "2026-08-24T12:51:53.747052+00:00",
   "jira": {
     "summary": {
       "total": 372,
       "byStatus": {
+        "Backlog": 12,
+        "QA Approved": 7,
+        "IN QA": 5,
         "Tech Review": 10,
         "PENDING DEV DEPLOY": 2,
-        "IN QA": 5,
-        "QA Approved": 7,
         "Blocked": 6,
         "En curso": 4,
         "Listo": 20,
         "Finalizada": 290,
         "RETURNED BY QA": 1,
-        "Backlog": 12,
         "Ready for Refinement": 1,
         "Deprecated": 13,
         "READY FOR RELEASE": 1
       }
     },
     "tickets": [
+      {
+        "key": "WSC-1712",
+        "url": "https://e2x.atlassian.net/browse/WSC-1712",
+        "summary": "[Automation] E2E Coverage for PDP Hard Refresh and SFS Product Scenarios",
+        "status": "Backlog",
+        "statusCategory": "new",
+        "assignee": "Gerardo Romero",
+        "updated": "2026-08-24T13:49:55.556+0100",
+        "priority": "Not Set",
+        "labels": []
+      },
+      {
+        "key": "WSC-1607",
+        "url": "https://e2x.atlassian.net/browse/WSC-1607",
+        "summary": "PDP - Stylitics - Android issue",
+        "status": "QA Approved",
+        "statusCategory": "indeterminate",
+        "assignee": "Ingrith Santamaria",
+        "updated": "2026-08-24T13:44:47.493+0100",
+        "priority": "Poco importante",
+        "labels": [
+          "accelerated"
+        ]
+      },
+      {
+        "key": "WSC-1601",
+        "url": "https://e2x.atlassian.net/browse/WSC-1601",
+        "summary": "CONTENT - TwoForBanner amendments - notations",
+        "status": "IN QA",
+        "statusCategory": "indeterminate",
+        "assignee": "Gerardo Romero",
+        "updated": "2026-08-24T10:45:33.501+0100",
+        "priority": "Importante",
+        "labels": [
+          "Needs-QA",
+          "manualQA"
+        ]
+      },
       {
         "key": "WSC-1679",
         "url": "https://e2x.atlassian.net/browse/WSC-1679",
@@ -55,20 +93,6 @@
         "updated": "2026-08-22T01:29:55.240+0100",
         "priority": "Importante",
         "labels": []
-      },
-      {
-        "key": "WSC-1601",
-        "url": "https://e2x.atlassian.net/browse/WSC-1601",
-        "summary": "CONTENT - TwoForBanner amendments - notations",
-        "status": "IN QA",
-        "statusCategory": "indeterminate",
-        "assignee": "Gerardo Romero",
-        "updated": "2026-08-22T01:27:04.134+0100",
-        "priority": "Importante",
-        "labels": [
-          "Needs-QA",
-          "manualQA"
-        ]
       },
       {
         "key": "WSC-1577",
@@ -257,17 +281,6 @@
         "labels": []
       },
       {
-        "key": "WSC-1712",
-        "url": "https://e2x.atlassian.net/browse/WSC-1712",
-        "summary": "[Automation] E2E Coverage for PDP Hard Refresh and SFS Product Scenarios",
-        "status": "Backlog",
-        "statusCategory": "new",
-        "assignee": "Gerardo Romero",
-        "updated": "2026-08-21T16:55:34.638+0100",
-        "priority": "Not Set",
-        "labels": []
-      },
-      {
         "key": "WSC-1700",
         "url": "https://e2x.atlassian.net/browse/WSC-1700",
         "summary": "[WSSD-712] - APPLE PAY EXPRESS - fails in mini bag, bag & checkout identity when a coupon code is applied",
@@ -290,19 +303,6 @@
         "labels": [
           "Needs-QA",
           "manualQA"
-        ]
-      },
-      {
-        "key": "WSC-1607",
-        "url": "https://e2x.atlassian.net/browse/WSC-1607",
-        "summary": "PDP - Stylitics - Android issue",
-        "status": "QA Approved",
-        "statusCategory": "indeterminate",
-        "assignee": "Ingrith Santamaria",
-        "updated": "2026-08-21T16:28:24.130+0100",
-        "priority": "Poco importante",
-        "labels": [
-          "accelerated"
         ]
       },
       {
