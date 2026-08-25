@@ -1,20 +1,19 @@
 {
-  "lastUpdated": "2026-08-25T12:49:10.504862+00:00",
+  "lastUpdated": "2026-08-25T16:38:08.004727+00:00",
   "jira": {
     "summary": {
       "total": 380,
       "byStatus": {
-        "QA Approved": 12,
-        "Listo": 18,
-        "Ready to QA": 2,
-        "En curso": 4,
-        "Backlog": 18,
-        "RETURNED BY QA": 1,
-        "Deprecated": 14,
+        "QA Approved": 14,
         "Tech Review": 9,
         "IN QA": 3,
         "Blocked": 6,
         "Finalizada": 290,
+        "Listo": 19,
+        "Backlog": 17,
+        "En curso": 4,
+        "RETURNED BY QA": 1,
+        "Deprecated": 14,
         "Ready for Refinement": 1,
         "PENDING DEV DEPLOY": 1,
         "READY FOR RELEASE": 1
@@ -22,16 +21,164 @@
     },
     "tickets": [
       {
+        "key": "WSC-1715",
+        "url": "https://e2x.atlassian.net/browse/WSC-1715",
+        "summary": "Fix PLP hydration mismatch by hoisting useContent out of useAsync",
+        "status": "QA Approved",
+        "statusCategory": "indeterminate",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-08-25T17:37:43.786+0100",
+        "priority": "Not Set",
+        "labels": [
+          "NO_QA_REQUIRED"
+        ]
+      },
+      {
+        "key": "WSC-1636",
+        "url": "https://e2x.atlassian.net/browse/WSC-1636",
+        "summary": "Tighten Super Bot Fight Mode policy: Block Automated, Managed Challenge Likely Automated",
+        "status": "Tech Review",
+        "statusCategory": "indeterminate",
+        "assignee": "Jair Huaman",
+        "updated": "2026-08-25T17:15:18.709+0100",
+        "priority": "Cr\u00edtica",
+        "labels": []
+      },
+      {
+        "key": "WSC-1422",
+        "url": "https://e2x.atlassian.net/browse/WSC-1422",
+        "summary": "Desktop/Mobile: SIDE PANEL - standardise width",
+        "status": "QA Approved",
+        "statusCategory": "indeterminate",
+        "assignee": "Ingrith Santamaria",
+        "updated": "2026-08-25T17:14:29.871+0100",
+        "priority": "Poco importante",
+        "labels": [
+          "Needs-QA"
+        ]
+      },
+      {
+        "key": "WSC-1703",
+        "url": "https://e2x.atlassian.net/browse/WSC-1703",
+        "summary": "Add timeouts to Nuxt SSR HTTP clients",
+        "status": "IN QA",
+        "statusCategory": "indeterminate",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-08-25T16:01:09.198+0100",
+        "priority": "Cr\u00edtica",
+        "labels": []
+      },
+      {
+        "key": "WSC-1637",
+        "url": "https://e2x.atlassian.net/browse/WSC-1637",
+        "summary": "Add Cloudflare rate limiting rules for excessive 404/403 responses (page-level and API)",
+        "status": "Blocked",
+        "statusCategory": "new",
+        "assignee": "Alexander Talavera",
+        "updated": "2026-08-25T16:01:08.690+0100",
+        "priority": "Cr\u00edtica",
+        "labels": []
+      },
+      {
         "key": "WSC-1716",
         "url": "https://e2x.atlassian.net/browse/WSC-1716",
         "summary": "PLP - Cannot add product to cart when navigating from WS marketing email discount links",
         "status": "QA Approved",
         "statusCategory": "indeterminate",
         "assignee": "enmanuel.ramirez",
-        "updated": "2026-08-25T13:41:15.316+0100",
+        "updated": "2026-08-25T16:01:07.877+0100",
         "priority": "Importante",
         "labels": [
           "Needs-QA"
+        ]
+      },
+      {
+        "key": "WSC-1619",
+        "url": "https://e2x.atlassian.net/browse/WSC-1619",
+        "summary": "Outbound request resilience: 429 backoff, concurrency limits & circuit breaking",
+        "status": "IN QA",
+        "statusCategory": "indeterminate",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-08-25T16:01:07.494+0100",
+        "priority": "Cr\u00edtica",
+        "labels": [
+          "NO_QA_REQUIRED",
+          "co-build"
+        ]
+      },
+      {
+        "key": "WSC-1654",
+        "url": "https://e2x.atlassian.net/browse/WSC-1654",
+        "summary": "Short-circuit unknown content-page URLs using an Amplience-derived valid-slug registry",
+        "status": "QA Approved",
+        "statusCategory": "indeterminate",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-08-25T16:01:06.867+0100",
+        "priority": "Cr\u00edtica",
+        "labels": [
+          "NO_QA_REQUIRED",
+          "accelerated"
+        ]
+      },
+      {
+        "key": "WSC-1700",
+        "url": "https://e2x.atlassian.net/browse/WSC-1700",
+        "summary": "[WSSD-712] - APPLE PAY EXPRESS - fails in mini bag, bag & checkout identity when a coupon code is applied",
+        "status": "Finalizada",
+        "statusCategory": "done",
+        "assignee": "Ingrith Santamaria",
+        "updated": "2026-08-25T15:58:52.764+0100",
+        "priority": "Importante",
+        "labels": []
+      },
+      {
+        "key": "WSC-1714",
+        "url": "https://e2x.atlassian.net/browse/WSC-1714",
+        "summary": "Mobile - Page clips to the right ",
+        "status": "Listo",
+        "statusCategory": "new",
+        "assignee": "Unassigned",
+        "updated": "2026-08-25T15:58:06.124+0100",
+        "priority": "Importante",
+        "labels": [
+          "Needs-QA"
+        ]
+      },
+      {
+        "key": "WSC-1712",
+        "url": "https://e2x.atlassian.net/browse/WSC-1712",
+        "summary": "[Automation] E2E Coverage for PDP Hard Refresh and SFS Product Scenarios",
+        "status": "QA Approved",
+        "statusCategory": "indeterminate",
+        "assignee": "Gerardo Romero",
+        "updated": "2026-08-25T15:44:08.243+0100",
+        "priority": "Not Set",
+        "labels": []
+      },
+      {
+        "key": "WSC-1679",
+        "url": "https://e2x.atlassian.net/browse/WSC-1679",
+        "summary": "SLIM BANNER - control Benefit Bar",
+        "status": "IN QA",
+        "statusCategory": "indeterminate",
+        "assignee": "Gerardo Romero",
+        "updated": "2026-08-25T15:43:46.445+0100",
+        "priority": "Importante",
+        "labels": [
+          "co-build"
+        ]
+      },
+      {
+        "key": "WSC-1686",
+        "url": "https://e2x.atlassian.net/browse/WSC-1686",
+        "summary": "[White Stuff] High Vulnerabilities Report - July 2026",
+        "status": "Backlog",
+        "statusCategory": "new",
+        "assignee": "Unassigned",
+        "updated": "2026-08-25T14:24:20.951+0100",
+        "priority": "Not Set",
+        "labels": [
+          "NO_QA_REQUIRED"
         ]
       },
       {
@@ -88,57 +235,6 @@
           "Needs-QA",
           "automatable",
           "manualQA"
-        ]
-      },
-      {
-        "key": "WSC-1422",
-        "url": "https://e2x.atlassian.net/browse/WSC-1422",
-        "summary": "Desktop/Mobile: SIDE PANEL - standardise width",
-        "status": "Ready to QA",
-        "statusCategory": "new",
-        "assignee": "Unassigned",
-        "updated": "2026-08-25T04:08:53.394+0100",
-        "priority": "Poco importante",
-        "labels": [
-          "Needs-QA"
-        ]
-      },
-      {
-        "key": "WSC-1654",
-        "url": "https://e2x.atlassian.net/browse/WSC-1654",
-        "summary": "Short-circuit unknown content-page URLs using an Amplience-derived valid-slug registry",
-        "status": "QA Approved",
-        "statusCategory": "indeterminate",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-08-25T01:37:01.784+0100",
-        "priority": "Cr\u00edtica",
-        "labels": [
-          "NO_QA_REQUIRED",
-          "accelerated"
-        ]
-      },
-      {
-        "key": "WSC-1712",
-        "url": "https://e2x.atlassian.net/browse/WSC-1712",
-        "summary": "[Automation] E2E Coverage for PDP Hard Refresh and SFS Product Scenarios",
-        "status": "QA Approved",
-        "statusCategory": "indeterminate",
-        "assignee": "Gerardo Romero",
-        "updated": "2026-08-24T22:53:38.773+0100",
-        "priority": "Not Set",
-        "labels": []
-      },
-      {
-        "key": "WSC-1679",
-        "url": "https://e2x.atlassian.net/browse/WSC-1679",
-        "summary": "SLIM BANNER - control Benefit Bar",
-        "status": "Ready to QA",
-        "statusCategory": "new",
-        "assignee": "Gerardo Romero",
-        "updated": "2026-08-24T22:11:44.020+0100",
-        "priority": "Importante",
-        "labels": [
-          "co-build"
         ]
       },
       {
@@ -201,19 +297,6 @@
         "updated": "2026-08-24T18:01:53.228+0100",
         "priority": "Cr\u00edtica",
         "labels": []
-      },
-      {
-        "key": "WSC-1686",
-        "url": "https://e2x.atlassian.net/browse/WSC-1686",
-        "summary": "[White Stuff] High Vulnerabilities Report - July 2026",
-        "status": "Backlog",
-        "statusCategory": "new",
-        "assignee": "Unassigned",
-        "updated": "2026-08-24T18:01:25.089+0100",
-        "priority": "Not Set",
-        "labels": [
-          "NO_QA_REQUIRED"
-        ]
       },
       {
         "key": "WSC-1708",
@@ -287,19 +370,6 @@
         "labels": []
       },
       {
-        "key": "WSC-1714",
-        "url": "https://e2x.atlassian.net/browse/WSC-1714",
-        "summary": "HOME - Safari mobile - Page clips to the right when navigating to home via the White Stuff logo",
-        "status": "Backlog",
-        "statusCategory": "new",
-        "assignee": "Unassigned",
-        "updated": "2026-08-24T15:07:37.589+0100",
-        "priority": "Importante",
-        "labels": [
-          "Needs-QA"
-        ]
-      },
-      {
         "key": "WSC-1607",
         "url": "https://e2x.atlassian.net/browse/WSC-1607",
         "summary": "PDP - Stylitics - Android issue",
@@ -351,66 +421,6 @@
         "labels": []
       },
       {
-        "key": "WSC-1715",
-        "url": "https://e2x.atlassian.net/browse/WSC-1715",
-        "summary": "Fix PLP hydration mismatch by hoisting useContent out of useAsync",
-        "status": "IN QA",
-        "statusCategory": "indeterminate",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-08-22T00:08:29.509+0100",
-        "priority": "Not Set",
-        "labels": [
-          "NO_QA_REQUIRED"
-        ]
-      },
-      {
-        "key": "WSC-1703",
-        "url": "https://e2x.atlassian.net/browse/WSC-1703",
-        "summary": "Add timeouts to Nuxt SSR HTTP clients",
-        "status": "IN QA",
-        "statusCategory": "indeterminate",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-08-22T00:08:23.894+0100",
-        "priority": "Cr\u00edtica",
-        "labels": []
-      },
-      {
-        "key": "WSC-1619",
-        "url": "https://e2x.atlassian.net/browse/WSC-1619",
-        "summary": "Outbound request resilience: 429 backoff, concurrency limits & circuit breaking",
-        "status": "IN QA",
-        "statusCategory": "indeterminate",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-08-22T00:08:07.912+0100",
-        "priority": "Cr\u00edtica",
-        "labels": [
-          "NO_QA_REQUIRED",
-          "co-build"
-        ]
-      },
-      {
-        "key": "WSC-1637",
-        "url": "https://e2x.atlassian.net/browse/WSC-1637",
-        "summary": "Add Cloudflare rate limiting rules for excessive 404/403 responses (page-level and API)",
-        "status": "Blocked",
-        "statusCategory": "new",
-        "assignee": "Alexander Talavera",
-        "updated": "2026-08-21T19:10:00.520+0100",
-        "priority": "Cr\u00edtica",
-        "labels": []
-      },
-      {
-        "key": "WSC-1636",
-        "url": "https://e2x.atlassian.net/browse/WSC-1636",
-        "summary": "Tighten Super Bot Fight Mode policy: Block Automated, Managed Challenge Likely Automated",
-        "status": "Tech Review",
-        "statusCategory": "indeterminate",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-08-21T19:07:29.143+0100",
-        "priority": "Cr\u00edtica",
-        "labels": []
-      },
-      {
         "key": "WSC-1580",
         "url": "https://e2x.atlassian.net/browse/WSC-1580",
         "summary": "SITESPECT - deploy to Production",
@@ -445,17 +455,6 @@
         "assignee": "Rafael Paranagu\u00e1",
         "updated": "2026-08-21T17:45:51.008+0100",
         "priority": "Not Set",
-        "labels": []
-      },
-      {
-        "key": "WSC-1700",
-        "url": "https://e2x.atlassian.net/browse/WSC-1700",
-        "summary": "[WSSD-712] - APPLE PAY EXPRESS - fails in mini bag, bag & checkout identity when a coupon code is applied",
-        "status": "Finalizada",
-        "statusCategory": "done",
-        "assignee": "Ingrith Santamaria",
-        "updated": "2026-08-21T16:30:54.019+0100",
-        "priority": "Importante",
         "labels": []
       },
       {
