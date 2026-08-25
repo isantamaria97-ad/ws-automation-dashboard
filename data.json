@@ -1,12 +1,12 @@
 {
-  "lastUpdated": "2026-08-25T01:18:23.568362+00:00",
+  "lastUpdated": "2026-08-25T04:39:28.112394+00:00",
   "jira": {
     "summary": {
       "total": 380,
       "byStatus": {
+        "Ready to QA": 2,
         "QA Approved": 11,
-        "Tech Review": 11,
-        "Ready to QA": 1,
+        "Tech Review": 10,
         "En curso": 4,
         "Backlog": 18,
         "RETURNED BY QA": 1,
@@ -21,6 +21,19 @@
       }
     },
     "tickets": [
+      {
+        "key": "WSC-1422",
+        "url": "https://e2x.atlassian.net/browse/WSC-1422",
+        "summary": "Desktop/Mobile: SIDE PANEL - standardise width",
+        "status": "Ready to QA",
+        "statusCategory": "new",
+        "assignee": "Unassigned",
+        "updated": "2026-08-25T04:08:53.394+0100",
+        "priority": "Poco importante",
+        "labels": [
+          "Needs-QA"
+        ]
+      },
       {
         "key": "WSC-1654",
         "url": "https://e2x.atlassian.net/browse/WSC-1654",
@@ -191,19 +204,6 @@
         "labels": [
           "Needs-QA",
           "automatable"
-        ]
-      },
-      {
-        "key": "WSC-1422",
-        "url": "https://e2x.atlassian.net/browse/WSC-1422",
-        "summary": "Desktop/Mobile: SIDE PANEL - standardise width",
-        "status": "Tech Review",
-        "statusCategory": "indeterminate",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-08-24T17:53:26.964+0100",
-        "priority": "Poco importante",
-        "labels": [
-          "Needs-QA"
         ]
       },
       {
