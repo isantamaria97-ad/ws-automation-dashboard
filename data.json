@@ -1,20 +1,20 @@
 {
-  "lastUpdated": "2026-08-25T08:42:46.059688+00:00",
+  "lastUpdated": "2026-08-25T12:49:10.504862+00:00",
   "jira": {
     "summary": {
       "total": 380,
       "byStatus": {
-        "Tech Review": 10,
+        "QA Approved": 12,
+        "Listo": 18,
         "Ready to QA": 2,
-        "QA Approved": 11,
         "En curso": 4,
         "Backlog": 18,
         "RETURNED BY QA": 1,
         "Deprecated": 14,
+        "Tech Review": 9,
         "IN QA": 3,
         "Blocked": 6,
         "Finalizada": 290,
-        "Listo": 18,
         "Ready for Refinement": 1,
         "PENDING DEV DEPLOY": 1,
         "READY FOR RELEASE": 1
@@ -25,13 +25,69 @@
         "key": "WSC-1716",
         "url": "https://e2x.atlassian.net/browse/WSC-1716",
         "summary": "PLP - Cannot add product to cart when navigating from WS marketing email discount links",
-        "status": "Tech Review",
+        "status": "QA Approved",
         "statusCategory": "indeterminate",
         "assignee": "enmanuel.ramirez",
-        "updated": "2026-08-25T09:21:49.823+0100",
+        "updated": "2026-08-25T13:41:15.316+0100",
         "priority": "Importante",
         "labels": [
           "Needs-QA"
+        ]
+      },
+      {
+        "key": "WSC-1696",
+        "url": "https://e2x.atlassian.net/browse/WSC-1696",
+        "summary": "SEO TEXT BLOCK - minor amendment",
+        "status": "Listo",
+        "statusCategory": "new",
+        "assignee": "Unassigned",
+        "updated": "2026-08-25T09:59:18.186+0100",
+        "priority": "Poco importante",
+        "labels": [
+          "Needs-QA"
+        ]
+      },
+      {
+        "key": "WSC-1699",
+        "url": "https://e2x.atlassian.net/browse/WSC-1699",
+        "summary": "PLP - single image roll over issue",
+        "status": "Listo",
+        "statusCategory": "new",
+        "assignee": "Unassigned",
+        "updated": "2026-08-25T09:59:14.660+0100",
+        "priority": "Poco importante",
+        "labels": [
+          "Needs-QA",
+          "manualQA"
+        ]
+      },
+      {
+        "key": "WSC-1707",
+        "url": "https://e2x.atlassian.net/browse/WSC-1707",
+        "summary": "BAG - Coupon section disappears after applying an invalid coupon and reloading the page",
+        "status": "Listo",
+        "statusCategory": "new",
+        "assignee": "Unassigned",
+        "updated": "2026-08-25T09:59:08.655+0100",
+        "priority": "Poco importante",
+        "labels": [
+          "Bug",
+          "Needs-QA"
+        ]
+      },
+      {
+        "key": "WSC-1695",
+        "url": "https://e2x.atlassian.net/browse/WSC-1695",
+        "summary": "PDP - new image layout / breadcrumb move",
+        "status": "Listo",
+        "statusCategory": "new",
+        "assignee": "Unassigned",
+        "updated": "2026-08-25T09:58:55.630+0100",
+        "priority": "Importante",
+        "labels": [
+          "Needs-QA",
+          "automatable",
+          "manualQA"
         ]
       },
       {
@@ -473,21 +529,6 @@
         ]
       },
       {
-        "key": "WSC-1695",
-        "url": "https://e2x.atlassian.net/browse/WSC-1695",
-        "summary": "PDP - new image layout / breadcrumb move",
-        "status": "Listo",
-        "statusCategory": "new",
-        "assignee": "Unassigned",
-        "updated": "2026-08-20T15:52:22.837+0100",
-        "priority": "Importante",
-        "labels": [
-          "Needs-QA",
-          "automatable",
-          "manualQA"
-        ]
-      },
-      {
         "key": "WSC-1643",
         "url": "https://e2x.atlassian.net/browse/WSC-1643",
         "summary": "Unmasking JS errors - vendor outreach",
@@ -512,47 +553,6 @@
         "labels": [
           "Needs-QA",
           "automatable"
-        ]
-      },
-      {
-        "key": "WSC-1696",
-        "url": "https://e2x.atlassian.net/browse/WSC-1696",
-        "summary": "SEO TEXT BLOCK - minor amendment",
-        "status": "Listo",
-        "statusCategory": "new",
-        "assignee": "Unassigned",
-        "updated": "2026-08-20T14:37:34.982+0100",
-        "priority": "Trivial",
-        "labels": [
-          "Needs-QA"
-        ]
-      },
-      {
-        "key": "WSC-1707",
-        "url": "https://e2x.atlassian.net/browse/WSC-1707",
-        "summary": "BAG - Coupon section disappears after applying an invalid coupon and reloading the page",
-        "status": "Listo",
-        "statusCategory": "new",
-        "assignee": "Unassigned",
-        "updated": "2026-08-20T14:34:49.343+0100",
-        "priority": "Poco importante",
-        "labels": [
-          "Bug",
-          "Needs-QA"
-        ]
-      },
-      {
-        "key": "WSC-1699",
-        "url": "https://e2x.atlassian.net/browse/WSC-1699",
-        "summary": "PLP - single image roll over issue",
-        "status": "Listo",
-        "statusCategory": "new",
-        "assignee": "Unassigned",
-        "updated": "2026-08-20T14:31:16.250+0100",
-        "priority": "Importante",
-        "labels": [
-          "Needs-QA",
-          "manualQA"
         ]
       },
       {
