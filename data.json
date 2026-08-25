@@ -1,17 +1,17 @@
 {
-  "lastUpdated": "2026-08-24T20:31:37.241740+00:00",
+  "lastUpdated": "2026-08-25T01:18:23.568362+00:00",
   "jira": {
     "summary": {
       "total": 380,
       "byStatus": {
-        "IN QA": 5,
-        "En curso": 5,
-        "QA Approved": 8,
+        "QA Approved": 11,
         "Tech Review": 11,
-        "Backlog": 18,
         "Ready to QA": 1,
+        "En curso": 4,
+        "Backlog": 18,
         "RETURNED BY QA": 1,
         "Deprecated": 14,
+        "IN QA": 3,
         "Blocked": 6,
         "Finalizada": 290,
         "Listo": 18,
@@ -22,25 +22,65 @@
     },
     "tickets": [
       {
-        "key": "WSC-1647",
-        "url": "https://e2x.atlassian.net/browse/WSC-1647",
-        "summary": "CONTENT - new wider version of SEOTextBlock",
-        "status": "IN QA",
+        "key": "WSC-1654",
+        "url": "https://e2x.atlassian.net/browse/WSC-1654",
+        "summary": "Short-circuit unknown content-page URLs using an Amplience-derived valid-slug registry",
+        "status": "QA Approved",
         "statusCategory": "indeterminate",
-        "assignee": "Ingrith Santamaria",
-        "updated": "2026-08-24T21:28:33.077+0100",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-08-25T01:37:01.784+0100",
+        "priority": "Cr\u00edtica",
+        "labels": [
+          "NO_QA_REQUIRED",
+          "accelerated"
+        ]
+      },
+      {
+        "key": "WSC-1716",
+        "url": "https://e2x.atlassian.net/browse/WSC-1716",
+        "summary": "PLP - Cannot add product to cart when navigating from WS marketing email discount links",
+        "status": "Tech Review",
+        "statusCategory": "indeterminate",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-08-25T01:36:31.891+0100",
         "priority": "Importante",
-        "labels": []
+        "labels": [
+          "Needs-QA"
+        ]
       },
       {
         "key": "WSC-1712",
         "url": "https://e2x.atlassian.net/browse/WSC-1712",
         "summary": "[Automation] E2E Coverage for PDP Hard Refresh and SFS Product Scenarios",
-        "status": "En curso",
+        "status": "QA Approved",
         "statusCategory": "indeterminate",
         "assignee": "Gerardo Romero",
-        "updated": "2026-08-24T20:52:45.078+0100",
+        "updated": "2026-08-24T22:53:38.773+0100",
         "priority": "Not Set",
+        "labels": []
+      },
+      {
+        "key": "WSC-1679",
+        "url": "https://e2x.atlassian.net/browse/WSC-1679",
+        "summary": "SLIM BANNER - control Benefit Bar",
+        "status": "Ready to QA",
+        "statusCategory": "new",
+        "assignee": "Gerardo Romero",
+        "updated": "2026-08-24T22:11:44.020+0100",
+        "priority": "Importante",
+        "labels": [
+          "co-build"
+        ]
+      },
+      {
+        "key": "WSC-1647",
+        "url": "https://e2x.atlassian.net/browse/WSC-1647",
+        "summary": "CONTENT - new wider version of SEOTextBlock",
+        "status": "QA Approved",
+        "statusCategory": "indeterminate",
+        "assignee": "Ingrith Santamaria",
+        "updated": "2026-08-24T21:36:45.380+0100",
+        "priority": "Importante",
         "labels": []
       },
       {
@@ -69,19 +109,6 @@
         "labels": [
           "Needs-QA",
           "automatable"
-        ]
-      },
-      {
-        "key": "WSC-1716",
-        "url": "https://e2x.atlassian.net/browse/WSC-1716",
-        "summary": "PLP - Cannot add product to cart when navigating from WS marketing email discount links",
-        "status": "Tech Review",
-        "statusCategory": "indeterminate",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-08-24T20:16:00.185+0100",
-        "priority": "Importante",
-        "labels": [
-          "Needs-QA"
         ]
       },
       {
@@ -177,19 +204,6 @@
         "priority": "Poco importante",
         "labels": [
           "Needs-QA"
-        ]
-      },
-      {
-        "key": "WSC-1679",
-        "url": "https://e2x.atlassian.net/browse/WSC-1679",
-        "summary": "SLIM BANNER - control Benefit Bar",
-        "status": "Ready to QA",
-        "statusCategory": "new",
-        "assignee": "Ingrith Santamaria",
-        "updated": "2026-08-24T17:19:57.040+0100",
-        "priority": "Importante",
-        "labels": [
-          "co-build"
         ]
       },
       {
@@ -303,20 +317,6 @@
         "updated": "2026-08-22T00:08:23.894+0100",
         "priority": "Cr\u00edtica",
         "labels": []
-      },
-      {
-        "key": "WSC-1654",
-        "url": "https://e2x.atlassian.net/browse/WSC-1654",
-        "summary": "Short-circuit unknown content-page URLs using an Amplience-derived valid-slug registry",
-        "status": "IN QA",
-        "statusCategory": "indeterminate",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-08-22T00:08:13.704+0100",
-        "priority": "Cr\u00edtica",
-        "labels": [
-          "NO_QA_REQUIRED",
-          "accelerated"
-        ]
       },
       {
         "key": "WSC-1619",
@@ -4728,11 +4728,11 @@
       "scopeFolderName": "Regression"
     },
     "coverage": {
-      "total": 84,
-      "automated": 83,
+      "total": 87,
+      "automated": 86,
       "notAutomated": 1,
       "unclassified": 0,
-      "automatedPct": 98.8,
+      "automatedPct": 98.9,
       "byFolder": [
         {
           "folderId": null,
@@ -4745,21 +4745,21 @@
         },
         {
           "folderId": null,
+          "name": "PDP",
+          "group": "Components",
+          "automated": 15,
+          "notAutomated": 0,
+          "unclassified": 0,
+          "total": 15
+        },
+        {
+          "folderId": null,
           "name": "Other",
           "group": "Components",
           "automated": 12,
           "notAutomated": 1,
           "unclassified": 0,
           "total": 13
-        },
-        {
-          "folderId": null,
-          "name": "PDP",
-          "group": "Components",
-          "automated": 12,
-          "notAutomated": 0,
-          "unclassified": 0,
-          "total": 12
         },
         {
           "folderId": null,
@@ -5000,6 +5000,30 @@
       ]
     },
     "cases": [
+      {
+        "id": 151540,
+        "name": "SFS one-sized PDP Add to Bag works after hard refresh",
+        "folderId": 20991,
+        "folderPath": "Regression",
+        "bucket": "automated",
+        "priority": 2
+      },
+      {
+        "id": 151539,
+        "name": "SFS one-sized PDP renders correctly on direct URL load and after hard refresh",
+        "folderId": 20991,
+        "folderPath": "Regression",
+        "bucket": "automated",
+        "priority": 2
+      },
+      {
+        "id": 151538,
+        "name": "Standard PDP renders correctly after hard refresh",
+        "folderId": 20991,
+        "folderPath": "Regression",
+        "bucket": "automated",
+        "priority": 2
+      },
       {
         "id": 140451,
         "name": "Personalisation - As a first-time visitor I should have the ws_segment cookie set to unresolved",
