@@ -1,26 +1,51 @@
 {
-  "lastUpdated": "2026-08-25T20:29:52.618280+00:00",
+  "lastUpdated": "2026-08-25T23:21:49.293376+00:00",
   "jira": {
     "summary": {
       "total": 385,
       "byStatus": {
+        "RETURNED BY QA": 2,
+        "QA Approved": 16,
         "En curso": 4,
-        "Tech Review": 9,
-        "IN QA": 2,
         "Finalizada": 290,
         "Listo": 25,
         "Tareas por hacer": 1,
-        "QA Approved": 15,
         "Blocked": 6,
+        "IN QA": 1,
         "Backlog": 15,
-        "RETURNED BY QA": 1,
         "Deprecated": 14,
+        "Tech Review": 8,
         "Ready for Refinement": 1,
         "PENDING DEV DEPLOY": 1,
         "READY FOR RELEASE": 1
       }
     },
     "tickets": [
+      {
+        "key": "WSC-1619",
+        "url": "https://e2x.atlassian.net/browse/WSC-1619",
+        "summary": "Outbound request resilience: 429 backoff, concurrency limits & circuit breaking",
+        "status": "RETURNED BY QA",
+        "statusCategory": "indeterminate",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-08-25T23:18:41.565+0100",
+        "priority": "Cr\u00edtica",
+        "labels": [
+          "NO_QA_REQUIRED",
+          "co-build"
+        ]
+      },
+      {
+        "key": "WSC-1636",
+        "url": "https://e2x.atlassian.net/browse/WSC-1636",
+        "summary": "Tighten Super Bot Fight Mode policy: Block Automated, Managed Challenge Likely Automated",
+        "status": "QA Approved",
+        "statusCategory": "indeterminate",
+        "assignee": "Jair Huaman",
+        "updated": "2026-08-25T22:22:11.071+0100",
+        "priority": "Cr\u00edtica",
+        "labels": []
+      },
       {
         "key": "WSC-1674",
         "url": "https://e2x.atlassian.net/browse/WSC-1674",
@@ -33,31 +58,6 @@
         "labels": [
           "Needs-QA",
           "automatable"
-        ]
-      },
-      {
-        "key": "WSC-1636",
-        "url": "https://e2x.atlassian.net/browse/WSC-1636",
-        "summary": "Tighten Super Bot Fight Mode policy: Block Automated, Managed Challenge Likely Automated",
-        "status": "Tech Review",
-        "statusCategory": "indeterminate",
-        "assignee": "Jair Huaman",
-        "updated": "2026-08-25T20:51:08.049+0100",
-        "priority": "Cr\u00edtica",
-        "labels": []
-      },
-      {
-        "key": "WSC-1619",
-        "url": "https://e2x.atlassian.net/browse/WSC-1619",
-        "summary": "Outbound request resilience: 429 backoff, concurrency limits & circuit breaking",
-        "status": "IN QA",
-        "statusCategory": "indeterminate",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-08-25T20:50:21.286+0100",
-        "priority": "Cr\u00edtica",
-        "labels": [
-          "NO_QA_REQUIRED",
-          "co-build"
         ]
       },
       {
@@ -4892,9 +4892,9 @@
     },
     "runs": {
       "total": 68,
-      "latestPassed": 0,
+      "latestPassed": 87,
       "latestFailed": 0,
-      "latestPending": 87,
+      "latestPending": 0,
       "latestTotal": 87,
       "latestRunName": "Regression 25/08/26",
       "latestRunDate": "2026-08-25T20:27:39.009Z",
@@ -4911,10 +4911,10 @@
           "elapsed_ms": null,
           "created_at": "2026-08-25T20:27:39.009Z",
           "completed_at": null,
-          "passed": 0,
+          "passed": 87,
           "failed": 0,
-          "pending": 87,
-          "completed": 0,
+          "pending": 0,
+          "completed": 87,
           "total": 87
         },
         {
@@ -4928,10 +4928,10 @@
           "elapsed_ms": null,
           "created_at": "2026-08-25T20:27:38.998Z",
           "completed_at": null,
-          "passed": 0,
+          "passed": 87,
           "failed": 0,
-          "pending": 87,
-          "completed": 0,
+          "pending": 0,
+          "completed": 87,
           "total": 87
         },
         {
@@ -4945,10 +4945,10 @@
           "elapsed_ms": null,
           "created_at": "2026-08-25T20:27:38.986Z",
           "completed_at": null,
-          "passed": 0,
+          "passed": 87,
           "failed": 0,
-          "pending": 87,
-          "completed": 0,
+          "pending": 0,
+          "completed": 87,
           "total": 87
         },
         {
@@ -4962,10 +4962,10 @@
           "elapsed_ms": null,
           "created_at": "2026-08-25T20:27:38.966Z",
           "completed_at": null,
-          "passed": 0,
+          "passed": 86,
           "failed": 0,
-          "pending": 87,
-          "completed": 0,
+          "pending": 0,
+          "completed": 87,
           "total": 87
         },
         {
