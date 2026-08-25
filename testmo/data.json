@@ -1,6 +1,12 @@
 {
-  "lastUpdated": "2026-08-25T19:33:02.694591+00:00",
+  "lastUpdated": "2026-08-25T20:31:00.145644+00:00",
   "milestones": [
+    {
+      "id": 246,
+      "name": "Regression 25/08/26",
+      "startAt": "",
+      "dueAt": ""
+    },
     {
       "id": 243,
       "name": "Regression 18/08/26",
@@ -118,6 +124,494 @@
     "milestoneId": null
   },
   "runs": [
+    {
+      "id": 2088,
+      "name": "Regression 25/08/26",
+      "milestone_id": 246,
+      "group_id": null,
+      "project_id": 44,
+      "is_closed": false,
+      "created_at": "2026-08-25T20:27:39.009Z",
+      "updated_at": null,
+      "closed_at": null,
+      "elapsed_ms": null,
+      "total": 87,
+      "completed": 0,
+      "remaining": 87,
+      "passed": 0,
+      "failed": 0,
+      "retest": 0,
+      "blocked": 0,
+      "untested": 0,
+      "skipped": 0,
+      "statusCounts": {
+        "Untested": {
+          "id": 1,
+          "count": 0
+        },
+        "Passed": {
+          "id": 2,
+          "count": 0
+        },
+        "Failed": {
+          "id": 3,
+          "count": 0
+        },
+        "Retest": {
+          "id": 4,
+          "count": 0
+        },
+        "Blocked": {
+          "id": 5,
+          "count": 0
+        },
+        "Skipped": {
+          "id": 6,
+          "count": 0
+        },
+        "Status 7": {
+          "id": 7,
+          "count": 0
+        },
+        "Status 8": {
+          "id": 8,
+          "count": 0
+        },
+        "Status 9": {
+          "id": 9,
+          "count": 0
+        },
+        "Status 10": {
+          "id": 10,
+          "count": 0
+        },
+        "Status 11": {
+          "id": 11,
+          "count": 0
+        },
+        "Status 12": {
+          "id": 12,
+          "count": 0
+        },
+        "Status 13": {
+          "id": 13,
+          "count": 0
+        },
+        "Status 14": {
+          "id": 14,
+          "count": 0
+        },
+        "Status 15": {
+          "id": 15,
+          "count": 0
+        },
+        "Status 16": {
+          "id": 16,
+          "count": 0
+        },
+        "Status 17": {
+          "id": 17,
+          "count": 0
+        },
+        "Status 18": {
+          "id": 18,
+          "count": 0
+        },
+        "Status 19": {
+          "id": 19,
+          "count": 0
+        },
+        "Status 20": {
+          "id": 20,
+          "count": 0
+        },
+        "Status 21": {
+          "id": 21,
+          "count": 0
+        },
+        "Status 22": {
+          "id": 22,
+          "count": 0
+        },
+        "Status 23": {
+          "id": 23,
+          "count": 0
+        },
+        "Status 24": {
+          "id": 24,
+          "count": 0
+        }
+      },
+      "config": "Safari, Mobile",
+      "url": "https://applydigital.testmo.net/runs/view/2088",
+      "cases": []
+    },
+    {
+      "id": 2087,
+      "name": "Regression 25/08/26",
+      "milestone_id": 246,
+      "group_id": null,
+      "project_id": 44,
+      "is_closed": false,
+      "created_at": "2026-08-25T20:27:38.998Z",
+      "updated_at": null,
+      "closed_at": null,
+      "elapsed_ms": null,
+      "total": 87,
+      "completed": 0,
+      "remaining": 87,
+      "passed": 0,
+      "failed": 0,
+      "retest": 0,
+      "blocked": 0,
+      "untested": 0,
+      "skipped": 0,
+      "statusCounts": {
+        "Untested": {
+          "id": 1,
+          "count": 0
+        },
+        "Passed": {
+          "id": 2,
+          "count": 0
+        },
+        "Failed": {
+          "id": 3,
+          "count": 0
+        },
+        "Retest": {
+          "id": 4,
+          "count": 0
+        },
+        "Blocked": {
+          "id": 5,
+          "count": 0
+        },
+        "Skipped": {
+          "id": 6,
+          "count": 0
+        },
+        "Status 7": {
+          "id": 7,
+          "count": 0
+        },
+        "Status 8": {
+          "id": 8,
+          "count": 0
+        },
+        "Status 9": {
+          "id": 9,
+          "count": 0
+        },
+        "Status 10": {
+          "id": 10,
+          "count": 0
+        },
+        "Status 11": {
+          "id": 11,
+          "count": 0
+        },
+        "Status 12": {
+          "id": 12,
+          "count": 0
+        },
+        "Status 13": {
+          "id": 13,
+          "count": 0
+        },
+        "Status 14": {
+          "id": 14,
+          "count": 0
+        },
+        "Status 15": {
+          "id": 15,
+          "count": 0
+        },
+        "Status 16": {
+          "id": 16,
+          "count": 0
+        },
+        "Status 17": {
+          "id": 17,
+          "count": 0
+        },
+        "Status 18": {
+          "id": 18,
+          "count": 0
+        },
+        "Status 19": {
+          "id": 19,
+          "count": 0
+        },
+        "Status 20": {
+          "id": 20,
+          "count": 0
+        },
+        "Status 21": {
+          "id": 21,
+          "count": 0
+        },
+        "Status 22": {
+          "id": 22,
+          "count": 0
+        },
+        "Status 23": {
+          "id": 23,
+          "count": 0
+        },
+        "Status 24": {
+          "id": 24,
+          "count": 0
+        }
+      },
+      "config": "Safari, Desktop",
+      "url": "https://applydigital.testmo.net/runs/view/2087",
+      "cases": []
+    },
+    {
+      "id": 2086,
+      "name": "Regression 25/08/26",
+      "milestone_id": 246,
+      "group_id": null,
+      "project_id": 44,
+      "is_closed": false,
+      "created_at": "2026-08-25T20:27:38.986Z",
+      "updated_at": null,
+      "closed_at": null,
+      "elapsed_ms": null,
+      "total": 87,
+      "completed": 0,
+      "remaining": 87,
+      "passed": 0,
+      "failed": 0,
+      "retest": 0,
+      "blocked": 0,
+      "untested": 0,
+      "skipped": 0,
+      "statusCounts": {
+        "Untested": {
+          "id": 1,
+          "count": 0
+        },
+        "Passed": {
+          "id": 2,
+          "count": 0
+        },
+        "Failed": {
+          "id": 3,
+          "count": 0
+        },
+        "Retest": {
+          "id": 4,
+          "count": 0
+        },
+        "Blocked": {
+          "id": 5,
+          "count": 0
+        },
+        "Skipped": {
+          "id": 6,
+          "count": 0
+        },
+        "Status 7": {
+          "id": 7,
+          "count": 0
+        },
+        "Status 8": {
+          "id": 8,
+          "count": 0
+        },
+        "Status 9": {
+          "id": 9,
+          "count": 0
+        },
+        "Status 10": {
+          "id": 10,
+          "count": 0
+        },
+        "Status 11": {
+          "id": 11,
+          "count": 0
+        },
+        "Status 12": {
+          "id": 12,
+          "count": 0
+        },
+        "Status 13": {
+          "id": 13,
+          "count": 0
+        },
+        "Status 14": {
+          "id": 14,
+          "count": 0
+        },
+        "Status 15": {
+          "id": 15,
+          "count": 0
+        },
+        "Status 16": {
+          "id": 16,
+          "count": 0
+        },
+        "Status 17": {
+          "id": 17,
+          "count": 0
+        },
+        "Status 18": {
+          "id": 18,
+          "count": 0
+        },
+        "Status 19": {
+          "id": 19,
+          "count": 0
+        },
+        "Status 20": {
+          "id": 20,
+          "count": 0
+        },
+        "Status 21": {
+          "id": 21,
+          "count": 0
+        },
+        "Status 22": {
+          "id": 22,
+          "count": 0
+        },
+        "Status 23": {
+          "id": 23,
+          "count": 0
+        },
+        "Status 24": {
+          "id": 24,
+          "count": 0
+        }
+      },
+      "config": "Chrome, Mobile",
+      "url": "https://applydigital.testmo.net/runs/view/2086",
+      "cases": []
+    },
+    {
+      "id": 2085,
+      "name": "Regression 25/08/26",
+      "milestone_id": 246,
+      "group_id": null,
+      "project_id": 44,
+      "is_closed": false,
+      "created_at": "2026-08-25T20:27:38.966Z",
+      "updated_at": null,
+      "closed_at": null,
+      "elapsed_ms": null,
+      "total": 87,
+      "completed": 0,
+      "remaining": 87,
+      "passed": 0,
+      "failed": 0,
+      "retest": 0,
+      "blocked": 0,
+      "untested": 0,
+      "skipped": 0,
+      "statusCounts": {
+        "Untested": {
+          "id": 1,
+          "count": 0
+        },
+        "Passed": {
+          "id": 2,
+          "count": 0
+        },
+        "Failed": {
+          "id": 3,
+          "count": 0
+        },
+        "Retest": {
+          "id": 4,
+          "count": 0
+        },
+        "Blocked": {
+          "id": 5,
+          "count": 0
+        },
+        "Skipped": {
+          "id": 6,
+          "count": 0
+        },
+        "Status 7": {
+          "id": 7,
+          "count": 0
+        },
+        "Status 8": {
+          "id": 8,
+          "count": 0
+        },
+        "Status 9": {
+          "id": 9,
+          "count": 0
+        },
+        "Status 10": {
+          "id": 10,
+          "count": 0
+        },
+        "Status 11": {
+          "id": 11,
+          "count": 0
+        },
+        "Status 12": {
+          "id": 12,
+          "count": 0
+        },
+        "Status 13": {
+          "id": 13,
+          "count": 0
+        },
+        "Status 14": {
+          "id": 14,
+          "count": 0
+        },
+        "Status 15": {
+          "id": 15,
+          "count": 0
+        },
+        "Status 16": {
+          "id": 16,
+          "count": 0
+        },
+        "Status 17": {
+          "id": 17,
+          "count": 0
+        },
+        "Status 18": {
+          "id": 18,
+          "count": 0
+        },
+        "Status 19": {
+          "id": 19,
+          "count": 0
+        },
+        "Status 20": {
+          "id": 20,
+          "count": 0
+        },
+        "Status 21": {
+          "id": 21,
+          "count": 0
+        },
+        "Status 22": {
+          "id": 22,
+          "count": 0
+        },
+        "Status 23": {
+          "id": 23,
+          "count": 0
+        },
+        "Status 24": {
+          "id": 24,
+          "count": 0
+        }
+      },
+      "config": "Chrome, Desktop",
+      "url": "https://applydigital.testmo.net/runs/view/2085",
+      "cases": []
+    },
     {
       "id": 2069,
       "name": "Regression 18/08/26",
