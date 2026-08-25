@@ -1,12 +1,12 @@
 {
-  "lastUpdated": "2026-08-25T04:39:28.112394+00:00",
+  "lastUpdated": "2026-08-25T08:42:46.059688+00:00",
   "jira": {
     "summary": {
       "total": 380,
       "byStatus": {
+        "Tech Review": 10,
         "Ready to QA": 2,
         "QA Approved": 11,
-        "Tech Review": 10,
         "En curso": 4,
         "Backlog": 18,
         "RETURNED BY QA": 1,
@@ -21,6 +21,19 @@
       }
     },
     "tickets": [
+      {
+        "key": "WSC-1716",
+        "url": "https://e2x.atlassian.net/browse/WSC-1716",
+        "summary": "PLP - Cannot add product to cart when navigating from WS marketing email discount links",
+        "status": "Tech Review",
+        "statusCategory": "indeterminate",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-08-25T09:21:49.823+0100",
+        "priority": "Importante",
+        "labels": [
+          "Needs-QA"
+        ]
+      },
       {
         "key": "WSC-1422",
         "url": "https://e2x.atlassian.net/browse/WSC-1422",
@@ -46,19 +59,6 @@
         "labels": [
           "NO_QA_REQUIRED",
           "accelerated"
-        ]
-      },
-      {
-        "key": "WSC-1716",
-        "url": "https://e2x.atlassian.net/browse/WSC-1716",
-        "summary": "PLP - Cannot add product to cart when navigating from WS marketing email discount links",
-        "status": "Tech Review",
-        "statusCategory": "indeterminate",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-08-25T01:36:31.891+0100",
-        "priority": "Importante",
-        "labels": [
-          "Needs-QA"
         ]
       },
       {
