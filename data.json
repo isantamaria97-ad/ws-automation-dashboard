@@ -1,20 +1,19 @@
 {
-  "lastUpdated": "2026-08-26T08:44:14.299460+00:00",
+  "lastUpdated": "2026-08-26T12:53:29.250213+00:00",
   "jira": {
     "summary": {
       "total": 385,
       "byStatus": {
+        "QA Approved": 17,
         "RETURNED BY QA": 2,
-        "QA Approved": 16,
-        "En curso": 4,
+        "Tech Review": 9,
+        "En curso": 3,
         "Finalizada": 290,
         "Listo": 25,
         "Tareas por hacer": 1,
         "Blocked": 6,
-        "IN QA": 1,
         "Backlog": 15,
         "Deprecated": 14,
-        "Tech Review": 8,
         "Ready for Refinement": 1,
         "PENDING DEV DEPLOY": 1,
         "READY FOR RELEASE": 1
@@ -22,17 +21,81 @@
     },
     "tickets": [
       {
+        "key": "WSC-1654",
+        "url": "https://e2x.atlassian.net/browse/WSC-1654",
+        "summary": "Short-circuit unknown content-page URLs using an Amplience-derived valid-slug registry",
+        "status": "QA Approved",
+        "statusCategory": "indeterminate",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-08-26T13:52:50.419+0100",
+        "priority": "Cr\u00edtica",
+        "labels": [
+          "NO_QA_REQUIRED",
+          "accelerated"
+        ]
+      },
+      {
+        "key": "WSC-1679",
+        "url": "https://e2x.atlassian.net/browse/WSC-1679",
+        "summary": "SLIM BANNER - control Benefit Bar",
+        "status": "QA Approved",
+        "statusCategory": "indeterminate",
+        "assignee": "Gerardo Romero",
+        "updated": "2026-08-26T13:36:18.794+0100",
+        "priority": "Importante",
+        "labels": [
+          "co-build"
+        ]
+      },
+      {
         "key": "WSC-1619",
         "url": "https://e2x.atlassian.net/browse/WSC-1619",
         "summary": "Outbound request resilience: 429 backoff, concurrency limits & circuit breaking",
         "status": "RETURNED BY QA",
         "statusCategory": "indeterminate",
         "assignee": "enmanuel.ramirez",
-        "updated": "2026-08-25T23:18:41.565+0100",
+        "updated": "2026-08-26T13:08:19.890+0100",
         "priority": "Cr\u00edtica",
         "labels": [
           "NO_QA_REQUIRED",
           "co-build"
+        ]
+      },
+      {
+        "key": "WSC-1715",
+        "url": "https://e2x.atlassian.net/browse/WSC-1715",
+        "summary": "Fix PLP hydration mismatch by hoisting useContent out of useAsync",
+        "status": "QA Approved",
+        "statusCategory": "indeterminate",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-08-26T13:07:29.010+0100",
+        "priority": "Not Set",
+        "labels": [
+          "NO_QA_REQUIRED"
+        ]
+      },
+      {
+        "key": "WSC-1703",
+        "url": "https://e2x.atlassian.net/browse/WSC-1703",
+        "summary": "Add timeouts to Nuxt SSR HTTP clients",
+        "status": "QA Approved",
+        "statusCategory": "indeterminate",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-08-26T13:07:12.544+0100",
+        "priority": "Cr\u00edtica",
+        "labels": []
+      },
+      {
+        "key": "WSC-1656",
+        "url": "https://e2x.atlassian.net/browse/WSC-1656",
+        "summary": "MINI BAG - redesign",
+        "status": "Tech Review",
+        "statusCategory": "indeterminate",
+        "assignee": "Chiara Davies",
+        "updated": "2026-08-26T10:29:34.612+0100",
+        "priority": "Importante",
+        "labels": [
+          "Needs-QA"
         ]
       },
       {
@@ -180,30 +243,6 @@
         ]
       },
       {
-        "key": "WSC-1703",
-        "url": "https://e2x.atlassian.net/browse/WSC-1703",
-        "summary": "Add timeouts to Nuxt SSR HTTP clients",
-        "status": "QA Approved",
-        "statusCategory": "indeterminate",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-08-25T19:07:52.142+0100",
-        "priority": "Cr\u00edtica",
-        "labels": []
-      },
-      {
-        "key": "WSC-1715",
-        "url": "https://e2x.atlassian.net/browse/WSC-1715",
-        "summary": "Fix PLP hydration mismatch by hoisting useContent out of useAsync",
-        "status": "QA Approved",
-        "statusCategory": "indeterminate",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-08-25T17:37:43.786+0100",
-        "priority": "Not Set",
-        "labels": [
-          "NO_QA_REQUIRED"
-        ]
-      },
-      {
         "key": "WSC-1422",
         "url": "https://e2x.atlassian.net/browse/WSC-1422",
         "summary": "Desktop/Mobile: SIDE PANEL - standardise width",
@@ -241,20 +280,6 @@
         ]
       },
       {
-        "key": "WSC-1654",
-        "url": "https://e2x.atlassian.net/browse/WSC-1654",
-        "summary": "Short-circuit unknown content-page URLs using an Amplience-derived valid-slug registry",
-        "status": "QA Approved",
-        "statusCategory": "indeterminate",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-08-25T16:01:06.867+0100",
-        "priority": "Cr\u00edtica",
-        "labels": [
-          "NO_QA_REQUIRED",
-          "accelerated"
-        ]
-      },
-      {
         "key": "WSC-1712",
         "url": "https://e2x.atlassian.net/browse/WSC-1712",
         "summary": "[Automation] E2E Coverage for PDP Hard Refresh and SFS Product Scenarios",
@@ -264,19 +289,6 @@
         "updated": "2026-08-25T15:44:08.243+0100",
         "priority": "Not Set",
         "labels": []
-      },
-      {
-        "key": "WSC-1679",
-        "url": "https://e2x.atlassian.net/browse/WSC-1679",
-        "summary": "SLIM BANNER - control Benefit Bar",
-        "status": "IN QA",
-        "statusCategory": "indeterminate",
-        "assignee": "Gerardo Romero",
-        "updated": "2026-08-25T15:43:46.445+0100",
-        "priority": "Importante",
-        "labels": [
-          "co-build"
-        ]
       },
       {
         "key": "WSC-1686",
@@ -1120,19 +1132,6 @@
         "labels": [
           "CSP",
           "NO_QA_REQUIRED"
-        ]
-      },
-      {
-        "key": "WSC-1656",
-        "url": "https://e2x.atlassian.net/browse/WSC-1656",
-        "summary": "MINI BAG - redesign",
-        "status": "En curso",
-        "statusCategory": "indeterminate",
-        "assignee": "Chiara Davies",
-        "updated": "2026-08-13T15:20:54.741+0100",
-        "priority": "Importante",
-        "labels": [
-          "Needs-QA"
         ]
       },
       {
