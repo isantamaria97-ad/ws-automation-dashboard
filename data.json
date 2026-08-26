@@ -1,18 +1,18 @@
 {
-  "lastUpdated": "2026-08-26T12:53:29.250213+00:00",
+  "lastUpdated": "2026-08-26T13:31:03.701477+00:00",
   "jira": {
     "summary": {
-      "total": 385,
+      "total": 390,
       "byStatus": {
-        "QA Approved": 17,
+        "QA Approved": 18,
+        "Backlog": 20,
+        "Blocked": 6,
         "RETURNED BY QA": 2,
-        "Tech Review": 9,
+        "Tech Review": 8,
         "En curso": 3,
         "Finalizada": 290,
         "Listo": 25,
         "Tareas por hacer": 1,
-        "Blocked": 6,
-        "Backlog": 15,
         "Deprecated": 14,
         "Ready for Refinement": 1,
         "PENDING DEV DEPLOY": 1,
@@ -21,13 +21,93 @@
     },
     "tickets": [
       {
+        "key": "WSC-1698",
+        "url": "https://e2x.atlassian.net/browse/WSC-1698",
+        "summary": "[WSSD-708] - PDP - BazaarVoice reviews only appear when navigating from PLP",
+        "status": "QA Approved",
+        "statusCategory": "indeterminate",
+        "assignee": "Ingrith Santamaria",
+        "updated": "2026-08-26T14:29:45.950+0100",
+        "priority": "Importante",
+        "labels": [
+          "Needs-QA",
+          "accelerated"
+        ]
+      },
+      {
+        "key": "WSC-1727",
+        "url": "https://e2x.atlassian.net/browse/WSC-1727",
+        "summary": "[Automation] UAT Coverage: SFS Multi-size and One-size Warehouse PDP",
+        "status": "Backlog",
+        "statusCategory": "new",
+        "assignee": "Gerardo Romero",
+        "updated": "2026-08-26T14:16:21.858+0100",
+        "priority": "Not Set",
+        "labels": []
+      },
+      {
+        "key": "WSC-1637",
+        "url": "https://e2x.atlassian.net/browse/WSC-1637",
+        "summary": "Add Cloudflare rate limiting rules for excessive 404/403 responses (page-level and API)",
+        "status": "Blocked",
+        "statusCategory": "new",
+        "assignee": "Alexander Talavera",
+        "updated": "2026-08-26T14:13:16.046+0100",
+        "priority": "Cr\u00edtica",
+        "labels": []
+      },
+      {
+        "key": "WSC-1731",
+        "url": "https://e2x.atlassian.net/browse/WSC-1731",
+        "summary": "[Automation] UAT Coverage: Hard Refresh Testing Across All PDP Types",
+        "status": "Backlog",
+        "statusCategory": "new",
+        "assignee": "Unassigned",
+        "updated": "2026-08-26T14:06:47.803+0100",
+        "priority": "Not Set",
+        "labels": []
+      },
+      {
+        "key": "WSC-1730",
+        "url": "https://e2x.atlassian.net/browse/WSC-1730",
+        "summary": "[Automation] UAT Coverage: Talon.One Promotions and Coupon Codes",
+        "status": "Backlog",
+        "statusCategory": "new",
+        "assignee": "Unassigned",
+        "updated": "2026-08-26T14:06:44.244+0100",
+        "priority": "Not Set",
+        "labels": []
+      },
+      {
+        "key": "WSC-1729",
+        "url": "https://e2x.atlassian.net/browse/WSC-1729",
+        "summary": "[Automation] UAT Coverage: Partial OOS and Fully OOS Product States",
+        "status": "Backlog",
+        "statusCategory": "new",
+        "assignee": "Unassigned",
+        "updated": "2026-08-26T14:06:41.723+0100",
+        "priority": "Not Set",
+        "labels": []
+      },
+      {
+        "key": "WSC-1728",
+        "url": "https://e2x.atlassian.net/browse/WSC-1728",
+        "summary": "[Automation] UAT Coverage: Physical Gift Card and E-Gift Card PDP Purchase Flow",
+        "status": "Backlog",
+        "statusCategory": "new",
+        "assignee": "Unassigned",
+        "updated": "2026-08-26T14:06:38.858+0100",
+        "priority": "Not Set",
+        "labels": []
+      },
+      {
         "key": "WSC-1654",
         "url": "https://e2x.atlassian.net/browse/WSC-1654",
         "summary": "Short-circuit unknown content-page URLs using an Amplience-derived valid-slug registry",
         "status": "QA Approved",
         "statusCategory": "indeterminate",
         "assignee": "enmanuel.ramirez",
-        "updated": "2026-08-26T13:52:50.419+0100",
+        "updated": "2026-08-26T13:56:35.192+0100",
         "priority": "Cr\u00edtica",
         "labels": [
           "NO_QA_REQUIRED",
@@ -256,17 +336,6 @@
         ]
       },
       {
-        "key": "WSC-1637",
-        "url": "https://e2x.atlassian.net/browse/WSC-1637",
-        "summary": "Add Cloudflare rate limiting rules for excessive 404/403 responses (page-level and API)",
-        "status": "Blocked",
-        "statusCategory": "new",
-        "assignee": "Alexander Talavera",
-        "updated": "2026-08-25T16:01:08.690+0100",
-        "priority": "Cr\u00edtica",
-        "labels": []
-      },
-      {
         "key": "WSC-1716",
         "url": "https://e2x.atlassian.net/browse/WSC-1716",
         "summary": "PLP - Cannot add product to cart when navigating from WS marketing email discount links",
@@ -465,20 +534,6 @@
         "updated": "2026-08-24T13:44:47.493+0100",
         "priority": "Poco importante",
         "labels": [
-          "accelerated"
-        ]
-      },
-      {
-        "key": "WSC-1698",
-        "url": "https://e2x.atlassian.net/browse/WSC-1698",
-        "summary": "[WSSD-708] - PDP - BazaarVoice reviews only appear when navigating from PLP",
-        "status": "Tech Review",
-        "statusCategory": "indeterminate",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-08-22T17:09:59.358+0100",
-        "priority": "Importante",
-        "labels": [
-          "Needs-QA",
           "accelerated"
         ]
       },
