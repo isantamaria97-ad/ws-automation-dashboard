@@ -1,17 +1,18 @@
 {
-  "lastUpdated": "2026-08-26T13:31:03.701477+00:00",
+  "lastUpdated": "2026-08-26T16:48:38.872610+00:00",
   "jira": {
     "summary": {
       "total": 390,
       "byStatus": {
-        "QA Approved": 18,
-        "Backlog": 20,
-        "Blocked": 6,
+        "Tech Review": 9,
+        "Ready to QA": 1,
+        "En curso": 2,
         "RETURNED BY QA": 2,
-        "Tech Review": 8,
-        "En curso": 3,
+        "Backlog": 20,
+        "QA Approved": 18,
+        "Blocked": 6,
         "Finalizada": 290,
-        "Listo": 25,
+        "Listo": 24,
         "Tareas por hacer": 1,
         "Deprecated": 14,
         "Ready for Refinement": 1,
@@ -20,6 +21,99 @@
       }
     },
     "tickets": [
+      {
+        "key": "WSC-1714",
+        "url": "https://e2x.atlassian.net/browse/WSC-1714",
+        "summary": "Mobile - Page clips to the right ",
+        "status": "Tech Review",
+        "statusCategory": "indeterminate",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-08-26T17:37:58.600+0100",
+        "priority": "Supone un impedimento",
+        "labels": [
+          "Needs-QA"
+        ]
+      },
+      {
+        "key": "WSC-1594",
+        "url": "https://e2x.atlassian.net/browse/WSC-1594",
+        "summary": "SFS - item SFS data on VSF",
+        "status": "Ready to QA",
+        "statusCategory": "new",
+        "assignee": "Gerardo Romero",
+        "updated": "2026-08-26T17:32:18.498+0100",
+        "priority": "Importante",
+        "labels": [
+          "Needs-QA",
+          "automatable"
+        ]
+      },
+      {
+        "key": "WSC-1674",
+        "url": "https://e2x.atlassian.net/browse/WSC-1674",
+        "summary": "UX - email and password validation",
+        "status": "En curso",
+        "statusCategory": "indeterminate",
+        "assignee": "Jair Huaman",
+        "updated": "2026-08-26T17:16:32.777+0100",
+        "priority": "Importante",
+        "labels": [
+          "Needs-QA",
+          "automatable"
+        ]
+      },
+      {
+        "key": "WSC-1619",
+        "url": "https://e2x.atlassian.net/browse/WSC-1619",
+        "summary": "Outbound request resilience: 429 backoff, concurrency limits & circuit breaking",
+        "status": "RETURNED BY QA",
+        "statusCategory": "indeterminate",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-08-26T16:39:53.887+0100",
+        "priority": "Cr\u00edtica",
+        "labels": [
+          "NO_QA_REQUIRED",
+          "co-build"
+        ]
+      },
+      {
+        "key": "WSC-1727",
+        "url": "https://e2x.atlassian.net/browse/WSC-1727",
+        "summary": "[Automation] UAT Coverage: SFS Multi-size and One-size Warehouse PDP",
+        "status": "Backlog",
+        "statusCategory": "new",
+        "assignee": "Gerardo Romero",
+        "updated": "2026-08-26T15:49:10.448+0100",
+        "priority": "Not Set",
+        "labels": []
+      },
+      {
+        "key": "WSC-1654",
+        "url": "https://e2x.atlassian.net/browse/WSC-1654",
+        "summary": "Short-circuit unknown content-page URLs using an Amplience-derived valid-slug registry",
+        "status": "QA Approved",
+        "statusCategory": "indeterminate",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-08-26T15:33:24.907+0100",
+        "priority": "Cr\u00edtica",
+        "labels": [
+          "NO_QA_REQUIRED",
+          "accelerated"
+        ]
+      },
+      {
+        "key": "WSC-1656",
+        "url": "https://e2x.atlassian.net/browse/WSC-1656",
+        "summary": "MINI BAG - redesign",
+        "status": "Tech Review",
+        "statusCategory": "indeterminate",
+        "assignee": "Unassigned",
+        "updated": "2026-08-26T15:07:42.487+0100",
+        "priority": "Importante",
+        "labels": [
+          "Needs-QA"
+        ]
+      },
       {
         "key": "WSC-1698",
         "url": "https://e2x.atlassian.net/browse/WSC-1698",
@@ -33,17 +127,6 @@
           "Needs-QA",
           "accelerated"
         ]
-      },
-      {
-        "key": "WSC-1727",
-        "url": "https://e2x.atlassian.net/browse/WSC-1727",
-        "summary": "[Automation] UAT Coverage: SFS Multi-size and One-size Warehouse PDP",
-        "status": "Backlog",
-        "statusCategory": "new",
-        "assignee": "Gerardo Romero",
-        "updated": "2026-08-26T14:16:21.858+0100",
-        "priority": "Not Set",
-        "labels": []
       },
       {
         "key": "WSC-1637",
@@ -101,20 +184,6 @@
         "labels": []
       },
       {
-        "key": "WSC-1654",
-        "url": "https://e2x.atlassian.net/browse/WSC-1654",
-        "summary": "Short-circuit unknown content-page URLs using an Amplience-derived valid-slug registry",
-        "status": "QA Approved",
-        "statusCategory": "indeterminate",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-08-26T13:56:35.192+0100",
-        "priority": "Cr\u00edtica",
-        "labels": [
-          "NO_QA_REQUIRED",
-          "accelerated"
-        ]
-      },
-      {
         "key": "WSC-1679",
         "url": "https://e2x.atlassian.net/browse/WSC-1679",
         "summary": "SLIM BANNER - control Benefit Bar",
@@ -124,20 +193,6 @@
         "updated": "2026-08-26T13:36:18.794+0100",
         "priority": "Importante",
         "labels": [
-          "co-build"
-        ]
-      },
-      {
-        "key": "WSC-1619",
-        "url": "https://e2x.atlassian.net/browse/WSC-1619",
-        "summary": "Outbound request resilience: 429 backoff, concurrency limits & circuit breaking",
-        "status": "RETURNED BY QA",
-        "statusCategory": "indeterminate",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-08-26T13:08:19.890+0100",
-        "priority": "Cr\u00edtica",
-        "labels": [
-          "NO_QA_REQUIRED",
           "co-build"
         ]
       },
@@ -166,19 +221,6 @@
         "labels": []
       },
       {
-        "key": "WSC-1656",
-        "url": "https://e2x.atlassian.net/browse/WSC-1656",
-        "summary": "MINI BAG - redesign",
-        "status": "Tech Review",
-        "statusCategory": "indeterminate",
-        "assignee": "Chiara Davies",
-        "updated": "2026-08-26T10:29:34.612+0100",
-        "priority": "Importante",
-        "labels": [
-          "Needs-QA"
-        ]
-      },
-      {
         "key": "WSC-1636",
         "url": "https://e2x.atlassian.net/browse/WSC-1636",
         "summary": "Tighten Super Bot Fight Mode policy: Block Automated, Managed Challenge Likely Automated",
@@ -188,20 +230,6 @@
         "updated": "2026-08-25T22:22:11.071+0100",
         "priority": "Cr\u00edtica",
         "labels": []
-      },
-      {
-        "key": "WSC-1674",
-        "url": "https://e2x.atlassian.net/browse/WSC-1674",
-        "summary": "UX - email and password validation",
-        "status": "En curso",
-        "statusCategory": "indeterminate",
-        "assignee": "Jair Huaman",
-        "updated": "2026-08-25T20:53:02.598+0100",
-        "priority": "Importante",
-        "labels": [
-          "Needs-QA",
-          "automatable"
-        ]
       },
       {
         "key": "WSC-1700",
@@ -282,19 +310,6 @@
         "labels": [
           "Needs-QA",
           "automatable"
-        ]
-      },
-      {
-        "key": "WSC-1714",
-        "url": "https://e2x.atlassian.net/browse/WSC-1714",
-        "summary": "Mobile - Page clips to the right ",
-        "status": "Listo",
-        "statusCategory": "new",
-        "assignee": "Unassigned",
-        "updated": "2026-08-25T19:42:42.363+0100",
-        "priority": "Supone un impedimento",
-        "labels": [
-          "Needs-QA"
         ]
       },
       {
@@ -485,20 +500,6 @@
         "updated": "2026-08-24T18:00:03.258+0100",
         "priority": "Importante",
         "labels": []
-      },
-      {
-        "key": "WSC-1594",
-        "url": "https://e2x.atlassian.net/browse/WSC-1594",
-        "summary": "SFS - item SFS data on VSF",
-        "status": "En curso",
-        "statusCategory": "indeterminate",
-        "assignee": "Alexander Talavera",
-        "updated": "2026-08-24T17:53:39.665+0100",
-        "priority": "Importante",
-        "labels": [
-          "Needs-QA",
-          "automatable"
-        ]
       },
       {
         "key": "WSC-173",
