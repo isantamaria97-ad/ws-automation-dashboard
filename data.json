@@ -1,25 +1,348 @@
 {
-  "lastUpdated": "2026-08-28T10:04:27.791329+00:00",
+  "lastUpdated": "2026-08-28T21:47:04.976571+00:00",
   "jira": {
     "summary": {
-      "total": 394,
+      "total": 395,
       "byStatus": {
-        "Listo": 25,
-        "Tareas por hacer": 1,
-        "En curso": 2,
+        "IN UAT": 5,
+        "Ready to QA": 1,
+        "RETURNED BY QA": 1,
+        "QA Approved": 14,
+        "Blocked": 4,
+        "Listo": 22,
         "Tech Review": 11,
-        "QA Approved": 21,
-        "Blocked": 5,
+        "En curso": 5,
+        "PENDING DEV DEPLOY": 1,
+        "Finalizada": 294,
+        "Tareas por hacer": 1,
         "Backlog": 19,
         "Deprecated": 15,
-        "RETURNED BY QA": 2,
-        "Finalizada": 290,
         "Ready for Refinement": 1,
-        "PENDING DEV DEPLOY": 1,
         "READY FOR RELEASE": 1
       }
     },
     "tickets": [
+      {
+        "key": "WSC-1718",
+        "url": "https://e2x.atlassian.net/browse/WSC-1718",
+        "summary": "GUEST CHECKOUT - email dropped from 2 DL events",
+        "status": "IN UAT",
+        "statusCategory": "indeterminate",
+        "assignee": "Ingrith Santamaria",
+        "updated": "2026-08-28T21:13:37.300+0100",
+        "priority": "Importante",
+        "labels": []
+      },
+      {
+        "key": "WSC-1698",
+        "url": "https://e2x.atlassian.net/browse/WSC-1698",
+        "summary": "[WSSD-708] - PDP - BazaarVoice reviews only appear when navigating from PLP",
+        "status": "IN UAT",
+        "statusCategory": "indeterminate",
+        "assignee": "Ingrith Santamaria",
+        "updated": "2026-08-28T21:04:57.058+0100",
+        "priority": "Importante",
+        "labels": [
+          "Needs-QA",
+          "accelerated"
+        ]
+      },
+      {
+        "key": "WSC-1660",
+        "url": "https://e2x.atlassian.net/browse/WSC-1660",
+        "summary": "PDP - hide review stars when stars = 0",
+        "status": "IN UAT",
+        "statusCategory": "indeterminate",
+        "assignee": "Ingrith Santamaria",
+        "updated": "2026-08-28T20:59:34.111+0100",
+        "priority": "Poco importante",
+        "labels": [
+          "Needs-QA",
+          "automatable"
+        ]
+      },
+      {
+        "key": "WSC-388",
+        "url": "https://e2x.atlassian.net/browse/WSC-388",
+        "summary": "HEADER - quantity overlaps bag icon when more than 1 digit",
+        "status": "IN UAT",
+        "statusCategory": "indeterminate",
+        "assignee": "Ingrith Santamaria",
+        "updated": "2026-08-28T20:51:14.784+0100",
+        "priority": "Trivial",
+        "labels": [
+          "Needs-QA"
+        ]
+      },
+      {
+        "key": "WSC-1422",
+        "url": "https://e2x.atlassian.net/browse/WSC-1422",
+        "summary": "Desktop/Mobile: SIDE PANEL - standardise width",
+        "status": "IN UAT",
+        "statusCategory": "indeterminate",
+        "assignee": "Ingrith Santamaria",
+        "updated": "2026-08-28T20:47:59.200+0100",
+        "priority": "Poco importante",
+        "labels": [
+          "Needs-QA"
+        ]
+      },
+      {
+        "key": "WSC-1734",
+        "url": "https://e2x.atlassian.net/browse/WSC-1734",
+        "summary": "PLP hydration failure when loaded from tracked marketing URLs served from Cloudflare cache",
+        "status": "Ready to QA",
+        "statusCategory": "new",
+        "assignee": "Unassigned",
+        "updated": "2026-08-28T19:03:49.088+0100",
+        "priority": "Not Set",
+        "labels": []
+      },
+      {
+        "key": "WSC-1619",
+        "url": "https://e2x.atlassian.net/browse/WSC-1619",
+        "summary": "Outbound request resilience: 429 backoff, concurrency limits & circuit breaking",
+        "status": "RETURNED BY QA",
+        "statusCategory": "indeterminate",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-08-28T18:19:56.943+0100",
+        "priority": "Cr\u00edtica",
+        "labels": [
+          "NO_QA_REQUIRED",
+          "co-build"
+        ]
+      },
+      {
+        "key": "WSC-1727",
+        "url": "https://e2x.atlassian.net/browse/WSC-1727",
+        "summary": "[Automation] UAT Coverage: SFS Multi-size and One-size Warehouse PDP",
+        "status": "QA Approved",
+        "statusCategory": "indeterminate",
+        "assignee": "Gerardo Romero",
+        "updated": "2026-08-28T18:18:02.084+0100",
+        "priority": "Not Set",
+        "labels": []
+      },
+      {
+        "key": "WSC-1732",
+        "url": "https://e2x.atlassian.net/browse/WSC-1732",
+        "summary": "Review and fix failing tests in DEV CI flow",
+        "status": "QA Approved",
+        "statusCategory": "indeterminate",
+        "assignee": "Ingrith Santamaria",
+        "updated": "2026-08-28T18:18:01.720+0100",
+        "priority": "Importante",
+        "labels": []
+      },
+      {
+        "key": "WSC-1504",
+        "url": "https://e2x.atlassian.net/browse/WSC-1504",
+        "summary": "ACCOUNT CREATION - post purchase sign up bug",
+        "status": "Blocked",
+        "statusCategory": "new",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-08-28T18:18:00.902+0100",
+        "priority": "Importante",
+        "labels": []
+      },
+      {
+        "key": "WSC-1483",
+        "url": "https://e2x.atlassian.net/browse/WSC-1483",
+        "summary": "CSP - QA: Checkout & Critical Flow Validation after Enforcement",
+        "status": "Blocked",
+        "statusCategory": "new",
+        "assignee": "Gerardo Romero",
+        "updated": "2026-08-28T18:18:00.514+0100",
+        "priority": "Not Set",
+        "labels": [
+          "CSP",
+          "Needs-QA"
+        ]
+      },
+      {
+        "key": "WSC-1484",
+        "url": "https://e2x.atlassian.net/browse/WSC-1484",
+        "summary": "CSP Enforcement Rollout & Hardening",
+        "status": "Listo",
+        "statusCategory": "new",
+        "assignee": "Unassigned",
+        "updated": "2026-08-28T18:18:00.134+0100",
+        "priority": "Cr\u00edtica",
+        "labels": [
+          "CSP",
+          "NO_QA_REQUIRED"
+        ]
+      },
+      {
+        "key": "WSC-1578",
+        "url": "https://e2x.atlassian.net/browse/WSC-1578",
+        "summary": "[WSSD-633] Add Cloudflare rate limiting rule for the password reset endpoint",
+        "status": "Tech Review",
+        "statusCategory": "indeterminate",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-08-28T18:17:59.633+0100",
+        "priority": "Importante",
+        "labels": []
+      },
+      {
+        "key": "WSC-1510",
+        "url": "https://e2x.atlassian.net/browse/WSC-1510",
+        "summary": "[WSSD-609] - Duplicate payment in Adyen",
+        "status": "En curso",
+        "statusCategory": "indeterminate",
+        "assignee": "Jair Huaman",
+        "updated": "2026-08-28T17:54:03.782+0100",
+        "priority": "Poco importante",
+        "labels": [
+          "FastFollow",
+          "Needs-QA"
+        ]
+      },
+      {
+        "key": "WSC-1725",
+        "url": "https://e2x.atlassian.net/browse/WSC-1725",
+        "summary": "LIVE CHAT - z index bug",
+        "status": "QA Approved",
+        "statusCategory": "indeterminate",
+        "assignee": "Gerardo Romero",
+        "updated": "2026-08-28T17:51:08.564+0100",
+        "priority": "Importante",
+        "labels": []
+      },
+      {
+        "key": "WSC-1514",
+        "url": "https://e2x.atlassian.net/browse/WSC-1514",
+        "summary": "PLP - Investigate and fix Browse PLP SSR hydration failure (1 of 2)",
+        "status": "PENDING DEV DEPLOY",
+        "statusCategory": "new",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-08-28T17:00:29.187+0100",
+        "priority": "Importante",
+        "labels": [
+          "NO_QA_REQUIRED"
+        ]
+      },
+      {
+        "key": "WSC-1637",
+        "url": "https://e2x.atlassian.net/browse/WSC-1637",
+        "summary": "Add Cloudflare rate limiting rules for excessive 404/403 responses (page-level and API)",
+        "status": "Tech Review",
+        "statusCategory": "indeterminate",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-08-28T17:00:21.006+0100",
+        "priority": "Cr\u00edtica",
+        "labels": []
+      },
+      {
+        "key": "WSC-173",
+        "url": "https://e2x.atlassian.net/browse/WSC-173",
+        "summary": "SEO - fix to product schema for PDP for reviews and ratings",
+        "status": "En curso",
+        "statusCategory": "indeterminate",
+        "assignee": "Jair Huaman",
+        "updated": "2026-08-28T16:34:29.027+0100",
+        "priority": "Poco importante",
+        "labels": [
+          "Needs-QA"
+        ]
+      },
+      {
+        "key": "WSC-1716",
+        "url": "https://e2x.atlassian.net/browse/WSC-1716",
+        "summary": "PLP - Cannot add product to cart when navigating from WS marketing email discount links",
+        "status": "Finalizada",
+        "statusCategory": "done",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-08-28T16:18:37.085+0100",
+        "priority": "Importante",
+        "labels": [
+          "Needs-QA"
+        ]
+      },
+      {
+        "key": "WSC-1647",
+        "url": "https://e2x.atlassian.net/browse/WSC-1647",
+        "summary": "CONTENT - new wider version of SEOTextBlock",
+        "status": "QA Approved",
+        "statusCategory": "indeterminate",
+        "assignee": "Ingrith Santamaria",
+        "updated": "2026-08-28T16:18:09.513+0100",
+        "priority": "Importante",
+        "labels": []
+      },
+      {
+        "key": "WSC-1636",
+        "url": "https://e2x.atlassian.net/browse/WSC-1636",
+        "summary": "Tighten Super Bot Fight Mode policy: Block Automated, Managed Challenge Likely Automated",
+        "status": "QA Approved",
+        "statusCategory": "indeterminate",
+        "assignee": "Jair Huaman",
+        "updated": "2026-08-28T15:14:31.701+0100",
+        "priority": "Cr\u00edtica",
+        "labels": []
+      },
+      {
+        "key": "WSC-1643",
+        "url": "https://e2x.atlassian.net/browse/WSC-1643",
+        "summary": "Unmasking JS errors - vendor outreach",
+        "status": "En curso",
+        "statusCategory": "indeterminate",
+        "assignee": "Alexander Talavera",
+        "updated": "2026-08-28T15:06:00.813+0100",
+        "priority": "Importante",
+        "labels": [
+          "NO_QA_REQUIRED"
+        ]
+      },
+      {
+        "key": "WSC-1672",
+        "url": "https://e2x.atlassian.net/browse/WSC-1672",
+        "summary": "API 404 error - https://www.whitestuff.com/api/talonone/getCustomerSession",
+        "status": "En curso",
+        "statusCategory": "indeterminate",
+        "assignee": "Alexander Talavera",
+        "updated": "2026-08-28T14:40:45.766+0100",
+        "priority": "Poco importante",
+        "labels": []
+      },
+      {
+        "key": "WSC-1715",
+        "url": "https://e2x.atlassian.net/browse/WSC-1715",
+        "summary": "Fix PLP hydration mismatch by hoisting useContent out of useAsync",
+        "status": "Finalizada",
+        "statusCategory": "done",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-08-28T14:04:58.703+0100",
+        "priority": "Not Set",
+        "labels": [
+          "NO_QA_REQUIRED"
+        ]
+      },
+      {
+        "key": "WSC-1703",
+        "url": "https://e2x.atlassian.net/browse/WSC-1703",
+        "summary": "Add timeouts to Nuxt SSR HTTP clients",
+        "status": "Finalizada",
+        "statusCategory": "done",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-08-28T14:04:53.051+0100",
+        "priority": "Cr\u00edtica",
+        "labels": []
+      },
+      {
+        "key": "WSC-1654",
+        "url": "https://e2x.atlassian.net/browse/WSC-1654",
+        "summary": "Short-circuit unknown content-page URLs using an Amplience-derived valid-slug registry",
+        "status": "Finalizada",
+        "statusCategory": "done",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-08-28T14:04:46.511+0100",
+        "priority": "Cr\u00edtica",
+        "labels": [
+          "NO_QA_REQUIRED",
+          "accelerated"
+        ]
+      },
       {
         "key": "WSC-1687",
         "url": "https://e2x.atlassian.net/browse/WSC-1687",
@@ -277,17 +600,6 @@
         ]
       },
       {
-        "key": "WSC-1727",
-        "url": "https://e2x.atlassian.net/browse/WSC-1727",
-        "summary": "[Automation] UAT Coverage: SFS Multi-size and One-size Warehouse PDP",
-        "status": "En curso",
-        "statusCategory": "indeterminate",
-        "assignee": "Gerardo Romero",
-        "updated": "2026-08-27T23:46:04.444+0100",
-        "priority": "Not Set",
-        "labels": []
-      },
-      {
         "key": "WSC-1590",
         "url": "https://e2x.atlassian.net/browse/WSC-1590",
         "summary": "[WSSD-632][Security] Active sessions remain valid after password reset",
@@ -297,19 +609,6 @@
         "updated": "2026-08-27T23:09:49.679+0100",
         "priority": "Not Set",
         "labels": []
-      },
-      {
-        "key": "WSC-388",
-        "url": "https://e2x.atlassian.net/browse/WSC-388",
-        "summary": "HEADER - quantity overlaps bag icon when more than 1 digit",
-        "status": "QA Approved",
-        "statusCategory": "indeterminate",
-        "assignee": "Ingrith Santamaria",
-        "updated": "2026-08-27T23:09:49.291+0100",
-        "priority": "Trivial",
-        "labels": [
-          "Needs-QA"
-        ]
       },
       {
         "key": "WSC-1594",
@@ -337,20 +636,6 @@
         "labels": []
       },
       {
-        "key": "WSC-1698",
-        "url": "https://e2x.atlassian.net/browse/WSC-1698",
-        "summary": "[WSSD-708] - PDP - BazaarVoice reviews only appear when navigating from PLP",
-        "status": "QA Approved",
-        "statusCategory": "indeterminate",
-        "assignee": "Ingrith Santamaria",
-        "updated": "2026-08-27T23:09:48.029+0100",
-        "priority": "Importante",
-        "labels": [
-          "Needs-QA",
-          "accelerated"
-        ]
-      },
-      {
         "key": "WSC-1577",
         "url": "https://e2x.atlassian.net/browse/WSC-1577",
         "summary": "[WSSD-633] Add per-email rate limiting to the password reset endpoint",
@@ -362,17 +647,6 @@
         "labels": [
           "Needs-QA"
         ]
-      },
-      {
-        "key": "WSC-1578",
-        "url": "https://e2x.atlassian.net/browse/WSC-1578",
-        "summary": "[WSSD-633] Add Cloudflare rate limiting rule for the password reset endpoint",
-        "status": "QA Approved",
-        "statusCategory": "indeterminate",
-        "assignee": "Alexander Talavera",
-        "updated": "2026-08-27T23:09:47.285+0100",
-        "priority": "Importante",
-        "labels": []
       },
       {
         "key": "WSC-1679",
@@ -399,17 +673,6 @@
         "labels": []
       },
       {
-        "key": "WSC-1637",
-        "url": "https://e2x.atlassian.net/browse/WSC-1637",
-        "summary": "Add Cloudflare rate limiting rules for excessive 404/403 responses (page-level and API)",
-        "status": "Tech Review",
-        "statusCategory": "indeterminate",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-08-27T23:09:46.148+0100",
-        "priority": "Cr\u00edtica",
-        "labels": []
-      },
-      {
         "key": "WSC-1714",
         "url": "https://e2x.atlassian.net/browse/WSC-1714",
         "summary": "Mobile - Page clips to the right ",
@@ -423,17 +686,6 @@
         ]
       },
       {
-        "key": "WSC-1718",
-        "url": "https://e2x.atlassian.net/browse/WSC-1718",
-        "summary": "GUEST CHECKOUT - email dropped from 2 DL events",
-        "status": "QA Approved",
-        "statusCategory": "indeterminate",
-        "assignee": "Ingrith Santamaria",
-        "updated": "2026-08-27T23:09:45.249+0100",
-        "priority": "Importante",
-        "labels": []
-      },
-      {
         "key": "WSC-1581",
         "url": "https://e2x.atlassian.net/browse/WSC-1581",
         "summary": "SPIKE - /bag emptied after signing in on /checkout-identity",
@@ -443,74 +695,6 @@
         "updated": "2026-08-27T23:09:44.885+0100",
         "priority": "Importante",
         "labels": []
-      },
-      {
-        "key": "WSC-1483",
-        "url": "https://e2x.atlassian.net/browse/WSC-1483",
-        "summary": "CSP - QA: Checkout & Critical Flow Validation after Enforcement",
-        "status": "Blocked",
-        "statusCategory": "new",
-        "assignee": "Gerardo Romero",
-        "updated": "2026-08-27T23:09:44.466+0100",
-        "priority": "Not Set",
-        "labels": [
-          "CSP",
-          "Needs-QA"
-        ]
-      },
-      {
-        "key": "WSC-1484",
-        "url": "https://e2x.atlassian.net/browse/WSC-1484",
-        "summary": "CSP Enforcement Rollout & Hardening",
-        "status": "Listo",
-        "statusCategory": "new",
-        "assignee": "Unassigned",
-        "updated": "2026-08-27T23:09:44.124+0100",
-        "priority": "Cr\u00edtica",
-        "labels": [
-          "CSP",
-          "NO_QA_REQUIRED"
-        ]
-      },
-      {
-        "key": "WSC-1660",
-        "url": "https://e2x.atlassian.net/browse/WSC-1660",
-        "summary": "PDP - hide review stars when stars = 0",
-        "status": "QA Approved",
-        "statusCategory": "indeterminate",
-        "assignee": "Ingrith Santamaria",
-        "updated": "2026-08-27T23:09:43.715+0100",
-        "priority": "Poco importante",
-        "labels": [
-          "Needs-QA",
-          "automatable"
-        ]
-      },
-      {
-        "key": "WSC-1422",
-        "url": "https://e2x.atlassian.net/browse/WSC-1422",
-        "summary": "Desktop/Mobile: SIDE PANEL - standardise width",
-        "status": "QA Approved",
-        "statusCategory": "indeterminate",
-        "assignee": "Ingrith Santamaria",
-        "updated": "2026-08-27T23:09:43.321+0100",
-        "priority": "Poco importante",
-        "labels": [
-          "Needs-QA"
-        ]
-      },
-      {
-        "key": "WSC-1643",
-        "url": "https://e2x.atlassian.net/browse/WSC-1643",
-        "summary": "Unmasking JS errors - vendor outreach",
-        "status": "Blocked",
-        "statusCategory": "new",
-        "assignee": "Alexander Talavera",
-        "updated": "2026-08-27T23:09:42.794+0100",
-        "priority": "Importante",
-        "labels": [
-          "NO_QA_REQUIRED"
-        ]
       },
       {
         "key": "WSC-1545",
@@ -554,39 +738,6 @@
         ]
       },
       {
-        "key": "WSC-1647",
-        "url": "https://e2x.atlassian.net/browse/WSC-1647",
-        "summary": "CONTENT - new wider version of SEOTextBlock",
-        "status": "QA Approved",
-        "statusCategory": "indeterminate",
-        "assignee": "Ingrith Santamaria",
-        "updated": "2026-08-27T23:09:41.020+0100",
-        "priority": "Importante",
-        "labels": []
-      },
-      {
-        "key": "WSC-1504",
-        "url": "https://e2x.atlassian.net/browse/WSC-1504",
-        "summary": "ACCOUNT CREATION - post purchase sign up bug",
-        "status": "Blocked",
-        "statusCategory": "new",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-08-27T23:09:40.596+0100",
-        "priority": "Importante",
-        "labels": []
-      },
-      {
-        "key": "WSC-1725",
-        "url": "https://e2x.atlassian.net/browse/WSC-1725",
-        "summary": "LIVE CHAT - z index bug",
-        "status": "Tech Review",
-        "statusCategory": "indeterminate",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-08-27T23:09:40.172+0100",
-        "priority": "Importante",
-        "labels": []
-      },
-      {
         "key": "WSC-1607",
         "url": "https://e2x.atlassian.net/browse/WSC-1607",
         "summary": "PDP - Stylitics - Android issue",
@@ -596,31 +747,6 @@
         "updated": "2026-08-27T23:09:39.618+0100",
         "priority": "Poco importante",
         "labels": [
-          "accelerated"
-        ]
-      },
-      {
-        "key": "WSC-1636",
-        "url": "https://e2x.atlassian.net/browse/WSC-1636",
-        "summary": "Tighten Super Bot Fight Mode policy: Block Automated, Managed Challenge Likely Automated",
-        "status": "QA Approved",
-        "statusCategory": "indeterminate",
-        "assignee": "Jair Huaman",
-        "updated": "2026-08-27T22:25:32.295+0100",
-        "priority": "Cr\u00edtica",
-        "labels": []
-      },
-      {
-        "key": "WSC-1654",
-        "url": "https://e2x.atlassian.net/browse/WSC-1654",
-        "summary": "Short-circuit unknown content-page URLs using an Amplience-derived valid-slug registry",
-        "status": "QA Approved",
-        "statusCategory": "indeterminate",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-08-27T22:18:55.958+0100",
-        "priority": "Cr\u00edtica",
-        "labels": [
-          "NO_QA_REQUIRED",
           "accelerated"
         ]
       },
@@ -650,17 +776,6 @@
         "labels": []
       },
       {
-        "key": "WSC-1732",
-        "url": "https://e2x.atlassian.net/browse/WSC-1732",
-        "summary": "Review and fix failing tests in DEV CI flow",
-        "status": "Listo",
-        "statusCategory": "new",
-        "assignee": "Ingrith Santamaria",
-        "updated": "2026-08-27T14:36:45.471+0100",
-        "priority": "Importante",
-        "labels": []
-      },
-      {
         "key": "WSC-1713",
         "url": "https://e2x.atlassian.net/browse/WSC-1713",
         "summary": "Error Timeouts - Alokai recommendation",
@@ -670,20 +785,6 @@
         "updated": "2026-08-27T13:10:51.145+0100",
         "priority": "Not Set",
         "labels": []
-      },
-      {
-        "key": "WSC-1619",
-        "url": "https://e2x.atlassian.net/browse/WSC-1619",
-        "summary": "Outbound request resilience: 429 backoff, concurrency limits & circuit breaking",
-        "status": "RETURNED BY QA",
-        "statusCategory": "indeterminate",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-08-26T16:39:53.887+0100",
-        "priority": "Cr\u00edtica",
-        "labels": [
-          "NO_QA_REQUIRED",
-          "co-build"
-        ]
       },
       {
         "key": "WSC-1656",
@@ -743,30 +844,6 @@
         "labels": []
       },
       {
-        "key": "WSC-1715",
-        "url": "https://e2x.atlassian.net/browse/WSC-1715",
-        "summary": "Fix PLP hydration mismatch by hoisting useContent out of useAsync",
-        "status": "QA Approved",
-        "statusCategory": "indeterminate",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-08-26T13:07:29.010+0100",
-        "priority": "Not Set",
-        "labels": [
-          "NO_QA_REQUIRED"
-        ]
-      },
-      {
-        "key": "WSC-1703",
-        "url": "https://e2x.atlassian.net/browse/WSC-1703",
-        "summary": "Add timeouts to Nuxt SSR HTTP clients",
-        "status": "QA Approved",
-        "statusCategory": "indeterminate",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-08-26T13:07:12.544+0100",
-        "priority": "Cr\u00edtica",
-        "labels": []
-      },
-      {
         "key": "WSC-1700",
         "url": "https://e2x.atlassian.net/browse/WSC-1700",
         "summary": "[WSSD-712] - APPLE PAY EXPRESS - fails in mini bag, bag & checkout identity when a coupon code is applied",
@@ -776,19 +853,6 @@
         "updated": "2026-08-25T20:46:58.521+0100",
         "priority": "Importante",
         "labels": []
-      },
-      {
-        "key": "WSC-1716",
-        "url": "https://e2x.atlassian.net/browse/WSC-1716",
-        "summary": "PLP - Cannot add product to cart when navigating from WS marketing email discount links",
-        "status": "QA Approved",
-        "statusCategory": "indeterminate",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-08-25T16:01:07.877+0100",
-        "priority": "Importante",
-        "labels": [
-          "Needs-QA"
-        ]
       },
       {
         "key": "WSC-1686",
@@ -824,19 +888,6 @@
         "updated": "2026-08-24T18:00:03.258+0100",
         "priority": "Importante",
         "labels": []
-      },
-      {
-        "key": "WSC-173",
-        "url": "https://e2x.atlassian.net/browse/WSC-173",
-        "summary": "SEO - fix to product schema for PDP for reviews and ratings",
-        "status": "RETURNED BY QA",
-        "statusCategory": "indeterminate",
-        "assignee": "Jair Huaman",
-        "updated": "2026-08-24T15:22:35.144+0100",
-        "priority": "Poco importante",
-        "labels": [
-          "Needs-QA"
-        ]
       },
       {
         "key": "WSC-1664",
@@ -1209,17 +1260,6 @@
         "labels": []
       },
       {
-        "key": "WSC-1672",
-        "url": "https://e2x.atlassian.net/browse/WSC-1672",
-        "summary": "API 404 error - https://www.whitestuff.com/api/talonone/getCustomerSession",
-        "status": "Listo",
-        "statusCategory": "new",
-        "assignee": "Alexander Talavera",
-        "updated": "2026-08-14T15:07:01.342+0100",
-        "priority": "Poco importante",
-        "labels": []
-      },
-      {
         "key": "WSC-76",
         "url": "https://e2x.atlassian.net/browse/WSC-76",
         "summary": "HOTSPOTS - bug when no URL is set",
@@ -1231,20 +1271,6 @@
         "labels": [
           "Needs-QA",
           "manualQA"
-        ]
-      },
-      {
-        "key": "WSC-1510",
-        "url": "https://e2x.atlassian.net/browse/WSC-1510",
-        "summary": "[WSSD-609] - Duplicate payment in Adyen",
-        "status": "Listo",
-        "statusCategory": "new",
-        "assignee": "Jair Huaman",
-        "updated": "2026-08-11T20:44:57.144+0100",
-        "priority": "Poco importante",
-        "labels": [
-          "FastFollow",
-          "Needs-QA"
         ]
       },
       {
@@ -2304,19 +2330,6 @@
         "priority": "Cr\u00edtica",
         "labels": [
           "Needs-QA"
-        ]
-      },
-      {
-        "key": "WSC-1514",
-        "url": "https://e2x.atlassian.net/browse/WSC-1514",
-        "summary": "PLP - Investigate and fix Browse PLP SSR hydration failure (1 of 2)",
-        "status": "PENDING DEV DEPLOY",
-        "statusCategory": "new",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-07-09T18:18:30.654+0100",
-        "priority": "Importante",
-        "labels": [
-          "NO_QA_REQUIRED"
         ]
       },
       {
@@ -4989,15 +5002,83 @@
       ]
     },
     "runs": {
-      "total": 68,
-      "latestPassed": 87,
+      "total": 72,
+      "latestPassed": 93,
       "latestFailed": 0,
       "latestPending": 0,
-      "latestTotal": 87,
-      "latestRunName": "Regression 25/08/26",
-      "latestRunDate": "2026-08-25T20:27:39.009Z",
+      "latestTotal": 93,
+      "latestRunName": "Regression 28/08/26",
+      "latestRunDate": "2026-08-28T18:53:11.442Z",
       "passRate": 99.9,
       "recent": [
+        {
+          "id": 2095,
+          "name": "Regression 28/08/26",
+          "source_id": null,
+          "milestone_id": 247,
+          "config_id": 14,
+          "status": null,
+          "is_completed": false,
+          "elapsed_ms": null,
+          "created_at": "2026-08-28T18:53:11.442Z",
+          "completed_at": null,
+          "passed": 93,
+          "failed": 0,
+          "pending": 0,
+          "completed": 93,
+          "total": 93
+        },
+        {
+          "id": 2094,
+          "name": "Regression 28/08/26",
+          "source_id": null,
+          "milestone_id": 247,
+          "config_id": 13,
+          "status": null,
+          "is_completed": false,
+          "elapsed_ms": null,
+          "created_at": "2026-08-28T18:53:11.431Z",
+          "completed_at": null,
+          "passed": 90,
+          "failed": 0,
+          "pending": 0,
+          "completed": 93,
+          "total": 93
+        },
+        {
+          "id": 2093,
+          "name": "Regression 28/08/26",
+          "source_id": null,
+          "milestone_id": 247,
+          "config_id": 10,
+          "status": null,
+          "is_completed": false,
+          "elapsed_ms": null,
+          "created_at": "2026-08-28T18:53:11.420Z",
+          "completed_at": null,
+          "passed": 92,
+          "failed": 1,
+          "pending": 0,
+          "completed": 93,
+          "total": 93
+        },
+        {
+          "id": 2092,
+          "name": "Regression 28/08/26",
+          "source_id": null,
+          "milestone_id": 247,
+          "config_id": 9,
+          "status": null,
+          "is_completed": false,
+          "elapsed_ms": null,
+          "created_at": "2026-08-28T18:53:11.402Z",
+          "completed_at": null,
+          "passed": 92,
+          "failed": 1,
+          "pending": 0,
+          "completed": 93,
+          "total": 93
+        },
         {
           "id": 2088,
           "name": "Regression 25/08/26",
@@ -5093,74 +5174,6 @@
           "is_completed": false,
           "elapsed_ms": null,
           "created_at": "2026-08-18T19:16:19.218Z",
-          "completed_at": null,
-          "passed": 84,
-          "failed": 0,
-          "pending": 0,
-          "completed": 84,
-          "total": 84
-        },
-        {
-          "id": 2067,
-          "name": "Regression 18/08/26",
-          "source_id": null,
-          "milestone_id": 243,
-          "config_id": 10,
-          "status": null,
-          "is_completed": false,
-          "elapsed_ms": null,
-          "created_at": "2026-08-18T19:16:19.212Z",
-          "completed_at": null,
-          "passed": 84,
-          "failed": 0,
-          "pending": 0,
-          "completed": 84,
-          "total": 84
-        },
-        {
-          "id": 2066,
-          "name": "Regression 18/08/26",
-          "source_id": null,
-          "milestone_id": 243,
-          "config_id": 9,
-          "status": null,
-          "is_completed": false,
-          "elapsed_ms": null,
-          "created_at": "2026-08-18T19:16:19.200Z",
-          "completed_at": null,
-          "passed": 84,
-          "failed": 0,
-          "pending": 0,
-          "completed": 84,
-          "total": 84
-        },
-        {
-          "id": 2062,
-          "name": "Regression 13/08/26",
-          "source_id": null,
-          "milestone_id": 240,
-          "config_id": 14,
-          "status": null,
-          "is_completed": false,
-          "elapsed_ms": null,
-          "created_at": "2026-08-13T19:09:57.843Z",
-          "completed_at": null,
-          "passed": 84,
-          "failed": 0,
-          "pending": 0,
-          "completed": 84,
-          "total": 84
-        },
-        {
-          "id": 2061,
-          "name": "Regression 13/08/26",
-          "source_id": null,
-          "milestone_id": 240,
-          "config_id": 13,
-          "status": null,
-          "is_completed": false,
-          "elapsed_ms": null,
-          "created_at": "2026-08-13T19:09:57.837Z",
           "completed_at": null,
           "passed": 84,
           "failed": 0,
