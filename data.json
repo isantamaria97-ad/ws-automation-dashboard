@@ -1,17 +1,17 @@
 {
-  "lastUpdated": "2026-08-28T21:47:04.976571+00:00",
+  "lastUpdated": "2026-08-29T06:03:03.937054+00:00",
   "jira": {
     "summary": {
       "total": 395,
       "byStatus": {
+        "En curso": 6,
         "IN UAT": 5,
         "Ready to QA": 1,
         "RETURNED BY QA": 1,
-        "QA Approved": 14,
+        "QA Approved": 13,
         "Blocked": 4,
         "Listo": 22,
         "Tech Review": 11,
-        "En curso": 5,
         "PENDING DEV DEPLOY": 1,
         "Finalizada": 294,
         "Tareas por hacer": 1,
@@ -22,6 +22,17 @@
       }
     },
     "tickets": [
+      {
+        "key": "WSC-1636",
+        "url": "https://e2x.atlassian.net/browse/WSC-1636",
+        "summary": "Tighten Super Bot Fight Mode policy: Block Automated, Managed Challenge Likely Automated",
+        "status": "En curso",
+        "statusCategory": "indeterminate",
+        "assignee": "Jair Huaman",
+        "updated": "2026-08-29T01:02:24.206+0100",
+        "priority": "Cr\u00edtica",
+        "labels": []
+      },
       {
         "key": "WSC-1718",
         "url": "https://e2x.atlassian.net/browse/WSC-1718",
@@ -268,17 +279,6 @@
         "assignee": "Ingrith Santamaria",
         "updated": "2026-08-28T16:18:09.513+0100",
         "priority": "Importante",
-        "labels": []
-      },
-      {
-        "key": "WSC-1636",
-        "url": "https://e2x.atlassian.net/browse/WSC-1636",
-        "summary": "Tighten Super Bot Fight Mode policy: Block Automated, Managed Challenge Likely Automated",
-        "status": "QA Approved",
-        "statusCategory": "indeterminate",
-        "assignee": "Jair Huaman",
-        "updated": "2026-08-28T15:14:31.701+0100",
-        "priority": "Cr\u00edtica",
         "labels": []
       },
       {
