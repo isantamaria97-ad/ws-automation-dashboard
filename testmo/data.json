@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-31T07:33:21.279355+00:00",
+  "lastUpdated": "2026-08-31T15:56:28.062650+00:00",
   "milestones": [
     {
       "id": 247,
@@ -1290,12 +1290,12 @@
       "total": 93,
       "completed": 93,
       "remaining": 0,
-      "passed": 90,
+      "passed": 93,
       "failed": 0,
       "retest": 0,
       "blocked": 0,
       "untested": 0,
-      "skipped": 3,
+      "skipped": 0,
       "statusCounts": {
         "Untested": {
           "id": 1,
@@ -1303,7 +1303,7 @@
         },
         "Passed": {
           "id": 2,
-          "count": 90
+          "count": 93
         },
         "Failed": {
           "id": 3,
@@ -1319,7 +1319,7 @@
         },
         "Skipped": {
           "id": 6,
-          "count": 3
+          "count": 0
         },
         "Status 7": {
           "id": 7,
@@ -1475,6 +1475,17 @@
           "updatedAt": "2026-08-28T19:32:12.243Z"
         },
         {
+          "caseId": 114343,
+          "testId": 2221183,
+          "name": "Click And Collect Is Not Available In Non-GBP Checkout",
+          "tags": [],
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-08-31T12:37:46.776Z"
+        },
+        {
           "caseId": 114338,
           "testId": 2221178,
           "name": "Click And Collect Overlay - Map Is Displayed",
@@ -1627,6 +1638,17 @@
           "note": "",
           "assigneeId": null,
           "updatedAt": "2026-08-28T19:32:12.243Z"
+        },
+        {
+          "caseId": 114317,
+          "testId": 2221158,
+          "name": "Header Search - Pressing Enter In Search Box Redirects To Search Results Page",
+          "tags": [],
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-08-31T13:40:48.316Z"
         },
         {
           "caseId": 114320,
@@ -2025,6 +2047,17 @@
           "updatedAt": "2026-08-28T19:32:06.946Z"
         },
         {
+          "caseId": 114326,
+          "testId": 2221167,
+          "name": "Verify Billing Section Allows Manual Entry Of A Different Billing Address",
+          "tags": [],
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-08-31T12:37:38.785Z"
+        },
+        {
           "caseId": 114325,
           "testId": 2221166,
           "name": "Verify Billing Section Is Auto-Populated From Shipping Address",
@@ -2386,39 +2419,6 @@
           "note": "",
           "assigneeId": null,
           "updatedAt": "2026-08-28T19:32:12.243Z"
-        },
-        {
-          "caseId": 114343,
-          "testId": 2221183,
-          "name": "Click And Collect Is Not Available In Non-GBP Checkout",
-          "tags": [],
-          "statusId": 6,
-          "status": "Skipped",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-08-28T19:32:41.588Z"
-        },
-        {
-          "caseId": 114317,
-          "testId": 2221158,
-          "name": "Header Search - Pressing Enter In Search Box Redirects To Search Results Page",
-          "tags": [],
-          "statusId": 6,
-          "status": "Skipped",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-08-28T19:33:27.089Z"
-        },
-        {
-          "caseId": 114326,
-          "testId": 2221167,
-          "name": "Verify Billing Section Allows Manual Entry Of A Different Billing Address",
-          "tags": [],
-          "statusId": 6,
-          "status": "Skipped",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-08-28T19:33:04.567Z"
         }
       ]
     },
@@ -2436,8 +2436,8 @@
       "total": 93,
       "completed": 93,
       "remaining": 0,
-      "passed": 92,
-      "failed": 1,
+      "passed": 93,
+      "failed": 0,
       "retest": 0,
       "blocked": 0,
       "untested": 0,
@@ -2449,11 +2449,11 @@
         },
         "Passed": {
           "id": 2,
-          "count": 92
+          "count": 93
         },
         "Failed": {
           "id": 3,
-          "count": 1
+          "count": 0
         },
         "Retest": {
           "id": 4,
@@ -2784,6 +2784,17 @@
           "note": "",
           "assigneeId": null,
           "updatedAt": "2026-08-28T20:46:58.965Z"
+        },
+        {
+          "caseId": 114317,
+          "testId": 2221031,
+          "name": "Header Search - Pressing Enter In Search Box Redirects To Search Results Page",
+          "tags": [],
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-08-31T14:11:15.157Z"
         },
         {
           "caseId": 114320,
@@ -3554,17 +3565,6 @@
           "note": "",
           "assigneeId": null,
           "updatedAt": "2026-08-28T20:46:58.965Z"
-        },
-        {
-          "caseId": 114317,
-          "testId": 2221031,
-          "name": "Header Search - Pressing Enter In Search Box Redirects To Search Results Page",
-          "tags": [],
-          "statusId": 3,
-          "status": "Failed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-08-28T20:50:28.855Z"
         }
       ]
     },
@@ -3582,8 +3582,8 @@
       "total": 93,
       "completed": 93,
       "remaining": 0,
-      "passed": 92,
-      "failed": 1,
+      "passed": 93,
+      "failed": 0,
       "retest": 0,
       "blocked": 0,
       "untested": 0,
@@ -3595,11 +3595,11 @@
         },
         "Passed": {
           "id": 2,
-          "count": 92
+          "count": 93
         },
         "Failed": {
           "id": 3,
-          "count": 1
+          "count": 0
         },
         "Retest": {
           "id": 4,
@@ -3930,6 +3930,17 @@
           "note": "",
           "assigneeId": null,
           "updatedAt": "2026-08-28T21:09:39.874Z"
+        },
+        {
+          "caseId": 114317,
+          "testId": 2220904,
+          "name": "Header Search - Pressing Enter In Search Box Redirects To Search Results Page",
+          "tags": [],
+          "statusId": 2,
+          "status": "Passed",
+          "note": "",
+          "assigneeId": null,
+          "updatedAt": "2026-08-31T14:11:20.220Z"
         },
         {
           "caseId": 114320,
@@ -4700,17 +4711,6 @@
           "note": "",
           "assigneeId": null,
           "updatedAt": "2026-08-28T21:09:39.874Z"
-        },
-        {
-          "caseId": 114317,
-          "testId": 2220904,
-          "name": "Header Search - Pressing Enter In Search Box Redirects To Search Results Page",
-          "tags": [],
-          "statusId": 3,
-          "status": "Failed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-08-28T21:09:56.711Z"
         }
       ]
     },
