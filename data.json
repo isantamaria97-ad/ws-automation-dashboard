@@ -1,11 +1,10 @@
 {
-  "lastUpdated": "2026-08-31T21:20:38.542934+00:00",
+  "lastUpdated": "2026-09-01T04:01:06.998288+00:00",
   "jira": {
     "summary": {
       "total": 400,
       "byStatus": {
-        "Ready to QA": 2,
-        "PENDING DEV DEPLOY": 1,
+        "Ready to QA": 3,
         "Tech Review": 10,
         "IN UAT": 6,
         "En curso": 6,
@@ -22,6 +21,21 @@
       }
     },
     "tickets": [
+      {
+        "key": "WSC-1599",
+        "url": "https://e2x.atlassian.net/browse/WSC-1599",
+        "summary": "CONTENT - Default Search Term - move into Footer component",
+        "status": "Ready to QA",
+        "statusCategory": "new",
+        "assignee": "Unassigned",
+        "updated": "2026-08-31T23:20:51.077+0100",
+        "priority": "Poco importante",
+        "labels": [
+          "Needs-QA",
+          "accelerated",
+          "manualQA"
+        ]
+      },
       {
         "key": "WSC-1433",
         "url": "https://e2x.atlassian.net/browse/WSC-1433",
@@ -44,21 +58,6 @@
         "priority": "Poco importante",
         "labels": [
           "Needs-QA"
-        ]
-      },
-      {
-        "key": "WSC-1599",
-        "url": "https://e2x.atlassian.net/browse/WSC-1599",
-        "summary": "CONTENT - Default Search Term - move into Footer component",
-        "status": "PENDING DEV DEPLOY",
-        "statusCategory": "new",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-08-31T22:08:52.951+0100",
-        "priority": "Poco importante",
-        "labels": [
-          "Needs-QA",
-          "accelerated",
-          "manualQA"
         ]
       },
       {
