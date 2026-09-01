@@ -1,21 +1,21 @@
 {
-  "lastUpdated": "2026-09-01T19:14:53.537950+00:00",
+  "lastUpdated": "2026-09-01T22:26:05.541463+00:00",
   "jira": {
     "summary": {
-      "total": 400,
+      "total": 401,
       "byStatus": {
-        "En curso": 4,
-        "Tech Review": 11,
+        "En curso": 5,
         "Blocked": 6,
+        "Tech Review": 11,
         "IN UAT": 6,
+        "Backlog": 15,
+        "IN QA": 1,
         "QA Approved": 15,
-        "Ready to QA": 1,
         "Listo": 25,
         "Finalizada": 295,
         "Tareas por hacer": 3,
         "RETURNED BY QA": 1,
         "Ready for Refinement": 1,
-        "Backlog": 15,
         "Deprecated": 16,
         "READY FOR RELEASE": 1
       }
@@ -28,23 +28,10 @@
         "status": "En curso",
         "statusCategory": "indeterminate",
         "assignee": "Jair Huaman",
-        "updated": "2026-09-01T20:08:23.678+0100",
+        "updated": "2026-09-01T22:07:49.679+0100",
         "priority": "Poco importante",
         "labels": [
           "FastFollow",
-          "Needs-QA"
-        ]
-      },
-      {
-        "key": "WSC-1367",
-        "url": "https://e2x.atlassian.net/browse/WSC-1367",
-        "summary": "PLP - further pagination amend",
-        "status": "Tech Review",
-        "statusCategory": "indeterminate",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-09-01T18:55:13.506+0100",
-        "priority": "Poco importante",
-        "labels": [
           "Needs-QA"
         ]
       },
@@ -55,22 +42,38 @@
         "status": "Blocked",
         "statusCategory": "new",
         "assignee": "Jair Huaman",
-        "updated": "2026-09-01T17:41:03.453+0100",
+        "updated": "2026-09-01T22:07:00.249+0100",
         "priority": "Poco importante",
         "labels": [
           "Needs-QA"
         ]
       },
       {
-        "key": "WSC-1637",
-        "url": "https://e2x.atlassian.net/browse/WSC-1637",
-        "summary": "Add Cloudflare rate limiting rules for excessive 404/403 responses (page-level and API)",
+        "key": "WSC-1367",
+        "url": "https://e2x.atlassian.net/browse/WSC-1367",
+        "summary": "PLP - further pagination amend",
         "status": "Tech Review",
         "statusCategory": "indeterminate",
         "assignee": "enmanuel.ramirez",
-        "updated": "2026-09-01T17:37:02.940+0100",
-        "priority": "Cr\u00edtica",
-        "labels": []
+        "updated": "2026-09-01T22:06:25.542+0100",
+        "priority": "Poco importante",
+        "labels": [
+          "Needs-QA"
+        ]
+      },
+      {
+        "key": "WSC-1682",
+        "url": "https://e2x.atlassian.net/browse/WSC-1682",
+        "summary": "PDP - back in stock notifications",
+        "status": "Tech Review",
+        "statusCategory": "indeterminate",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-09-01T22:05:53.267+0100",
+        "priority": "Importante",
+        "labels": [
+          "Needs-QA",
+          "automatable"
+        ]
       },
       {
         "key": "WSC-1590",
@@ -79,9 +82,59 @@
         "status": "IN UAT",
         "statusCategory": "indeterminate",
         "assignee": "Stuart Young",
-        "updated": "2026-09-01T17:35:51.923+0100",
+        "updated": "2026-09-01T22:05:02.169+0100",
         "priority": "Not Set",
         "labels": []
+      },
+      {
+        "key": "WSC-1744",
+        "url": "https://e2x.atlassian.net/browse/WSC-1744",
+        "summary": "[SiteSpect - QA] Sandwich Model Rollout: Regression & Load/Latency Testing",
+        "status": "Backlog",
+        "statusCategory": "new",
+        "assignee": "Unassigned",
+        "updated": "2026-09-01T21:53:27.676+0100",
+        "priority": "Not Set",
+        "labels": []
+      },
+      {
+        "key": "WSC-1728",
+        "url": "https://e2x.atlassian.net/browse/WSC-1728",
+        "summary": "[Automation] UAT Coverage: Physical Gift Card and E-Gift Card PDP Purchase Flow",
+        "status": "En curso",
+        "statusCategory": "indeterminate",
+        "assignee": "Gerardo Romero",
+        "updated": "2026-09-01T21:53:02.386+0100",
+        "priority": "Not Set",
+        "labels": []
+      },
+      {
+        "key": "WSC-1599",
+        "url": "https://e2x.atlassian.net/browse/WSC-1599",
+        "summary": "CONTENT - Default Search Term - move into Footer component",
+        "status": "IN QA",
+        "statusCategory": "indeterminate",
+        "assignee": "Gerardo Romero",
+        "updated": "2026-09-01T21:38:44.026+0100",
+        "priority": "Poco importante",
+        "labels": [
+          "Needs-QA",
+          "accelerated",
+          "manualQA"
+        ]
+      },
+      {
+        "key": "WSC-1679",
+        "url": "https://e2x.atlassian.net/browse/WSC-1679",
+        "summary": "SLIM BANNER - control Benefit Bar",
+        "status": "QA Approved",
+        "statusCategory": "indeterminate",
+        "assignee": "Gerardo Romero",
+        "updated": "2026-09-01T20:30:09.838+0100",
+        "priority": "Importante",
+        "labels": [
+          "co-build"
+        ]
       },
       {
         "key": "WSC-1581",
@@ -90,7 +143,7 @@
         "status": "En curso",
         "statusCategory": "indeterminate",
         "assignee": "Alexander Talavera",
-        "updated": "2026-09-01T16:56:56.442+0100",
+        "updated": "2026-09-01T20:29:55.172+0100",
         "priority": "Importante",
         "labels": []
       },
@@ -101,8 +154,19 @@
         "status": "Tech Review",
         "statusCategory": "indeterminate",
         "assignee": "enmanuel.ramirez",
-        "updated": "2026-09-01T16:42:13.933+0100",
+        "updated": "2026-09-01T20:29:29.053+0100",
         "priority": "Poco importante",
+        "labels": []
+      },
+      {
+        "key": "WSC-1637",
+        "url": "https://e2x.atlassian.net/browse/WSC-1637",
+        "summary": "Add Cloudflare rate limiting rules for excessive 404/403 responses (page-level and API)",
+        "status": "Tech Review",
+        "statusCategory": "indeterminate",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-09-01T17:37:02.940+0100",
+        "priority": "Cr\u00edtica",
         "labels": []
       },
       {
@@ -117,20 +181,6 @@
         "labels": []
       },
       {
-        "key": "WSC-1682",
-        "url": "https://e2x.atlassian.net/browse/WSC-1682",
-        "summary": "PDP - back in stock notifications",
-        "status": "Tech Review",
-        "statusCategory": "indeterminate",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-09-01T15:42:23.629+0100",
-        "priority": "Importante",
-        "labels": [
-          "Needs-QA",
-          "automatable"
-        ]
-      },
-      {
         "key": "WSC-1636",
         "url": "https://e2x.atlassian.net/browse/WSC-1636",
         "summary": "Tighten Super Bot Fight Mode policy: Block Automated, Managed Challenge Likely Automated",
@@ -140,21 +190,6 @@
         "updated": "2026-09-01T15:25:09.791+0100",
         "priority": "Cr\u00edtica",
         "labels": []
-      },
-      {
-        "key": "WSC-1599",
-        "url": "https://e2x.atlassian.net/browse/WSC-1599",
-        "summary": "CONTENT - Default Search Term - move into Footer component",
-        "status": "Ready to QA",
-        "statusCategory": "new",
-        "assignee": "Gerardo Romero",
-        "updated": "2026-09-01T14:38:07.901+0100",
-        "priority": "Poco importante",
-        "labels": [
-          "Needs-QA",
-          "accelerated",
-          "manualQA"
-        ]
       },
       {
         "key": "WSC-1643",
@@ -915,19 +950,6 @@
         ]
       },
       {
-        "key": "WSC-1679",
-        "url": "https://e2x.atlassian.net/browse/WSC-1679",
-        "summary": "SLIM BANNER - control Benefit Bar",
-        "status": "QA Approved",
-        "statusCategory": "indeterminate",
-        "assignee": "Gerardo Romero",
-        "updated": "2026-08-27T23:09:46.918+0100",
-        "priority": "Importante",
-        "labels": [
-          "co-build"
-        ]
-      },
-      {
         "key": "WSC-1712",
         "url": "https://e2x.atlassian.net/browse/WSC-1712",
         "summary": "[Automation] E2E Coverage for PDP Hard Refresh and SFS Product Scenarios",
@@ -1047,17 +1069,6 @@
         "statusCategory": "new",
         "assignee": "Unassigned",
         "updated": "2026-08-26T14:06:41.723+0100",
-        "priority": "Not Set",
-        "labels": []
-      },
-      {
-        "key": "WSC-1728",
-        "url": "https://e2x.atlassian.net/browse/WSC-1728",
-        "summary": "[Automation] UAT Coverage: Physical Gift Card and E-Gift Card PDP Purchase Flow",
-        "status": "Backlog",
-        "statusCategory": "new",
-        "assignee": "Unassigned",
-        "updated": "2026-08-26T14:06:38.858+0100",
         "priority": "Not Set",
         "labels": []
       },
