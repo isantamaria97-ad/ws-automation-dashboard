@@ -1,25 +1,157 @@
 {
-  "lastUpdated": "2026-09-02T16:07:52.155654+00:00",
+  "lastUpdated": "2026-09-02T22:25:26.619485+00:00",
   "jira": {
     "summary": {
       "total": 401,
       "byStatus": {
+        "RETURNED BY QA": 2,
+        "Tareas por hacer": 3,
+        "Ready to QA": 2,
+        "QA Approved": 17,
+        "Tech Review": 7,
+        "Blocked": 6,
         "En curso": 5,
         "Listo": 25,
-        "Tech Review": 11,
-        "QA Approved": 16,
         "Backlog": 14,
-        "Blocked": 6,
         "IN UAT": 6,
         "Ready for Refinement": 1,
-        "Tareas por hacer": 3,
         "READY FOR RELEASE": 1,
         "Deprecated": 17,
-        "Finalizada": 295,
-        "RETURNED BY QA": 1
+        "Finalizada": 295
       }
     },
     "tickets": [
+      {
+        "key": "WSC-1674",
+        "url": "https://e2x.atlassian.net/browse/WSC-1674",
+        "summary": "UX - email and password validation",
+        "status": "RETURNED BY QA",
+        "statusCategory": "indeterminate",
+        "assignee": "Jair Huaman",
+        "updated": "2026-09-02T22:01:01.158+0100",
+        "priority": "Importante",
+        "labels": [
+          "Needs-QA",
+          "automatable"
+        ]
+      },
+      {
+        "key": "WSC-1709",
+        "url": "https://e2x.atlassian.net/browse/WSC-1709",
+        "summary": "INP-01 \u2014 PDP template - Desktop and Mobile",
+        "status": "Tareas por hacer",
+        "statusCategory": "new",
+        "assignee": "Alexander Talavera",
+        "updated": "2026-09-02T21:42:52.291+0100",
+        "priority": "Cr\u00edtica",
+        "labels": []
+      },
+      {
+        "key": "WSC-1656",
+        "url": "https://e2x.atlassian.net/browse/WSC-1656",
+        "summary": "MINI BAG - redesign",
+        "status": "Ready to QA",
+        "statusCategory": "new",
+        "assignee": "Ingrith Santamaria",
+        "updated": "2026-09-02T20:51:03.547+0100",
+        "priority": "Importante",
+        "labels": [
+          "Needs-QA"
+        ]
+      },
+      {
+        "key": "WSC-1367",
+        "url": "https://e2x.atlassian.net/browse/WSC-1367",
+        "summary": "PLP - further pagination amend",
+        "status": "QA Approved",
+        "statusCategory": "indeterminate",
+        "assignee": "Ingrith Santamaria",
+        "updated": "2026-09-02T20:51:02.943+0100",
+        "priority": "Poco importante",
+        "labels": [
+          "Needs-QA"
+        ]
+      },
+      {
+        "key": "WSC-1682",
+        "url": "https://e2x.atlassian.net/browse/WSC-1682",
+        "summary": "PDP - back in stock notifications",
+        "status": "Ready to QA",
+        "statusCategory": "new",
+        "assignee": "Gerardo Romero",
+        "updated": "2026-09-02T19:04:35.614+0100",
+        "priority": "Importante",
+        "labels": [
+          "Needs-QA",
+          "automatable"
+        ]
+      },
+      {
+        "key": "WSC-1581",
+        "url": "https://e2x.atlassian.net/browse/WSC-1581",
+        "summary": "SPIKE - /bag emptied after signing in on /checkout-identity",
+        "status": "Tech Review",
+        "statusCategory": "indeterminate",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-09-02T18:47:23.663+0100",
+        "priority": "Importante",
+        "labels": []
+      },
+      {
+        "key": "WSC-1673",
+        "url": "https://e2x.atlassian.net/browse/WSC-1673",
+        "summary": "API 404 error - https://www.whitestuff.com/api/ampl/getContent",
+        "status": "Tech Review",
+        "statusCategory": "indeterminate",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-09-02T18:15:58.072+0100",
+        "priority": "Poco importante",
+        "labels": []
+      },
+      {
+        "key": "WSC-1515",
+        "url": "https://e2x.atlassian.net/browse/WSC-1515",
+        "summary": "PLP - re-enable Cloudflare cache (2 of 2)",
+        "status": "Blocked",
+        "statusCategory": "new",
+        "assignee": "Alexander Talavera",
+        "updated": "2026-09-02T18:15:12.416+0100",
+        "priority": "Importante",
+        "labels": []
+      },
+      {
+        "key": "WSC-1708",
+        "url": "https://e2x.atlassian.net/browse/WSC-1708",
+        "summary": "LCP-01 \u2014 PDP template - Desktop and Mobile",
+        "status": "En curso",
+        "statusCategory": "indeterminate",
+        "assignee": "Alexander Talavera",
+        "updated": "2026-09-02T18:14:23.276+0100",
+        "priority": "Cr\u00edtica",
+        "labels": []
+      },
+      {
+        "key": "WSC-1744",
+        "url": "https://e2x.atlassian.net/browse/WSC-1744",
+        "summary": "[SiteSpect - QA] Sandwich Model Rollout: Regression & Load/Latency Testing",
+        "status": "Listo",
+        "statusCategory": "new",
+        "assignee": "Unassigned",
+        "updated": "2026-09-02T17:27:56.327+0100",
+        "priority": "Not Set",
+        "labels": []
+      },
+      {
+        "key": "WSC-1728",
+        "url": "https://e2x.atlassian.net/browse/WSC-1728",
+        "summary": "[Automation] UAT Coverage: Physical Gift Card and E-Gift Card PDP Purchase Flow",
+        "status": "En curso",
+        "statusCategory": "indeterminate",
+        "assignee": "Gerardo Romero",
+        "updated": "2026-09-02T17:26:57.234+0100",
+        "priority": "Not Set",
+        "labels": []
+      },
       {
         "key": "WSC-1510",
         "url": "https://e2x.atlassian.net/browse/WSC-1510",
@@ -33,17 +165,6 @@
           "FastFollow",
           "Needs-QA"
         ]
-      },
-      {
-        "key": "WSC-1744",
-        "url": "https://e2x.atlassian.net/browse/WSC-1744",
-        "summary": "[SiteSpect - QA] Sandwich Model Rollout: Regression & Load/Latency Testing",
-        "status": "Listo",
-        "statusCategory": "new",
-        "assignee": "Unassigned",
-        "updated": "2026-09-02T16:33:32.639+0100",
-        "priority": "Not Set",
-        "labels": []
       },
       {
         "key": "WSC-1737",
@@ -125,17 +246,6 @@
         "labels": []
       },
       {
-        "key": "WSC-1728",
-        "url": "https://e2x.atlassian.net/browse/WSC-1728",
-        "summary": "[Automation] UAT Coverage: Physical Gift Card and E-Gift Card PDP Purchase Flow",
-        "status": "En curso",
-        "statusCategory": "indeterminate",
-        "assignee": "Gerardo Romero",
-        "updated": "2026-09-02T16:33:27.474+0100",
-        "priority": "Not Set",
-        "labels": []
-      },
-      {
         "key": "WSC-1727",
         "url": "https://e2x.atlassian.net/browse/WSC-1727",
         "summary": "[Automation] UAT Coverage: SFS Multi-size and One-size Warehouse PDP",
@@ -192,19 +302,6 @@
           "Needs-QA",
           "accelerated",
           "manualQA"
-        ]
-      },
-      {
-        "key": "WSC-1367",
-        "url": "https://e2x.atlassian.net/browse/WSC-1367",
-        "summary": "PLP - further pagination amend",
-        "status": "Tech Review",
-        "statusCategory": "indeterminate",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-09-02T16:33:19.405+0100",
-        "priority": "Poco importante",
-        "labels": [
-          "Needs-QA"
         ]
       },
       {
@@ -500,28 +597,6 @@
         ]
       },
       {
-        "key": "WSC-1709",
-        "url": "https://e2x.atlassian.net/browse/WSC-1709",
-        "summary": "INP-01 \u2014 PDP template - Desktop and Mobile",
-        "status": "Tareas por hacer",
-        "statusCategory": "new",
-        "assignee": "Unassigned",
-        "updated": "2026-09-02T16:30:47.245+0100",
-        "priority": "Cr\u00edtica",
-        "labels": []
-      },
-      {
-        "key": "WSC-1708",
-        "url": "https://e2x.atlassian.net/browse/WSC-1708",
-        "summary": "LCP-01 \u2014 PDP template - Desktop and Mobile",
-        "status": "En curso",
-        "statusCategory": "indeterminate",
-        "assignee": "Alexander Talavera",
-        "updated": "2026-09-02T16:30:46.756+0100",
-        "priority": "Cr\u00edtica",
-        "labels": []
-      },
-      {
         "key": "WSC-1590",
         "url": "https://e2x.atlassian.net/browse/WSC-1590",
         "summary": "[WSSD-632][Security] Active sessions remain valid after password reset",
@@ -609,17 +684,6 @@
         ]
       },
       {
-        "key": "WSC-1581",
-        "url": "https://e2x.atlassian.net/browse/WSC-1581",
-        "summary": "SPIKE - /bag emptied after signing in on /checkout-identity",
-        "status": "Tech Review",
-        "statusCategory": "indeterminate",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-09-02T16:30:41.235+0100",
-        "priority": "Importante",
-        "labels": []
-      },
-      {
         "key": "WSC-1718",
         "url": "https://e2x.atlassian.net/browse/WSC-1718",
         "summary": "GUEST CHECKOUT - email dropped from 2 DL events",
@@ -679,17 +743,6 @@
         "statusCategory": "indeterminate",
         "assignee": "Gerardo Romero",
         "updated": "2026-09-02T16:30:38.692+0100",
-        "priority": "Importante",
-        "labels": []
-      },
-      {
-        "key": "WSC-1515",
-        "url": "https://e2x.atlassian.net/browse/WSC-1515",
-        "summary": "PLP - re-enable Cloudflare cache (2 of 2)",
-        "status": "Blocked",
-        "statusCategory": "new",
-        "assignee": "Alexander Talavera",
-        "updated": "2026-09-02T16:30:38.191+0100",
         "priority": "Importante",
         "labels": []
       },
@@ -777,31 +830,6 @@
         "labels": [
           "co-build"
         ]
-      },
-      {
-        "key": "WSC-1682",
-        "url": "https://e2x.atlassian.net/browse/WSC-1682",
-        "summary": "PDP - back in stock notifications",
-        "status": "Tech Review",
-        "statusCategory": "indeterminate",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-09-02T10:46:39.250+0100",
-        "priority": "Importante",
-        "labels": [
-          "Needs-QA",
-          "automatable"
-        ]
-      },
-      {
-        "key": "WSC-1673",
-        "url": "https://e2x.atlassian.net/browse/WSC-1673",
-        "summary": "API 404 error - https://www.whitestuff.com/api/ampl/getContent",
-        "status": "Tech Review",
-        "statusCategory": "indeterminate",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-09-01T20:29:29.053+0100",
-        "priority": "Poco importante",
-        "labels": []
       },
       {
         "key": "WSC-1636",
@@ -1043,19 +1071,6 @@
         "labels": []
       },
       {
-        "key": "WSC-1656",
-        "url": "https://e2x.atlassian.net/browse/WSC-1656",
-        "summary": "MINI BAG - redesign",
-        "status": "Tech Review",
-        "statusCategory": "indeterminate",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-08-31T16:33:48.495+0100",
-        "priority": "Importante",
-        "labels": [
-          "Needs-QA"
-        ]
-      },
-      {
         "key": "WSC-1652",
         "url": "https://e2x.atlassian.net/browse/WSC-1652",
         "summary": "MONETATE - identify where this is implemented",
@@ -1221,20 +1236,6 @@
         "priority": "Poco importante",
         "labels": [
           "accelerated"
-        ]
-      },
-      {
-        "key": "WSC-1674",
-        "url": "https://e2x.atlassian.net/browse/WSC-1674",
-        "summary": "UX - email and password validation",
-        "status": "Tech Review",
-        "statusCategory": "indeterminate",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-08-27T19:44:01.686+0100",
-        "priority": "Importante",
-        "labels": [
-          "Needs-QA",
-          "automatable"
         ]
       },
       {
@@ -4985,8 +4986,8 @@
       "scopeFolderName": "Regression"
     },
     "coverage": {
-      "total": 93,
-      "automated": 92,
+      "total": 95,
+      "automated": 94,
       "notAutomated": 1,
       "unclassified": 0,
       "automatedPct": 98.9,
@@ -4995,10 +4996,10 @@
           "folderId": null,
           "name": "Checkout",
           "group": "Components",
-          "automated": 42,
+          "automated": 44,
           "notAutomated": 0,
           "unclassified": 0,
-          "total": 42
+          "total": 44
         },
         {
           "folderId": null,
@@ -5257,6 +5258,28 @@
       ]
     },
     "cases": [
+      {
+        "id": 154731,
+        "name": "E-Gift Card Can Be Purchased From PDP",
+        "folderId": 20991,
+        "folderPath": "Regression",
+        "bucket": "automated",
+        "priority": {
+          "id": 2,
+          "name": "Normal"
+        }
+      },
+      {
+        "id": 154730,
+        "name": "Physical Gift Card Can Be Purchased From PDP",
+        "folderId": 20991,
+        "folderPath": "Regression",
+        "bucket": "automated",
+        "priority": {
+          "id": 2,
+          "name": "Normal"
+        }
+      },
       {
         "id": 151585,
         "name": "One-size Warehouse PDP Renders Correctly After Hard Refresh",
