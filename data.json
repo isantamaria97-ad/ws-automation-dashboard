@@ -1,26 +1,137 @@
 {
-  "lastUpdated": "2026-09-03T19:13:21.783479+00:00",
+  "lastUpdated": "2026-09-03T22:21:32.541727+00:00",
   "jira": {
     "summary": {
-      "total": 401,
+      "total": 403,
       "byStatus": {
-        "En curso": 5,
-        "RETURNED BY QA": 2,
+        "Tareas por hacer": 4,
+        "IN QA": 1,
+        "En curso": 6,
+        "Backlog": 13,
+        "Listo": 26,
+        "QA Approved": 5,
         "Tech Review": 7,
         "IN UAT": 1,
-        "Listo": 25,
-        "IN QA": 1,
         "Finalizada": 316,
-        "QA Approved": 4,
         "Deprecated": 17,
-        "Tareas por hacer": 3,
-        "Backlog": 14,
         "Blocked": 4,
         "Ready for Refinement": 1,
-        "READY FOR RELEASE": 1
+        "READY FOR RELEASE": 1,
+        "RETURNED BY QA": 1
       }
     },
     "tickets": [
+      {
+        "key": "WSC-1629",
+        "url": "https://e2x.atlassian.net/browse/WSC-1629",
+        "summary": "SPIKE - product family for multi-item products (PLP/PDP)",
+        "status": "Tareas por hacer",
+        "statusCategory": "new",
+        "assignee": "Unassigned",
+        "updated": "2026-09-03T22:50:40.503+0100",
+        "priority": "Importante",
+        "labels": []
+      },
+      {
+        "key": "WSC-1682",
+        "url": "https://e2x.atlassian.net/browse/WSC-1682",
+        "summary": "PDP - back in stock notifications",
+        "status": "IN QA",
+        "statusCategory": "indeterminate",
+        "assignee": "Gerardo Romero",
+        "updated": "2026-09-03T22:39:54.878+0100",
+        "priority": "Importante",
+        "labels": [
+          "Needs-QA",
+          "automatable"
+        ]
+      },
+      {
+        "key": "WSC-1717",
+        "url": "https://e2x.atlassian.net/browse/WSC-1717",
+        "summary": "CONTENT - new mobile navigation",
+        "status": "En curso",
+        "statusCategory": "indeterminate",
+        "assignee": "Chiara Davies",
+        "updated": "2026-09-03T22:36:20.434+0100",
+        "priority": "Importante",
+        "labels": []
+      },
+      {
+        "key": "WSC-1218",
+        "url": "https://e2x.atlassian.net/browse/WSC-1218",
+        "summary": "Spike: Investigation Intermittent UK Site JS Failures",
+        "status": "Backlog",
+        "statusCategory": "new",
+        "assignee": "Unassigned",
+        "updated": "2026-09-03T22:12:39.742+0100",
+        "priority": "Importante",
+        "labels": []
+      },
+      {
+        "key": "WSC-1686",
+        "url": "https://e2x.atlassian.net/browse/WSC-1686",
+        "summary": "[White Stuff] High Vulnerabilities Report - July 2026",
+        "status": "Listo",
+        "statusCategory": "new",
+        "assignee": "Unassigned",
+        "updated": "2026-09-03T21:40:18.023+0100",
+        "priority": "Not Set",
+        "labels": [
+          "NO_QA_REQUIRED"
+        ]
+      },
+      {
+        "key": "WSC-1737",
+        "url": "https://e2x.atlassian.net/browse/WSC-1737",
+        "summary": "Review and Fix of existing Vulnerability Tickets until August 2026",
+        "status": "Listo",
+        "statusCategory": "new",
+        "assignee": "Unassigned",
+        "updated": "2026-09-03T21:39:30.788+0100",
+        "priority": "Importante",
+        "labels": [
+          "NO_QA_REQUIRED"
+        ]
+      },
+      {
+        "key": "WSC-1736",
+        "url": "https://e2x.atlassian.net/browse/WSC-1736",
+        "summary": "Spike: PERSONALISED CONTENT - preview/visualiser on a Content Page",
+        "status": "Tareas por hacer",
+        "statusCategory": "new",
+        "assignee": "Unassigned",
+        "updated": "2026-09-03T21:38:59.414+0100",
+        "priority": "Supone un impedimento",
+        "labels": []
+      },
+      {
+        "key": "WSC-1747",
+        "url": "https://e2x.atlassian.net/browse/WSC-1747",
+        "summary": "SIDE PANEL - amendment",
+        "status": "Listo",
+        "statusCategory": "new",
+        "assignee": "Alexander Talavera",
+        "updated": "2026-09-03T21:13:43.527+0100",
+        "priority": "Poco importante",
+        "labels": [
+          "Needs-QA"
+        ]
+      },
+      {
+        "key": "WSC-1674",
+        "url": "https://e2x.atlassian.net/browse/WSC-1674",
+        "summary": "UX - email and password validation",
+        "status": "QA Approved",
+        "statusCategory": "indeterminate",
+        "assignee": "Gerardo Romero",
+        "updated": "2026-09-03T21:02:44.213+0100",
+        "priority": "Importante",
+        "labels": [
+          "Needs-QA",
+          "automatable"
+        ]
+      },
       {
         "key": "WSC-1744",
         "url": "https://e2x.atlassian.net/browse/WSC-1744",
@@ -28,23 +139,9 @@
         "status": "En curso",
         "statusCategory": "indeterminate",
         "assignee": "Gerardo Romero",
-        "updated": "2026-09-03T19:18:39.226+0100",
+        "updated": "2026-09-03T21:00:55.652+0100",
         "priority": "Not Set",
         "labels": []
-      },
-      {
-        "key": "WSC-1674",
-        "url": "https://e2x.atlassian.net/browse/WSC-1674",
-        "summary": "UX - email and password validation",
-        "status": "RETURNED BY QA",
-        "statusCategory": "indeterminate",
-        "assignee": "Jair Huaman",
-        "updated": "2026-09-03T19:16:01.081+0100",
-        "priority": "Importante",
-        "labels": [
-          "Needs-QA",
-          "automatable"
-        ]
       },
       {
         "key": "WSC-1636",
@@ -92,20 +189,6 @@
         "priority": "Importante",
         "labels": [
           "Needs-QA"
-        ]
-      },
-      {
-        "key": "WSC-1682",
-        "url": "https://e2x.atlassian.net/browse/WSC-1682",
-        "summary": "PDP - back in stock notifications",
-        "status": "IN QA",
-        "statusCategory": "indeterminate",
-        "assignee": "Gerardo Romero",
-        "updated": "2026-09-03T16:44:28.761+0100",
-        "priority": "Importante",
-        "labels": [
-          "Needs-QA",
-          "automatable"
         ]
       },
       {
@@ -451,19 +534,6 @@
         ]
       },
       {
-        "key": "WSC-1737",
-        "url": "https://e2x.atlassian.net/browse/WSC-1737",
-        "summary": "Review and Fix of existing Vulnerability Tickets",
-        "status": "Listo",
-        "statusCategory": "new",
-        "assignee": "Unassigned",
-        "updated": "2026-09-02T16:33:31.176+0100",
-        "priority": "Importante",
-        "labels": [
-          "NO_QA_REQUIRED"
-        ]
-      },
-      {
         "key": "WSC-1735",
         "url": "https://e2x.atlassian.net/browse/WSC-1735",
         "summary": "Documentation of all Cloudflare rules",
@@ -642,17 +712,6 @@
         "assignee": "Unassigned",
         "updated": "2026-09-02T16:31:15.574+0100",
         "priority": "Poco importante",
-        "labels": []
-      },
-      {
-        "key": "WSC-1218",
-        "url": "https://e2x.atlassian.net/browse/WSC-1218",
-        "summary": "Spike: Investigation Intermittent UK Site JS Failures",
-        "status": "Backlog",
-        "statusCategory": "new",
-        "assignee": "Unassigned",
-        "updated": "2026-09-02T16:31:02.715+0100",
-        "priority": "Importante",
         "labels": []
       },
       {
@@ -931,19 +990,6 @@
         "labels": []
       },
       {
-        "key": "WSC-1686",
-        "url": "https://e2x.atlassian.net/browse/WSC-1686",
-        "summary": "[White Stuff] High Vulnerabilities Report - July 2026",
-        "status": "Listo",
-        "statusCategory": "new",
-        "assignee": "Unassigned",
-        "updated": "2026-09-01T13:04:18.606+0100",
-        "priority": "Not Set",
-        "labels": [
-          "NO_QA_REQUIRED"
-        ]
-      },
-      {
         "key": "WSC-1632",
         "url": "https://e2x.atlassian.net/browse/WSC-1632",
         "summary": "CHECKOUT - custom checkout BigCommerce API",
@@ -963,17 +1009,6 @@
         "assignee": "Unassigned",
         "updated": "2026-08-31T19:21:46.215+0100",
         "priority": "Importante",
-        "labels": []
-      },
-      {
-        "key": "WSC-1736",
-        "url": "https://e2x.atlassian.net/browse/WSC-1736",
-        "summary": "Spike: PERSONALISED CONTENT - preview/visualiser on a Content Page",
-        "status": "Tareas por hacer",
-        "statusCategory": "new",
-        "assignee": "Unassigned",
-        "updated": "2026-08-31T19:09:47.085+0100",
-        "priority": "Supone un impedimento",
         "labels": []
       },
       {
@@ -1124,17 +1159,6 @@
           "Needs-QA",
           "automatable"
         ]
-      },
-      {
-        "key": "WSC-1629",
-        "url": "https://e2x.atlassian.net/browse/WSC-1629",
-        "summary": "SPIKE - product family for multi-item products (PLP/PDP)",
-        "status": "Backlog",
-        "statusCategory": "new",
-        "assignee": "Unassigned",
-        "updated": "2026-08-31T17:35:49.510+0100",
-        "priority": "Importante",
-        "labels": []
       },
       {
         "key": "WSC-1652",
