@@ -1,26 +1,86 @@
 {
-  "lastUpdated": "2026-09-03T15:56:57.781738+00:00",
+  "lastUpdated": "2026-09-03T19:13:21.783479+00:00",
   "jira": {
     "summary": {
       "total": 401,
       "byStatus": {
-        "Listo": 26,
+        "En curso": 5,
+        "RETURNED BY QA": 2,
+        "Tech Review": 7,
         "IN UAT": 1,
+        "Listo": 25,
         "IN QA": 1,
-        "Tech Review": 8,
         "Finalizada": 316,
         "QA Approved": 4,
         "Deprecated": 17,
-        "En curso": 4,
         "Tareas por hacer": 3,
         "Backlog": 14,
         "Blocked": 4,
         "Ready for Refinement": 1,
-        "READY FOR RELEASE": 1,
-        "RETURNED BY QA": 1
+        "READY FOR RELEASE": 1
       }
     },
     "tickets": [
+      {
+        "key": "WSC-1744",
+        "url": "https://e2x.atlassian.net/browse/WSC-1744",
+        "summary": "[SiteSpect - QA] Sandwich Model Rollout: Regression & Load/Latency Testing",
+        "status": "En curso",
+        "statusCategory": "indeterminate",
+        "assignee": "Gerardo Romero",
+        "updated": "2026-09-03T19:18:39.226+0100",
+        "priority": "Not Set",
+        "labels": []
+      },
+      {
+        "key": "WSC-1674",
+        "url": "https://e2x.atlassian.net/browse/WSC-1674",
+        "summary": "UX - email and password validation",
+        "status": "RETURNED BY QA",
+        "statusCategory": "indeterminate",
+        "assignee": "Jair Huaman",
+        "updated": "2026-09-03T19:16:01.081+0100",
+        "priority": "Importante",
+        "labels": [
+          "Needs-QA",
+          "automatable"
+        ]
+      },
+      {
+        "key": "WSC-1636",
+        "url": "https://e2x.atlassian.net/browse/WSC-1636",
+        "summary": "Tighten Super Bot Fight Mode policy: Block Automated, Managed Challenge Likely Automated",
+        "status": "En curso",
+        "statusCategory": "indeterminate",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-09-03T17:48:36.233+0100",
+        "priority": "Cr\u00edtica",
+        "labels": []
+      },
+      {
+        "key": "WSC-1643",
+        "url": "https://e2x.atlassian.net/browse/WSC-1643",
+        "summary": "Unmasking JS errors - vendor outreach",
+        "status": "Tech Review",
+        "statusCategory": "indeterminate",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-09-03T17:39:58.821+0100",
+        "priority": "Importante",
+        "labels": [
+          "NO_QA_REQUIRED"
+        ]
+      },
+      {
+        "key": "WSC-1581",
+        "url": "https://e2x.atlassian.net/browse/WSC-1581",
+        "summary": "SPIKE - /bag emptied after signing in on /checkout-identity",
+        "status": "IN UAT",
+        "statusCategory": "indeterminate",
+        "assignee": "Stuart Young",
+        "updated": "2026-09-03T17:12:56.619+0100",
+        "priority": "Importante",
+        "labels": []
+      },
       {
         "key": "WSC-1656",
         "url": "https://e2x.atlassian.net/browse/WSC-1656",
@@ -35,17 +95,6 @@
         ]
       },
       {
-        "key": "WSC-1581",
-        "url": "https://e2x.atlassian.net/browse/WSC-1581",
-        "summary": "SPIKE - /bag emptied after signing in on /checkout-identity",
-        "status": "IN UAT",
-        "statusCategory": "indeterminate",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-09-03T16:52:25.242+0100",
-        "priority": "Importante",
-        "labels": []
-      },
-      {
         "key": "WSC-1682",
         "url": "https://e2x.atlassian.net/browse/WSC-1682",
         "summary": "PDP - back in stock notifications",
@@ -57,19 +106,6 @@
         "labels": [
           "Needs-QA",
           "automatable"
-        ]
-      },
-      {
-        "key": "WSC-1643",
-        "url": "https://e2x.atlassian.net/browse/WSC-1643",
-        "summary": "Unmasking JS errors - vendor outreach",
-        "status": "Tech Review",
-        "statusCategory": "indeterminate",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-09-03T16:37:05.499+0100",
-        "priority": "Importante",
-        "labels": [
-          "NO_QA_REQUIRED"
         ]
       },
       {
@@ -93,20 +129,6 @@
         "updated": "2026-09-03T15:26:42.259+0100",
         "priority": "Not Set",
         "labels": []
-      },
-      {
-        "key": "WSC-1674",
-        "url": "https://e2x.atlassian.net/browse/WSC-1674",
-        "summary": "UX - email and password validation",
-        "status": "Tech Review",
-        "statusCategory": "indeterminate",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-09-03T15:25:49.242+0100",
-        "priority": "Importante",
-        "labels": [
-          "Needs-QA",
-          "automatable"
-        ]
       },
       {
         "key": "WSC-1637",
@@ -412,17 +434,6 @@
         "assignee": "enmanuel.ramirez",
         "updated": "2026-09-02T18:15:58.072+0100",
         "priority": "Poco importante",
-        "labels": []
-      },
-      {
-        "key": "WSC-1744",
-        "url": "https://e2x.atlassian.net/browse/WSC-1744",
-        "summary": "[SiteSpect - QA] Sandwich Model Rollout: Regression & Load/Latency Testing",
-        "status": "Listo",
-        "statusCategory": "new",
-        "assignee": "Unassigned",
-        "updated": "2026-09-02T17:27:56.327+0100",
-        "priority": "Not Set",
         "labels": []
       },
       {
@@ -896,17 +907,6 @@
         "labels": [
           "Needs-QA"
         ]
-      },
-      {
-        "key": "WSC-1636",
-        "url": "https://e2x.atlassian.net/browse/WSC-1636",
-        "summary": "Tighten Super Bot Fight Mode policy: Block Automated, Managed Challenge Likely Automated",
-        "status": "En curso",
-        "statusCategory": "indeterminate",
-        "assignee": "Jair Huaman",
-        "updated": "2026-09-01T15:25:09.791+0100",
-        "priority": "Cr\u00edtica",
-        "labels": []
       },
       {
         "key": "WSC-1677",
