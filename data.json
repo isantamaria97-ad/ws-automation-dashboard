@@ -1,16 +1,16 @@
 {
-  "lastUpdated": "2026-09-03T03:24:00.814550+00:00",
+  "lastUpdated": "2026-09-03T08:38:32.062989+00:00",
   "jira": {
     "summary": {
       "total": 401,
       "byStatus": {
+        "En curso": 5,
         "RETURNED BY QA": 2,
         "Tareas por hacer": 3,
         "Ready to QA": 2,
         "QA Approved": 17,
         "Tech Review": 7,
         "Blocked": 6,
-        "En curso": 5,
         "Listo": 25,
         "Backlog": 14,
         "IN UAT": 6,
@@ -21,6 +21,17 @@
       }
     },
     "tickets": [
+      {
+        "key": "WSC-1708",
+        "url": "https://e2x.atlassian.net/browse/WSC-1708",
+        "summary": "LCP-01 \u2014 PDP template - Desktop and Mobile",
+        "status": "En curso",
+        "statusCategory": "indeterminate",
+        "assignee": "Alexander Talavera",
+        "updated": "2026-09-03T05:09:22.636+0100",
+        "priority": "Cr\u00edtica",
+        "labels": []
+      },
       {
         "key": "WSC-1674",
         "url": "https://e2x.atlassian.net/browse/WSC-1674",
@@ -117,17 +128,6 @@
         "assignee": "Alexander Talavera",
         "updated": "2026-09-02T18:15:12.416+0100",
         "priority": "Importante",
-        "labels": []
-      },
-      {
-        "key": "WSC-1708",
-        "url": "https://e2x.atlassian.net/browse/WSC-1708",
-        "summary": "LCP-01 \u2014 PDP template - Desktop and Mobile",
-        "status": "En curso",
-        "statusCategory": "indeterminate",
-        "assignee": "Alexander Talavera",
-        "updated": "2026-09-02T18:14:23.276+0100",
-        "priority": "Cr\u00edtica",
         "labels": []
       },
       {
