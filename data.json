@@ -1,15 +1,15 @@
 {
-  "lastUpdated": "2026-09-04T18:51:56.620922+00:00",
+  "lastUpdated": "2026-09-04T22:11:03.317093+00:00",
   "jira": {
     "summary": {
-      "total": 407,
+      "total": 408,
       "byStatus": {
-        "Tech Review": 7,
-        "Ready to QA": 2,
+        "Finalizada": 317,
+        "Tech Review": 8,
         "En curso": 7,
+        "Ready to QA": 2,
         "Tareas por hacer": 4,
         "Listo": 23,
-        "Finalizada": 317,
         "Pre-prioritized": 2,
         "QA Approved": 6,
         "RETURNED BY QA": 1,
@@ -23,14 +23,39 @@
     },
     "tickets": [
       {
-        "key": "WSC-1672",
-        "url": "https://e2x.atlassian.net/browse/WSC-1672",
-        "summary": "API 404 error - https://www.whitestuff.com/api/talonone/getCustomerSession",
+        "key": "WSC-1515",
+        "url": "https://e2x.atlassian.net/browse/WSC-1515",
+        "summary": "PLP - re-enable Cloudflare cache (2 of 2)",
+        "status": "Finalizada",
+        "statusCategory": "done",
+        "assignee": "Alexander Talavera",
+        "updated": "2026-09-04T22:05:47.072+0100",
+        "priority": "Importante",
+        "labels": []
+      },
+      {
+        "key": "WSC-1750",
+        "url": "https://e2x.atlassian.net/browse/WSC-1750",
+        "summary": "[WSSD-741] - Ensure Talon.One discounts are retained when applied at the payment step",
         "status": "Tech Review",
         "statusCategory": "indeterminate",
-        "assignee": "Stuart Young",
-        "updated": "2026-09-04T18:46:30.513+0100",
-        "priority": "Poco importante",
+        "assignee": "Alexander Talavera",
+        "updated": "2026-09-04T20:39:28.464+0100",
+        "priority": "Importante",
+        "labels": [
+          "Needs-QA",
+          "manualQA"
+        ]
+      },
+      {
+        "key": "WSC-1744",
+        "url": "https://e2x.atlassian.net/browse/WSC-1744",
+        "summary": "[SiteSpect - QA] Sandwich Model Rollout: Regression & Load/Latency Testing",
+        "status": "En curso",
+        "statusCategory": "indeterminate",
+        "assignee": "Gerardo Romero",
+        "updated": "2026-09-04T20:29:52.466+0100",
+        "priority": "Not Set",
         "labels": []
       },
       {
@@ -40,11 +65,22 @@
         "status": "Ready to QA",
         "statusCategory": "new",
         "assignee": "Unassigned",
-        "updated": "2026-09-04T18:35:50.495+0100",
+        "updated": "2026-09-04T20:24:46.995+0100",
         "priority": "Importante",
         "labels": [
           "Needs-QA"
         ]
+      },
+      {
+        "key": "WSC-1672",
+        "url": "https://e2x.atlassian.net/browse/WSC-1672",
+        "summary": "API 404 error - https://www.whitestuff.com/api/talonone/getCustomerSession",
+        "status": "Tech Review",
+        "statusCategory": "indeterminate",
+        "assignee": "Stuart Young",
+        "updated": "2026-09-04T18:46:30.513+0100",
+        "priority": "Poco importante",
+        "labels": []
       },
       {
         "key": "WSC-1708",
@@ -111,17 +147,6 @@
         ]
       },
       {
-        "key": "WSC-1515",
-        "url": "https://e2x.atlassian.net/browse/WSC-1515",
-        "summary": "PLP - re-enable Cloudflare cache (2 of 2)",
-        "status": "Finalizada",
-        "statusCategory": "done",
-        "assignee": "Alexander Talavera",
-        "updated": "2026-09-04T16:26:54.343+0100",
-        "priority": "Importante",
-        "labels": []
-      },
-      {
         "key": "WSC-1643",
         "url": "https://e2x.atlassian.net/browse/WSC-1643",
         "summary": "Unmasking JS errors - vendor outreach",
@@ -159,17 +184,6 @@
         "labels": [
           "NO_QA_REQUIRED"
         ]
-      },
-      {
-        "key": "WSC-1744",
-        "url": "https://e2x.atlassian.net/browse/WSC-1744",
-        "summary": "[SiteSpect - QA] Sandwich Model Rollout: Regression & Load/Latency Testing",
-        "status": "En curso",
-        "statusCategory": "indeterminate",
-        "assignee": "Gerardo Romero",
-        "updated": "2026-09-04T15:45:19.939+0100",
-        "priority": "Not Set",
-        "labels": []
       },
       {
         "key": "WSC-1682",
