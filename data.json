@@ -1,9 +1,10 @@
 {
-  "lastUpdated": "2026-09-03T22:21:32.541727+00:00",
+  "lastUpdated": "2026-09-04T03:22:07.200593+00:00",
   "jira": {
     "summary": {
       "total": 403,
       "byStatus": {
+        "IN UAT": 1,
         "Tareas por hacer": 4,
         "IN QA": 1,
         "En curso": 6,
@@ -11,7 +12,6 @@
         "Listo": 26,
         "QA Approved": 5,
         "Tech Review": 7,
-        "IN UAT": 1,
         "Finalizada": 316,
         "Deprecated": 17,
         "Blocked": 4,
@@ -21,6 +21,17 @@
       }
     },
     "tickets": [
+      {
+        "key": "WSC-1581",
+        "url": "https://e2x.atlassian.net/browse/WSC-1581",
+        "summary": "SPIKE - /bag emptied after signing in on /checkout-identity",
+        "status": "IN UAT",
+        "statusCategory": "indeterminate",
+        "assignee": "Stuart Young",
+        "updated": "2026-09-04T02:16:30.356+0100",
+        "priority": "Importante",
+        "labels": []
+      },
       {
         "key": "WSC-1629",
         "url": "https://e2x.atlassian.net/browse/WSC-1629",
@@ -166,17 +177,6 @@
         "labels": [
           "NO_QA_REQUIRED"
         ]
-      },
-      {
-        "key": "WSC-1581",
-        "url": "https://e2x.atlassian.net/browse/WSC-1581",
-        "summary": "SPIKE - /bag emptied after signing in on /checkout-identity",
-        "status": "IN UAT",
-        "statusCategory": "indeterminate",
-        "assignee": "Stuart Young",
-        "updated": "2026-09-03T17:12:56.619+0100",
-        "priority": "Importante",
-        "labels": []
       },
       {
         "key": "WSC-1656",
