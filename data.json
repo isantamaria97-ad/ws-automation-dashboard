@@ -1,13 +1,14 @@
 {
-  "lastUpdated": "2026-09-04T15:54:32.522591+00:00",
+  "lastUpdated": "2026-09-04T18:51:56.620922+00:00",
   "jira": {
     "summary": {
       "total": 407,
       "byStatus": {
+        "Tech Review": 7,
+        "Ready to QA": 2,
+        "En curso": 7,
         "Tareas por hacer": 4,
-        "Listo": 24,
-        "En curso": 6,
-        "Tech Review": 9,
+        "Listo": 23,
         "Finalizada": 317,
         "Pre-prioritized": 2,
         "QA Approved": 6,
@@ -22,6 +23,56 @@
     },
     "tickets": [
       {
+        "key": "WSC-1672",
+        "url": "https://e2x.atlassian.net/browse/WSC-1672",
+        "summary": "API 404 error - https://www.whitestuff.com/api/talonone/getCustomerSession",
+        "status": "Tech Review",
+        "statusCategory": "indeterminate",
+        "assignee": "Stuart Young",
+        "updated": "2026-09-04T18:46:30.513+0100",
+        "priority": "Poco importante",
+        "labels": []
+      },
+      {
+        "key": "WSC-1656",
+        "url": "https://e2x.atlassian.net/browse/WSC-1656",
+        "summary": "MINI BAG - redesign",
+        "status": "Ready to QA",
+        "statusCategory": "new",
+        "assignee": "Unassigned",
+        "updated": "2026-09-04T18:35:50.495+0100",
+        "priority": "Importante",
+        "labels": [
+          "Needs-QA"
+        ]
+      },
+      {
+        "key": "WSC-1708",
+        "url": "https://e2x.atlassian.net/browse/WSC-1708",
+        "summary": "LCP-01 \u2014 PDP template - Desktop and Mobile",
+        "status": "Ready to QA",
+        "statusCategory": "new",
+        "assignee": "Unassigned",
+        "updated": "2026-09-04T18:29:21.259+0100",
+        "priority": "Cr\u00edtica",
+        "labels": []
+      },
+      {
+        "key": "WSC-1733",
+        "url": "https://e2x.atlassian.net/browse/WSC-1733",
+        "summary": "SPIKE: Investigate Cloudflare 403 Challenge Blocking Checkout Automation on Desktop",
+        "status": "En curso",
+        "statusCategory": "indeterminate",
+        "assignee": "Jair Huaman",
+        "updated": "2026-09-04T18:15:58.166+0100",
+        "priority": "Importante",
+        "labels": [
+          "automation",
+          "cloudflare",
+          "spike"
+        ]
+      },
+      {
         "key": "WSC-1709",
         "url": "https://e2x.atlassian.net/browse/WSC-1709",
         "summary": "INP-01 \u2014 PDP template - Desktop and Mobile",
@@ -31,21 +82,6 @@
         "updated": "2026-09-04T16:49:17.114+0100",
         "priority": "Cr\u00edtica",
         "labels": []
-      },
-      {
-        "key": "WSC-1733",
-        "url": "https://e2x.atlassian.net/browse/WSC-1733",
-        "summary": "SPIKE: Investigate Cloudflare 403 Challenge Blocking Checkout Automation on Desktop",
-        "status": "Listo",
-        "statusCategory": "new",
-        "assignee": "Jair Huaman",
-        "updated": "2026-09-04T16:48:36.093+0100",
-        "priority": "Importante",
-        "labels": [
-          "automation",
-          "cloudflare",
-          "spike"
-        ]
       },
       {
         "key": "WSC-1676",
@@ -73,17 +109,6 @@
         "labels": [
           "Needs-QA"
         ]
-      },
-      {
-        "key": "WSC-1708",
-        "url": "https://e2x.atlassian.net/browse/WSC-1708",
-        "summary": "LCP-01 \u2014 PDP template - Desktop and Mobile",
-        "status": "Tech Review",
-        "statusCategory": "indeterminate",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-09-04T16:42:49.047+0100",
-        "priority": "Cr\u00edtica",
-        "labels": []
       },
       {
         "key": "WSC-1515",
@@ -169,19 +194,6 @@
         "assignee": "enmanuel.ramirez",
         "updated": "2026-09-04T15:12:23.337+0100",
         "priority": "Poco importante",
-        "labels": [
-          "Needs-QA"
-        ]
-      },
-      {
-        "key": "WSC-1656",
-        "url": "https://e2x.atlassian.net/browse/WSC-1656",
-        "summary": "MINI BAG - redesign",
-        "status": "Tech Review",
-        "statusCategory": "indeterminate",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-09-04T15:11:22.988+0100",
-        "priority": "Importante",
         "labels": [
           "Needs-QA"
         ]
@@ -1078,17 +1090,6 @@
         "statusCategory": "indeterminate",
         "assignee": "enmanuel.ramirez",
         "updated": "2026-09-01T14:30:12.812+0100",
-        "priority": "Poco importante",
-        "labels": []
-      },
-      {
-        "key": "WSC-1672",
-        "url": "https://e2x.atlassian.net/browse/WSC-1672",
-        "summary": "API 404 error - https://www.whitestuff.com/api/talonone/getCustomerSession",
-        "status": "Tech Review",
-        "statusCategory": "indeterminate",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-09-01T14:30:10.155+0100",
         "priority": "Poco importante",
         "labels": []
       },
