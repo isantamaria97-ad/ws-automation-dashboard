@@ -1,18 +1,18 @@
 {
-  "lastUpdated": "2026-09-07T17:26:01.105036+00:00",
+  "lastUpdated": "2026-09-07T22:35:00.841571+00:00",
   "jira": {
     "summary": {
       "total": 409,
       "byStatus": {
-        "Tech Review": 9,
-        "Listo": 25,
+        "En curso": 8,
+        "IN QA": 1,
         "Ready to QA": 1,
-        "QA Approved": 8,
-        "En curso": 5,
+        "QA Approved": 9,
+        "Finalizada": 318,
+        "Tech Review": 7,
+        "Listo": 22,
         "Backlog": 12,
-        "PENDING DEV DEPLOY": 1,
         "Pre-prioritized": 3,
-        "Finalizada": 317,
         "RETURNED BY QA": 1,
         "IN UAT": 1,
         "Tareas por hacer": 3,
@@ -24,13 +24,127 @@
     },
     "tickets": [
       {
+        "key": "WSC-1744",
+        "url": "https://e2x.atlassian.net/browse/WSC-1744",
+        "summary": "[SiteSpect - QA] Sandwich Model Rollout: Regression & Load/Latency Testing",
+        "status": "En curso",
+        "statusCategory": "indeterminate",
+        "assignee": "Gerardo Romero",
+        "updated": "2026-09-07T22:55:03.996+0100",
+        "priority": "Not Set",
+        "labels": []
+      },
+      {
+        "key": "WSC-1729",
+        "url": "https://e2x.atlassian.net/browse/WSC-1729",
+        "summary": "[Automation] UAT Coverage: Partial OOS and Fully OOS Product States",
+        "status": "En curso",
+        "statusCategory": "indeterminate",
+        "assignee": "Gerardo Romero",
+        "updated": "2026-09-07T22:54:52.530+0100",
+        "priority": "Not Set",
+        "labels": []
+      },
+      {
+        "key": "WSC-1747",
+        "url": "https://e2x.atlassian.net/browse/WSC-1747",
+        "summary": "SIDE PANEL - amendment",
+        "status": "IN QA",
+        "statusCategory": "indeterminate",
+        "assignee": "Gerardo Romero",
+        "updated": "2026-09-07T21:07:14.841+0100",
+        "priority": "Poco importante",
+        "labels": [
+          "Needs-QA"
+        ]
+      },
+      {
+        "key": "WSC-1750",
+        "url": "https://e2x.atlassian.net/browse/WSC-1750",
+        "summary": "[WSSD-741] - Ensure Talon.One discounts are retained when applied at the payment step",
+        "status": "Ready to QA",
+        "statusCategory": "new",
+        "assignee": "Ingrith Santamaria",
+        "updated": "2026-09-07T20:57:47.167+0100",
+        "priority": "Importante",
+        "labels": [
+          "Needs-QA",
+          "co-build",
+          "manualQA"
+        ]
+      },
+      {
+        "key": "WSC-1748",
+        "url": "https://e2x.atlassian.net/browse/WSC-1748",
+        "summary": "CONTENT - MOBILE - SEOTextBlock & Accordion2 amendments",
+        "status": "QA Approved",
+        "statusCategory": "indeterminate",
+        "assignee": "Ingrith Santamaria",
+        "updated": "2026-09-07T20:49:59.294+0100",
+        "priority": "Poco importante",
+        "labels": [
+          "Needs-QA"
+        ]
+      },
+      {
+        "key": "WSC-1683",
+        "url": "https://e2x.atlassian.net/browse/WSC-1683",
+        "summary": "PDP - ATB and Size UX redesign",
+        "status": "En curso",
+        "statusCategory": "indeterminate",
+        "assignee": "Jair Huaman",
+        "updated": "2026-09-07T19:17:13.850+0100",
+        "priority": "Importante",
+        "labels": [
+          "Needs-QA",
+          "automatable"
+        ]
+      },
+      {
+        "key": "WSC-1733",
+        "url": "https://e2x.atlassian.net/browse/WSC-1733",
+        "summary": "SPIKE: Investigate Cloudflare 403 Challenge Blocking Checkout Automation on Desktop",
+        "status": "En curso",
+        "statusCategory": "indeterminate",
+        "assignee": "Jair Huaman",
+        "updated": "2026-09-07T19:04:02.567+0100",
+        "priority": "Importante",
+        "labels": [
+          "automation",
+          "cloudflare",
+          "spike"
+        ]
+      },
+      {
+        "key": "WSC-1672",
+        "url": "https://e2x.atlassian.net/browse/WSC-1672",
+        "summary": "API 404 error - https://www.whitestuff.com/api/talonone/getCustomerSession",
+        "status": "Finalizada",
+        "statusCategory": "done",
+        "assignee": "Stuart Young",
+        "updated": "2026-09-07T18:54:04.378+0100",
+        "priority": "Poco importante",
+        "labels": []
+      },
+      {
+        "key": "WSC-1189",
+        "url": "https://e2x.atlassian.net/browse/WSC-1189",
+        "summary": "SEO - Duplicate H1 Tags on Product Pages",
+        "status": "En curso",
+        "statusCategory": "indeterminate",
+        "assignee": "Alexander Talavera",
+        "updated": "2026-09-07T18:30:58.670+0100",
+        "priority": "Importante",
+        "labels": []
+      },
+      {
         "key": "WSC-1709",
         "url": "https://e2x.atlassian.net/browse/WSC-1709",
         "summary": "INP-01 \u2014 PDP template - Desktop and Mobile",
         "status": "Tech Review",
         "statusCategory": "indeterminate",
         "assignee": "enmanuel.ramirez",
-        "updated": "2026-09-07T18:23:39.196+0100",
+        "updated": "2026-09-07T18:29:47.166+0100",
         "priority": "Cr\u00edtica",
         "labels": []
       },
@@ -46,19 +160,6 @@
         "labels": [
           "Needs-QA",
           "manualQA"
-        ]
-      },
-      {
-        "key": "WSC-1747",
-        "url": "https://e2x.atlassian.net/browse/WSC-1747",
-        "summary": "SIDE PANEL - amendment",
-        "status": "Ready to QA",
-        "statusCategory": "new",
-        "assignee": "Gerardo Romero",
-        "updated": "2026-09-07T17:18:01.031+0100",
-        "priority": "Poco importante",
-        "labels": [
-          "Needs-QA"
         ]
       },
       {
@@ -86,17 +187,6 @@
         "labels": []
       },
       {
-        "key": "WSC-1672",
-        "url": "https://e2x.atlassian.net/browse/WSC-1672",
-        "summary": "API 404 error - https://www.whitestuff.com/api/talonone/getCustomerSession",
-        "status": "Tech Review",
-        "statusCategory": "indeterminate",
-        "assignee": "Stuart Young",
-        "updated": "2026-09-07T15:16:49.608+0100",
-        "priority": "Poco importante",
-        "labels": []
-      },
-      {
         "key": "WSC-1534",
         "url": "https://e2x.atlassian.net/browse/WSC-1534",
         "summary": "Investigate 403 Forbidden errors originating from Azure blocking Playwright tests in UAT",
@@ -119,30 +209,6 @@
         "labels": []
       },
       {
-        "key": "WSC-1729",
-        "url": "https://e2x.atlassian.net/browse/WSC-1729",
-        "summary": "[Automation] UAT Coverage: Partial OOS and Fully OOS Product States",
-        "status": "Listo",
-        "statusCategory": "new",
-        "assignee": "Gerardo Romero",
-        "updated": "2026-09-07T15:05:01.749+0100",
-        "priority": "Not Set",
-        "labels": []
-      },
-      {
-        "key": "WSC-1748",
-        "url": "https://e2x.atlassian.net/browse/WSC-1748",
-        "summary": "CONTENT - MOBILE - SEOTextBlock & Accordion2 amendments",
-        "status": "Tech Review",
-        "statusCategory": "indeterminate",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-09-07T15:04:49.053+0100",
-        "priority": "Poco importante",
-        "labels": [
-          "Needs-QA"
-        ]
-      },
-      {
         "key": "WSC-1731",
         "url": "https://e2x.atlassian.net/browse/WSC-1731",
         "summary": "[Automation] UAT Coverage: Hard Refresh Testing Across All PDP Types",
@@ -152,20 +218,6 @@
         "updated": "2026-09-07T15:03:46.327+0100",
         "priority": "Not Set",
         "labels": []
-      },
-      {
-        "key": "WSC-1750",
-        "url": "https://e2x.atlassian.net/browse/WSC-1750",
-        "summary": "[WSSD-741] - Ensure Talon.One discounts are retained when applied at the payment step",
-        "status": "PENDING DEV DEPLOY",
-        "statusCategory": "new",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-09-07T14:53:14.186+0100",
-        "priority": "Importante",
-        "labels": [
-          "Needs-QA",
-          "manualQA"
-        ]
       },
       {
         "key": "WSC-1749",
@@ -188,32 +240,6 @@
         "updated": "2026-09-04T22:05:47.072+0100",
         "priority": "Importante",
         "labels": []
-      },
-      {
-        "key": "WSC-1744",
-        "url": "https://e2x.atlassian.net/browse/WSC-1744",
-        "summary": "[SiteSpect - QA] Sandwich Model Rollout: Regression & Load/Latency Testing",
-        "status": "En curso",
-        "statusCategory": "indeterminate",
-        "assignee": "Gerardo Romero",
-        "updated": "2026-09-04T20:29:52.466+0100",
-        "priority": "Not Set",
-        "labels": []
-      },
-      {
-        "key": "WSC-1733",
-        "url": "https://e2x.atlassian.net/browse/WSC-1733",
-        "summary": "SPIKE: Investigate Cloudflare 403 Challenge Blocking Checkout Automation on Desktop",
-        "status": "En curso",
-        "statusCategory": "indeterminate",
-        "assignee": "Jair Huaman",
-        "updated": "2026-09-04T18:15:58.166+0100",
-        "priority": "Importante",
-        "labels": [
-          "automation",
-          "cloudflare",
-          "spike"
-        ]
       },
       {
         "key": "WSC-1643",
@@ -280,20 +306,6 @@
         "labels": [
           "NO_QA_REQUIRED",
           "co-build"
-        ]
-      },
-      {
-        "key": "WSC-1683",
-        "url": "https://e2x.atlassian.net/browse/WSC-1683",
-        "summary": "PDP - ATB and Size UX redesign",
-        "status": "Listo",
-        "statusCategory": "new",
-        "assignee": "Jair Huaman",
-        "updated": "2026-09-04T14:41:18.492+0100",
-        "priority": "Importante",
-        "labels": [
-          "Needs-QA",
-          "automatable"
         ]
       },
       {
@@ -969,17 +981,6 @@
           "Needs-QA",
           "manualQA"
         ]
-      },
-      {
-        "key": "WSC-1189",
-        "url": "https://e2x.atlassian.net/browse/WSC-1189",
-        "summary": "SEO - Duplicate H1 Tags on Product Pages",
-        "status": "Listo",
-        "statusCategory": "new",
-        "assignee": "Unassigned",
-        "updated": "2026-09-02T16:30:49.357+0100",
-        "priority": "Importante",
-        "labels": []
       },
       {
         "key": "WSC-1697",
