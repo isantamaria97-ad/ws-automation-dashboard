@@ -1,20 +1,21 @@
 {
-  "lastUpdated": "2026-09-07T09:01:54.981872+00:00",
+  "lastUpdated": "2026-09-07T17:26:01.105036+00:00",
   "jira": {
     "summary": {
-      "total": 408,
+      "total": 409,
       "byStatus": {
+        "Tech Review": 9,
+        "Listo": 25,
+        "Ready to QA": 1,
+        "QA Approved": 8,
+        "En curso": 5,
+        "Backlog": 12,
+        "PENDING DEV DEPLOY": 1,
+        "Pre-prioritized": 3,
         "Finalizada": 317,
-        "Tech Review": 8,
-        "En curso": 7,
-        "Ready to QA": 2,
-        "Tareas por hacer": 4,
-        "Listo": 23,
-        "Pre-prioritized": 2,
-        "QA Approved": 6,
         "RETURNED BY QA": 1,
-        "Backlog": 14,
         "IN UAT": 1,
+        "Tareas por hacer": 3,
         "Deprecated": 17,
         "Blocked": 4,
         "Ready for Refinement": 1,
@@ -22,6 +23,161 @@
       }
     },
     "tickets": [
+      {
+        "key": "WSC-1709",
+        "url": "https://e2x.atlassian.net/browse/WSC-1709",
+        "summary": "INP-01 \u2014 PDP template - Desktop and Mobile",
+        "status": "Tech Review",
+        "statusCategory": "indeterminate",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-09-07T18:23:39.196+0100",
+        "priority": "Cr\u00edtica",
+        "labels": []
+      },
+      {
+        "key": "WSC-1676",
+        "url": "https://e2x.atlassian.net/browse/WSC-1676",
+        "summary": "APPLE PAY EXPRESS",
+        "status": "Listo",
+        "statusCategory": "new",
+        "assignee": "Alexander Talavera",
+        "updated": "2026-09-07T17:25:29.815+0100",
+        "priority": "Importante",
+        "labels": [
+          "Needs-QA",
+          "manualQA"
+        ]
+      },
+      {
+        "key": "WSC-1747",
+        "url": "https://e2x.atlassian.net/browse/WSC-1747",
+        "summary": "SIDE PANEL - amendment",
+        "status": "Ready to QA",
+        "statusCategory": "new",
+        "assignee": "Gerardo Romero",
+        "updated": "2026-09-07T17:18:01.031+0100",
+        "priority": "Poco importante",
+        "labels": [
+          "Needs-QA"
+        ]
+      },
+      {
+        "key": "WSC-1656",
+        "url": "https://e2x.atlassian.net/browse/WSC-1656",
+        "summary": "MINI BAG - redesign",
+        "status": "QA Approved",
+        "statusCategory": "indeterminate",
+        "assignee": "Ingrith Santamaria",
+        "updated": "2026-09-07T16:07:42.392+0100",
+        "priority": "Importante",
+        "labels": [
+          "Needs-QA"
+        ]
+      },
+      {
+        "key": "WSC-1708",
+        "url": "https://e2x.atlassian.net/browse/WSC-1708",
+        "summary": "LCP-01 \u2014 PDP template - Desktop and Mobile",
+        "status": "QA Approved",
+        "statusCategory": "indeterminate",
+        "assignee": "Alexander Talavera",
+        "updated": "2026-09-07T16:01:11.683+0100",
+        "priority": "Cr\u00edtica",
+        "labels": []
+      },
+      {
+        "key": "WSC-1672",
+        "url": "https://e2x.atlassian.net/browse/WSC-1672",
+        "summary": "API 404 error - https://www.whitestuff.com/api/talonone/getCustomerSession",
+        "status": "Tech Review",
+        "statusCategory": "indeterminate",
+        "assignee": "Stuart Young",
+        "updated": "2026-09-07T15:16:49.608+0100",
+        "priority": "Poco importante",
+        "labels": []
+      },
+      {
+        "key": "WSC-1534",
+        "url": "https://e2x.atlassian.net/browse/WSC-1534",
+        "summary": "Investigate 403 Forbidden errors originating from Azure blocking Playwright tests in UAT",
+        "status": "En curso",
+        "statusCategory": "indeterminate",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-09-07T15:05:54.873+0100",
+        "priority": "Not Set",
+        "labels": []
+      },
+      {
+        "key": "WSC-1730",
+        "url": "https://e2x.atlassian.net/browse/WSC-1730",
+        "summary": "[Automation] UAT Coverage: Talon.One Promotions and Coupon Codes",
+        "status": "Listo",
+        "statusCategory": "new",
+        "assignee": "Ingrith Santamaria",
+        "updated": "2026-09-07T15:05:11.621+0100",
+        "priority": "Not Set",
+        "labels": []
+      },
+      {
+        "key": "WSC-1729",
+        "url": "https://e2x.atlassian.net/browse/WSC-1729",
+        "summary": "[Automation] UAT Coverage: Partial OOS and Fully OOS Product States",
+        "status": "Listo",
+        "statusCategory": "new",
+        "assignee": "Gerardo Romero",
+        "updated": "2026-09-07T15:05:01.749+0100",
+        "priority": "Not Set",
+        "labels": []
+      },
+      {
+        "key": "WSC-1748",
+        "url": "https://e2x.atlassian.net/browse/WSC-1748",
+        "summary": "CONTENT - MOBILE - SEOTextBlock & Accordion2 amendments",
+        "status": "Tech Review",
+        "statusCategory": "indeterminate",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-09-07T15:04:49.053+0100",
+        "priority": "Poco importante",
+        "labels": [
+          "Needs-QA"
+        ]
+      },
+      {
+        "key": "WSC-1731",
+        "url": "https://e2x.atlassian.net/browse/WSC-1731",
+        "summary": "[Automation] UAT Coverage: Hard Refresh Testing Across All PDP Types",
+        "status": "Backlog",
+        "statusCategory": "new",
+        "assignee": "Unassigned",
+        "updated": "2026-09-07T15:03:46.327+0100",
+        "priority": "Not Set",
+        "labels": []
+      },
+      {
+        "key": "WSC-1750",
+        "url": "https://e2x.atlassian.net/browse/WSC-1750",
+        "summary": "[WSSD-741] - Ensure Talon.One discounts are retained when applied at the payment step",
+        "status": "PENDING DEV DEPLOY",
+        "statusCategory": "new",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-09-07T14:53:14.186+0100",
+        "priority": "Importante",
+        "labels": [
+          "Needs-QA",
+          "manualQA"
+        ]
+      },
+      {
+        "key": "WSC-1749",
+        "url": "https://e2x.atlassian.net/browse/WSC-1749",
+        "summary": "Passwordless Sign-In",
+        "status": "Pre-prioritized",
+        "statusCategory": "new",
+        "assignee": "Unassigned",
+        "updated": "2026-09-07T14:25:48.408+0100",
+        "priority": "Importante",
+        "labels": []
+      },
       {
         "key": "WSC-1515",
         "url": "https://e2x.atlassian.net/browse/WSC-1515",
@@ -34,20 +190,6 @@
         "labels": []
       },
       {
-        "key": "WSC-1750",
-        "url": "https://e2x.atlassian.net/browse/WSC-1750",
-        "summary": "[WSSD-741] - Ensure Talon.One discounts are retained when applied at the payment step",
-        "status": "Tech Review",
-        "statusCategory": "indeterminate",
-        "assignee": "Alexander Talavera",
-        "updated": "2026-09-04T20:39:28.464+0100",
-        "priority": "Importante",
-        "labels": [
-          "Needs-QA",
-          "manualQA"
-        ]
-      },
-      {
         "key": "WSC-1744",
         "url": "https://e2x.atlassian.net/browse/WSC-1744",
         "summary": "[SiteSpect - QA] Sandwich Model Rollout: Regression & Load/Latency Testing",
@@ -56,41 +198,6 @@
         "assignee": "Gerardo Romero",
         "updated": "2026-09-04T20:29:52.466+0100",
         "priority": "Not Set",
-        "labels": []
-      },
-      {
-        "key": "WSC-1656",
-        "url": "https://e2x.atlassian.net/browse/WSC-1656",
-        "summary": "MINI BAG - redesign",
-        "status": "Ready to QA",
-        "statusCategory": "new",
-        "assignee": "Unassigned",
-        "updated": "2026-09-04T20:24:46.995+0100",
-        "priority": "Importante",
-        "labels": [
-          "Needs-QA"
-        ]
-      },
-      {
-        "key": "WSC-1672",
-        "url": "https://e2x.atlassian.net/browse/WSC-1672",
-        "summary": "API 404 error - https://www.whitestuff.com/api/talonone/getCustomerSession",
-        "status": "Tech Review",
-        "statusCategory": "indeterminate",
-        "assignee": "Stuart Young",
-        "updated": "2026-09-04T18:46:30.513+0100",
-        "priority": "Poco importante",
-        "labels": []
-      },
-      {
-        "key": "WSC-1708",
-        "url": "https://e2x.atlassian.net/browse/WSC-1708",
-        "summary": "LCP-01 \u2014 PDP template - Desktop and Mobile",
-        "status": "Ready to QA",
-        "statusCategory": "new",
-        "assignee": "Unassigned",
-        "updated": "2026-09-04T18:29:21.259+0100",
-        "priority": "Cr\u00edtica",
         "labels": []
       },
       {
@@ -106,44 +213,6 @@
           "automation",
           "cloudflare",
           "spike"
-        ]
-      },
-      {
-        "key": "WSC-1709",
-        "url": "https://e2x.atlassian.net/browse/WSC-1709",
-        "summary": "INP-01 \u2014 PDP template - Desktop and Mobile",
-        "status": "Tareas por hacer",
-        "statusCategory": "new",
-        "assignee": "Alexander Talavera",
-        "updated": "2026-09-04T16:49:17.114+0100",
-        "priority": "Cr\u00edtica",
-        "labels": []
-      },
-      {
-        "key": "WSC-1676",
-        "url": "https://e2x.atlassian.net/browse/WSC-1676",
-        "summary": "APPLE PAY EXPRESS",
-        "status": "Listo",
-        "statusCategory": "new",
-        "assignee": "Alexander Talavera",
-        "updated": "2026-09-04T16:48:07.534+0100",
-        "priority": "Importante",
-        "labels": [
-          "Needs-QA",
-          "manualQA"
-        ]
-      },
-      {
-        "key": "WSC-1747",
-        "url": "https://e2x.atlassian.net/browse/WSC-1747",
-        "summary": "SIDE PANEL - amendment",
-        "status": "En curso",
-        "statusCategory": "indeterminate",
-        "assignee": "Alexander Talavera",
-        "updated": "2026-09-04T16:43:19.432+0100",
-        "priority": "Poco importante",
-        "labels": [
-          "Needs-QA"
         ]
       },
       {
@@ -197,19 +266,6 @@
         "labels": [
           "Needs-QA",
           "automatable"
-        ]
-      },
-      {
-        "key": "WSC-1748",
-        "url": "https://e2x.atlassian.net/browse/WSC-1748",
-        "summary": "CONTENT - MOBILE - SEOTextBlock & Accordion2 amendments",
-        "status": "En curso",
-        "statusCategory": "indeterminate",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-09-04T15:12:23.337+0100",
-        "priority": "Poco importante",
-        "labels": [
-          "Needs-QA"
         ]
       },
       {
@@ -689,39 +745,6 @@
         "labels": []
       },
       {
-        "key": "WSC-1731",
-        "url": "https://e2x.atlassian.net/browse/WSC-1731",
-        "summary": "[Automation] UAT Coverage: Hard Refresh Testing Across All PDP Types",
-        "status": "Backlog",
-        "statusCategory": "new",
-        "assignee": "Unassigned",
-        "updated": "2026-09-02T16:33:29.226+0100",
-        "priority": "Not Set",
-        "labels": []
-      },
-      {
-        "key": "WSC-1730",
-        "url": "https://e2x.atlassian.net/browse/WSC-1730",
-        "summary": "[Automation] UAT Coverage: Talon.One Promotions and Coupon Codes",
-        "status": "Backlog",
-        "statusCategory": "new",
-        "assignee": "Unassigned",
-        "updated": "2026-09-02T16:33:28.731+0100",
-        "priority": "Not Set",
-        "labels": []
-      },
-      {
-        "key": "WSC-1729",
-        "url": "https://e2x.atlassian.net/browse/WSC-1729",
-        "summary": "[Automation] UAT Coverage: Partial OOS and Fully OOS Product States",
-        "status": "Backlog",
-        "statusCategory": "new",
-        "assignee": "Unassigned",
-        "updated": "2026-09-02T16:33:28.094+0100",
-        "priority": "Not Set",
-        "labels": []
-      },
-      {
         "key": "WSC-1702",
         "url": "https://e2x.atlassian.net/browse/WSC-1702",
         "summary": "[Automation] Remove local Nuxt dependency from Playwright test runs",
@@ -757,17 +780,6 @@
           "accelerated",
           "manualQA"
         ]
-      },
-      {
-        "key": "WSC-1534",
-        "url": "https://e2x.atlassian.net/browse/WSC-1534",
-        "summary": "Investigate 403 Forbidden errors originating from Azure blocking Playwright tests in UAT",
-        "status": "En curso",
-        "statusCategory": "indeterminate",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-09-02T16:33:18.507+0100",
-        "priority": "Not Set",
-        "labels": []
       },
       {
         "key": "WSC-1533",
