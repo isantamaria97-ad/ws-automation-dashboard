@@ -1,14 +1,15 @@
 {
-  "lastUpdated": "2026-09-08T16:10:55.610829+00:00",
+  "lastUpdated": "2026-09-08T22:25:02.889702+00:00",
   "jira": {
     "summary": {
       "total": 409,
       "byStatus": {
-        "QA Approved": 12,
         "En curso": 8,
+        "IN QA": 1,
         "Listo": 21,
+        "QA Approved": 12,
         "Finalizada": 318,
-        "Tech Review": 7,
+        "Tech Review": 6,
         "Backlog": 12,
         "Pre-prioritized": 3,
         "RETURNED BY QA": 1,
@@ -21,6 +22,55 @@
       }
     },
     "tickets": [
+      {
+        "key": "WSC-1636",
+        "url": "https://e2x.atlassian.net/browse/WSC-1636",
+        "summary": "Tighten Super Bot Fight Mode policy: Block Automated, Managed Challenge Likely Automated",
+        "status": "En curso",
+        "statusCategory": "indeterminate",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-09-08T22:32:00.241+0100",
+        "priority": "Cr\u00edtica",
+        "labels": []
+      },
+      {
+        "key": "WSC-1643",
+        "url": "https://e2x.atlassian.net/browse/WSC-1643",
+        "summary": "Unmasking JS errors - vendor outreach",
+        "status": "IN QA",
+        "statusCategory": "indeterminate",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-09-08T19:25:15.158+0100",
+        "priority": "Importante",
+        "labels": [
+          "NO_QA_REQUIRED"
+        ]
+      },
+      {
+        "key": "WSC-1189",
+        "url": "https://e2x.atlassian.net/browse/WSC-1189",
+        "summary": "SEO - Duplicate H1 Tags on Product Pages",
+        "status": "Listo",
+        "statusCategory": "new",
+        "assignee": "Alexander Talavera",
+        "updated": "2026-09-08T18:11:36.406+0100",
+        "priority": "Importante",
+        "labels": []
+      },
+      {
+        "key": "WSC-1683",
+        "url": "https://e2x.atlassian.net/browse/WSC-1683",
+        "summary": "PDP - ATB and Size UX redesign",
+        "status": "En curso",
+        "statusCategory": "indeterminate",
+        "assignee": "Jair Huaman",
+        "updated": "2026-09-08T18:06:51.272+0100",
+        "priority": "Importante",
+        "labels": [
+          "Needs-QA",
+          "automatable"
+        ]
+      },
       {
         "key": "WSC-1750",
         "url": "https://e2x.atlassian.net/browse/WSC-1750",
@@ -94,31 +144,6 @@
         "labels": [
           "Needs-QA",
           "manualQA"
-        ]
-      },
-      {
-        "key": "WSC-1189",
-        "url": "https://e2x.atlassian.net/browse/WSC-1189",
-        "summary": "SEO - Duplicate H1 Tags on Product Pages",
-        "status": "Listo",
-        "statusCategory": "new",
-        "assignee": "Alexander Talavera",
-        "updated": "2026-09-08T14:41:30.999+0100",
-        "priority": "Importante",
-        "labels": []
-      },
-      {
-        "key": "WSC-1683",
-        "url": "https://e2x.atlassian.net/browse/WSC-1683",
-        "summary": "PDP - ATB and Size UX redesign",
-        "status": "En curso",
-        "statusCategory": "indeterminate",
-        "assignee": "Jair Huaman",
-        "updated": "2026-09-08T12:49:24.737+0100",
-        "priority": "Importante",
-        "labels": [
-          "Needs-QA",
-          "automatable"
         ]
       },
       {
@@ -251,19 +276,6 @@
         "updated": "2026-09-04T22:05:47.072+0100",
         "priority": "Importante",
         "labels": []
-      },
-      {
-        "key": "WSC-1643",
-        "url": "https://e2x.atlassian.net/browse/WSC-1643",
-        "summary": "Unmasking JS errors - vendor outreach",
-        "status": "Tech Review",
-        "statusCategory": "indeterminate",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-09-04T16:26:15.729+0100",
-        "priority": "Importante",
-        "labels": [
-          "NO_QA_REQUIRED"
-        ]
       },
       {
         "key": "WSC-1739",
@@ -436,17 +448,6 @@
           "Needs-QA",
           "automatable"
         ]
-      },
-      {
-        "key": "WSC-1636",
-        "url": "https://e2x.atlassian.net/browse/WSC-1636",
-        "summary": "Tighten Super Bot Fight Mode policy: Block Automated, Managed Challenge Likely Automated",
-        "status": "En curso",
-        "statusCategory": "indeterminate",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-09-03T17:48:36.233+0100",
-        "priority": "Cr\u00edtica",
-        "labels": []
       },
       {
         "key": "WSC-1728",
