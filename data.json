@@ -1,16 +1,14 @@
 {
-  "lastUpdated": "2026-09-08T08:40:25.362215+00:00",
+  "lastUpdated": "2026-09-08T16:10:55.610829+00:00",
   "jira": {
     "summary": {
       "total": 409,
       "byStatus": {
+        "QA Approved": 12,
         "En curso": 8,
-        "IN QA": 1,
-        "Ready to QA": 1,
-        "QA Approved": 9,
+        "Listo": 21,
         "Finalizada": 318,
         "Tech Review": 7,
-        "Listo": 22,
         "Backlog": 12,
         "Pre-prioritized": 3,
         "RETURNED BY QA": 1,
@@ -24,13 +22,39 @@
     },
     "tickets": [
       {
+        "key": "WSC-1750",
+        "url": "https://e2x.atlassian.net/browse/WSC-1750",
+        "summary": "[WSSD-741] - Ensure Talon.One discounts are retained when applied at the payment step",
+        "status": "QA Approved",
+        "statusCategory": "indeterminate",
+        "assignee": "Ingrith Santamaria",
+        "updated": "2026-09-08T17:06:06.745+0100",
+        "priority": "Importante",
+        "labels": [
+          "Needs-QA",
+          "co-build",
+          "manualQA"
+        ]
+      },
+      {
+        "key": "WSC-1730",
+        "url": "https://e2x.atlassian.net/browse/WSC-1730",
+        "summary": "[Automation] UAT Coverage: Talon.One Promotions and Coupon Codes",
+        "status": "QA Approved",
+        "statusCategory": "indeterminate",
+        "assignee": "Ingrith Santamaria",
+        "updated": "2026-09-08T16:02:08.347+0100",
+        "priority": "Importante",
+        "labels": []
+      },
+      {
         "key": "WSC-1744",
         "url": "https://e2x.atlassian.net/browse/WSC-1744",
         "summary": "[SiteSpect - QA] Sandwich Model Rollout: Regression & Load/Latency Testing",
         "status": "En curso",
         "statusCategory": "indeterminate",
         "assignee": "Gerardo Romero",
-        "updated": "2026-09-08T00:45:26.912+0100",
+        "updated": "2026-09-08T15:52:19.881+0100",
         "priority": "Not Set",
         "labels": []
       },
@@ -41,36 +65,73 @@
         "status": "En curso",
         "statusCategory": "indeterminate",
         "assignee": "Gerardo Romero",
-        "updated": "2026-09-07T22:54:52.530+0100",
+        "updated": "2026-09-08T15:13:05.426+0100",
         "priority": "Not Set",
         "labels": []
+      },
+      {
+        "key": "WSC-1686",
+        "url": "https://e2x.atlassian.net/browse/WSC-1686",
+        "summary": "[White Stuff] High Vulnerabilities Report - July 2026",
+        "status": "Listo",
+        "statusCategory": "new",
+        "assignee": "Unassigned",
+        "updated": "2026-09-08T14:45:17.130+0100",
+        "priority": "Not Set",
+        "labels": [
+          "NO_QA_REQUIRED"
+        ]
+      },
+      {
+        "key": "WSC-1676",
+        "url": "https://e2x.atlassian.net/browse/WSC-1676",
+        "summary": "APPLE PAY EXPRESS",
+        "status": "En curso",
+        "statusCategory": "indeterminate",
+        "assignee": "Alexander Talavera",
+        "updated": "2026-09-08T14:41:35.716+0100",
+        "priority": "Importante",
+        "labels": [
+          "Needs-QA",
+          "manualQA"
+        ]
+      },
+      {
+        "key": "WSC-1189",
+        "url": "https://e2x.atlassian.net/browse/WSC-1189",
+        "summary": "SEO - Duplicate H1 Tags on Product Pages",
+        "status": "Listo",
+        "statusCategory": "new",
+        "assignee": "Alexander Talavera",
+        "updated": "2026-09-08T14:41:30.999+0100",
+        "priority": "Importante",
+        "labels": []
+      },
+      {
+        "key": "WSC-1683",
+        "url": "https://e2x.atlassian.net/browse/WSC-1683",
+        "summary": "PDP - ATB and Size UX redesign",
+        "status": "En curso",
+        "statusCategory": "indeterminate",
+        "assignee": "Jair Huaman",
+        "updated": "2026-09-08T12:49:24.737+0100",
+        "priority": "Importante",
+        "labels": [
+          "Needs-QA",
+          "automatable"
+        ]
       },
       {
         "key": "WSC-1747",
         "url": "https://e2x.atlassian.net/browse/WSC-1747",
         "summary": "SIDE PANEL - amendment",
-        "status": "IN QA",
+        "status": "QA Approved",
         "statusCategory": "indeterminate",
         "assignee": "Gerardo Romero",
-        "updated": "2026-09-07T21:07:14.841+0100",
+        "updated": "2026-09-08T12:37:33.184+0100",
         "priority": "Poco importante",
         "labels": [
           "Needs-QA"
-        ]
-      },
-      {
-        "key": "WSC-1750",
-        "url": "https://e2x.atlassian.net/browse/WSC-1750",
-        "summary": "[WSSD-741] - Ensure Talon.One discounts are retained when applied at the payment step",
-        "status": "Ready to QA",
-        "statusCategory": "new",
-        "assignee": "Ingrith Santamaria",
-        "updated": "2026-09-07T20:57:47.167+0100",
-        "priority": "Importante",
-        "labels": [
-          "Needs-QA",
-          "co-build",
-          "manualQA"
         ]
       },
       {
@@ -84,20 +145,6 @@
         "priority": "Poco importante",
         "labels": [
           "Needs-QA"
-        ]
-      },
-      {
-        "key": "WSC-1683",
-        "url": "https://e2x.atlassian.net/browse/WSC-1683",
-        "summary": "PDP - ATB and Size UX redesign",
-        "status": "En curso",
-        "statusCategory": "indeterminate",
-        "assignee": "Jair Huaman",
-        "updated": "2026-09-07T19:17:13.850+0100",
-        "priority": "Importante",
-        "labels": [
-          "Needs-QA",
-          "automatable"
         ]
       },
       {
@@ -127,17 +174,6 @@
         "labels": []
       },
       {
-        "key": "WSC-1189",
-        "url": "https://e2x.atlassian.net/browse/WSC-1189",
-        "summary": "SEO - Duplicate H1 Tags on Product Pages",
-        "status": "En curso",
-        "statusCategory": "indeterminate",
-        "assignee": "Alexander Talavera",
-        "updated": "2026-09-07T18:30:58.670+0100",
-        "priority": "Importante",
-        "labels": []
-      },
-      {
         "key": "WSC-1709",
         "url": "https://e2x.atlassian.net/browse/WSC-1709",
         "summary": "INP-01 \u2014 PDP template - Desktop and Mobile",
@@ -147,20 +183,6 @@
         "updated": "2026-09-07T18:29:47.166+0100",
         "priority": "Cr\u00edtica",
         "labels": []
-      },
-      {
-        "key": "WSC-1676",
-        "url": "https://e2x.atlassian.net/browse/WSC-1676",
-        "summary": "APPLE PAY EXPRESS",
-        "status": "Listo",
-        "statusCategory": "new",
-        "assignee": "Alexander Talavera",
-        "updated": "2026-09-07T17:25:29.815+0100",
-        "priority": "Importante",
-        "labels": [
-          "Needs-QA",
-          "manualQA"
-        ]
       },
       {
         "key": "WSC-1656",
@@ -194,17 +216,6 @@
         "statusCategory": "indeterminate",
         "assignee": "enmanuel.ramirez",
         "updated": "2026-09-07T15:05:54.873+0100",
-        "priority": "Not Set",
-        "labels": []
-      },
-      {
-        "key": "WSC-1730",
-        "url": "https://e2x.atlassian.net/browse/WSC-1730",
-        "summary": "[Automation] UAT Coverage: Talon.One Promotions and Coupon Codes",
-        "status": "Listo",
-        "statusCategory": "new",
-        "assignee": "Ingrith Santamaria",
-        "updated": "2026-09-07T15:05:11.621+0100",
         "priority": "Not Set",
         "labels": []
       },
@@ -387,19 +398,6 @@
         "updated": "2026-09-03T22:12:39.742+0100",
         "priority": "Importante",
         "labels": []
-      },
-      {
-        "key": "WSC-1686",
-        "url": "https://e2x.atlassian.net/browse/WSC-1686",
-        "summary": "[White Stuff] High Vulnerabilities Report - July 2026",
-        "status": "Listo",
-        "statusCategory": "new",
-        "assignee": "Unassigned",
-        "updated": "2026-09-03T21:40:18.023+0100",
-        "priority": "Not Set",
-        "labels": [
-          "NO_QA_REQUIRED"
-        ]
       },
       {
         "key": "WSC-1737",
@@ -5088,47 +5086,47 @@
       "scopeFolderName": "Regression"
     },
     "coverage": {
-      "total": 95,
-      "automated": 94,
-      "notAutomated": 1,
+      "total": 111,
+      "automated": 99,
+      "notAutomated": 12,
       "unclassified": 0,
-      "automatedPct": 98.9,
+      "automatedPct": 89.2,
       "byFolder": [
         {
           "folderId": null,
           "name": "Checkout",
           "group": "Components",
           "automated": 44,
-          "notAutomated": 0,
+          "notAutomated": 8,
           "unclassified": 0,
-          "total": 44
+          "total": 52
         },
         {
           "folderId": null,
           "name": "PDP",
           "group": "Components",
           "automated": 18,
-          "notAutomated": 0,
+          "notAutomated": 1,
           "unclassified": 0,
-          "total": 18
+          "total": 19
         },
         {
           "folderId": null,
           "name": "Other",
           "group": "Components",
-          "automated": 12,
-          "notAutomated": 1,
+          "automated": 15,
+          "notAutomated": 2,
           "unclassified": 0,
-          "total": 13
+          "total": 17
         },
         {
           "folderId": null,
           "name": "Bag",
           "group": "Components",
-          "automated": 8,
-          "notAutomated": 0,
+          "automated": 10,
+          "notAutomated": 1,
           "unclassified": 0,
-          "total": 8
+          "total": 11
         },
         {
           "folderId": null,
@@ -5360,6 +5358,182 @@
       ]
     },
     "cases": [
+      {
+        "id": 156127,
+        "name": "Promotion applied before the payment step continues to work correctly",
+        "folderId": 20991,
+        "folderPath": "Regression",
+        "bucket": "notAutomated",
+        "priority": {
+          "id": 2,
+          "name": "Normal"
+        }
+      },
+      {
+        "id": 156126,
+        "name": "Fix works with Apple Pay payments",
+        "folderId": 20991,
+        "folderPath": "Regression",
+        "bucket": "notAutomated",
+        "priority": {
+          "id": 2,
+          "name": "Normal"
+        }
+      },
+      {
+        "id": 156125,
+        "name": "Invalid promotion code at payment step shows error and does not change order total",
+        "folderId": 20991,
+        "folderPath": "Regression",
+        "bucket": "notAutomated",
+        "priority": {
+          "id": 2,
+          "name": "Normal"
+        }
+      },
+      {
+        "id": 156124,
+        "name": "Removing promotion at payment step reverts the order total",
+        "folderId": 20991,
+        "folderPath": "Regression",
+        "bucket": "notAutomated",
+        "priority": {
+          "id": 2,
+          "name": "Normal"
+        }
+      },
+      {
+        "id": 156123,
+        "name": "Checkout total, final order total, and charged amount all match after applying promotion at payment step",
+        "folderId": 20991,
+        "folderPath": "Regression",
+        "bucket": "notAutomated",
+        "priority": {
+          "id": 2,
+          "name": "Normal"
+        }
+      },
+      {
+        "id": 156122,
+        "name": "Promotion applied at payment step is included in the final order",
+        "folderId": 20991,
+        "folderPath": "Regression",
+        "bucket": "notAutomated",
+        "priority": {
+          "id": 2,
+          "name": "Normal"
+        }
+      },
+      {
+        "id": 156121,
+        "name": "Invalid coupon code shows an error message on the bag page",
+        "folderId": 20991,
+        "folderPath": "Regression",
+        "bucket": "notAutomated",
+        "priority": {
+          "id": 2,
+          "name": "Normal"
+        }
+      },
+      {
+        "id": 156120,
+        "name": "Valid coupon code TEST40 applies a discount on the bag page",
+        "folderId": 20991,
+        "folderPath": "Regression",
+        "bucket": "notAutomated",
+        "priority": {
+          "id": 2,
+          "name": "Normal"
+        }
+      },
+      {
+        "id": 156119,
+        "name": "No promoted price when product has no active auto-promotion",
+        "folderId": 20991,
+        "folderPath": "Regression",
+        "bucket": "notAutomated",
+        "priority": {
+          "id": 2,
+          "name": "Normal"
+        }
+      },
+      {
+        "id": 156118,
+        "name": "Promoted price is reflected in the Added to Bag modal",
+        "folderId": 20991,
+        "folderPath": "Regression",
+        "bucket": "notAutomated",
+        "priority": {
+          "id": 2,
+          "name": "Normal"
+        }
+      },
+      {
+        "id": 156117,
+        "name": "Regular price shown on PDP for auto-promo product",
+        "folderId": 20991,
+        "folderPath": "Regression",
+        "bucket": "notAutomated",
+        "priority": {
+          "id": 2,
+          "name": "Normal"
+        }
+      },
+      {
+        "id": 156106,
+        "name": "Fully OOS product shows OOS alert and all sizes disabled [mocked]",
+        "folderId": 20991,
+        "folderPath": "Regression",
+        "bucket": "automated",
+        "priority": {
+          "id": 2,
+          "name": "Normal"
+        }
+      },
+      {
+        "id": 156105,
+        "name": "In-stock size+fit can be added to bag on partial OOS product (size+fit)",
+        "folderId": 20991,
+        "folderPath": "Regression",
+        "bucket": "automated",
+        "priority": {
+          "id": 2,
+          "name": "Normal"
+        }
+      },
+      {
+        "id": 156104,
+        "name": "OOS size+fit combination: selecting OOS size shows OOS state on fit variant",
+        "folderId": 20991,
+        "folderPath": "Regression",
+        "bucket": "automated",
+        "priority": {
+          "id": 2,
+          "name": "Normal"
+        }
+      },
+      {
+        "id": 156103,
+        "name": "In-stock size can be added to bag on partial OOS product (size-only)",
+        "folderId": 20991,
+        "folderPath": "Regression",
+        "bucket": "automated",
+        "priority": {
+          "id": 2,
+          "name": "Normal"
+        }
+      },
+      {
+        "id": 156102,
+        "name": "OOS size variant shows BIS form and is disabled (size-only product)",
+        "folderId": 20991,
+        "folderPath": "Regression",
+        "bucket": "automated",
+        "priority": {
+          "id": 2,
+          "name": "Normal"
+        }
+      },
       {
         "id": 154731,
         "name": "E-Gift Card Can Be Purchased From PDP",
