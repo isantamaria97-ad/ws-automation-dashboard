@@ -1,16 +1,16 @@
 {
-  "lastUpdated": "2026-09-09T16:04:57.014128+00:00",
+  "lastUpdated": "2026-09-09T22:19:09.261705+00:00",
   "jira": {
     "summary": {
-      "total": 410,
+      "total": 411,
       "byStatus": {
+        "Tech Review": 8,
         "En curso": 8,
-        "QA Approved": 12,
+        "QA Approved": 13,
         "Finalizada": 319,
         "Backlog": 12,
         "Pre-prioritized": 3,
-        "Listo": 20,
-        "Tech Review": 7,
+        "Listo": 19,
         "IN QA": 1,
         "RETURNED BY QA": 1,
         "IN UAT": 1,
@@ -23,6 +23,81 @@
     },
     "tickets": [
       {
+        "key": "WSC-1683",
+        "url": "https://e2x.atlassian.net/browse/WSC-1683",
+        "summary": "PDP - ATB and Size UX redesign",
+        "status": "Tech Review",
+        "statusCategory": "indeterminate",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-09-09T20:53:52.375+0100",
+        "priority": "Importante",
+        "labels": [
+          "Needs-QA",
+          "automatable"
+        ]
+      },
+      {
+        "key": "WSC-1578",
+        "url": "https://e2x.atlassian.net/browse/WSC-1578",
+        "summary": "[WSSD-633] Add Cloudflare rate limiting rule for the password reset endpoint",
+        "status": "En curso",
+        "statusCategory": "indeterminate",
+        "assignee": "Jair Huaman",
+        "updated": "2026-09-09T20:44:23.695+0100",
+        "priority": "Importante",
+        "labels": []
+      },
+      {
+        "key": "WSC-1731",
+        "url": "https://e2x.atlassian.net/browse/WSC-1731",
+        "summary": "[Automation] UAT Coverage: Hard Refresh Testing Across All PDP Types",
+        "status": "QA Approved",
+        "statusCategory": "indeterminate",
+        "assignee": "Ingrith Santamaria",
+        "updated": "2026-09-09T20:37:25.370+0100",
+        "priority": "Importante",
+        "labels": []
+      },
+      {
+        "key": "WSC-1753",
+        "url": "https://e2x.atlassian.net/browse/WSC-1753",
+        "summary": "Review and Update of Playwright Affected Testcases for Release 17.0",
+        "status": "En curso",
+        "statusCategory": "indeterminate",
+        "assignee": "Gerardo Romero",
+        "updated": "2026-09-09T20:21:18.521+0100",
+        "priority": "Not Set",
+        "labels": []
+      },
+      {
+        "key": "WSC-1676",
+        "url": "https://e2x.atlassian.net/browse/WSC-1676",
+        "summary": "APPLE PAY EXPRESS",
+        "status": "En curso",
+        "statusCategory": "indeterminate",
+        "assignee": "Alexander Talavera",
+        "updated": "2026-09-09T17:43:10.879+0100",
+        "priority": "Importante",
+        "labels": [
+          "Needs-QA",
+          "manualQA"
+        ]
+      },
+      {
+        "key": "WSC-1285",
+        "url": "https://e2x.atlassian.net/browse/WSC-1285",
+        "summary": "ACCESSIBILITY - Button Name - Quick Add close button must have discernible text",
+        "status": "Tech Review",
+        "statusCategory": "indeterminate",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-09-09T17:06:31.026+0100",
+        "priority": "Importante",
+        "labels": [
+          "Needs-QA",
+          "manualQA"
+        ]
+      },
+      {
         "key": "WSC-1636",
         "url": "https://e2x.atlassian.net/browse/WSC-1636",
         "summary": "Tighten Super Bot Fight Mode policy: Block Automated, Managed Challenge Likely Automated",
@@ -32,20 +107,6 @@
         "updated": "2026-09-09T17:00:37.764+0100",
         "priority": "Cr\u00edtica",
         "labels": []
-      },
-      {
-        "key": "WSC-1285",
-        "url": "https://e2x.atlassian.net/browse/WSC-1285",
-        "summary": "ACCESSIBILITY - Button Name - Quick Add close button must have discernible text",
-        "status": "En curso",
-        "statusCategory": "indeterminate",
-        "assignee": "Alexander Talavera",
-        "updated": "2026-09-09T16:59:10.717+0100",
-        "priority": "Importante",
-        "labels": [
-          "Needs-QA",
-          "manualQA"
-        ]
       },
       {
         "key": "WSC-1733",
@@ -61,17 +122,6 @@
           "cloudflare",
           "spike"
         ]
-      },
-      {
-        "key": "WSC-1731",
-        "url": "https://e2x.atlassian.net/browse/WSC-1731",
-        "summary": "[Automation] UAT Coverage: Hard Refresh Testing Across All PDP Types",
-        "status": "En curso",
-        "statusCategory": "indeterminate",
-        "assignee": "Ingrith Santamaria",
-        "updated": "2026-09-09T16:39:49.546+0100",
-        "priority": "Not Set",
-        "labels": []
       },
       {
         "key": "WSC-1750",
@@ -161,20 +211,6 @@
         ]
       },
       {
-        "key": "WSC-1683",
-        "url": "https://e2x.atlassian.net/browse/WSC-1683",
-        "summary": "PDP - ATB and Size UX redesign",
-        "status": "En curso",
-        "statusCategory": "indeterminate",
-        "assignee": "Jair Huaman",
-        "updated": "2026-09-09T14:24:10.660+0100",
-        "priority": "Importante",
-        "labels": [
-          "Needs-QA",
-          "automatable"
-        ]
-      },
-      {
         "key": "WSC-1749",
         "url": "https://e2x.atlassian.net/browse/WSC-1749",
         "summary": "Passwordless Sign-In",
@@ -194,20 +230,6 @@
         "assignee": "Alexander Talavera",
         "updated": "2026-09-09T01:40:41.723+0100",
         "priority": "Poco importante",
-        "labels": [
-          "Needs-QA",
-          "manualQA"
-        ]
-      },
-      {
-        "key": "WSC-1676",
-        "url": "https://e2x.atlassian.net/browse/WSC-1676",
-        "summary": "APPLE PAY EXPRESS",
-        "status": "Listo",
-        "statusCategory": "new",
-        "assignee": "Alexander Talavera",
-        "updated": "2026-09-09T01:35:34.587+0100",
-        "priority": "Importante",
         "labels": [
           "Needs-QA",
           "manualQA"
@@ -1061,17 +1083,6 @@
         "labels": [
           "Needs-QA"
         ]
-      },
-      {
-        "key": "WSC-1578",
-        "url": "https://e2x.atlassian.net/browse/WSC-1578",
-        "summary": "[WSSD-633] Add Cloudflare rate limiting rule for the password reset endpoint",
-        "status": "Tech Review",
-        "statusCategory": "indeterminate",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-09-02T16:30:42.302+0100",
-        "priority": "Importante",
-        "labels": []
       },
       {
         "key": "WSC-1484",
