@@ -1,15 +1,15 @@
 {
-  "lastUpdated": "2026-09-08T22:25:02.889702+00:00",
+  "lastUpdated": "2026-09-09T03:34:30.050542+00:00",
   "jira": {
     "summary": {
       "total": 409,
       "byStatus": {
+        "Listo": 20,
         "En curso": 8,
+        "Tech Review": 7,
         "IN QA": 1,
-        "Listo": 21,
         "QA Approved": 12,
         "Finalizada": 318,
-        "Tech Review": 6,
         "Backlog": 12,
         "Pre-prioritized": 3,
         "RETURNED BY QA": 1,
@@ -22,6 +22,59 @@
       }
     },
     "tickets": [
+      {
+        "key": "WSC-1687",
+        "url": "https://e2x.atlassian.net/browse/WSC-1687",
+        "summary": "PDP - gift card and e-gift card colour change",
+        "status": "Listo",
+        "statusCategory": "new",
+        "assignee": "Alexander Talavera",
+        "updated": "2026-09-09T01:40:41.723+0100",
+        "priority": "Poco importante",
+        "labels": [
+          "Needs-QA",
+          "manualQA"
+        ]
+      },
+      {
+        "key": "WSC-1676",
+        "url": "https://e2x.atlassian.net/browse/WSC-1676",
+        "summary": "APPLE PAY EXPRESS",
+        "status": "Listo",
+        "statusCategory": "new",
+        "assignee": "Alexander Talavera",
+        "updated": "2026-09-09T01:35:34.587+0100",
+        "priority": "Importante",
+        "labels": [
+          "Needs-QA",
+          "manualQA"
+        ]
+      },
+      {
+        "key": "WSC-1285",
+        "url": "https://e2x.atlassian.net/browse/WSC-1285",
+        "summary": "ACCESSIBILITY - Button Name - Quick Add close button must have discernible text",
+        "status": "En curso",
+        "statusCategory": "indeterminate",
+        "assignee": "Alexander Talavera",
+        "updated": "2026-09-09T01:35:33.215+0100",
+        "priority": "Importante",
+        "labels": [
+          "Needs-QA",
+          "manualQA"
+        ]
+      },
+      {
+        "key": "WSC-1189",
+        "url": "https://e2x.atlassian.net/browse/WSC-1189",
+        "summary": "SEO - Duplicate H1 Tags on Product Pages",
+        "status": "Tech Review",
+        "statusCategory": "indeterminate",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-09-09T01:35:19.210+0100",
+        "priority": "Importante",
+        "labels": []
+      },
       {
         "key": "WSC-1636",
         "url": "https://e2x.atlassian.net/browse/WSC-1636",
@@ -45,17 +98,6 @@
         "labels": [
           "NO_QA_REQUIRED"
         ]
-      },
-      {
-        "key": "WSC-1189",
-        "url": "https://e2x.atlassian.net/browse/WSC-1189",
-        "summary": "SEO - Duplicate H1 Tags on Product Pages",
-        "status": "Listo",
-        "statusCategory": "new",
-        "assignee": "Alexander Talavera",
-        "updated": "2026-09-08T18:11:36.406+0100",
-        "priority": "Importante",
-        "labels": []
       },
       {
         "key": "WSC-1683",
@@ -130,20 +172,6 @@
         "priority": "Not Set",
         "labels": [
           "NO_QA_REQUIRED"
-        ]
-      },
-      {
-        "key": "WSC-1676",
-        "url": "https://e2x.atlassian.net/browse/WSC-1676",
-        "summary": "APPLE PAY EXPRESS",
-        "status": "En curso",
-        "statusCategory": "indeterminate",
-        "assignee": "Alexander Talavera",
-        "updated": "2026-09-08T14:41:35.716+0100",
-        "priority": "Importante",
-        "labels": [
-          "Needs-QA",
-          "manualQA"
         ]
       },
       {
@@ -968,20 +996,6 @@
         ]
       },
       {
-        "key": "WSC-1285",
-        "url": "https://e2x.atlassian.net/browse/WSC-1285",
-        "summary": "ACCESSIBILITY - Button Name - Quick Add close button must have discernible text",
-        "status": "Listo",
-        "statusCategory": "new",
-        "assignee": "Unassigned",
-        "updated": "2026-09-02T16:30:49.901+0100",
-        "priority": "Importante",
-        "labels": [
-          "Needs-QA",
-          "manualQA"
-        ]
-      },
-      {
         "key": "WSC-1697",
         "url": "https://e2x.atlassian.net/browse/WSC-1697",
         "summary": "PDP - 'back in stock' new UX",
@@ -1207,20 +1221,6 @@
         "priority": "Importante",
         "labels": [
           "FastFollow"
-        ]
-      },
-      {
-        "key": "WSC-1687",
-        "url": "https://e2x.atlassian.net/browse/WSC-1687",
-        "summary": "PDP - gift card and e-gift card colour change",
-        "status": "Listo",
-        "statusCategory": "new",
-        "assignee": "Unassigned",
-        "updated": "2026-08-31T17:42:54.471+0100",
-        "priority": "Poco importante",
-        "labels": [
-          "Needs-QA",
-          "manualQA"
         ]
       },
       {
