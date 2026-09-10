@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-10T19:04:37.255482+00:00",
+  "lastUpdated": "2026-09-10T22:18:43.348140+00:00",
   "jira": {
     "summary": {
       "total": 415,
@@ -29,10 +29,35 @@
         "status": "Pre-prioritized",
         "statusCategory": "new",
         "assignee": "Unassigned",
-        "updated": "2026-09-10T18:54:14.972+0100",
+        "updated": "2026-09-10T21:54:42.715+0100",
         "priority": "Importante",
         "labels": [
           "Needs-QA"
+        ]
+      },
+      {
+        "key": "WSC-1578",
+        "url": "https://e2x.atlassian.net/browse/WSC-1578",
+        "summary": "[WSSD-633] Add Cloudflare rate limiting rule for the password reset endpoint",
+        "status": "En curso",
+        "statusCategory": "indeterminate",
+        "assignee": "Jair Huaman",
+        "updated": "2026-09-10T20:56:39.533+0100",
+        "priority": "Importante",
+        "labels": []
+      },
+      {
+        "key": "WSC-1697",
+        "url": "https://e2x.atlassian.net/browse/WSC-1697",
+        "summary": "PDP - 'back in stock' new UX",
+        "status": "En curso",
+        "statusCategory": "indeterminate",
+        "assignee": "Jair Huaman",
+        "updated": "2026-09-10T20:39:52.987+0100",
+        "priority": "Importante",
+        "labels": [
+          "Needs-QA",
+          "automatable"
         ]
       },
       {
@@ -282,17 +307,6 @@
         ]
       },
       {
-        "key": "WSC-1578",
-        "url": "https://e2x.atlassian.net/browse/WSC-1578",
-        "summary": "[WSSD-633] Add Cloudflare rate limiting rule for the password reset endpoint",
-        "status": "En curso",
-        "statusCategory": "indeterminate",
-        "assignee": "Jair Huaman",
-        "updated": "2026-09-10T17:21:32.256+0100",
-        "priority": "Importante",
-        "labels": []
-      },
-      {
         "key": "WSC-1656",
         "url": "https://e2x.atlassian.net/browse/WSC-1656",
         "summary": "MINI BAG - redesign",
@@ -421,20 +435,6 @@
         "updated": "2026-09-10T15:28:12.823+0100",
         "priority": "Importante",
         "labels": []
-      },
-      {
-        "key": "WSC-1697",
-        "url": "https://e2x.atlassian.net/browse/WSC-1697",
-        "summary": "PDP - 'back in stock' new UX",
-        "status": "En curso",
-        "statusCategory": "indeterminate",
-        "assignee": "Jair Huaman",
-        "updated": "2026-09-10T14:08:00.625+0100",
-        "priority": "Importante",
-        "labels": [
-          "Needs-QA",
-          "automatable"
-        ]
       },
       {
         "key": "WSC-1709",
