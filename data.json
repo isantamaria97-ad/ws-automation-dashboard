@@ -1,20 +1,20 @@
 {
-  "lastUpdated": "2026-09-10T08:42:39.923609+00:00",
+  "lastUpdated": "2026-09-10T15:58:33.143737+00:00",
   "jira": {
     "summary": {
-      "total": 411,
+      "total": 413,
       "byStatus": {
+        "Listo": 19,
+        "Pre-prioritized": 3,
+        "Tareas por hacer": 3,
+        "Backlog": 13,
+        "En curso": 9,
         "Tech Review": 8,
-        "En curso": 8,
         "QA Approved": 13,
         "Finalizada": 319,
-        "Backlog": 12,
-        "Pre-prioritized": 3,
-        "Listo": 19,
         "IN QA": 1,
         "RETURNED BY QA": 1,
         "IN UAT": 1,
-        "Tareas por hacer": 3,
         "Deprecated": 17,
         "Blocked": 4,
         "Ready for Refinement": 1,
@@ -22,6 +22,80 @@
       }
     },
     "tickets": [
+      {
+        "key": "WSC-1694",
+        "url": "https://e2x.atlassian.net/browse/WSC-1694",
+        "summary": "SLIM BANNER - improve loading speed",
+        "status": "Listo",
+        "statusCategory": "new",
+        "assignee": "Unassigned",
+        "updated": "2026-09-10T16:51:22.441+0100",
+        "priority": "Importante",
+        "labels": [
+          "Needs-QA",
+          "manualQA"
+        ]
+      },
+      {
+        "key": "WSC-1754",
+        "url": "https://e2x.atlassian.net/browse/WSC-1754",
+        "summary": "SEO - PLP/Search results - add colour to H1 product name",
+        "status": "Pre-prioritized",
+        "statusCategory": "new",
+        "assignee": "Unassigned",
+        "updated": "2026-09-10T16:46:29.919+0100",
+        "priority": "Importante",
+        "labels": [
+          "Needs-QA"
+        ]
+      },
+      {
+        "key": "WSC-1749",
+        "url": "https://e2x.atlassian.net/browse/WSC-1749",
+        "summary": "Passwordless Sign-In",
+        "status": "Tareas por hacer",
+        "statusCategory": "new",
+        "assignee": "Unassigned",
+        "updated": "2026-09-10T16:36:42.403+0100",
+        "priority": "Importante",
+        "labels": []
+      },
+      {
+        "key": "WSC-1629",
+        "url": "https://e2x.atlassian.net/browse/WSC-1629",
+        "summary": "SPIKE - product family for multi-item products (PLP/PDP)",
+        "status": "Backlog",
+        "statusCategory": "new",
+        "assignee": "Unassigned",
+        "updated": "2026-09-10T15:28:12.823+0100",
+        "priority": "Importante",
+        "labels": []
+      },
+      {
+        "key": "WSC-1697",
+        "url": "https://e2x.atlassian.net/browse/WSC-1697",
+        "summary": "PDP - 'back in stock' new UX",
+        "status": "En curso",
+        "statusCategory": "indeterminate",
+        "assignee": "Jair Huaman",
+        "updated": "2026-09-10T14:08:00.625+0100",
+        "priority": "Importante",
+        "labels": [
+          "Needs-QA",
+          "automatable"
+        ]
+      },
+      {
+        "key": "WSC-1636",
+        "url": "https://e2x.atlassian.net/browse/WSC-1636",
+        "summary": "Tighten Super Bot Fight Mode policy: Block Automated, Managed Challenge Likely Automated",
+        "status": "En curso",
+        "statusCategory": "indeterminate",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-09-10T12:55:48.609+0100",
+        "priority": "Cr\u00edtica",
+        "labels": []
+      },
       {
         "key": "WSC-1709",
         "url": "https://e2x.atlassian.net/browse/WSC-1709",
@@ -107,17 +181,6 @@
           "Needs-QA",
           "manualQA"
         ]
-      },
-      {
-        "key": "WSC-1636",
-        "url": "https://e2x.atlassian.net/browse/WSC-1636",
-        "summary": "Tighten Super Bot Fight Mode policy: Block Automated, Managed Challenge Likely Automated",
-        "status": "En curso",
-        "statusCategory": "indeterminate",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-09-09T17:00:37.764+0100",
-        "priority": "Cr\u00edtica",
-        "labels": []
       },
       {
         "key": "WSC-1733",
@@ -220,17 +283,6 @@
         "labels": [
           "NO_QA_REQUIRED"
         ]
-      },
-      {
-        "key": "WSC-1749",
-        "url": "https://e2x.atlassian.net/browse/WSC-1749",
-        "summary": "Passwordless Sign-In",
-        "status": "Pre-prioritized",
-        "statusCategory": "new",
-        "assignee": "Unassigned",
-        "updated": "2026-09-09T12:53:07.456+0100",
-        "priority": "Importante",
-        "labels": []
       },
       {
         "key": "WSC-1687",
@@ -438,17 +490,6 @@
         "statusCategory": "indeterminate",
         "assignee": "Stuart Young",
         "updated": "2026-09-04T02:16:30.356+0100",
-        "priority": "Importante",
-        "labels": []
-      },
-      {
-        "key": "WSC-1629",
-        "url": "https://e2x.atlassian.net/browse/WSC-1629",
-        "summary": "SPIKE - product family for multi-item products (PLP/PDP)",
-        "status": "Tareas por hacer",
-        "statusCategory": "new",
-        "assignee": "Unassigned",
-        "updated": "2026-09-03T22:50:40.503+0100",
         "priority": "Importante",
         "labels": []
       },
@@ -1028,20 +1069,6 @@
         "priority": "Poco importante",
         "labels": [
           "Needs-QA"
-        ]
-      },
-      {
-        "key": "WSC-1697",
-        "url": "https://e2x.atlassian.net/browse/WSC-1697",
-        "summary": "PDP - 'back in stock' new UX",
-        "status": "Listo",
-        "statusCategory": "new",
-        "assignee": "Unassigned",
-        "updated": "2026-09-02T16:30:48.802+0100",
-        "priority": "Importante",
-        "labels": [
-          "Needs-QA",
-          "automatable"
         ]
       },
       {
@@ -5111,29 +5138,29 @@
       "scopeFolderName": "Regression"
     },
     "coverage": {
-      "total": 111,
+      "total": 117,
       "automated": 99,
-      "notAutomated": 12,
+      "notAutomated": 18,
       "unclassified": 0,
-      "automatedPct": 89.2,
+      "automatedPct": 84.6,
       "byFolder": [
         {
           "folderId": null,
           "name": "Checkout",
           "group": "Components",
           "automated": 44,
-          "notAutomated": 8,
+          "notAutomated": 9,
           "unclassified": 0,
-          "total": 52
+          "total": 53
         },
         {
           "folderId": null,
           "name": "PDP",
           "group": "Components",
           "automated": 18,
-          "notAutomated": 1,
+          "notAutomated": 6,
           "unclassified": 0,
-          "total": 19
+          "total": 24
         },
         {
           "folderId": null,
@@ -5384,8 +5411,8 @@
     },
     "cases": [
       {
-        "id": 156127,
-        "name": "Promotion applied before the payment step continues to work correctly",
+        "id": 156295,
+        "name": "E-gift card PDP renders correctly after hard refresh",
         "folderId": 20991,
         "folderPath": "Regression",
         "bucket": "notAutomated",
@@ -5395,8 +5422,74 @@
         }
       },
       {
-        "id": 156126,
-        "name": "Fix works with Apple Pay payments",
+        "id": 156294,
+        "name": "Physical gift card PDP renders correctly after hard refresh",
+        "folderId": 20991,
+        "folderPath": "Regression",
+        "bucket": "notAutomated",
+        "priority": {
+          "id": 2,
+          "name": "Normal"
+        }
+      },
+      {
+        "id": 156293,
+        "name": "One-size warehouse PDP renders correctly after hard refresh",
+        "folderId": 20991,
+        "folderPath": "Regression",
+        "bucket": "notAutomated",
+        "priority": {
+          "id": 2,
+          "name": "Normal"
+        }
+      },
+      {
+        "id": 156292,
+        "name": "SFS one-sized PDP Add to Bag works after hard refresh",
+        "folderId": 20991,
+        "folderPath": "Regression",
+        "bucket": "notAutomated",
+        "priority": {
+          "id": 2,
+          "name": "Normal"
+        }
+      },
+      {
+        "id": 156291,
+        "name": "SFS one-sized PDP renders correctly after hard refresh",
+        "folderId": 20991,
+        "folderPath": "Regression",
+        "bucket": "notAutomated",
+        "priority": {
+          "id": 2,
+          "name": "Normal"
+        }
+      },
+      {
+        "id": 156290,
+        "name": "SFS multi-size PDP stock state is correct after hard refresh",
+        "folderId": 20991,
+        "folderPath": "Regression",
+        "bucket": "notAutomated",
+        "priority": {
+          "id": 2,
+          "name": "Normal"
+        }
+      },
+      {
+        "id": 156289,
+        "name": "Standard warehouse PDP renders correctly after hard refresh",
+        "folderId": 20991,
+        "folderPath": "Regression",
+        "bucket": "notAutomated",
+        "priority": {
+          "id": 2,
+          "name": "Normal"
+        }
+      },
+      {
+        "id": 156127,
+        "name": "Promotion applied before the payment step continues to work correctly",
         "folderId": 20991,
         "folderPath": "Regression",
         "bucket": "notAutomated",
