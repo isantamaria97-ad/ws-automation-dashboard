@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-09T22:19:09.261705+00:00",
+  "lastUpdated": "2026-09-10T03:32:11.527335+00:00",
   "jira": {
     "summary": {
       "total": 411,
@@ -22,6 +22,17 @@
       }
     },
     "tickets": [
+      {
+        "key": "WSC-1709",
+        "url": "https://e2x.atlassian.net/browse/WSC-1709",
+        "summary": "INP-01 \u2014 PDP template - Desktop and Mobile",
+        "status": "Tech Review",
+        "statusCategory": "indeterminate",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-09-10T00:29:12.884+0100",
+        "priority": "Cr\u00edtica",
+        "labels": []
+      },
       {
         "key": "WSC-1683",
         "url": "https://e2x.atlassian.net/browse/WSC-1683",
@@ -294,17 +305,6 @@
         "assignee": "Stuart Young",
         "updated": "2026-09-07T18:54:04.378+0100",
         "priority": "Poco importante",
-        "labels": []
-      },
-      {
-        "key": "WSC-1709",
-        "url": "https://e2x.atlassian.net/browse/WSC-1709",
-        "summary": "INP-01 \u2014 PDP template - Desktop and Mobile",
-        "status": "Tech Review",
-        "statusCategory": "indeterminate",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-09-07T18:29:47.166+0100",
-        "priority": "Cr\u00edtica",
         "labels": []
       },
       {
