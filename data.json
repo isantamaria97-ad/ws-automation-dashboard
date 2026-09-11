@@ -1,38 +1,294 @@
 {
-  "lastUpdated": "2026-09-11T08:41:17.599012+00:00",
+  "lastUpdated": "2026-09-11T16:01:47.501766+00:00",
   "jira": {
     "summary": {
-      "total": 415,
+      "total": 416,
       "byStatus": {
+        "IN QA": 2,
+        "IN UAT": 14,
         "En curso": 9,
-        "Pre-prioritized": 3,
-        "Finalizada": 319,
-        "Listo": 21,
-        "Ready for Refinement": 1,
-        "Blocked": 4,
-        "QA Approved": 13,
         "Tech Review": 8,
-        "IN QA": 1,
+        "Blocked": 4,
+        "Listo": 21,
+        "Finalizada": 319,
+        "Pre-prioritized": 3,
+        "Ready for Refinement": 1,
         "Tareas por hacer": 3,
         "Backlog": 13,
         "RETURNED BY QA": 1,
-        "IN UAT": 1,
         "Deprecated": 17,
         "READY FOR RELEASE": 1
       }
     },
     "tickets": [
       {
-        "key": "WSC-1676",
-        "url": "https://e2x.atlassian.net/browse/WSC-1676",
-        "summary": "APPLE PAY EXPRESS",
-        "status": "En curso",
+        "key": "WSC-1758",
+        "url": "https://e2x.atlassian.net/browse/WSC-1758",
+        "summary": "Restore the PDP rating summary independently of the Authentic Discovery API",
+        "status": "IN QA",
         "statusCategory": "indeterminate",
-        "assignee": "Alexander Talavera",
-        "updated": "2026-09-11T01:37:20.785+0100",
+        "assignee": "Ingrith Santamaria",
+        "updated": "2026-09-11T16:59:44.254+0100",
+        "priority": "Cr\u00edtica",
+        "labels": [
+          "Needs-QA"
+        ]
+      },
+      {
+        "key": "WSC-1731",
+        "url": "https://e2x.atlassian.net/browse/WSC-1731",
+        "summary": "[Automation] UAT Coverage: Hard Refresh Testing Across All PDP Types",
+        "status": "IN UAT",
+        "statusCategory": "indeterminate",
+        "assignee": "Ingrith Santamaria",
+        "updated": "2026-09-11T16:15:21.663+0100",
+        "priority": "Importante",
+        "labels": []
+      },
+      {
+        "key": "WSC-1599",
+        "url": "https://e2x.atlassian.net/browse/WSC-1599",
+        "summary": "CONTENT - Default Search Term - move into Footer component",
+        "status": "IN UAT",
+        "statusCategory": "indeterminate",
+        "assignee": "Gerardo Romero",
+        "updated": "2026-09-11T16:15:01.380+0100",
+        "priority": "Poco importante",
+        "labels": [
+          "Needs-QA",
+          "accelerated",
+          "manualQA"
+        ]
+      },
+      {
+        "key": "WSC-1682",
+        "url": "https://e2x.atlassian.net/browse/WSC-1682",
+        "summary": "PDP - back in stock notifications",
+        "status": "IN UAT",
+        "statusCategory": "indeterminate",
+        "assignee": "Gerardo Romero",
+        "updated": "2026-09-11T16:14:55.141+0100",
         "priority": "Importante",
         "labels": [
           "Needs-QA",
+          "automatable"
+        ]
+      },
+      {
+        "key": "WSC-1652",
+        "url": "https://e2x.atlassian.net/browse/WSC-1652",
+        "summary": "MONETATE - identify where this is implemented",
+        "status": "En curso",
+        "statusCategory": "indeterminate",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-09-11T16:06:25.174+0100",
+        "priority": "Importante",
+        "labels": []
+      },
+      {
+        "key": "WSC-1747",
+        "url": "https://e2x.atlassian.net/browse/WSC-1747",
+        "summary": "SIDE PANEL - amendment",
+        "status": "IN UAT",
+        "statusCategory": "indeterminate",
+        "assignee": "Gerardo Romero",
+        "updated": "2026-09-11T16:01:17.343+0100",
+        "priority": "Poco importante",
+        "labels": [
+          "Needs-QA"
+        ]
+      },
+      {
+        "key": "WSC-1674",
+        "url": "https://e2x.atlassian.net/browse/WSC-1674",
+        "summary": "UX - email and password validation",
+        "status": "IN UAT",
+        "statusCategory": "indeterminate",
+        "assignee": "Gerardo Romero",
+        "updated": "2026-09-11T15:52:44.131+0100",
+        "priority": "Importante",
+        "labels": [
+          "Needs-QA",
+          "automatable"
+        ]
+      },
+      {
+        "key": "WSC-1676",
+        "url": "https://e2x.atlassian.net/browse/WSC-1676",
+        "summary": "APPLE PAY EXPRESS",
+        "status": "Tech Review",
+        "statusCategory": "indeterminate",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-09-11T15:07:58.941+0100",
+        "priority": "Importante",
+        "labels": [
+          "Needs-QA",
+          "manualQA"
+        ]
+      },
+      {
+        "key": "WSC-1578",
+        "url": "https://e2x.atlassian.net/browse/WSC-1578",
+        "summary": "[WSSD-633] Add Cloudflare rate limiting rule for the password reset endpoint",
+        "status": "En curso",
+        "statusCategory": "indeterminate",
+        "assignee": "Jair Huaman",
+        "updated": "2026-09-11T15:05:21.750+0100",
+        "priority": "Importante",
+        "labels": []
+      },
+      {
+        "key": "WSC-1636",
+        "url": "https://e2x.atlassian.net/browse/WSC-1636",
+        "summary": "Tighten Super Bot Fight Mode policy: Block Automated, Managed Challenge Likely Automated",
+        "status": "En curso",
+        "statusCategory": "indeterminate",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-09-11T15:05:10.057+0100",
+        "priority": "Cr\u00edtica",
+        "labels": []
+      },
+      {
+        "key": "WSC-1733",
+        "url": "https://e2x.atlassian.net/browse/WSC-1733",
+        "summary": "SPIKE: Investigate Cloudflare 403 Challenge Blocking Checkout Automation on Desktop",
+        "status": "En curso",
+        "statusCategory": "indeterminate",
+        "assignee": "Alexander Talavera",
+        "updated": "2026-09-11T15:04:58.398+0100",
+        "priority": "Importante",
+        "labels": [
+          "automation",
+          "cloudflare",
+          "spike"
+        ]
+      },
+      {
+        "key": "WSC-1483",
+        "url": "https://e2x.atlassian.net/browse/WSC-1483",
+        "summary": "CSP - QA: Checkout & Critical Flow Validation after Enforcement",
+        "status": "Blocked",
+        "statusCategory": "new",
+        "assignee": "Gerardo Romero",
+        "updated": "2026-09-11T15:04:28.580+0100",
+        "priority": "Not Set",
+        "labels": [
+          "CSP",
+          "Needs-QA"
+        ]
+      },
+      {
+        "key": "WSC-1481",
+        "url": "https://e2x.atlassian.net/browse/WSC-1481",
+        "summary": "Initial CSP Report-Only Rollout  (Production)",
+        "status": "Listo",
+        "statusCategory": "new",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-09-11T15:04:12.157+0100",
+        "priority": "Not Set",
+        "labels": [
+          "CSP"
+        ]
+      },
+      {
+        "key": "WSC-1484",
+        "url": "https://e2x.atlassian.net/browse/WSC-1484",
+        "summary": "CSP Enforcement Rollout & Hardening",
+        "status": "Listo",
+        "statusCategory": "new",
+        "assignee": "Unassigned",
+        "updated": "2026-09-11T15:03:53.317+0100",
+        "priority": "Cr\u00edtica",
+        "labels": [
+          "CSP",
+          "NO_QA_REQUIRED"
+        ]
+      },
+      {
+        "key": "WSC-1686",
+        "url": "https://e2x.atlassian.net/browse/WSC-1686",
+        "summary": "[White Stuff] High Vulnerabilities Report - July 2026",
+        "status": "Listo",
+        "statusCategory": "new",
+        "assignee": "Unassigned",
+        "updated": "2026-09-11T14:22:14.366+0100",
+        "priority": "Not Set",
+        "labels": [
+          "NO_QA_REQUIRED"
+        ]
+      },
+      {
+        "key": "WSC-1660",
+        "url": "https://e2x.atlassian.net/browse/WSC-1660",
+        "summary": "PDP - hide review stars when stars = 0",
+        "status": "Finalizada",
+        "statusCategory": "done",
+        "assignee": "Ingrith Santamaria",
+        "updated": "2026-09-11T14:00:41.944+0100",
+        "priority": "Poco importante",
+        "labels": [
+          "Needs-QA",
+          "automatable"
+        ]
+      },
+      {
+        "key": "WSC-1708",
+        "url": "https://e2x.atlassian.net/browse/WSC-1708",
+        "summary": "LCP-01 \u2014 PDP template - Desktop and Mobile",
+        "status": "IN UAT",
+        "statusCategory": "indeterminate",
+        "assignee": "Alexander Talavera",
+        "updated": "2026-09-11T13:37:38.230+0100",
+        "priority": "Cr\u00edtica",
+        "labels": []
+      },
+      {
+        "key": "WSC-1728",
+        "url": "https://e2x.atlassian.net/browse/WSC-1728",
+        "summary": "[Automation] UAT Coverage: Physical Gift Card and E-Gift Card PDP Purchase Flow",
+        "status": "IN UAT",
+        "statusCategory": "indeterminate",
+        "assignee": "Gerardo Romero",
+        "updated": "2026-09-11T13:37:32.722+0100",
+        "priority": "Not Set",
+        "labels": []
+      },
+      {
+        "key": "WSC-1730",
+        "url": "https://e2x.atlassian.net/browse/WSC-1730",
+        "summary": "[Automation] UAT Coverage: Talon.One Promotions and Coupon Codes",
+        "status": "IN UAT",
+        "statusCategory": "indeterminate",
+        "assignee": "Ingrith Santamaria",
+        "updated": "2026-09-11T13:37:30.651+0100",
+        "priority": "Importante",
+        "labels": []
+      },
+      {
+        "key": "WSC-1748",
+        "url": "https://e2x.atlassian.net/browse/WSC-1748",
+        "summary": "CONTENT - MOBILE - SEOTextBlock & Accordion2 amendments",
+        "status": "IN UAT",
+        "statusCategory": "indeterminate",
+        "assignee": "Ingrith Santamaria",
+        "updated": "2026-09-11T13:37:25.543+0100",
+        "priority": "Poco importante",
+        "labels": [
+          "Needs-QA"
+        ]
+      },
+      {
+        "key": "WSC-1750",
+        "url": "https://e2x.atlassian.net/browse/WSC-1750",
+        "summary": "[WSSD-741] - Ensure Talon.One discounts are retained when applied at the payment step",
+        "status": "IN UAT",
+        "statusCategory": "indeterminate",
+        "assignee": "Ingrith Santamaria",
+        "updated": "2026-09-11T13:35:43.982+0100",
+        "priority": "Importante",
+        "labels": [
+          "Needs-QA",
+          "co-build",
           "manualQA"
         ]
       },
@@ -43,22 +299,61 @@
         "status": "Pre-prioritized",
         "statusCategory": "new",
         "assignee": "Unassigned",
-        "updated": "2026-09-10T21:54:42.715+0100",
+        "updated": "2026-09-11T13:11:03.404+0100",
         "priority": "Importante",
         "labels": [
           "Needs-QA"
         ]
       },
       {
-        "key": "WSC-1578",
-        "url": "https://e2x.atlassian.net/browse/WSC-1578",
-        "summary": "[WSSD-633] Add Cloudflare rate limiting rule for the password reset endpoint",
-        "status": "En curso",
+        "key": "WSC-1656",
+        "url": "https://e2x.atlassian.net/browse/WSC-1656",
+        "summary": "MINI BAG - redesign",
+        "status": "IN UAT",
         "statusCategory": "indeterminate",
-        "assignee": "Jair Huaman",
-        "updated": "2026-09-10T20:56:39.533+0100",
+        "assignee": "Ingrith Santamaria",
+        "updated": "2026-09-11T13:08:20.566+0100",
         "priority": "Importante",
+        "labels": [
+          "Needs-QA"
+        ]
+      },
+      {
+        "key": "WSC-1433",
+        "url": "https://e2x.atlassian.net/browse/WSC-1433",
+        "summary": "PDP - attributes",
+        "status": "IN UAT",
+        "statusCategory": "indeterminate",
+        "assignee": "Ingrith Santamaria",
+        "updated": "2026-09-11T12:56:51.157+0100",
+        "priority": "Poco importante",
         "labels": []
+      },
+      {
+        "key": "WSC-1367",
+        "url": "https://e2x.atlassian.net/browse/WSC-1367",
+        "summary": "PLP - further pagination amend",
+        "status": "IN UAT",
+        "statusCategory": "indeterminate",
+        "assignee": "Ingrith Santamaria",
+        "updated": "2026-09-11T12:11:05.912+0100",
+        "priority": "Poco importante",
+        "labels": [
+          "Needs-QA"
+        ]
+      },
+      {
+        "key": "WSC-1138",
+        "url": "https://e2x.atlassian.net/browse/WSC-1138",
+        "summary": "GOOD STUFF - add preferred shop to 'My Details'",
+        "status": "Ready for Refinement",
+        "statusCategory": "new",
+        "assignee": "Unassigned",
+        "updated": "2026-09-11T10:53:21.131+0100",
+        "priority": "Importante",
+        "labels": [
+          "Needs-QA"
+        ]
       },
       {
         "key": "WSC-1697",
@@ -113,89 +408,6 @@
         ]
       },
       {
-        "key": "WSC-1733",
-        "url": "https://e2x.atlassian.net/browse/WSC-1733",
-        "summary": "SPIKE: Investigate Cloudflare 403 Challenge Blocking Checkout Automation on Desktop",
-        "status": "En curso",
-        "statusCategory": "indeterminate",
-        "assignee": "Alexander Talavera",
-        "updated": "2026-09-10T17:29:14.888+0100",
-        "priority": "Importante",
-        "labels": [
-          "automation",
-          "cloudflare",
-          "spike"
-        ]
-      },
-      {
-        "key": "WSC-1138",
-        "url": "https://e2x.atlassian.net/browse/WSC-1138",
-        "summary": "GOOD STUFF - add preferred shop to 'My Details'",
-        "status": "Ready for Refinement",
-        "statusCategory": "new",
-        "assignee": "Unassigned",
-        "updated": "2026-09-10T17:24:16.876+0100",
-        "priority": "Importante",
-        "labels": [
-          "Needs-QA"
-        ]
-      },
-      {
-        "key": "WSC-1481",
-        "url": "https://e2x.atlassian.net/browse/WSC-1481",
-        "summary": "Initial CSP Report-Only Rollout  (Production)",
-        "status": "Listo",
-        "statusCategory": "new",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-09-10T17:21:37.684+0100",
-        "priority": "Not Set",
-        "labels": [
-          "CSP"
-        ]
-      },
-      {
-        "key": "WSC-1483",
-        "url": "https://e2x.atlassian.net/browse/WSC-1483",
-        "summary": "CSP - QA: Checkout & Critical Flow Validation after Enforcement",
-        "status": "Blocked",
-        "statusCategory": "new",
-        "assignee": "Gerardo Romero",
-        "updated": "2026-09-10T17:21:37.237+0100",
-        "priority": "Not Set",
-        "labels": [
-          "CSP",
-          "Needs-QA"
-        ]
-      },
-      {
-        "key": "WSC-1484",
-        "url": "https://e2x.atlassian.net/browse/WSC-1484",
-        "summary": "CSP Enforcement Rollout & Hardening",
-        "status": "Listo",
-        "statusCategory": "new",
-        "assignee": "Unassigned",
-        "updated": "2026-09-10T17:21:36.808+0100",
-        "priority": "Cr\u00edtica",
-        "labels": [
-          "CSP",
-          "NO_QA_REQUIRED"
-        ]
-      },
-      {
-        "key": "WSC-1682",
-        "url": "https://e2x.atlassian.net/browse/WSC-1682",
-        "summary": "PDP - back in stock notifications",
-        "status": "QA Approved",
-        "statusCategory": "indeterminate",
-        "assignee": "Gerardo Romero",
-        "updated": "2026-09-10T17:21:36.432+0100",
-        "priority": "Importante",
-        "labels": [
-          "Needs-QA",
-          "automatable"
-        ]
-      },
-      {
         "key": "WSC-1672",
         "url": "https://e2x.atlassian.net/browse/WSC-1672",
         "summary": "API 404 error - https://www.whitestuff.com/api/talonone/getCustomerSession",
@@ -204,92 +416,6 @@
         "assignee": "Stuart Young",
         "updated": "2026-09-10T17:21:36.115+0100",
         "priority": "Poco importante",
-        "labels": []
-      },
-      {
-        "key": "WSC-1750",
-        "url": "https://e2x.atlassian.net/browse/WSC-1750",
-        "summary": "[WSSD-741] - Ensure Talon.One discounts are retained when applied at the payment step",
-        "status": "QA Approved",
-        "statusCategory": "indeterminate",
-        "assignee": "Ingrith Santamaria",
-        "updated": "2026-09-10T17:21:35.725+0100",
-        "priority": "Importante",
-        "labels": [
-          "Needs-QA",
-          "co-build",
-          "manualQA"
-        ]
-      },
-      {
-        "key": "WSC-1674",
-        "url": "https://e2x.atlassian.net/browse/WSC-1674",
-        "summary": "UX - email and password validation",
-        "status": "QA Approved",
-        "statusCategory": "indeterminate",
-        "assignee": "Gerardo Romero",
-        "updated": "2026-09-10T17:21:35.238+0100",
-        "priority": "Importante",
-        "labels": [
-          "Needs-QA",
-          "automatable"
-        ]
-      },
-      {
-        "key": "WSC-1652",
-        "url": "https://e2x.atlassian.net/browse/WSC-1652",
-        "summary": "MONETATE - identify where this is implemented",
-        "status": "Tech Review",
-        "statusCategory": "indeterminate",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-09-10T17:21:34.848+0100",
-        "priority": "Importante",
-        "labels": []
-      },
-      {
-        "key": "WSC-1433",
-        "url": "https://e2x.atlassian.net/browse/WSC-1433",
-        "summary": "PDP - attributes",
-        "status": "QA Approved",
-        "statusCategory": "indeterminate",
-        "assignee": "Ingrith Santamaria",
-        "updated": "2026-09-10T17:21:34.483+0100",
-        "priority": "Poco importante",
-        "labels": []
-      },
-      {
-        "key": "WSC-1730",
-        "url": "https://e2x.atlassian.net/browse/WSC-1730",
-        "summary": "[Automation] UAT Coverage: Talon.One Promotions and Coupon Codes",
-        "status": "QA Approved",
-        "statusCategory": "indeterminate",
-        "assignee": "Ingrith Santamaria",
-        "updated": "2026-09-10T17:21:34.164+0100",
-        "priority": "Importante",
-        "labels": []
-      },
-      {
-        "key": "WSC-1367",
-        "url": "https://e2x.atlassian.net/browse/WSC-1367",
-        "summary": "PLP - further pagination amend",
-        "status": "QA Approved",
-        "statusCategory": "indeterminate",
-        "assignee": "Ingrith Santamaria",
-        "updated": "2026-09-10T17:21:33.741+0100",
-        "priority": "Poco importante",
-        "labels": [
-          "Needs-QA"
-        ]
-      },
-      {
-        "key": "WSC-1731",
-        "url": "https://e2x.atlassian.net/browse/WSC-1731",
-        "summary": "[Automation] UAT Coverage: Hard Refresh Testing Across All PDP Types",
-        "status": "QA Approved",
-        "statusCategory": "indeterminate",
-        "assignee": "Ingrith Santamaria",
-        "updated": "2026-09-10T17:21:33.349+0100",
-        "priority": "Importante",
         "labels": []
       },
       {
@@ -306,82 +432,6 @@
         ]
       },
       {
-        "key": "WSC-1599",
-        "url": "https://e2x.atlassian.net/browse/WSC-1599",
-        "summary": "CONTENT - Default Search Term - move into Footer component",
-        "status": "QA Approved",
-        "statusCategory": "indeterminate",
-        "assignee": "Gerardo Romero",
-        "updated": "2026-09-10T17:21:32.684+0100",
-        "priority": "Poco importante",
-        "labels": [
-          "Needs-QA",
-          "accelerated",
-          "manualQA"
-        ]
-      },
-      {
-        "key": "WSC-1656",
-        "url": "https://e2x.atlassian.net/browse/WSC-1656",
-        "summary": "MINI BAG - redesign",
-        "status": "QA Approved",
-        "statusCategory": "indeterminate",
-        "assignee": "Ingrith Santamaria",
-        "updated": "2026-09-10T17:21:31.502+0100",
-        "priority": "Importante",
-        "labels": [
-          "Needs-QA"
-        ]
-      },
-      {
-        "key": "WSC-1636",
-        "url": "https://e2x.atlassian.net/browse/WSC-1636",
-        "summary": "Tighten Super Bot Fight Mode policy: Block Automated, Managed Challenge Likely Automated",
-        "status": "En curso",
-        "statusCategory": "indeterminate",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-09-10T17:21:30.795+0100",
-        "priority": "Cr\u00edtica",
-        "labels": []
-      },
-      {
-        "key": "WSC-1747",
-        "url": "https://e2x.atlassian.net/browse/WSC-1747",
-        "summary": "SIDE PANEL - amendment",
-        "status": "QA Approved",
-        "statusCategory": "indeterminate",
-        "assignee": "Gerardo Romero",
-        "updated": "2026-09-10T17:21:30.360+0100",
-        "priority": "Poco importante",
-        "labels": [
-          "Needs-QA"
-        ]
-      },
-      {
-        "key": "WSC-1748",
-        "url": "https://e2x.atlassian.net/browse/WSC-1748",
-        "summary": "CONTENT - MOBILE - SEOTextBlock & Accordion2 amendments",
-        "status": "QA Approved",
-        "statusCategory": "indeterminate",
-        "assignee": "Ingrith Santamaria",
-        "updated": "2026-09-10T17:21:29.957+0100",
-        "priority": "Poco importante",
-        "labels": [
-          "Needs-QA"
-        ]
-      },
-      {
-        "key": "WSC-1728",
-        "url": "https://e2x.atlassian.net/browse/WSC-1728",
-        "summary": "[Automation] UAT Coverage: Physical Gift Card and E-Gift Card PDP Purchase Flow",
-        "status": "QA Approved",
-        "statusCategory": "indeterminate",
-        "assignee": "Gerardo Romero",
-        "updated": "2026-09-10T17:21:29.561+0100",
-        "priority": "Not Set",
-        "labels": []
-      },
-      {
         "key": "WSC-1729",
         "url": "https://e2x.atlassian.net/browse/WSC-1729",
         "summary": "[Automation] UAT Coverage: Partial OOS and Fully OOS Product States",
@@ -390,17 +440,6 @@
         "assignee": "Gerardo Romero",
         "updated": "2026-09-10T17:21:29.148+0100",
         "priority": "Not Set",
-        "labels": []
-      },
-      {
-        "key": "WSC-1708",
-        "url": "https://e2x.atlassian.net/browse/WSC-1708",
-        "summary": "LCP-01 \u2014 PDP template - Desktop and Mobile",
-        "status": "QA Approved",
-        "statusCategory": "indeterminate",
-        "assignee": "Alexander Talavera",
-        "updated": "2026-09-10T17:21:28.726+0100",
-        "priority": "Cr\u00edtica",
         "labels": []
       },
       {
@@ -537,19 +576,6 @@
         "updated": "2026-09-09T01:35:19.210+0100",
         "priority": "Importante",
         "labels": []
-      },
-      {
-        "key": "WSC-1686",
-        "url": "https://e2x.atlassian.net/browse/WSC-1686",
-        "summary": "[White Stuff] High Vulnerabilities Report - July 2026",
-        "status": "Listo",
-        "statusCategory": "new",
-        "assignee": "Unassigned",
-        "updated": "2026-09-08T14:45:17.130+0100",
-        "priority": "Not Set",
-        "labels": [
-          "NO_QA_REQUIRED"
-        ]
       },
       {
         "key": "WSC-1534",
@@ -727,20 +753,6 @@
         "updated": "2026-09-03T14:13:26.139+0100",
         "priority": "Not Set",
         "labels": []
-      },
-      {
-        "key": "WSC-1660",
-        "url": "https://e2x.atlassian.net/browse/WSC-1660",
-        "summary": "PDP - hide review stars when stars = 0",
-        "status": "Finalizada",
-        "statusCategory": "done",
-        "assignee": "Ingrith Santamaria",
-        "updated": "2026-09-03T14:13:25.476+0100",
-        "priority": "Poco importante",
-        "labels": [
-          "Needs-QA",
-          "automatable"
-        ]
       },
       {
         "key": "WSC-1590",
