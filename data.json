@@ -1,11 +1,11 @@
 {
-  "lastUpdated": "2026-09-10T22:18:43.348140+00:00",
+  "lastUpdated": "2026-09-11T03:30:01.225724+00:00",
   "jira": {
     "summary": {
       "total": 415,
       "byStatus": {
-        "Pre-prioritized": 3,
         "En curso": 9,
+        "Pre-prioritized": 3,
         "Finalizada": 319,
         "Listo": 21,
         "Ready for Refinement": 1,
@@ -22,6 +22,20 @@
       }
     },
     "tickets": [
+      {
+        "key": "WSC-1676",
+        "url": "https://e2x.atlassian.net/browse/WSC-1676",
+        "summary": "APPLE PAY EXPRESS",
+        "status": "En curso",
+        "statusCategory": "indeterminate",
+        "assignee": "Alexander Talavera",
+        "updated": "2026-09-11T01:37:20.785+0100",
+        "priority": "Importante",
+        "labels": [
+          "Needs-QA",
+          "manualQA"
+        ]
+      },
       {
         "key": "WSC-1754",
         "url": "https://e2x.atlassian.net/browse/WSC-1754",
@@ -459,20 +473,6 @@
         "labels": [
           "Needs-QA",
           "automatable"
-        ]
-      },
-      {
-        "key": "WSC-1676",
-        "url": "https://e2x.atlassian.net/browse/WSC-1676",
-        "summary": "APPLE PAY EXPRESS",
-        "status": "En curso",
-        "statusCategory": "indeterminate",
-        "assignee": "Alexander Talavera",
-        "updated": "2026-09-09T17:43:10.879+0100",
-        "priority": "Importante",
-        "labels": [
-          "Needs-QA",
-          "manualQA"
         ]
       },
       {
