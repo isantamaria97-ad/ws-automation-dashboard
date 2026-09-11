@@ -1,18 +1,19 @@
 {
-  "lastUpdated": "2026-09-11T16:01:47.501766+00:00",
+  "lastUpdated": "2026-09-11T22:18:42.275738+00:00",
   "jira": {
     "summary": {
-      "total": 416,
+      "total": 417,
       "byStatus": {
-        "IN QA": 2,
+        "QA Approved": 1,
         "IN UAT": 14,
-        "En curso": 9,
-        "Tech Review": 8,
-        "Blocked": 4,
+        "Tech Review": 9,
+        "En curso": 8,
+        "Ready for Refinement": 2,
         "Listo": 21,
+        "Blocked": 4,
         "Finalizada": 319,
         "Pre-prioritized": 3,
-        "Ready for Refinement": 1,
+        "IN QA": 1,
         "Tareas por hacer": 3,
         "Backlog": 13,
         "RETURNED BY QA": 1,
@@ -25,13 +26,144 @@
         "key": "WSC-1758",
         "url": "https://e2x.atlassian.net/browse/WSC-1758",
         "summary": "Restore the PDP rating summary independently of the Authentic Discovery API",
-        "status": "IN QA",
+        "status": "QA Approved",
         "statusCategory": "indeterminate",
         "assignee": "Ingrith Santamaria",
-        "updated": "2026-09-11T16:59:44.254+0100",
+        "updated": "2026-09-11T21:08:10.665+0100",
         "priority": "Cr\u00edtica",
         "labels": [
           "Needs-QA"
+        ]
+      },
+      {
+        "key": "WSC-1599",
+        "url": "https://e2x.atlassian.net/browse/WSC-1599",
+        "summary": "CONTENT - Default Search Term - move into Footer component",
+        "status": "IN UAT",
+        "statusCategory": "indeterminate",
+        "assignee": "Gerardo Romero",
+        "updated": "2026-09-11T20:27:26.859+0100",
+        "priority": "Poco importante",
+        "labels": [
+          "Needs-QA",
+          "accelerated",
+          "manualQA"
+        ]
+      },
+      {
+        "key": "WSC-1652",
+        "url": "https://e2x.atlassian.net/browse/WSC-1652",
+        "summary": "MONETATE - identify where this is implemented",
+        "status": "Tech Review",
+        "statusCategory": "indeterminate",
+        "assignee": "Alexander Talavera",
+        "updated": "2026-09-11T18:55:19.127+0100",
+        "priority": "Importante",
+        "labels": []
+      },
+      {
+        "key": "WSC-1697",
+        "url": "https://e2x.atlassian.net/browse/WSC-1697",
+        "summary": "PDP - 'back in stock' new UX",
+        "status": "En curso",
+        "statusCategory": "indeterminate",
+        "assignee": "Jair Huaman",
+        "updated": "2026-09-11T18:48:15.638+0100",
+        "priority": "Importante",
+        "labels": [
+          "Needs-QA",
+          "automatable"
+        ]
+      },
+      {
+        "key": "WSC-1761",
+        "url": "https://e2x.atlassian.net/browse/WSC-1761",
+        "summary": "BazaarVoice review post Revert of WSC-1660",
+        "status": "Ready for Refinement",
+        "statusCategory": "new",
+        "assignee": "Jair Huaman",
+        "updated": "2026-09-11T18:20:54.866+0100",
+        "priority": "Importante",
+        "labels": [
+          "NO_QA_REQUIRED"
+        ]
+      },
+      {
+        "key": "WSC-1636",
+        "url": "https://e2x.atlassian.net/browse/WSC-1636",
+        "summary": "Tighten Super Bot Fight Mode policy: Block Automated, Managed Challenge Likely Automated",
+        "status": "En curso",
+        "statusCategory": "indeterminate",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-09-11T18:06:27.787+0100",
+        "priority": "Cr\u00edtica",
+        "labels": []
+      },
+      {
+        "key": "WSC-1481",
+        "url": "https://e2x.atlassian.net/browse/WSC-1481",
+        "summary": "Initial CSP Report-Only Rollout  (Production)",
+        "status": "Listo",
+        "statusCategory": "new",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-09-11T18:06:27.334+0100",
+        "priority": "Not Set",
+        "labels": [
+          "CSP"
+        ]
+      },
+      {
+        "key": "WSC-1483",
+        "url": "https://e2x.atlassian.net/browse/WSC-1483",
+        "summary": "CSP - QA: Checkout & Critical Flow Validation after Enforcement",
+        "status": "Blocked",
+        "statusCategory": "new",
+        "assignee": "Gerardo Romero",
+        "updated": "2026-09-11T18:06:26.751+0100",
+        "priority": "Not Set",
+        "labels": [
+          "CSP",
+          "Needs-QA"
+        ]
+      },
+      {
+        "key": "WSC-1484",
+        "url": "https://e2x.atlassian.net/browse/WSC-1484",
+        "summary": "CSP Enforcement Rollout & Hardening",
+        "status": "Listo",
+        "statusCategory": "new",
+        "assignee": "Unassigned",
+        "updated": "2026-09-11T18:06:26.313+0100",
+        "priority": "Cr\u00edtica",
+        "labels": [
+          "CSP",
+          "NO_QA_REQUIRED"
+        ]
+      },
+      {
+        "key": "WSC-1578",
+        "url": "https://e2x.atlassian.net/browse/WSC-1578",
+        "summary": "[WSSD-633] Add Cloudflare rate limiting rule for the password reset endpoint",
+        "status": "En curso",
+        "statusCategory": "indeterminate",
+        "assignee": "Jair Huaman",
+        "updated": "2026-09-11T18:06:25.906+0100",
+        "priority": "Importante",
+        "labels": []
+      },
+      {
+        "key": "WSC-1733",
+        "url": "https://e2x.atlassian.net/browse/WSC-1733",
+        "summary": "SPIKE: Investigate Cloudflare 403 Challenge Blocking Checkout Automation on Desktop",
+        "status": "En curso",
+        "statusCategory": "indeterminate",
+        "assignee": "Alexander Talavera",
+        "updated": "2026-09-11T18:06:25.324+0100",
+        "priority": "Importante",
+        "labels": [
+          "automation",
+          "cloudflare",
+          "spike"
         ]
       },
       {
@@ -46,21 +178,6 @@
         "labels": []
       },
       {
-        "key": "WSC-1599",
-        "url": "https://e2x.atlassian.net/browse/WSC-1599",
-        "summary": "CONTENT - Default Search Term - move into Footer component",
-        "status": "IN UAT",
-        "statusCategory": "indeterminate",
-        "assignee": "Gerardo Romero",
-        "updated": "2026-09-11T16:15:01.380+0100",
-        "priority": "Poco importante",
-        "labels": [
-          "Needs-QA",
-          "accelerated",
-          "manualQA"
-        ]
-      },
-      {
         "key": "WSC-1682",
         "url": "https://e2x.atlassian.net/browse/WSC-1682",
         "summary": "PDP - back in stock notifications",
@@ -73,17 +190,6 @@
           "Needs-QA",
           "automatable"
         ]
-      },
-      {
-        "key": "WSC-1652",
-        "url": "https://e2x.atlassian.net/browse/WSC-1652",
-        "summary": "MONETATE - identify where this is implemented",
-        "status": "En curso",
-        "statusCategory": "indeterminate",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-09-11T16:06:25.174+0100",
-        "priority": "Importante",
-        "labels": []
       },
       {
         "key": "WSC-1747",
@@ -124,84 +230,6 @@
         "labels": [
           "Needs-QA",
           "manualQA"
-        ]
-      },
-      {
-        "key": "WSC-1578",
-        "url": "https://e2x.atlassian.net/browse/WSC-1578",
-        "summary": "[WSSD-633] Add Cloudflare rate limiting rule for the password reset endpoint",
-        "status": "En curso",
-        "statusCategory": "indeterminate",
-        "assignee": "Jair Huaman",
-        "updated": "2026-09-11T15:05:21.750+0100",
-        "priority": "Importante",
-        "labels": []
-      },
-      {
-        "key": "WSC-1636",
-        "url": "https://e2x.atlassian.net/browse/WSC-1636",
-        "summary": "Tighten Super Bot Fight Mode policy: Block Automated, Managed Challenge Likely Automated",
-        "status": "En curso",
-        "statusCategory": "indeterminate",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-09-11T15:05:10.057+0100",
-        "priority": "Cr\u00edtica",
-        "labels": []
-      },
-      {
-        "key": "WSC-1733",
-        "url": "https://e2x.atlassian.net/browse/WSC-1733",
-        "summary": "SPIKE: Investigate Cloudflare 403 Challenge Blocking Checkout Automation on Desktop",
-        "status": "En curso",
-        "statusCategory": "indeterminate",
-        "assignee": "Alexander Talavera",
-        "updated": "2026-09-11T15:04:58.398+0100",
-        "priority": "Importante",
-        "labels": [
-          "automation",
-          "cloudflare",
-          "spike"
-        ]
-      },
-      {
-        "key": "WSC-1483",
-        "url": "https://e2x.atlassian.net/browse/WSC-1483",
-        "summary": "CSP - QA: Checkout & Critical Flow Validation after Enforcement",
-        "status": "Blocked",
-        "statusCategory": "new",
-        "assignee": "Gerardo Romero",
-        "updated": "2026-09-11T15:04:28.580+0100",
-        "priority": "Not Set",
-        "labels": [
-          "CSP",
-          "Needs-QA"
-        ]
-      },
-      {
-        "key": "WSC-1481",
-        "url": "https://e2x.atlassian.net/browse/WSC-1481",
-        "summary": "Initial CSP Report-Only Rollout  (Production)",
-        "status": "Listo",
-        "statusCategory": "new",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-09-11T15:04:12.157+0100",
-        "priority": "Not Set",
-        "labels": [
-          "CSP"
-        ]
-      },
-      {
-        "key": "WSC-1484",
-        "url": "https://e2x.atlassian.net/browse/WSC-1484",
-        "summary": "CSP Enforcement Rollout & Hardening",
-        "status": "Listo",
-        "statusCategory": "new",
-        "assignee": "Unassigned",
-        "updated": "2026-09-11T15:03:53.317+0100",
-        "priority": "Cr\u00edtica",
-        "labels": [
-          "CSP",
-          "NO_QA_REQUIRED"
         ]
       },
       {
@@ -353,20 +381,6 @@
         "priority": "Importante",
         "labels": [
           "Needs-QA"
-        ]
-      },
-      {
-        "key": "WSC-1697",
-        "url": "https://e2x.atlassian.net/browse/WSC-1697",
-        "summary": "PDP - 'back in stock' new UX",
-        "status": "En curso",
-        "statusCategory": "indeterminate",
-        "assignee": "Jair Huaman",
-        "updated": "2026-09-10T20:39:52.987+0100",
-        "priority": "Importante",
-        "labels": [
-          "Needs-QA",
-          "automatable"
         ]
       },
       {
@@ -5265,9 +5279,9 @@
     },
     "runs": {
       "total": 76,
-      "latestPassed": 0,
+      "latestPassed": 117,
       "latestFailed": 0,
-      "latestPending": 117,
+      "latestPending": 0,
       "latestTotal": 117,
       "latestRunName": "Regression 09/15/2026",
       "latestRunDate": "2026-09-10T19:02:55.544Z",
@@ -5284,10 +5298,10 @@
           "elapsed_ms": null,
           "created_at": "2026-09-10T19:02:55.544Z",
           "completed_at": null,
-          "passed": 0,
+          "passed": 117,
           "failed": 0,
-          "pending": 117,
-          "completed": 0,
+          "pending": 0,
+          "completed": 117,
           "total": 117
         },
         {
@@ -5301,10 +5315,10 @@
           "elapsed_ms": null,
           "created_at": "2026-09-10T19:02:55.532Z",
           "completed_at": null,
-          "passed": 0,
+          "passed": 117,
           "failed": 0,
-          "pending": 117,
-          "completed": 0,
+          "pending": 0,
+          "completed": 117,
           "total": 117
         },
         {
@@ -5318,10 +5332,10 @@
           "elapsed_ms": null,
           "created_at": "2026-09-10T19:02:55.519Z",
           "completed_at": null,
-          "passed": 0,
+          "passed": 117,
           "failed": 0,
-          "pending": 117,
-          "completed": 0,
+          "pending": 0,
+          "completed": 117,
           "total": 117
         },
         {
@@ -5335,10 +5349,10 @@
           "elapsed_ms": null,
           "created_at": "2026-09-10T19:02:55.503Z",
           "completed_at": null,
-          "passed": 0,
+          "passed": 117,
           "failed": 0,
-          "pending": 117,
-          "completed": 0,
+          "pending": 0,
+          "completed": 117,
           "total": 117
         },
         {
