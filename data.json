@@ -1,19 +1,19 @@
 {
-  "lastUpdated": "2026-09-14T09:39:03.005802+00:00",
+  "lastUpdated": "2026-09-14T17:51:27.379444+00:00",
   "jira": {
     "summary": {
-      "total": 417,
+      "total": 418,
       "byStatus": {
-        "Blocked": 4,
-        "QA Approved": 1,
-        "IN UAT": 14,
-        "Tech Review": 9,
-        "En curso": 8,
-        "Ready for Refinement": 2,
-        "Listo": 21,
+        "IN QA": 2,
         "Finalizada": 319,
+        "Tech Review": 7,
+        "Ready to QA": 2,
+        "Listo": 22,
+        "Ready for Refinement": 2,
+        "IN UAT": 15,
+        "Blocked": 4,
+        "En curso": 7,
         "Pre-prioritized": 3,
-        "IN QA": 1,
         "Tareas por hacer": 3,
         "Backlog": 13,
         "RETURNED BY QA": 1,
@@ -23,52 +23,83 @@
     },
     "tickets": [
       {
-        "key": "WSC-1504",
-        "url": "https://e2x.atlassian.net/browse/WSC-1504",
-        "summary": "ACCOUNT CREATION - post purchase sign up bug",
-        "status": "Blocked",
-        "statusCategory": "new",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-09-14T09:27:11.946+0100",
-        "priority": "Importante",
-        "labels": []
-      },
-      {
-        "key": "WSC-1758",
-        "url": "https://e2x.atlassian.net/browse/WSC-1758",
-        "summary": "Restore the PDP rating summary independently of the Authentic Discovery API",
-        "status": "QA Approved",
+        "key": "WSC-1676",
+        "url": "https://e2x.atlassian.net/browse/WSC-1676",
+        "summary": "APPLE PAY EXPRESS",
+        "status": "IN QA",
         "statusCategory": "indeterminate",
         "assignee": "Ingrith Santamaria",
-        "updated": "2026-09-11T21:08:10.665+0100",
-        "priority": "Cr\u00edtica",
-        "labels": [
-          "Needs-QA"
-        ]
-      },
-      {
-        "key": "WSC-1599",
-        "url": "https://e2x.atlassian.net/browse/WSC-1599",
-        "summary": "CONTENT - Default Search Term - move into Footer component",
-        "status": "IN UAT",
-        "statusCategory": "indeterminate",
-        "assignee": "Gerardo Romero",
-        "updated": "2026-09-11T20:27:26.859+0100",
-        "priority": "Poco importante",
+        "updated": "2026-09-14T18:48:32.719+0100",
+        "priority": "Importante",
         "labels": [
           "Needs-QA",
-          "accelerated",
           "manualQA"
         ]
       },
       {
-        "key": "WSC-1652",
-        "url": "https://e2x.atlassian.net/browse/WSC-1652",
-        "summary": "MONETATE - identify where this is implemented",
+        "key": "WSC-1714",
+        "url": "https://e2x.atlassian.net/browse/WSC-1714",
+        "summary": "Mobile - Page clips to the right ",
+        "status": "Finalizada",
+        "statusCategory": "done",
+        "assignee": "Ingrith Santamaria",
+        "updated": "2026-09-14T18:35:35.962+0100",
+        "priority": "Supone un impedimento",
+        "labels": [
+          "Needs-QA",
+          "accelerated"
+        ]
+      },
+      {
+        "key": "WSC-1683",
+        "url": "https://e2x.atlassian.net/browse/WSC-1683",
+        "summary": "PDP - ATB and Size UX redesign",
         "status": "Tech Review",
         "statusCategory": "indeterminate",
-        "assignee": "Alexander Talavera",
-        "updated": "2026-09-11T18:55:19.127+0100",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-09-14T18:14:26.953+0100",
+        "priority": "Importante",
+        "labels": [
+          "Needs-QA",
+          "automatable"
+        ]
+      },
+      {
+        "key": "WSC-1763",
+        "url": "https://e2x.atlassian.net/browse/WSC-1763",
+        "summary": "Create a runbook document to revert Sitespect Sandwich configuration",
+        "status": "Tech Review",
+        "statusCategory": "indeterminate",
+        "assignee": "Jair Huaman",
+        "updated": "2026-09-14T17:44:41.928+0100",
+        "priority": "Not Set",
+        "labels": [
+          "runbook",
+          "sitespect"
+        ]
+      },
+      {
+        "key": "WSC-1285",
+        "url": "https://e2x.atlassian.net/browse/WSC-1285",
+        "summary": "ACCESSIBILITY - Button Name - Quick Add close button must have discernible text",
+        "status": "Ready to QA",
+        "statusCategory": "new",
+        "assignee": "Rafael Paranagu\u00e1",
+        "updated": "2026-09-14T17:17:53.388+0100",
+        "priority": "Importante",
+        "labels": [
+          "Needs-QA",
+          "manualQA"
+        ]
+      },
+      {
+        "key": "WSC-1189",
+        "url": "https://e2x.atlassian.net/browse/WSC-1189",
+        "summary": "SEO - Duplicate H1 Tags on Product Pages",
+        "status": "Ready to QA",
+        "statusCategory": "new",
+        "assignee": "Rafael Paranagu\u00e1",
+        "updated": "2026-09-14T17:17:00.695+0100",
         "priority": "Importante",
         "labels": []
       },
@@ -76,10 +107,10 @@
         "key": "WSC-1697",
         "url": "https://e2x.atlassian.net/browse/WSC-1697",
         "summary": "PDP - 'back in stock' new UX",
-        "status": "En curso",
-        "statusCategory": "indeterminate",
+        "status": "Listo",
+        "statusCategory": "new",
         "assignee": "Jair Huaman",
-        "updated": "2026-09-11T18:48:15.638+0100",
+        "updated": "2026-09-14T16:43:29.968+0100",
         "priority": "Importante",
         "labels": [
           "Needs-QA",
@@ -92,12 +123,117 @@
         "summary": "BazaarVoice review post Revert of WSC-1660",
         "status": "Ready for Refinement",
         "statusCategory": "new",
-        "assignee": "Jair Huaman",
-        "updated": "2026-09-11T18:20:54.866+0100",
+        "assignee": "Unassigned",
+        "updated": "2026-09-14T15:23:52.195+0100",
         "priority": "Importante",
         "labels": [
           "NO_QA_REQUIRED"
         ]
+      },
+      {
+        "key": "WSC-1695",
+        "url": "https://e2x.atlassian.net/browse/WSC-1695",
+        "summary": "PDP - new image layout / breadcrumb move",
+        "status": "Listo",
+        "statusCategory": "new",
+        "assignee": "Alexander Talavera",
+        "updated": "2026-09-14T15:23:43.801+0100",
+        "priority": "Importante",
+        "labels": [
+          "Needs-QA",
+          "automatable",
+          "manualQA"
+        ]
+      },
+      {
+        "key": "WSC-1755",
+        "url": "https://e2x.atlassian.net/browse/WSC-1755",
+        "summary": "Store Locator Content Sync fails when cleaning up stores removed from the sheet (orphan cleanup)",
+        "status": "Listo",
+        "statusCategory": "new",
+        "assignee": "Unassigned",
+        "updated": "2026-09-14T15:23:41.208+0100",
+        "priority": "Importante",
+        "labels": [
+          "NO_QA_REQUIRED"
+        ]
+      },
+      {
+        "key": "WSC-1737",
+        "url": "https://e2x.atlassian.net/browse/WSC-1737",
+        "summary": "Review and Fix of existing Vulnerability Tickets until August 2026",
+        "status": "Listo",
+        "statusCategory": "new",
+        "assignee": "Jair Huaman",
+        "updated": "2026-09-14T15:23:36.127+0100",
+        "priority": "Importante",
+        "labels": [
+          "NO_QA_REQUIRED"
+        ]
+      },
+      {
+        "key": "WSC-1692",
+        "url": "https://e2x.atlassian.net/browse/WSC-1692",
+        "summary": "PERSONALISED CONTENT - 'no segment'",
+        "status": "Listo",
+        "statusCategory": "new",
+        "assignee": "Alexander Talavera",
+        "updated": "2026-09-14T15:23:02.622+0100",
+        "priority": "Supone un impedimento",
+        "labels": [
+          "Needs-QA",
+          "manualQA"
+        ]
+      },
+      {
+        "key": "WSC-1758",
+        "url": "https://e2x.atlassian.net/browse/WSC-1758",
+        "summary": "Restore the PDP rating summary independently of the Authentic Discovery API",
+        "status": "IN UAT",
+        "statusCategory": "indeterminate",
+        "assignee": "Ingrith Santamaria",
+        "updated": "2026-09-14T14:39:49.834+0100",
+        "priority": "Cr\u00edtica",
+        "labels": [
+          "Needs-QA"
+        ]
+      },
+      {
+        "key": "WSC-1599",
+        "url": "https://e2x.atlassian.net/browse/WSC-1599",
+        "summary": "CONTENT - Default Search Term - move into Footer component",
+        "status": "IN UAT",
+        "statusCategory": "indeterminate",
+        "assignee": "Gerardo Romero",
+        "updated": "2026-09-14T14:25:33.675+0100",
+        "priority": "Poco importante",
+        "labels": [
+          "Needs-QA",
+          "accelerated",
+          "manualQA"
+        ]
+      },
+      {
+        "key": "WSC-1504",
+        "url": "https://e2x.atlassian.net/browse/WSC-1504",
+        "summary": "ACCOUNT CREATION - post purchase sign up bug",
+        "status": "Blocked",
+        "statusCategory": "new",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-09-14T09:27:11.946+0100",
+        "priority": "Importante",
+        "labels": []
+      },
+      {
+        "key": "WSC-1652",
+        "url": "https://e2x.atlassian.net/browse/WSC-1652",
+        "summary": "MONETATE - identify where this is implemented",
+        "status": "Tech Review",
+        "statusCategory": "indeterminate",
+        "assignee": "Alexander Talavera",
+        "updated": "2026-09-11T18:55:19.127+0100",
+        "priority": "Importante",
+        "labels": []
       },
       {
         "key": "WSC-1636",
@@ -227,20 +363,6 @@
         "labels": [
           "Needs-QA",
           "automatable"
-        ]
-      },
-      {
-        "key": "WSC-1676",
-        "url": "https://e2x.atlassian.net/browse/WSC-1676",
-        "summary": "APPLE PAY EXPRESS",
-        "status": "Tech Review",
-        "statusCategory": "indeterminate",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-09-11T15:07:58.941+0100",
-        "priority": "Importante",
-        "labels": [
-          "Needs-QA",
-          "manualQA"
         ]
       },
       {
@@ -420,19 +542,6 @@
         ]
       },
       {
-        "key": "WSC-1755",
-        "url": "https://e2x.atlassian.net/browse/WSC-1755",
-        "summary": "Store Locator Content Sync fails when cleaning up stores removed from the sheet (orphan cleanup)",
-        "status": "Listo",
-        "statusCategory": "new",
-        "assignee": "Unassigned",
-        "updated": "2026-09-10T17:30:50.617+0100",
-        "priority": "Importante",
-        "labels": [
-          "NO_QA_REQUIRED"
-        ]
-      },
-      {
         "key": "WSC-1672",
         "url": "https://e2x.atlassian.net/browse/WSC-1672",
         "summary": "API 404 error - https://www.whitestuff.com/api/talonone/getCustomerSession",
@@ -526,34 +635,6 @@
         "labels": []
       },
       {
-        "key": "WSC-1683",
-        "url": "https://e2x.atlassian.net/browse/WSC-1683",
-        "summary": "PDP - ATB and Size UX redesign",
-        "status": "Tech Review",
-        "statusCategory": "indeterminate",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-09-09T20:53:52.375+0100",
-        "priority": "Importante",
-        "labels": [
-          "Needs-QA",
-          "automatable"
-        ]
-      },
-      {
-        "key": "WSC-1285",
-        "url": "https://e2x.atlassian.net/browse/WSC-1285",
-        "summary": "ACCESSIBILITY - Button Name - Quick Add close button must have discernible text",
-        "status": "Tech Review",
-        "statusCategory": "indeterminate",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-09-09T17:06:31.026+0100",
-        "priority": "Importante",
-        "labels": [
-          "Needs-QA",
-          "manualQA"
-        ]
-      },
-      {
         "key": "WSC-1744",
         "url": "https://e2x.atlassian.net/browse/WSC-1744",
         "summary": "[SiteSpect - QA] Sandwich Model Rollout: Regression & Load/Latency Testing",
@@ -590,17 +671,6 @@
           "Needs-QA",
           "manualQA"
         ]
-      },
-      {
-        "key": "WSC-1189",
-        "url": "https://e2x.atlassian.net/browse/WSC-1189",
-        "summary": "SEO - Duplicate H1 Tags on Product Pages",
-        "status": "Tech Review",
-        "statusCategory": "indeterminate",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-09-09T01:35:19.210+0100",
-        "priority": "Importante",
-        "labels": []
       },
       {
         "key": "WSC-1534",
@@ -732,19 +802,6 @@
         "updated": "2026-09-03T22:12:39.742+0100",
         "priority": "Importante",
         "labels": []
-      },
-      {
-        "key": "WSC-1737",
-        "url": "https://e2x.atlassian.net/browse/WSC-1737",
-        "summary": "Review and Fix of existing Vulnerability Tickets until August 2026",
-        "status": "Listo",
-        "statusCategory": "new",
-        "assignee": "Unassigned",
-        "updated": "2026-09-03T21:39:30.788+0100",
-        "priority": "Importante",
-        "labels": [
-          "NO_QA_REQUIRED"
-        ]
       },
       {
         "key": "WSC-1736",
@@ -953,19 +1010,6 @@
         "updated": "2026-09-03T14:10:21.528+0100",
         "priority": "Importante",
         "labels": []
-      },
-      {
-        "key": "WSC-1714",
-        "url": "https://e2x.atlassian.net/browse/WSC-1714",
-        "summary": "Mobile - Page clips to the right ",
-        "status": "Finalizada",
-        "statusCategory": "done",
-        "assignee": "Ingrith Santamaria",
-        "updated": "2026-09-03T14:10:17.138+0100",
-        "priority": "Supone un impedimento",
-        "labels": [
-          "Needs-QA"
-        ]
       },
       {
         "key": "WSC-1732",
@@ -1266,35 +1310,6 @@
         "updated": "2026-08-31T19:21:46.215+0100",
         "priority": "Importante",
         "labels": []
-      },
-      {
-        "key": "WSC-1692",
-        "url": "https://e2x.atlassian.net/browse/WSC-1692",
-        "summary": "PERSONALISED CONTENT - 'no segment'",
-        "status": "Listo",
-        "statusCategory": "new",
-        "assignee": "Unassigned",
-        "updated": "2026-08-31T17:57:15.261+0100",
-        "priority": "Supone un impedimento",
-        "labels": [
-          "Needs-QA",
-          "manualQA"
-        ]
-      },
-      {
-        "key": "WSC-1695",
-        "url": "https://e2x.atlassian.net/browse/WSC-1695",
-        "summary": "PDP - new image layout / breadcrumb move",
-        "status": "Listo",
-        "statusCategory": "new",
-        "assignee": "Unassigned",
-        "updated": "2026-08-31T17:56:14.938+0100",
-        "priority": "Importante",
-        "labels": [
-          "Needs-QA",
-          "automatable",
-          "manualQA"
-        ]
       },
       {
         "key": "WSC-1659",
