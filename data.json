@@ -1,16 +1,16 @@
 {
-  "lastUpdated": "2026-09-14T03:50:29.105821+00:00",
+  "lastUpdated": "2026-09-14T09:39:03.005802+00:00",
   "jira": {
     "summary": {
       "total": 417,
       "byStatus": {
+        "Blocked": 4,
         "QA Approved": 1,
         "IN UAT": 14,
         "Tech Review": 9,
         "En curso": 8,
         "Ready for Refinement": 2,
         "Listo": 21,
-        "Blocked": 4,
         "Finalizada": 319,
         "Pre-prioritized": 3,
         "IN QA": 1,
@@ -22,6 +22,17 @@
       }
     },
     "tickets": [
+      {
+        "key": "WSC-1504",
+        "url": "https://e2x.atlassian.net/browse/WSC-1504",
+        "summary": "ACCOUNT CREATION - post purchase sign up bug",
+        "status": "Blocked",
+        "statusCategory": "new",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-09-14T09:27:11.946+0100",
+        "priority": "Importante",
+        "labels": []
+      },
       {
         "key": "WSC-1758",
         "url": "https://e2x.atlassian.net/browse/WSC-1758",
@@ -1198,17 +1209,6 @@
         "labels": [
           "Needs-QA"
         ]
-      },
-      {
-        "key": "WSC-1504",
-        "url": "https://e2x.atlassian.net/browse/WSC-1504",
-        "summary": "ACCOUNT CREATION - post purchase sign up bug",
-        "status": "Blocked",
-        "statusCategory": "new",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-09-02T16:30:37.675+0100",
-        "priority": "Importante",
-        "labels": []
       },
       {
         "key": "WSC-1382",
