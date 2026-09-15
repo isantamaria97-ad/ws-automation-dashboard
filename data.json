@@ -1,9 +1,10 @@
 {
-  "lastUpdated": "2026-09-14T22:58:52.514490+00:00",
+  "lastUpdated": "2026-09-15T03:50:17.184698+00:00",
   "jira": {
     "summary": {
       "total": 422,
       "byStatus": {
+        "PENDING DEV DEPLOY": 1,
         "En curso": 8,
         "Tech Review": 6,
         "Blocked": 5,
@@ -11,7 +12,6 @@
         "Backlog": 13,
         "Pre-prioritized": 2,
         "Tareas por hacer": 4,
-        "Ready to QA": 1,
         "QA Approved": 2,
         "Finalizada": 319,
         "IN QA": 2,
@@ -23,6 +23,20 @@
       }
     },
     "tickets": [
+      {
+        "key": "WSC-1683",
+        "url": "https://e2x.atlassian.net/browse/WSC-1683",
+        "summary": "PDP - ATB and Size UX redesign",
+        "status": "PENDING DEV DEPLOY",
+        "statusCategory": "new",
+        "assignee": "Gerardo Romero",
+        "updated": "2026-09-15T02:37:05.599+0100",
+        "priority": "Importante",
+        "labels": [
+          "Needs-QA",
+          "automatable"
+        ]
+      },
       {
         "key": "WSC-1753",
         "url": "https://e2x.atlassian.net/browse/WSC-1753",
@@ -300,20 +314,6 @@
         "statusCategory": "new",
         "assignee": "Unassigned",
         "updated": "2026-09-14T20:36:43.587+0100",
-        "priority": "Importante",
-        "labels": [
-          "Needs-QA",
-          "automatable"
-        ]
-      },
-      {
-        "key": "WSC-1683",
-        "url": "https://e2x.atlassian.net/browse/WSC-1683",
-        "summary": "PDP - ATB and Size UX redesign",
-        "status": "Ready to QA",
-        "statusCategory": "new",
-        "assignee": "Gerardo Romero",
-        "updated": "2026-09-14T20:36:38.968+0100",
         "priority": "Importante",
         "labels": [
           "Needs-QA",
