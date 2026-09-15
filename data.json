@@ -1,38 +1,377 @@
 {
-  "lastUpdated": "2026-09-15T09:15:22.268336+00:00",
+  "lastUpdated": "2026-09-15T16:28:09.451888+00:00",
   "jira": {
     "summary": {
       "total": 422,
       "byStatus": {
-        "Listo": 25,
-        "PENDING DEV DEPLOY": 1,
-        "En curso": 8,
-        "Tech Review": 6,
+        "En curso": 10,
+        "Tech Review": 7,
+        "Ready to QA": 2,
+        "Finalizada": 335,
+        "Listo": 20,
         "Blocked": 5,
+        "QA Approved": 3,
+        "Tareas por hacer": 4,
         "Backlog": 13,
         "Pre-prioritized": 2,
-        "Tareas por hacer": 4,
-        "QA Approved": 2,
-        "Finalizada": 319,
-        "IN QA": 2,
-        "IN UAT": 15,
         "Ready for Refinement": 1,
         "RETURNED BY QA": 1,
+        "IN UAT": 1,
         "Deprecated": 17,
         "READY FOR RELEASE": 1
       }
     },
     "tickets": [
       {
-        "key": "WSC-1670",
-        "url": "https://e2x.atlassian.net/browse/WSC-1670",
-        "summary": "PDP - shop stock look-up",
-        "status": "Listo",
+        "key": "WSC-1757",
+        "url": "https://e2x.atlassian.net/browse/WSC-1757",
+        "summary": "PDP - ONE SIZE product - Add to Bag button becomes disabled after clicking a colour swatch",
+        "status": "En curso",
+        "statusCategory": "indeterminate",
+        "assignee": "Alexander Talavera",
+        "updated": "2026-09-15T17:10:25.536+0100",
+        "priority": "Importante",
+        "labels": [
+          "Needs-QA",
+          "automatable"
+        ]
+      },
+      {
+        "key": "WSC-1687",
+        "url": "https://e2x.atlassian.net/browse/WSC-1687",
+        "summary": "PDP - gift card and e-gift card colour change",
+        "status": "Tech Review",
+        "statusCategory": "indeterminate",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-09-15T16:55:29.837+0100",
+        "priority": "Poco importante",
+        "labels": [
+          "Needs-QA",
+          "manualQA",
+          "standard"
+        ]
+      },
+      {
+        "key": "WSC-1684",
+        "url": "https://e2x.atlassian.net/browse/WSC-1684",
+        "summary": "PDP - mobile sticky ADD TO BAG UX",
+        "status": "Ready to QA",
         "statusCategory": "new",
-        "assignee": "Chiara Davies",
-        "updated": "2026-09-15T09:47:24.795+0100",
+        "assignee": "Ingrith Santamaria",
+        "updated": "2026-09-15T16:44:25.835+0100",
+        "priority": "Importante",
+        "labels": [
+          "Needs-QA",
+          "automatable"
+        ]
+      },
+      {
+        "key": "WSC-1683",
+        "url": "https://e2x.atlassian.net/browse/WSC-1683",
+        "summary": "PDP - ATB and Size UX redesign",
+        "status": "Ready to QA",
+        "statusCategory": "new",
+        "assignee": "Gerardo Romero",
+        "updated": "2026-09-15T16:44:22.308+0100",
+        "priority": "Importante",
+        "labels": [
+          "Needs-QA",
+          "automatable"
+        ]
+      },
+      {
+        "key": "WSC-1652",
+        "url": "https://e2x.atlassian.net/browse/WSC-1652",
+        "summary": "MONETATE - identify where this is implemented",
+        "status": "Finalizada",
+        "statusCategory": "done",
+        "assignee": "Stuart Young",
+        "updated": "2026-09-15T16:22:01.900+0100",
         "priority": "Importante",
         "labels": []
+      },
+      {
+        "key": "WSC-1697",
+        "url": "https://e2x.atlassian.net/browse/WSC-1697",
+        "summary": "PDP - 'back in stock' new UX",
+        "status": "En curso",
+        "statusCategory": "indeterminate",
+        "assignee": "Jair Huaman",
+        "updated": "2026-09-15T15:43:21.339+0100",
+        "priority": "Importante",
+        "labels": [
+          "Needs-QA",
+          "automatable"
+        ]
+      },
+      {
+        "key": "WSC-1761",
+        "url": "https://e2x.atlassian.net/browse/WSC-1761",
+        "summary": "BazaarVoice review post Revert of WSC-1660",
+        "status": "En curso",
+        "statusCategory": "indeterminate",
+        "assignee": "Jair Huaman",
+        "updated": "2026-09-15T15:36:26.942+0100",
+        "priority": "Importante",
+        "labels": [
+          "NO_QA_REQUIRED"
+        ]
+      },
+      {
+        "key": "WSC-1685",
+        "url": "https://e2x.atlassian.net/browse/WSC-1685",
+        "summary": "PDP - mobile sticky ADD TO BAG change to its behaviour",
+        "status": "Listo",
+        "statusCategory": "new",
+        "assignee": "Alexander Talavera",
+        "updated": "2026-09-15T15:35:58.724+0100",
+        "priority": "Importante",
+        "labels": [
+          "Needs-QA",
+          "manualQA"
+        ]
+      },
+      {
+        "key": "WSC-1692",
+        "url": "https://e2x.atlassian.net/browse/WSC-1692",
+        "summary": "PERSONALISED CONTENT - 'no segment'",
+        "status": "Tech Review",
+        "statusCategory": "indeterminate",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-09-15T15:35:16.875+0100",
+        "priority": "Supone un impedimento",
+        "labels": [
+          "Needs-QA",
+          "co-build",
+          "manualQA"
+        ]
+      },
+      {
+        "key": "WSC-1758",
+        "url": "https://e2x.atlassian.net/browse/WSC-1758",
+        "summary": "Restore the PDP rating summary independently of the Authentic Discovery API",
+        "status": "Finalizada",
+        "statusCategory": "done",
+        "assignee": "Ingrith Santamaria",
+        "updated": "2026-09-15T15:31:31.033+0100",
+        "priority": "Cr\u00edtica",
+        "labels": [
+          "Needs-QA"
+        ]
+      },
+      {
+        "key": "WSC-1750",
+        "url": "https://e2x.atlassian.net/browse/WSC-1750",
+        "summary": "[WSSD-741] - Ensure Talon.One discounts are retained when applied at the payment step",
+        "status": "Finalizada",
+        "statusCategory": "done",
+        "assignee": "Ingrith Santamaria",
+        "updated": "2026-09-15T15:31:30.336+0100",
+        "priority": "Importante",
+        "labels": [
+          "Needs-QA",
+          "co-build",
+          "manualQA"
+        ]
+      },
+      {
+        "key": "WSC-1748",
+        "url": "https://e2x.atlassian.net/browse/WSC-1748",
+        "summary": "CONTENT - MOBILE - SEOTextBlock & Accordion2 amendments",
+        "status": "Finalizada",
+        "statusCategory": "done",
+        "assignee": "Ingrith Santamaria",
+        "updated": "2026-09-15T15:31:29.746+0100",
+        "priority": "Poco importante",
+        "labels": [
+          "Needs-QA"
+        ]
+      },
+      {
+        "key": "WSC-1747",
+        "url": "https://e2x.atlassian.net/browse/WSC-1747",
+        "summary": "SIDE PANEL - amendment",
+        "status": "Finalizada",
+        "statusCategory": "done",
+        "assignee": "Gerardo Romero",
+        "updated": "2026-09-15T15:31:29.160+0100",
+        "priority": "Poco importante",
+        "labels": [
+          "Needs-QA"
+        ]
+      },
+      {
+        "key": "WSC-1731",
+        "url": "https://e2x.atlassian.net/browse/WSC-1731",
+        "summary": "[Automation] UAT Coverage: Hard Refresh Testing Across All PDP Types",
+        "status": "Finalizada",
+        "statusCategory": "done",
+        "assignee": "Ingrith Santamaria",
+        "updated": "2026-09-15T15:31:28.581+0100",
+        "priority": "Importante",
+        "labels": []
+      },
+      {
+        "key": "WSC-1730",
+        "url": "https://e2x.atlassian.net/browse/WSC-1730",
+        "summary": "[Automation] UAT Coverage: Talon.One Promotions and Coupon Codes",
+        "status": "Finalizada",
+        "statusCategory": "done",
+        "assignee": "Ingrith Santamaria",
+        "updated": "2026-09-15T15:31:28.023+0100",
+        "priority": "Importante",
+        "labels": []
+      },
+      {
+        "key": "WSC-1729",
+        "url": "https://e2x.atlassian.net/browse/WSC-1729",
+        "summary": "[Automation] UAT Coverage: Partial OOS and Fully OOS Product States",
+        "status": "Finalizada",
+        "statusCategory": "done",
+        "assignee": "Gerardo Romero",
+        "updated": "2026-09-15T15:31:27.536+0100",
+        "priority": "Not Set",
+        "labels": []
+      },
+      {
+        "key": "WSC-1728",
+        "url": "https://e2x.atlassian.net/browse/WSC-1728",
+        "summary": "[Automation] UAT Coverage: Physical Gift Card and E-Gift Card PDP Purchase Flow",
+        "status": "Finalizada",
+        "statusCategory": "done",
+        "assignee": "Gerardo Romero",
+        "updated": "2026-09-15T15:31:26.956+0100",
+        "priority": "Not Set",
+        "labels": []
+      },
+      {
+        "key": "WSC-1708",
+        "url": "https://e2x.atlassian.net/browse/WSC-1708",
+        "summary": "LCP-01 \u2014 PDP template - Desktop and Mobile",
+        "status": "Finalizada",
+        "statusCategory": "done",
+        "assignee": "Alexander Talavera",
+        "updated": "2026-09-15T15:31:26.311+0100",
+        "priority": "Cr\u00edtica",
+        "labels": []
+      },
+      {
+        "key": "WSC-1682",
+        "url": "https://e2x.atlassian.net/browse/WSC-1682",
+        "summary": "PDP - back in stock notifications",
+        "status": "Finalizada",
+        "statusCategory": "done",
+        "assignee": "Gerardo Romero",
+        "updated": "2026-09-15T15:31:25.106+0100",
+        "priority": "Importante",
+        "labels": [
+          "Needs-QA",
+          "automatable"
+        ]
+      },
+      {
+        "key": "WSC-1674",
+        "url": "https://e2x.atlassian.net/browse/WSC-1674",
+        "summary": "UX - email and password validation",
+        "status": "Finalizada",
+        "statusCategory": "done",
+        "assignee": "Gerardo Romero",
+        "updated": "2026-09-15T15:31:24.427+0100",
+        "priority": "Importante",
+        "labels": [
+          "Needs-QA",
+          "automatable"
+        ]
+      },
+      {
+        "key": "WSC-1672",
+        "url": "https://e2x.atlassian.net/browse/WSC-1672",
+        "summary": "API 404 error - https://www.whitestuff.com/api/talonone/getCustomerSession",
+        "status": "Finalizada",
+        "statusCategory": "done",
+        "assignee": "Stuart Young",
+        "updated": "2026-09-15T15:31:23.879+0100",
+        "priority": "Poco importante",
+        "labels": []
+      },
+      {
+        "key": "WSC-1656",
+        "url": "https://e2x.atlassian.net/browse/WSC-1656",
+        "summary": "MINI BAG - redesign",
+        "status": "Finalizada",
+        "statusCategory": "done",
+        "assignee": "Ingrith Santamaria",
+        "updated": "2026-09-15T15:31:23.210+0100",
+        "priority": "Importante",
+        "labels": [
+          "Needs-QA"
+        ]
+      },
+      {
+        "key": "WSC-1643",
+        "url": "https://e2x.atlassian.net/browse/WSC-1643",
+        "summary": "Unmasking JS errors - vendor outreach",
+        "status": "Finalizada",
+        "statusCategory": "done",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-09-15T15:31:22.656+0100",
+        "priority": "Importante",
+        "labels": [
+          "NO_QA_REQUIRED"
+        ]
+      },
+      {
+        "key": "WSC-1599",
+        "url": "https://e2x.atlassian.net/browse/WSC-1599",
+        "summary": "CONTENT - Default Search Term - move into Footer component",
+        "status": "Finalizada",
+        "statusCategory": "done",
+        "assignee": "Gerardo Romero",
+        "updated": "2026-09-15T15:31:22.032+0100",
+        "priority": "Poco importante",
+        "labels": [
+          "Needs-QA",
+          "accelerated",
+          "manualQA"
+        ]
+      },
+      {
+        "key": "WSC-1433",
+        "url": "https://e2x.atlassian.net/browse/WSC-1433",
+        "summary": "PDP - attributes",
+        "status": "Finalizada",
+        "statusCategory": "done",
+        "assignee": "Ingrith Santamaria",
+        "updated": "2026-09-15T15:31:21.407+0100",
+        "priority": "Poco importante",
+        "labels": []
+      },
+      {
+        "key": "WSC-1367",
+        "url": "https://e2x.atlassian.net/browse/WSC-1367",
+        "summary": "PLP - further pagination amend",
+        "status": "Finalizada",
+        "statusCategory": "done",
+        "assignee": "Ingrith Santamaria",
+        "updated": "2026-09-15T15:31:20.505+0100",
+        "priority": "Poco importante",
+        "labels": [
+          "Needs-QA"
+        ]
+      },
+      {
+        "key": "WSC-1710",
+        "url": "https://e2x.atlassian.net/browse/WSC-1710",
+        "summary": "CLS-01 \u2014 PDP template - Desktop and Mobile",
+        "status": "Listo",
+        "statusCategory": "new",
+        "assignee": "Jair Huaman",
+        "updated": "2026-09-15T15:14:33.525+0100",
+        "priority": "Cr\u00edtica",
+        "labels": [
+          "Needs-QA",
+          "manualQA"
+        ]
       },
       {
         "key": "WSC-1760",
@@ -41,22 +380,290 @@
         "status": "Listo",
         "statusCategory": "new",
         "assignee": "Alexander Talavera",
-        "updated": "2026-09-15T09:23:10.649+0100",
+        "updated": "2026-09-15T15:13:51.557+0100",
         "priority": "Poco importante",
         "labels": []
       },
       {
-        "key": "WSC-1683",
-        "url": "https://e2x.atlassian.net/browse/WSC-1683",
-        "summary": "PDP - ATB and Size UX redesign",
-        "status": "PENDING DEV DEPLOY",
+        "key": "WSC-1670",
+        "url": "https://e2x.atlassian.net/browse/WSC-1670",
+        "summary": "WS-PR - PDP - shop stock look-up",
+        "status": "Listo",
         "statusCategory": "new",
+        "assignee": "Chiara Davies",
+        "updated": "2026-09-15T15:06:21.153+0100",
+        "priority": "Importante",
+        "labels": []
+      },
+      {
+        "key": "WSC-1744",
+        "url": "https://e2x.atlassian.net/browse/WSC-1744",
+        "summary": "[SiteSpect - QA] Sandwich Model Rollout: Regression & Load/Latency Testing",
+        "status": "En curso",
+        "statusCategory": "indeterminate",
         "assignee": "Gerardo Romero",
-        "updated": "2026-09-15T02:37:05.599+0100",
+        "updated": "2026-09-15T15:02:50.098+0100",
+        "priority": "Not Set",
+        "labels": []
+      },
+      {
+        "key": "WSC-1733",
+        "url": "https://e2x.atlassian.net/browse/WSC-1733",
+        "summary": "SPIKE: Investigate Cloudflare 403 Challenge Blocking Checkout Automation on Desktop",
+        "status": "Blocked",
+        "statusCategory": "new",
+        "assignee": "Alexander Talavera",
+        "updated": "2026-09-15T14:40:41.624+0100",
+        "priority": "Importante",
+        "labels": [
+          "automation",
+          "cloudflare",
+          "spike"
+        ]
+      },
+      {
+        "key": "WSC-1601",
+        "url": "https://e2x.atlassian.net/browse/WSC-1601",
+        "summary": "CONTENT - TwoForBanner amendments - notations",
+        "status": "Finalizada",
+        "statusCategory": "done",
+        "assignee": "Gerardo Romero",
+        "updated": "2026-09-15T14:32:56.163+0100",
         "priority": "Importante",
         "labels": [
           "Needs-QA",
+          "automatable",
+          "co-build",
+          "manualQA"
+        ]
+      },
+      {
+        "key": "WSC-1640",
+        "url": "https://e2x.atlassian.net/browse/WSC-1640",
+        "summary": "Unmasking JS errors - VSF",
+        "status": "Finalizada",
+        "statusCategory": "done",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-09-15T13:56:47.048+0100",
+        "priority": "Importante",
+        "labels": [
+          "NO_QA_REQUIRED",
+          "standard"
+        ]
+      },
+      {
+        "key": "WSC-388",
+        "url": "https://e2x.atlassian.net/browse/WSC-388",
+        "summary": "HEADER - quantity overlaps bag icon when more than 1 digit",
+        "status": "Finalizada",
+        "statusCategory": "done",
+        "assignee": "Ingrith Santamaria",
+        "updated": "2026-09-15T13:51:57.805+0100",
+        "priority": "Trivial",
+        "labels": [
+          "Needs-QA",
+          "automatable",
+          "standard"
+        ]
+      },
+      {
+        "key": "WSC-1482",
+        "url": "https://e2x.atlassian.net/browse/WSC-1482",
+        "summary": "CSP Analysis & Policy Refinement",
+        "status": "Finalizada",
+        "statusCategory": "done",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-09-15T13:51:25.692+0100",
+        "priority": "Cr\u00edtica",
+        "labels": [
+          "CSP",
+          "NO_QA_REQUIRED",
+          "accelerated"
+        ]
+      },
+      {
+        "key": "WSC-1510",
+        "url": "https://e2x.atlassian.net/browse/WSC-1510",
+        "summary": "[WSSD-609] - Duplicate payment in Adyen",
+        "status": "Finalizada",
+        "statusCategory": "done",
+        "assignee": "Jair Huaman",
+        "updated": "2026-09-15T13:50:59.845+0100",
+        "priority": "Poco importante",
+        "labels": [
+          "FastFollow",
+          "Needs-QA",
+          "standard"
+        ]
+      },
+      {
+        "key": "WSC-1545",
+        "url": "https://e2x.atlassian.net/browse/WSC-1545",
+        "summary": "PLP - fix price for gift and e-gift cards",
+        "status": "Finalizada",
+        "statusCategory": "done",
+        "assignee": "Gerardo Romero",
+        "updated": "2026-09-15T13:49:39.704+0100",
+        "priority": "Poco importante",
+        "labels": [
+          "Needs-QA",
+          "co-build"
+        ]
+      },
+      {
+        "key": "WSC-1577",
+        "url": "https://e2x.atlassian.net/browse/WSC-1577",
+        "summary": "[WSSD-633] Add per-email rate limiting to the password reset endpoint",
+        "status": "Finalizada",
+        "statusCategory": "done",
+        "assignee": "Alexander Talavera",
+        "updated": "2026-09-15T13:49:07.779+0100",
+        "priority": "Importante",
+        "labels": [
+          "Needs-QA",
+          "accelerated"
+        ]
+      },
+      {
+        "key": "WSC-1580",
+        "url": "https://e2x.atlassian.net/browse/WSC-1580",
+        "summary": "SITESPECT - deploy to Production",
+        "status": "Finalizada",
+        "statusCategory": "done",
+        "assignee": "Jair Huaman",
+        "updated": "2026-09-15T13:48:47.759+0100",
+        "priority": "Importante",
+        "labels": [
+          "NO_QA_REQUIRED",
+          "standard"
+        ]
+      },
+      {
+        "key": "WSC-1591",
+        "url": "https://e2x.atlassian.net/browse/WSC-1591",
+        "summary": "Shop Pages \u2014 Canonical URL & Hreflang Fix",
+        "status": "Finalizada",
+        "statusCategory": "done",
+        "assignee": "Gerardo Romero",
+        "updated": "2026-09-15T13:48:26.908+0100",
+        "priority": "Importante",
+        "labels": [
+          "Needs-QA",
+          "accelerated",
           "automatable"
+        ]
+      },
+      {
+        "key": "WSC-1612",
+        "url": "https://e2x.atlassian.net/browse/WSC-1612",
+        "summary": "COLOUR NAME (VSF) - change source field",
+        "status": "Finalizada",
+        "statusCategory": "done",
+        "assignee": "Gerardo Romero",
+        "updated": "2026-09-15T13:46:58.559+0100",
+        "priority": "Poco importante",
+        "labels": [
+          "Needs-QA",
+          "co-build",
+          "manualQA"
+        ]
+      },
+      {
+        "key": "WSC-1613",
+        "url": "https://e2x.atlassian.net/browse/WSC-1613",
+        "summary": "COLOUR NAME (CHECKOUT) - change source field",
+        "status": "Finalizada",
+        "statusCategory": "done",
+        "assignee": "Gerardo Romero",
+        "updated": "2026-09-15T13:46:44.137+0100",
+        "priority": "Poco importante",
+        "labels": [
+          "Needs-QA",
+          "co-build",
+          "manualQA"
+        ]
+      },
+      {
+        "key": "WSC-1660",
+        "url": "https://e2x.atlassian.net/browse/WSC-1660",
+        "summary": "PDP - hide review stars when stars = 0",
+        "status": "Finalizada",
+        "statusCategory": "done",
+        "assignee": "Ingrith Santamaria",
+        "updated": "2026-09-15T13:45:26.166+0100",
+        "priority": "Poco importante",
+        "labels": [
+          "Needs-QA",
+          "automatable",
+          "co-build"
+        ]
+      },
+      {
+        "key": "WSC-1676",
+        "url": "https://e2x.atlassian.net/browse/WSC-1676",
+        "summary": "APPLE PAY EXPRESS",
+        "status": "QA Approved",
+        "statusCategory": "indeterminate",
+        "assignee": "Ingrith Santamaria",
+        "updated": "2026-09-15T13:28:56.034+0100",
+        "priority": "Importante",
+        "labels": [
+          "Needs-QA",
+          "manualQA"
+        ]
+      },
+      {
+        "key": "WSC-1749",
+        "url": "https://e2x.atlassian.net/browse/WSC-1749",
+        "summary": "Passwordless Sign-In",
+        "status": "Tareas por hacer",
+        "statusCategory": "new",
+        "assignee": "Unassigned",
+        "updated": "2026-09-15T13:19:28.941+0100",
+        "priority": "Importante",
+        "labels": []
+      },
+      {
+        "key": "WSC-1522",
+        "url": "https://e2x.atlassian.net/browse/WSC-1522",
+        "summary": "CONTENT - Personalisation",
+        "status": "Finalizada",
+        "statusCategory": "done",
+        "assignee": "Gerardo Romero",
+        "updated": "2026-09-15T12:00:52.425+0100",
+        "priority": "Importante",
+        "labels": [
+          "Needs-QA",
+          "automatable",
+          "co-build"
+        ]
+      },
+      {
+        "key": "WSC-1715",
+        "url": "https://e2x.atlassian.net/browse/WSC-1715",
+        "summary": "Fix PLP hydration mismatch by hoisting useContent out of useAsync",
+        "status": "Finalizada",
+        "statusCategory": "done",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-09-15T11:56:05.151+0100",
+        "priority": "Not Set",
+        "labels": [
+          "NO_QA_REQUIRED",
+          "co-build"
+        ]
+      },
+      {
+        "key": "WSC-1716",
+        "url": "https://e2x.atlassian.net/browse/WSC-1716",
+        "summary": "PLP - Cannot add product to cart when navigating from WS marketing email discount links",
+        "status": "Finalizada",
+        "statusCategory": "done",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-09-15T11:53:30.937+0100",
+        "priority": "Importante",
+        "labels": [
+          "Needs-QA",
+          "co-build"
         ]
       },
       {
@@ -71,71 +678,6 @@
         "labels": []
       },
       {
-        "key": "WSC-1744",
-        "url": "https://e2x.atlassian.net/browse/WSC-1744",
-        "summary": "[SiteSpect - QA] Sandwich Model Rollout: Regression & Load/Latency Testing",
-        "status": "En curso",
-        "statusCategory": "indeterminate",
-        "assignee": "Gerardo Romero",
-        "updated": "2026-09-14T22:21:56.164+0100",
-        "priority": "Not Set",
-        "labels": []
-      },
-      {
-        "key": "WSC-1652",
-        "url": "https://e2x.atlassian.net/browse/WSC-1652",
-        "summary": "MONETATE - identify where this is implemented",
-        "status": "Tech Review",
-        "statusCategory": "indeterminate",
-        "assignee": "Stuart Young",
-        "updated": "2026-09-14T21:55:43.152+0100",
-        "priority": "Importante",
-        "labels": []
-      },
-      {
-        "key": "WSC-1733",
-        "url": "https://e2x.atlassian.net/browse/WSC-1733",
-        "summary": "SPIKE: Investigate Cloudflare 403 Challenge Blocking Checkout Automation on Desktop",
-        "status": "Blocked",
-        "statusCategory": "new",
-        "assignee": "Alexander Talavera",
-        "updated": "2026-09-14T21:53:49.038+0100",
-        "priority": "Importante",
-        "labels": [
-          "automation",
-          "cloudflare",
-          "spike"
-        ]
-      },
-      {
-        "key": "WSC-1692",
-        "url": "https://e2x.atlassian.net/browse/WSC-1692",
-        "summary": "PERSONALISED CONTENT - 'no segment'",
-        "status": "En curso",
-        "statusCategory": "indeterminate",
-        "assignee": "Alexander Talavera",
-        "updated": "2026-09-14T21:50:03.357+0100",
-        "priority": "Supone un impedimento",
-        "labels": [
-          "Needs-QA",
-          "manualQA"
-        ]
-      },
-      {
-        "key": "WSC-1710",
-        "url": "https://e2x.atlassian.net/browse/WSC-1710",
-        "summary": "CLS-01 \u2014 PDP template - Desktop and Mobile",
-        "status": "Listo",
-        "statusCategory": "new",
-        "assignee": "Jair Huaman",
-        "updated": "2026-09-14T21:16:18.514+0100",
-        "priority": "Cr\u00edtica",
-        "labels": [
-          "Needs-QA",
-          "manualQA"
-        ]
-      },
-      {
         "key": "WSC-1162",
         "url": "https://e2x.atlassian.net/browse/WSC-1162",
         "summary": "Set Up Automated Yearly Task for Security.txt Renewal",
@@ -145,20 +687,6 @@
         "updated": "2026-09-14T21:15:39.283+0100",
         "priority": "Poco importante",
         "labels": []
-      },
-      {
-        "key": "WSC-1757",
-        "url": "https://e2x.atlassian.net/browse/WSC-1757",
-        "summary": "PDP - ONE SIZE product - Add to Bag button becomes disabled after clicking a colour swatch",
-        "status": "Listo",
-        "statusCategory": "new",
-        "assignee": "Alexander Talavera",
-        "updated": "2026-09-14T21:15:14.104+0100",
-        "priority": "Importante",
-        "labels": [
-          "Needs-QA",
-          "automatable"
-        ]
       },
       {
         "key": "WSC-1629",
@@ -225,33 +753,6 @@
         ]
       },
       {
-        "key": "WSC-1761",
-        "url": "https://e2x.atlassian.net/browse/WSC-1761",
-        "summary": "BazaarVoice review post Revert of WSC-1660",
-        "status": "Listo",
-        "statusCategory": "new",
-        "assignee": "Unassigned",
-        "updated": "2026-09-14T21:11:24.433+0100",
-        "priority": "Importante",
-        "labels": [
-          "NO_QA_REQUIRED"
-        ]
-      },
-      {
-        "key": "WSC-1697",
-        "url": "https://e2x.atlassian.net/browse/WSC-1697",
-        "summary": "PDP - 'back in stock' new UX",
-        "status": "Listo",
-        "statusCategory": "new",
-        "assignee": "Jair Huaman",
-        "updated": "2026-09-14T21:10:46.917+0100",
-        "priority": "Importante",
-        "labels": [
-          "Needs-QA",
-          "automatable"
-        ]
-      },
-      {
         "key": "WSC-1484",
         "url": "https://e2x.atlassian.net/browse/WSC-1484",
         "summary": "CSP Enforcement Rollout & Hardening",
@@ -276,48 +777,6 @@
         "priority": "Poco importante",
         "labels": [
           "Needs-QA"
-        ]
-      },
-      {
-        "key": "WSC-1687",
-        "url": "https://e2x.atlassian.net/browse/WSC-1687",
-        "summary": "PDP - gift card and e-gift card colour change",
-        "status": "Listo",
-        "statusCategory": "new",
-        "assignee": "Alexander Talavera",
-        "updated": "2026-09-14T20:36:59.254+0100",
-        "priority": "Poco importante",
-        "labels": [
-          "Needs-QA",
-          "manualQA"
-        ]
-      },
-      {
-        "key": "WSC-1685",
-        "url": "https://e2x.atlassian.net/browse/WSC-1685",
-        "summary": "PDP - mobile sticky ADD TO BAG change to its behaviour",
-        "status": "Listo",
-        "statusCategory": "new",
-        "assignee": "Unassigned",
-        "updated": "2026-09-14T20:36:52.535+0100",
-        "priority": "Importante",
-        "labels": [
-          "Needs-QA",
-          "manualQA"
-        ]
-      },
-      {
-        "key": "WSC-1684",
-        "url": "https://e2x.atlassian.net/browse/WSC-1684",
-        "summary": "PDP - mobile sticky ADD TO BAG UX",
-        "status": "Listo",
-        "statusCategory": "new",
-        "assignee": "Unassigned",
-        "updated": "2026-09-14T20:36:43.587+0100",
-        "priority": "Importante",
-        "labels": [
-          "Needs-QA",
-          "automatable"
         ]
       },
       {
@@ -409,20 +868,6 @@
         ]
       },
       {
-        "key": "WSC-1676",
-        "url": "https://e2x.atlassian.net/browse/WSC-1676",
-        "summary": "APPLE PAY EXPRESS",
-        "status": "IN QA",
-        "statusCategory": "indeterminate",
-        "assignee": "Ingrith Santamaria",
-        "updated": "2026-09-14T19:52:20.990+0100",
-        "priority": "Importante",
-        "labels": [
-          "Needs-QA",
-          "manualQA"
-        ]
-      },
-      {
         "key": "WSC-1189",
         "url": "https://e2x.atlassian.net/browse/WSC-1189",
         "summary": "SEO - Duplicate H1 Tags on Product Pages",
@@ -432,20 +877,6 @@
         "updated": "2026-09-14T19:15:49.694+0100",
         "priority": "Importante",
         "labels": []
-      },
-      {
-        "key": "WSC-388",
-        "url": "https://e2x.atlassian.net/browse/WSC-388",
-        "summary": "HEADER - quantity overlaps bag icon when more than 1 digit",
-        "status": "Finalizada",
-        "statusCategory": "done",
-        "assignee": "Ingrith Santamaria",
-        "updated": "2026-09-14T19:08:30.856+0100",
-        "priority": "Trivial",
-        "labels": [
-          "Needs-QA",
-          "automatable"
-        ]
       },
       {
         "key": "WSC-1422",
@@ -474,21 +905,6 @@
           "Needs-QA",
           "automatable",
           "co-build"
-        ]
-      },
-      {
-        "key": "WSC-1601",
-        "url": "https://e2x.atlassian.net/browse/WSC-1601",
-        "summary": "CONTENT - TwoForBanner amendments - notations",
-        "status": "Finalizada",
-        "statusCategory": "done",
-        "assignee": "Gerardo Romero",
-        "updated": "2026-09-14T19:05:48.235+0100",
-        "priority": "Importante",
-        "labels": [
-          "Needs-QA",
-          "automatable",
-          "manualQA"
         ]
       },
       {
@@ -637,34 +1053,6 @@
         ]
       },
       {
-        "key": "WSC-1758",
-        "url": "https://e2x.atlassian.net/browse/WSC-1758",
-        "summary": "Restore the PDP rating summary independently of the Authentic Discovery API",
-        "status": "IN UAT",
-        "statusCategory": "indeterminate",
-        "assignee": "Ingrith Santamaria",
-        "updated": "2026-09-14T14:39:49.834+0100",
-        "priority": "Cr\u00edtica",
-        "labels": [
-          "Needs-QA"
-        ]
-      },
-      {
-        "key": "WSC-1599",
-        "url": "https://e2x.atlassian.net/browse/WSC-1599",
-        "summary": "CONTENT - Default Search Term - move into Footer component",
-        "status": "IN UAT",
-        "statusCategory": "indeterminate",
-        "assignee": "Gerardo Romero",
-        "updated": "2026-09-14T14:25:33.675+0100",
-        "priority": "Poco importante",
-        "labels": [
-          "Needs-QA",
-          "accelerated",
-          "manualQA"
-        ]
-      },
-      {
         "key": "WSC-1504",
         "url": "https://e2x.atlassian.net/browse/WSC-1504",
         "summary": "ACCOUNT CREATION - post purchase sign up bug",
@@ -725,170 +1113,6 @@
         "labels": []
       },
       {
-        "key": "WSC-1731",
-        "url": "https://e2x.atlassian.net/browse/WSC-1731",
-        "summary": "[Automation] UAT Coverage: Hard Refresh Testing Across All PDP Types",
-        "status": "IN UAT",
-        "statusCategory": "indeterminate",
-        "assignee": "Ingrith Santamaria",
-        "updated": "2026-09-11T16:15:21.663+0100",
-        "priority": "Importante",
-        "labels": []
-      },
-      {
-        "key": "WSC-1682",
-        "url": "https://e2x.atlassian.net/browse/WSC-1682",
-        "summary": "PDP - back in stock notifications",
-        "status": "IN UAT",
-        "statusCategory": "indeterminate",
-        "assignee": "Gerardo Romero",
-        "updated": "2026-09-11T16:14:55.141+0100",
-        "priority": "Importante",
-        "labels": [
-          "Needs-QA",
-          "automatable"
-        ]
-      },
-      {
-        "key": "WSC-1747",
-        "url": "https://e2x.atlassian.net/browse/WSC-1747",
-        "summary": "SIDE PANEL - amendment",
-        "status": "IN UAT",
-        "statusCategory": "indeterminate",
-        "assignee": "Gerardo Romero",
-        "updated": "2026-09-11T16:01:17.343+0100",
-        "priority": "Poco importante",
-        "labels": [
-          "Needs-QA"
-        ]
-      },
-      {
-        "key": "WSC-1674",
-        "url": "https://e2x.atlassian.net/browse/WSC-1674",
-        "summary": "UX - email and password validation",
-        "status": "IN UAT",
-        "statusCategory": "indeterminate",
-        "assignee": "Gerardo Romero",
-        "updated": "2026-09-11T15:52:44.131+0100",
-        "priority": "Importante",
-        "labels": [
-          "Needs-QA",
-          "automatable"
-        ]
-      },
-      {
-        "key": "WSC-1660",
-        "url": "https://e2x.atlassian.net/browse/WSC-1660",
-        "summary": "PDP - hide review stars when stars = 0",
-        "status": "Finalizada",
-        "statusCategory": "done",
-        "assignee": "Ingrith Santamaria",
-        "updated": "2026-09-11T14:00:41.944+0100",
-        "priority": "Poco importante",
-        "labels": [
-          "Needs-QA",
-          "automatable"
-        ]
-      },
-      {
-        "key": "WSC-1708",
-        "url": "https://e2x.atlassian.net/browse/WSC-1708",
-        "summary": "LCP-01 \u2014 PDP template - Desktop and Mobile",
-        "status": "IN UAT",
-        "statusCategory": "indeterminate",
-        "assignee": "Alexander Talavera",
-        "updated": "2026-09-11T13:37:38.230+0100",
-        "priority": "Cr\u00edtica",
-        "labels": []
-      },
-      {
-        "key": "WSC-1728",
-        "url": "https://e2x.atlassian.net/browse/WSC-1728",
-        "summary": "[Automation] UAT Coverage: Physical Gift Card and E-Gift Card PDP Purchase Flow",
-        "status": "IN UAT",
-        "statusCategory": "indeterminate",
-        "assignee": "Gerardo Romero",
-        "updated": "2026-09-11T13:37:32.722+0100",
-        "priority": "Not Set",
-        "labels": []
-      },
-      {
-        "key": "WSC-1730",
-        "url": "https://e2x.atlassian.net/browse/WSC-1730",
-        "summary": "[Automation] UAT Coverage: Talon.One Promotions and Coupon Codes",
-        "status": "IN UAT",
-        "statusCategory": "indeterminate",
-        "assignee": "Ingrith Santamaria",
-        "updated": "2026-09-11T13:37:30.651+0100",
-        "priority": "Importante",
-        "labels": []
-      },
-      {
-        "key": "WSC-1748",
-        "url": "https://e2x.atlassian.net/browse/WSC-1748",
-        "summary": "CONTENT - MOBILE - SEOTextBlock & Accordion2 amendments",
-        "status": "IN UAT",
-        "statusCategory": "indeterminate",
-        "assignee": "Ingrith Santamaria",
-        "updated": "2026-09-11T13:37:25.543+0100",
-        "priority": "Poco importante",
-        "labels": [
-          "Needs-QA"
-        ]
-      },
-      {
-        "key": "WSC-1750",
-        "url": "https://e2x.atlassian.net/browse/WSC-1750",
-        "summary": "[WSSD-741] - Ensure Talon.One discounts are retained when applied at the payment step",
-        "status": "IN UAT",
-        "statusCategory": "indeterminate",
-        "assignee": "Ingrith Santamaria",
-        "updated": "2026-09-11T13:35:43.982+0100",
-        "priority": "Importante",
-        "labels": [
-          "Needs-QA",
-          "co-build",
-          "manualQA"
-        ]
-      },
-      {
-        "key": "WSC-1656",
-        "url": "https://e2x.atlassian.net/browse/WSC-1656",
-        "summary": "MINI BAG - redesign",
-        "status": "IN UAT",
-        "statusCategory": "indeterminate",
-        "assignee": "Ingrith Santamaria",
-        "updated": "2026-09-11T13:08:20.566+0100",
-        "priority": "Importante",
-        "labels": [
-          "Needs-QA"
-        ]
-      },
-      {
-        "key": "WSC-1433",
-        "url": "https://e2x.atlassian.net/browse/WSC-1433",
-        "summary": "PDP - attributes",
-        "status": "IN UAT",
-        "statusCategory": "indeterminate",
-        "assignee": "Ingrith Santamaria",
-        "updated": "2026-09-11T12:56:51.157+0100",
-        "priority": "Poco importante",
-        "labels": []
-      },
-      {
-        "key": "WSC-1367",
-        "url": "https://e2x.atlassian.net/browse/WSC-1367",
-        "summary": "PLP - further pagination amend",
-        "status": "IN UAT",
-        "statusCategory": "indeterminate",
-        "assignee": "Ingrith Santamaria",
-        "updated": "2026-09-11T12:11:05.912+0100",
-        "priority": "Poco importante",
-        "labels": [
-          "Needs-QA"
-        ]
-      },
-      {
         "key": "WSC-1138",
         "url": "https://e2x.atlassian.net/browse/WSC-1138",
         "summary": "GOOD STUFF - add preferred shop to 'My Details'",
@@ -914,52 +1138,6 @@
           "Needs-QA",
           "accelerated"
         ]
-      },
-      {
-        "key": "WSC-1672",
-        "url": "https://e2x.atlassian.net/browse/WSC-1672",
-        "summary": "API 404 error - https://www.whitestuff.com/api/talonone/getCustomerSession",
-        "status": "Finalizada",
-        "statusCategory": "done",
-        "assignee": "Stuart Young",
-        "updated": "2026-09-10T17:21:36.115+0100",
-        "priority": "Poco importante",
-        "labels": []
-      },
-      {
-        "key": "WSC-1643",
-        "url": "https://e2x.atlassian.net/browse/WSC-1643",
-        "summary": "Unmasking JS errors - vendor outreach",
-        "status": "IN QA",
-        "statusCategory": "indeterminate",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-09-10T17:21:32.969+0100",
-        "priority": "Importante",
-        "labels": [
-          "NO_QA_REQUIRED"
-        ]
-      },
-      {
-        "key": "WSC-1729",
-        "url": "https://e2x.atlassian.net/browse/WSC-1729",
-        "summary": "[Automation] UAT Coverage: Partial OOS and Fully OOS Product States",
-        "status": "Finalizada",
-        "statusCategory": "done",
-        "assignee": "Gerardo Romero",
-        "updated": "2026-09-10T17:21:29.148+0100",
-        "priority": "Not Set",
-        "labels": []
-      },
-      {
-        "key": "WSC-1749",
-        "url": "https://e2x.atlassian.net/browse/WSC-1749",
-        "summary": "Passwordless Sign-In",
-        "status": "Tareas por hacer",
-        "statusCategory": "new",
-        "assignee": "Unassigned",
-        "updated": "2026-09-10T16:36:42.403+0100",
-        "priority": "Importante",
-        "labels": []
       },
       {
         "key": "WSC-1709",
@@ -1031,20 +1209,6 @@
         "updated": "2026-09-04T14:25:45.099+0100",
         "priority": "Not Set",
         "labels": []
-      },
-      {
-        "key": "WSC-1510",
-        "url": "https://e2x.atlassian.net/browse/WSC-1510",
-        "summary": "[WSSD-609] - Duplicate payment in Adyen",
-        "status": "Finalizada",
-        "statusCategory": "done",
-        "assignee": "Jair Huaman",
-        "updated": "2026-09-04T10:03:31.829+0100",
-        "priority": "Poco importante",
-        "labels": [
-          "FastFollow",
-          "Needs-QA"
-        ]
       },
       {
         "key": "WSC-1581",
@@ -1133,32 +1297,6 @@
         "updated": "2026-09-03T14:12:37.870+0100",
         "priority": "Not Set",
         "labels": []
-      },
-      {
-        "key": "WSC-1577",
-        "url": "https://e2x.atlassian.net/browse/WSC-1577",
-        "summary": "[WSSD-633] Add per-email rate limiting to the password reset endpoint",
-        "status": "Finalizada",
-        "statusCategory": "done",
-        "assignee": "Alexander Talavera",
-        "updated": "2026-09-03T14:12:33.284+0100",
-        "priority": "Importante",
-        "labels": [
-          "Needs-QA"
-        ]
-      },
-      {
-        "key": "WSC-1545",
-        "url": "https://e2x.atlassian.net/browse/WSC-1545",
-        "summary": "PLP - fix price for gift and e-gift cards",
-        "status": "Finalizada",
-        "statusCategory": "done",
-        "assignee": "Gerardo Romero",
-        "updated": "2026-09-03T14:12:13.299+0100",
-        "priority": "Poco importante",
-        "labels": [
-          "Needs-QA"
-        ]
       },
       {
         "key": "WSC-1718",
@@ -1560,32 +1698,6 @@
         ]
       },
       {
-        "key": "WSC-1716",
-        "url": "https://e2x.atlassian.net/browse/WSC-1716",
-        "summary": "PLP - Cannot add product to cart when navigating from WS marketing email discount links",
-        "status": "Finalizada",
-        "statusCategory": "done",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-08-28T16:18:37.085+0100",
-        "priority": "Importante",
-        "labels": [
-          "Needs-QA"
-        ]
-      },
-      {
-        "key": "WSC-1715",
-        "url": "https://e2x.atlassian.net/browse/WSC-1715",
-        "summary": "Fix PLP hydration mismatch by hoisting useContent out of useAsync",
-        "status": "Finalizada",
-        "statusCategory": "done",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-08-28T14:04:58.703+0100",
-        "priority": "Not Set",
-        "labels": [
-          "NO_QA_REQUIRED"
-        ]
-      },
-      {
         "key": "WSC-1703",
         "url": "https://e2x.atlassian.net/browse/WSC-1703",
         "summary": "Add timeouts to Nuxt SSR HTTP clients",
@@ -1644,19 +1756,6 @@
         "labels": []
       },
       {
-        "key": "WSC-1580",
-        "url": "https://e2x.atlassian.net/browse/WSC-1580",
-        "summary": "SITESPECT - deploy to Production",
-        "status": "Finalizada",
-        "statusCategory": "done",
-        "assignee": "Jair Huaman",
-        "updated": "2026-08-21T18:03:27.586+0100",
-        "priority": "Importante",
-        "labels": [
-          "NO_QA_REQUIRED"
-        ]
-      },
-      {
         "key": "WSC-1681",
         "url": "https://e2x.atlassian.net/browse/WSC-1681",
         "summary": "[WS] Monthly vulnerability review (Snyk) Aug for Jul 2026 Maintain Report",
@@ -1666,20 +1765,6 @@
         "updated": "2026-08-21T17:45:51.008+0100",
         "priority": "Not Set",
         "labels": []
-      },
-      {
-        "key": "WSC-1522",
-        "url": "https://e2x.atlassian.net/browse/WSC-1522",
-        "summary": "CONTENT - Personalisation",
-        "status": "Finalizada",
-        "statusCategory": "done",
-        "assignee": "Gerardo Romero",
-        "updated": "2026-08-19T16:05:45.583+0100",
-        "priority": "Importante",
-        "labels": [
-          "Needs-QA",
-          "automatable"
-        ]
       },
       {
         "key": "WSC-1544",
@@ -1706,47 +1791,6 @@
         "labels": []
       },
       {
-        "key": "WSC-1591",
-        "url": "https://e2x.atlassian.net/browse/WSC-1591",
-        "summary": "Shop Pages \u2014 Canonical URL & Hreflang Fix",
-        "status": "Finalizada",
-        "statusCategory": "done",
-        "assignee": "Gerardo Romero",
-        "updated": "2026-08-19T16:05:38.993+0100",
-        "priority": "Importante",
-        "labels": [
-          "Needs-QA",
-          "automatable"
-        ]
-      },
-      {
-        "key": "WSC-1640",
-        "url": "https://e2x.atlassian.net/browse/WSC-1640",
-        "summary": "Unmasking JS errors - VSF",
-        "status": "Finalizada",
-        "statusCategory": "done",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-08-19T16:05:36.642+0100",
-        "priority": "Importante",
-        "labels": [
-          "NO_QA_REQUIRED"
-        ]
-      },
-      {
-        "key": "WSC-1612",
-        "url": "https://e2x.atlassian.net/browse/WSC-1612",
-        "summary": "COLOUR NAME (VSF) - change source field",
-        "status": "Finalizada",
-        "statusCategory": "done",
-        "assignee": "Gerardo Romero",
-        "updated": "2026-08-19T16:05:34.369+0100",
-        "priority": "Poco importante",
-        "labels": [
-          "Needs-QA",
-          "manualQA"
-        ]
-      },
-      {
         "key": "WSC-1671",
         "url": "https://e2x.atlassian.net/browse/WSC-1671",
         "summary": "Slim Banner component preview not rendering in Amplience",
@@ -1767,34 +1811,6 @@
         "updated": "2026-08-19T16:05:20.682+0100",
         "priority": "Cr\u00edtica",
         "labels": []
-      },
-      {
-        "key": "WSC-1613",
-        "url": "https://e2x.atlassian.net/browse/WSC-1613",
-        "summary": "COLOUR NAME (CHECKOUT) - change source field",
-        "status": "Finalizada",
-        "statusCategory": "done",
-        "assignee": "Gerardo Romero",
-        "updated": "2026-08-19T16:05:07.728+0100",
-        "priority": "Poco importante",
-        "labels": [
-          "Needs-QA",
-          "manualQA"
-        ]
-      },
-      {
-        "key": "WSC-1482",
-        "url": "https://e2x.atlassian.net/browse/WSC-1482",
-        "summary": "CSP Analysis & Policy Refinement",
-        "status": "Finalizada",
-        "statusCategory": "done",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-08-19T16:05:05.656+0100",
-        "priority": "Cr\u00edtica",
-        "labels": [
-          "CSP",
-          "NO_QA_REQUIRED"
-        ]
       },
       {
         "key": "WSC-1630",
