@@ -1,16 +1,17 @@
 {
-  "lastUpdated": "2026-09-15T16:28:09.451888+00:00",
+  "lastUpdated": "2026-09-15T22:44:39.133543+00:00",
   "jira": {
     "summary": {
       "total": 422,
       "byStatus": {
-        "En curso": 10,
         "Tech Review": 7,
-        "Ready to QA": 2,
-        "Finalizada": 335,
-        "Listo": 20,
+        "Ready to QA": 4,
+        "En curso": 8,
+        "IN QA": 1,
         "Blocked": 5,
         "QA Approved": 3,
+        "Listo": 19,
+        "Finalizada": 335,
         "Tareas por hacer": 4,
         "Backlog": 13,
         "Pre-prioritized": 2,
@@ -23,13 +24,80 @@
     },
     "tickets": [
       {
+        "key": "WSC-1673",
+        "url": "https://e2x.atlassian.net/browse/WSC-1673",
+        "summary": "API 404 error - https://www.whitestuff.com/api/ampl/getContent",
+        "status": "Tech Review",
+        "statusCategory": "indeterminate",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-09-15T23:20:17.342+0100",
+        "priority": "Poco importante",
+        "labels": []
+      },
+      {
         "key": "WSC-1757",
         "url": "https://e2x.atlassian.net/browse/WSC-1757",
         "summary": "PDP - ONE SIZE product - Add to Bag button becomes disabled after clicking a colour swatch",
+        "status": "Ready to QA",
+        "statusCategory": "new",
+        "assignee": "Unassigned",
+        "updated": "2026-09-15T22:45:03.819+0100",
+        "priority": "Importante",
+        "labels": [
+          "Needs-QA",
+          "automatable",
+          "co-build"
+        ]
+      },
+      {
+        "key": "WSC-1534",
+        "url": "https://e2x.atlassian.net/browse/WSC-1534",
+        "summary": "Investigate 403 Forbidden errors originating from Azure blocking Playwright tests in UAT",
         "status": "En curso",
         "statusCategory": "indeterminate",
-        "assignee": "Alexander Talavera",
-        "updated": "2026-09-15T17:10:25.536+0100",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-09-15T22:33:06.650+0100",
+        "priority": "Not Set",
+        "labels": []
+      },
+      {
+        "key": "WSC-1692",
+        "url": "https://e2x.atlassian.net/browse/WSC-1692",
+        "summary": "PERSONALISED CONTENT - 'no segment'",
+        "status": "Ready to QA",
+        "statusCategory": "new",
+        "assignee": "Unassigned",
+        "updated": "2026-09-15T22:30:48.246+0100",
+        "priority": "Supone un impedimento",
+        "labels": [
+          "Needs-QA",
+          "co-build",
+          "manualQA"
+        ]
+      },
+      {
+        "key": "WSC-1687",
+        "url": "https://e2x.atlassian.net/browse/WSC-1687",
+        "summary": "PDP - gift card and e-gift card colour change",
+        "status": "Ready to QA",
+        "statusCategory": "new",
+        "assignee": "Unassigned",
+        "updated": "2026-09-15T21:58:38.073+0100",
+        "priority": "Poco importante",
+        "labels": [
+          "Needs-QA",
+          "manualQA",
+          "standard"
+        ]
+      },
+      {
+        "key": "WSC-1697",
+        "url": "https://e2x.atlassian.net/browse/WSC-1697",
+        "summary": "PDP - 'back in stock' new UX",
+        "status": "Tech Review",
+        "statusCategory": "indeterminate",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-09-15T21:49:11.157+0100",
         "priority": "Importante",
         "labels": [
           "Needs-QA",
@@ -37,18 +105,28 @@
         ]
       },
       {
-        "key": "WSC-1687",
-        "url": "https://e2x.atlassian.net/browse/WSC-1687",
-        "summary": "PDP - gift card and e-gift card colour change",
-        "status": "Tech Review",
+        "key": "WSC-1753",
+        "url": "https://e2x.atlassian.net/browse/WSC-1753",
+        "summary": "Review and Update of Playwright Affected Testcases",
+        "status": "En curso",
         "statusCategory": "indeterminate",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-09-15T16:55:29.837+0100",
-        "priority": "Poco importante",
+        "assignee": "Gerardo Romero",
+        "updated": "2026-09-15T20:56:05.554+0100",
+        "priority": "Not Set",
+        "labels": []
+      },
+      {
+        "key": "WSC-1683",
+        "url": "https://e2x.atlassian.net/browse/WSC-1683",
+        "summary": "PDP - ATB and Size UX redesign",
+        "status": "IN QA",
+        "statusCategory": "indeterminate",
+        "assignee": "Gerardo Romero",
+        "updated": "2026-09-15T20:53:54.667+0100",
+        "priority": "Importante",
         "labels": [
           "Needs-QA",
-          "manualQA",
-          "standard"
+          "automatable"
         ]
       },
       {
@@ -58,7 +136,7 @@
         "status": "Ready to QA",
         "statusCategory": "new",
         "assignee": "Ingrith Santamaria",
-        "updated": "2026-09-15T16:44:25.835+0100",
+        "updated": "2026-09-15T20:36:28.299+0100",
         "priority": "Importante",
         "labels": [
           "Needs-QA",
@@ -66,17 +144,79 @@
         ]
       },
       {
-        "key": "WSC-1683",
-        "url": "https://e2x.atlassian.net/browse/WSC-1683",
-        "summary": "PDP - ATB and Size UX redesign",
-        "status": "Ready to QA",
+        "key": "WSC-1504",
+        "url": "https://e2x.atlassian.net/browse/WSC-1504",
+        "summary": "ACCOUNT CREATION - post purchase sign up bug",
+        "status": "Blocked",
         "statusCategory": "new",
-        "assignee": "Gerardo Romero",
-        "updated": "2026-09-15T16:44:22.308+0100",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-09-15T20:16:35.729+0100",
+        "priority": "Importante",
+        "labels": []
+      },
+      {
+        "key": "WSC-173",
+        "url": "https://e2x.atlassian.net/browse/WSC-173",
+        "summary": "SEO - fix to product schema for PDP for reviews and ratings",
+        "status": "Blocked",
+        "statusCategory": "new",
+        "assignee": "Jair Huaman",
+        "updated": "2026-09-15T20:15:43.955+0100",
+        "priority": "Poco importante",
+        "labels": [
+          "Needs-QA"
+        ]
+      },
+      {
+        "key": "WSC-1676",
+        "url": "https://e2x.atlassian.net/browse/WSC-1676",
+        "summary": "APPLE PAY EXPRESS",
+        "status": "QA Approved",
+        "statusCategory": "indeterminate",
+        "assignee": "Ingrith Santamaria",
+        "updated": "2026-09-15T20:08:30.576+0100",
         "priority": "Importante",
         "labels": [
           "Needs-QA",
-          "automatable"
+          "manualQA"
+        ]
+      },
+      {
+        "key": "WSC-1760",
+        "url": "https://e2x.atlassian.net/browse/WSC-1760",
+        "summary": "[WSSD-750] - PDP product group links - bug",
+        "status": "Listo",
+        "statusCategory": "new",
+        "assignee": "Alexander Talavera",
+        "updated": "2026-09-15T19:31:52.566+0100",
+        "priority": "Poco importante",
+        "labels": []
+      },
+      {
+        "key": "WSC-1710",
+        "url": "https://e2x.atlassian.net/browse/WSC-1710",
+        "summary": "CLS-01 \u2014 PDP template - Desktop and Mobile",
+        "status": "En curso",
+        "statusCategory": "indeterminate",
+        "assignee": "Jair Huaman",
+        "updated": "2026-09-15T19:21:53.349+0100",
+        "priority": "Cr\u00edtica",
+        "labels": [
+          "Needs-QA",
+          "manualQA"
+        ]
+      },
+      {
+        "key": "WSC-1761",
+        "url": "https://e2x.atlassian.net/browse/WSC-1761",
+        "summary": "BazaarVoice review post Revert of WSC-1660",
+        "status": "Tech Review",
+        "statusCategory": "indeterminate",
+        "assignee": "Jair Huaman",
+        "updated": "2026-09-15T19:17:12.330+0100",
+        "priority": "Importante",
+        "labels": [
+          "NO_QA_REQUIRED"
         ]
       },
       {
@@ -91,33 +231,6 @@
         "labels": []
       },
       {
-        "key": "WSC-1697",
-        "url": "https://e2x.atlassian.net/browse/WSC-1697",
-        "summary": "PDP - 'back in stock' new UX",
-        "status": "En curso",
-        "statusCategory": "indeterminate",
-        "assignee": "Jair Huaman",
-        "updated": "2026-09-15T15:43:21.339+0100",
-        "priority": "Importante",
-        "labels": [
-          "Needs-QA",
-          "automatable"
-        ]
-      },
-      {
-        "key": "WSC-1761",
-        "url": "https://e2x.atlassian.net/browse/WSC-1761",
-        "summary": "BazaarVoice review post Revert of WSC-1660",
-        "status": "En curso",
-        "statusCategory": "indeterminate",
-        "assignee": "Jair Huaman",
-        "updated": "2026-09-15T15:36:26.942+0100",
-        "priority": "Importante",
-        "labels": [
-          "NO_QA_REQUIRED"
-        ]
-      },
-      {
         "key": "WSC-1685",
         "url": "https://e2x.atlassian.net/browse/WSC-1685",
         "summary": "PDP - mobile sticky ADD TO BAG change to its behaviour",
@@ -128,21 +241,6 @@
         "priority": "Importante",
         "labels": [
           "Needs-QA",
-          "manualQA"
-        ]
-      },
-      {
-        "key": "WSC-1692",
-        "url": "https://e2x.atlassian.net/browse/WSC-1692",
-        "summary": "PERSONALISED CONTENT - 'no segment'",
-        "status": "Tech Review",
-        "statusCategory": "indeterminate",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-09-15T15:35:16.875+0100",
-        "priority": "Supone un impedimento",
-        "labels": [
-          "Needs-QA",
-          "co-build",
           "manualQA"
         ]
       },
@@ -360,31 +458,6 @@
         ]
       },
       {
-        "key": "WSC-1710",
-        "url": "https://e2x.atlassian.net/browse/WSC-1710",
-        "summary": "CLS-01 \u2014 PDP template - Desktop and Mobile",
-        "status": "Listo",
-        "statusCategory": "new",
-        "assignee": "Jair Huaman",
-        "updated": "2026-09-15T15:14:33.525+0100",
-        "priority": "Cr\u00edtica",
-        "labels": [
-          "Needs-QA",
-          "manualQA"
-        ]
-      },
-      {
-        "key": "WSC-1760",
-        "url": "https://e2x.atlassian.net/browse/WSC-1760",
-        "summary": "[WSSD-750] - PDP product group links - bug",
-        "status": "Listo",
-        "statusCategory": "new",
-        "assignee": "Alexander Talavera",
-        "updated": "2026-09-15T15:13:51.557+0100",
-        "priority": "Poco importante",
-        "labels": []
-      },
-      {
         "key": "WSC-1670",
         "url": "https://e2x.atlassian.net/browse/WSC-1670",
         "summary": "WS-PR - PDP - shop stock look-up",
@@ -599,20 +672,6 @@
         ]
       },
       {
-        "key": "WSC-1676",
-        "url": "https://e2x.atlassian.net/browse/WSC-1676",
-        "summary": "APPLE PAY EXPRESS",
-        "status": "QA Approved",
-        "statusCategory": "indeterminate",
-        "assignee": "Ingrith Santamaria",
-        "updated": "2026-09-15T13:28:56.034+0100",
-        "priority": "Importante",
-        "labels": [
-          "Needs-QA",
-          "manualQA"
-        ]
-      },
-      {
         "key": "WSC-1749",
         "url": "https://e2x.atlassian.net/browse/WSC-1749",
         "summary": "Passwordless Sign-In",
@@ -665,17 +724,6 @@
           "Needs-QA",
           "co-build"
         ]
-      },
-      {
-        "key": "WSC-1753",
-        "url": "https://e2x.atlassian.net/browse/WSC-1753",
-        "summary": "Review and Update of Playwright Affected Testcases for Release 17.0",
-        "status": "En curso",
-        "statusCategory": "indeterminate",
-        "assignee": "Gerardo Romero",
-        "updated": "2026-09-14T22:22:39.252+0100",
-        "priority": "Not Set",
-        "labels": []
       },
       {
         "key": "WSC-1162",
@@ -1053,17 +1101,6 @@
         ]
       },
       {
-        "key": "WSC-1504",
-        "url": "https://e2x.atlassian.net/browse/WSC-1504",
-        "summary": "ACCOUNT CREATION - post purchase sign up bug",
-        "status": "Blocked",
-        "statusCategory": "new",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-09-14T09:27:11.946+0100",
-        "priority": "Importante",
-        "labels": []
-      },
-      {
         "key": "WSC-1636",
         "url": "https://e2x.atlassian.net/browse/WSC-1636",
         "summary": "Tighten Super Bot Fight Mode policy: Block Automated, Managed Challenge Likely Automated",
@@ -1162,17 +1199,6 @@
         "labels": [
           "NO_QA_REQUIRED"
         ]
-      },
-      {
-        "key": "WSC-1534",
-        "url": "https://e2x.atlassian.net/browse/WSC-1534",
-        "summary": "Investigate 403 Forbidden errors originating from Azure blocking Playwright tests in UAT",
-        "status": "En curso",
-        "statusCategory": "indeterminate",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-09-07T15:05:54.873+0100",
-        "priority": "Not Set",
-        "labels": []
       },
       {
         "key": "WSC-1515",
@@ -1369,17 +1395,6 @@
         "labels": []
       },
       {
-        "key": "WSC-1673",
-        "url": "https://e2x.atlassian.net/browse/WSC-1673",
-        "summary": "API 404 error - https://www.whitestuff.com/api/ampl/getContent",
-        "status": "Tech Review",
-        "statusCategory": "indeterminate",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-09-02T18:15:58.072+0100",
-        "priority": "Poco importante",
-        "labels": []
-      },
-      {
         "key": "WSC-1735",
         "url": "https://e2x.atlassian.net/browse/WSC-1735",
         "summary": "Documentation of all Cloudflare rules",
@@ -1544,19 +1559,6 @@
         "statusCategory": "new",
         "assignee": "Unassigned",
         "updated": "2026-09-02T16:30:50.392+0100",
-        "priority": "Poco importante",
-        "labels": [
-          "Needs-QA"
-        ]
-      },
-      {
-        "key": "WSC-173",
-        "url": "https://e2x.atlassian.net/browse/WSC-173",
-        "summary": "SEO - fix to product schema for PDP for reviews and ratings",
-        "status": "Blocked",
-        "statusCategory": "new",
-        "assignee": "Jair Huaman",
-        "updated": "2026-09-02T16:30:43.923+0100",
         "priority": "Poco importante",
         "labels": [
           "Needs-QA"
