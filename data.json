@@ -1,12 +1,12 @@
 {
-  "lastUpdated": "2026-09-15T22:44:39.133543+00:00",
+  "lastUpdated": "2026-09-16T03:47:38.919585+00:00",
   "jira": {
     "summary": {
       "total": 422,
       "byStatus": {
+        "En curso": 8,
         "Tech Review": 7,
         "Ready to QA": 4,
-        "En curso": 8,
         "IN QA": 1,
         "Blocked": 5,
         "QA Approved": 3,
@@ -23,6 +23,39 @@
       }
     },
     "tickets": [
+      {
+        "key": "WSC-1764",
+        "url": "https://e2x.atlassian.net/browse/WSC-1764",
+        "summary": "Configuration Sitespect Sandwich for Production",
+        "status": "En curso",
+        "statusCategory": "indeterminate",
+        "assignee": "Jair Huaman",
+        "updated": "2026-09-16T02:08:15.615+0100",
+        "priority": "Not Set",
+        "labels": []
+      },
+      {
+        "key": "WSC-1534",
+        "url": "https://e2x.atlassian.net/browse/WSC-1534",
+        "summary": "Investigate 403 Forbidden errors originating from Azure blocking Playwright tests in UAT",
+        "status": "En curso",
+        "statusCategory": "indeterminate",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-09-16T01:05:41.445+0100",
+        "priority": "Not Set",
+        "labels": []
+      },
+      {
+        "key": "WSC-1677",
+        "url": "https://e2x.atlassian.net/browse/WSC-1677",
+        "summary": "API 404 error - https://www.whitestuff.com/api/bigcommerce/getCart",
+        "status": "Tech Review",
+        "statusCategory": "indeterminate",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-09-15T23:51:48.552+0100",
+        "priority": "Poco importante",
+        "labels": []
+      },
       {
         "key": "WSC-1673",
         "url": "https://e2x.atlassian.net/browse/WSC-1673",
@@ -48,17 +81,6 @@
           "automatable",
           "co-build"
         ]
-      },
-      {
-        "key": "WSC-1534",
-        "url": "https://e2x.atlassian.net/browse/WSC-1534",
-        "summary": "Investigate 403 Forbidden errors originating from Azure blocking Playwright tests in UAT",
-        "status": "En curso",
-        "statusCategory": "indeterminate",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-09-15T22:33:06.650+0100",
-        "priority": "Not Set",
-        "labels": []
       },
       {
         "key": "WSC-1692",
@@ -855,17 +877,6 @@
         ]
       },
       {
-        "key": "WSC-1764",
-        "url": "https://e2x.atlassian.net/browse/WSC-1764",
-        "summary": "Configuration Sitespect Sandwich for Production",
-        "status": "En curso",
-        "statusCategory": "indeterminate",
-        "assignee": "Jair Huaman",
-        "updated": "2026-09-14T20:14:19.680+0100",
-        "priority": "Not Set",
-        "labels": []
-      },
-      {
         "key": "WSC-1686",
         "url": "https://e2x.atlassian.net/browse/WSC-1686",
         "summary": "[White Stuff] High Vulnerabilities Report - July 2026",
@@ -1600,17 +1611,6 @@
         "labels": [
           "Needs-QA"
         ]
-      },
-      {
-        "key": "WSC-1677",
-        "url": "https://e2x.atlassian.net/browse/WSC-1677",
-        "summary": "API 404 error - https://www.whitestuff.com/api/bigcommerce/getCart",
-        "status": "Tech Review",
-        "statusCategory": "indeterminate",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-09-01T14:30:12.812+0100",
-        "priority": "Poco importante",
-        "labels": []
       },
       {
         "key": "WSC-1632",
