@@ -1,22 +1,22 @@
 {
-  "lastUpdated": "2026-09-16T09:08:24.746102+00:00",
+  "lastUpdated": "2026-09-16T16:19:23.603447+00:00",
   "jira": {
     "summary": {
       "total": 422,
       "byStatus": {
-        "Tech Review": 6,
-        "Finalizada": 336,
-        "En curso": 8,
-        "Ready to QA": 4,
-        "IN QA": 1,
-        "Blocked": 5,
-        "QA Approved": 3,
-        "Listo": 19,
+        "RETURNED BY QA": 3,
+        "Ready to QA": 2,
+        "QA Approved": 4,
+        "En curso": 7,
+        "Finalizada": 339,
+        "Tech Review": 5,
+        "Listo": 18,
         "Tareas por hacer": 4,
+        "IN QA": 1,
+        "Blocked": 4,
         "Backlog": 13,
         "Pre-prioritized": 2,
         "Ready for Refinement": 1,
-        "RETURNED BY QA": 1,
         "IN UAT": 1,
         "Deprecated": 17,
         "READY FOR RELEASE": 1
@@ -24,87 +24,13 @@
     },
     "tickets": [
       {
-        "key": "WSC-1673",
-        "url": "https://e2x.atlassian.net/browse/WSC-1673",
-        "summary": "API 404 error - https://www.whitestuff.com/api/ampl/getContent",
-        "status": "Tech Review",
-        "statusCategory": "indeterminate",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-09-16T10:03:05.870+0100",
-        "priority": "Poco importante",
-        "labels": []
-      },
-      {
-        "key": "WSC-1677",
-        "url": "https://e2x.atlassian.net/browse/WSC-1677",
-        "summary": "API 404 error - https://www.whitestuff.com/api/bigcommerce/getCart",
-        "status": "Finalizada",
-        "statusCategory": "done",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-09-16T08:31:10.879+0100",
-        "priority": "Poco importante",
-        "labels": []
-      },
-      {
-        "key": "WSC-1764",
-        "url": "https://e2x.atlassian.net/browse/WSC-1764",
-        "summary": "Configuration Sitespect Sandwich for Production",
-        "status": "En curso",
-        "statusCategory": "indeterminate",
-        "assignee": "Jair Huaman",
-        "updated": "2026-09-16T02:08:15.615+0100",
-        "priority": "Not Set",
-        "labels": []
-      },
-      {
-        "key": "WSC-1534",
-        "url": "https://e2x.atlassian.net/browse/WSC-1534",
-        "summary": "Investigate 403 Forbidden errors originating from Azure blocking Playwright tests in UAT",
-        "status": "En curso",
-        "statusCategory": "indeterminate",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-09-16T01:05:41.445+0100",
-        "priority": "Not Set",
-        "labels": []
-      },
-      {
-        "key": "WSC-1757",
-        "url": "https://e2x.atlassian.net/browse/WSC-1757",
-        "summary": "PDP - ONE SIZE product - Add to Bag button becomes disabled after clicking a colour swatch",
-        "status": "Ready to QA",
-        "statusCategory": "new",
-        "assignee": "Unassigned",
-        "updated": "2026-09-15T22:45:03.819+0100",
-        "priority": "Importante",
-        "labels": [
-          "Needs-QA",
-          "automatable",
-          "co-build"
-        ]
-      },
-      {
-        "key": "WSC-1692",
-        "url": "https://e2x.atlassian.net/browse/WSC-1692",
-        "summary": "PERSONALISED CONTENT - 'no segment'",
-        "status": "Ready to QA",
-        "statusCategory": "new",
-        "assignee": "Unassigned",
-        "updated": "2026-09-15T22:30:48.246+0100",
-        "priority": "Supone un impedimento",
-        "labels": [
-          "Needs-QA",
-          "co-build",
-          "manualQA"
-        ]
-      },
-      {
         "key": "WSC-1687",
         "url": "https://e2x.atlassian.net/browse/WSC-1687",
         "summary": "PDP - gift card and e-gift card colour change",
-        "status": "Ready to QA",
-        "statusCategory": "new",
-        "assignee": "Unassigned",
-        "updated": "2026-09-15T21:58:38.073+0100",
+        "status": "RETURNED BY QA",
+        "statusCategory": "indeterminate",
+        "assignee": "Alexander Talavera",
+        "updated": "2026-09-16T16:55:58.273+0100",
         "priority": "Poco importante",
         "labels": [
           "Needs-QA",
@@ -116,14 +42,29 @@
         "key": "WSC-1697",
         "url": "https://e2x.atlassian.net/browse/WSC-1697",
         "summary": "PDP - 'back in stock' new UX",
-        "status": "Tech Review",
-        "statusCategory": "indeterminate",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-09-15T21:49:11.157+0100",
+        "status": "Ready to QA",
+        "statusCategory": "new",
+        "assignee": "Unassigned",
+        "updated": "2026-09-16T16:39:00.851+0100",
         "priority": "Importante",
         "labels": [
           "Needs-QA",
           "automatable"
+        ]
+      },
+      {
+        "key": "WSC-1757",
+        "url": "https://e2x.atlassian.net/browse/WSC-1757",
+        "summary": "PDP - ONE SIZE product - Add to Bag button becomes disabled after clicking a colour swatch",
+        "status": "QA Approved",
+        "statusCategory": "indeterminate",
+        "assignee": "Ingrith Santamaria",
+        "updated": "2026-09-16T16:27:12.131+0100",
+        "priority": "Importante",
+        "labels": [
+          "Needs-QA",
+          "automatable",
+          "co-build"
         ]
       },
       {
@@ -133,8 +74,150 @@
         "status": "En curso",
         "statusCategory": "indeterminate",
         "assignee": "Gerardo Romero",
-        "updated": "2026-09-15T20:56:05.554+0100",
+        "updated": "2026-09-16T16:17:10.699+0100",
         "priority": "Not Set",
+        "labels": []
+      },
+      {
+        "key": "WSC-1764",
+        "url": "https://e2x.atlassian.net/browse/WSC-1764",
+        "summary": "Configuration Sitespect Sandwich for Production",
+        "status": "Finalizada",
+        "statusCategory": "done",
+        "assignee": "Jair Huaman",
+        "updated": "2026-09-16T16:14:48.006+0100",
+        "priority": "Not Set",
+        "labels": []
+      },
+      {
+        "key": "WSC-1692",
+        "url": "https://e2x.atlassian.net/browse/WSC-1692",
+        "summary": "PERSONALISED CONTENT - 'no segment'",
+        "status": "Ready to QA",
+        "statusCategory": "new",
+        "assignee": "Gerardo Romero",
+        "updated": "2026-09-16T16:09:15.911+0100",
+        "priority": "Supone un impedimento",
+        "labels": [
+          "Needs-QA",
+          "co-build",
+          "manualQA"
+        ]
+      },
+      {
+        "key": "WSC-1733",
+        "url": "https://e2x.atlassian.net/browse/WSC-1733",
+        "summary": "SPIKE: Investigate Cloudflare 403 Challenge Blocking Checkout Automation on Desktop",
+        "status": "Tech Review",
+        "statusCategory": "indeterminate",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-09-16T15:50:25.809+0100",
+        "priority": "Importante",
+        "labels": [
+          "automation",
+          "cloudflare",
+          "spike"
+        ]
+      },
+      {
+        "key": "WSC-1684",
+        "url": "https://e2x.atlassian.net/browse/WSC-1684",
+        "summary": "PDP - mobile sticky ADD TO BAG UX",
+        "status": "RETURNED BY QA",
+        "statusCategory": "indeterminate",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-09-16T15:48:07.860+0100",
+        "priority": "Importante",
+        "labels": [
+          "Needs-QA",
+          "automatable"
+        ]
+      },
+      {
+        "key": "WSC-1763",
+        "url": "https://e2x.atlassian.net/browse/WSC-1763",
+        "summary": "Create a runbook document to revert Sitespect Sandwich configuration",
+        "status": "Finalizada",
+        "statusCategory": "done",
+        "assignee": "Jair Huaman",
+        "updated": "2026-09-16T15:16:25.488+0100",
+        "priority": "Not Set",
+        "labels": [
+          "runbook",
+          "sitespect"
+        ]
+      },
+      {
+        "key": "WSC-1534",
+        "url": "https://e2x.atlassian.net/browse/WSC-1534",
+        "summary": "Investigate 403 Forbidden errors originating from Azure blocking Playwright tests in UAT",
+        "status": "Finalizada",
+        "statusCategory": "done",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-09-16T15:13:48.524+0100",
+        "priority": "Not Set",
+        "labels": []
+      },
+      {
+        "key": "WSC-1695",
+        "url": "https://e2x.atlassian.net/browse/WSC-1695",
+        "summary": "PDP - new image layout / breadcrumb move",
+        "status": "Listo",
+        "statusCategory": "new",
+        "assignee": "Alexander Talavera",
+        "updated": "2026-09-16T15:08:24.084+0100",
+        "priority": "Importante",
+        "labels": [
+          "Needs-QA",
+          "automatable",
+          "manualQA"
+        ]
+      },
+      {
+        "key": "WSC-1685",
+        "url": "https://e2x.atlassian.net/browse/WSC-1685",
+        "summary": "PDP - mobile sticky ADD TO BAG change to its behaviour",
+        "status": "En curso",
+        "statusCategory": "indeterminate",
+        "assignee": "Alexander Talavera",
+        "updated": "2026-09-16T14:57:49.225+0100",
+        "priority": "Importante",
+        "labels": [
+          "Needs-QA",
+          "manualQA"
+        ]
+      },
+      {
+        "key": "WSC-1677",
+        "url": "https://e2x.atlassian.net/browse/WSC-1677",
+        "summary": "API 404 error - https://www.whitestuff.com/api/bigcommerce/getCart",
+        "status": "Finalizada",
+        "statusCategory": "done",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-09-16T13:22:37.685+0100",
+        "priority": "Poco importante",
+        "labels": []
+      },
+      {
+        "key": "WSC-1673",
+        "url": "https://e2x.atlassian.net/browse/WSC-1673",
+        "summary": "API 404 error - https://www.whitestuff.com/api/ampl/getContent",
+        "status": "Tech Review",
+        "statusCategory": "indeterminate",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-09-16T13:22:15.690+0100",
+        "priority": "Poco importante",
+        "labels": []
+      },
+      {
+        "key": "WSC-1736",
+        "url": "https://e2x.atlassian.net/browse/WSC-1736",
+        "summary": "Spike: PERSONALISED CONTENT - preview/visualiser on a Content Page",
+        "status": "Tareas por hacer",
+        "statusCategory": "new",
+        "assignee": "Unassigned",
+        "updated": "2026-09-16T10:29:25.281+0100",
+        "priority": "Supone un impedimento",
         "labels": []
       },
       {
@@ -145,20 +228,6 @@
         "statusCategory": "indeterminate",
         "assignee": "Gerardo Romero",
         "updated": "2026-09-15T20:53:54.667+0100",
-        "priority": "Importante",
-        "labels": [
-          "Needs-QA",
-          "automatable"
-        ]
-      },
-      {
-        "key": "WSC-1684",
-        "url": "https://e2x.atlassian.net/browse/WSC-1684",
-        "summary": "PDP - mobile sticky ADD TO BAG UX",
-        "status": "Ready to QA",
-        "statusCategory": "new",
-        "assignee": "Ingrith Santamaria",
-        "updated": "2026-09-15T20:36:28.299+0100",
         "priority": "Importante",
         "labels": [
           "Needs-QA",
@@ -251,20 +320,6 @@
         "updated": "2026-09-15T16:22:01.900+0100",
         "priority": "Importante",
         "labels": []
-      },
-      {
-        "key": "WSC-1685",
-        "url": "https://e2x.atlassian.net/browse/WSC-1685",
-        "summary": "PDP - mobile sticky ADD TO BAG change to its behaviour",
-        "status": "Listo",
-        "statusCategory": "new",
-        "assignee": "Alexander Talavera",
-        "updated": "2026-09-15T15:35:58.724+0100",
-        "priority": "Importante",
-        "labels": [
-          "Needs-QA",
-          "manualQA"
-        ]
       },
       {
         "key": "WSC-1758",
@@ -500,21 +555,6 @@
         "updated": "2026-09-15T15:02:50.098+0100",
         "priority": "Not Set",
         "labels": []
-      },
-      {
-        "key": "WSC-1733",
-        "url": "https://e2x.atlassian.net/browse/WSC-1733",
-        "summary": "SPIKE: Investigate Cloudflare 403 Challenge Blocking Checkout Automation on Desktop",
-        "status": "Blocked",
-        "statusCategory": "new",
-        "assignee": "Alexander Talavera",
-        "updated": "2026-09-15T14:40:41.624+0100",
-        "priority": "Importante",
-        "labels": [
-          "automation",
-          "cloudflare",
-          "spike"
-        ]
       },
       {
         "key": "WSC-1601",
@@ -890,17 +930,6 @@
         ]
       },
       {
-        "key": "WSC-1736",
-        "url": "https://e2x.atlassian.net/browse/WSC-1736",
-        "summary": "Spike: PERSONALISED CONTENT - preview/visualiser on a Content Page",
-        "status": "Tareas por hacer",
-        "statusCategory": "new",
-        "assignee": "Unassigned",
-        "updated": "2026-09-14T19:56:35.601+0100",
-        "priority": "Supone un impedimento",
-        "labels": []
-      },
-      {
         "key": "WSC-1737",
         "url": "https://e2x.atlassian.net/browse/WSC-1737",
         "summary": "Review and Fix of existing Vulnerability Tickets until August 2026",
@@ -1080,35 +1109,6 @@
         "labels": [
           "Needs-QA",
           "accelerated"
-        ]
-      },
-      {
-        "key": "WSC-1763",
-        "url": "https://e2x.atlassian.net/browse/WSC-1763",
-        "summary": "Create a runbook document to revert Sitespect Sandwich configuration",
-        "status": "Tech Review",
-        "statusCategory": "indeterminate",
-        "assignee": "Jair Huaman",
-        "updated": "2026-09-14T17:44:41.928+0100",
-        "priority": "Not Set",
-        "labels": [
-          "runbook",
-          "sitespect"
-        ]
-      },
-      {
-        "key": "WSC-1695",
-        "url": "https://e2x.atlassian.net/browse/WSC-1695",
-        "summary": "PDP - new image layout / breadcrumb move",
-        "status": "Listo",
-        "statusCategory": "new",
-        "assignee": "Alexander Talavera",
-        "updated": "2026-09-14T15:23:43.801+0100",
-        "priority": "Importante",
-        "labels": [
-          "Needs-QA",
-          "automatable",
-          "manualQA"
         ]
       },
       {
