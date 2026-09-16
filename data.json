@@ -1,15 +1,15 @@
 {
-  "lastUpdated": "2026-09-16T16:19:23.603447+00:00",
+  "lastUpdated": "2026-09-16T22:41:20.284055+00:00",
   "jira": {
     "summary": {
       "total": 422,
       "byStatus": {
-        "RETURNED BY QA": 3,
-        "Ready to QA": 2,
-        "QA Approved": 4,
         "En curso": 7,
+        "Ready to QA": 3,
         "Finalizada": 339,
         "Tech Review": 5,
+        "QA Approved": 4,
+        "RETURNED BY QA": 2,
         "Listo": 18,
         "Tareas por hacer": 4,
         "IN QA": 1,
@@ -24,13 +24,67 @@
     },
     "tickets": [
       {
+        "key": "WSC-1685",
+        "url": "https://e2x.atlassian.net/browse/WSC-1685",
+        "summary": "PDP - mobile sticky ADD TO BAG change to its behaviour",
+        "status": "En curso",
+        "statusCategory": "indeterminate",
+        "assignee": "Alexander Talavera",
+        "updated": "2026-09-16T20:52:57.413+0100",
+        "priority": "Importante",
+        "labels": [
+          "Needs-QA",
+          "manualQA"
+        ]
+      },
+      {
+        "key": "WSC-1692",
+        "url": "https://e2x.atlassian.net/browse/WSC-1692",
+        "summary": "PERSONALISED CONTENT - 'no segment'",
+        "status": "Ready to QA",
+        "statusCategory": "new",
+        "assignee": "Gerardo Romero",
+        "updated": "2026-09-16T20:43:31.032+0100",
+        "priority": "Supone un impedimento",
+        "labels": [
+          "Needs-QA",
+          "co-build",
+          "manualQA"
+        ]
+      },
+      {
+        "key": "WSC-1710",
+        "url": "https://e2x.atlassian.net/browse/WSC-1710",
+        "summary": "CLS-01 \u2014 PDP template - Desktop and Mobile",
+        "status": "En curso",
+        "statusCategory": "indeterminate",
+        "assignee": "Jair Huaman",
+        "updated": "2026-09-16T20:35:54.261+0100",
+        "priority": "Cr\u00edtica",
+        "labels": [
+          "Needs-QA",
+          "manualQA"
+        ]
+      },
+      {
+        "key": "WSC-1764",
+        "url": "https://e2x.atlassian.net/browse/WSC-1764",
+        "summary": "Configuration Sitespect Sandwich for Production",
+        "status": "Finalizada",
+        "statusCategory": "done",
+        "assignee": "Jair Huaman",
+        "updated": "2026-09-16T20:32:41.211+0100",
+        "priority": "Not Set",
+        "labels": []
+      },
+      {
         "key": "WSC-1687",
         "url": "https://e2x.atlassian.net/browse/WSC-1687",
         "summary": "PDP - gift card and e-gift card colour change",
-        "status": "RETURNED BY QA",
-        "statusCategory": "indeterminate",
-        "assignee": "Alexander Talavera",
-        "updated": "2026-09-16T16:55:58.273+0100",
+        "status": "Ready to QA",
+        "statusCategory": "new",
+        "assignee": "Unassigned",
+        "updated": "2026-09-16T20:29:33.348+0100",
         "priority": "Poco importante",
         "labels": [
           "Needs-QA",
@@ -39,13 +93,24 @@
         ]
       },
       {
+        "key": "WSC-1673",
+        "url": "https://e2x.atlassian.net/browse/WSC-1673",
+        "summary": "API 404 error - https://www.whitestuff.com/api/ampl/getContent",
+        "status": "Tech Review",
+        "statusCategory": "indeterminate",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-09-16T19:03:46.816+0100",
+        "priority": "Poco importante",
+        "labels": []
+      },
+      {
         "key": "WSC-1697",
         "url": "https://e2x.atlassian.net/browse/WSC-1697",
         "summary": "PDP - 'back in stock' new UX",
         "status": "Ready to QA",
         "statusCategory": "new",
         "assignee": "Unassigned",
-        "updated": "2026-09-16T16:39:00.851+0100",
+        "updated": "2026-09-16T17:30:43.089+0100",
         "priority": "Importante",
         "labels": [
           "Needs-QA",
@@ -77,32 +142,6 @@
         "updated": "2026-09-16T16:17:10.699+0100",
         "priority": "Not Set",
         "labels": []
-      },
-      {
-        "key": "WSC-1764",
-        "url": "https://e2x.atlassian.net/browse/WSC-1764",
-        "summary": "Configuration Sitespect Sandwich for Production",
-        "status": "Finalizada",
-        "statusCategory": "done",
-        "assignee": "Jair Huaman",
-        "updated": "2026-09-16T16:14:48.006+0100",
-        "priority": "Not Set",
-        "labels": []
-      },
-      {
-        "key": "WSC-1692",
-        "url": "https://e2x.atlassian.net/browse/WSC-1692",
-        "summary": "PERSONALISED CONTENT - 'no segment'",
-        "status": "Ready to QA",
-        "statusCategory": "new",
-        "assignee": "Gerardo Romero",
-        "updated": "2026-09-16T16:09:15.911+0100",
-        "priority": "Supone un impedimento",
-        "labels": [
-          "Needs-QA",
-          "co-build",
-          "manualQA"
-        ]
       },
       {
         "key": "WSC-1733",
@@ -174,20 +213,6 @@
         ]
       },
       {
-        "key": "WSC-1685",
-        "url": "https://e2x.atlassian.net/browse/WSC-1685",
-        "summary": "PDP - mobile sticky ADD TO BAG change to its behaviour",
-        "status": "En curso",
-        "statusCategory": "indeterminate",
-        "assignee": "Alexander Talavera",
-        "updated": "2026-09-16T14:57:49.225+0100",
-        "priority": "Importante",
-        "labels": [
-          "Needs-QA",
-          "manualQA"
-        ]
-      },
-      {
         "key": "WSC-1677",
         "url": "https://e2x.atlassian.net/browse/WSC-1677",
         "summary": "API 404 error - https://www.whitestuff.com/api/bigcommerce/getCart",
@@ -195,17 +220,6 @@
         "statusCategory": "done",
         "assignee": "enmanuel.ramirez",
         "updated": "2026-09-16T13:22:37.685+0100",
-        "priority": "Poco importante",
-        "labels": []
-      },
-      {
-        "key": "WSC-1673",
-        "url": "https://e2x.atlassian.net/browse/WSC-1673",
-        "summary": "API 404 error - https://www.whitestuff.com/api/ampl/getContent",
-        "status": "Tech Review",
-        "statusCategory": "indeterminate",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-09-16T13:22:15.690+0100",
         "priority": "Poco importante",
         "labels": []
       },
@@ -282,20 +296,6 @@
         "updated": "2026-09-15T19:31:52.566+0100",
         "priority": "Poco importante",
         "labels": []
-      },
-      {
-        "key": "WSC-1710",
-        "url": "https://e2x.atlassian.net/browse/WSC-1710",
-        "summary": "CLS-01 \u2014 PDP template - Desktop and Mobile",
-        "status": "En curso",
-        "statusCategory": "indeterminate",
-        "assignee": "Jair Huaman",
-        "updated": "2026-09-15T19:21:53.349+0100",
-        "priority": "Cr\u00edtica",
-        "labels": [
-          "Needs-QA",
-          "manualQA"
-        ]
       },
       {
         "key": "WSC-1761",
