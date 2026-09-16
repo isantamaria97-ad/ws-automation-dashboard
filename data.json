@@ -1,17 +1,17 @@
 {
-  "lastUpdated": "2026-09-16T03:47:38.919585+00:00",
+  "lastUpdated": "2026-09-16T09:08:24.746102+00:00",
   "jira": {
     "summary": {
       "total": 422,
       "byStatus": {
+        "Tech Review": 6,
+        "Finalizada": 336,
         "En curso": 8,
-        "Tech Review": 7,
         "Ready to QA": 4,
         "IN QA": 1,
         "Blocked": 5,
         "QA Approved": 3,
         "Listo": 19,
-        "Finalizada": 335,
         "Tareas por hacer": 4,
         "Backlog": 13,
         "Pre-prioritized": 2,
@@ -23,6 +23,28 @@
       }
     },
     "tickets": [
+      {
+        "key": "WSC-1673",
+        "url": "https://e2x.atlassian.net/browse/WSC-1673",
+        "summary": "API 404 error - https://www.whitestuff.com/api/ampl/getContent",
+        "status": "Tech Review",
+        "statusCategory": "indeterminate",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-09-16T10:03:05.870+0100",
+        "priority": "Poco importante",
+        "labels": []
+      },
+      {
+        "key": "WSC-1677",
+        "url": "https://e2x.atlassian.net/browse/WSC-1677",
+        "summary": "API 404 error - https://www.whitestuff.com/api/bigcommerce/getCart",
+        "status": "Finalizada",
+        "statusCategory": "done",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-09-16T08:31:10.879+0100",
+        "priority": "Poco importante",
+        "labels": []
+      },
       {
         "key": "WSC-1764",
         "url": "https://e2x.atlassian.net/browse/WSC-1764",
@@ -43,28 +65,6 @@
         "assignee": "enmanuel.ramirez",
         "updated": "2026-09-16T01:05:41.445+0100",
         "priority": "Not Set",
-        "labels": []
-      },
-      {
-        "key": "WSC-1677",
-        "url": "https://e2x.atlassian.net/browse/WSC-1677",
-        "summary": "API 404 error - https://www.whitestuff.com/api/bigcommerce/getCart",
-        "status": "Tech Review",
-        "statusCategory": "indeterminate",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-09-15T23:51:48.552+0100",
-        "priority": "Poco importante",
-        "labels": []
-      },
-      {
-        "key": "WSC-1673",
-        "url": "https://e2x.atlassian.net/browse/WSC-1673",
-        "summary": "API 404 error - https://www.whitestuff.com/api/ampl/getContent",
-        "status": "Tech Review",
-        "statusCategory": "indeterminate",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-09-15T23:20:17.342+0100",
-        "priority": "Poco importante",
         "labels": []
       },
       {
