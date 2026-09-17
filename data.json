@@ -1,18 +1,17 @@
 {
-  "lastUpdated": "2026-09-17T09:16:20.192799+00:00",
+  "lastUpdated": "2026-09-17T16:26:50.283068+00:00",
   "jira": {
     "summary": {
-      "total": 422,
+      "total": 423,
       "byStatus": {
-        "Tech Review": 5,
-        "QA Approved": 5,
+        "Tech Review": 4,
         "En curso": 7,
-        "Ready to QA": 2,
-        "Finalizada": 339,
+        "Ready to QA": 3,
+        "Listo": 17,
+        "QA Approved": 6,
+        "Finalizada": 341,
         "RETURNED BY QA": 2,
-        "Listo": 18,
         "Tareas por hacer": 4,
-        "IN QA": 1,
         "Blocked": 4,
         "Backlog": 13,
         "Pre-prioritized": 2,
@@ -24,14 +23,14 @@
     },
     "tickets": [
       {
-        "key": "WSC-1673",
-        "url": "https://e2x.atlassian.net/browse/WSC-1673",
-        "summary": "API 404 error - https://www.whitestuff.com/api/ampl/getContent",
+        "key": "WSC-1709",
+        "url": "https://e2x.atlassian.net/browse/WSC-1709",
+        "summary": "INP-01 \u2014 PDP template - Desktop and Mobile",
         "status": "Tech Review",
         "statusCategory": "indeterminate",
         "assignee": "enmanuel.ramirez",
-        "updated": "2026-09-17T03:39:39.753+0100",
-        "priority": "Poco importante",
+        "updated": "2026-09-17T17:22:53.251+0100",
+        "priority": "Cr\u00edtica",
         "labels": []
       },
       {
@@ -41,7 +40,7 @@
         "status": "Tech Review",
         "statusCategory": "indeterminate",
         "assignee": "enmanuel.ramirez",
-        "updated": "2026-09-17T02:27:27.953+0100",
+        "updated": "2026-09-17T17:17:42.808+0100",
         "priority": "Importante",
         "labels": [
           "automation",
@@ -50,18 +49,68 @@
         ]
       },
       {
-        "key": "WSC-1687",
-        "url": "https://e2x.atlassian.net/browse/WSC-1687",
-        "summary": "PDP - gift card and e-gift card colour change",
-        "status": "QA Approved",
+        "key": "WSC-1162",
+        "url": "https://e2x.atlassian.net/browse/WSC-1162",
+        "summary": "Set Up Automated Yearly Task for Security.txt Renewal",
+        "status": "En curso",
         "statusCategory": "indeterminate",
-        "assignee": "Ingrith Santamaria",
-        "updated": "2026-09-17T01:31:15.419+0100",
+        "assignee": "Jair Huaman",
+        "updated": "2026-09-17T17:15:47.489+0100",
         "priority": "Poco importante",
+        "labels": []
+      },
+      {
+        "key": "WSC-1768",
+        "url": "https://e2x.atlassian.net/browse/WSC-1768",
+        "summary": "Spike \u2013 Investigate UAT Access Restrictions",
+        "status": "En curso",
+        "statusCategory": "indeterminate",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-09-17T17:03:51.993+0100",
+        "priority": "Not Set",
+        "labels": []
+      },
+      {
+        "key": "WSC-1697",
+        "url": "https://e2x.atlassian.net/browse/WSC-1697",
+        "summary": "PDP - 'back in stock' new UX",
+        "status": "Ready to QA",
+        "statusCategory": "new",
+        "assignee": "Gerardo Romero",
+        "updated": "2026-09-17T16:55:06.606+0100",
+        "priority": "Importante",
         "labels": [
           "Needs-QA",
-          "manualQA",
-          "standard"
+          "automatable"
+        ]
+      },
+      {
+        "key": "WSC-1695",
+        "url": "https://e2x.atlassian.net/browse/WSC-1695",
+        "summary": "PDP - new image layout / breadcrumb move",
+        "status": "Listo",
+        "statusCategory": "new",
+        "assignee": "Alexander Talavera",
+        "updated": "2026-09-17T16:51:38.466+0100",
+        "priority": "Importante",
+        "labels": [
+          "Needs-QA",
+          "automatable",
+          "manualQA"
+        ]
+      },
+      {
+        "key": "WSC-1683",
+        "url": "https://e2x.atlassian.net/browse/WSC-1683",
+        "summary": "PDP - ATB and Size UX redesign",
+        "status": "QA Approved",
+        "statusCategory": "indeterminate",
+        "assignee": "Gerardo Romero",
+        "updated": "2026-09-17T16:48:27.421+0100",
+        "priority": "Importante",
+        "labels": [
+          "Needs-QA",
+          "automatable"
         ]
       },
       {
@@ -71,12 +120,23 @@
         "status": "En curso",
         "statusCategory": "indeterminate",
         "assignee": "Alexander Talavera",
-        "updated": "2026-09-16T20:52:57.413+0100",
+        "updated": "2026-09-17T16:46:27.380+0100",
         "priority": "Importante",
         "labels": [
           "Needs-QA",
           "manualQA"
         ]
+      },
+      {
+        "key": "WSC-1744",
+        "url": "https://e2x.atlassian.net/browse/WSC-1744",
+        "summary": "[SiteSpect - QA] Sandwich Model Rollout: Regression & Load/Latency Testing",
+        "status": "Finalizada",
+        "statusCategory": "done",
+        "assignee": "Gerardo Romero",
+        "updated": "2026-09-17T16:46:20.986+0100",
+        "priority": "Not Set",
+        "labels": []
       },
       {
         "key": "WSC-1692",
@@ -85,25 +145,11 @@
         "status": "Ready to QA",
         "statusCategory": "new",
         "assignee": "Gerardo Romero",
-        "updated": "2026-09-16T20:43:31.032+0100",
+        "updated": "2026-09-17T16:45:39.142+0100",
         "priority": "Supone un impedimento",
         "labels": [
           "Needs-QA",
           "co-build",
-          "manualQA"
-        ]
-      },
-      {
-        "key": "WSC-1710",
-        "url": "https://e2x.atlassian.net/browse/WSC-1710",
-        "summary": "CLS-01 \u2014 PDP template - Desktop and Mobile",
-        "status": "En curso",
-        "statusCategory": "indeterminate",
-        "assignee": "Jair Huaman",
-        "updated": "2026-09-16T20:35:54.261+0100",
-        "priority": "Cr\u00edtica",
-        "labels": [
-          "Needs-QA",
           "manualQA"
         ]
       },
@@ -114,22 +160,98 @@
         "status": "Finalizada",
         "statusCategory": "done",
         "assignee": "Jair Huaman",
-        "updated": "2026-09-16T20:32:41.211+0100",
+        "updated": "2026-09-17T16:45:16.067+0100",
         "priority": "Not Set",
         "labels": []
       },
       {
-        "key": "WSC-1697",
-        "url": "https://e2x.atlassian.net/browse/WSC-1697",
-        "summary": "PDP - 'back in stock' new UX",
+        "key": "WSC-1710",
+        "url": "https://e2x.atlassian.net/browse/WSC-1710",
+        "summary": "CLS-01 \u2014 PDP template - Desktop and Mobile",
         "status": "Ready to QA",
         "statusCategory": "new",
         "assignee": "Unassigned",
-        "updated": "2026-09-16T17:30:43.089+0100",
+        "updated": "2026-09-17T16:33:29.401+0100",
+        "priority": "Cr\u00edtica",
+        "labels": [
+          "Needs-QA",
+          "manualQA"
+        ]
+      },
+      {
+        "key": "WSC-1636",
+        "url": "https://e2x.atlassian.net/browse/WSC-1636",
+        "summary": "Tighten Super Bot Fight Mode policy: Block Automated, Managed Challenge Likely Automated",
+        "status": "En curso",
+        "statusCategory": "indeterminate",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-09-17T16:32:52.419+0100",
+        "priority": "Cr\u00edtica",
+        "labels": []
+      },
+      {
+        "key": "WSC-1763",
+        "url": "https://e2x.atlassian.net/browse/WSC-1763",
+        "summary": "Create a runbook document to revert Sitespect Sandwich configuration",
+        "status": "Finalizada",
+        "statusCategory": "done",
+        "assignee": "Jair Huaman",
+        "updated": "2026-09-17T15:34:12.492+0100",
+        "priority": "Not Set",
+        "labels": [
+          "runbook",
+          "sitespect"
+        ]
+      },
+      {
+        "key": "WSC-1753",
+        "url": "https://e2x.atlassian.net/browse/WSC-1753",
+        "summary": "Review and Update of Playwright Affected Testcases",
+        "status": "Finalizada",
+        "statusCategory": "done",
+        "assignee": "Gerardo Romero",
+        "updated": "2026-09-17T15:16:10.774+0100",
+        "priority": "Not Set",
+        "labels": []
+      },
+      {
+        "key": "WSC-1673",
+        "url": "https://e2x.atlassian.net/browse/WSC-1673",
+        "summary": "API 404 error - https://www.whitestuff.com/api/ampl/getContent",
+        "status": "En curso",
+        "statusCategory": "indeterminate",
+        "assignee": "Alexander Talavera",
+        "updated": "2026-09-17T15:05:35.137+0100",
+        "priority": "Poco importante",
+        "labels": []
+      },
+      {
+        "key": "WSC-1684",
+        "url": "https://e2x.atlassian.net/browse/WSC-1684",
+        "summary": "PDP - mobile sticky ADD TO BAG UX",
+        "status": "RETURNED BY QA",
+        "statusCategory": "indeterminate",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-09-17T14:13:17.459+0100",
         "priority": "Importante",
         "labels": [
           "Needs-QA",
           "automatable"
+        ]
+      },
+      {
+        "key": "WSC-1687",
+        "url": "https://e2x.atlassian.net/browse/WSC-1687",
+        "summary": "PDP - gift card and e-gift card colour change",
+        "status": "QA Approved",
+        "statusCategory": "indeterminate",
+        "assignee": "Ingrith Santamaria",
+        "updated": "2026-09-17T14:12:54.210+0100",
+        "priority": "Poco importante",
+        "labels": [
+          "Needs-QA",
+          "manualQA",
+          "standard"
         ]
       },
       {
@@ -148,45 +270,6 @@
         ]
       },
       {
-        "key": "WSC-1753",
-        "url": "https://e2x.atlassian.net/browse/WSC-1753",
-        "summary": "Review and Update of Playwright Affected Testcases",
-        "status": "En curso",
-        "statusCategory": "indeterminate",
-        "assignee": "Gerardo Romero",
-        "updated": "2026-09-16T16:17:10.699+0100",
-        "priority": "Not Set",
-        "labels": []
-      },
-      {
-        "key": "WSC-1684",
-        "url": "https://e2x.atlassian.net/browse/WSC-1684",
-        "summary": "PDP - mobile sticky ADD TO BAG UX",
-        "status": "RETURNED BY QA",
-        "statusCategory": "indeterminate",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-09-16T15:48:07.860+0100",
-        "priority": "Importante",
-        "labels": [
-          "Needs-QA",
-          "automatable"
-        ]
-      },
-      {
-        "key": "WSC-1763",
-        "url": "https://e2x.atlassian.net/browse/WSC-1763",
-        "summary": "Create a runbook document to revert Sitespect Sandwich configuration",
-        "status": "Finalizada",
-        "statusCategory": "done",
-        "assignee": "Jair Huaman",
-        "updated": "2026-09-16T15:16:25.488+0100",
-        "priority": "Not Set",
-        "labels": [
-          "runbook",
-          "sitespect"
-        ]
-      },
-      {
         "key": "WSC-1534",
         "url": "https://e2x.atlassian.net/browse/WSC-1534",
         "summary": "Investigate 403 Forbidden errors originating from Azure blocking Playwright tests in UAT",
@@ -196,21 +279,6 @@
         "updated": "2026-09-16T15:13:48.524+0100",
         "priority": "Not Set",
         "labels": []
-      },
-      {
-        "key": "WSC-1695",
-        "url": "https://e2x.atlassian.net/browse/WSC-1695",
-        "summary": "PDP - new image layout / breadcrumb move",
-        "status": "Listo",
-        "statusCategory": "new",
-        "assignee": "Alexander Talavera",
-        "updated": "2026-09-16T15:08:24.084+0100",
-        "priority": "Importante",
-        "labels": [
-          "Needs-QA",
-          "automatable",
-          "manualQA"
-        ]
       },
       {
         "key": "WSC-1677",
@@ -233,20 +301,6 @@
         "updated": "2026-09-16T10:29:25.281+0100",
         "priority": "Supone un impedimento",
         "labels": []
-      },
-      {
-        "key": "WSC-1683",
-        "url": "https://e2x.atlassian.net/browse/WSC-1683",
-        "summary": "PDP - ATB and Size UX redesign",
-        "status": "IN QA",
-        "statusCategory": "indeterminate",
-        "assignee": "Gerardo Romero",
-        "updated": "2026-09-15T20:53:54.667+0100",
-        "priority": "Importante",
-        "labels": [
-          "Needs-QA",
-          "automatable"
-        ]
       },
       {
         "key": "WSC-1504",
@@ -546,17 +600,6 @@
         "labels": []
       },
       {
-        "key": "WSC-1744",
-        "url": "https://e2x.atlassian.net/browse/WSC-1744",
-        "summary": "[SiteSpect - QA] Sandwich Model Rollout: Regression & Load/Latency Testing",
-        "status": "En curso",
-        "statusCategory": "indeterminate",
-        "assignee": "Gerardo Romero",
-        "updated": "2026-09-15T15:02:50.098+0100",
-        "priority": "Not Set",
-        "labels": []
-      },
-      {
         "key": "WSC-1601",
         "url": "https://e2x.atlassian.net/browse/WSC-1601",
         "summary": "CONTENT - TwoForBanner amendments - notations",
@@ -786,17 +829,6 @@
           "Needs-QA",
           "co-build"
         ]
-      },
-      {
-        "key": "WSC-1162",
-        "url": "https://e2x.atlassian.net/browse/WSC-1162",
-        "summary": "Set Up Automated Yearly Task for Security.txt Renewal",
-        "status": "Listo",
-        "statusCategory": "new",
-        "assignee": "Jair Huaman",
-        "updated": "2026-09-14T21:15:39.283+0100",
-        "priority": "Poco importante",
-        "labels": []
       },
       {
         "key": "WSC-1629",
@@ -1112,17 +1144,6 @@
         ]
       },
       {
-        "key": "WSC-1636",
-        "url": "https://e2x.atlassian.net/browse/WSC-1636",
-        "summary": "Tighten Super Bot Fight Mode policy: Block Automated, Managed Challenge Likely Automated",
-        "status": "En curso",
-        "statusCategory": "indeterminate",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-09-11T18:06:27.787+0100",
-        "priority": "Cr\u00edtica",
-        "labels": []
-      },
-      {
         "key": "WSC-1481",
         "url": "https://e2x.atlassian.net/browse/WSC-1481",
         "summary": "Initial CSP Report-Only Rollout  (Production)",
@@ -1186,17 +1207,6 @@
           "Needs-QA",
           "accelerated"
         ]
-      },
-      {
-        "key": "WSC-1709",
-        "url": "https://e2x.atlassian.net/browse/WSC-1709",
-        "summary": "INP-01 \u2014 PDP template - Desktop and Mobile",
-        "status": "Tech Review",
-        "statusCategory": "indeterminate",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-09-10T00:29:12.884+0100",
-        "priority": "Cr\u00edtica",
-        "labels": []
       },
       {
         "key": "WSC-1752",
@@ -5282,11 +5292,11 @@
       "scopeFolderName": "Regression"
     },
     "coverage": {
-      "total": 117,
-      "automated": 99,
+      "total": 120,
+      "automated": 102,
       "notAutomated": 18,
       "unclassified": 0,
-      "automatedPct": 84.6,
+      "automatedPct": 85.0,
       "byFolder": [
         {
           "folderId": null,
@@ -5301,19 +5311,19 @@
           "folderId": null,
           "name": "PDP",
           "group": "Components",
-          "automated": 18,
+          "automated": 20,
           "notAutomated": 6,
           "unclassified": 0,
-          "total": 24
+          "total": 26
         },
         {
           "folderId": null,
           "name": "Other",
           "group": "Components",
-          "automated": 15,
+          "automated": 16,
           "notAutomated": 2,
           "unclassified": 0,
-          "total": 17
+          "total": 18
         },
         {
           "folderId": null,
@@ -5554,6 +5564,39 @@
       ]
     },
     "cases": [
+      {
+        "id": 159570,
+        "name": "OneSize product: ATB label shows \"Add to bag\" on landing and button is enabled",
+        "folderId": 20991,
+        "folderPath": "Regression",
+        "bucket": "automated",
+        "priority": {
+          "id": 2,
+          "name": "Normal"
+        }
+      },
+      {
+        "id": 159569,
+        "name": "Size+fit product: ATB label transitions from \"PLEASE SELECT SIZE AND FIT\" when fit is selected",
+        "folderId": 20991,
+        "folderPath": "Regression",
+        "bucket": "automated",
+        "priority": {
+          "id": 2,
+          "name": "Normal"
+        }
+      },
+      {
+        "id": 159568,
+        "name": "Size-only product: ATB label updates from \"PLEASE SELECT SIZE\" to \"Add to bag\" on size selection",
+        "folderId": 20991,
+        "folderPath": "Regression",
+        "bucket": "automated",
+        "priority": {
+          "id": 2,
+          "name": "Normal"
+        }
+      },
       {
         "id": 156295,
         "name": "E-gift card PDP renders correctly after hard refresh",
