@@ -1,14 +1,14 @@
 {
-  "lastUpdated": "2026-09-16T22:41:20.284055+00:00",
+  "lastUpdated": "2026-09-17T03:52:34.879924+00:00",
   "jira": {
     "summary": {
       "total": 422,
       "byStatus": {
-        "En curso": 7,
-        "Ready to QA": 3,
-        "Finalizada": 339,
         "Tech Review": 5,
-        "QA Approved": 4,
+        "QA Approved": 5,
+        "En curso": 7,
+        "Ready to QA": 2,
+        "Finalizada": 339,
         "RETURNED BY QA": 2,
         "Listo": 18,
         "Tareas por hacer": 4,
@@ -23,6 +23,47 @@
       }
     },
     "tickets": [
+      {
+        "key": "WSC-1673",
+        "url": "https://e2x.atlassian.net/browse/WSC-1673",
+        "summary": "API 404 error - https://www.whitestuff.com/api/ampl/getContent",
+        "status": "Tech Review",
+        "statusCategory": "indeterminate",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-09-17T03:39:39.753+0100",
+        "priority": "Poco importante",
+        "labels": []
+      },
+      {
+        "key": "WSC-1733",
+        "url": "https://e2x.atlassian.net/browse/WSC-1733",
+        "summary": "SPIKE: Investigate Cloudflare 403 Challenge Blocking Checkout Automation on Desktop",
+        "status": "Tech Review",
+        "statusCategory": "indeterminate",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-09-17T02:27:27.953+0100",
+        "priority": "Importante",
+        "labels": [
+          "automation",
+          "cloudflare",
+          "spike"
+        ]
+      },
+      {
+        "key": "WSC-1687",
+        "url": "https://e2x.atlassian.net/browse/WSC-1687",
+        "summary": "PDP - gift card and e-gift card colour change",
+        "status": "QA Approved",
+        "statusCategory": "indeterminate",
+        "assignee": "Ingrith Santamaria",
+        "updated": "2026-09-17T01:31:15.419+0100",
+        "priority": "Poco importante",
+        "labels": [
+          "Needs-QA",
+          "manualQA",
+          "standard"
+        ]
+      },
       {
         "key": "WSC-1685",
         "url": "https://e2x.atlassian.net/browse/WSC-1685",
@@ -78,32 +119,6 @@
         "labels": []
       },
       {
-        "key": "WSC-1687",
-        "url": "https://e2x.atlassian.net/browse/WSC-1687",
-        "summary": "PDP - gift card and e-gift card colour change",
-        "status": "Ready to QA",
-        "statusCategory": "new",
-        "assignee": "Unassigned",
-        "updated": "2026-09-16T20:29:33.348+0100",
-        "priority": "Poco importante",
-        "labels": [
-          "Needs-QA",
-          "manualQA",
-          "standard"
-        ]
-      },
-      {
-        "key": "WSC-1673",
-        "url": "https://e2x.atlassian.net/browse/WSC-1673",
-        "summary": "API 404 error - https://www.whitestuff.com/api/ampl/getContent",
-        "status": "Tech Review",
-        "statusCategory": "indeterminate",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-09-16T19:03:46.816+0100",
-        "priority": "Poco importante",
-        "labels": []
-      },
-      {
         "key": "WSC-1697",
         "url": "https://e2x.atlassian.net/browse/WSC-1697",
         "summary": "PDP - 'back in stock' new UX",
@@ -142,21 +157,6 @@
         "updated": "2026-09-16T16:17:10.699+0100",
         "priority": "Not Set",
         "labels": []
-      },
-      {
-        "key": "WSC-1733",
-        "url": "https://e2x.atlassian.net/browse/WSC-1733",
-        "summary": "SPIKE: Investigate Cloudflare 403 Challenge Blocking Checkout Automation on Desktop",
-        "status": "Tech Review",
-        "statusCategory": "indeterminate",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-09-16T15:50:25.809+0100",
-        "priority": "Importante",
-        "labels": [
-          "automation",
-          "cloudflare",
-          "spike"
-        ]
       },
       {
         "key": "WSC-1684",
