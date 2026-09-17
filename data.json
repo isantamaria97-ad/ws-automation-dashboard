@@ -1,27 +1,117 @@
 {
-  "lastUpdated": "2026-09-17T16:26:50.283068+00:00",
+  "lastUpdated": "2026-09-17T22:42:28.185627+00:00",
   "jira": {
     "summary": {
       "total": 423,
       "byStatus": {
         "Tech Review": 4,
-        "En curso": 7,
-        "Ready to QA": 3,
+        "IN UAT": 2,
+        "En curso": 6,
+        "RETURNED BY QA": 3,
         "Listo": 17,
+        "Tareas por hacer": 4,
         "QA Approved": 6,
         "Finalizada": 341,
-        "RETURNED BY QA": 2,
-        "Tareas por hacer": 4,
+        "Ready to QA": 2,
         "Blocked": 4,
         "Backlog": 13,
         "Pre-prioritized": 2,
         "Ready for Refinement": 1,
-        "IN UAT": 1,
         "Deprecated": 17,
         "READY FOR RELEASE": 1
       }
     },
     "tickets": [
+      {
+        "key": "WSC-1685",
+        "url": "https://e2x.atlassian.net/browse/WSC-1685",
+        "summary": "PDP - mobile sticky ADD TO BAG change to its behaviour",
+        "status": "Tech Review",
+        "statusCategory": "indeterminate",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-09-17T23:28:35.769+0100",
+        "priority": "Importante",
+        "labels": [
+          "Needs-QA",
+          "manualQA"
+        ]
+      },
+      {
+        "key": "WSC-1733",
+        "url": "https://e2x.atlassian.net/browse/WSC-1733",
+        "summary": "SPIKE: Investigate Cloudflare 403 Challenge Blocking Checkout Automation on Desktop",
+        "status": "IN UAT",
+        "statusCategory": "indeterminate",
+        "assignee": "Stuart Young",
+        "updated": "2026-09-17T22:53:44.677+0100",
+        "priority": "Importante",
+        "labels": [
+          "automation",
+          "cloudflare",
+          "spike"
+        ]
+      },
+      {
+        "key": "WSC-1578",
+        "url": "https://e2x.atlassian.net/browse/WSC-1578",
+        "summary": "[WSSD-633] Add Cloudflare rate limiting rule for the password reset endpoint",
+        "status": "En curso",
+        "statusCategory": "indeterminate",
+        "assignee": "Jair Huaman",
+        "updated": "2026-09-17T22:36:59.659+0100",
+        "priority": "Importante",
+        "labels": []
+      },
+      {
+        "key": "WSC-1697",
+        "url": "https://e2x.atlassian.net/browse/WSC-1697",
+        "summary": "PDP - 'back in stock' new UX",
+        "status": "RETURNED BY QA",
+        "statusCategory": "indeterminate",
+        "assignee": "Jair Huaman",
+        "updated": "2026-09-17T20:59:01.300+0100",
+        "priority": "Importante",
+        "labels": [
+          "Needs-QA",
+          "automatable"
+        ]
+      },
+      {
+        "key": "WSC-1707",
+        "url": "https://e2x.atlassian.net/browse/WSC-1707",
+        "summary": "BAG - Coupon section disappears after applying an invalid coupon and reloading the page",
+        "status": "Listo",
+        "statusCategory": "new",
+        "assignee": "Unassigned",
+        "updated": "2026-09-17T19:38:46.845+0100",
+        "priority": "Poco importante",
+        "labels": [
+          "Bug",
+          "Needs-QA"
+        ]
+      },
+      {
+        "key": "WSC-1749",
+        "url": "https://e2x.atlassian.net/browse/WSC-1749",
+        "summary": "Passwordless Sign-In",
+        "status": "Tareas por hacer",
+        "statusCategory": "new",
+        "assignee": "Unassigned",
+        "updated": "2026-09-17T19:38:19.952+0100",
+        "priority": "Importante",
+        "labels": []
+      },
+      {
+        "key": "WSC-1736",
+        "url": "https://e2x.atlassian.net/browse/WSC-1736",
+        "summary": "Spike: PERSONALISED CONTENT - preview/visualiser on a Content Page",
+        "status": "Tareas por hacer",
+        "statusCategory": "new",
+        "assignee": "Unassigned",
+        "updated": "2026-09-17T19:37:59.275+0100",
+        "priority": "Cr\u00edtica",
+        "labels": []
+      },
       {
         "key": "WSC-1709",
         "url": "https://e2x.atlassian.net/browse/WSC-1709",
@@ -32,21 +122,6 @@
         "updated": "2026-09-17T17:22:53.251+0100",
         "priority": "Cr\u00edtica",
         "labels": []
-      },
-      {
-        "key": "WSC-1733",
-        "url": "https://e2x.atlassian.net/browse/WSC-1733",
-        "summary": "SPIKE: Investigate Cloudflare 403 Challenge Blocking Checkout Automation on Desktop",
-        "status": "Tech Review",
-        "statusCategory": "indeterminate",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-09-17T17:17:42.808+0100",
-        "priority": "Importante",
-        "labels": [
-          "automation",
-          "cloudflare",
-          "spike"
-        ]
       },
       {
         "key": "WSC-1162",
@@ -69,20 +144,6 @@
         "updated": "2026-09-17T17:03:51.993+0100",
         "priority": "Not Set",
         "labels": []
-      },
-      {
-        "key": "WSC-1697",
-        "url": "https://e2x.atlassian.net/browse/WSC-1697",
-        "summary": "PDP - 'back in stock' new UX",
-        "status": "Ready to QA",
-        "statusCategory": "new",
-        "assignee": "Gerardo Romero",
-        "updated": "2026-09-17T16:55:06.606+0100",
-        "priority": "Importante",
-        "labels": [
-          "Needs-QA",
-          "automatable"
-        ]
       },
       {
         "key": "WSC-1695",
@@ -111,20 +172,6 @@
         "labels": [
           "Needs-QA",
           "automatable"
-        ]
-      },
-      {
-        "key": "WSC-1685",
-        "url": "https://e2x.atlassian.net/browse/WSC-1685",
-        "summary": "PDP - mobile sticky ADD TO BAG change to its behaviour",
-        "status": "En curso",
-        "statusCategory": "indeterminate",
-        "assignee": "Alexander Talavera",
-        "updated": "2026-09-17T16:46:27.380+0100",
-        "priority": "Importante",
-        "labels": [
-          "Needs-QA",
-          "manualQA"
         ]
       },
       {
@@ -289,17 +336,6 @@
         "assignee": "enmanuel.ramirez",
         "updated": "2026-09-16T13:22:37.685+0100",
         "priority": "Poco importante",
-        "labels": []
-      },
-      {
-        "key": "WSC-1736",
-        "url": "https://e2x.atlassian.net/browse/WSC-1736",
-        "summary": "Spike: PERSONALISED CONTENT - preview/visualiser on a Content Page",
-        "status": "Tareas por hacer",
-        "statusCategory": "new",
-        "assignee": "Unassigned",
-        "updated": "2026-09-16T10:29:25.281+0100",
-        "priority": "Supone un impedimento",
         "labels": []
       },
       {
@@ -777,17 +813,6 @@
         ]
       },
       {
-        "key": "WSC-1749",
-        "url": "https://e2x.atlassian.net/browse/WSC-1749",
-        "summary": "Passwordless Sign-In",
-        "status": "Tareas por hacer",
-        "statusCategory": "new",
-        "assignee": "Unassigned",
-        "updated": "2026-09-15T13:19:28.941+0100",
-        "priority": "Importante",
-        "labels": []
-      },
-      {
         "key": "WSC-1522",
         "url": "https://e2x.atlassian.net/browse/WSC-1522",
         "summary": "CONTENT - Personalisation",
@@ -1171,17 +1196,6 @@
         ]
       },
       {
-        "key": "WSC-1578",
-        "url": "https://e2x.atlassian.net/browse/WSC-1578",
-        "summary": "[WSSD-633] Add Cloudflare rate limiting rule for the password reset endpoint",
-        "status": "En curso",
-        "statusCategory": "indeterminate",
-        "assignee": "Jair Huaman",
-        "updated": "2026-09-11T18:06:25.906+0100",
-        "priority": "Importante",
-        "labels": []
-      },
-      {
         "key": "WSC-1138",
         "url": "https://e2x.atlassian.net/browse/WSC-1138",
         "summary": "GOOD STUFF - add preferred shop to 'My Details'",
@@ -1542,20 +1556,6 @@
         "labels": [
           "Needs-QA",
           "manualQA"
-        ]
-      },
-      {
-        "key": "WSC-1707",
-        "url": "https://e2x.atlassian.net/browse/WSC-1707",
-        "summary": "BAG - Coupon section disappears after applying an invalid coupon and reloading the page",
-        "status": "Listo",
-        "statusCategory": "new",
-        "assignee": "Unassigned",
-        "updated": "2026-09-02T16:30:51.409+0100",
-        "priority": "Poco importante",
-        "labels": [
-          "Bug",
-          "Needs-QA"
         ]
       },
       {
