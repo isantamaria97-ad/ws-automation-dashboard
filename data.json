@@ -1,40 +1,91 @@
 {
-  "lastUpdated": "2026-09-18T15:58:59.774030+00:00",
+  "lastUpdated": "2026-09-18T18:59:34.275560+00:00",
   "jira": {
     "summary": {
       "total": 423,
       "byStatus": {
-        "Tech Review": 7,
-        "Ready to QA": 2,
+        "Ready to QA": 4,
+        "IN QA": 1,
+        "IN UAT": 3,
         "En curso": 5,
-        "IN UAT": 2,
+        "Tech Review": 4,
         "Listo": 16,
         "Tareas por hacer": 4,
         "QA Approved": 6,
         "Finalizada": 341,
-        "RETURNED BY QA": 2,
         "Blocked": 4,
         "Backlog": 13,
         "Pre-prioritized": 2,
         "Ready for Refinement": 1,
+        "RETURNED BY QA": 1,
         "Deprecated": 17,
         "READY FOR RELEASE": 1
       }
     },
     "tickets": [
       {
-        "key": "WSC-1697",
-        "url": "https://e2x.atlassian.net/browse/WSC-1697",
-        "summary": "PDP - 'back in stock' new UX",
-        "status": "Tech Review",
-        "statusCategory": "indeterminate",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-09-18T16:44:08.291+0100",
+        "key": "WSC-1684",
+        "url": "https://e2x.atlassian.net/browse/WSC-1684",
+        "summary": "PDP - mobile sticky ADD TO BAG UX",
+        "status": "Ready to QA",
+        "statusCategory": "new",
+        "assignee": "Unassigned",
+        "updated": "2026-09-18T18:50:16.873+0100",
         "priority": "Importante",
         "labels": [
           "Needs-QA",
           "automatable"
         ]
+      },
+      {
+        "key": "WSC-1697",
+        "url": "https://e2x.atlassian.net/browse/WSC-1697",
+        "summary": "PDP - 'back in stock' new UX",
+        "status": "IN QA",
+        "statusCategory": "indeterminate",
+        "assignee": "Gerardo Romero",
+        "updated": "2026-09-18T18:32:56.138+0100",
+        "priority": "Importante",
+        "labels": [
+          "Needs-QA",
+          "automatable"
+        ]
+      },
+      {
+        "key": "WSC-1673",
+        "url": "https://e2x.atlassian.net/browse/WSC-1673",
+        "summary": "API 404 error - https://www.whitestuff.com/api/ampl/getContent",
+        "status": "IN UAT",
+        "statusCategory": "indeterminate",
+        "assignee": "Stuart Young",
+        "updated": "2026-09-18T18:17:30.244+0100",
+        "priority": "Poco importante",
+        "labels": []
+      },
+      {
+        "key": "WSC-1685",
+        "url": "https://e2x.atlassian.net/browse/WSC-1685",
+        "summary": "PDP - mobile sticky ADD TO BAG change to its behaviour",
+        "status": "Ready to QA",
+        "statusCategory": "new",
+        "assignee": "Unassigned",
+        "updated": "2026-09-18T17:35:51.708+0100",
+        "priority": "Importante",
+        "labels": [
+          "Needs-QA",
+          "manualQA"
+        ]
+      },
+      {
+        "key": "WSC-1162",
+        "url": "https://e2x.atlassian.net/browse/WSC-1162",
+        "summary": "Set Up Automated Yearly Task for Security.txt Renewal",
+        "status": "En curso",
+        "statusCategory": "indeterminate",
+        "assignee": "Jair Huaman",
+        "updated": "2026-09-18T16:59:34.292+0100",
+        "priority": "Poco importante",
+        "labels": []
       },
       {
         "key": "WSC-1710",
@@ -73,31 +124,6 @@
         "labels": [
           "Needs-QA",
           "automatable",
-          "manualQA"
-        ]
-      },
-      {
-        "key": "WSC-1673",
-        "url": "https://e2x.atlassian.net/browse/WSC-1673",
-        "summary": "API 404 error - https://www.whitestuff.com/api/ampl/getContent",
-        "status": "Tech Review",
-        "statusCategory": "indeterminate",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-09-18T00:53:02.227+0100",
-        "priority": "Poco importante",
-        "labels": []
-      },
-      {
-        "key": "WSC-1685",
-        "url": "https://e2x.atlassian.net/browse/WSC-1685",
-        "summary": "PDP - mobile sticky ADD TO BAG change to its behaviour",
-        "status": "Tech Review",
-        "statusCategory": "indeterminate",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-09-17T23:28:35.769+0100",
-        "priority": "Importante",
-        "labels": [
-          "Needs-QA",
           "manualQA"
         ]
       },
@@ -161,17 +187,6 @@
         "assignee": "enmanuel.ramirez",
         "updated": "2026-09-17T17:22:53.251+0100",
         "priority": "Cr\u00edtica",
-        "labels": []
-      },
-      {
-        "key": "WSC-1162",
-        "url": "https://e2x.atlassian.net/browse/WSC-1162",
-        "summary": "Set Up Automated Yearly Task for Security.txt Renewal",
-        "status": "En curso",
-        "statusCategory": "indeterminate",
-        "assignee": "Jair Huaman",
-        "updated": "2026-09-17T17:15:47.489+0100",
-        "priority": "Poco importante",
         "labels": []
       },
       {
@@ -271,20 +286,6 @@
         "updated": "2026-09-17T15:16:10.774+0100",
         "priority": "Not Set",
         "labels": []
-      },
-      {
-        "key": "WSC-1684",
-        "url": "https://e2x.atlassian.net/browse/WSC-1684",
-        "summary": "PDP - mobile sticky ADD TO BAG UX",
-        "status": "RETURNED BY QA",
-        "statusCategory": "indeterminate",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-09-17T14:13:17.459+0100",
-        "priority": "Importante",
-        "labels": [
-          "Needs-QA",
-          "automatable"
-        ]
       },
       {
         "key": "WSC-1687",
