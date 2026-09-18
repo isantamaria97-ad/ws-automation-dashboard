@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-18T09:09:02.381364+00:00",
+  "lastUpdated": "2026-09-18T13:44:48.714842+00:00",
   "milestones": [
     {
       "id": 251,
@@ -508,7 +508,7 @@
         {
           "caseId": 156106,
           "testId": 2229361,
-          "name": "Fully OOS product shows OOS alert and all sizes disabled [mocked]",
+          "name": "Fully OOS product shows OOS alert and all sizes in notInStock state [mocked]",
           "tags": [],
           "statusId": 2,
           "status": "Passed",
@@ -1918,7 +1918,7 @@
         {
           "caseId": 156106,
           "testId": 2229234,
-          "name": "Fully OOS product shows OOS alert and all sizes disabled [mocked]",
+          "name": "Fully OOS product shows OOS alert and all sizes in notInStock state [mocked]",
           "tags": [],
           "statusId": 2,
           "status": "Passed",
@@ -3328,7 +3328,7 @@
         {
           "caseId": 156106,
           "testId": 2229107,
-          "name": "Fully OOS product shows OOS alert and all sizes disabled [mocked]",
+          "name": "Fully OOS product shows OOS alert and all sizes in notInStock state [mocked]",
           "tags": [],
           "statusId": 2,
           "status": "Passed",
@@ -4738,7 +4738,7 @@
         {
           "caseId": 156106,
           "testId": 2228980,
-          "name": "Fully OOS product shows OOS alert and all sizes disabled [mocked]",
+          "name": "Fully OOS product shows OOS alert and all sizes in notInStock state [mocked]",
           "tags": [],
           "statusId": 2,
           "status": "Passed",
