@@ -1,18 +1,18 @@
 {
-  "lastUpdated": "2026-09-18T08:51:29.339744+00:00",
+  "lastUpdated": "2026-09-18T15:58:59.774030+00:00",
   "jira": {
     "summary": {
       "total": 423,
       "byStatus": {
-        "En curso": 6,
-        "Tech Review": 5,
+        "Tech Review": 7,
+        "Ready to QA": 2,
+        "En curso": 5,
         "IN UAT": 2,
-        "RETURNED BY QA": 3,
         "Listo": 16,
         "Tareas por hacer": 4,
         "QA Approved": 6,
         "Finalizada": 341,
-        "Ready to QA": 2,
+        "RETURNED BY QA": 2,
         "Blocked": 4,
         "Backlog": 13,
         "Pre-prioritized": 2,
@@ -22,6 +22,45 @@
       }
     },
     "tickets": [
+      {
+        "key": "WSC-1697",
+        "url": "https://e2x.atlassian.net/browse/WSC-1697",
+        "summary": "PDP - 'back in stock' new UX",
+        "status": "Tech Review",
+        "statusCategory": "indeterminate",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-09-18T16:44:08.291+0100",
+        "priority": "Importante",
+        "labels": [
+          "Needs-QA",
+          "automatable"
+        ]
+      },
+      {
+        "key": "WSC-1710",
+        "url": "https://e2x.atlassian.net/browse/WSC-1710",
+        "summary": "CLS-01 \u2014 PDP template - Desktop and Mobile",
+        "status": "Ready to QA",
+        "statusCategory": "new",
+        "assignee": "Rafael Paranagu\u00e1",
+        "updated": "2026-09-18T13:42:53.264+0100",
+        "priority": "Cr\u00edtica",
+        "labels": [
+          "Needs-QA",
+          "manualQA"
+        ]
+      },
+      {
+        "key": "WSC-1578",
+        "url": "https://e2x.atlassian.net/browse/WSC-1578",
+        "summary": "[WSSD-633] Add Cloudflare rate limiting rule for the password reset endpoint",
+        "status": "Tech Review",
+        "statusCategory": "indeterminate",
+        "assignee": "Jair Huaman",
+        "updated": "2026-09-18T13:40:53.211+0100",
+        "priority": "Importante",
+        "labels": []
+      },
       {
         "key": "WSC-1695",
         "url": "https://e2x.atlassian.net/browse/WSC-1695",
@@ -75,31 +114,6 @@
           "automation",
           "cloudflare",
           "spike"
-        ]
-      },
-      {
-        "key": "WSC-1578",
-        "url": "https://e2x.atlassian.net/browse/WSC-1578",
-        "summary": "[WSSD-633] Add Cloudflare rate limiting rule for the password reset endpoint",
-        "status": "En curso",
-        "statusCategory": "indeterminate",
-        "assignee": "Jair Huaman",
-        "updated": "2026-09-17T22:36:59.659+0100",
-        "priority": "Importante",
-        "labels": []
-      },
-      {
-        "key": "WSC-1697",
-        "url": "https://e2x.atlassian.net/browse/WSC-1697",
-        "summary": "PDP - 'back in stock' new UX",
-        "status": "RETURNED BY QA",
-        "statusCategory": "indeterminate",
-        "assignee": "Jair Huaman",
-        "updated": "2026-09-17T20:59:01.300+0100",
-        "priority": "Importante",
-        "labels": [
-          "Needs-QA",
-          "automatable"
         ]
       },
       {
@@ -221,20 +235,6 @@
         "updated": "2026-09-17T16:45:16.067+0100",
         "priority": "Not Set",
         "labels": []
-      },
-      {
-        "key": "WSC-1710",
-        "url": "https://e2x.atlassian.net/browse/WSC-1710",
-        "summary": "CLS-01 \u2014 PDP template - Desktop and Mobile",
-        "status": "Ready to QA",
-        "statusCategory": "new",
-        "assignee": "Unassigned",
-        "updated": "2026-09-17T16:33:29.401+0100",
-        "priority": "Cr\u00edtica",
-        "labels": [
-          "Needs-QA",
-          "manualQA"
-        ]
       },
       {
         "key": "WSC-1636",
@@ -5786,7 +5786,7 @@
       },
       {
         "id": 156106,
-        "name": "Fully OOS product shows OOS alert and all sizes disabled [mocked]",
+        "name": "Fully OOS product shows OOS alert and all sizes in notInStock state [mocked]",
         "folderId": 20991,
         "folderPath": "Regression",
         "bucket": "automated",
