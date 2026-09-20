@@ -1,14 +1,14 @@
 {
-  "lastUpdated": "2026-09-20T18:31:38.503654+00:00",
+  "lastUpdated": "2026-09-20T22:14:16.863392+00:00",
   "jira": {
     "summary": {
       "total": 423,
       "byStatus": {
         "Ready to QA": 4,
-        "IN QA": 1,
-        "IN UAT": 3,
         "En curso": 5,
         "Tech Review": 4,
+        "IN QA": 1,
+        "IN UAT": 3,
         "Listo": 16,
         "Tareas por hacer": 4,
         "QA Approved": 6,
@@ -24,18 +24,40 @@
     },
     "tickets": [
       {
-        "key": "WSC-1684",
-        "url": "https://e2x.atlassian.net/browse/WSC-1684",
-        "summary": "PDP - mobile sticky ADD TO BAG UX",
+        "key": "WSC-1685",
+        "url": "https://e2x.atlassian.net/browse/WSC-1685",
+        "summary": "PDP - mobile sticky ADD TO BAG change to its behaviour",
         "status": "Ready to QA",
         "statusCategory": "new",
         "assignee": "Unassigned",
-        "updated": "2026-09-18T18:50:16.873+0100",
+        "updated": "2026-09-20T22:41:24.090+0100",
         "priority": "Importante",
         "labels": [
           "Needs-QA",
-          "automatable"
+          "manualQA"
         ]
+      },
+      {
+        "key": "WSC-1768",
+        "url": "https://e2x.atlassian.net/browse/WSC-1768",
+        "summary": "Spike \u2013 Investigate UAT Access Restrictions",
+        "status": "En curso",
+        "statusCategory": "indeterminate",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-09-20T22:16:32.712+0100",
+        "priority": "Not Set",
+        "labels": []
+      },
+      {
+        "key": "WSC-1709",
+        "url": "https://e2x.atlassian.net/browse/WSC-1709",
+        "summary": "INP-01 \u2014 PDP template - Desktop and Mobile",
+        "status": "Tech Review",
+        "statusCategory": "indeterminate",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-09-20T21:27:07.959+0100",
+        "priority": "Cr\u00edtica",
+        "labels": []
       },
       {
         "key": "WSC-1697",
@@ -44,7 +66,21 @@
         "status": "IN QA",
         "statusCategory": "indeterminate",
         "assignee": "Gerardo Romero",
-        "updated": "2026-09-18T18:32:56.138+0100",
+        "updated": "2026-09-20T21:03:09.072+0100",
+        "priority": "Importante",
+        "labels": [
+          "Needs-QA",
+          "automatable"
+        ]
+      },
+      {
+        "key": "WSC-1684",
+        "url": "https://e2x.atlassian.net/browse/WSC-1684",
+        "summary": "PDP - mobile sticky ADD TO BAG UX",
+        "status": "Ready to QA",
+        "statusCategory": "new",
+        "assignee": "Unassigned",
+        "updated": "2026-09-18T18:50:16.873+0100",
         "priority": "Importante",
         "labels": [
           "Needs-QA",
@@ -61,20 +97,6 @@
         "updated": "2026-09-18T18:17:30.244+0100",
         "priority": "Poco importante",
         "labels": []
-      },
-      {
-        "key": "WSC-1685",
-        "url": "https://e2x.atlassian.net/browse/WSC-1685",
-        "summary": "PDP - mobile sticky ADD TO BAG change to its behaviour",
-        "status": "Ready to QA",
-        "statusCategory": "new",
-        "assignee": "Unassigned",
-        "updated": "2026-09-18T17:35:51.708+0100",
-        "priority": "Importante",
-        "labels": [
-          "Needs-QA",
-          "manualQA"
-        ]
       },
       {
         "key": "WSC-1162",
@@ -176,28 +198,6 @@
         "assignee": "Unassigned",
         "updated": "2026-09-17T19:37:59.275+0100",
         "priority": "Cr\u00edtica",
-        "labels": []
-      },
-      {
-        "key": "WSC-1709",
-        "url": "https://e2x.atlassian.net/browse/WSC-1709",
-        "summary": "INP-01 \u2014 PDP template - Desktop and Mobile",
-        "status": "Tech Review",
-        "statusCategory": "indeterminate",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-09-17T17:22:53.251+0100",
-        "priority": "Cr\u00edtica",
-        "labels": []
-      },
-      {
-        "key": "WSC-1768",
-        "url": "https://e2x.atlassian.net/browse/WSC-1768",
-        "summary": "Spike \u2013 Investigate UAT Access Restrictions",
-        "status": "En curso",
-        "statusCategory": "indeterminate",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-09-17T17:03:51.993+0100",
-        "priority": "Not Set",
         "labels": []
       },
       {
