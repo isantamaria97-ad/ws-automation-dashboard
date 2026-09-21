@@ -1,40 +1,171 @@
 {
-  "lastUpdated": "2026-09-21T09:42:54.793868+00:00",
+  "lastUpdated": "2026-09-21T17:57:46.261703+00:00",
   "jira": {
     "summary": {
-      "total": 423,
+      "total": 425,
       "byStatus": {
-        "Ready to QA": 4,
-        "En curso": 5,
+        "IN UAT": 4,
+        "En curso": 7,
         "Tech Review": 4,
+        "RETURNED BY QA": 2,
+        "Ready to QA": 2,
         "IN QA": 1,
-        "IN UAT": 3,
-        "Listo": 16,
+        "QA Approved": 7,
+        "Listo": 15,
         "Tareas por hacer": 4,
-        "QA Approved": 6,
         "Finalizada": 341,
         "Blocked": 4,
         "Backlog": 13,
         "Pre-prioritized": 2,
         "Ready for Refinement": 1,
-        "RETURNED BY QA": 1,
         "Deprecated": 17,
         "READY FOR RELEASE": 1
       }
     },
     "tickets": [
       {
+        "key": "WSC-1773",
+        "url": "https://e2x.atlassian.net/browse/WSC-1773",
+        "summary": "[WSSD-752] - [Security] Critical vulnerabilities identified in axios and proxy-addr \u2014 remediation required",
+        "status": "IN UAT",
+        "statusCategory": "indeterminate",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-09-21T18:52:09.511+0100",
+        "priority": "Cr\u00edtica",
+        "labels": [
+          "security",
+          "snyk",
+          "vulnerability"
+        ]
+      },
+      {
+        "key": "WSC-1709",
+        "url": "https://e2x.atlassian.net/browse/WSC-1709",
+        "summary": "INP-01 \u2014 PDP template - Desktop and Mobile",
+        "status": "En curso",
+        "statusCategory": "indeterminate",
+        "assignee": "Alexander Talavera",
+        "updated": "2026-09-21T18:03:47.903+0100",
+        "priority": "Cr\u00edtica",
+        "labels": []
+      },
+      {
+        "key": "WSC-1737",
+        "url": "https://e2x.atlassian.net/browse/WSC-1737",
+        "summary": "Review and Fix of existing Vulnerability Tickets until August 2026",
+        "status": "En curso",
+        "statusCategory": "indeterminate",
+        "assignee": "Jair Huaman",
+        "updated": "2026-09-21T17:54:35.050+0100",
+        "priority": "Importante",
+        "labels": [
+          "NO_QA_REQUIRED"
+        ]
+      },
+      {
+        "key": "WSC-1770",
+        "url": "https://e2x.atlassian.net/browse/WSC-1770",
+        "summary": "[Spike] Track Leg 2 (Cloudflare -> Alokai) traffic to validate real cache ratio in SiteSpect Sandwich architecture",
+        "status": "Tech Review",
+        "statusCategory": "indeterminate",
+        "assignee": "Jair Huaman",
+        "updated": "2026-09-21T17:52:07.960+0100",
+        "priority": "Not Set",
+        "labels": []
+      },
+      {
+        "key": "WSC-1162",
+        "url": "https://e2x.atlassian.net/browse/WSC-1162",
+        "summary": "Set Up Automated Yearly Task for Security.txt Renewal",
+        "status": "En curso",
+        "statusCategory": "indeterminate",
+        "assignee": "Jair Huaman",
+        "updated": "2026-09-21T16:19:35.565+0100",
+        "priority": "Poco importante",
+        "labels": []
+      },
+      {
+        "key": "WSC-1710",
+        "url": "https://e2x.atlassian.net/browse/WSC-1710",
+        "summary": "CLS-01 \u2014 PDP template - Desktop and Mobile",
+        "status": "RETURNED BY QA",
+        "statusCategory": "indeterminate",
+        "assignee": "Rafael Paranagu\u00e1",
+        "updated": "2026-09-21T16:02:02.034+0100",
+        "priority": "Cr\u00edtica",
+        "labels": [
+          "Needs-QA",
+          "manualQA"
+        ]
+      },
+      {
+        "key": "WSC-1761",
+        "url": "https://e2x.atlassian.net/browse/WSC-1761",
+        "summary": "BazaarVoice review post Revert of WSC-1660",
+        "status": "Tech Review",
+        "statusCategory": "indeterminate",
+        "assignee": "Stuart Young",
+        "updated": "2026-09-21T15:21:41.217+0100",
+        "priority": "Importante",
+        "labels": [
+          "NO_QA_REQUIRED"
+        ]
+      },
+      {
+        "key": "WSC-1684",
+        "url": "https://e2x.atlassian.net/browse/WSC-1684",
+        "summary": "PDP - mobile sticky ADD TO BAG UX",
+        "status": "Ready to QA",
+        "statusCategory": "new",
+        "assignee": "Gerardo Romero",
+        "updated": "2026-09-21T15:08:32.219+0100",
+        "priority": "Importante",
+        "labels": [
+          "Needs-QA",
+          "automatable"
+        ]
+      },
+      {
+        "key": "WSC-1695",
+        "url": "https://e2x.atlassian.net/browse/WSC-1695",
+        "summary": "PDP - new image layout / breadcrumb move",
+        "status": "En curso",
+        "statusCategory": "indeterminate",
+        "assignee": "Alexander Talavera",
+        "updated": "2026-09-21T14:14:56.849+0100",
+        "priority": "Importante",
+        "labels": [
+          "Needs-QA",
+          "automatable",
+          "manualQA"
+        ]
+      },
+      {
         "key": "WSC-1685",
         "url": "https://e2x.atlassian.net/browse/WSC-1685",
         "summary": "PDP - mobile sticky ADD TO BAG change to its behaviour",
-        "status": "Ready to QA",
-        "statusCategory": "new",
-        "assignee": "Unassigned",
-        "updated": "2026-09-20T22:41:24.090+0100",
+        "status": "IN QA",
+        "statusCategory": "indeterminate",
+        "assignee": "Gerardo Romero",
+        "updated": "2026-09-21T14:10:34.069+0100",
         "priority": "Importante",
         "labels": [
           "Needs-QA",
           "manualQA"
+        ]
+      },
+      {
+        "key": "WSC-1697",
+        "url": "https://e2x.atlassian.net/browse/WSC-1697",
+        "summary": "PDP - 'back in stock' new UX",
+        "status": "QA Approved",
+        "statusCategory": "indeterminate",
+        "assignee": "Gerardo Romero",
+        "updated": "2026-09-21T14:08:32.529+0100",
+        "priority": "Importante",
+        "labels": [
+          "Needs-QA",
+          "automatable"
         ]
       },
       {
@@ -49,45 +180,6 @@
         "labels": []
       },
       {
-        "key": "WSC-1709",
-        "url": "https://e2x.atlassian.net/browse/WSC-1709",
-        "summary": "INP-01 \u2014 PDP template - Desktop and Mobile",
-        "status": "Tech Review",
-        "statusCategory": "indeterminate",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-09-20T21:27:07.959+0100",
-        "priority": "Cr\u00edtica",
-        "labels": []
-      },
-      {
-        "key": "WSC-1697",
-        "url": "https://e2x.atlassian.net/browse/WSC-1697",
-        "summary": "PDP - 'back in stock' new UX",
-        "status": "IN QA",
-        "statusCategory": "indeterminate",
-        "assignee": "Gerardo Romero",
-        "updated": "2026-09-20T21:03:09.072+0100",
-        "priority": "Importante",
-        "labels": [
-          "Needs-QA",
-          "automatable"
-        ]
-      },
-      {
-        "key": "WSC-1684",
-        "url": "https://e2x.atlassian.net/browse/WSC-1684",
-        "summary": "PDP - mobile sticky ADD TO BAG UX",
-        "status": "Ready to QA",
-        "statusCategory": "new",
-        "assignee": "Unassigned",
-        "updated": "2026-09-18T18:50:16.873+0100",
-        "priority": "Importante",
-        "labels": [
-          "Needs-QA",
-          "automatable"
-        ]
-      },
-      {
         "key": "WSC-1673",
         "url": "https://e2x.atlassian.net/browse/WSC-1673",
         "summary": "API 404 error - https://www.whitestuff.com/api/ampl/getContent",
@@ -99,31 +191,6 @@
         "labels": []
       },
       {
-        "key": "WSC-1162",
-        "url": "https://e2x.atlassian.net/browse/WSC-1162",
-        "summary": "Set Up Automated Yearly Task for Security.txt Renewal",
-        "status": "En curso",
-        "statusCategory": "indeterminate",
-        "assignee": "Jair Huaman",
-        "updated": "2026-09-18T16:59:34.292+0100",
-        "priority": "Poco importante",
-        "labels": []
-      },
-      {
-        "key": "WSC-1710",
-        "url": "https://e2x.atlassian.net/browse/WSC-1710",
-        "summary": "CLS-01 \u2014 PDP template - Desktop and Mobile",
-        "status": "Ready to QA",
-        "statusCategory": "new",
-        "assignee": "Rafael Paranagu\u00e1",
-        "updated": "2026-09-18T13:42:53.264+0100",
-        "priority": "Cr\u00edtica",
-        "labels": [
-          "Needs-QA",
-          "manualQA"
-        ]
-      },
-      {
         "key": "WSC-1578",
         "url": "https://e2x.atlassian.net/browse/WSC-1578",
         "summary": "[WSSD-633] Add Cloudflare rate limiting rule for the password reset endpoint",
@@ -133,21 +200,6 @@
         "updated": "2026-09-18T13:40:53.211+0100",
         "priority": "Importante",
         "labels": []
-      },
-      {
-        "key": "WSC-1695",
-        "url": "https://e2x.atlassian.net/browse/WSC-1695",
-        "summary": "PDP - new image layout / breadcrumb move",
-        "status": "En curso",
-        "statusCategory": "indeterminate",
-        "assignee": "Alexander Talavera",
-        "updated": "2026-09-18T00:53:05.473+0100",
-        "priority": "Importante",
-        "labels": [
-          "Needs-QA",
-          "automatable",
-          "manualQA"
-        ]
       },
       {
         "key": "WSC-1733",
@@ -387,19 +439,6 @@
         "updated": "2026-09-15T19:31:52.566+0100",
         "priority": "Poco importante",
         "labels": []
-      },
-      {
-        "key": "WSC-1761",
-        "url": "https://e2x.atlassian.net/browse/WSC-1761",
-        "summary": "BazaarVoice review post Revert of WSC-1660",
-        "status": "Tech Review",
-        "statusCategory": "indeterminate",
-        "assignee": "Jair Huaman",
-        "updated": "2026-09-15T19:17:12.330+0100",
-        "priority": "Importante",
-        "labels": [
-          "NO_QA_REQUIRED"
-        ]
       },
       {
         "key": "WSC-1652",
@@ -983,19 +1022,6 @@
         "assignee": "Unassigned",
         "updated": "2026-09-14T19:57:51.023+0100",
         "priority": "Not Set",
-        "labels": [
-          "NO_QA_REQUIRED"
-        ]
-      },
-      {
-        "key": "WSC-1737",
-        "url": "https://e2x.atlassian.net/browse/WSC-1737",
-        "summary": "Review and Fix of existing Vulnerability Tickets until August 2026",
-        "status": "Listo",
-        "statusCategory": "new",
-        "assignee": "Jair Huaman",
-        "updated": "2026-09-14T19:55:34.595+0100",
-        "priority": "Importante",
         "labels": [
           "NO_QA_REQUIRED"
         ]
@@ -5383,15 +5409,83 @@
       ]
     },
     "runs": {
-      "total": 76,
+      "total": 80,
       "latestPassed": 117,
       "latestFailed": 0,
       "latestPending": 0,
       "latestTotal": 117,
-      "latestRunName": "Regression 09/15/2026",
-      "latestRunDate": "2026-09-10T19:02:55.544Z",
+      "latestRunName": "Regression 21/09/2026",
+      "latestRunDate": "2026-09-21T15:58:54.009Z",
       "passRate": 99.9,
       "recent": [
+        {
+          "id": 2143,
+          "name": "Regression 21/09/2026",
+          "source_id": null,
+          "milestone_id": 253,
+          "config_id": 14,
+          "status": null,
+          "is_completed": false,
+          "elapsed_ms": null,
+          "created_at": "2026-09-21T15:58:54.009Z",
+          "completed_at": null,
+          "passed": 117,
+          "failed": 0,
+          "pending": 0,
+          "completed": 117,
+          "total": 117
+        },
+        {
+          "id": 2142,
+          "name": "Regression 21/09/2026",
+          "source_id": null,
+          "milestone_id": 253,
+          "config_id": 13,
+          "status": null,
+          "is_completed": false,
+          "elapsed_ms": null,
+          "created_at": "2026-09-21T15:58:54.001Z",
+          "completed_at": null,
+          "passed": 117,
+          "failed": 0,
+          "pending": 0,
+          "completed": 117,
+          "total": 117
+        },
+        {
+          "id": 2141,
+          "name": "Regression 21/09/2026",
+          "source_id": null,
+          "milestone_id": 253,
+          "config_id": 10,
+          "status": null,
+          "is_completed": false,
+          "elapsed_ms": null,
+          "created_at": "2026-09-21T15:58:53.991Z",
+          "completed_at": null,
+          "passed": 117,
+          "failed": 0,
+          "pending": 0,
+          "completed": 117,
+          "total": 117
+        },
+        {
+          "id": 2140,
+          "name": "Regression 21/09/2026",
+          "source_id": null,
+          "milestone_id": 253,
+          "config_id": 9,
+          "status": null,
+          "is_completed": false,
+          "elapsed_ms": null,
+          "created_at": "2026-09-21T15:58:53.926Z",
+          "completed_at": null,
+          "passed": 117,
+          "failed": 0,
+          "pending": 0,
+          "completed": 117,
+          "total": 117
+        },
         {
           "id": 2130,
           "name": "Regression 09/15/2026",
@@ -5493,74 +5587,6 @@
           "pending": 0,
           "completed": 93,
           "total": 93
-        },
-        {
-          "id": 2093,
-          "name": "Regression 28/08/26",
-          "source_id": null,
-          "milestone_id": 247,
-          "config_id": 10,
-          "status": null,
-          "is_completed": false,
-          "elapsed_ms": null,
-          "created_at": "2026-08-28T18:53:11.420Z",
-          "completed_at": null,
-          "passed": 93,
-          "failed": 0,
-          "pending": 0,
-          "completed": 93,
-          "total": 93
-        },
-        {
-          "id": 2092,
-          "name": "Regression 28/08/26",
-          "source_id": null,
-          "milestone_id": 247,
-          "config_id": 9,
-          "status": null,
-          "is_completed": false,
-          "elapsed_ms": null,
-          "created_at": "2026-08-28T18:53:11.402Z",
-          "completed_at": null,
-          "passed": 93,
-          "failed": 0,
-          "pending": 0,
-          "completed": 93,
-          "total": 93
-        },
-        {
-          "id": 2088,
-          "name": "Regression 25/08/26",
-          "source_id": null,
-          "milestone_id": 246,
-          "config_id": 14,
-          "status": null,
-          "is_completed": false,
-          "elapsed_ms": null,
-          "created_at": "2026-08-25T20:27:39.009Z",
-          "completed_at": null,
-          "passed": 87,
-          "failed": 0,
-          "pending": 0,
-          "completed": 87,
-          "total": 87
-        },
-        {
-          "id": 2087,
-          "name": "Regression 25/08/26",
-          "source_id": null,
-          "milestone_id": 246,
-          "config_id": 13,
-          "status": null,
-          "is_completed": false,
-          "elapsed_ms": null,
-          "created_at": "2026-08-25T20:27:38.998Z",
-          "completed_at": null,
-          "passed": 87,
-          "failed": 0,
-          "pending": 0,
-          "completed": 87,
-          "total": 87
         }
       ]
     },
