@@ -1,25 +1,25 @@
 {
-  "lastUpdated": "2026-09-21T17:57:46.261703+00:00",
+  "lastUpdated": "2026-09-21T23:02:44.822685+00:00",
   "jira": {
     "summary": {
       "total": 425,
       "byStatus": {
-        "IN UAT": 4,
+        "READY FOR RELEASE": 2,
+        "IN QA": 1,
         "En curso": 7,
+        "QA Approved": 8,
         "Tech Review": 4,
         "RETURNED BY QA": 2,
-        "Ready to QA": 2,
-        "IN QA": 1,
-        "QA Approved": 7,
+        "IN UAT": 3,
         "Listo": 15,
         "Tareas por hacer": 4,
         "Finalizada": 341,
+        "Ready to QA": 1,
         "Blocked": 4,
         "Backlog": 13,
         "Pre-prioritized": 2,
         "Ready for Refinement": 1,
-        "Deprecated": 17,
-        "READY FOR RELEASE": 1
+        "Deprecated": 17
       }
     },
     "tickets": [
@@ -27,16 +27,42 @@
         "key": "WSC-1773",
         "url": "https://e2x.atlassian.net/browse/WSC-1773",
         "summary": "[WSSD-752] - [Security] Critical vulnerabilities identified in axios and proxy-addr \u2014 remediation required",
-        "status": "IN UAT",
-        "statusCategory": "indeterminate",
+        "status": "READY FOR RELEASE",
+        "statusCategory": "new",
         "assignee": "enmanuel.ramirez",
-        "updated": "2026-09-21T18:52:09.511+0100",
+        "updated": "2026-09-21T21:59:51.432+0100",
         "priority": "Cr\u00edtica",
         "labels": [
+          "co-build",
           "security",
           "snyk",
           "vulnerability"
         ]
+      },
+      {
+        "key": "WSC-1685",
+        "url": "https://e2x.atlassian.net/browse/WSC-1685",
+        "summary": "PDP - mobile sticky ADD TO BAG change to its behaviour",
+        "status": "IN QA",
+        "statusCategory": "indeterminate",
+        "assignee": "Gerardo Romero",
+        "updated": "2026-09-21T21:58:57.471+0100",
+        "priority": "Importante",
+        "labels": [
+          "Needs-QA",
+          "manualQA"
+        ]
+      },
+      {
+        "key": "WSC-1162",
+        "url": "https://e2x.atlassian.net/browse/WSC-1162",
+        "summary": "Set Up Automated Yearly Task for Security.txt Renewal",
+        "status": "En curso",
+        "statusCategory": "indeterminate",
+        "assignee": "Jair Huaman",
+        "updated": "2026-09-21T21:25:57.495+0100",
+        "priority": "Poco importante",
+        "labels": []
       },
       {
         "key": "WSC-1709",
@@ -45,7 +71,7 @@
         "status": "En curso",
         "statusCategory": "indeterminate",
         "assignee": "Alexander Talavera",
-        "updated": "2026-09-21T18:03:47.903+0100",
+        "updated": "2026-09-21T21:10:05.071+0100",
         "priority": "Cr\u00edtica",
         "labels": []
       },
@@ -56,10 +82,50 @@
         "status": "En curso",
         "statusCategory": "indeterminate",
         "assignee": "Jair Huaman",
-        "updated": "2026-09-21T17:54:35.050+0100",
+        "updated": "2026-09-21T21:09:29.543+0100",
         "priority": "Importante",
         "labels": [
           "NO_QA_REQUIRED"
+        ]
+      },
+      {
+        "key": "WSC-1684",
+        "url": "https://e2x.atlassian.net/browse/WSC-1684",
+        "summary": "PDP - mobile sticky ADD TO BAG UX",
+        "status": "QA Approved",
+        "statusCategory": "indeterminate",
+        "assignee": "Gerardo Romero",
+        "updated": "2026-09-21T20:56:24.697+0100",
+        "priority": "Importante",
+        "labels": [
+          "Needs-QA",
+          "automatable"
+        ]
+      },
+      {
+        "key": "WSC-1636",
+        "url": "https://e2x.atlassian.net/browse/WSC-1636",
+        "summary": "Tighten Super Bot Fight Mode policy: Block Automated, Managed Challenge Likely Automated",
+        "status": "En curso",
+        "statusCategory": "indeterminate",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-09-21T19:49:55.754+0100",
+        "priority": "Cr\u00edtica",
+        "labels": []
+      },
+      {
+        "key": "WSC-1695",
+        "url": "https://e2x.atlassian.net/browse/WSC-1695",
+        "summary": "PDP - new image layout / breadcrumb move",
+        "status": "En curso",
+        "statusCategory": "indeterminate",
+        "assignee": "Alexander Talavera",
+        "updated": "2026-09-21T19:23:25.750+0100",
+        "priority": "Importante",
+        "labels": [
+          "Needs-QA",
+          "automatable",
+          "manualQA"
         ]
       },
       {
@@ -71,17 +137,6 @@
         "assignee": "Jair Huaman",
         "updated": "2026-09-21T17:52:07.960+0100",
         "priority": "Not Set",
-        "labels": []
-      },
-      {
-        "key": "WSC-1162",
-        "url": "https://e2x.atlassian.net/browse/WSC-1162",
-        "summary": "Set Up Automated Yearly Task for Security.txt Renewal",
-        "status": "En curso",
-        "statusCategory": "indeterminate",
-        "assignee": "Jair Huaman",
-        "updated": "2026-09-21T16:19:35.565+0100",
-        "priority": "Poco importante",
         "labels": []
       },
       {
@@ -109,49 +164,6 @@
         "priority": "Importante",
         "labels": [
           "NO_QA_REQUIRED"
-        ]
-      },
-      {
-        "key": "WSC-1684",
-        "url": "https://e2x.atlassian.net/browse/WSC-1684",
-        "summary": "PDP - mobile sticky ADD TO BAG UX",
-        "status": "Ready to QA",
-        "statusCategory": "new",
-        "assignee": "Gerardo Romero",
-        "updated": "2026-09-21T15:08:32.219+0100",
-        "priority": "Importante",
-        "labels": [
-          "Needs-QA",
-          "automatable"
-        ]
-      },
-      {
-        "key": "WSC-1695",
-        "url": "https://e2x.atlassian.net/browse/WSC-1695",
-        "summary": "PDP - new image layout / breadcrumb move",
-        "status": "En curso",
-        "statusCategory": "indeterminate",
-        "assignee": "Alexander Talavera",
-        "updated": "2026-09-21T14:14:56.849+0100",
-        "priority": "Importante",
-        "labels": [
-          "Needs-QA",
-          "automatable",
-          "manualQA"
-        ]
-      },
-      {
-        "key": "WSC-1685",
-        "url": "https://e2x.atlassian.net/browse/WSC-1685",
-        "summary": "PDP - mobile sticky ADD TO BAG change to its behaviour",
-        "status": "IN QA",
-        "statusCategory": "indeterminate",
-        "assignee": "Gerardo Romero",
-        "updated": "2026-09-21T14:10:34.069+0100",
-        "priority": "Importante",
-        "labels": [
-          "Needs-QA",
-          "manualQA"
         ]
       },
       {
@@ -301,17 +313,6 @@
         "assignee": "Jair Huaman",
         "updated": "2026-09-17T16:45:16.067+0100",
         "priority": "Not Set",
-        "labels": []
-      },
-      {
-        "key": "WSC-1636",
-        "url": "https://e2x.atlassian.net/browse/WSC-1636",
-        "summary": "Tighten Super Bot Fight Mode policy: Block Automated, Managed Challenge Likely Automated",
-        "status": "En curso",
-        "statusCategory": "indeterminate",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-09-17T16:32:52.419+0100",
-        "priority": "Cr\u00edtica",
         "labels": []
       },
       {
