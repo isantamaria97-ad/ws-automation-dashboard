@@ -1,13 +1,13 @@
 {
-  "lastUpdated": "2026-09-22T03:46:28.930701+00:00",
+  "lastUpdated": "2026-09-22T09:07:05.048636+00:00",
   "jira": {
     "summary": {
       "total": 425,
       "byStatus": {
+        "QA Approved": 8,
+        "En curso": 7,
         "READY FOR RELEASE": 2,
         "IN QA": 1,
-        "En curso": 7,
-        "QA Approved": 8,
         "Tech Review": 4,
         "RETURNED BY QA": 2,
         "IN UAT": 3,
@@ -23,6 +23,31 @@
       }
     },
     "tickets": [
+      {
+        "key": "WSC-1683",
+        "url": "https://e2x.atlassian.net/browse/WSC-1683",
+        "summary": "PDP - ATB and Size UX redesign",
+        "status": "QA Approved",
+        "statusCategory": "indeterminate",
+        "assignee": "Gerardo Romero",
+        "updated": "2026-09-22T10:02:21.333+0100",
+        "priority": "Importante",
+        "labels": [
+          "Needs-QA",
+          "automatable"
+        ]
+      },
+      {
+        "key": "WSC-1636",
+        "url": "https://e2x.atlassian.net/browse/WSC-1636",
+        "summary": "Tighten Super Bot Fight Mode policy: Block Automated, Managed Challenge Likely Automated",
+        "status": "En curso",
+        "statusCategory": "indeterminate",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-09-22T09:33:29.674+0100",
+        "priority": "Cr\u00edtica",
+        "labels": []
+      },
       {
         "key": "WSC-1773",
         "url": "https://e2x.atlassian.net/browse/WSC-1773",
@@ -101,17 +126,6 @@
           "Needs-QA",
           "automatable"
         ]
-      },
-      {
-        "key": "WSC-1636",
-        "url": "https://e2x.atlassian.net/browse/WSC-1636",
-        "summary": "Tighten Super Bot Fight Mode policy: Block Automated, Managed Challenge Likely Automated",
-        "status": "En curso",
-        "statusCategory": "indeterminate",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-09-21T19:49:55.754+0100",
-        "priority": "Cr\u00edtica",
-        "labels": []
       },
       {
         "key": "WSC-1695",
@@ -263,20 +277,6 @@
         "updated": "2026-09-17T19:37:59.275+0100",
         "priority": "Cr\u00edtica",
         "labels": []
-      },
-      {
-        "key": "WSC-1683",
-        "url": "https://e2x.atlassian.net/browse/WSC-1683",
-        "summary": "PDP - ATB and Size UX redesign",
-        "status": "QA Approved",
-        "statusCategory": "indeterminate",
-        "assignee": "Gerardo Romero",
-        "updated": "2026-09-17T16:48:27.421+0100",
-        "priority": "Importante",
-        "labels": [
-          "Needs-QA",
-          "automatable"
-        ]
       },
       {
         "key": "WSC-1744",
