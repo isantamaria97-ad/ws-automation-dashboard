@@ -1,22 +1,22 @@
 {
-  "lastUpdated": "2026-09-22T09:07:05.048636+00:00",
+  "lastUpdated": "2026-09-22T16:28:17.474970+00:00",
   "jira": {
     "summary": {
-      "total": 425,
+      "total": 426,
       "byStatus": {
-        "QA Approved": 8,
-        "En curso": 7,
-        "READY FOR RELEASE": 2,
         "IN QA": 1,
-        "Tech Review": 4,
-        "RETURNED BY QA": 2,
-        "IN UAT": 3,
+        "Backlog": 15,
+        "En curso": 8,
+        "QA Approved": 7,
+        "Finalizada": 342,
+        "IN UAT": 4,
+        "RETURNED BY QA": 1,
         "Listo": 15,
+        "READY FOR RELEASE": 2,
+        "Tech Review": 2,
         "Tareas por hacer": 4,
-        "Finalizada": 341,
         "Ready to QA": 1,
         "Blocked": 4,
-        "Backlog": 13,
         "Pre-prioritized": 2,
         "Ready for Refinement": 1,
         "Deprecated": 17
@@ -27,14 +27,144 @@
         "key": "WSC-1683",
         "url": "https://e2x.atlassian.net/browse/WSC-1683",
         "summary": "PDP - ATB and Size UX redesign",
-        "status": "QA Approved",
+        "status": "IN QA",
         "statusCategory": "indeterminate",
         "assignee": "Gerardo Romero",
-        "updated": "2026-09-22T10:02:21.333+0100",
+        "updated": "2026-09-22T17:04:00.894+0100",
         "priority": "Importante",
         "labels": [
           "Needs-QA",
           "automatable"
+        ]
+      },
+      {
+        "key": "WSC-1619",
+        "url": "https://e2x.atlassian.net/browse/WSC-1619",
+        "summary": "Outbound request resilience: 429 backoff, concurrency limits & circuit breaking",
+        "status": "Backlog",
+        "statusCategory": "new",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-09-22T16:09:26.767+0100",
+        "priority": "Cr\u00edtica",
+        "labels": [
+          "NO_QA_REQUIRED",
+          "co-build"
+        ]
+      },
+      {
+        "key": "WSC-1697",
+        "url": "https://e2x.atlassian.net/browse/WSC-1697",
+        "summary": "PDP - 'back in stock' new UX",
+        "status": "En curso",
+        "statusCategory": "indeterminate",
+        "assignee": "Jair Huaman",
+        "updated": "2026-09-22T15:44:25.726+0100",
+        "priority": "Importante",
+        "labels": [
+          "Needs-QA",
+          "automatable"
+        ]
+      },
+      {
+        "key": "WSC-1685",
+        "url": "https://e2x.atlassian.net/browse/WSC-1685",
+        "summary": "PDP - mobile sticky ADD TO BAG change to its behaviour",
+        "status": "QA Approved",
+        "statusCategory": "indeterminate",
+        "assignee": "Gerardo Romero",
+        "updated": "2026-09-22T15:42:37.938+0100",
+        "priority": "Importante",
+        "labels": [
+          "Needs-QA",
+          "manualQA"
+        ]
+      },
+      {
+        "key": "WSC-1761",
+        "url": "https://e2x.atlassian.net/browse/WSC-1761",
+        "summary": "BazaarVoice review post Revert of WSC-1660",
+        "status": "Finalizada",
+        "statusCategory": "done",
+        "assignee": "Stuart Young",
+        "updated": "2026-09-22T15:21:39.792+0100",
+        "priority": "Importante",
+        "labels": [
+          "NO_QA_REQUIRED"
+        ]
+      },
+      {
+        "key": "WSC-1770",
+        "url": "https://e2x.atlassian.net/browse/WSC-1770",
+        "summary": "[Spike] Track Leg 2 (Cloudflare -> Alokai) traffic to validate real cache ratio in SiteSpect Sandwich architecture",
+        "status": "IN UAT",
+        "statusCategory": "indeterminate",
+        "assignee": "Jair Huaman",
+        "updated": "2026-09-22T15:18:04.408+0100",
+        "priority": "Not Set",
+        "labels": []
+      },
+      {
+        "key": "WSC-1710",
+        "url": "https://e2x.atlassian.net/browse/WSC-1710",
+        "summary": "CLS-01 \u2014 PDP template - Desktop and Mobile",
+        "status": "RETURNED BY QA",
+        "statusCategory": "indeterminate",
+        "assignee": "Jair Huaman",
+        "updated": "2026-09-22T15:17:15.894+0100",
+        "priority": "Cr\u00edtica",
+        "labels": [
+          "Needs-QA",
+          "manualQA"
+        ]
+      },
+      {
+        "key": "WSC-1670",
+        "url": "https://e2x.atlassian.net/browse/WSC-1670",
+        "summary": "WS-PR - PDP - shop stock look-up",
+        "status": "Listo",
+        "statusCategory": "new",
+        "assignee": "Chiara Davies",
+        "updated": "2026-09-22T15:05:47.049+0100",
+        "priority": "Importante",
+        "labels": []
+      },
+      {
+        "key": "WSC-1772",
+        "url": "https://e2x.atlassian.net/browse/WSC-1772",
+        "summary": "CSP - UAT \u2013 Resolve Remaining Report-Only Violations Before Enforcement",
+        "status": "Backlog",
+        "statusCategory": "new",
+        "assignee": "Unassigned",
+        "updated": "2026-09-22T15:03:14.984+0100",
+        "priority": "Not Set",
+        "labels": [
+          "NO_QA_REQUIRED"
+        ]
+      },
+      {
+        "key": "WSC-1673",
+        "url": "https://e2x.atlassian.net/browse/WSC-1673",
+        "summary": "API 404 error - https://www.whitestuff.com/api/ampl/getContent",
+        "status": "IN UAT",
+        "statusCategory": "indeterminate",
+        "assignee": "Stuart Young",
+        "updated": "2026-09-22T15:00:08.820+0100",
+        "priority": "Poco importante",
+        "labels": []
+      },
+      {
+        "key": "WSC-1695",
+        "url": "https://e2x.atlassian.net/browse/WSC-1695",
+        "summary": "PDP - new image layout / breadcrumb move",
+        "status": "En curso",
+        "statusCategory": "indeterminate",
+        "assignee": "Alexander Talavera",
+        "updated": "2026-09-22T10:30:22.280+0100",
+        "priority": "Importante",
+        "labels": [
+          "Needs-QA",
+          "automatable",
+          "manualQA"
         ]
       },
       {
@@ -62,20 +192,6 @@
           "security",
           "snyk",
           "vulnerability"
-        ]
-      },
-      {
-        "key": "WSC-1685",
-        "url": "https://e2x.atlassian.net/browse/WSC-1685",
-        "summary": "PDP - mobile sticky ADD TO BAG change to its behaviour",
-        "status": "IN QA",
-        "statusCategory": "indeterminate",
-        "assignee": "Gerardo Romero",
-        "updated": "2026-09-21T21:58:57.471+0100",
-        "priority": "Importante",
-        "labels": [
-          "Needs-QA",
-          "manualQA"
         ]
       },
       {
@@ -128,73 +244,6 @@
         ]
       },
       {
-        "key": "WSC-1695",
-        "url": "https://e2x.atlassian.net/browse/WSC-1695",
-        "summary": "PDP - new image layout / breadcrumb move",
-        "status": "En curso",
-        "statusCategory": "indeterminate",
-        "assignee": "Alexander Talavera",
-        "updated": "2026-09-21T19:23:25.750+0100",
-        "priority": "Importante",
-        "labels": [
-          "Needs-QA",
-          "automatable",
-          "manualQA"
-        ]
-      },
-      {
-        "key": "WSC-1770",
-        "url": "https://e2x.atlassian.net/browse/WSC-1770",
-        "summary": "[Spike] Track Leg 2 (Cloudflare -> Alokai) traffic to validate real cache ratio in SiteSpect Sandwich architecture",
-        "status": "Tech Review",
-        "statusCategory": "indeterminate",
-        "assignee": "Jair Huaman",
-        "updated": "2026-09-21T17:52:07.960+0100",
-        "priority": "Not Set",
-        "labels": []
-      },
-      {
-        "key": "WSC-1710",
-        "url": "https://e2x.atlassian.net/browse/WSC-1710",
-        "summary": "CLS-01 \u2014 PDP template - Desktop and Mobile",
-        "status": "RETURNED BY QA",
-        "statusCategory": "indeterminate",
-        "assignee": "Rafael Paranagu\u00e1",
-        "updated": "2026-09-21T16:02:02.034+0100",
-        "priority": "Cr\u00edtica",
-        "labels": [
-          "Needs-QA",
-          "manualQA"
-        ]
-      },
-      {
-        "key": "WSC-1761",
-        "url": "https://e2x.atlassian.net/browse/WSC-1761",
-        "summary": "BazaarVoice review post Revert of WSC-1660",
-        "status": "Tech Review",
-        "statusCategory": "indeterminate",
-        "assignee": "Stuart Young",
-        "updated": "2026-09-21T15:21:41.217+0100",
-        "priority": "Importante",
-        "labels": [
-          "NO_QA_REQUIRED"
-        ]
-      },
-      {
-        "key": "WSC-1697",
-        "url": "https://e2x.atlassian.net/browse/WSC-1697",
-        "summary": "PDP - 'back in stock' new UX",
-        "status": "QA Approved",
-        "statusCategory": "indeterminate",
-        "assignee": "Gerardo Romero",
-        "updated": "2026-09-21T14:08:32.529+0100",
-        "priority": "Importante",
-        "labels": [
-          "Needs-QA",
-          "automatable"
-        ]
-      },
-      {
         "key": "WSC-1768",
         "url": "https://e2x.atlassian.net/browse/WSC-1768",
         "summary": "Spike \u2013 Investigate UAT Access Restrictions",
@@ -203,17 +252,6 @@
         "assignee": "enmanuel.ramirez",
         "updated": "2026-09-20T22:16:32.712+0100",
         "priority": "Not Set",
-        "labels": []
-      },
-      {
-        "key": "WSC-1673",
-        "url": "https://e2x.atlassian.net/browse/WSC-1673",
-        "summary": "API 404 error - https://www.whitestuff.com/api/ampl/getContent",
-        "status": "IN UAT",
-        "statusCategory": "indeterminate",
-        "assignee": "Stuart Young",
-        "updated": "2026-09-18T18:17:30.244+0100",
-        "priority": "Poco importante",
         "labels": []
       },
       {
@@ -664,17 +702,6 @@
         "labels": [
           "Needs-QA"
         ]
-      },
-      {
-        "key": "WSC-1670",
-        "url": "https://e2x.atlassian.net/browse/WSC-1670",
-        "summary": "WS-PR - PDP - shop stock look-up",
-        "status": "Listo",
-        "statusCategory": "new",
-        "assignee": "Chiara Davies",
-        "updated": "2026-09-15T15:06:21.153+0100",
-        "priority": "Importante",
-        "labels": []
       },
       {
         "key": "WSC-1601",
@@ -1273,20 +1300,6 @@
         "updated": "2026-09-04T22:05:47.072+0100",
         "priority": "Importante",
         "labels": []
-      },
-      {
-        "key": "WSC-1619",
-        "url": "https://e2x.atlassian.net/browse/WSC-1619",
-        "summary": "Outbound request resilience: 429 backoff, concurrency limits & circuit breaking",
-        "status": "RETURNED BY QA",
-        "statusCategory": "indeterminate",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-09-04T15:06:43.609+0100",
-        "priority": "Cr\u00edtica",
-        "labels": [
-          "NO_QA_REQUIRED",
-          "co-build"
-        ]
       },
       {
         "key": "WSC-1478",
