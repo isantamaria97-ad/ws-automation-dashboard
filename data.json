@@ -1,19 +1,19 @@
 {
-  "lastUpdated": "2026-09-23T03:45:15.214986+00:00",
+  "lastUpdated": "2026-09-23T09:08:29.202172+00:00",
   "jira": {
     "summary": {
       "total": 426,
       "byStatus": {
+        "Tareas por hacer": 4,
+        "Listo": 14,
+        "Ready to QA": 2,
         "En curso": 7,
         "Tech Review": 3,
         "QA Approved": 9,
         "Finalizada": 343,
-        "Ready to QA": 2,
         "Backlog": 14,
         "IN UAT": 4,
-        "Listo": 14,
         "READY FOR RELEASE": 2,
-        "Tareas por hacer": 4,
         "Blocked": 4,
         "Pre-prioritized": 2,
         "Ready for Refinement": 1,
@@ -21,6 +21,46 @@
       }
     },
     "tickets": [
+      {
+        "key": "WSC-1749",
+        "url": "https://e2x.atlassian.net/browse/WSC-1749",
+        "summary": "Passwordless Sign-In",
+        "status": "Tareas por hacer",
+        "statusCategory": "new",
+        "assignee": "Unassigned",
+        "updated": "2026-09-23T09:58:46.021+0100",
+        "priority": "Importante",
+        "labels": []
+      },
+      {
+        "key": "WSC-1699",
+        "url": "https://e2x.atlassian.net/browse/WSC-1699",
+        "summary": "PLP - single image roll over issue",
+        "status": "Listo",
+        "statusCategory": "new",
+        "assignee": "Unassigned",
+        "updated": "2026-09-23T09:58:38.911+0100",
+        "priority": "Poco importante",
+        "labels": [
+          "Needs-QA",
+          "manualQA"
+        ]
+      },
+      {
+        "key": "WSC-1692",
+        "url": "https://e2x.atlassian.net/browse/WSC-1692",
+        "summary": "PERSONALISED CONTENT - 'no segment'",
+        "status": "Ready to QA",
+        "statusCategory": "new",
+        "assignee": "Gerardo Romero",
+        "updated": "2026-09-23T09:49:04.033+0100",
+        "priority": "Supone un impedimento",
+        "labels": [
+          "Needs-QA",
+          "co-build",
+          "manualQA"
+        ]
+      },
       {
         "key": "WSC-1760",
         "url": "https://e2x.atlassian.net/browse/WSC-1760",
@@ -304,17 +344,6 @@
         ]
       },
       {
-        "key": "WSC-1749",
-        "url": "https://e2x.atlassian.net/browse/WSC-1749",
-        "summary": "Passwordless Sign-In",
-        "status": "Tareas por hacer",
-        "statusCategory": "new",
-        "assignee": "Unassigned",
-        "updated": "2026-09-17T19:38:19.952+0100",
-        "priority": "Importante",
-        "labels": []
-      },
-      {
         "key": "WSC-1736",
         "url": "https://e2x.atlassian.net/browse/WSC-1736",
         "summary": "Spike: PERSONALISED CONTENT - preview/visualiser on a Content Page",
@@ -335,21 +364,6 @@
         "updated": "2026-09-17T16:46:20.986+0100",
         "priority": "Not Set",
         "labels": []
-      },
-      {
-        "key": "WSC-1692",
-        "url": "https://e2x.atlassian.net/browse/WSC-1692",
-        "summary": "PERSONALISED CONTENT - 'no segment'",
-        "status": "Ready to QA",
-        "statusCategory": "new",
-        "assignee": "Gerardo Romero",
-        "updated": "2026-09-17T16:45:39.142+0100",
-        "priority": "Supone un impedimento",
-        "labels": [
-          "Needs-QA",
-          "co-build",
-          "manualQA"
-        ]
       },
       {
         "key": "WSC-1764",
@@ -1591,20 +1605,6 @@
         "statusCategory": "new",
         "assignee": "Jair Huaman",
         "updated": "2026-09-02T16:30:59.808+0100",
-        "priority": "Poco importante",
-        "labels": [
-          "Needs-QA",
-          "manualQA"
-        ]
-      },
-      {
-        "key": "WSC-1699",
-        "url": "https://e2x.atlassian.net/browse/WSC-1699",
-        "summary": "PLP - single image roll over issue",
-        "status": "Listo",
-        "statusCategory": "new",
-        "assignee": "Unassigned",
-        "updated": "2026-09-02T16:30:50.852+0100",
         "priority": "Poco importante",
         "labels": [
           "Needs-QA",
