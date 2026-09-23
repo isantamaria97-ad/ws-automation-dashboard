@@ -1,28 +1,169 @@
 {
-  "lastUpdated": "2026-09-23T16:18:18.504810+00:00",
+  "lastUpdated": "2026-09-23T22:46:03.810503+00:00",
   "jira": {
     "summary": {
       "total": 426,
       "byStatus": {
-        "En curso": 6,
         "Tech Review": 3,
-        "Finalizada": 344,
-        "Tareas por hacer": 4,
         "Listo": 13,
-        "RETURNED BY QA": 1,
         "PENDING DEV DEPLOY": 1,
-        "QA Approved": 9,
-        "Pre-prioritized": 2,
-        "Ready to QA": 1,
+        "Finalizada": 344,
+        "QA Approved": 10,
+        "En curso": 5,
+        "Ready to QA": 3,
+        "Tareas por hacer": 4,
         "Backlog": 14,
         "IN UAT": 4,
         "READY FOR RELEASE": 2,
         "Blocked": 4,
+        "Pre-prioritized": 1,
         "Ready for Refinement": 1,
         "Deprecated": 17
       }
     },
     "tickets": [
+      {
+        "key": "WSC-1768",
+        "url": "https://e2x.atlassian.net/browse/WSC-1768",
+        "summary": "Spike \u2013 Investigate UAT Access Restrictions",
+        "status": "Tech Review",
+        "statusCategory": "indeterminate",
+        "assignee": "Alexander Talavera",
+        "updated": "2026-09-23T22:45:05.187+0100",
+        "priority": "Not Set",
+        "labels": []
+      },
+      {
+        "key": "WSC-1694",
+        "url": "https://e2x.atlassian.net/browse/WSC-1694",
+        "summary": "SLIM BANNER - improve loading speed",
+        "status": "Listo",
+        "statusCategory": "new",
+        "assignee": "Unassigned",
+        "updated": "2026-09-23T22:37:53.316+0100",
+        "priority": "Importante",
+        "labels": [
+          "Needs-QA",
+          "manualQA"
+        ]
+      },
+      {
+        "key": "WSC-1737",
+        "url": "https://e2x.atlassian.net/browse/WSC-1737",
+        "summary": "Review and Fix of existing Vulnerability Tickets until August 2026",
+        "status": "PENDING DEV DEPLOY",
+        "statusCategory": "new",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-09-23T21:49:06.334+0100",
+        "priority": "Importante",
+        "labels": [
+          "NO_QA_REQUIRED"
+        ]
+      },
+      {
+        "key": "WSC-1602",
+        "url": "https://e2x.atlassian.net/browse/WSC-1602",
+        "summary": "[WSSD-642] - VSF - Investigate Apple Pay Express discount loss after dismissed/timed-out payment sheet",
+        "status": "Finalizada",
+        "statusCategory": "done",
+        "assignee": "Stuart Young",
+        "updated": "2026-09-23T21:05:07.220+0100",
+        "priority": "Importante",
+        "labels": []
+      },
+      {
+        "key": "WSC-1676",
+        "url": "https://e2x.atlassian.net/browse/WSC-1676",
+        "summary": "APPLE PAY EXPRESS",
+        "status": "QA Approved",
+        "statusCategory": "indeterminate",
+        "assignee": "Ingrith Santamaria",
+        "updated": "2026-09-23T21:03:24.901+0100",
+        "priority": "Importante",
+        "labels": [
+          "Needs-QA",
+          "manualQA"
+        ]
+      },
+      {
+        "key": "WSC-1710",
+        "url": "https://e2x.atlassian.net/browse/WSC-1710",
+        "summary": "CLS-01 \u2014 PDP template - Desktop and Mobile",
+        "status": "QA Approved",
+        "statusCategory": "indeterminate",
+        "assignee": "Rafael Paranagu\u00e1",
+        "updated": "2026-09-23T20:41:12.907+0100",
+        "priority": "Cr\u00edtica",
+        "labels": [
+          "Needs-QA",
+          "manualQA"
+        ]
+      },
+      {
+        "key": "WSC-1740",
+        "url": "https://e2x.atlassian.net/browse/WSC-1740",
+        "summary": "CHECKOUT - BC API CHANGE (2 of 2)",
+        "status": "En curso",
+        "statusCategory": "indeterminate",
+        "assignee": "Jair Huaman",
+        "updated": "2026-09-23T19:32:07.385+0100",
+        "priority": "Importante",
+        "labels": [
+          "NO_QA_REQUIRED"
+        ]
+      },
+      {
+        "key": "WSC-1760",
+        "url": "https://e2x.atlassian.net/browse/WSC-1760",
+        "summary": "[WSSD-750] - PDP product group links - bug",
+        "status": "Ready to QA",
+        "statusCategory": "new",
+        "assignee": "Unassigned",
+        "updated": "2026-09-23T19:21:22.691+0100",
+        "priority": "Poco importante",
+        "labels": []
+      },
+      {
+        "key": "WSC-1692",
+        "url": "https://e2x.atlassian.net/browse/WSC-1692",
+        "summary": "PERSONALISED CONTENT - 'no segment'",
+        "status": "En curso",
+        "statusCategory": "indeterminate",
+        "assignee": "Alexander Talavera",
+        "updated": "2026-09-23T18:52:31.414+0100",
+        "priority": "Supone un impedimento",
+        "labels": [
+          "Needs-QA",
+          "co-build",
+          "manualQA"
+        ]
+      },
+      {
+        "key": "WSC-1709",
+        "url": "https://e2x.atlassian.net/browse/WSC-1709",
+        "summary": "INP-01 \u2014 PDP template - Desktop and Mobile",
+        "status": "Ready to QA",
+        "statusCategory": "new",
+        "assignee": "Rafael Paranagu\u00e1",
+        "updated": "2026-09-23T18:50:46.880+0100",
+        "priority": "Cr\u00edtica",
+        "labels": []
+      },
+      {
+        "key": "WSC-1695",
+        "url": "https://e2x.atlassian.net/browse/WSC-1695",
+        "summary": "PDP - new image layout / breadcrumb move",
+        "status": "Ready to QA",
+        "statusCategory": "new",
+        "assignee": "Unassigned",
+        "updated": "2026-09-23T18:30:15.998+0100",
+        "priority": "Importante",
+        "labels": [
+          "Needs-QA",
+          "automatable",
+          "manualQA"
+        ]
+      },
       {
         "key": "WSC-1739",
         "url": "https://e2x.atlassian.net/browse/WSC-1739",
@@ -35,17 +176,6 @@
         "labels": [
           "NO_QA_REQUIRED"
         ]
-      },
-      {
-        "key": "WSC-1709",
-        "url": "https://e2x.atlassian.net/browse/WSC-1709",
-        "summary": "INP-01 \u2014 PDP template - Desktop and Mobile",
-        "status": "Tech Review",
-        "statusCategory": "indeterminate",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-09-23T17:01:03.244+0100",
-        "priority": "Cr\u00edtica",
-        "labels": []
       },
       {
         "key": "WSC-1162",
@@ -70,47 +200,6 @@
         "updated": "2026-09-23T15:14:19.351+0100",
         "priority": "Cr\u00edtica",
         "labels": []
-      },
-      {
-        "key": "WSC-1740",
-        "url": "https://e2x.atlassian.net/browse/WSC-1740",
-        "summary": "CHECKOUT - BC API CHANGE (2 of 2)",
-        "status": "Listo",
-        "statusCategory": "new",
-        "assignee": "Jair Huaman",
-        "updated": "2026-09-23T15:13:34.429+0100",
-        "priority": "Importante",
-        "labels": [
-          "NO_QA_REQUIRED"
-        ]
-      },
-      {
-        "key": "WSC-1692",
-        "url": "https://e2x.atlassian.net/browse/WSC-1692",
-        "summary": "PERSONALISED CONTENT - 'no segment'",
-        "status": "RETURNED BY QA",
-        "statusCategory": "indeterminate",
-        "assignee": "Alexander Talavera",
-        "updated": "2026-09-23T15:11:03.692+0100",
-        "priority": "Supone un impedimento",
-        "labels": [
-          "Needs-QA",
-          "co-build",
-          "manualQA"
-        ]
-      },
-      {
-        "key": "WSC-1737",
-        "url": "https://e2x.atlassian.net/browse/WSC-1737",
-        "summary": "Review and Fix of existing Vulnerability Tickets until August 2026",
-        "status": "PENDING DEV DEPLOY",
-        "statusCategory": "new",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-09-23T14:56:59.191+0100",
-        "priority": "Importante",
-        "labels": [
-          "NO_QA_REQUIRED"
-        ]
       },
       {
         "key": "WSC-1687",
@@ -157,21 +246,6 @@
         ]
       },
       {
-        "key": "WSC-1695",
-        "url": "https://e2x.atlassian.net/browse/WSC-1695",
-        "summary": "PDP - new image layout / breadcrumb move",
-        "status": "En curso",
-        "statusCategory": "indeterminate",
-        "assignee": "Alexander Talavera",
-        "updated": "2026-09-23T13:50:02.053+0100",
-        "priority": "Importante",
-        "labels": [
-          "Needs-QA",
-          "automatable",
-          "manualQA"
-        ]
-      },
-      {
         "key": "WSC-1772",
         "url": "https://e2x.atlassian.net/browse/WSC-1772",
         "summary": "CSP - UAT \u2013 Resolve Remaining Report-Only Violations Before Enforcement",
@@ -182,20 +256,6 @@
         "priority": "Not Set",
         "labels": [
           "NO_QA_REQUIRED"
-        ]
-      },
-      {
-        "key": "WSC-1694",
-        "url": "https://e2x.atlassian.net/browse/WSC-1694",
-        "summary": "SLIM BANNER - improve loading speed",
-        "status": "Pre-prioritized",
-        "statusCategory": "new",
-        "assignee": "Unassigned",
-        "updated": "2026-09-23T11:22:38.574+0100",
-        "priority": "Importante",
-        "labels": [
-          "Needs-QA",
-          "manualQA"
         ]
       },
       {
@@ -335,17 +395,6 @@
         ]
       },
       {
-        "key": "WSC-1760",
-        "url": "https://e2x.atlassian.net/browse/WSC-1760",
-        "summary": "[WSSD-750] - PDP product group links - bug",
-        "status": "En curso",
-        "statusCategory": "indeterminate",
-        "assignee": "Alexander Talavera",
-        "updated": "2026-09-22T23:08:14.315+0100",
-        "priority": "Poco importante",
-        "labels": []
-      },
-      {
         "key": "WSC-1697",
         "url": "https://e2x.atlassian.net/browse/WSC-1697",
         "summary": "PDP - 'back in stock' new UX",
@@ -397,20 +446,6 @@
         "updated": "2026-09-22T21:31:27.750+0100",
         "priority": "Cr\u00edtica",
         "labels": []
-      },
-      {
-        "key": "WSC-1710",
-        "url": "https://e2x.atlassian.net/browse/WSC-1710",
-        "summary": "CLS-01 \u2014 PDP template - Desktop and Mobile",
-        "status": "Ready to QA",
-        "statusCategory": "new",
-        "assignee": "Rafael Paranagu\u00e1",
-        "updated": "2026-09-22T20:49:15.248+0100",
-        "priority": "Cr\u00edtica",
-        "labels": [
-          "Needs-QA",
-          "manualQA"
-        ]
       },
       {
         "key": "WSC-1619",
@@ -476,17 +511,6 @@
           "snyk",
           "vulnerability"
         ]
-      },
-      {
-        "key": "WSC-1768",
-        "url": "https://e2x.atlassian.net/browse/WSC-1768",
-        "summary": "Spike \u2013 Investigate UAT Access Restrictions",
-        "status": "En curso",
-        "statusCategory": "indeterminate",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-09-20T22:16:32.712+0100",
-        "priority": "Not Set",
-        "labels": []
       },
       {
         "key": "WSC-1578",
@@ -619,20 +643,6 @@
         "priority": "Poco importante",
         "labels": [
           "Needs-QA"
-        ]
-      },
-      {
-        "key": "WSC-1676",
-        "url": "https://e2x.atlassian.net/browse/WSC-1676",
-        "summary": "APPLE PAY EXPRESS",
-        "status": "QA Approved",
-        "statusCategory": "indeterminate",
-        "assignee": "Ingrith Santamaria",
-        "updated": "2026-09-15T20:08:30.576+0100",
-        "priority": "Importante",
-        "labels": [
-          "Needs-QA",
-          "manualQA"
         ]
       },
       {
@@ -2122,17 +2132,6 @@
         "assignee": "Gerardo Romero",
         "updated": "2026-08-10T22:16:56.869+0100",
         "priority": "Poco importante",
-        "labels": []
-      },
-      {
-        "key": "WSC-1602",
-        "url": "https://e2x.atlassian.net/browse/WSC-1602",
-        "summary": "[WSSD-642] - VSF - Investigate Apple Pay Express discount loss after dismissed/timed-out payment sheet",
-        "status": "Finalizada",
-        "statusCategory": "done",
-        "assignee": "Stuart Young",
-        "updated": "2026-08-10T11:57:54.793+0100",
-        "priority": "Importante",
         "labels": []
       },
       {
