@@ -1,27 +1,124 @@
 {
-  "lastUpdated": "2026-09-24T16:40:00.416833+00:00",
+  "lastUpdated": "2026-09-24T23:03:49.135664+00:00",
   "jira": {
     "summary": {
       "total": 430,
       "byStatus": {
-        "Finalizada": 345,
-        "En curso": 4,
         "Blocked": 5,
-        "PENDING DEV DEPLOY": 1,
-        "Tech Review": 5,
+        "Tech Review": 6,
+        "Ready to QA": 2,
+        "En curso": 3,
+        "READY FOR RELEASE": 3,
         "Listo": 16,
-        "IN UAT": 5,
-        "Ready to QA": 1,
+        "Finalizada": 345,
+        "IN UAT": 4,
         "Ready for Refinement": 1,
         "QA Approved": 10,
         "Tareas por hacer": 3,
         "Backlog": 14,
-        "READY FOR RELEASE": 2,
         "Pre-prioritized": 1,
         "Deprecated": 17
       }
     },
     "tickets": [
+      {
+        "key": "WSC-1709",
+        "url": "https://e2x.atlassian.net/browse/WSC-1709",
+        "summary": "INP-01 \u2014 PDP template - Desktop and Mobile",
+        "status": "Blocked",
+        "statusCategory": "new",
+        "assignee": "Alexander Talavera",
+        "updated": "2026-09-24T23:54:28.551+0100",
+        "priority": "Cr\u00edtica",
+        "labels": []
+      },
+      {
+        "key": "WSC-1695",
+        "url": "https://e2x.atlassian.net/browse/WSC-1695",
+        "summary": "PDP - new image layout / breadcrumb move",
+        "status": "Tech Review",
+        "statusCategory": "indeterminate",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-09-24T23:54:03.635+0100",
+        "priority": "Importante",
+        "labels": [
+          "Needs-QA",
+          "automatable",
+          "manualQA"
+        ]
+      },
+      {
+        "key": "WSC-1760",
+        "url": "https://e2x.atlassian.net/browse/WSC-1760",
+        "summary": "[WSSD-750] - PDP product group links - bug",
+        "status": "Ready to QA",
+        "statusCategory": "new",
+        "assignee": "Gerardo Romero",
+        "updated": "2026-09-24T23:46:45.312+0100",
+        "priority": "Poco importante",
+        "labels": []
+      },
+      {
+        "key": "WSC-1778",
+        "url": "https://e2x.atlassian.net/browse/WSC-1778",
+        "summary": "[Automation] Stop building/serving the app locally for DEV & UAT Playwright CI runs",
+        "status": "En curso",
+        "statusCategory": "indeterminate",
+        "assignee": "Gerardo Romero",
+        "updated": "2026-09-24T20:34:52.475+0100",
+        "priority": "Not Set",
+        "labels": []
+      },
+      {
+        "key": "WSC-1692",
+        "url": "https://e2x.atlassian.net/browse/WSC-1692",
+        "summary": "PERSONALISED CONTENT - 'no segment'",
+        "status": "Ready to QA",
+        "statusCategory": "new",
+        "assignee": "Unassigned",
+        "updated": "2026-09-24T20:15:54.271+0100",
+        "priority": "Supone un impedimento",
+        "labels": [
+          "Needs-QA",
+          "co-build",
+          "manualQA"
+        ]
+      },
+      {
+        "key": "WSC-1737",
+        "url": "https://e2x.atlassian.net/browse/WSC-1737",
+        "summary": "Review and Fix of existing Vulnerability Tickets until August 2026",
+        "status": "READY FOR RELEASE",
+        "statusCategory": "new",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-09-24T19:46:49.805+0100",
+        "priority": "Importante",
+        "labels": [
+          "NO_QA_REQUIRED"
+        ]
+      },
+      {
+        "key": "WSC-1717",
+        "url": "https://e2x.atlassian.net/browse/WSC-1717",
+        "summary": "CONTENT - new mobile navigation",
+        "status": "Tech Review",
+        "statusCategory": "indeterminate",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-09-24T18:17:13.399+0100",
+        "priority": "Importante",
+        "labels": []
+      },
+      {
+        "key": "WSC-1779",
+        "url": "https://e2x.atlassian.net/browse/WSC-1779",
+        "summary": "NEW MOBILE NAV - event tracking",
+        "status": "Listo",
+        "statusCategory": "new",
+        "assignee": "Chiara Davies",
+        "updated": "2026-09-24T18:04:43.517+0100",
+        "priority": "Poco importante",
+        "labels": []
+      },
       {
         "key": "WSC-1733",
         "url": "https://e2x.atlassian.net/browse/WSC-1733",
@@ -46,80 +143,6 @@
         "assignee": "Jair Huaman",
         "updated": "2026-09-24T17:25:50.913+0100",
         "priority": "Cr\u00edtica",
-        "labels": []
-      },
-      {
-        "key": "WSC-1695",
-        "url": "https://e2x.atlassian.net/browse/WSC-1695",
-        "summary": "PDP - new image layout / breadcrumb move",
-        "status": "En curso",
-        "statusCategory": "indeterminate",
-        "assignee": "Alexander Talavera",
-        "updated": "2026-09-24T17:25:06.552+0100",
-        "priority": "Importante",
-        "labels": [
-          "Needs-QA",
-          "automatable",
-          "manualQA"
-        ]
-      },
-      {
-        "key": "WSC-1709",
-        "url": "https://e2x.atlassian.net/browse/WSC-1709",
-        "summary": "INP-01 \u2014 PDP template - Desktop and Mobile",
-        "status": "Blocked",
-        "statusCategory": "new",
-        "assignee": "Alexander Talavera",
-        "updated": "2026-09-24T17:25:04.292+0100",
-        "priority": "Cr\u00edtica",
-        "labels": []
-      },
-      {
-        "key": "WSC-1692",
-        "url": "https://e2x.atlassian.net/browse/WSC-1692",
-        "summary": "PERSONALISED CONTENT - 'no segment'",
-        "status": "PENDING DEV DEPLOY",
-        "statusCategory": "new",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-09-24T17:21:38.357+0100",
-        "priority": "Supone un impedimento",
-        "labels": [
-          "Needs-QA",
-          "co-build",
-          "manualQA"
-        ]
-      },
-      {
-        "key": "WSC-1778",
-        "url": "https://e2x.atlassian.net/browse/WSC-1778",
-        "summary": "[Automation] Stop building/serving the app locally for DEV & UAT Playwright CI runs",
-        "status": "En curso",
-        "statusCategory": "indeterminate",
-        "assignee": "Gerardo Romero",
-        "updated": "2026-09-24T17:16:26.216+0100",
-        "priority": "Not Set",
-        "labels": []
-      },
-      {
-        "key": "WSC-1717",
-        "url": "https://e2x.atlassian.net/browse/WSC-1717",
-        "summary": "CONTENT - new mobile navigation",
-        "status": "Tech Review",
-        "statusCategory": "indeterminate",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-09-24T17:10:13.384+0100",
-        "priority": "Importante",
-        "labels": []
-      },
-      {
-        "key": "WSC-1779",
-        "url": "https://e2x.atlassian.net/browse/WSC-1779",
-        "summary": "NEW MOBILE NAV - event tracking",
-        "status": "Listo",
-        "statusCategory": "new",
-        "assignee": "Chiara Davies",
-        "updated": "2026-09-24T16:43:24.502+0100",
-        "priority": "Poco importante",
         "labels": []
       },
       {
@@ -157,30 +180,6 @@
         "assignee": "Stuart Young",
         "updated": "2026-09-24T15:33:47.287+0100",
         "priority": "Not Set",
-        "labels": []
-      },
-      {
-        "key": "WSC-1737",
-        "url": "https://e2x.atlassian.net/browse/WSC-1737",
-        "summary": "Review and Fix of existing Vulnerability Tickets until August 2026",
-        "status": "IN UAT",
-        "statusCategory": "indeterminate",
-        "assignee": "Gerardo Romero",
-        "updated": "2026-09-24T15:17:32.187+0100",
-        "priority": "Importante",
-        "labels": [
-          "NO_QA_REQUIRED"
-        ]
-      },
-      {
-        "key": "WSC-1760",
-        "url": "https://e2x.atlassian.net/browse/WSC-1760",
-        "summary": "[WSSD-750] - PDP product group links - bug",
-        "status": "Ready to QA",
-        "statusCategory": "new",
-        "assignee": "Gerardo Romero",
-        "updated": "2026-09-24T15:08:36.596+0100",
-        "priority": "Poco importante",
         "labels": []
       },
       {
