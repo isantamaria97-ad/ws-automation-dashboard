@@ -1,17 +1,18 @@
 {
-  "lastUpdated": "2026-09-25T16:45:36.102077+00:00",
+  "lastUpdated": "2026-09-25T23:08:34.489767+00:00",
   "jira": {
     "summary": {
       "total": 430,
       "byStatus": {
-        "En curso": 4,
-        "IN QA": 1,
-        "QA Approved": 12,
-        "Listo": 17,
+        "En curso": 5,
+        "Tech Review": 3,
+        "PENDING DEV DEPLOY": 2,
         "Finalizada": 345,
-        "Tech Review": 5,
-        "READY FOR RELEASE": 3,
         "IN UAT": 4,
+        "READY FOR RELEASE": 3,
+        "QA Approved": 12,
+        "IN QA": 1,
+        "Listo": 16,
         "Ready for Refinement": 1,
         "Tareas por hacer": 2,
         "Backlog": 14,
@@ -21,6 +22,197 @@
       }
     },
     "tickets": [
+      {
+        "key": "WSC-1707",
+        "url": "https://e2x.atlassian.net/browse/WSC-1707",
+        "summary": "BAG - Coupon section disappears after applying an invalid coupon and reloading the page",
+        "status": "En curso",
+        "statusCategory": "indeterminate",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-09-25T20:40:36.945+0100",
+        "priority": "Poco importante",
+        "labels": [
+          "Bug",
+          "Needs-QA"
+        ]
+      },
+      {
+        "key": "WSC-1736",
+        "url": "https://e2x.atlassian.net/browse/WSC-1736",
+        "summary": "Spike: PERSONALISED CONTENT - preview/visualiser on a Content Page",
+        "status": "Tech Review",
+        "statusCategory": "indeterminate",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-09-25T20:32:27.967+0100",
+        "priority": "Cr\u00edtica",
+        "labels": []
+      },
+      {
+        "key": "WSC-1740",
+        "url": "https://e2x.atlassian.net/browse/WSC-1740",
+        "summary": "CHECKOUT - BC API CHANGE (2 of 2)",
+        "status": "PENDING DEV DEPLOY",
+        "statusCategory": "new",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-09-25T20:27:17.569+0100",
+        "priority": "Importante",
+        "labels": [
+          "NO_QA_REQUIRED"
+        ]
+      },
+      {
+        "key": "WSC-1739",
+        "url": "https://e2x.atlassian.net/browse/WSC-1739",
+        "summary": "CHECKOUT - BC API CHANGE (1 of 2)",
+        "status": "PENDING DEV DEPLOY",
+        "statusCategory": "new",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-09-25T20:27:14.747+0100",
+        "priority": "Cr\u00edtica",
+        "labels": [
+          "NO_QA_REQUIRED"
+        ]
+      },
+      {
+        "key": "WSC-1728",
+        "url": "https://e2x.atlassian.net/browse/WSC-1728",
+        "summary": "[Automation] UAT Coverage: Physical Gift Card and E-Gift Card PDP Purchase Flow",
+        "status": "Finalizada",
+        "statusCategory": "done",
+        "assignee": "Gerardo Romero",
+        "updated": "2026-09-25T20:15:59.817+0100",
+        "priority": "Not Set",
+        "labels": []
+      },
+      {
+        "key": "WSC-1733",
+        "url": "https://e2x.atlassian.net/browse/WSC-1733",
+        "summary": "SPIKE: Investigate Cloudflare 403 Challenge Blocking Checkout Automation on Desktop",
+        "status": "Finalizada",
+        "statusCategory": "done",
+        "assignee": "Stuart Young",
+        "updated": "2026-09-25T20:15:49.526+0100",
+        "priority": "Importante",
+        "labels": [
+          "automation",
+          "cloudflare",
+          "spike"
+        ]
+      },
+      {
+        "key": "WSC-1734",
+        "url": "https://e2x.atlassian.net/browse/WSC-1734",
+        "summary": "PLP hydration failure when loaded from tracked marketing URLs served from Cloudflare cache",
+        "status": "Finalizada",
+        "statusCategory": "done",
+        "assignee": "Gerardo Romero",
+        "updated": "2026-09-25T20:15:41.352+0100",
+        "priority": "Not Set",
+        "labels": []
+      },
+      {
+        "key": "WSC-1744",
+        "url": "https://e2x.atlassian.net/browse/WSC-1744",
+        "summary": "[SiteSpect - QA] Sandwich Model Rollout: Regression & Load/Latency Testing",
+        "status": "Finalizada",
+        "statusCategory": "done",
+        "assignee": "Gerardo Romero",
+        "updated": "2026-09-25T20:15:33.134+0100",
+        "priority": "Not Set",
+        "labels": []
+      },
+      {
+        "key": "WSC-1753",
+        "url": "https://e2x.atlassian.net/browse/WSC-1753",
+        "summary": "Review and Update of Playwright Affected Testcases",
+        "status": "Finalizada",
+        "statusCategory": "done",
+        "assignee": "Gerardo Romero",
+        "updated": "2026-09-25T20:15:21.730+0100",
+        "priority": "Not Set",
+        "labels": []
+      },
+      {
+        "key": "WSC-1768",
+        "url": "https://e2x.atlassian.net/browse/WSC-1768",
+        "summary": "Spike \u2013 Investigate UAT Access Restrictions",
+        "status": "IN UAT",
+        "statusCategory": "indeterminate",
+        "assignee": "Stuart Young",
+        "updated": "2026-09-25T20:15:05.774+0100",
+        "priority": "Not Set",
+        "labels": []
+      },
+      {
+        "key": "WSC-1778",
+        "url": "https://e2x.atlassian.net/browse/WSC-1778",
+        "summary": "[Automation] Stop building/serving the app locally for DEV & UAT Playwright CI runs",
+        "status": "En curso",
+        "statusCategory": "indeterminate",
+        "assignee": "Gerardo Romero",
+        "updated": "2026-09-25T20:14:55.743+0100",
+        "priority": "Not Set",
+        "labels": []
+      },
+      {
+        "key": "WSC-1773",
+        "url": "https://e2x.atlassian.net/browse/WSC-1773",
+        "summary": "[WSSD-752] - [Security] Critical vulnerabilities identified in axios and proxy-addr \u2014 remediation required",
+        "status": "READY FOR RELEASE",
+        "statusCategory": "new",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-09-25T20:14:43.868+0100",
+        "priority": "Cr\u00edtica",
+        "labels": [
+          "co-build",
+          "security",
+          "snyk",
+          "vulnerability"
+        ]
+      },
+      {
+        "key": "WSC-1683",
+        "url": "https://e2x.atlassian.net/browse/WSC-1683",
+        "summary": "PDP - ATB and Size UX redesign",
+        "status": "QA Approved",
+        "statusCategory": "indeterminate",
+        "assignee": "Gerardo Romero",
+        "updated": "2026-09-25T20:14:02.833+0100",
+        "priority": "Importante",
+        "labels": [
+          "Needs-QA",
+          "automatable"
+        ]
+      },
+      {
+        "key": "WSC-1684",
+        "url": "https://e2x.atlassian.net/browse/WSC-1684",
+        "summary": "PDP - mobile sticky ADD TO BAG UX",
+        "status": "QA Approved",
+        "statusCategory": "indeterminate",
+        "assignee": "Gerardo Romero",
+        "updated": "2026-09-25T20:13:48.038+0100",
+        "priority": "Importante",
+        "labels": [
+          "Needs-QA",
+          "automatable"
+        ]
+      },
+      {
+        "key": "WSC-1687",
+        "url": "https://e2x.atlassian.net/browse/WSC-1687",
+        "summary": "PDP - gift card and e-gift card colour change",
+        "status": "QA Approved",
+        "statusCategory": "indeterminate",
+        "assignee": "Ingrith Santamaria",
+        "updated": "2026-09-25T20:13:35.404+0100",
+        "priority": "Poco importante",
+        "labels": [
+          "Needs-QA",
+          "manualQA",
+          "standard"
+        ]
+      },
       {
         "key": "WSC-1717",
         "url": "https://e2x.atlassian.net/browse/WSC-1717",
@@ -125,33 +317,6 @@
         ]
       },
       {
-        "key": "WSC-1736",
-        "url": "https://e2x.atlassian.net/browse/WSC-1736",
-        "summary": "Spike: PERSONALISED CONTENT - preview/visualiser on a Content Page",
-        "status": "Tech Review",
-        "statusCategory": "indeterminate",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-09-25T15:13:17.132+0100",
-        "priority": "Cr\u00edtica",
-        "labels": []
-      },
-      {
-        "key": "WSC-1773",
-        "url": "https://e2x.atlassian.net/browse/WSC-1773",
-        "summary": "[WSSD-752] - [Security] Critical vulnerabilities identified in axios and proxy-addr \u2014 remediation required",
-        "status": "READY FOR RELEASE",
-        "statusCategory": "new",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-09-25T13:15:18.716+0100",
-        "priority": "Cr\u00edtica",
-        "labels": [
-          "co-build",
-          "security",
-          "snyk",
-          "vulnerability"
-        ]
-      },
-      {
         "key": "WSC-1750",
         "url": "https://e2x.atlassian.net/browse/WSC-1750",
         "summary": "[WSSD-741] - Ensure Talon.One discounts are retained when applied at the payment step",
@@ -165,17 +330,6 @@
           "co-build",
           "manualQA"
         ]
-      },
-      {
-        "key": "WSC-1778",
-        "url": "https://e2x.atlassian.net/browse/WSC-1778",
-        "summary": "[Automation] Stop building/serving the app locally for DEV & UAT Playwright CI runs",
-        "status": "En curso",
-        "statusCategory": "indeterminate",
-        "assignee": "Gerardo Romero",
-        "updated": "2026-09-24T20:34:52.475+0100",
-        "priority": "Not Set",
-        "labels": []
       },
       {
         "key": "WSC-1737",
@@ -199,58 +353,6 @@
         "assignee": "Chiara Davies",
         "updated": "2026-09-24T18:04:43.517+0100",
         "priority": "Poco importante",
-        "labels": []
-      },
-      {
-        "key": "WSC-1733",
-        "url": "https://e2x.atlassian.net/browse/WSC-1733",
-        "summary": "SPIKE: Investigate Cloudflare 403 Challenge Blocking Checkout Automation on Desktop",
-        "status": "Finalizada",
-        "statusCategory": "done",
-        "assignee": "Stuart Young",
-        "updated": "2026-09-24T17:31:18.433+0100",
-        "priority": "Importante",
-        "labels": [
-          "automation",
-          "cloudflare",
-          "spike"
-        ]
-      },
-      {
-        "key": "WSC-1740",
-        "url": "https://e2x.atlassian.net/browse/WSC-1740",
-        "summary": "CHECKOUT - BC API CHANGE (2 of 2)",
-        "status": "Tech Review",
-        "statusCategory": "indeterminate",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-09-24T15:40:21.714+0100",
-        "priority": "Importante",
-        "labels": [
-          "NO_QA_REQUIRED"
-        ]
-      },
-      {
-        "key": "WSC-1739",
-        "url": "https://e2x.atlassian.net/browse/WSC-1739",
-        "summary": "CHECKOUT - BC API CHANGE (1 of 2)",
-        "status": "Tech Review",
-        "statusCategory": "indeterminate",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-09-24T15:39:53.024+0100",
-        "priority": "Cr\u00edtica",
-        "labels": [
-          "NO_QA_REQUIRED"
-        ]
-      },
-      {
-        "key": "WSC-1768",
-        "url": "https://e2x.atlassian.net/browse/WSC-1768",
-        "summary": "Spike \u2013 Investigate UAT Access Restrictions",
-        "status": "IN UAT",
-        "statusCategory": "indeterminate",
-        "assignee": "Stuart Young",
-        "updated": "2026-09-24T15:33:47.287+0100",
-        "priority": "Not Set",
         "labels": []
       },
       {
@@ -367,35 +469,6 @@
         "labels": [
           "Needs-QA",
           "manualQA"
-        ]
-      },
-      {
-        "key": "WSC-1687",
-        "url": "https://e2x.atlassian.net/browse/WSC-1687",
-        "summary": "PDP - gift card and e-gift card colour change",
-        "status": "QA Approved",
-        "statusCategory": "indeterminate",
-        "assignee": "Ingrith Santamaria",
-        "updated": "2026-09-23T14:36:11.730+0100",
-        "priority": "Poco importante",
-        "labels": [
-          "Needs-QA",
-          "manualQA",
-          "standard"
-        ]
-      },
-      {
-        "key": "WSC-1684",
-        "url": "https://e2x.atlassian.net/browse/WSC-1684",
-        "summary": "PDP - mobile sticky ADD TO BAG UX",
-        "status": "QA Approved",
-        "statusCategory": "indeterminate",
-        "assignee": "Gerardo Romero",
-        "updated": "2026-09-23T14:36:11.533+0100",
-        "priority": "Importante",
-        "labels": [
-          "Needs-QA",
-          "automatable"
         ]
       },
       {
@@ -551,20 +624,6 @@
         ]
       },
       {
-        "key": "WSC-1683",
-        "url": "https://e2x.atlassian.net/browse/WSC-1683",
-        "summary": "PDP - ATB and Size UX redesign",
-        "status": "QA Approved",
-        "statusCategory": "indeterminate",
-        "assignee": "Gerardo Romero",
-        "updated": "2026-09-22T22:03:51.838+0100",
-        "priority": "Importante",
-        "labels": [
-          "Needs-QA",
-          "automatable"
-        ]
-      },
-      {
         "key": "WSC-1685",
         "url": "https://e2x.atlassian.net/browse/WSC-1685",
         "summary": "PDP - mobile sticky ADD TO BAG change to its behaviour",
@@ -639,31 +698,6 @@
         "labels": []
       },
       {
-        "key": "WSC-1707",
-        "url": "https://e2x.atlassian.net/browse/WSC-1707",
-        "summary": "BAG - Coupon section disappears after applying an invalid coupon and reloading the page",
-        "status": "Listo",
-        "statusCategory": "new",
-        "assignee": "Unassigned",
-        "updated": "2026-09-17T19:38:46.845+0100",
-        "priority": "Poco importante",
-        "labels": [
-          "Bug",
-          "Needs-QA"
-        ]
-      },
-      {
-        "key": "WSC-1744",
-        "url": "https://e2x.atlassian.net/browse/WSC-1744",
-        "summary": "[SiteSpect - QA] Sandwich Model Rollout: Regression & Load/Latency Testing",
-        "status": "Finalizada",
-        "statusCategory": "done",
-        "assignee": "Gerardo Romero",
-        "updated": "2026-09-17T16:46:20.986+0100",
-        "priority": "Not Set",
-        "labels": []
-      },
-      {
         "key": "WSC-1764",
         "url": "https://e2x.atlassian.net/browse/WSC-1764",
         "summary": "Configuration Sitespect Sandwich for Production",
@@ -687,17 +721,6 @@
           "runbook",
           "sitespect"
         ]
-      },
-      {
-        "key": "WSC-1753",
-        "url": "https://e2x.atlassian.net/browse/WSC-1753",
-        "summary": "Review and Update of Playwright Affected Testcases",
-        "status": "Finalizada",
-        "statusCategory": "done",
-        "assignee": "Gerardo Romero",
-        "updated": "2026-09-17T15:16:10.774+0100",
-        "priority": "Not Set",
-        "labels": []
       },
       {
         "key": "WSC-1534",
@@ -825,17 +848,6 @@
         "statusCategory": "done",
         "assignee": "Gerardo Romero",
         "updated": "2026-09-15T15:31:27.536+0100",
-        "priority": "Not Set",
-        "labels": []
-      },
-      {
-        "key": "WSC-1728",
-        "url": "https://e2x.atlassian.net/browse/WSC-1728",
-        "summary": "[Automation] UAT Coverage: Physical Gift Card and E-Gift Card PDP Purchase Flow",
-        "status": "Finalizada",
-        "statusCategory": "done",
-        "assignee": "Gerardo Romero",
-        "updated": "2026-09-15T15:31:26.956+0100",
         "priority": "Not Set",
         "labels": []
       },
@@ -1476,17 +1488,6 @@
         "assignee": "enmanuel.ramirez",
         "updated": "2026-09-03T14:30:03.815+0100",
         "priority": "Cr\u00edtica",
-        "labels": []
-      },
-      {
-        "key": "WSC-1734",
-        "url": "https://e2x.atlassian.net/browse/WSC-1734",
-        "summary": "PLP hydration failure when loaded from tracked marketing URLs served from Cloudflare cache",
-        "status": "Finalizada",
-        "statusCategory": "done",
-        "assignee": "Gerardo Romero",
-        "updated": "2026-09-03T14:13:26.139+0100",
-        "priority": "Not Set",
         "labels": []
       },
       {
