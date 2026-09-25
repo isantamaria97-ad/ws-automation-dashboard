@@ -1,45 +1,86 @@
 {
-  "lastUpdated": "2026-09-25T09:26:55.895621+00:00",
+  "lastUpdated": "2026-09-25T16:45:36.102077+00:00",
   "jira": {
     "summary": {
       "total": 430,
       "byStatus": {
-        "Blocked": 5,
-        "Tech Review": 6,
-        "Ready to QA": 2,
-        "En curso": 3,
-        "READY FOR RELEASE": 3,
-        "Listo": 16,
+        "En curso": 4,
+        "IN QA": 1,
+        "QA Approved": 12,
+        "Listo": 17,
         "Finalizada": 345,
+        "Tech Review": 5,
+        "READY FOR RELEASE": 3,
         "IN UAT": 4,
         "Ready for Refinement": 1,
-        "QA Approved": 10,
-        "Tareas por hacer": 3,
+        "Tareas por hacer": 2,
         "Backlog": 14,
+        "Blocked": 4,
         "Pre-prioritized": 1,
         "Deprecated": 17
       }
     },
     "tickets": [
       {
-        "key": "WSC-1709",
-        "url": "https://e2x.atlassian.net/browse/WSC-1709",
-        "summary": "INP-01 \u2014 PDP template - Desktop and Mobile",
-        "status": "Blocked",
-        "statusCategory": "new",
-        "assignee": "Alexander Talavera",
-        "updated": "2026-09-24T23:54:28.551+0100",
-        "priority": "Cr\u00edtica",
+        "key": "WSC-1717",
+        "url": "https://e2x.atlassian.net/browse/WSC-1717",
+        "summary": "CONTENT - new mobile navigation",
+        "status": "En curso",
+        "statusCategory": "indeterminate",
+        "assignee": "Chiara Davies",
+        "updated": "2026-09-25T17:19:37.156+0100",
+        "priority": "Importante",
         "labels": []
+      },
+      {
+        "key": "WSC-1754",
+        "url": "https://e2x.atlassian.net/browse/WSC-1754",
+        "summary": "SEO - PLP/Search results - add colour to H2 product name",
+        "status": "En curso",
+        "statusCategory": "indeterminate",
+        "assignee": "Jair Huaman",
+        "updated": "2026-09-25T16:21:44.482+0100",
+        "priority": "Importante",
+        "labels": [
+          "Needs-QA"
+        ]
+      },
+      {
+        "key": "WSC-1692",
+        "url": "https://e2x.atlassian.net/browse/WSC-1692",
+        "summary": "PERSONALISED CONTENT - 'no segment'",
+        "status": "IN QA",
+        "statusCategory": "indeterminate",
+        "assignee": "Ingrith Santamaria",
+        "updated": "2026-09-25T16:19:47.729+0100",
+        "priority": "Supone un impedimento",
+        "labels": [
+          "Needs-QA",
+          "co-build",
+          "manualQA"
+        ]
+      },
+      {
+        "key": "WSC-1772",
+        "url": "https://e2x.atlassian.net/browse/WSC-1772",
+        "summary": "CSP - UAT \u2013 Resolve Remaining Report-Only Violations Before Enforcement",
+        "status": "En curso",
+        "statusCategory": "indeterminate",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-09-25T16:16:50.371+0100",
+        "priority": "Not Set",
+        "labels": [
+          "NO_QA_REQUIRED"
+        ]
       },
       {
         "key": "WSC-1695",
         "url": "https://e2x.atlassian.net/browse/WSC-1695",
         "summary": "PDP - new image layout / breadcrumb move",
-        "status": "Tech Review",
+        "status": "QA Approved",
         "statusCategory": "indeterminate",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-09-24T23:54:03.635+0100",
+        "assignee": "Ingrith Santamaria",
+        "updated": "2026-09-25T16:14:50.845+0100",
         "priority": "Importante",
         "labels": [
           "Needs-QA",
@@ -48,15 +89,82 @@
         ]
       },
       {
+        "key": "WSC-1709",
+        "url": "https://e2x.atlassian.net/browse/WSC-1709",
+        "summary": "INP-01 \u2014 PDP template - Desktop and Mobile",
+        "status": "Listo",
+        "statusCategory": "new",
+        "assignee": "Alexander Talavera",
+        "updated": "2026-09-25T16:12:19.861+0100",
+        "priority": "Cr\u00edtica",
+        "labels": []
+      },
+      {
         "key": "WSC-1760",
         "url": "https://e2x.atlassian.net/browse/WSC-1760",
         "summary": "[WSSD-750] - PDP product group links - bug",
-        "status": "Ready to QA",
-        "statusCategory": "new",
-        "assignee": "Gerardo Romero",
-        "updated": "2026-09-24T23:46:45.312+0100",
+        "status": "QA Approved",
+        "statusCategory": "indeterminate",
+        "assignee": "Ingrith Santamaria",
+        "updated": "2026-09-25T16:06:04.986+0100",
         "priority": "Poco importante",
         "labels": []
+      },
+      {
+        "key": "WSC-1499",
+        "url": "https://e2x.atlassian.net/browse/WSC-1499",
+        "summary": "CHECKOUT - Amplience - Managing the delivery/collection options",
+        "status": "Finalizada",
+        "statusCategory": "done",
+        "assignee": "Ingrith Santamaria",
+        "updated": "2026-09-25T15:16:47.716+0100",
+        "priority": "Importante",
+        "labels": [
+          "FastFollow",
+          "Needs-QA"
+        ]
+      },
+      {
+        "key": "WSC-1736",
+        "url": "https://e2x.atlassian.net/browse/WSC-1736",
+        "summary": "Spike: PERSONALISED CONTENT - preview/visualiser on a Content Page",
+        "status": "Tech Review",
+        "statusCategory": "indeterminate",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-09-25T15:13:17.132+0100",
+        "priority": "Cr\u00edtica",
+        "labels": []
+      },
+      {
+        "key": "WSC-1773",
+        "url": "https://e2x.atlassian.net/browse/WSC-1773",
+        "summary": "[WSSD-752] - [Security] Critical vulnerabilities identified in axios and proxy-addr \u2014 remediation required",
+        "status": "READY FOR RELEASE",
+        "statusCategory": "new",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-09-25T13:15:18.716+0100",
+        "priority": "Cr\u00edtica",
+        "labels": [
+          "co-build",
+          "security",
+          "snyk",
+          "vulnerability"
+        ]
+      },
+      {
+        "key": "WSC-1750",
+        "url": "https://e2x.atlassian.net/browse/WSC-1750",
+        "summary": "[WSSD-741] - Ensure Talon.One discounts are retained when applied at the payment step",
+        "status": "Finalizada",
+        "statusCategory": "done",
+        "assignee": "Ingrith Santamaria",
+        "updated": "2026-09-25T13:15:08.259+0100",
+        "priority": "Importante",
+        "labels": [
+          "Needs-QA",
+          "co-build",
+          "manualQA"
+        ]
       },
       {
         "key": "WSC-1778",
@@ -70,21 +178,6 @@
         "labels": []
       },
       {
-        "key": "WSC-1692",
-        "url": "https://e2x.atlassian.net/browse/WSC-1692",
-        "summary": "PERSONALISED CONTENT - 'no segment'",
-        "status": "Ready to QA",
-        "statusCategory": "new",
-        "assignee": "Unassigned",
-        "updated": "2026-09-24T20:15:54.271+0100",
-        "priority": "Supone un impedimento",
-        "labels": [
-          "Needs-QA",
-          "co-build",
-          "manualQA"
-        ]
-      },
-      {
         "key": "WSC-1737",
         "url": "https://e2x.atlassian.net/browse/WSC-1737",
         "summary": "Review and Fix of existing Vulnerability Tickets until August 2026",
@@ -96,17 +189,6 @@
         "labels": [
           "NO_QA_REQUIRED"
         ]
-      },
-      {
-        "key": "WSC-1717",
-        "url": "https://e2x.atlassian.net/browse/WSC-1717",
-        "summary": "CONTENT - new mobile navigation",
-        "status": "Tech Review",
-        "statusCategory": "indeterminate",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-09-24T18:17:13.399+0100",
-        "priority": "Importante",
-        "labels": []
       },
       {
         "key": "WSC-1779",
@@ -133,17 +215,6 @@
           "cloudflare",
           "spike"
         ]
-      },
-      {
-        "key": "WSC-1736",
-        "url": "https://e2x.atlassian.net/browse/WSC-1736",
-        "summary": "Spike: PERSONALISED CONTENT - preview/visualiser on a Content Page",
-        "status": "En curso",
-        "statusCategory": "indeterminate",
-        "assignee": "Jair Huaman",
-        "updated": "2026-09-24T17:25:50.913+0100",
-        "priority": "Cr\u00edtica",
-        "labels": []
       },
       {
         "key": "WSC-1740",
@@ -340,32 +411,6 @@
           "Needs-QA",
           "automatable",
           "co-build"
-        ]
-      },
-      {
-        "key": "WSC-1772",
-        "url": "https://e2x.atlassian.net/browse/WSC-1772",
-        "summary": "CSP - UAT \u2013 Resolve Remaining Report-Only Violations Before Enforcement",
-        "status": "En curso",
-        "statusCategory": "indeterminate",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-09-23T13:42:53.762+0100",
-        "priority": "Not Set",
-        "labels": [
-          "NO_QA_REQUIRED"
-        ]
-      },
-      {
-        "key": "WSC-1754",
-        "url": "https://e2x.atlassian.net/browse/WSC-1754",
-        "summary": "SEO - PLP/Search results - add colour to H2 product name",
-        "status": "Tareas por hacer",
-        "statusCategory": "new",
-        "assignee": "Unassigned",
-        "updated": "2026-09-23T11:17:17.207+0100",
-        "priority": "Importante",
-        "labels": [
-          "Needs-QA"
         ]
       },
       {
@@ -583,22 +628,6 @@
         "labels": []
       },
       {
-        "key": "WSC-1773",
-        "url": "https://e2x.atlassian.net/browse/WSC-1773",
-        "summary": "[WSSD-752] - [Security] Critical vulnerabilities identified in axios and proxy-addr \u2014 remediation required",
-        "status": "READY FOR RELEASE",
-        "statusCategory": "new",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-09-21T21:59:51.432+0100",
-        "priority": "Cr\u00edtica",
-        "labels": [
-          "co-build",
-          "security",
-          "snyk",
-          "vulnerability"
-        ]
-      },
-      {
         "key": "WSC-1578",
         "url": "https://e2x.atlassian.net/browse/WSC-1578",
         "summary": "[WSSD-633] Add Cloudflare rate limiting rule for the password reset endpoint",
@@ -738,21 +767,6 @@
         "priority": "Cr\u00edtica",
         "labels": [
           "Needs-QA"
-        ]
-      },
-      {
-        "key": "WSC-1750",
-        "url": "https://e2x.atlassian.net/browse/WSC-1750",
-        "summary": "[WSSD-741] - Ensure Talon.One discounts are retained when applied at the payment step",
-        "status": "Finalizada",
-        "statusCategory": "done",
-        "assignee": "Ingrith Santamaria",
-        "updated": "2026-09-15T15:31:30.336+0100",
-        "priority": "Importante",
-        "labels": [
-          "Needs-QA",
-          "co-build",
-          "manualQA"
         ]
       },
       {
@@ -2717,20 +2731,6 @@
         "updated": "2026-07-20T20:57:54.582+0100",
         "priority": "Poco importante",
         "labels": [
-          "Needs-QA"
-        ]
-      },
-      {
-        "key": "WSC-1499",
-        "url": "https://e2x.atlassian.net/browse/WSC-1499",
-        "summary": "CHECKOUT - Amplience - Managing the delivery/collection options",
-        "status": "Finalizada",
-        "statusCategory": "done",
-        "assignee": "Ingrith Santamaria",
-        "updated": "2026-07-20T20:57:49.853+0100",
-        "priority": "Importante",
-        "labels": [
-          "FastFollow",
           "Needs-QA"
         ]
       },
