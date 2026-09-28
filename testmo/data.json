@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-28T16:55:39.344307+00:00",
+  "lastUpdated": "2026-09-28T22:27:04.036869+00:00",
   "milestones": [
     {
       "id": 253,
@@ -159,10 +159,10 @@
       "updated_at": "2026-09-24T16:18:56.175Z",
       "closed_at": null,
       "elapsed_ms": null,
-      "total": 117,
-      "completed": 117,
+      "total": 115,
+      "completed": 115,
       "remaining": 0,
-      "passed": 117,
+      "passed": 115,
       "failed": 0,
       "retest": 0,
       "blocked": 0,
@@ -175,7 +175,7 @@
         },
         "Passed": {
           "id": 2,
-          "count": 117
+          "count": 115
         },
         "Failed": {
           "id": 3,
@@ -1040,17 +1040,6 @@
           "updatedAt": "2026-09-21T15:59:51.894Z"
         },
         {
-          "caseId": 127262,
-          "testId": 2233076,
-          "name": "UK: gift card order shows only gift card option",
-          "tags": [],
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-09-21T15:59:51.894Z"
-        },
-        {
           "caseId": 127266,
           "testId": 2233080,
           "name": "UK: no info message shown for a standard order",
@@ -1126,17 +1115,6 @@
           "note": "",
           "assigneeId": null,
           "updatedAt": "2026-09-21T16:00:01.550Z"
-        },
-        {
-          "caseId": 114301,
-          "testId": 2233019,
-          "name": "Verify Add To Bag Button Is Enabled After Selecting All Required Variants",
-          "tags": [],
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-09-21T15:59:16.804Z"
         },
         {
           "caseId": 114324,
@@ -1569,10 +1547,10 @@
       "updated_at": "2026-09-24T16:19:00.352Z",
       "closed_at": null,
       "elapsed_ms": null,
-      "total": 117,
-      "completed": 117,
+      "total": 115,
+      "completed": 115,
       "remaining": 0,
-      "passed": 117,
+      "passed": 115,
       "failed": 0,
       "retest": 0,
       "blocked": 0,
@@ -1585,7 +1563,7 @@
         },
         "Passed": {
           "id": 2,
-          "count": 117
+          "count": 115
         },
         "Failed": {
           "id": 3,
@@ -2450,17 +2428,6 @@
           "updatedAt": "2026-09-21T16:00:31.966Z"
         },
         {
-          "caseId": 127262,
-          "testId": 2232949,
-          "name": "UK: gift card order shows only gift card option",
-          "tags": [],
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-09-21T16:00:31.966Z"
-        },
-        {
           "caseId": 127266,
           "testId": 2232953,
           "name": "UK: no info message shown for a standard order",
@@ -2530,17 +2497,6 @@
           "caseId": 156120,
           "testId": 2232983,
           "name": "Valid coupon code TEST40 applies a discount on the bag page",
-          "tags": [],
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-09-21T16:00:38.866Z"
-        },
-        {
-          "caseId": 114301,
-          "testId": 2232892,
-          "name": "Verify Add To Bag Button Is Enabled After Selecting All Required Variants",
           "tags": [],
           "statusId": 2,
           "status": "Passed",
@@ -2979,10 +2935,10 @@
       "updated_at": "2026-09-24T16:19:04.217Z",
       "closed_at": null,
       "elapsed_ms": null,
-      "total": 117,
-      "completed": 117,
+      "total": 115,
+      "completed": 115,
       "remaining": 0,
-      "passed": 117,
+      "passed": 115,
       "failed": 0,
       "retest": 0,
       "blocked": 0,
@@ -2995,7 +2951,7 @@
         },
         "Passed": {
           "id": 2,
-          "count": 117
+          "count": 115
         },
         "Failed": {
           "id": 3,
@@ -3860,17 +3816,6 @@
           "updatedAt": "2026-09-21T16:01:00.128Z"
         },
         {
-          "caseId": 127262,
-          "testId": 2232822,
-          "name": "UK: gift card order shows only gift card option",
-          "tags": [],
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-09-21T16:01:00.128Z"
-        },
-        {
           "caseId": 127266,
           "testId": 2232826,
           "name": "UK: no info message shown for a standard order",
@@ -3946,17 +3891,6 @@
           "note": "",
           "assigneeId": null,
           "updatedAt": "2026-09-21T16:01:11.676Z"
-        },
-        {
-          "caseId": 114301,
-          "testId": 2232765,
-          "name": "Verify Add To Bag Button Is Enabled After Selecting All Required Variants",
-          "tags": [],
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-09-21T16:00:50.846Z"
         },
         {
           "caseId": 114324,
@@ -4389,10 +4323,10 @@
       "updated_at": "2026-09-24T16:19:07.740Z",
       "closed_at": null,
       "elapsed_ms": null,
-      "total": 117,
-      "completed": 117,
+      "total": 115,
+      "completed": 115,
       "remaining": 0,
-      "passed": 117,
+      "passed": 115,
       "failed": 0,
       "retest": 0,
       "blocked": 0,
@@ -4405,7 +4339,7 @@
         },
         "Passed": {
           "id": 2,
-          "count": 117
+          "count": 115
         },
         "Failed": {
           "id": 3,
@@ -5270,17 +5204,6 @@
           "updatedAt": "2026-09-21T16:01:25.941Z"
         },
         {
-          "caseId": 127262,
-          "testId": 2232695,
-          "name": "UK: gift card order shows only gift card option",
-          "tags": [],
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-09-21T16:01:25.941Z"
-        },
-        {
           "caseId": 127266,
           "testId": 2232699,
           "name": "UK: no info message shown for a standard order",
@@ -5356,17 +5279,6 @@
           "note": "",
           "assigneeId": null,
           "updatedAt": "2026-09-21T16:01:35.227Z"
-        },
-        {
-          "caseId": 114301,
-          "testId": 2232638,
-          "name": "Verify Add To Bag Button Is Enabled After Selecting All Required Variants",
-          "tags": [],
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-09-21T16:01:16.240Z"
         },
         {
           "caseId": 114324,
@@ -5799,10 +5711,10 @@
       "updated_at": null,
       "closed_at": null,
       "elapsed_ms": null,
-      "total": 117,
-      "completed": 117,
+      "total": 115,
+      "completed": 115,
       "remaining": 0,
-      "passed": 117,
+      "passed": 115,
       "failed": 0,
       "retest": 0,
       "blocked": 0,
@@ -5815,7 +5727,7 @@
         },
         "Passed": {
           "id": 2,
-          "count": 117
+          "count": 115
         },
         "Failed": {
           "id": 3,
@@ -6680,17 +6592,6 @@
           "updatedAt": "2026-09-11T18:14:09.708Z"
         },
         {
-          "caseId": 127262,
-          "testId": 2229331,
-          "name": "UK: gift card order shows only gift card option",
-          "tags": [],
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-09-11T18:14:09.708Z"
-        },
-        {
           "caseId": 127266,
           "testId": 2229335,
           "name": "UK: no info message shown for a standard order",
@@ -6766,17 +6667,6 @@
           "note": "",
           "assigneeId": null,
           "updatedAt": "2026-09-11T18:14:19.223Z"
-        },
-        {
-          "caseId": 114301,
-          "testId": 2229274,
-          "name": "Verify Add To Bag Button Is Enabled After Selecting All Required Variants",
-          "tags": [],
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-09-11T18:13:58.168Z"
         },
         {
           "caseId": 114324,
@@ -7209,10 +7099,10 @@
       "updated_at": null,
       "closed_at": null,
       "elapsed_ms": null,
-      "total": 117,
-      "completed": 117,
+      "total": 115,
+      "completed": 115,
       "remaining": 0,
-      "passed": 117,
+      "passed": 115,
       "failed": 0,
       "retest": 0,
       "blocked": 0,
@@ -7225,7 +7115,7 @@
         },
         "Passed": {
           "id": 2,
-          "count": 117
+          "count": 115
         },
         "Failed": {
           "id": 3,
@@ -8090,17 +7980,6 @@
           "updatedAt": "2026-09-11T18:35:50.758Z"
         },
         {
-          "caseId": 127262,
-          "testId": 2229204,
-          "name": "UK: gift card order shows only gift card option",
-          "tags": [],
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-09-11T18:35:50.758Z"
-        },
-        {
           "caseId": 127266,
           "testId": 2229208,
           "name": "UK: no info message shown for a standard order",
@@ -8176,17 +8055,6 @@
           "note": "",
           "assigneeId": null,
           "updatedAt": "2026-09-11T18:35:59.205Z"
-        },
-        {
-          "caseId": 114301,
-          "testId": 2229147,
-          "name": "Verify Add To Bag Button Is Enabled After Selecting All Required Variants",
-          "tags": [],
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-09-11T18:35:40.759Z"
         },
         {
           "caseId": 114324,
@@ -8619,10 +8487,10 @@
       "updated_at": null,
       "closed_at": null,
       "elapsed_ms": null,
-      "total": 117,
-      "completed": 117,
+      "total": 115,
+      "completed": 115,
       "remaining": 0,
-      "passed": 117,
+      "passed": 115,
       "failed": 0,
       "retest": 0,
       "blocked": 0,
@@ -8635,7 +8503,7 @@
         },
         "Passed": {
           "id": 2,
-          "count": 117
+          "count": 115
         },
         "Failed": {
           "id": 3,
@@ -9500,17 +9368,6 @@
           "updatedAt": "2026-09-11T18:14:33.195Z"
         },
         {
-          "caseId": 127262,
-          "testId": 2229077,
-          "name": "UK: gift card order shows only gift card option",
-          "tags": [],
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-09-11T18:14:33.195Z"
-        },
-        {
           "caseId": 127266,
           "testId": 2229081,
           "name": "UK: no info message shown for a standard order",
@@ -9586,17 +9443,6 @@
           "note": "",
           "assigneeId": null,
           "updatedAt": "2026-09-11T18:14:43.402Z"
-        },
-        {
-          "caseId": 114301,
-          "testId": 2229020,
-          "name": "Verify Add To Bag Button Is Enabled After Selecting All Required Variants",
-          "tags": [],
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-09-11T18:14:24.295Z"
         },
         {
           "caseId": 114324,
@@ -10029,10 +9875,10 @@
       "updated_at": null,
       "closed_at": null,
       "elapsed_ms": null,
-      "total": 117,
-      "completed": 117,
+      "total": 115,
+      "completed": 115,
       "remaining": 0,
-      "passed": 117,
+      "passed": 115,
       "failed": 0,
       "retest": 0,
       "blocked": 0,
@@ -10045,7 +9891,7 @@
         },
         "Passed": {
           "id": 2,
-          "count": 117
+          "count": 115
         },
         "Failed": {
           "id": 3,
@@ -10910,17 +10756,6 @@
           "updatedAt": "2026-09-11T18:44:42.462Z"
         },
         {
-          "caseId": 127262,
-          "testId": 2228950,
-          "name": "UK: gift card order shows only gift card option",
-          "tags": [],
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-09-11T18:44:42.462Z"
-        },
-        {
           "caseId": 127266,
           "testId": 2228954,
           "name": "UK: no info message shown for a standard order",
@@ -10996,17 +10831,6 @@
           "note": "",
           "assigneeId": null,
           "updatedAt": "2026-09-11T18:44:50.995Z"
-        },
-        {
-          "caseId": 114301,
-          "testId": 2228893,
-          "name": "Verify Add To Bag Button Is Enabled After Selecting All Required Variants",
-          "tags": [],
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-09-11T18:44:31.549Z"
         },
         {
           "caseId": 114324,
@@ -11439,10 +11263,10 @@
       "updated_at": null,
       "closed_at": null,
       "elapsed_ms": null,
-      "total": 95,
-      "completed": 95,
+      "total": 93,
+      "completed": 93,
       "remaining": 0,
-      "passed": 95,
+      "passed": 93,
       "failed": 0,
       "retest": 0,
       "blocked": 0,
@@ -11455,7 +11279,7 @@
         },
         "Passed": {
           "id": 2,
-          "count": 95
+          "count": 93
         },
         "Failed": {
           "id": 3,
@@ -12089,17 +11913,6 @@
           "updatedAt": "2026-09-03T20:04:18.368Z"
         },
         {
-          "caseId": 127262,
-          "testId": 2223990,
-          "name": "UK: gift card order shows only gift card option",
-          "tags": [],
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-09-03T20:04:18.368Z"
-        },
-        {
           "caseId": 127266,
           "testId": 2223994,
           "name": "UK: no info message shown for a standard order",
@@ -12158,17 +11971,6 @@
           "caseId": 114288,
           "testId": 2223922,
           "name": "User Cannot Submit Registration Form With Invalid Password",
-          "tags": [],
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-09-03T20:04:04.344Z"
-        },
-        {
-          "caseId": 114301,
-          "testId": 2223933,
-          "name": "Verify Add To Bag Button Is Enabled After Selecting All Required Variants",
           "tags": [],
           "statusId": 2,
           "status": "Passed",
@@ -12607,10 +12409,10 @@
       "updated_at": null,
       "closed_at": null,
       "elapsed_ms": null,
-      "total": 95,
-      "completed": 95,
+      "total": 93,
+      "completed": 93,
       "remaining": 0,
-      "passed": 95,
+      "passed": 93,
       "failed": 0,
       "retest": 0,
       "blocked": 0,
@@ -12623,7 +12425,7 @@
         },
         "Passed": {
           "id": 2,
-          "count": 95
+          "count": 93
         },
         "Failed": {
           "id": 3,
@@ -13257,17 +13059,6 @@
           "updatedAt": "2026-09-03T20:06:07.261Z"
         },
         {
-          "caseId": 127262,
-          "testId": 2223863,
-          "name": "UK: gift card order shows only gift card option",
-          "tags": [],
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-09-03T20:06:07.261Z"
-        },
-        {
           "caseId": 127266,
           "testId": 2223867,
           "name": "UK: no info message shown for a standard order",
@@ -13326,17 +13117,6 @@
           "caseId": 114288,
           "testId": 2223795,
           "name": "User Cannot Submit Registration Form With Invalid Password",
-          "tags": [],
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-09-03T20:05:53.990Z"
-        },
-        {
-          "caseId": 114301,
-          "testId": 2223806,
-          "name": "Verify Add To Bag Button Is Enabled After Selecting All Required Variants",
           "tags": [],
           "statusId": 2,
           "status": "Passed",
@@ -13775,10 +13555,10 @@
       "updated_at": null,
       "closed_at": null,
       "elapsed_ms": null,
-      "total": 95,
-      "completed": 95,
+      "total": 93,
+      "completed": 93,
       "remaining": 0,
-      "passed": 95,
+      "passed": 93,
       "failed": 0,
       "retest": 0,
       "blocked": 0,
@@ -13791,7 +13571,7 @@
         },
         "Passed": {
           "id": 2,
-          "count": 95
+          "count": 93
         },
         "Failed": {
           "id": 3,
@@ -14425,17 +14205,6 @@
           "updatedAt": "2026-09-03T20:04:56.357Z"
         },
         {
-          "caseId": 127262,
-          "testId": 2223736,
-          "name": "UK: gift card order shows only gift card option",
-          "tags": [],
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-09-03T20:04:56.357Z"
-        },
-        {
           "caseId": 127266,
           "testId": 2223740,
           "name": "UK: no info message shown for a standard order",
@@ -14494,17 +14263,6 @@
           "caseId": 114288,
           "testId": 2223668,
           "name": "User Cannot Submit Registration Form With Invalid Password",
-          "tags": [],
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-09-03T20:04:43.792Z"
-        },
-        {
-          "caseId": 114301,
-          "testId": 2223679,
-          "name": "Verify Add To Bag Button Is Enabled After Selecting All Required Variants",
           "tags": [],
           "statusId": 2,
           "status": "Passed",
@@ -14943,10 +14701,10 @@
       "updated_at": null,
       "closed_at": null,
       "elapsed_ms": null,
-      "total": 95,
-      "completed": 95,
+      "total": 93,
+      "completed": 93,
       "remaining": 0,
-      "passed": 95,
+      "passed": 93,
       "failed": 0,
       "retest": 0,
       "blocked": 0,
@@ -14959,7 +14717,7 @@
         },
         "Passed": {
           "id": 2,
-          "count": 95
+          "count": 93
         },
         "Failed": {
           "id": 3,
@@ -15593,17 +15351,6 @@
           "updatedAt": "2026-09-03T20:05:31.125Z"
         },
         {
-          "caseId": 127262,
-          "testId": 2223609,
-          "name": "UK: gift card order shows only gift card option",
-          "tags": [],
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-09-03T20:05:31.125Z"
-        },
-        {
           "caseId": 127266,
           "testId": 2223613,
           "name": "UK: no info message shown for a standard order",
@@ -15662,17 +15409,6 @@
           "caseId": 114288,
           "testId": 2223541,
           "name": "User Cannot Submit Registration Form With Invalid Password",
-          "tags": [],
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-09-03T20:05:17.302Z"
-        },
-        {
-          "caseId": 114301,
-          "testId": 2223552,
-          "name": "Verify Add To Bag Button Is Enabled After Selecting All Required Variants",
           "tags": [],
           "statusId": 2,
           "status": "Passed",
@@ -16111,10 +15847,10 @@
       "updated_at": "2026-08-28T18:53:53.259Z",
       "closed_at": null,
       "elapsed_ms": null,
-      "total": 93,
-      "completed": 93,
+      "total": 91,
+      "completed": 91,
       "remaining": 0,
-      "passed": 93,
+      "passed": 91,
       "failed": 0,
       "retest": 0,
       "blocked": 0,
@@ -16127,7 +15863,7 @@
         },
         "Passed": {
           "id": 2,
-          "count": 93
+          "count": 91
         },
         "Failed": {
           "id": 3,
@@ -16739,17 +16475,6 @@
           "updatedAt": "2026-08-28T19:28:56.527Z"
         },
         {
-          "caseId": 127262,
-          "testId": 2221327,
-          "name": "UK: gift card order shows only gift card option",
-          "tags": [],
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-08-28T19:28:56.527Z"
-        },
-        {
           "caseId": 127266,
           "testId": 2221331,
           "name": "UK: no info message shown for a standard order",
@@ -16808,17 +16533,6 @@
           "caseId": 114288,
           "testId": 2221259,
           "name": "User Cannot Submit Registration Form With Invalid Password",
-          "tags": [],
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-08-28T19:28:42.470Z"
-        },
-        {
-          "caseId": 114301,
-          "testId": 2221270,
-          "name": "Verify Add To Bag Button Is Enabled After Selecting All Required Variants",
           "tags": [],
           "statusId": 2,
           "status": "Passed",
@@ -17257,10 +16971,10 @@
       "updated_at": "2026-08-28T18:53:58.248Z",
       "closed_at": null,
       "elapsed_ms": null,
-      "total": 93,
-      "completed": 93,
+      "total": 91,
+      "completed": 91,
       "remaining": 0,
-      "passed": 93,
+      "passed": 91,
       "failed": 0,
       "retest": 0,
       "blocked": 0,
@@ -17273,7 +16987,7 @@
         },
         "Passed": {
           "id": 2,
-          "count": 93
+          "count": 91
         },
         "Failed": {
           "id": 3,
@@ -17885,17 +17599,6 @@
           "updatedAt": "2026-08-28T19:32:17.788Z"
         },
         {
-          "caseId": 127262,
-          "testId": 2221200,
-          "name": "UK: gift card order shows only gift card option",
-          "tags": [],
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-08-28T19:32:17.788Z"
-        },
-        {
           "caseId": 127266,
           "testId": 2221204,
           "name": "UK: no info message shown for a standard order",
@@ -17954,17 +17657,6 @@
           "caseId": 114288,
           "testId": 2221132,
           "name": "User Cannot Submit Registration Form With Invalid Password",
-          "tags": [],
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-08-28T19:32:06.946Z"
-        },
-        {
-          "caseId": 114301,
-          "testId": 2221143,
-          "name": "Verify Add To Bag Button Is Enabled After Selecting All Required Variants",
           "tags": [],
           "statusId": 2,
           "status": "Passed",
@@ -18403,10 +18095,10 @@
       "updated_at": "2026-08-28T18:54:02.905Z",
       "closed_at": null,
       "elapsed_ms": null,
-      "total": 93,
-      "completed": 93,
+      "total": 91,
+      "completed": 91,
       "remaining": 0,
-      "passed": 93,
+      "passed": 91,
       "failed": 0,
       "retest": 0,
       "blocked": 0,
@@ -18419,7 +18111,7 @@
         },
         "Passed": {
           "id": 2,
-          "count": 93
+          "count": 91
         },
         "Failed": {
           "id": 3,
@@ -19031,17 +18723,6 @@
           "updatedAt": "2026-08-28T20:47:03.566Z"
         },
         {
-          "caseId": 127262,
-          "testId": 2221073,
-          "name": "UK: gift card order shows only gift card option",
-          "tags": [],
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-08-28T20:47:03.566Z"
-        },
-        {
           "caseId": 127266,
           "testId": 2221077,
           "name": "UK: no info message shown for a standard order",
@@ -19100,17 +18781,6 @@
           "caseId": 114288,
           "testId": 2221005,
           "name": "User Cannot Submit Registration Form With Invalid Password",
-          "tags": [],
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-08-28T20:46:53.956Z"
-        },
-        {
-          "caseId": 114301,
-          "testId": 2221016,
-          "name": "Verify Add To Bag Button Is Enabled After Selecting All Required Variants",
           "tags": [],
           "statusId": 2,
           "status": "Passed",
@@ -19549,10 +19219,10 @@
       "updated_at": "2026-08-28T18:54:06.913Z",
       "closed_at": null,
       "elapsed_ms": null,
-      "total": 93,
-      "completed": 93,
+      "total": 91,
+      "completed": 91,
       "remaining": 0,
-      "passed": 93,
+      "passed": 91,
       "failed": 0,
       "retest": 0,
       "blocked": 0,
@@ -19565,7 +19235,7 @@
         },
         "Passed": {
           "id": 2,
-          "count": 93
+          "count": 91
         },
         "Failed": {
           "id": 3,
@@ -20177,17 +19847,6 @@
           "updatedAt": "2026-08-28T21:09:45.212Z"
         },
         {
-          "caseId": 127262,
-          "testId": 2220946,
-          "name": "UK: gift card order shows only gift card option",
-          "tags": [],
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-08-28T21:09:45.212Z"
-        },
-        {
           "caseId": 127266,
           "testId": 2220950,
           "name": "UK: no info message shown for a standard order",
@@ -20246,17 +19905,6 @@
           "caseId": 114288,
           "testId": 2220878,
           "name": "User Cannot Submit Registration Form With Invalid Password",
-          "tags": [],
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-08-28T21:09:34.771Z"
-        },
-        {
-          "caseId": 114301,
-          "testId": 2220889,
-          "name": "Verify Add To Bag Button Is Enabled After Selecting All Required Variants",
           "tags": [],
           "statusId": 2,
           "status": "Passed",
@@ -20695,10 +20343,10 @@
       "updated_at": null,
       "closed_at": null,
       "elapsed_ms": null,
-      "total": 87,
-      "completed": 87,
+      "total": 85,
+      "completed": 85,
       "remaining": 0,
-      "passed": 87,
+      "passed": 85,
       "failed": 0,
       "retest": 0,
       "blocked": 0,
@@ -20711,7 +20359,7 @@
         },
         "Passed": {
           "id": 2,
-          "count": 87
+          "count": 85
         },
         "Failed": {
           "id": 3,
@@ -21257,17 +20905,6 @@
           "updatedAt": "2026-08-25T23:07:35.953Z"
         },
         {
-          "caseId": 127262,
-          "testId": 2219751,
-          "name": "UK: gift card order shows only gift card option",
-          "tags": [],
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-08-25T23:07:35.953Z"
-        },
-        {
           "caseId": 127266,
           "testId": 2219755,
           "name": "UK: no info message shown for a standard order",
@@ -21326,17 +20963,6 @@
           "caseId": 114288,
           "testId": 2219683,
           "name": "User Cannot Submit Registration Form With Invalid Password",
-          "tags": [],
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-08-25T23:07:23.215Z"
-        },
-        {
-          "caseId": 114301,
-          "testId": 2219694,
-          "name": "Verify Add To Bag Button Is Enabled After Selecting All Required Variants",
           "tags": [],
           "statusId": 2,
           "status": "Passed",
@@ -21775,10 +21401,10 @@
       "updated_at": null,
       "closed_at": null,
       "elapsed_ms": null,
-      "total": 87,
-      "completed": 87,
+      "total": 85,
+      "completed": 85,
       "remaining": 0,
-      "passed": 87,
+      "passed": 85,
       "failed": 0,
       "retest": 0,
       "blocked": 0,
@@ -21791,7 +21417,7 @@
         },
         "Passed": {
           "id": 2,
-          "count": 87
+          "count": 85
         },
         "Failed": {
           "id": 3,
@@ -22337,17 +21963,6 @@
           "updatedAt": "2026-08-25T22:58:02.989Z"
         },
         {
-          "caseId": 127262,
-          "testId": 2219624,
-          "name": "UK: gift card order shows only gift card option",
-          "tags": [],
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-08-25T22:58:02.989Z"
-        },
-        {
           "caseId": 127266,
           "testId": 2219628,
           "name": "UK: no info message shown for a standard order",
@@ -22406,17 +22021,6 @@
           "caseId": 114288,
           "testId": 2219556,
           "name": "User Cannot Submit Registration Form With Invalid Password",
-          "tags": [],
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-08-25T22:57:53.408Z"
-        },
-        {
-          "caseId": 114301,
-          "testId": 2219567,
-          "name": "Verify Add To Bag Button Is Enabled After Selecting All Required Variants",
           "tags": [],
           "statusId": 2,
           "status": "Passed",
@@ -22855,10 +22459,10 @@
       "updated_at": null,
       "closed_at": null,
       "elapsed_ms": null,
-      "total": 87,
-      "completed": 87,
+      "total": 85,
+      "completed": 85,
       "remaining": 0,
-      "passed": 87,
+      "passed": 85,
       "failed": 0,
       "retest": 0,
       "blocked": 0,
@@ -22871,7 +22475,7 @@
         },
         "Passed": {
           "id": 2,
-          "count": 87
+          "count": 85
         },
         "Failed": {
           "id": 3,
@@ -23417,17 +23021,6 @@
           "updatedAt": "2026-08-25T23:05:55.662Z"
         },
         {
-          "caseId": 127262,
-          "testId": 2219497,
-          "name": "UK: gift card order shows only gift card option",
-          "tags": [],
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-08-25T23:05:55.662Z"
-        },
-        {
           "caseId": 127266,
           "testId": 2219501,
           "name": "UK: no info message shown for a standard order",
@@ -23486,17 +23079,6 @@
           "caseId": 114288,
           "testId": 2219429,
           "name": "User Cannot Submit Registration Form With Invalid Password",
-          "tags": [],
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-08-25T23:05:46.261Z"
-        },
-        {
-          "caseId": 114301,
-          "testId": 2219440,
-          "name": "Verify Add To Bag Button Is Enabled After Selecting All Required Variants",
           "tags": [],
           "statusId": 2,
           "status": "Passed",
@@ -23935,10 +23517,10 @@
       "updated_at": null,
       "closed_at": null,
       "elapsed_ms": null,
-      "total": 87,
-      "completed": 87,
+      "total": 85,
+      "completed": 85,
       "remaining": 0,
-      "passed": 86,
+      "passed": 84,
       "failed": 0,
       "retest": 0,
       "blocked": 0,
@@ -23951,7 +23533,7 @@
         },
         "Passed": {
           "id": 2,
-          "count": 86
+          "count": 84
         },
         "Failed": {
           "id": 3,
@@ -24486,17 +24068,6 @@
           "updatedAt": "2026-08-25T22:55:43.126Z"
         },
         {
-          "caseId": 127262,
-          "testId": 2219370,
-          "name": "UK: gift card order shows only gift card option",
-          "tags": [],
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-08-25T22:57:09.194Z"
-        },
-        {
           "caseId": 127266,
           "testId": 2219374,
           "name": "UK: no info message shown for a standard order",
@@ -24555,17 +24126,6 @@
           "caseId": 114288,
           "testId": 2219302,
           "name": "User Cannot Submit Registration Form With Invalid Password",
-          "tags": [],
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-08-25T22:44:46.852Z"
-        },
-        {
-          "caseId": 114301,
-          "testId": 2219313,
-          "name": "Verify Add To Bag Button Is Enabled After Selecting All Required Variants",
           "tags": [],
           "statusId": 2,
           "status": "Passed",
@@ -25015,10 +24575,10 @@
       "updated_at": null,
       "closed_at": null,
       "elapsed_ms": null,
-      "total": 84,
-      "completed": 84,
+      "total": 82,
+      "completed": 82,
       "remaining": 0,
-      "passed": 84,
+      "passed": 82,
       "failed": 0,
       "retest": 0,
       "blocked": 0,
@@ -25031,7 +24591,7 @@
         },
         "Passed": {
           "id": 2,
-          "count": 84
+          "count": 82
         },
         "Failed": {
           "id": 3,
@@ -25544,17 +25104,6 @@
           "updatedAt": "2026-08-18T19:17:50.002Z"
         },
         {
-          "caseId": 127262,
-          "testId": 2217484,
-          "name": "UK: gift card order shows only gift card option",
-          "tags": [],
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-08-18T19:17:50.002Z"
-        },
-        {
           "caseId": 127266,
           "testId": 2217488,
           "name": "UK: no info message shown for a standard order",
@@ -25613,17 +25162,6 @@
           "caseId": 114288,
           "testId": 2217416,
           "name": "User Cannot Submit Registration Form With Invalid Password",
-          "tags": [],
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-08-18T19:17:34.664Z"
-        },
-        {
-          "caseId": 114301,
-          "testId": 2217427,
-          "name": "Verify Add To Bag Button Is Enabled After Selecting All Required Variants",
           "tags": [],
           "statusId": 2,
           "status": "Passed",
@@ -26062,10 +25600,10 @@
       "updated_at": null,
       "closed_at": null,
       "elapsed_ms": null,
-      "total": 84,
-      "completed": 84,
+      "total": 82,
+      "completed": 82,
       "remaining": 0,
-      "passed": 84,
+      "passed": 82,
       "failed": 0,
       "retest": 0,
       "blocked": 0,
@@ -26078,7 +25616,7 @@
         },
         "Passed": {
           "id": 2,
-          "count": 84
+          "count": 82
         },
         "Failed": {
           "id": 3,
@@ -26591,17 +26129,6 @@
           "updatedAt": "2026-08-18T19:21:04.138Z"
         },
         {
-          "caseId": 127262,
-          "testId": 2217357,
-          "name": "UK: gift card order shows only gift card option",
-          "tags": [],
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-08-18T19:21:04.138Z"
-        },
-        {
           "caseId": 127266,
           "testId": 2217361,
           "name": "UK: no info message shown for a standard order",
@@ -26660,17 +26187,6 @@
           "caseId": 114288,
           "testId": 2217289,
           "name": "User Cannot Submit Registration Form With Invalid Password",
-          "tags": [],
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-08-18T19:18:10.695Z"
-        },
-        {
-          "caseId": 114301,
-          "testId": 2217300,
-          "name": "Verify Add To Bag Button Is Enabled After Selecting All Required Variants",
           "tags": [],
           "statusId": 2,
           "status": "Passed",
@@ -27109,10 +26625,10 @@
       "updated_at": null,
       "closed_at": null,
       "elapsed_ms": null,
-      "total": 84,
-      "completed": 84,
+      "total": 82,
+      "completed": 82,
       "remaining": 0,
-      "passed": 84,
+      "passed": 82,
       "failed": 0,
       "retest": 0,
       "blocked": 0,
@@ -27125,7 +26641,7 @@
         },
         "Passed": {
           "id": 2,
-          "count": 84
+          "count": 82
         },
         "Failed": {
           "id": 3,
@@ -27638,17 +27154,6 @@
           "updatedAt": "2026-08-18T19:21:55.092Z"
         },
         {
-          "caseId": 127262,
-          "testId": 2217230,
-          "name": "UK: gift card order shows only gift card option",
-          "tags": [],
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-08-18T19:21:55.092Z"
-        },
-        {
           "caseId": 127266,
           "testId": 2217234,
           "name": "UK: no info message shown for a standard order",
@@ -27707,17 +27212,6 @@
           "caseId": 114288,
           "testId": 2217162,
           "name": "User Cannot Submit Registration Form With Invalid Password",
-          "tags": [],
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-08-18T19:21:21.921Z"
-        },
-        {
-          "caseId": 114301,
-          "testId": 2217173,
-          "name": "Verify Add To Bag Button Is Enabled After Selecting All Required Variants",
           "tags": [],
           "statusId": 2,
           "status": "Passed",
@@ -28156,10 +27650,10 @@
       "updated_at": null,
       "closed_at": null,
       "elapsed_ms": null,
-      "total": 84,
-      "completed": 84,
+      "total": 82,
+      "completed": 82,
       "remaining": 0,
-      "passed": 84,
+      "passed": 82,
       "failed": 0,
       "retest": 0,
       "blocked": 0,
@@ -28172,7 +27666,7 @@
         },
         "Passed": {
           "id": 2,
-          "count": 84
+          "count": 82
         },
         "Failed": {
           "id": 3,
@@ -28685,17 +28179,6 @@
           "updatedAt": "2026-08-18T19:22:25.062Z"
         },
         {
-          "caseId": 127262,
-          "testId": 2217103,
-          "name": "UK: gift card order shows only gift card option",
-          "tags": [],
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-08-18T19:22:25.062Z"
-        },
-        {
           "caseId": 127266,
           "testId": 2217107,
           "name": "UK: no info message shown for a standard order",
@@ -28754,17 +28237,6 @@
           "caseId": 114288,
           "testId": 2217035,
           "name": "User Cannot Submit Registration Form With Invalid Password",
-          "tags": [],
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-08-18T19:22:13.403Z"
-        },
-        {
-          "caseId": 114301,
-          "testId": 2217046,
-          "name": "Verify Add To Bag Button Is Enabled After Selecting All Required Variants",
           "tags": [],
           "statusId": 2,
           "status": "Passed",
@@ -29203,10 +28675,10 @@
       "updated_at": null,
       "closed_at": null,
       "elapsed_ms": null,
-      "total": 84,
-      "completed": 84,
+      "total": 82,
+      "completed": 82,
       "remaining": 0,
-      "passed": 84,
+      "passed": 82,
       "failed": 0,
       "retest": 0,
       "blocked": 0,
@@ -29219,7 +28691,7 @@
         },
         "Passed": {
           "id": 2,
-          "count": 84
+          "count": 82
         },
         "Failed": {
           "id": 3,
@@ -29732,17 +29204,6 @@
           "updatedAt": "2026-08-14T19:59:34.193Z"
         },
         {
-          "caseId": 127262,
-          "testId": 1697344,
-          "name": "UK: gift card order shows only gift card option",
-          "tags": [],
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-08-14T19:59:34.193Z"
-        },
-        {
           "caseId": 127266,
           "testId": 1697348,
           "name": "UK: no info message shown for a standard order",
@@ -29801,17 +29262,6 @@
           "caseId": 114288,
           "testId": 1697276,
           "name": "User Cannot Submit Registration Form With Invalid Password",
-          "tags": [],
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-08-14T19:59:15.676Z"
-        },
-        {
-          "caseId": 114301,
-          "testId": 1697287,
-          "name": "Verify Add To Bag Button Is Enabled After Selecting All Required Variants",
           "tags": [],
           "statusId": 2,
           "status": "Passed",
@@ -30250,10 +29700,10 @@
       "updated_at": null,
       "closed_at": null,
       "elapsed_ms": null,
-      "total": 84,
-      "completed": 84,
+      "total": 82,
+      "completed": 82,
       "remaining": 0,
-      "passed": 84,
+      "passed": 82,
       "failed": 0,
       "retest": 0,
       "blocked": 0,
@@ -30266,7 +29716,7 @@
         },
         "Passed": {
           "id": 2,
-          "count": 84
+          "count": 82
         },
         "Failed": {
           "id": 3,
@@ -30779,17 +30229,6 @@
           "updatedAt": "2026-08-14T16:48:46.398Z"
         },
         {
-          "caseId": 127262,
-          "testId": 1697217,
-          "name": "UK: gift card order shows only gift card option",
-          "tags": [],
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-08-14T16:48:46.398Z"
-        },
-        {
           "caseId": 127266,
           "testId": 1697221,
           "name": "UK: no info message shown for a standard order",
@@ -30848,17 +30287,6 @@
           "caseId": 114288,
           "testId": 1697149,
           "name": "User Cannot Submit Registration Form With Invalid Password",
-          "tags": [],
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-08-14T13:25:02.993Z"
-        },
-        {
-          "caseId": 114301,
-          "testId": 1697160,
-          "name": "Verify Add To Bag Button Is Enabled After Selecting All Required Variants",
           "tags": [],
           "statusId": 2,
           "status": "Passed",
@@ -31297,10 +30725,10 @@
       "updated_at": null,
       "closed_at": null,
       "elapsed_ms": null,
-      "total": 84,
-      "completed": 84,
+      "total": 82,
+      "completed": 82,
       "remaining": 0,
-      "passed": 83,
+      "passed": 81,
       "failed": 0,
       "retest": 0,
       "blocked": 0,
@@ -31313,7 +30741,7 @@
         },
         "Passed": {
           "id": 2,
-          "count": 83
+          "count": 81
         },
         "Failed": {
           "id": 3,
@@ -31815,17 +31243,6 @@
           "updatedAt": "2026-08-14T13:50:26.309Z"
         },
         {
-          "caseId": 127262,
-          "testId": 1697090,
-          "name": "UK: gift card order shows only gift card option",
-          "tags": [],
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-08-14T13:50:26.309Z"
-        },
-        {
           "caseId": 127266,
           "testId": 1697094,
           "name": "UK: no info message shown for a standard order",
@@ -31884,17 +31301,6 @@
           "caseId": 114288,
           "testId": 1697022,
           "name": "User Cannot Submit Registration Form With Invalid Password",
-          "tags": [],
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-08-14T13:50:14.504Z"
-        },
-        {
-          "caseId": 114301,
-          "testId": 1697033,
-          "name": "Verify Add To Bag Button Is Enabled After Selecting All Required Variants",
           "tags": [],
           "statusId": 2,
           "status": "Passed",
@@ -32344,10 +31750,10 @@
       "updated_at": null,
       "closed_at": null,
       "elapsed_ms": null,
-      "total": 84,
-      "completed": 84,
+      "total": 82,
+      "completed": 82,
       "remaining": 0,
-      "passed": 83,
+      "passed": 81,
       "failed": 0,
       "retest": 0,
       "blocked": 0,
@@ -32360,7 +31766,7 @@
         },
         "Passed": {
           "id": 2,
-          "count": 83
+          "count": 81
         },
         "Failed": {
           "id": 3,
@@ -32862,17 +32268,6 @@
           "updatedAt": "2026-08-14T13:41:32.225Z"
         },
         {
-          "caseId": 127262,
-          "testId": 1696963,
-          "name": "UK: gift card order shows only gift card option",
-          "tags": [],
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-08-14T13:41:32.225Z"
-        },
-        {
           "caseId": 127266,
           "testId": 1696967,
           "name": "UK: no info message shown for a standard order",
@@ -32931,17 +32326,6 @@
           "caseId": 114288,
           "testId": 1696895,
           "name": "User Cannot Submit Registration Form With Invalid Password",
-          "tags": [],
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-08-14T13:41:18.344Z"
-        },
-        {
-          "caseId": 114301,
-          "testId": 1696906,
-          "name": "Verify Add To Bag Button Is Enabled After Selecting All Required Variants",
           "tags": [],
           "statusId": 2,
           "status": "Passed",
@@ -33391,10 +32775,10 @@
       "updated_at": null,
       "closed_at": null,
       "elapsed_ms": null,
-      "total": 83,
-      "completed": 83,
+      "total": 81,
+      "completed": 81,
       "remaining": 0,
-      "passed": 83,
+      "passed": 81,
       "failed": 0,
       "retest": 0,
       "blocked": 0,
@@ -33407,7 +32791,7 @@
         },
         "Passed": {
           "id": 2,
-          "count": 83
+          "count": 81
         },
         "Failed": {
           "id": 3,
@@ -33909,17 +33293,6 @@
           "updatedAt": "2026-07-31T02:43:21.264Z"
         },
         {
-          "caseId": 127262,
-          "testId": 1658352,
-          "name": "UK: gift card order shows only gift card option",
-          "tags": [],
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-07-31T02:43:21.264Z"
-        },
-        {
           "caseId": 127266,
           "testId": 1658356,
           "name": "UK: no info message shown for a standard order",
@@ -33984,17 +33357,6 @@
           "note": "",
           "assigneeId": null,
           "updatedAt": "2026-07-31T13:02:01.012Z"
-        },
-        {
-          "caseId": 114301,
-          "testId": 1658295,
-          "name": "Verify Add To Bag Button Is Enabled After Selecting All Required Variants",
-          "tags": [],
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-07-31T02:43:08.575Z"
         },
         {
           "caseId": 114324,
@@ -34427,10 +33789,10 @@
       "updated_at": null,
       "closed_at": null,
       "elapsed_ms": null,
-      "total": 83,
-      "completed": 83,
+      "total": 81,
+      "completed": 81,
       "remaining": 0,
-      "passed": 83,
+      "passed": 81,
       "failed": 0,
       "retest": 0,
       "blocked": 0,
@@ -34443,7 +33805,7 @@
         },
         "Passed": {
           "id": 2,
-          "count": 83
+          "count": 81
         },
         "Failed": {
           "id": 3,
@@ -34945,17 +34307,6 @@
           "updatedAt": "2026-07-31T02:44:47.785Z"
         },
         {
-          "caseId": 127262,
-          "testId": 1658225,
-          "name": "UK: gift card order shows only gift card option",
-          "tags": [],
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-07-31T02:44:47.785Z"
-        },
-        {
           "caseId": 127266,
           "testId": 1658229,
           "name": "UK: no info message shown for a standard order",
@@ -35020,17 +34371,6 @@
           "note": "",
           "assigneeId": null,
           "updatedAt": "2026-07-31T15:29:56.516Z"
-        },
-        {
-          "caseId": 114301,
-          "testId": 1658168,
-          "name": "Verify Add To Bag Button Is Enabled After Selecting All Required Variants",
-          "tags": [],
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-07-31T15:31:01.281Z"
         },
         {
           "caseId": 114324,
@@ -35463,10 +34803,10 @@
       "updated_at": null,
       "closed_at": null,
       "elapsed_ms": null,
-      "total": 83,
-      "completed": 83,
+      "total": 81,
+      "completed": 81,
       "remaining": 0,
-      "passed": 83,
+      "passed": 81,
       "failed": 0,
       "retest": 0,
       "blocked": 0,
@@ -35479,7 +34819,7 @@
         },
         "Passed": {
           "id": 2,
-          "count": 83
+          "count": 81
         },
         "Failed": {
           "id": 3,
@@ -35981,17 +35321,6 @@
           "updatedAt": "2026-07-31T02:53:17.369Z"
         },
         {
-          "caseId": 127262,
-          "testId": 1658098,
-          "name": "UK: gift card order shows only gift card option",
-          "tags": [],
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-07-31T02:53:17.369Z"
-        },
-        {
           "caseId": 127266,
           "testId": 1658102,
           "name": "UK: no info message shown for a standard order",
@@ -36056,17 +35385,6 @@
           "note": "",
           "assigneeId": null,
           "updatedAt": "2026-07-31T15:30:05.474Z"
-        },
-        {
-          "caseId": 114301,
-          "testId": 1658041,
-          "name": "Verify Add To Bag Button Is Enabled After Selecting All Required Variants",
-          "tags": [],
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-07-31T02:53:04.852Z"
         },
         {
           "caseId": 114324,
@@ -36499,10 +35817,10 @@
       "updated_at": null,
       "closed_at": null,
       "elapsed_ms": null,
-      "total": 83,
-      "completed": 83,
+      "total": 81,
+      "completed": 81,
       "remaining": 0,
-      "passed": 83,
+      "passed": 81,
       "failed": 0,
       "retest": 0,
       "blocked": 0,
@@ -36515,7 +35833,7 @@
         },
         "Passed": {
           "id": 2,
-          "count": 83
+          "count": 81
         },
         "Failed": {
           "id": 3,
@@ -37017,17 +36335,6 @@
           "updatedAt": "2026-07-31T02:49:42.403Z"
         },
         {
-          "caseId": 127262,
-          "testId": 1657971,
-          "name": "UK: gift card order shows only gift card option",
-          "tags": [],
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-07-31T02:49:42.403Z"
-        },
-        {
           "caseId": 127266,
           "testId": 1657975,
           "name": "UK: no info message shown for a standard order",
@@ -37086,17 +36393,6 @@
           "caseId": 114288,
           "testId": 1657903,
           "name": "User Cannot Submit Registration Form With Invalid Password",
-          "tags": [],
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-07-31T02:49:30.224Z"
-        },
-        {
-          "caseId": 114301,
-          "testId": 1657914,
-          "name": "Verify Add To Bag Button Is Enabled After Selecting All Required Variants",
           "tags": [],
           "statusId": 2,
           "status": "Passed",
@@ -37535,10 +36831,10 @@
       "updated_at": "2026-07-22T13:30:55.363Z",
       "closed_at": null,
       "elapsed_ms": null,
-      "total": 74,
-      "completed": 74,
+      "total": 72,
+      "completed": 72,
       "remaining": 0,
-      "passed": 74,
+      "passed": 72,
       "failed": 0,
       "retest": 0,
       "blocked": 0,
@@ -37551,7 +36847,7 @@
         },
         "Passed": {
           "id": 2,
-          "count": 74
+          "count": 72
         },
         "Failed": {
           "id": 3,
@@ -37976,17 +37272,6 @@
           "updatedAt": "2026-07-22T16:38:31.215Z"
         },
         {
-          "caseId": 127262,
-          "testId": 1643275,
-          "name": "UK: gift card order shows only gift card option",
-          "tags": [],
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-07-22T16:38:31.215Z"
-        },
-        {
           "caseId": 127266,
           "testId": 1643279,
           "name": "UK: no info message shown for a standard order",
@@ -38029,17 +37314,6 @@
           "note": "",
           "assigneeId": null,
           "updatedAt": "2026-07-22T18:04:28.471Z"
-        },
-        {
-          "caseId": 114301,
-          "testId": 1643218,
-          "name": "Verify Add To Bag Button Is Enabled After Selecting All Required Variants",
-          "tags": [],
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-07-22T16:38:22.671Z"
         },
         {
           "caseId": 114324,
@@ -38472,10 +37746,10 @@
       "updated_at": "2026-07-22T13:31:02.677Z",
       "closed_at": null,
       "elapsed_ms": null,
-      "total": 74,
-      "completed": 74,
+      "total": 72,
+      "completed": 72,
       "remaining": 0,
-      "passed": 74,
+      "passed": 72,
       "failed": 0,
       "retest": 0,
       "blocked": 0,
@@ -38488,7 +37762,7 @@
         },
         "Passed": {
           "id": 2,
-          "count": 74
+          "count": 72
         },
         "Failed": {
           "id": 3,
@@ -38913,17 +38187,6 @@
           "updatedAt": "2026-07-22T16:37:04.450Z"
         },
         {
-          "caseId": 127262,
-          "testId": 1643148,
-          "name": "UK: gift card order shows only gift card option",
-          "tags": [],
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-07-22T16:37:04.450Z"
-        },
-        {
           "caseId": 127266,
           "testId": 1643152,
           "name": "UK: no info message shown for a standard order",
@@ -38966,17 +38229,6 @@
           "note": "",
           "assigneeId": null,
           "updatedAt": "2026-07-22T16:46:13.763Z"
-        },
-        {
-          "caseId": 114301,
-          "testId": 1643091,
-          "name": "Verify Add To Bag Button Is Enabled After Selecting All Required Variants",
-          "tags": [],
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-07-22T16:36:55.241Z"
         },
         {
           "caseId": 114324,
@@ -39409,10 +38661,10 @@
       "updated_at": "2026-07-22T13:29:18.785Z",
       "closed_at": null,
       "elapsed_ms": null,
-      "total": 74,
-      "completed": 74,
+      "total": 72,
+      "completed": 72,
       "remaining": 0,
-      "passed": 74,
+      "passed": 72,
       "failed": 0,
       "retest": 0,
       "blocked": 0,
@@ -39425,7 +38677,7 @@
         },
         "Passed": {
           "id": 2,
-          "count": 74
+          "count": 72
         },
         "Failed": {
           "id": 3,
@@ -39850,17 +39102,6 @@
           "updatedAt": "2026-07-22T16:34:47.844Z"
         },
         {
-          "caseId": 127262,
-          "testId": 1643021,
-          "name": "UK: gift card order shows only gift card option",
-          "tags": [],
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-07-22T16:34:47.844Z"
-        },
-        {
           "caseId": 127266,
           "testId": 1643025,
           "name": "UK: no info message shown for a standard order",
@@ -39897,17 +39138,6 @@
           "caseId": 114288,
           "testId": 1642953,
           "name": "User Cannot Submit Registration Form With Invalid Password",
-          "tags": [],
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-07-22T16:34:34.721Z"
-        },
-        {
-          "caseId": 114301,
-          "testId": 1642964,
-          "name": "Verify Add To Bag Button Is Enabled After Selecting All Required Variants",
           "tags": [],
           "statusId": 2,
           "status": "Passed",
@@ -40346,10 +39576,10 @@
       "updated_at": "2026-07-22T13:29:26.913Z",
       "closed_at": null,
       "elapsed_ms": null,
-      "total": 74,
-      "completed": 74,
+      "total": 72,
+      "completed": 72,
       "remaining": 0,
-      "passed": 74,
+      "passed": 72,
       "failed": 0,
       "retest": 0,
       "blocked": 0,
@@ -40362,7 +39592,7 @@
         },
         "Passed": {
           "id": 2,
-          "count": 74
+          "count": 72
         },
         "Failed": {
           "id": 3,
@@ -40787,17 +40017,6 @@
           "updatedAt": "2026-07-22T16:34:08.654Z"
         },
         {
-          "caseId": 127262,
-          "testId": 1642894,
-          "name": "UK: gift card order shows only gift card option",
-          "tags": [],
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-07-22T16:34:08.654Z"
-        },
-        {
           "caseId": 127266,
           "testId": 1642898,
           "name": "UK: no info message shown for a standard order",
@@ -40834,17 +40053,6 @@
           "caseId": 114288,
           "testId": 1642826,
           "name": "User Cannot Submit Registration Form With Invalid Password",
-          "tags": [],
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-07-22T16:33:58.657Z"
-        },
-        {
-          "caseId": 114301,
-          "testId": 1642837,
-          "name": "Verify Add To Bag Button Is Enabled After Selecting All Required Variants",
           "tags": [],
           "statusId": 2,
           "status": "Passed",
@@ -41283,10 +40491,10 @@
       "updated_at": "2026-07-22T13:30:13.792Z",
       "closed_at": null,
       "elapsed_ms": null,
-      "total": 74,
-      "completed": 74,
+      "total": 72,
+      "completed": 72,
       "remaining": 0,
-      "passed": 74,
+      "passed": 72,
       "failed": 0,
       "retest": 0,
       "blocked": 0,
@@ -41299,7 +40507,7 @@
         },
         "Passed": {
           "id": 2,
-          "count": 74
+          "count": 72
         },
         "Failed": {
           "id": 3,
@@ -41724,17 +40932,6 @@
           "updatedAt": "2026-07-20T22:39:01.161Z"
         },
         {
-          "caseId": 127262,
-          "testId": 1639361,
-          "name": "UK: gift card order shows only gift card option",
-          "tags": [],
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-07-20T22:39:01.161Z"
-        },
-        {
           "caseId": 127266,
           "testId": 1639365,
           "name": "UK: no info message shown for a standard order",
@@ -41771,17 +40968,6 @@
           "caseId": 114288,
           "testId": 1639293,
           "name": "User Cannot Submit Registration Form With Invalid Password",
-          "tags": [],
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-07-20T22:38:51.214Z"
-        },
-        {
-          "caseId": 114301,
-          "testId": 1639304,
-          "name": "Verify Add To Bag Button Is Enabled After Selecting All Required Variants",
           "tags": [],
           "statusId": 2,
           "status": "Passed",
@@ -42220,10 +41406,10 @@
       "updated_at": "2026-07-22T13:30:21.980Z",
       "closed_at": null,
       "elapsed_ms": null,
-      "total": 74,
-      "completed": 74,
+      "total": 72,
+      "completed": 72,
       "remaining": 0,
-      "passed": 74,
+      "passed": 72,
       "failed": 0,
       "retest": 0,
       "blocked": 0,
@@ -42236,7 +41422,7 @@
         },
         "Passed": {
           "id": 2,
-          "count": 74
+          "count": 72
         },
         "Failed": {
           "id": 3,
@@ -42661,17 +41847,6 @@
           "updatedAt": "2026-07-21T14:30:10.954Z"
         },
         {
-          "caseId": 127262,
-          "testId": 1639234,
-          "name": "UK: gift card order shows only gift card option",
-          "tags": [],
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-07-21T14:29:47.699Z"
-        },
-        {
           "caseId": 127266,
           "testId": 1639238,
           "name": "UK: no info message shown for a standard order",
@@ -42708,17 +41883,6 @@
           "caseId": 114288,
           "testId": 1639166,
           "name": "User Cannot Submit Registration Form With Invalid Password",
-          "tags": [],
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-07-21T12:44:33.244Z"
-        },
-        {
-          "caseId": 114301,
-          "testId": 1639177,
-          "name": "Verify Add To Bag Button Is Enabled After Selecting All Required Variants",
           "tags": [],
           "statusId": 2,
           "status": "Passed",
@@ -43157,10 +42321,10 @@
       "updated_at": "2026-07-22T13:30:28.459Z",
       "closed_at": null,
       "elapsed_ms": null,
-      "total": 74,
-      "completed": 74,
+      "total": 72,
+      "completed": 72,
       "remaining": 0,
-      "passed": 74,
+      "passed": 72,
       "failed": 0,
       "retest": 0,
       "blocked": 0,
@@ -43173,7 +42337,7 @@
         },
         "Passed": {
           "id": 2,
-          "count": 74
+          "count": 72
         },
         "Failed": {
           "id": 3,
@@ -43598,17 +42762,6 @@
           "updatedAt": "2026-07-21T12:52:19.215Z"
         },
         {
-          "caseId": 127262,
-          "testId": 1639107,
-          "name": "UK: gift card order shows only gift card option",
-          "tags": [],
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-07-21T12:52:19.215Z"
-        },
-        {
           "caseId": 127266,
           "testId": 1639111,
           "name": "UK: no info message shown for a standard order",
@@ -43651,17 +42804,6 @@
           "note": "",
           "assigneeId": null,
           "updatedAt": "2026-07-21T14:41:58.008Z"
-        },
-        {
-          "caseId": 114301,
-          "testId": 1639050,
-          "name": "Verify Add To Bag Button Is Enabled After Selecting All Required Variants",
-          "tags": [],
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-07-21T12:52:08.291Z"
         },
         {
           "caseId": 114324,
@@ -44094,10 +43236,10 @@
       "updated_at": "2026-07-22T13:30:35.074Z",
       "closed_at": null,
       "elapsed_ms": null,
-      "total": 74,
-      "completed": 74,
+      "total": 72,
+      "completed": 72,
       "remaining": 0,
-      "passed": 74,
+      "passed": 72,
       "failed": 0,
       "retest": 0,
       "blocked": 0,
@@ -44110,7 +43252,7 @@
         },
         "Passed": {
           "id": 2,
-          "count": 74
+          "count": 72
         },
         "Failed": {
           "id": 3,
@@ -44535,17 +43677,6 @@
           "updatedAt": "2026-07-20T22:37:33.184Z"
         },
         {
-          "caseId": 127262,
-          "testId": 1638980,
-          "name": "UK: gift card order shows only gift card option",
-          "tags": [],
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-07-20T22:37:33.184Z"
-        },
-        {
           "caseId": 127266,
           "testId": 1638984,
           "name": "UK: no info message shown for a standard order",
@@ -44588,17 +43719,6 @@
           "note": "",
           "assigneeId": null,
           "updatedAt": "2026-07-21T14:38:28.315Z"
-        },
-        {
-          "caseId": 114301,
-          "testId": 1638923,
-          "name": "Verify Add To Bag Button Is Enabled After Selecting All Required Variants",
-          "tags": [],
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-07-20T22:37:19.930Z"
         },
         {
           "caseId": 114324,
@@ -45031,10 +44151,10 @@
       "updated_at": "2026-07-22T13:33:33.813Z",
       "closed_at": null,
       "elapsed_ms": null,
-      "total": 74,
-      "completed": 74,
+      "total": 72,
+      "completed": 72,
       "remaining": 0,
-      "passed": 74,
+      "passed": 72,
       "failed": 0,
       "retest": 0,
       "blocked": 0,
@@ -45047,7 +44167,7 @@
         },
         "Passed": {
           "id": 2,
-          "count": 74
+          "count": 72
         },
         "Failed": {
           "id": 3,
@@ -45472,17 +44592,6 @@
           "updatedAt": "2026-07-16T15:13:56.385Z"
         },
         {
-          "caseId": 127262,
-          "testId": 1629100,
-          "name": "UK: gift card order shows only gift card option",
-          "tags": [],
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-07-16T15:13:56.385Z"
-        },
-        {
           "caseId": 127266,
           "testId": 1629104,
           "name": "UK: no info message shown for a standard order",
@@ -45519,17 +44628,6 @@
           "caseId": 114288,
           "testId": 1629032,
           "name": "User Cannot Submit Registration Form With Invalid Password",
-          "tags": [],
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-07-16T15:13:44.393Z"
-        },
-        {
-          "caseId": 114301,
-          "testId": 1629043,
-          "name": "Verify Add To Bag Button Is Enabled After Selecting All Required Variants",
           "tags": [],
           "statusId": 2,
           "status": "Passed",
@@ -45968,10 +45066,10 @@
       "updated_at": "2026-07-22T13:33:33.808Z",
       "closed_at": null,
       "elapsed_ms": null,
-      "total": 74,
-      "completed": 74,
+      "total": 72,
+      "completed": 72,
       "remaining": 0,
-      "passed": 74,
+      "passed": 72,
       "failed": 0,
       "retest": 0,
       "blocked": 0,
@@ -45984,7 +45082,7 @@
         },
         "Passed": {
           "id": 2,
-          "count": 74
+          "count": 72
         },
         "Failed": {
           "id": 3,
@@ -46409,17 +45507,6 @@
           "updatedAt": "2026-07-16T15:15:37.878Z"
         },
         {
-          "caseId": 127262,
-          "testId": 1628973,
-          "name": "UK: gift card order shows only gift card option",
-          "tags": [],
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-07-16T15:15:37.878Z"
-        },
-        {
           "caseId": 127266,
           "testId": 1628977,
           "name": "UK: no info message shown for a standard order",
@@ -46456,17 +45543,6 @@
           "caseId": 114288,
           "testId": 1628905,
           "name": "User Cannot Submit Registration Form With Invalid Password",
-          "tags": [],
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-07-16T14:25:53.020Z"
-        },
-        {
-          "caseId": 114301,
-          "testId": 1628916,
-          "name": "Verify Add To Bag Button Is Enabled After Selecting All Required Variants",
           "tags": [],
           "statusId": 2,
           "status": "Passed",
@@ -46905,10 +45981,10 @@
       "updated_at": "2026-07-22T13:33:33.803Z",
       "closed_at": null,
       "elapsed_ms": null,
-      "total": 74,
-      "completed": 74,
+      "total": 72,
+      "completed": 72,
       "remaining": 0,
-      "passed": 74,
+      "passed": 72,
       "failed": 0,
       "retest": 0,
       "blocked": 0,
@@ -46921,7 +45997,7 @@
         },
         "Passed": {
           "id": 2,
-          "count": 74
+          "count": 72
         },
         "Failed": {
           "id": 3,
@@ -47346,17 +46422,6 @@
           "updatedAt": "2026-07-16T15:17:19.479Z"
         },
         {
-          "caseId": 127262,
-          "testId": 1628846,
-          "name": "UK: gift card order shows only gift card option",
-          "tags": [],
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-07-16T15:17:19.479Z"
-        },
-        {
           "caseId": 127266,
           "testId": 1628850,
           "name": "UK: no info message shown for a standard order",
@@ -47393,17 +46458,6 @@
           "caseId": 114288,
           "testId": 1628778,
           "name": "User Cannot Submit Registration Form With Invalid Password",
-          "tags": [],
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-07-16T15:17:08.194Z"
-        },
-        {
-          "caseId": 114301,
-          "testId": 1628789,
-          "name": "Verify Add To Bag Button Is Enabled After Selecting All Required Variants",
           "tags": [],
           "statusId": 2,
           "status": "Passed",
@@ -47842,10 +46896,10 @@
       "updated_at": "2026-07-22T13:33:33.798Z",
       "closed_at": null,
       "elapsed_ms": null,
-      "total": 74,
-      "completed": 74,
+      "total": 72,
+      "completed": 72,
       "remaining": 0,
-      "passed": 74,
+      "passed": 72,
       "failed": 0,
       "retest": 0,
       "blocked": 0,
@@ -47858,7 +46912,7 @@
         },
         "Passed": {
           "id": 2,
-          "count": 74
+          "count": 72
         },
         "Failed": {
           "id": 3,
@@ -48283,17 +47337,6 @@
           "updatedAt": "2026-07-16T15:18:15.955Z"
         },
         {
-          "caseId": 127262,
-          "testId": 1628719,
-          "name": "UK: gift card order shows only gift card option",
-          "tags": [],
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-07-16T15:18:15.955Z"
-        },
-        {
           "caseId": 127266,
           "testId": 1628723,
           "name": "UK: no info message shown for a standard order",
@@ -48330,17 +47373,6 @@
           "caseId": 114288,
           "testId": 1628651,
           "name": "User Cannot Submit Registration Form With Invalid Password",
-          "tags": [],
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-07-16T15:18:06.980Z"
-        },
-        {
-          "caseId": 114301,
-          "testId": 1628662,
-          "name": "Verify Add To Bag Button Is Enabled After Selecting All Required Variants",
           "tags": [],
           "statusId": 2,
           "status": "Passed",
@@ -48779,10 +47811,10 @@
       "updated_at": "2026-07-22T13:33:33.793Z",
       "closed_at": null,
       "elapsed_ms": null,
-      "total": 74,
-      "completed": 74,
+      "total": 72,
+      "completed": 72,
       "remaining": 0,
-      "passed": 74,
+      "passed": 72,
       "failed": 0,
       "retest": 0,
       "blocked": 0,
@@ -48795,7 +47827,7 @@
         },
         "Passed": {
           "id": 2,
-          "count": 74
+          "count": 72
         },
         "Failed": {
           "id": 3,
@@ -49220,17 +48252,6 @@
           "updatedAt": "2026-07-03T20:24:02.529Z"
         },
         {
-          "caseId": 127262,
-          "testId": 1609496,
-          "name": "UK: gift card order shows only gift card option",
-          "tags": [],
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-07-03T20:24:02.529Z"
-        },
-        {
           "caseId": 127266,
           "testId": 1609500,
           "name": "UK: no info message shown for a standard order",
@@ -49267,17 +48288,6 @@
           "caseId": 114288,
           "testId": 1609428,
           "name": "User Cannot Submit Registration Form With Invalid Password",
-          "tags": [],
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-07-03T19:26:33.175Z"
-        },
-        {
-          "caseId": 114301,
-          "testId": 1609439,
-          "name": "Verify Add To Bag Button Is Enabled After Selecting All Required Variants",
           "tags": [],
           "statusId": 2,
           "status": "Passed",
@@ -49716,10 +48726,10 @@
       "updated_at": "2026-07-22T13:33:33.788Z",
       "closed_at": null,
       "elapsed_ms": null,
-      "total": 74,
-      "completed": 74,
+      "total": 72,
+      "completed": 72,
       "remaining": 0,
-      "passed": 74,
+      "passed": 72,
       "failed": 0,
       "retest": 0,
       "blocked": 0,
@@ -49732,7 +48742,7 @@
         },
         "Passed": {
           "id": 2,
-          "count": 74
+          "count": 72
         },
         "Failed": {
           "id": 3,
@@ -50157,17 +49167,6 @@
           "updatedAt": "2026-07-03T19:25:54.744Z"
         },
         {
-          "caseId": 127262,
-          "testId": 1609369,
-          "name": "UK: gift card order shows only gift card option",
-          "tags": [],
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-07-03T19:25:54.744Z"
-        },
-        {
           "caseId": 127266,
           "testId": 1609373,
           "name": "UK: no info message shown for a standard order",
@@ -50204,17 +49203,6 @@
           "caseId": 114288,
           "testId": 1609301,
           "name": "User Cannot Submit Registration Form With Invalid Password",
-          "tags": [],
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-07-03T13:03:03.238Z"
-        },
-        {
-          "caseId": 114301,
-          "testId": 1609312,
-          "name": "Verify Add To Bag Button Is Enabled After Selecting All Required Variants",
           "tags": [],
           "statusId": 2,
           "status": "Passed",
@@ -50653,10 +49641,10 @@
       "updated_at": "2026-07-22T13:33:33.783Z",
       "closed_at": null,
       "elapsed_ms": null,
-      "total": 74,
-      "completed": 74,
+      "total": 72,
+      "completed": 72,
       "remaining": 0,
-      "passed": 74,
+      "passed": 72,
       "failed": 0,
       "retest": 0,
       "blocked": 0,
@@ -50669,7 +49657,7 @@
         },
         "Passed": {
           "id": 2,
-          "count": 74
+          "count": 72
         },
         "Failed": {
           "id": 3,
@@ -51094,17 +50082,6 @@
           "updatedAt": "2026-07-03T19:34:44.983Z"
         },
         {
-          "caseId": 127262,
-          "testId": 1609242,
-          "name": "UK: gift card order shows only gift card option",
-          "tags": [],
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-07-03T19:34:44.983Z"
-        },
-        {
           "caseId": 127266,
           "testId": 1609246,
           "name": "UK: no info message shown for a standard order",
@@ -51141,17 +50118,6 @@
           "caseId": 114288,
           "testId": 1609174,
           "name": "User Cannot Submit Registration Form With Invalid Password",
-          "tags": [],
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-07-03T19:34:30.754Z"
-        },
-        {
-          "caseId": 114301,
-          "testId": 1609185,
-          "name": "Verify Add To Bag Button Is Enabled After Selecting All Required Variants",
           "tags": [],
           "statusId": 2,
           "status": "Passed",
@@ -51590,10 +50556,10 @@
       "updated_at": "2026-07-22T13:33:33.779Z",
       "closed_at": null,
       "elapsed_ms": null,
-      "total": 74,
-      "completed": 74,
+      "total": 72,
+      "completed": 72,
       "remaining": 0,
-      "passed": 74,
+      "passed": 72,
       "failed": 0,
       "retest": 0,
       "blocked": 0,
@@ -51606,7 +50572,7 @@
         },
         "Passed": {
           "id": 2,
-          "count": 74
+          "count": 72
         },
         "Failed": {
           "id": 3,
@@ -52031,17 +50997,6 @@
           "updatedAt": "2026-07-03T20:05:41.829Z"
         },
         {
-          "caseId": 127262,
-          "testId": 1609115,
-          "name": "UK: gift card order shows only gift card option",
-          "tags": [],
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-07-03T20:05:41.829Z"
-        },
-        {
           "caseId": 127266,
           "testId": 1609119,
           "name": "UK: no info message shown for a standard order",
@@ -52078,17 +51033,6 @@
           "caseId": 114288,
           "testId": 1609047,
           "name": "User Cannot Submit Registration Form With Invalid Password",
-          "tags": [],
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-07-03T20:05:28.070Z"
-        },
-        {
-          "caseId": 114301,
-          "testId": 1609058,
-          "name": "Verify Add To Bag Button Is Enabled After Selecting All Required Variants",
           "tags": [],
           "statusId": 2,
           "status": "Passed",
@@ -53459,10 +52403,10 @@
       "updated_at": "2026-07-22T13:32:54.637Z",
       "closed_at": null,
       "elapsed_ms": null,
-      "total": 68,
-      "completed": 68,
+      "total": 67,
+      "completed": 67,
       "remaining": 0,
-      "passed": 66,
+      "passed": 65,
       "failed": 0,
       "retest": 0,
       "blocked": 0,
@@ -53475,7 +52419,7 @@
         },
         "Passed": {
           "id": 2,
-          "count": 66
+          "count": 65
         },
         "Failed": {
           "id": 3,
@@ -53859,17 +52803,6 @@
           "caseId": 114288,
           "testId": 1604935,
           "name": "User Cannot Submit Registration Form With Invalid Password",
-          "tags": [],
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-06-26T20:47:30.397Z"
-        },
-        {
-          "caseId": 114301,
-          "testId": 1604946,
-          "name": "Verify Add To Bag Button Is Enabled After Selecting All Required Variants",
           "tags": [],
           "statusId": 2,
           "status": "Passed",
@@ -54330,10 +53263,10 @@
       "updated_at": "2026-07-22T13:33:33.754Z",
       "closed_at": null,
       "elapsed_ms": null,
-      "total": 68,
-      "completed": 68,
+      "total": 67,
+      "completed": 67,
       "remaining": 0,
-      "passed": 66,
+      "passed": 65,
       "failed": 0,
       "retest": 0,
       "blocked": 0,
@@ -54346,7 +53279,7 @@
         },
         "Passed": {
           "id": 2,
-          "count": 66
+          "count": 65
         },
         "Failed": {
           "id": 3,
@@ -54730,17 +53663,6 @@
           "caseId": 114288,
           "testId": 1604808,
           "name": "User Cannot Submit Registration Form With Invalid Password",
-          "tags": [],
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-06-26T20:54:07.440Z"
-        },
-        {
-          "caseId": 114301,
-          "testId": 1604819,
-          "name": "Verify Add To Bag Button Is Enabled After Selecting All Required Variants",
           "tags": [],
           "statusId": 2,
           "status": "Passed",
@@ -55201,10 +54123,10 @@
       "updated_at": "2026-07-22T13:33:33.749Z",
       "closed_at": null,
       "elapsed_ms": null,
-      "total": 68,
-      "completed": 68,
+      "total": 67,
+      "completed": 67,
       "remaining": 0,
-      "passed": 68,
+      "passed": 67,
       "failed": 0,
       "retest": 0,
       "blocked": 0,
@@ -55217,7 +54139,7 @@
         },
         "Passed": {
           "id": 2,
-          "count": 68
+          "count": 67
         },
         "Failed": {
           "id": 3,
@@ -55623,17 +54545,6 @@
           "caseId": 114288,
           "testId": 1604681,
           "name": "User Cannot Submit Registration Form With Invalid Password",
-          "tags": [],
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-06-26T20:57:30.704Z"
-        },
-        {
-          "caseId": 114301,
-          "testId": 1604692,
-          "name": "Verify Add To Bag Button Is Enabled After Selecting All Required Variants",
           "tags": [],
           "statusId": 2,
           "status": "Passed",
@@ -56072,10 +54983,10 @@
       "updated_at": "2026-07-22T13:33:33.743Z",
       "closed_at": null,
       "elapsed_ms": null,
-      "total": 68,
-      "completed": 68,
+      "total": 67,
+      "completed": 67,
       "remaining": 0,
-      "passed": 68,
+      "passed": 67,
       "failed": 0,
       "retest": 0,
       "blocked": 0,
@@ -56088,7 +54999,7 @@
         },
         "Passed": {
           "id": 2,
-          "count": 68
+          "count": 67
         },
         "Failed": {
           "id": 3,
@@ -56494,17 +55405,6 @@
           "caseId": 114288,
           "testId": 1604554,
           "name": "User Cannot Submit Registration Form With Invalid Password",
-          "tags": [],
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-06-29T13:49:01.164Z"
-        },
-        {
-          "caseId": 114301,
-          "testId": 1604565,
-          "name": "Verify Add To Bag Button Is Enabled After Selecting All Required Variants",
           "tags": [],
           "statusId": 2,
           "status": "Passed",
@@ -56943,10 +55843,10 @@
       "updated_at": "2026-07-22T13:31:58.725Z",
       "closed_at": null,
       "elapsed_ms": null,
-      "total": 65,
-      "completed": 65,
+      "total": 64,
+      "completed": 64,
       "remaining": 0,
-      "passed": 65,
+      "passed": 64,
       "failed": 0,
       "retest": 0,
       "blocked": 0,
@@ -56959,7 +55859,7 @@
         },
         "Passed": {
           "id": 2,
-          "count": 65
+          "count": 64
         },
         "Failed": {
           "id": 3,
@@ -57373,17 +56273,6 @@
           "updatedAt": "2026-06-19T14:28:54.663Z"
         },
         {
-          "caseId": 114301,
-          "testId": 1566310,
-          "name": "Verify Add To Bag Button Is Enabled After Selecting All Required Variants",
-          "tags": [],
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-06-19T14:28:54.663Z"
-        },
-        {
           "caseId": 114324,
           "testId": 1566332,
           "name": "Verify Adyen Terms And Conditions Must Be Accepted Before Payment",
@@ -57781,10 +56670,10 @@
       "updated_at": "2026-07-22T13:32:06.765Z",
       "closed_at": null,
       "elapsed_ms": null,
-      "total": 65,
-      "completed": 65,
+      "total": 64,
+      "completed": 64,
       "remaining": 0,
-      "passed": 65,
+      "passed": 64,
       "failed": 0,
       "retest": 0,
       "blocked": 0,
@@ -57797,7 +56686,7 @@
         },
         "Passed": {
           "id": 2,
-          "count": 65
+          "count": 64
         },
         "Failed": {
           "id": 3,
@@ -58211,17 +57100,6 @@
           "updatedAt": "2026-06-18T15:55:42.935Z"
         },
         {
-          "caseId": 114301,
-          "testId": 1566183,
-          "name": "Verify Add To Bag Button Is Enabled After Selecting All Required Variants",
-          "tags": [],
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-06-18T18:56:11.530Z"
-        },
-        {
           "caseId": 114324,
           "testId": 1566205,
           "name": "Verify Adyen Terms And Conditions Must Be Accepted Before Payment",
@@ -58619,10 +57497,10 @@
       "updated_at": "2026-07-22T13:32:13.345Z",
       "closed_at": null,
       "elapsed_ms": null,
-      "total": 65,
-      "completed": 65,
+      "total": 64,
+      "completed": 64,
       "remaining": 0,
-      "passed": 65,
+      "passed": 64,
       "failed": 0,
       "retest": 0,
       "blocked": 0,
@@ -58635,7 +57513,7 @@
         },
         "Passed": {
           "id": 2,
-          "count": 65
+          "count": 64
         },
         "Failed": {
           "id": 3,
@@ -59049,17 +57927,6 @@
           "updatedAt": "2026-06-18T21:53:00.580Z"
         },
         {
-          "caseId": 114301,
-          "testId": 1566056,
-          "name": "Verify Add To Bag Button Is Enabled After Selecting All Required Variants",
-          "tags": [],
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-06-19T15:49:00.875Z"
-        },
-        {
           "caseId": 114324,
           "testId": 1566078,
           "name": "Verify Adyen Terms And Conditions Must Be Accepted Before Payment",
@@ -59457,10 +58324,10 @@
       "updated_at": "2026-07-22T13:32:22.356Z",
       "closed_at": null,
       "elapsed_ms": null,
-      "total": 65,
-      "completed": 65,
+      "total": 64,
+      "completed": 64,
       "remaining": 0,
-      "passed": 65,
+      "passed": 64,
       "failed": 0,
       "retest": 0,
       "blocked": 0,
@@ -59473,7 +58340,7 @@
         },
         "Passed": {
           "id": 2,
-          "count": 65
+          "count": 64
         },
         "Failed": {
           "id": 3,
@@ -59887,17 +58754,6 @@
           "updatedAt": "2026-06-18T20:04:50.945Z"
         },
         {
-          "caseId": 114301,
-          "testId": 1565929,
-          "name": "Verify Add To Bag Button Is Enabled After Selecting All Required Variants",
-          "tags": [],
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-06-18T20:08:38.027Z"
-        },
-        {
           "caseId": 114324,
           "testId": 1565951,
           "name": "Verify Adyen Terms And Conditions Must Be Accepted Before Payment",
@@ -60295,10 +59151,10 @@
       "updated_at": "2026-07-22T13:31:18.666Z",
       "closed_at": null,
       "elapsed_ms": null,
-      "total": 65,
-      "completed": 65,
+      "total": 64,
+      "completed": 64,
       "remaining": 0,
-      "passed": 65,
+      "passed": 64,
       "failed": 0,
       "retest": 0,
       "blocked": 0,
@@ -60311,7 +59167,7 @@
         },
         "Passed": {
           "id": 2,
-          "count": 65
+          "count": 64
         },
         "Failed": {
           "id": 3,
@@ -60725,17 +59581,6 @@
           "updatedAt": "2026-06-08T15:31:32.723Z"
         },
         {
-          "caseId": 114301,
-          "testId": 1553838,
-          "name": "Verify Add To Bag Button Is Enabled After Selecting All Required Variants",
-          "tags": [],
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-06-08T16:43:30.922Z"
-        },
-        {
           "caseId": 114324,
           "testId": 1553860,
           "name": "Verify Adyen Terms And Conditions Must Be Accepted Before Payment",
@@ -61133,10 +59978,10 @@
       "updated_at": "2026-07-22T13:31:26.706Z",
       "closed_at": null,
       "elapsed_ms": null,
-      "total": 65,
-      "completed": 65,
+      "total": 64,
+      "completed": 64,
       "remaining": 0,
-      "passed": 67,
+      "passed": 66,
       "failed": 0,
       "retest": 0,
       "blocked": 0,
@@ -61149,7 +59994,7 @@
         },
         "Passed": {
           "id": 2,
-          "count": 67
+          "count": 66
         },
         "Failed": {
           "id": 3,
@@ -61574,17 +60419,6 @@
           "updatedAt": "2026-06-08T13:55:21.432Z"
         },
         {
-          "caseId": 114301,
-          "testId": 1553711,
-          "name": "Verify Add To Bag Button Is Enabled After Selecting All Required Variants",
-          "tags": [],
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-06-08T15:18:50.087Z"
-        },
-        {
           "caseId": 114324,
           "testId": 1553733,
           "name": "Verify Adyen Terms And Conditions Must Be Accepted Before Payment",
@@ -61993,10 +60827,10 @@
       "updated_at": "2026-07-22T13:31:34.558Z",
       "closed_at": null,
       "elapsed_ms": null,
-      "total": 65,
-      "completed": 65,
+      "total": 64,
+      "completed": 64,
       "remaining": 0,
-      "passed": 65,
+      "passed": 64,
       "failed": 0,
       "retest": 0,
       "blocked": 0,
@@ -62009,7 +60843,7 @@
         },
         "Passed": {
           "id": 2,
-          "count": 65
+          "count": 64
         },
         "Failed": {
           "id": 3,
@@ -62415,17 +61249,6 @@
           "caseId": 114288,
           "testId": 1553573,
           "name": "User Cannot Submit Registration Form With Invalid Password",
-          "tags": [],
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-06-05T19:22:09.400Z"
-        },
-        {
-          "caseId": 114301,
-          "testId": 1553584,
-          "name": "Verify Add To Bag Button Is Enabled After Selecting All Required Variants",
           "tags": [],
           "statusId": 2,
           "status": "Passed",
@@ -62853,10 +61676,10 @@
       "updated_at": "2026-07-22T13:31:46.748Z",
       "closed_at": null,
       "elapsed_ms": null,
-      "total": 65,
-      "completed": 65,
+      "total": 64,
+      "completed": 64,
       "remaining": 0,
-      "passed": 67,
+      "passed": 66,
       "failed": 0,
       "retest": 0,
       "blocked": 0,
@@ -62869,7 +61692,7 @@
         },
         "Passed": {
           "id": 2,
-          "count": 67
+          "count": 66
         },
         "Failed": {
           "id": 3,
@@ -63294,17 +62117,6 @@
           "updatedAt": "2026-06-05T14:52:33.520Z"
         },
         {
-          "caseId": 114301,
-          "testId": 1553457,
-          "name": "Verify Add To Bag Button Is Enabled After Selecting All Required Variants",
-          "tags": [],
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-06-05T14:52:33.520Z"
-        },
-        {
           "caseId": 114324,
           "testId": 1553479,
           "name": "Verify Adyen Terms And Conditions Must Be Accepted Before Payment",
@@ -63713,10 +62525,10 @@
       "updated_at": "2026-05-19T19:28:47.654Z",
       "closed_at": null,
       "elapsed_ms": null,
-      "total": 62,
-      "completed": 62,
+      "total": 61,
+      "completed": 61,
       "remaining": 0,
-      "passed": 61,
+      "passed": 60,
       "failed": 1,
       "retest": 0,
       "blocked": 0,
@@ -63729,7 +62541,7 @@
         },
         "Passed": {
           "id": 2,
-          "count": 61
+          "count": 60
         },
         "Failed": {
           "id": 3,
@@ -64132,17 +62944,6 @@
           "updatedAt": "2026-05-19T14:50:47.868Z"
         },
         {
-          "caseId": 114301,
-          "testId": 1548904,
-          "name": "Verify Add To Bag Button Is Enabled After Selecting All Required Variants",
-          "tags": [],
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-05-19T14:52:06.471Z"
-        },
-        {
           "caseId": 114324,
           "testId": 1548927,
           "name": "Verify Adyen Terms And Conditions Must Be Accepted Before Payment",
@@ -64518,10 +63319,10 @@
       "updated_at": "2026-05-19T19:28:56.224Z",
       "closed_at": null,
       "elapsed_ms": null,
-      "total": 62,
-      "completed": 62,
+      "total": 61,
+      "completed": 61,
       "remaining": 0,
-      "passed": 61,
+      "passed": 60,
       "failed": 1,
       "retest": 0,
       "blocked": 0,
@@ -64534,7 +63335,7 @@
         },
         "Passed": {
           "id": 2,
-          "count": 61
+          "count": 60
         },
         "Failed": {
           "id": 3,
@@ -64937,17 +63738,6 @@
           "updatedAt": "2026-05-19T13:29:12.690Z"
         },
         {
-          "caseId": 114301,
-          "testId": 1548777,
-          "name": "Verify Add To Bag Button Is Enabled After Selecting All Required Variants",
-          "tags": [],
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-05-19T13:47:50.966Z"
-        },
-        {
           "caseId": 114324,
           "testId": 1548800,
           "name": "Verify Adyen Terms And Conditions Must Be Accepted Before Payment",
@@ -65323,10 +64113,10 @@
       "updated_at": "2026-05-19T19:45:03.937Z",
       "closed_at": null,
       "elapsed_ms": null,
-      "total": 62,
-      "completed": 62,
+      "total": 61,
+      "completed": 61,
       "remaining": 0,
-      "passed": 61,
+      "passed": 60,
       "failed": 1,
       "retest": 0,
       "blocked": 0,
@@ -65339,7 +64129,7 @@
         },
         "Passed": {
           "id": 2,
-          "count": 61
+          "count": 60
         },
         "Failed": {
           "id": 3,
@@ -65742,17 +64532,6 @@
           "updatedAt": "2026-05-19T19:02:35.368Z"
         },
         {
-          "caseId": 114301,
-          "testId": 1548650,
-          "name": "Verify Add To Bag Button Is Enabled After Selecting All Required Variants",
-          "tags": [],
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-05-19T19:03:25.865Z"
-        },
-        {
           "caseId": 114324,
           "testId": 1548673,
           "name": "Verify Adyen Terms And Conditions Must Be Accepted Before Payment",
@@ -66128,10 +64907,10 @@
       "updated_at": "2026-05-19T19:45:09.936Z",
       "closed_at": null,
       "elapsed_ms": null,
-      "total": 62,
-      "completed": 62,
+      "total": 61,
+      "completed": 61,
       "remaining": 0,
-      "passed": 61,
+      "passed": 60,
       "failed": 1,
       "retest": 0,
       "blocked": 0,
@@ -66144,7 +64923,7 @@
         },
         "Passed": {
           "id": 2,
-          "count": 61
+          "count": 60
         },
         "Failed": {
           "id": 3,
@@ -66545,17 +65324,6 @@
           "note": "",
           "assigneeId": null,
           "updatedAt": "2026-05-19T16:26:44.952Z"
-        },
-        {
-          "caseId": 114301,
-          "testId": 1548523,
-          "name": "Verify Add To Bag Button Is Enabled After Selecting All Required Variants",
-          "tags": [],
-          "statusId": 2,
-          "status": "Passed",
-          "note": "",
-          "assigneeId": null,
-          "updatedAt": "2026-05-19T16:35:17.300Z"
         },
         {
           "caseId": 114324,
