@@ -1,27 +1,122 @@
 {
-  "lastUpdated": "2026-09-28T04:11:39.016444+00:00",
+  "lastUpdated": "2026-09-28T16:32:09.387626+00:00",
   "jira": {
     "summary": {
       "total": 430,
       "byStatus": {
-        "En curso": 5,
-        "Tech Review": 3,
+        "Tech Review": 4,
+        "Ready to QA": 2,
+        "READY FOR RELEASE": 4,
+        "Blocked": 4,
+        "Listo": 14,
+        "Tareas por hacer": 2,
+        "IN QA": 1,
+        "En curso": 3,
         "PENDING DEV DEPLOY": 2,
         "Finalizada": 345,
         "IN UAT": 4,
-        "READY FOR RELEASE": 3,
         "QA Approved": 12,
-        "IN QA": 1,
-        "Listo": 16,
         "Ready for Refinement": 1,
-        "Tareas por hacer": 2,
         "Backlog": 14,
-        "Blocked": 4,
         "Pre-prioritized": 1,
         "Deprecated": 17
       }
     },
     "tickets": [
+      {
+        "key": "WSC-1717",
+        "url": "https://e2x.atlassian.net/browse/WSC-1717",
+        "summary": "CONTENT - new mobile navigation",
+        "status": "Tech Review",
+        "statusCategory": "indeterminate",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-09-28T17:27:23.902+0100",
+        "priority": "Importante",
+        "labels": []
+      },
+      {
+        "key": "WSC-1709",
+        "url": "https://e2x.atlassian.net/browse/WSC-1709",
+        "summary": "INP-01 \u2014 PDP template - Desktop and Mobile",
+        "status": "Ready to QA",
+        "statusCategory": "new",
+        "assignee": "Rafael Paranagu\u00e1",
+        "updated": "2026-09-28T16:40:07.492+0100",
+        "priority": "Cr\u00edtica",
+        "labels": []
+      },
+      {
+        "key": "WSC-1778",
+        "url": "https://e2x.atlassian.net/browse/WSC-1778",
+        "summary": "[Automation] Stop building/serving the app locally for DEV & UAT Playwright CI runs",
+        "status": "READY FOR RELEASE",
+        "statusCategory": "new",
+        "assignee": "Gerardo Romero",
+        "updated": "2026-09-28T15:12:04.649+0100",
+        "priority": "Not Set",
+        "labels": []
+      },
+      {
+        "key": "WSC-1779",
+        "url": "https://e2x.atlassian.net/browse/WSC-1779",
+        "summary": "NEW MOBILE NAV - event tracking",
+        "status": "Ready to QA",
+        "statusCategory": "new",
+        "assignee": "Stuart Young",
+        "updated": "2026-09-28T15:11:18.542+0100",
+        "priority": "Poco importante",
+        "labels": []
+      },
+      {
+        "key": "WSC-1504",
+        "url": "https://e2x.atlassian.net/browse/WSC-1504",
+        "summary": "ACCOUNT CREATION - post purchase sign up bug",
+        "status": "Blocked",
+        "statusCategory": "new",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-09-28T15:08:45.321+0100",
+        "priority": "Importante",
+        "labels": []
+      },
+      {
+        "key": "WSC-1769",
+        "url": "https://e2x.atlassian.net/browse/WSC-1769",
+        "summary": "CHECKOUT - collection address amendment",
+        "status": "Listo",
+        "statusCategory": "new",
+        "assignee": "Alexander Talavera",
+        "updated": "2026-09-28T15:08:35.646+0100",
+        "priority": "Poco importante",
+        "labels": [
+          "Needs-QA"
+        ]
+      },
+      {
+        "key": "WSC-1690",
+        "url": "https://e2x.atlassian.net/browse/WSC-1690",
+        "summary": "SPIKE - PLP and PDP colour swatches",
+        "status": "Tareas por hacer",
+        "statusCategory": "new",
+        "assignee": "Alexander Talavera",
+        "updated": "2026-09-28T15:07:50.808+0100",
+        "priority": "Importante",
+        "labels": []
+      },
+      {
+        "key": "WSC-1692",
+        "url": "https://e2x.atlassian.net/browse/WSC-1692",
+        "summary": "PERSONALISED CONTENT - 'no segment'",
+        "status": "IN QA",
+        "statusCategory": "indeterminate",
+        "assignee": "Gerardo Romero",
+        "updated": "2026-09-28T13:40:50.139+0100",
+        "priority": "Supone un impedimento",
+        "labels": [
+          "Needs-QA",
+          "co-build",
+          "manualQA"
+        ]
+      },
       {
         "key": "WSC-1707",
         "url": "https://e2x.atlassian.net/browse/WSC-1707",
@@ -144,17 +239,6 @@
         "labels": []
       },
       {
-        "key": "WSC-1778",
-        "url": "https://e2x.atlassian.net/browse/WSC-1778",
-        "summary": "[Automation] Stop building/serving the app locally for DEV & UAT Playwright CI runs",
-        "status": "En curso",
-        "statusCategory": "indeterminate",
-        "assignee": "Gerardo Romero",
-        "updated": "2026-09-25T20:14:55.743+0100",
-        "priority": "Not Set",
-        "labels": []
-      },
-      {
         "key": "WSC-1773",
         "url": "https://e2x.atlassian.net/browse/WSC-1773",
         "summary": "[WSSD-752] - [Security] Critical vulnerabilities identified in axios and proxy-addr \u2014 remediation required",
@@ -214,17 +298,6 @@
         ]
       },
       {
-        "key": "WSC-1717",
-        "url": "https://e2x.atlassian.net/browse/WSC-1717",
-        "summary": "CONTENT - new mobile navigation",
-        "status": "En curso",
-        "statusCategory": "indeterminate",
-        "assignee": "Chiara Davies",
-        "updated": "2026-09-25T17:19:37.156+0100",
-        "priority": "Importante",
-        "labels": []
-      },
-      {
         "key": "WSC-1754",
         "url": "https://e2x.atlassian.net/browse/WSC-1754",
         "summary": "SEO - PLP/Search results - add colour to H2 product name",
@@ -235,21 +308,6 @@
         "priority": "Importante",
         "labels": [
           "Needs-QA"
-        ]
-      },
-      {
-        "key": "WSC-1692",
-        "url": "https://e2x.atlassian.net/browse/WSC-1692",
-        "summary": "PERSONALISED CONTENT - 'no segment'",
-        "status": "IN QA",
-        "statusCategory": "indeterminate",
-        "assignee": "Ingrith Santamaria",
-        "updated": "2026-09-25T16:19:47.729+0100",
-        "priority": "Supone un impedimento",
-        "labels": [
-          "Needs-QA",
-          "co-build",
-          "manualQA"
         ]
       },
       {
@@ -279,17 +337,6 @@
           "automatable",
           "manualQA"
         ]
-      },
-      {
-        "key": "WSC-1709",
-        "url": "https://e2x.atlassian.net/browse/WSC-1709",
-        "summary": "INP-01 \u2014 PDP template - Desktop and Mobile",
-        "status": "Listo",
-        "statusCategory": "new",
-        "assignee": "Alexander Talavera",
-        "updated": "2026-09-25T16:12:19.861+0100",
-        "priority": "Cr\u00edtica",
-        "labels": []
       },
       {
         "key": "WSC-1760",
@@ -345,17 +392,6 @@
         ]
       },
       {
-        "key": "WSC-1779",
-        "url": "https://e2x.atlassian.net/browse/WSC-1779",
-        "summary": "NEW MOBILE NAV - event tracking",
-        "status": "Listo",
-        "statusCategory": "new",
-        "assignee": "Chiara Davies",
-        "updated": "2026-09-24T18:04:43.517+0100",
-        "priority": "Poco importante",
-        "labels": []
-      },
-      {
         "key": "WSC-1673",
         "url": "https://e2x.atlassian.net/browse/WSC-1673",
         "summary": "API 404 error - https://www.whitestuff.com/api/ampl/getContent",
@@ -365,19 +401,6 @@
         "updated": "2026-09-24T15:07:18.887+0100",
         "priority": "Poco importante",
         "labels": []
-      },
-      {
-        "key": "WSC-1769",
-        "url": "https://e2x.atlassian.net/browse/WSC-1769",
-        "summary": "CHECKOUT - collection address amendment",
-        "status": "Listo",
-        "statusCategory": "new",
-        "assignee": "Unassigned",
-        "updated": "2026-09-24T14:48:04.028+0100",
-        "priority": "Poco importante",
-        "labels": [
-          "Needs-QA"
-        ]
       },
       {
         "key": "WSC-1774",
@@ -498,17 +521,6 @@
         "labels": [
           "NO_QA_REQUIRED"
         ]
-      },
-      {
-        "key": "WSC-1690",
-        "url": "https://e2x.atlassian.net/browse/WSC-1690",
-        "summary": "SPIKE - PLP and PDP colour swatches",
-        "status": "Tareas por hacer",
-        "statusCategory": "new",
-        "assignee": "Unassigned",
-        "updated": "2026-09-23T11:06:46.041+0100",
-        "priority": "Importante",
-        "labels": []
       },
       {
         "key": "WSC-1670",
@@ -742,17 +754,6 @@
         "assignee": "enmanuel.ramirez",
         "updated": "2026-09-16T13:22:37.685+0100",
         "priority": "Poco importante",
-        "labels": []
-      },
-      {
-        "key": "WSC-1504",
-        "url": "https://e2x.atlassian.net/browse/WSC-1504",
-        "summary": "ACCOUNT CREATION - post purchase sign up bug",
-        "status": "Blocked",
-        "statusCategory": "new",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-09-15T20:16:35.729+0100",
-        "priority": "Importante",
         "labels": []
       },
       {
