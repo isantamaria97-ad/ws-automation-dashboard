@@ -1,37 +1,75 @@
 {
-  "lastUpdated": "2026-09-28T16:32:09.387626+00:00",
+  "lastUpdated": "2026-09-29T00:14:25.278772+00:00",
   "jira": {
     "summary": {
       "total": 430,
       "byStatus": {
-        "Tech Review": 4,
+        "QA Approved": 14,
+        "En curso": 5,
         "Ready to QA": 2,
         "READY FOR RELEASE": 4,
         "Blocked": 4,
-        "Listo": 14,
         "Tareas por hacer": 2,
-        "IN QA": 1,
-        "En curso": 3,
         "PENDING DEV DEPLOY": 2,
         "Finalizada": 345,
         "IN UAT": 4,
-        "QA Approved": 12,
+        "Listo": 13,
         "Ready for Refinement": 1,
         "Backlog": 14,
+        "Tech Review": 2,
         "Pre-prioritized": 1,
         "Deprecated": 17
       }
     },
     "tickets": [
       {
+        "key": "WSC-1692",
+        "url": "https://e2x.atlassian.net/browse/WSC-1692",
+        "summary": "PERSONALISED CONTENT - 'no segment'",
+        "status": "QA Approved",
+        "statusCategory": "indeterminate",
+        "assignee": "Gerardo Romero",
+        "updated": "2026-09-28T23:01:47.462+0100",
+        "priority": "Supone un impedimento",
+        "labels": [
+          "Needs-QA",
+          "co-build",
+          "manualQA"
+        ]
+      },
+      {
+        "key": "WSC-1769",
+        "url": "https://e2x.atlassian.net/browse/WSC-1769",
+        "summary": "CHECKOUT - collection address amendment",
+        "status": "En curso",
+        "statusCategory": "indeterminate",
+        "assignee": "Alexander Talavera",
+        "updated": "2026-09-28T21:03:41.570+0100",
+        "priority": "Poco importante",
+        "labels": [
+          "Needs-QA"
+        ]
+      },
+      {
         "key": "WSC-1717",
         "url": "https://e2x.atlassian.net/browse/WSC-1717",
         "summary": "CONTENT - new mobile navigation",
-        "status": "Tech Review",
+        "status": "QA Approved",
         "statusCategory": "indeterminate",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-09-28T17:27:23.902+0100",
+        "assignee": "Ingrith Santamaria",
+        "updated": "2026-09-28T20:52:16.609+0100",
         "priority": "Importante",
+        "labels": []
+      },
+      {
+        "key": "WSC-1736",
+        "url": "https://e2x.atlassian.net/browse/WSC-1736",
+        "summary": "Spike: PERSONALISED CONTENT - preview/visualiser on a Content Page",
+        "status": "En curso",
+        "statusCategory": "indeterminate",
+        "assignee": "Jair Huaman",
+        "updated": "2026-09-28T18:28:55.985+0100",
+        "priority": "Cr\u00edtica",
         "labels": []
       },
       {
@@ -79,19 +117,6 @@
         "labels": []
       },
       {
-        "key": "WSC-1769",
-        "url": "https://e2x.atlassian.net/browse/WSC-1769",
-        "summary": "CHECKOUT - collection address amendment",
-        "status": "Listo",
-        "statusCategory": "new",
-        "assignee": "Alexander Talavera",
-        "updated": "2026-09-28T15:08:35.646+0100",
-        "priority": "Poco importante",
-        "labels": [
-          "Needs-QA"
-        ]
-      },
-      {
         "key": "WSC-1690",
         "url": "https://e2x.atlassian.net/browse/WSC-1690",
         "summary": "SPIKE - PLP and PDP colour swatches",
@@ -101,21 +126,6 @@
         "updated": "2026-09-28T15:07:50.808+0100",
         "priority": "Importante",
         "labels": []
-      },
-      {
-        "key": "WSC-1692",
-        "url": "https://e2x.atlassian.net/browse/WSC-1692",
-        "summary": "PERSONALISED CONTENT - 'no segment'",
-        "status": "IN QA",
-        "statusCategory": "indeterminate",
-        "assignee": "Gerardo Romero",
-        "updated": "2026-09-28T13:40:50.139+0100",
-        "priority": "Supone un impedimento",
-        "labels": [
-          "Needs-QA",
-          "co-build",
-          "manualQA"
-        ]
       },
       {
         "key": "WSC-1707",
@@ -130,17 +140,6 @@
           "Bug",
           "Needs-QA"
         ]
-      },
-      {
-        "key": "WSC-1736",
-        "url": "https://e2x.atlassian.net/browse/WSC-1736",
-        "summary": "Spike: PERSONALISED CONTENT - preview/visualiser on a Content Page",
-        "status": "Tech Review",
-        "statusCategory": "indeterminate",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-09-25T20:32:27.967+0100",
-        "priority": "Cr\u00edtica",
-        "labels": []
       },
       {
         "key": "WSC-1740",
@@ -5383,29 +5382,29 @@
       "scopeFolderName": "Regression"
     },
     "coverage": {
-      "total": 120,
-      "automated": 102,
+      "total": 118,
+      "automated": 100,
       "notAutomated": 18,
       "unclassified": 0,
-      "automatedPct": 85.0,
+      "automatedPct": 84.7,
       "byFolder": [
         {
           "folderId": null,
           "name": "Checkout",
           "group": "Components",
-          "automated": 44,
+          "automated": 43,
           "notAutomated": 9,
           "unclassified": 0,
-          "total": 53
+          "total": 52
         },
         {
           "folderId": null,
           "name": "PDP",
           "group": "Components",
-          "automated": 20,
+          "automated": 19,
           "notAutomated": 6,
           "unclassified": 0,
-          "total": 26
+          "total": 25
         },
         {
           "folderId": null,
@@ -5474,10 +5473,10 @@
     },
     "runs": {
       "total": 80,
-      "latestPassed": 117,
+      "latestPassed": 115,
       "latestFailed": 0,
       "latestPending": 0,
-      "latestTotal": 117,
+      "latestTotal": 115,
       "latestRunName": "Regression 24/09/2026",
       "latestRunDate": "2026-09-21T15:58:54.009Z",
       "passRate": 99.9,
@@ -5493,11 +5492,11 @@
           "elapsed_ms": null,
           "created_at": "2026-09-21T15:58:54.009Z",
           "completed_at": null,
-          "passed": 117,
+          "passed": 115,
           "failed": 0,
           "pending": 0,
-          "completed": 117,
-          "total": 117
+          "completed": 115,
+          "total": 115
         },
         {
           "id": 2142,
@@ -5510,11 +5509,11 @@
           "elapsed_ms": null,
           "created_at": "2026-09-21T15:58:54.001Z",
           "completed_at": null,
-          "passed": 117,
+          "passed": 115,
           "failed": 0,
           "pending": 0,
-          "completed": 117,
-          "total": 117
+          "completed": 115,
+          "total": 115
         },
         {
           "id": 2141,
@@ -5527,11 +5526,11 @@
           "elapsed_ms": null,
           "created_at": "2026-09-21T15:58:53.991Z",
           "completed_at": null,
-          "passed": 117,
+          "passed": 115,
           "failed": 0,
           "pending": 0,
-          "completed": 117,
-          "total": 117
+          "completed": 115,
+          "total": 115
         },
         {
           "id": 2140,
@@ -5544,11 +5543,11 @@
           "elapsed_ms": null,
           "created_at": "2026-09-21T15:58:53.926Z",
           "completed_at": null,
-          "passed": 117,
+          "passed": 115,
           "failed": 0,
           "pending": 0,
-          "completed": 117,
-          "total": 117
+          "completed": 115,
+          "total": 115
         },
         {
           "id": 2130,
@@ -5561,11 +5560,11 @@
           "elapsed_ms": null,
           "created_at": "2026-09-10T19:02:55.544Z",
           "completed_at": null,
-          "passed": 117,
+          "passed": 115,
           "failed": 0,
           "pending": 0,
-          "completed": 117,
-          "total": 117
+          "completed": 115,
+          "total": 115
         },
         {
           "id": 2129,
@@ -5578,11 +5577,11 @@
           "elapsed_ms": null,
           "created_at": "2026-09-10T19:02:55.532Z",
           "completed_at": null,
-          "passed": 117,
+          "passed": 115,
           "failed": 0,
           "pending": 0,
-          "completed": 117,
-          "total": 117
+          "completed": 115,
+          "total": 115
         },
         {
           "id": 2128,
@@ -5595,11 +5594,11 @@
           "elapsed_ms": null,
           "created_at": "2026-09-10T19:02:55.519Z",
           "completed_at": null,
-          "passed": 117,
+          "passed": 115,
           "failed": 0,
           "pending": 0,
-          "completed": 117,
-          "total": 117
+          "completed": 115,
+          "total": 115
         },
         {
           "id": 2127,
@@ -5612,11 +5611,11 @@
           "elapsed_ms": null,
           "created_at": "2026-09-10T19:02:55.503Z",
           "completed_at": null,
-          "passed": 117,
+          "passed": 115,
           "failed": 0,
           "pending": 0,
-          "completed": 117,
-          "total": 117
+          "completed": 115,
+          "total": 115
         },
         {
           "id": 2095,
@@ -5629,11 +5628,11 @@
           "elapsed_ms": null,
           "created_at": "2026-08-28T18:53:11.442Z",
           "completed_at": null,
-          "passed": 93,
+          "passed": 91,
           "failed": 0,
           "pending": 0,
-          "completed": 93,
-          "total": 93
+          "completed": 91,
+          "total": 91
         },
         {
           "id": 2094,
@@ -5646,11 +5645,11 @@
           "elapsed_ms": null,
           "created_at": "2026-08-28T18:53:11.431Z",
           "completed_at": null,
-          "passed": 93,
+          "passed": 91,
           "failed": 0,
           "pending": 0,
-          "completed": 93,
-          "total": 93
+          "completed": 91,
+          "total": 91
         }
       ]
     },
@@ -6197,17 +6196,6 @@
       {
         "id": 127263,
         "name": "US: zone options visible; UK-only options hidden",
-        "folderId": 20991,
-        "folderPath": "Regression",
-        "bucket": "automated",
-        "priority": {
-          "id": 2,
-          "name": "Normal"
-        }
-      },
-      {
-        "id": 127262,
-        "name": "UK: gift card order shows only gift card option",
         "folderId": 20991,
         "folderPath": "Regression",
         "bucket": "automated",
@@ -6824,17 +6812,6 @@
       {
         "id": 114302,
         "name": "Add To Bag - Confirmation Modal Is Displayed With Correct Product Details",
-        "folderId": 20991,
-        "folderPath": "Regression",
-        "bucket": "automated",
-        "priority": {
-          "id": 2,
-          "name": "Normal"
-        }
-      },
-      {
-        "id": 114301,
-        "name": "Verify Add To Bag Button Is Enabled After Selecting All Required Variants",
         "folderId": 20991,
         "folderPath": "Regression",
         "bucket": "automated",
