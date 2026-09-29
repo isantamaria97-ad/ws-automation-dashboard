@@ -1,21 +1,21 @@
 {
-  "lastUpdated": "2026-09-29T17:47:57.726669+00:00",
+  "lastUpdated": "2026-09-29T23:30:18.652059+00:00",
   "jira": {
     "summary": {
       "total": 431,
       "byStatus": {
-        "Tech Review": 3,
+        "Tech Review": 5,
+        "En curso": 4,
+        "PENDING DEV DEPLOY": 3,
         "QA Approved": 15,
-        "En curso": 5,
         "Ready for Refinement": 1,
-        "Listo": 13,
+        "Listo": 11,
         "Backlog": 14,
         "Ready to QA": 1,
         "Deprecated": 18,
         "Finalizada": 347,
         "READY FOR RELEASE": 2,
         "Blocked": 4,
-        "PENDING DEV DEPLOY": 2,
         "IN UAT": 4,
         "Tareas por hacer": 1,
         "Pre-prioritized": 1
@@ -29,9 +29,72 @@
         "status": "Tech Review",
         "statusCategory": "indeterminate",
         "assignee": "Jair Huaman",
-        "updated": "2026-09-29T18:19:09.029+0100",
+        "updated": "2026-09-29T23:04:43.461+0100",
         "priority": "Importante",
         "labels": []
+      },
+      {
+        "key": "WSC-1755",
+        "url": "https://e2x.atlassian.net/browse/WSC-1755",
+        "summary": "Store Locator Content Sync fails when cleaning up stores removed from the sheet (orphan cleanup)",
+        "status": "En curso",
+        "statusCategory": "indeterminate",
+        "assignee": "Jair Huaman",
+        "updated": "2026-09-29T20:08:24.008+0100",
+        "priority": "Importante",
+        "labels": [
+          "NO_QA_REQUIRED"
+        ]
+      },
+      {
+        "key": "WSC-1686",
+        "url": "https://e2x.atlassian.net/browse/WSC-1686",
+        "summary": "[White Stuff] High Vulnerabilities Report - July 2026",
+        "status": "Tech Review",
+        "statusCategory": "indeterminate",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-09-29T20:07:27.121+0100",
+        "priority": "Importante",
+        "labels": [
+          "NO_QA_REQUIRED"
+        ]
+      },
+      {
+        "key": "WSC-1754",
+        "url": "https://e2x.atlassian.net/browse/WSC-1754",
+        "summary": "SEO - PLP/Search results - add colour to H2 product name",
+        "status": "Tech Review",
+        "statusCategory": "indeterminate",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-09-29T19:54:33.724+0100",
+        "priority": "Importante",
+        "labels": [
+          "Needs-QA"
+        ]
+      },
+      {
+        "key": "WSC-1736",
+        "url": "https://e2x.atlassian.net/browse/WSC-1736",
+        "summary": "Spike: PERSONALISED CONTENT - preview/visualiser on a Content Page",
+        "status": "Tech Review",
+        "statusCategory": "indeterminate",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-09-29T19:38:18.483+0100",
+        "priority": "Cr\u00edtica",
+        "labels": []
+      },
+      {
+        "key": "WSC-1769",
+        "url": "https://e2x.atlassian.net/browse/WSC-1769",
+        "summary": "CHECKOUT - collection address amendment",
+        "status": "PENDING DEV DEPLOY",
+        "statusCategory": "new",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-09-29T19:02:11.725+0100",
+        "priority": "Poco importante",
+        "labels": [
+          "Needs-QA"
+        ]
       },
       {
         "key": "WSC-1692",
@@ -58,19 +121,6 @@
         "updated": "2026-09-29T17:30:38.295+0100",
         "priority": "Importante",
         "labels": []
-      },
-      {
-        "key": "WSC-1769",
-        "url": "https://e2x.atlassian.net/browse/WSC-1769",
-        "summary": "CHECKOUT - collection address amendment",
-        "status": "Tech Review",
-        "statusCategory": "indeterminate",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-09-29T17:30:29.642+0100",
-        "priority": "Poco importante",
-        "labels": [
-          "Needs-QA"
-        ]
       },
       {
         "key": "WSC-1783",
@@ -186,19 +236,6 @@
         "labels": []
       },
       {
-        "key": "WSC-1754",
-        "url": "https://e2x.atlassian.net/browse/WSC-1754",
-        "summary": "SEO - PLP/Search results - add colour to H2 product name",
-        "status": "En curso",
-        "statusCategory": "indeterminate",
-        "assignee": "Jair Huaman",
-        "updated": "2026-09-29T13:41:10.709+0100",
-        "priority": "Importante",
-        "labels": [
-          "Needs-QA"
-        ]
-      },
-      {
         "key": "WSC-1773",
         "url": "https://e2x.atlassian.net/browse/WSC-1773",
         "summary": "[WSSD-752] - [Security] Critical vulnerabilities identified in axios and proxy-addr \u2014 remediation required",
@@ -226,17 +263,6 @@
         "labels": [
           "NO_QA_REQUIRED"
         ]
-      },
-      {
-        "key": "WSC-1736",
-        "url": "https://e2x.atlassian.net/browse/WSC-1736",
-        "summary": "Spike: PERSONALISED CONTENT - preview/visualiser on a Content Page",
-        "status": "En curso",
-        "statusCategory": "indeterminate",
-        "assignee": "Jair Huaman",
-        "updated": "2026-09-28T18:28:55.985+0100",
-        "priority": "Cr\u00edtica",
-        "labels": []
       },
       {
         "key": "WSC-1778",
@@ -557,32 +583,6 @@
           "Needs-QA",
           "automatable",
           "co-build"
-        ]
-      },
-      {
-        "key": "WSC-1755",
-        "url": "https://e2x.atlassian.net/browse/WSC-1755",
-        "summary": "Store Locator Content Sync fails when cleaning up stores removed from the sheet (orphan cleanup)",
-        "status": "Listo",
-        "statusCategory": "new",
-        "assignee": "Unassigned",
-        "updated": "2026-09-23T11:06:50.399+0100",
-        "priority": "Importante",
-        "labels": [
-          "NO_QA_REQUIRED"
-        ]
-      },
-      {
-        "key": "WSC-1686",
-        "url": "https://e2x.atlassian.net/browse/WSC-1686",
-        "summary": "[White Stuff] High Vulnerabilities Report - July 2026",
-        "status": "Listo",
-        "statusCategory": "new",
-        "assignee": "Unassigned",
-        "updated": "2026-09-23T11:06:33.612+0100",
-        "priority": "Importante",
-        "labels": [
-          "NO_QA_REQUIRED"
         ]
       },
       {
