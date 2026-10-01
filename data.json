@@ -1,69 +1,36 @@
 {
-  "lastUpdated": "2026-10-01T15:10:51.681946+00:00",
+  "lastUpdated": "2026-10-01T20:51:03.187656+00:00",
   "jira": {
     "summary": {
       "total": 440,
       "byStatus": {
+        "Ready to QA": 1,
+        "En curso": 4,
+        "IN UAT": 8,
+        "QA Approved": 9,
+        "Tareas por hacer": 2,
         "Listo": 16,
         "Blocked": 4,
-        "En curso": 6,
         "Tech Review": 5,
         "PENDING DEV DEPLOY": 3,
         "READY FOR RELEASE": 3,
         "Finalizada": 350,
         "Backlog": 15,
-        "IN UAT": 3,
-        "QA Approved": 13,
-        "Ready to QA": 1,
         "Ready for Refinement": 1,
         "Deprecated": 18,
-        "Tareas por hacer": 1,
         "Pre-prioritized": 1
       }
     },
     "tickets": [
       {
-        "key": "WSC-1793",
-        "url": "https://e2x.atlassian.net/browse/WSC-1793",
-        "summary": "PDP - styling issue on + and -",
-        "status": "Listo",
+        "key": "WSC-1779",
+        "url": "https://e2x.atlassian.net/browse/WSC-1779",
+        "summary": "NEW MOBILE NAV - event tracking",
+        "status": "Ready to QA",
         "statusCategory": "new",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-10-01T15:56:40.729+0100",
+        "assignee": "Stuart Young",
+        "updated": "2026-10-01T21:18:06.853+0100",
         "priority": "Poco importante",
-        "labels": []
-      },
-      {
-        "key": "WSC-1789",
-        "url": "https://e2x.atlassian.net/browse/WSC-1789",
-        "summary": "Enable automation gate for PR merges on VSF repository",
-        "status": "Blocked",
-        "statusCategory": "new",
-        "assignee": "Gerardo Romero",
-        "updated": "2026-10-01T15:10:02.270+0100",
-        "priority": "Not Set",
-        "labels": []
-      },
-      {
-        "key": "WSC-1736",
-        "url": "https://e2x.atlassian.net/browse/WSC-1736",
-        "summary": "Spike: PERSONALISED CONTENT - preview/visualiser on a Content Page",
-        "status": "En curso",
-        "statusCategory": "indeterminate",
-        "assignee": "Jair Huaman",
-        "updated": "2026-10-01T14:42:29.224+0100",
-        "priority": "Cr\u00edtica",
-        "labels": []
-      },
-      {
-        "key": "WSC-1755",
-        "url": "https://e2x.atlassian.net/browse/WSC-1755",
-        "summary": "Store Locator Content Sync fails when cleaning up stores removed from the sheet (orphan cleanup)",
-        "status": "En curso",
-        "statusCategory": "indeterminate",
-        "assignee": "Jair Huaman",
-        "updated": "2026-10-01T14:42:23.113+0100",
-        "priority": "Importante",
         "labels": [
           "NO_QA_REQUIRED"
         ]
@@ -75,11 +42,128 @@
         "status": "En curso",
         "statusCategory": "indeterminate",
         "assignee": "Jair Huaman",
-        "updated": "2026-10-01T14:42:18.240+0100",
+        "updated": "2026-10-01T20:58:02.766+0100",
         "priority": "Importante",
         "labels": [
           "Needs-QA"
         ]
+      },
+      {
+        "key": "WSC-1793",
+        "url": "https://e2x.atlassian.net/browse/WSC-1793",
+        "summary": "PDP - styling issue on + and -",
+        "status": "IN UAT",
+        "statusCategory": "indeterminate",
+        "assignee": "Gerardo Romero",
+        "updated": "2026-10-01T20:58:02.222+0100",
+        "priority": "Poco importante",
+        "labels": []
+      },
+      {
+        "key": "WSC-1685",
+        "url": "https://e2x.atlassian.net/browse/WSC-1685",
+        "summary": "PDP - mobile sticky ADD TO BAG change to its behaviour",
+        "status": "QA Approved",
+        "statusCategory": "indeterminate",
+        "assignee": "Gerardo Romero",
+        "updated": "2026-10-01T20:55:12.981+0100",
+        "priority": "Importante",
+        "labels": [
+          "Needs-QA",
+          "manualQA"
+        ]
+      },
+      {
+        "key": "WSC-1684",
+        "url": "https://e2x.atlassian.net/browse/WSC-1684",
+        "summary": "PDP - mobile sticky ADD TO BAG UX",
+        "status": "IN UAT",
+        "statusCategory": "indeterminate",
+        "assignee": "Gerardo Romero",
+        "updated": "2026-10-01T20:49:16.575+0100",
+        "priority": "Importante",
+        "labels": [
+          "Needs-QA",
+          "automatable"
+        ]
+      },
+      {
+        "key": "WSC-1697",
+        "url": "https://e2x.atlassian.net/browse/WSC-1697",
+        "summary": "PDP - 'back in stock' new UX",
+        "status": "IN UAT",
+        "statusCategory": "indeterminate",
+        "assignee": "Gerardo Romero",
+        "updated": "2026-10-01T20:32:00.665+0100",
+        "priority": "Importante",
+        "labels": [
+          "Needs-QA",
+          "automatable"
+        ]
+      },
+      {
+        "key": "WSC-1687",
+        "url": "https://e2x.atlassian.net/browse/WSC-1687",
+        "summary": "PDP - gift card and e-gift card colour change",
+        "status": "IN UAT",
+        "statusCategory": "indeterminate",
+        "assignee": "Ingrith Santamaria",
+        "updated": "2026-10-01T20:22:37.091+0100",
+        "priority": "Poco importante",
+        "labels": [
+          "Needs-QA",
+          "manualQA",
+          "standard"
+        ]
+      },
+      {
+        "key": "WSC-1683",
+        "url": "https://e2x.atlassian.net/browse/WSC-1683",
+        "summary": "PDP - ATB and Size UX redesign",
+        "status": "IN UAT",
+        "statusCategory": "indeterminate",
+        "assignee": "Gerardo Romero",
+        "updated": "2026-10-01T20:15:56.859+0100",
+        "priority": "Importante",
+        "labels": [
+          "Needs-QA",
+          "automatable"
+        ]
+      },
+      {
+        "key": "WSC-1736",
+        "url": "https://e2x.atlassian.net/browse/WSC-1736",
+        "summary": "Spike: PERSONALISED CONTENT - preview/visualiser on a Content Page",
+        "status": "Tareas por hacer",
+        "statusCategory": "new",
+        "assignee": "Jair Huaman",
+        "updated": "2026-10-01T16:32:23.740+0100",
+        "priority": "Cr\u00edtica",
+        "labels": []
+      },
+      {
+        "key": "WSC-1755",
+        "url": "https://e2x.atlassian.net/browse/WSC-1755",
+        "summary": "Store Locator Content Sync fails when cleaning up stores removed from the sheet (orphan cleanup)",
+        "status": "Listo",
+        "statusCategory": "new",
+        "assignee": "Jair Huaman",
+        "updated": "2026-10-01T16:32:23.437+0100",
+        "priority": "Importante",
+        "labels": [
+          "NO_QA_REQUIRED"
+        ]
+      },
+      {
+        "key": "WSC-1789",
+        "url": "https://e2x.atlassian.net/browse/WSC-1789",
+        "summary": "Enable automation gate for PR merges on VSF repository",
+        "status": "Blocked",
+        "statusCategory": "new",
+        "assignee": "Gerardo Romero",
+        "updated": "2026-10-01T15:10:02.270+0100",
+        "priority": "Not Set",
+        "labels": []
       },
       {
         "key": "WSC-1481",
@@ -473,20 +557,6 @@
         ]
       },
       {
-        "key": "WSC-1697",
-        "url": "https://e2x.atlassian.net/browse/WSC-1697",
-        "summary": "PDP - 'back in stock' new UX",
-        "status": "QA Approved",
-        "statusCategory": "indeterminate",
-        "assignee": "Gerardo Romero",
-        "updated": "2026-09-30T19:58:30.370+0100",
-        "priority": "Importante",
-        "labels": [
-          "Needs-QA",
-          "automatable"
-        ]
-      },
-      {
         "key": "WSC-1676",
         "url": "https://e2x.atlassian.net/browse/WSC-1676",
         "summary": "APPLE PAY EXPRESS",
@@ -563,19 +633,6 @@
         ]
       },
       {
-        "key": "WSC-1779",
-        "url": "https://e2x.atlassian.net/browse/WSC-1779",
-        "summary": "NEW MOBILE NAV - event tracking",
-        "status": "Ready to QA",
-        "statusCategory": "new",
-        "assignee": "Stuart Young",
-        "updated": "2026-09-30T19:58:26.695+0100",
-        "priority": "Poco importante",
-        "labels": [
-          "NO_QA_REQUIRED"
-        ]
-      },
-      {
         "key": "WSC-1636",
         "url": "https://e2x.atlassian.net/browse/WSC-1636",
         "summary": "Tighten Super Bot Fight Mode policy: Block Automated, Managed Challenge Likely Automated",
@@ -639,20 +696,6 @@
         ]
       },
       {
-        "key": "WSC-1683",
-        "url": "https://e2x.atlassian.net/browse/WSC-1683",
-        "summary": "PDP - ATB and Size UX redesign",
-        "status": "QA Approved",
-        "statusCategory": "indeterminate",
-        "assignee": "Gerardo Romero",
-        "updated": "2026-09-30T19:58:23.871+0100",
-        "priority": "Importante",
-        "labels": [
-          "Needs-QA",
-          "automatable"
-        ]
-      },
-      {
         "key": "WSC-1760",
         "url": "https://e2x.atlassian.net/browse/WSC-1760",
         "summary": "[WSSD-750] - PDP product group links - bug",
@@ -675,20 +718,6 @@
         "labels": []
       },
       {
-        "key": "WSC-1684",
-        "url": "https://e2x.atlassian.net/browse/WSC-1684",
-        "summary": "PDP - mobile sticky ADD TO BAG UX",
-        "status": "QA Approved",
-        "statusCategory": "indeterminate",
-        "assignee": "Gerardo Romero",
-        "updated": "2026-09-30T19:58:22.787+0100",
-        "priority": "Importante",
-        "labels": [
-          "Needs-QA",
-          "automatable"
-        ]
-      },
-      {
         "key": "WSC-1761",
         "url": "https://e2x.atlassian.net/browse/WSC-1761",
         "summary": "BazaarVoice review post Revert of WSC-1660",
@@ -699,35 +728,6 @@
         "priority": "Importante",
         "labels": [
           "NO_QA_REQUIRED"
-        ]
-      },
-      {
-        "key": "WSC-1685",
-        "url": "https://e2x.atlassian.net/browse/WSC-1685",
-        "summary": "PDP - mobile sticky ADD TO BAG change to its behaviour",
-        "status": "QA Approved",
-        "statusCategory": "indeterminate",
-        "assignee": "Gerardo Romero",
-        "updated": "2026-09-30T19:58:21.419+0100",
-        "priority": "Importante",
-        "labels": [
-          "Needs-QA",
-          "manualQA"
-        ]
-      },
-      {
-        "key": "WSC-1687",
-        "url": "https://e2x.atlassian.net/browse/WSC-1687",
-        "summary": "PDP - gift card and e-gift card colour change",
-        "status": "QA Approved",
-        "statusCategory": "indeterminate",
-        "assignee": "Ingrith Santamaria",
-        "updated": "2026-09-30T19:58:21.055+0100",
-        "priority": "Poco importante",
-        "labels": [
-          "Needs-QA",
-          "manualQA",
-          "standard"
         ]
       },
       {
@@ -5597,9 +5597,9 @@
     },
     "runs": {
       "total": 84,
-      "latestPassed": 0,
+      "latestPassed": 118,
       "latestFailed": 0,
-      "latestPending": 118,
+      "latestPending": 0,
       "latestTotal": 118,
       "latestRunName": "Regression 30/09/26",
       "latestRunDate": "2026-10-01T12:40:44.837Z",
@@ -5616,10 +5616,10 @@
           "elapsed_ms": null,
           "created_at": "2026-10-01T12:40:44.837Z",
           "completed_at": null,
-          "passed": 0,
+          "passed": 118,
           "failed": 0,
-          "pending": 118,
-          "completed": 0,
+          "pending": 0,
+          "completed": 118,
           "total": 118
         },
         {
@@ -5633,10 +5633,10 @@
           "elapsed_ms": null,
           "created_at": "2026-10-01T12:40:44.826Z",
           "completed_at": null,
-          "passed": 0,
+          "passed": 118,
           "failed": 0,
-          "pending": 118,
-          "completed": 0,
+          "pending": 0,
+          "completed": 118,
           "total": 118
         },
         {
@@ -5650,10 +5650,10 @@
           "elapsed_ms": null,
           "created_at": "2026-10-01T12:40:44.814Z",
           "completed_at": null,
-          "passed": 0,
+          "passed": 118,
           "failed": 0,
-          "pending": 118,
-          "completed": 0,
+          "pending": 0,
+          "completed": 118,
           "total": 118
         },
         {
@@ -5667,10 +5667,10 @@
           "elapsed_ms": null,
           "created_at": "2026-10-01T12:40:44.786Z",
           "completed_at": null,
-          "passed": 0,
+          "passed": 118,
           "failed": 0,
-          "pending": 118,
-          "completed": 0,
+          "pending": 0,
+          "completed": 118,
           "total": 118
         },
         {
