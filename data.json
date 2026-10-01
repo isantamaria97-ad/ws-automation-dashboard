@@ -1,15 +1,15 @@
 {
-  "lastUpdated": "2026-09-30T20:36:45.291753+00:00",
+  "lastUpdated": "2026-10-01T04:40:03.399564+00:00",
   "jira": {
     "summary": {
       "total": 438,
       "byStatus": {
-        "Tech Review": 6,
+        "READY FOR RELEASE": 3,
+        "En curso": 6,
+        "Tech Review": 5,
         "IN UAT": 5,
         "QA Approved": 13,
-        "En curso": 5,
         "Finalizada": 348,
-        "READY FOR RELEASE": 3,
         "Ready to QA": 1,
         "Listo": 15,
         "Blocked": 3,
@@ -22,6 +22,41 @@
       }
     },
     "tickets": [
+      {
+        "key": "WSC-1778",
+        "url": "https://e2x.atlassian.net/browse/WSC-1778",
+        "summary": "[Automation] Stop building/serving the app locally for DEV & UAT Playwright CI runs",
+        "status": "READY FOR RELEASE",
+        "statusCategory": "new",
+        "assignee": "Gerardo Romero",
+        "updated": "2026-10-01T04:29:43.933+0100",
+        "priority": "Not Set",
+        "labels": []
+      },
+      {
+        "key": "WSC-1772",
+        "url": "https://e2x.atlassian.net/browse/WSC-1772",
+        "summary": "CSP - UAT \u2013 Resolve Remaining Report-Only Violations Before Enforcement",
+        "status": "En curso",
+        "statusCategory": "indeterminate",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-10-01T04:11:58.507+0100",
+        "priority": "Not Set",
+        "labels": [
+          "NO_QA_REQUIRED"
+        ]
+      },
+      {
+        "key": "WSC-1736",
+        "url": "https://e2x.atlassian.net/browse/WSC-1736",
+        "summary": "Spike: PERSONALISED CONTENT - preview/visualiser on a Content Page",
+        "status": "En curso",
+        "statusCategory": "indeterminate",
+        "assignee": "Jair Huaman",
+        "updated": "2026-10-01T04:04:25.592+0100",
+        "priority": "Cr\u00edtica",
+        "labels": []
+      },
       {
         "key": "WSC-1696",
         "url": "https://e2x.atlassian.net/browse/WSC-1696",
@@ -101,19 +136,6 @@
         "updated": "2026-09-30T19:58:31.251+0100",
         "priority": "Poco importante",
         "labels": []
-      },
-      {
-        "key": "WSC-1772",
-        "url": "https://e2x.atlassian.net/browse/WSC-1772",
-        "summary": "CSP - UAT \u2013 Resolve Remaining Report-Only Violations Before Enforcement",
-        "status": "En curso",
-        "statusCategory": "indeterminate",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-09-30T19:58:30.728+0100",
-        "priority": "Not Set",
-        "labels": [
-          "NO_QA_REQUIRED"
-        ]
       },
       {
         "key": "WSC-1697",
@@ -204,17 +226,6 @@
           "cloudflare",
           "spike"
         ]
-      },
-      {
-        "key": "WSC-1778",
-        "url": "https://e2x.atlassian.net/browse/WSC-1778",
-        "summary": "[Automation] Stop building/serving the app locally for DEV & UAT Playwright CI runs",
-        "status": "READY FOR RELEASE",
-        "statusCategory": "new",
-        "assignee": "Gerardo Romero",
-        "updated": "2026-09-30T19:58:27.542+0100",
-        "priority": "Not Set",
-        "labels": []
       },
       {
         "key": "WSC-1779",
@@ -855,17 +866,6 @@
         "labels": [
           "Needs-QA"
         ]
-      },
-      {
-        "key": "WSC-1736",
-        "url": "https://e2x.atlassian.net/browse/WSC-1736",
-        "summary": "Spike: PERSONALISED CONTENT - preview/visualiser on a Content Page",
-        "status": "Tech Review",
-        "statusCategory": "indeterminate",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-09-29T19:38:18.483+0100",
-        "priority": "Cr\u00edtica",
-        "labels": []
       },
       {
         "key": "WSC-1138",
