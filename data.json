@@ -1,19 +1,17 @@
 {
-  "lastUpdated": "2026-10-02T04:31:42.405861+00:00",
+  "lastUpdated": "2026-10-02T14:31:12.277573+00:00",
   "jira": {
     "summary": {
-      "total": 440,
+      "total": 442,
       "byStatus": {
-        "Ready for Refinement": 1,
-        "Ready to QA": 1,
+        "Listo": 18,
         "En curso": 4,
-        "IN UAT": 8,
-        "QA Approved": 9,
+        "Tech Review": 6,
+        "IN UAT": 17,
+        "Ready to QA": 2,
         "Tareas por hacer": 2,
-        "Listo": 16,
         "Blocked": 4,
-        "Tech Review": 5,
-        "PENDING DEV DEPLOY": 3,
+        "PENDING DEV DEPLOY": 2,
         "READY FOR RELEASE": 3,
         "Finalizada": 350,
         "Backlog": 15,
@@ -23,17 +21,195 @@
     },
     "tickets": [
       {
-        "key": "WSC-1138",
-        "url": "https://e2x.atlassian.net/browse/WSC-1138",
-        "summary": "GOOD STUFF - add preferred shop to 'My Details'",
-        "status": "Ready for Refinement",
+        "key": "WSC-1777",
+        "url": "https://e2x.atlassian.net/browse/WSC-1777",
+        "summary": "SLIM BANNER - URL restrictions",
+        "status": "Listo",
         "statusCategory": "new",
         "assignee": "Unassigned",
-        "updated": "2026-10-01T22:07:22.842+0100",
+        "updated": "2026-10-02T15:08:06.260+0100",
+        "priority": "Importante",
+        "labels": []
+      },
+      {
+        "key": "WSC-1796",
+        "url": "https://e2x.atlassian.net/browse/WSC-1796",
+        "summary": "Evaluate SSL certificate renewal approaches for SiteSpect domains (Auto vs Manual) \u2013 pros & cons",
+        "status": "En curso",
+        "statusCategory": "indeterminate",
+        "assignee": "Jair Huaman",
+        "updated": "2026-10-02T15:02:23.056+0100",
+        "priority": "Importante",
+        "labels": []
+      },
+      {
+        "key": "WSC-1780",
+        "url": "https://e2x.atlassian.net/browse/WSC-1780",
+        "summary": "Cloudflare 403 Challenge Blocking Checkout Automation on Desktop",
+        "status": "Tech Review",
+        "statusCategory": "indeterminate",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-10-02T14:48:06.131+0100",
         "priority": "Importante",
         "labels": [
           "Needs-QA"
         ]
+      },
+      {
+        "key": "WSC-1760",
+        "url": "https://e2x.atlassian.net/browse/WSC-1760",
+        "summary": "[WSSD-750] - PDP product group links - bug",
+        "status": "IN UAT",
+        "statusCategory": "indeterminate",
+        "assignee": "Ingrith Santamaria",
+        "updated": "2026-10-02T14:38:43.654+0100",
+        "priority": "Poco importante",
+        "labels": []
+      },
+      {
+        "key": "WSC-1717",
+        "url": "https://e2x.atlassian.net/browse/WSC-1717",
+        "summary": "CONTENT - new mobile navigation",
+        "status": "IN UAT",
+        "statusCategory": "indeterminate",
+        "assignee": "Ingrith Santamaria",
+        "updated": "2026-10-02T14:38:36.673+0100",
+        "priority": "Importante",
+        "labels": []
+      },
+      {
+        "key": "WSC-1710",
+        "url": "https://e2x.atlassian.net/browse/WSC-1710",
+        "summary": "CLS-01 \u2014 PDP template - Desktop and Mobile",
+        "status": "IN UAT",
+        "statusCategory": "indeterminate",
+        "assignee": "Rafael Paranagu\u00e1",
+        "updated": "2026-10-02T14:38:31.576+0100",
+        "priority": "Cr\u00edtica",
+        "labels": [
+          "Needs-QA",
+          "manualQA"
+        ]
+      },
+      {
+        "key": "WSC-1695",
+        "url": "https://e2x.atlassian.net/browse/WSC-1695",
+        "summary": "PDP - new image layout / breadcrumb move",
+        "status": "IN UAT",
+        "statusCategory": "indeterminate",
+        "assignee": "Ingrith Santamaria",
+        "updated": "2026-10-02T14:37:05.893+0100",
+        "priority": "Importante",
+        "labels": [
+          "Needs-QA",
+          "automatable",
+          "manualQA"
+        ]
+      },
+      {
+        "key": "WSC-1692",
+        "url": "https://e2x.atlassian.net/browse/WSC-1692",
+        "summary": "PERSONALISED CONTENT - 'no segment'",
+        "status": "IN UAT",
+        "statusCategory": "indeterminate",
+        "assignee": "Gerardo Romero",
+        "updated": "2026-10-02T14:36:57.396+0100",
+        "priority": "Supone un impedimento",
+        "labels": [
+          "Needs-QA",
+          "co-build",
+          "manualQA"
+        ]
+      },
+      {
+        "key": "WSC-1685",
+        "url": "https://e2x.atlassian.net/browse/WSC-1685",
+        "summary": "PDP - mobile sticky ADD TO BAG change to its behaviour",
+        "status": "IN UAT",
+        "statusCategory": "indeterminate",
+        "assignee": "Gerardo Romero",
+        "updated": "2026-10-02T14:36:38.071+0100",
+        "priority": "Importante",
+        "labels": [
+          "Needs-QA",
+          "manualQA"
+        ]
+      },
+      {
+        "key": "WSC-1676",
+        "url": "https://e2x.atlassian.net/browse/WSC-1676",
+        "summary": "APPLE PAY EXPRESS",
+        "status": "IN UAT",
+        "statusCategory": "indeterminate",
+        "assignee": "Ingrith Santamaria",
+        "updated": "2026-10-02T14:36:25.332+0100",
+        "priority": "Importante",
+        "labels": [
+          "Needs-QA",
+          "manualQA"
+        ]
+      },
+      {
+        "key": "WSC-1285",
+        "url": "https://e2x.atlassian.net/browse/WSC-1285",
+        "summary": "ACCESSIBILITY - Button Name - Quick Add close button must have discernible text",
+        "status": "IN UAT",
+        "statusCategory": "indeterminate",
+        "assignee": "Rafael Paranagu\u00e1",
+        "updated": "2026-10-02T14:36:14.152+0100",
+        "priority": "Importante",
+        "labels": [
+          "Needs-QA",
+          "manualQA"
+        ]
+      },
+      {
+        "key": "WSC-1189",
+        "url": "https://e2x.atlassian.net/browse/WSC-1189",
+        "summary": "SEO - Duplicate H1 Tags on Product Pages",
+        "status": "IN UAT",
+        "statusCategory": "indeterminate",
+        "assignee": "Rafael Paranagu\u00e1",
+        "updated": "2026-10-02T14:36:08.265+0100",
+        "priority": "Importante",
+        "labels": []
+      },
+      {
+        "key": "WSC-1769",
+        "url": "https://e2x.atlassian.net/browse/WSC-1769",
+        "summary": "CHECKOUT - collection address amendment",
+        "status": "Ready to QA",
+        "statusCategory": "new",
+        "assignee": "Unassigned",
+        "updated": "2026-10-02T14:25:05.079+0100",
+        "priority": "Poco importante",
+        "labels": [
+          "Needs-QA"
+        ]
+      },
+      {
+        "key": "WSC-1138",
+        "url": "https://e2x.atlassian.net/browse/WSC-1138",
+        "summary": "GOOD STUFF - add preferred shop to 'My Details'",
+        "status": "Listo",
+        "statusCategory": "new",
+        "assignee": "Unassigned",
+        "updated": "2026-10-02T13:59:59.349+0100",
+        "priority": "Importante",
+        "labels": [
+          "Needs-QA"
+        ]
+      },
+      {
+        "key": "WSC-1770",
+        "url": "https://e2x.atlassian.net/browse/WSC-1770",
+        "summary": "[Spike] Track Leg 2 (Cloudflare -> Alokai) traffic to validate real cache ratio in SiteSpect Sandwich architecture",
+        "status": "IN UAT",
+        "statusCategory": "indeterminate",
+        "assignee": "Jair Huaman",
+        "updated": "2026-10-02T12:56:29.022+0100",
+        "priority": "Not Set",
+        "labels": []
       },
       {
         "key": "WSC-1779",
@@ -49,19 +225,6 @@
         ]
       },
       {
-        "key": "WSC-1780",
-        "url": "https://e2x.atlassian.net/browse/WSC-1780",
-        "summary": "Cloudflare 403 Challenge Blocking Checkout Automation on Desktop",
-        "status": "En curso",
-        "statusCategory": "indeterminate",
-        "assignee": "Jair Huaman",
-        "updated": "2026-10-01T20:58:02.766+0100",
-        "priority": "Importante",
-        "labels": [
-          "Needs-QA"
-        ]
-      },
-      {
         "key": "WSC-1793",
         "url": "https://e2x.atlassian.net/browse/WSC-1793",
         "summary": "PDP - styling issue on + and -",
@@ -71,20 +234,6 @@
         "updated": "2026-10-01T20:58:02.222+0100",
         "priority": "Poco importante",
         "labels": []
-      },
-      {
-        "key": "WSC-1685",
-        "url": "https://e2x.atlassian.net/browse/WSC-1685",
-        "summary": "PDP - mobile sticky ADD TO BAG change to its behaviour",
-        "status": "QA Approved",
-        "statusCategory": "indeterminate",
-        "assignee": "Gerardo Romero",
-        "updated": "2026-10-01T20:55:12.981+0100",
-        "priority": "Importante",
-        "labels": [
-          "Needs-QA",
-          "manualQA"
-        ]
       },
       {
         "key": "WSC-1684",
@@ -292,19 +441,6 @@
         "priority": "Cr\u00edtica",
         "labels": [
           "NO_QA_REQUIRED"
-        ]
-      },
-      {
-        "key": "WSC-1769",
-        "url": "https://e2x.atlassian.net/browse/WSC-1769",
-        "summary": "CHECKOUT - collection address amendment",
-        "status": "PENDING DEV DEPLOY",
-        "statusCategory": "new",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-10-01T14:41:00.528+0100",
-        "priority": "Poco importante",
-        "labels": [
-          "Needs-QA"
         ]
       },
       {
@@ -529,61 +665,6 @@
         ]
       },
       {
-        "key": "WSC-1692",
-        "url": "https://e2x.atlassian.net/browse/WSC-1692",
-        "summary": "PERSONALISED CONTENT - 'no segment'",
-        "status": "QA Approved",
-        "statusCategory": "indeterminate",
-        "assignee": "Gerardo Romero",
-        "updated": "2026-09-30T19:58:32.348+0100",
-        "priority": "Supone un impedimento",
-        "labels": [
-          "Needs-QA",
-          "co-build",
-          "manualQA"
-        ]
-      },
-      {
-        "key": "WSC-1770",
-        "url": "https://e2x.atlassian.net/browse/WSC-1770",
-        "summary": "[Spike] Track Leg 2 (Cloudflare -> Alokai) traffic to validate real cache ratio in SiteSpect Sandwich architecture",
-        "status": "IN UAT",
-        "statusCategory": "indeterminate",
-        "assignee": "Jair Huaman",
-        "updated": "2026-09-30T19:58:31.976+0100",
-        "priority": "Not Set",
-        "labels": []
-      },
-      {
-        "key": "WSC-1695",
-        "url": "https://e2x.atlassian.net/browse/WSC-1695",
-        "summary": "PDP - new image layout / breadcrumb move",
-        "status": "QA Approved",
-        "statusCategory": "indeterminate",
-        "assignee": "Ingrith Santamaria",
-        "updated": "2026-09-30T19:58:31.612+0100",
-        "priority": "Importante",
-        "labels": [
-          "Needs-QA",
-          "automatable",
-          "manualQA"
-        ]
-      },
-      {
-        "key": "WSC-1676",
-        "url": "https://e2x.atlassian.net/browse/WSC-1676",
-        "summary": "APPLE PAY EXPRESS",
-        "status": "QA Approved",
-        "statusCategory": "indeterminate",
-        "assignee": "Ingrith Santamaria",
-        "updated": "2026-09-30T19:58:29.803+0100",
-        "priority": "Importante",
-        "labels": [
-          "Needs-QA",
-          "manualQA"
-        ]
-      },
-      {
         "key": "WSC-1753",
         "url": "https://e2x.atlassian.net/browse/WSC-1753",
         "summary": "Review and Update of Playwright Affected Testcases",
@@ -617,20 +698,6 @@
         "labels": []
       },
       {
-        "key": "WSC-1710",
-        "url": "https://e2x.atlassian.net/browse/WSC-1710",
-        "summary": "CLS-01 \u2014 PDP template - Desktop and Mobile",
-        "status": "QA Approved",
-        "statusCategory": "indeterminate",
-        "assignee": "Rafael Paranagu\u00e1",
-        "updated": "2026-09-30T19:58:28.276+0100",
-        "priority": "Cr\u00edtica",
-        "labels": [
-          "Needs-QA",
-          "manualQA"
-        ]
-      },
-      {
         "key": "WSC-1733",
         "url": "https://e2x.atlassian.net/browse/WSC-1733",
         "summary": "SPIKE: Investigate Cloudflare 403 Challenge Blocking Checkout Automation on Desktop",
@@ -657,17 +724,6 @@
         "labels": []
       },
       {
-        "key": "WSC-1717",
-        "url": "https://e2x.atlassian.net/browse/WSC-1717",
-        "summary": "CONTENT - new mobile navigation",
-        "status": "QA Approved",
-        "statusCategory": "indeterminate",
-        "assignee": "Ingrith Santamaria",
-        "updated": "2026-09-30T19:58:25.893+0100",
-        "priority": "Importante",
-        "labels": []
-      },
-      {
         "key": "WSC-1162",
         "url": "https://e2x.atlassian.net/browse/WSC-1162",
         "summary": "Set Up Automated Yearly Task for Security.txt Renewal",
@@ -678,20 +734,6 @@
         "priority": "Poco importante",
         "labels": [
           "NO_QA_REQUIRED"
-        ]
-      },
-      {
-        "key": "WSC-1285",
-        "url": "https://e2x.atlassian.net/browse/WSC-1285",
-        "summary": "ACCESSIBILITY - Button Name - Quick Add close button must have discernible text",
-        "status": "QA Approved",
-        "statusCategory": "indeterminate",
-        "assignee": "Rafael Paranagu\u00e1",
-        "updated": "2026-09-30T19:58:24.712+0100",
-        "priority": "Importante",
-        "labels": [
-          "Needs-QA",
-          "manualQA"
         ]
       },
       {
@@ -707,28 +749,6 @@
           "CSP",
           "Needs-QA"
         ]
-      },
-      {
-        "key": "WSC-1760",
-        "url": "https://e2x.atlassian.net/browse/WSC-1760",
-        "summary": "[WSSD-750] - PDP product group links - bug",
-        "status": "QA Approved",
-        "statusCategory": "indeterminate",
-        "assignee": "Ingrith Santamaria",
-        "updated": "2026-09-30T19:58:23.507+0100",
-        "priority": "Poco importante",
-        "labels": []
-      },
-      {
-        "key": "WSC-1189",
-        "url": "https://e2x.atlassian.net/browse/WSC-1189",
-        "summary": "SEO - Duplicate H1 Tags on Product Pages",
-        "status": "QA Approved",
-        "statusCategory": "indeterminate",
-        "assignee": "Rafael Paranagu\u00e1",
-        "updated": "2026-09-30T19:58:23.186+0100",
-        "priority": "Importante",
-        "labels": []
       },
       {
         "key": "WSC-1761",
