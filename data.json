@@ -1,9 +1,10 @@
 {
-  "lastUpdated": "2026-10-01T20:51:03.187656+00:00",
+  "lastUpdated": "2026-10-02T04:31:42.405861+00:00",
   "jira": {
     "summary": {
       "total": 440,
       "byStatus": {
+        "Ready for Refinement": 1,
         "Ready to QA": 1,
         "En curso": 4,
         "IN UAT": 8,
@@ -16,12 +17,24 @@
         "READY FOR RELEASE": 3,
         "Finalizada": 350,
         "Backlog": 15,
-        "Ready for Refinement": 1,
         "Deprecated": 18,
         "Pre-prioritized": 1
       }
     },
     "tickets": [
+      {
+        "key": "WSC-1138",
+        "url": "https://e2x.atlassian.net/browse/WSC-1138",
+        "summary": "GOOD STUFF - add preferred shop to 'My Details'",
+        "status": "Ready for Refinement",
+        "statusCategory": "new",
+        "assignee": "Unassigned",
+        "updated": "2026-10-01T22:07:22.842+0100",
+        "priority": "Importante",
+        "labels": [
+          "Needs-QA"
+        ]
+      },
       {
         "key": "WSC-1779",
         "url": "https://e2x.atlassian.net/browse/WSC-1779",
@@ -1012,19 +1025,6 @@
         "updated": "2026-09-30T12:02:57.892+0100",
         "priority": "Cr\u00edtica",
         "labels": []
-      },
-      {
-        "key": "WSC-1138",
-        "url": "https://e2x.atlassian.net/browse/WSC-1138",
-        "summary": "GOOD STUFF - add preferred shop to 'My Details'",
-        "status": "Ready for Refinement",
-        "statusCategory": "new",
-        "assignee": "Unassigned",
-        "updated": "2026-09-29T16:04:34.010+0100",
-        "priority": "Importante",
-        "labels": [
-          "Needs-QA"
-        ]
       },
       {
         "key": "WSC-1619",
