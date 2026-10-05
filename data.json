@@ -1,17 +1,17 @@
 {
-  "lastUpdated": "2026-10-05T04:34:19.030454+00:00",
+  "lastUpdated": "2026-10-05T16:53:04.205421+00:00",
   "jira": {
     "summary": {
       "total": 443,
       "byStatus": {
-        "IN UAT": 18,
-        "En curso": 4,
-        "Tech Review": 9,
-        "Backlog": 16,
-        "Ready to QA": 1,
-        "PENDING DEV DEPLOY": 2,
-        "Blocked": 4,
+        "IN UAT": 19,
         "Listo": 16,
+        "Tech Review": 9,
+        "IN QA": 1,
+        "En curso": 4,
+        "Backlog": 16,
+        "PENDING DEV DEPLOY": 2,
+        "Blocked": 3,
         "READY FOR RELEASE": 3,
         "Finalizada": 350,
         "Deprecated": 18,
@@ -20,6 +20,118 @@
       }
     },
     "tickets": [
+      {
+        "key": "WSC-1483",
+        "url": "https://e2x.atlassian.net/browse/WSC-1483",
+        "summary": "CSP - QA: Checkout & Critical Flow Validation after Enforcement",
+        "status": "IN UAT",
+        "statusCategory": "indeterminate",
+        "assignee": "Gerardo Romero",
+        "updated": "2026-10-05T17:30:11.733+0100",
+        "priority": "Not Set",
+        "labels": [
+          "CSP",
+          "Needs-QA"
+        ]
+      },
+      {
+        "key": "WSC-1777",
+        "url": "https://e2x.atlassian.net/browse/WSC-1777",
+        "summary": "SLIM BANNER - URL restrictions",
+        "status": "Listo",
+        "statusCategory": "new",
+        "assignee": "Jair Huaman",
+        "updated": "2026-10-05T16:42:21.726+0100",
+        "priority": "Importante",
+        "labels": []
+      },
+      {
+        "key": "WSC-1786",
+        "url": "https://e2x.atlassian.net/browse/WSC-1786",
+        "summary": "PDP - new mobile image layout",
+        "status": "Listo",
+        "statusCategory": "new",
+        "assignee": "Jair Huaman",
+        "updated": "2026-10-05T16:42:04.800+0100",
+        "priority": "Importante",
+        "labels": [
+          "Needs-QA"
+        ]
+      },
+      {
+        "key": "WSC-1796",
+        "url": "https://e2x.atlassian.net/browse/WSC-1796",
+        "summary": "Evaluate SSL certificate renewal approaches for SiteSpect domains (Auto vs Manual) \u2013 pros & cons",
+        "status": "Tech Review",
+        "statusCategory": "indeterminate",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-10-05T16:17:19.905+0100",
+        "priority": "Importante",
+        "labels": []
+      },
+      {
+        "key": "WSC-1780",
+        "url": "https://e2x.atlassian.net/browse/WSC-1780",
+        "summary": "Cloudflare 403 Challenge Blocking Checkout Automation on Desktop",
+        "status": "Tech Review",
+        "statusCategory": "indeterminate",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-10-05T15:35:04.369+0100",
+        "priority": "Importante",
+        "labels": [
+          "Needs-QA"
+        ]
+      },
+      {
+        "key": "WSC-1785",
+        "url": "https://e2x.atlassian.net/browse/WSC-1785",
+        "summary": "MIDDLEWARE - for shop stock look up WSC-1670",
+        "status": "Listo",
+        "statusCategory": "new",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-10-05T15:07:16.366+0100",
+        "priority": "Supone un impedimento",
+        "labels": [
+          "NO_QA_REQUIRED"
+        ]
+      },
+      {
+        "key": "WSC-1769",
+        "url": "https://e2x.atlassian.net/browse/WSC-1769",
+        "summary": "CHECKOUT - collection address amendment",
+        "status": "IN QA",
+        "statusCategory": "indeterminate",
+        "assignee": "Gerardo Romero",
+        "updated": "2026-10-05T14:30:35.910+0100",
+        "priority": "Poco importante",
+        "labels": [
+          "Needs-QA"
+        ]
+      },
+      {
+        "key": "WSC-1138",
+        "url": "https://e2x.atlassian.net/browse/WSC-1138",
+        "summary": "GOOD STUFF - add preferred shop to 'My Details'",
+        "status": "Listo",
+        "statusCategory": "new",
+        "assignee": "Unassigned",
+        "updated": "2026-10-05T14:22:23.680+0100",
+        "priority": "Importante",
+        "labels": [
+          "Needs-QA"
+        ]
+      },
+      {
+        "key": "WSC-1736",
+        "url": "https://e2x.atlassian.net/browse/WSC-1736",
+        "summary": "Spike: PERSONALISED CONTENT - preview/visualiser on a Content Page",
+        "status": "Tech Review",
+        "statusCategory": "indeterminate",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-10-05T14:08:40.770+0100",
+        "priority": "Cr\u00edtica",
+        "labels": []
+      },
       {
         "key": "WSC-1779",
         "url": "https://e2x.atlassian.net/browse/WSC-1779",
@@ -82,41 +194,6 @@
         ]
       },
       {
-        "key": "WSC-1769",
-        "url": "https://e2x.atlassian.net/browse/WSC-1769",
-        "summary": "CHECKOUT - collection address amendment",
-        "status": "Ready to QA",
-        "statusCategory": "new",
-        "assignee": "Gerardo Romero",
-        "updated": "2026-10-02T17:22:06.187+0100",
-        "priority": "Poco importante",
-        "labels": [
-          "Needs-QA"
-        ]
-      },
-      {
-        "key": "WSC-1736",
-        "url": "https://e2x.atlassian.net/browse/WSC-1736",
-        "summary": "Spike: PERSONALISED CONTENT - preview/visualiser on a Content Page",
-        "status": "Tech Review",
-        "statusCategory": "indeterminate",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-10-02T17:13:12.684+0100",
-        "priority": "Cr\u00edtica",
-        "labels": []
-      },
-      {
-        "key": "WSC-1796",
-        "url": "https://e2x.atlassian.net/browse/WSC-1796",
-        "summary": "Evaluate SSL certificate renewal approaches for SiteSpect domains (Auto vs Manual) \u2013 pros & cons",
-        "status": "Tech Review",
-        "statusCategory": "indeterminate",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-10-02T17:13:09.682+0100",
-        "priority": "Importante",
-        "labels": []
-      },
-      {
         "key": "WSC-1707",
         "url": "https://e2x.atlassian.net/browse/WSC-1707",
         "summary": "BAG - Coupon section disappears after applying an invalid coupon and reloading the page",
@@ -143,19 +220,6 @@
           "Needs-QA",
           "co-build",
           "manualQA"
-        ]
-      },
-      {
-        "key": "WSC-1780",
-        "url": "https://e2x.atlassian.net/browse/WSC-1780",
-        "summary": "Cloudflare 403 Challenge Blocking Checkout Automation on Desktop",
-        "status": "Tech Review",
-        "statusCategory": "indeterminate",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-10-02T17:05:18.421+0100",
-        "priority": "Importante",
-        "labels": [
-          "Needs-QA"
         ]
       },
       {
@@ -283,17 +347,6 @@
         "labels": []
       },
       {
-        "key": "WSC-1777",
-        "url": "https://e2x.atlassian.net/browse/WSC-1777",
-        "summary": "SLIM BANNER - URL restrictions",
-        "status": "Listo",
-        "statusCategory": "new",
-        "assignee": "Unassigned",
-        "updated": "2026-10-02T15:08:06.260+0100",
-        "priority": "Importante",
-        "labels": []
-      },
-      {
         "key": "WSC-1760",
         "url": "https://e2x.atlassian.net/browse/WSC-1760",
         "summary": "[WSSD-750] - PDP product group links - bug",
@@ -385,19 +438,6 @@
         "updated": "2026-10-02T14:36:08.265+0100",
         "priority": "Importante",
         "labels": []
-      },
-      {
-        "key": "WSC-1138",
-        "url": "https://e2x.atlassian.net/browse/WSC-1138",
-        "summary": "GOOD STUFF - add preferred shop to 'My Details'",
-        "status": "Listo",
-        "statusCategory": "new",
-        "assignee": "Unassigned",
-        "updated": "2026-10-02T13:59:59.349+0100",
-        "priority": "Importante",
-        "labels": [
-          "Needs-QA"
-        ]
       },
       {
         "key": "WSC-1770",
@@ -599,19 +639,6 @@
         ]
       },
       {
-        "key": "WSC-1785",
-        "url": "https://e2x.atlassian.net/browse/WSC-1785",
-        "summary": "MIDDLEWARE - for shop stock look up WSC-1670",
-        "status": "Listo",
-        "statusCategory": "new",
-        "assignee": "Unassigned",
-        "updated": "2026-10-01T07:40:47.630+0100",
-        "priority": "Supone un impedimento",
-        "labels": [
-          "NO_QA_REQUIRED"
-        ]
-      },
-      {
         "key": "WSC-1694",
         "url": "https://e2x.atlassian.net/browse/WSC-1694",
         "summary": "SLIM BANNER - improve loading speed",
@@ -633,19 +660,6 @@
         "statusCategory": "new",
         "assignee": "Unassigned",
         "updated": "2026-10-01T07:40:27.479+0100",
-        "priority": "Importante",
-        "labels": [
-          "Needs-QA"
-        ]
-      },
-      {
-        "key": "WSC-1786",
-        "url": "https://e2x.atlassian.net/browse/WSC-1786",
-        "summary": "PDP - new mobile image layout",
-        "status": "Listo",
-        "statusCategory": "new",
-        "assignee": "Unassigned",
-        "updated": "2026-10-01T07:40:15.586+0100",
         "priority": "Importante",
         "labels": [
           "Needs-QA"
@@ -747,20 +761,6 @@
         "priority": "Poco importante",
         "labels": [
           "NO_QA_REQUIRED"
-        ]
-      },
-      {
-        "key": "WSC-1483",
-        "url": "https://e2x.atlassian.net/browse/WSC-1483",
-        "summary": "CSP - QA: Checkout & Critical Flow Validation after Enforcement",
-        "status": "Blocked",
-        "statusCategory": "new",
-        "assignee": "Gerardo Romero",
-        "updated": "2026-09-30T19:58:24.274+0100",
-        "priority": "Not Set",
-        "labels": [
-          "CSP",
-          "Needs-QA"
         ]
       },
       {
