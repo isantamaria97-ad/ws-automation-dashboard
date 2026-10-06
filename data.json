@@ -1,12 +1,12 @@
 {
-  "lastUpdated": "2026-10-06T01:10:11.732456+00:00",
+  "lastUpdated": "2026-10-06T11:04:11.200450+00:00",
   "jira": {
     "summary": {
       "total": 443,
       "byStatus": {
+        "IN QA": 1,
         "Finalizada": 352,
         "Tech Review": 9,
-        "IN QA": 1,
         "En curso": 4,
         "Listo": 15,
         "IN UAT": 18,
@@ -20,6 +20,19 @@
       }
     },
     "tickets": [
+      {
+        "key": "WSC-1769",
+        "url": "https://e2x.atlassian.net/browse/WSC-1769",
+        "summary": "CHECKOUT - collection address amendment",
+        "status": "IN QA",
+        "statusCategory": "indeterminate",
+        "assignee": "Gerardo Romero",
+        "updated": "2026-10-06T11:14:45.213+0100",
+        "priority": "Poco importante",
+        "labels": [
+          "Needs-QA"
+        ]
+      },
       {
         "key": "WSC-1796",
         "url": "https://e2x.atlassian.net/browse/WSC-1796",
@@ -42,19 +55,6 @@
         "priority": "Not Set",
         "labels": [
           "NO_QA_REQUIRED"
-        ]
-      },
-      {
-        "key": "WSC-1769",
-        "url": "https://e2x.atlassian.net/browse/WSC-1769",
-        "summary": "CHECKOUT - collection address amendment",
-        "status": "IN QA",
-        "statusCategory": "indeterminate",
-        "assignee": "Gerardo Romero",
-        "updated": "2026-10-05T22:17:41.808+0100",
-        "priority": "Poco importante",
-        "labels": [
-          "Needs-QA"
         ]
       },
       {
