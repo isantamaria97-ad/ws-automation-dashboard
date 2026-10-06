@@ -1,15 +1,14 @@
 {
-  "lastUpdated": "2026-10-06T11:04:11.200450+00:00",
+  "lastUpdated": "2026-10-06T18:02:10.229237+00:00",
   "jira": {
     "summary": {
-      "total": 443,
+      "total": 444,
       "byStatus": {
-        "IN QA": 1,
-        "Finalizada": 352,
-        "Tech Review": 9,
         "En curso": 4,
-        "Listo": 15,
-        "IN UAT": 18,
+        "Finalizada": 355,
+        "Tech Review": 10,
+        "Listo": 16,
+        "IN UAT": 15,
         "Backlog": 16,
         "PENDING DEV DEPLOY": 2,
         "Blocked": 3,
@@ -21,17 +20,15 @@
     },
     "tickets": [
       {
-        "key": "WSC-1769",
-        "url": "https://e2x.atlassian.net/browse/WSC-1769",
-        "summary": "CHECKOUT - collection address amendment",
-        "status": "IN QA",
+        "key": "WSC-1804",
+        "url": "https://e2x.atlassian.net/browse/WSC-1804",
+        "summary": "Enable content personalisation with Cloudflare HTML caching on UAT",
+        "status": "En curso",
         "statusCategory": "indeterminate",
-        "assignee": "Gerardo Romero",
-        "updated": "2026-10-06T11:14:45.213+0100",
-        "priority": "Poco importante",
-        "labels": [
-          "Needs-QA"
-        ]
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-10-06T18:12:15.175+0100",
+        "priority": "Not Set",
+        "labels": []
       },
       {
         "key": "WSC-1796",
@@ -40,21 +37,21 @@
         "status": "Finalizada",
         "statusCategory": "done",
         "assignee": "enmanuel.ramirez",
-        "updated": "2026-10-05T23:52:48.180+0100",
+        "updated": "2026-10-06T15:45:47.331+0100",
         "priority": "Importante",
         "labels": []
       },
       {
-        "key": "WSC-1772",
-        "url": "https://e2x.atlassian.net/browse/WSC-1772",
-        "summary": "CSP - UAT \u2013 Resolve Remaining Report-Only Violations Before Enforcement",
+        "key": "WSC-1769",
+        "url": "https://e2x.atlassian.net/browse/WSC-1769",
+        "summary": "CHECKOUT - collection address amendment",
         "status": "Tech Review",
         "statusCategory": "indeterminate",
-        "assignee": "Jair Huaman",
-        "updated": "2026-10-05T23:50:32.580+0100",
-        "priority": "Not Set",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-10-06T15:07:05.667+0100",
+        "priority": "Poco importante",
         "labels": [
-          "NO_QA_REQUIRED"
+          "Needs-QA"
         ]
       },
       {
@@ -64,10 +61,90 @@
         "status": "En curso",
         "statusCategory": "indeterminate",
         "assignee": "Jair Huaman",
-        "updated": "2026-10-05T20:41:47.497+0100",
+        "updated": "2026-10-06T14:50:58.893+0100",
         "priority": "Importante",
         "labels": [
           "Needs-QA"
+        ]
+      },
+      {
+        "key": "WSC-1780",
+        "url": "https://e2x.atlassian.net/browse/WSC-1780",
+        "summary": "Cloudflare 403 Challenge Blocking Checkout Automation on Desktop",
+        "status": "Listo",
+        "statusCategory": "new",
+        "assignee": "Jair Huaman",
+        "updated": "2026-10-06T14:25:03.997+0100",
+        "priority": "Importante",
+        "labels": [
+          "Needs-QA"
+        ]
+      },
+      {
+        "key": "WSC-1676",
+        "url": "https://e2x.atlassian.net/browse/WSC-1676",
+        "summary": "APPLE PAY EXPRESS",
+        "status": "Finalizada",
+        "statusCategory": "done",
+        "assignee": "Ingrith Santamaria",
+        "updated": "2026-10-06T14:03:22.015+0100",
+        "priority": "Importante",
+        "labels": [
+          "Needs-QA",
+          "manualQA"
+        ]
+      },
+      {
+        "key": "WSC-1285",
+        "url": "https://e2x.atlassian.net/browse/WSC-1285",
+        "summary": "ACCESSIBILITY - Button Name - Quick Add close button must have discernible text",
+        "status": "Finalizada",
+        "statusCategory": "done",
+        "assignee": "Rafael Paranagu\u00e1",
+        "updated": "2026-10-06T14:01:56.856+0100",
+        "priority": "Importante",
+        "labels": [
+          "Needs-QA",
+          "manualQA"
+        ]
+      },
+      {
+        "key": "WSC-1189",
+        "url": "https://e2x.atlassian.net/browse/WSC-1189",
+        "summary": "SEO - Duplicate H1 Tags on Product Pages",
+        "status": "Finalizada",
+        "statusCategory": "done",
+        "assignee": "Rafael Paranagu\u00e1",
+        "updated": "2026-10-06T14:01:52.887+0100",
+        "priority": "Importante",
+        "labels": []
+      },
+      {
+        "key": "WSC-1692",
+        "url": "https://e2x.atlassian.net/browse/WSC-1692",
+        "summary": "PERSONALISED CONTENT - 'no segment'",
+        "status": "IN UAT",
+        "statusCategory": "indeterminate",
+        "assignee": "Gerardo Romero",
+        "updated": "2026-10-06T13:49:56.798+0100",
+        "priority": "Supone un impedimento",
+        "labels": [
+          "Needs-QA",
+          "co-build",
+          "manualQA"
+        ]
+      },
+      {
+        "key": "WSC-1772",
+        "url": "https://e2x.atlassian.net/browse/WSC-1772",
+        "summary": "CSP - UAT \u2013 Resolve Remaining Report-Only Violations Before Enforcement",
+        "status": "Tech Review",
+        "statusCategory": "indeterminate",
+        "assignee": "Jair Huaman",
+        "updated": "2026-10-06T13:36:53.348+0100",
+        "priority": "Not Set",
+        "labels": [
+          "NO_QA_REQUIRED"
         ]
       },
       {
@@ -94,19 +171,6 @@
         "priority": "Not Set",
         "labels": [
           "CSP",
-          "Needs-QA"
-        ]
-      },
-      {
-        "key": "WSC-1780",
-        "url": "https://e2x.atlassian.net/browse/WSC-1780",
-        "summary": "Cloudflare 403 Challenge Blocking Checkout Automation on Desktop",
-        "status": "En curso",
-        "statusCategory": "indeterminate",
-        "assignee": "Jair Huaman",
-        "updated": "2026-10-05T17:55:03.612+0100",
-        "priority": "Importante",
-        "labels": [
           "Needs-QA"
         ]
       },
@@ -218,21 +282,6 @@
         "labels": [
           "Bug",
           "Needs-QA"
-        ]
-      },
-      {
-        "key": "WSC-1692",
-        "url": "https://e2x.atlassian.net/browse/WSC-1692",
-        "summary": "PERSONALISED CONTENT - 'no segment'",
-        "status": "IN UAT",
-        "statusCategory": "indeterminate",
-        "assignee": "Gerardo Romero",
-        "updated": "2026-10-02T17:07:02.891+0100",
-        "priority": "Supone un impedimento",
-        "labels": [
-          "Needs-QA",
-          "co-build",
-          "manualQA"
         ]
       },
       {
@@ -399,45 +448,6 @@
           "Needs-QA",
           "manualQA"
         ]
-      },
-      {
-        "key": "WSC-1676",
-        "url": "https://e2x.atlassian.net/browse/WSC-1676",
-        "summary": "APPLE PAY EXPRESS",
-        "status": "IN UAT",
-        "statusCategory": "indeterminate",
-        "assignee": "Ingrith Santamaria",
-        "updated": "2026-10-02T14:36:25.332+0100",
-        "priority": "Importante",
-        "labels": [
-          "Needs-QA",
-          "manualQA"
-        ]
-      },
-      {
-        "key": "WSC-1285",
-        "url": "https://e2x.atlassian.net/browse/WSC-1285",
-        "summary": "ACCESSIBILITY - Button Name - Quick Add close button must have discernible text",
-        "status": "IN UAT",
-        "statusCategory": "indeterminate",
-        "assignee": "Rafael Paranagu\u00e1",
-        "updated": "2026-10-02T14:36:14.152+0100",
-        "priority": "Importante",
-        "labels": [
-          "Needs-QA",
-          "manualQA"
-        ]
-      },
-      {
-        "key": "WSC-1189",
-        "url": "https://e2x.atlassian.net/browse/WSC-1189",
-        "summary": "SEO - Duplicate H1 Tags on Product Pages",
-        "status": "IN UAT",
-        "statusCategory": "indeterminate",
-        "assignee": "Rafael Paranagu\u00e1",
-        "updated": "2026-10-02T14:36:08.265+0100",
-        "priority": "Importante",
-        "labels": []
       },
       {
         "key": "WSC-1770",
