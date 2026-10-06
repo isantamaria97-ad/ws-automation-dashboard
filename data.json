@@ -1,19 +1,19 @@
 {
-  "lastUpdated": "2026-10-05T16:53:04.205421+00:00",
+  "lastUpdated": "2026-10-06T01:10:11.732456+00:00",
   "jira": {
     "summary": {
       "total": 443,
       "byStatus": {
-        "IN UAT": 19,
-        "Listo": 16,
+        "Finalizada": 352,
         "Tech Review": 9,
         "IN QA": 1,
         "En curso": 4,
+        "Listo": 15,
+        "IN UAT": 18,
         "Backlog": 16,
         "PENDING DEV DEPLOY": 2,
         "Blocked": 3,
         "READY FOR RELEASE": 3,
-        "Finalizada": 350,
         "Deprecated": 18,
         "Tareas por hacer": 1,
         "Pre-prioritized": 1
@@ -21,16 +21,92 @@
     },
     "tickets": [
       {
+        "key": "WSC-1796",
+        "url": "https://e2x.atlassian.net/browse/WSC-1796",
+        "summary": "Evaluate SSL certificate renewal approaches for SiteSpect domains (Auto vs Manual) \u2013 pros & cons",
+        "status": "Finalizada",
+        "statusCategory": "done",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-10-05T23:52:48.180+0100",
+        "priority": "Importante",
+        "labels": []
+      },
+      {
+        "key": "WSC-1772",
+        "url": "https://e2x.atlassian.net/browse/WSC-1772",
+        "summary": "CSP - UAT \u2013 Resolve Remaining Report-Only Violations Before Enforcement",
+        "status": "Tech Review",
+        "statusCategory": "indeterminate",
+        "assignee": "Jair Huaman",
+        "updated": "2026-10-05T23:50:32.580+0100",
+        "priority": "Not Set",
+        "labels": [
+          "NO_QA_REQUIRED"
+        ]
+      },
+      {
+        "key": "WSC-1769",
+        "url": "https://e2x.atlassian.net/browse/WSC-1769",
+        "summary": "CHECKOUT - collection address amendment",
+        "status": "IN QA",
+        "statusCategory": "indeterminate",
+        "assignee": "Gerardo Romero",
+        "updated": "2026-10-05T22:17:41.808+0100",
+        "priority": "Poco importante",
+        "labels": [
+          "Needs-QA"
+        ]
+      },
+      {
+        "key": "WSC-1786",
+        "url": "https://e2x.atlassian.net/browse/WSC-1786",
+        "summary": "PDP - new mobile image layout",
+        "status": "En curso",
+        "statusCategory": "indeterminate",
+        "assignee": "Jair Huaman",
+        "updated": "2026-10-05T20:41:47.497+0100",
+        "priority": "Importante",
+        "labels": [
+          "Needs-QA"
+        ]
+      },
+      {
+        "key": "WSC-1755",
+        "url": "https://e2x.atlassian.net/browse/WSC-1755",
+        "summary": "Store Locator Content Sync fails when cleaning up stores removed from the sheet (orphan cleanup)",
+        "status": "Tech Review",
+        "statusCategory": "indeterminate",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-10-05T20:41:03.218+0100",
+        "priority": "Importante",
+        "labels": [
+          "NO_QA_REQUIRED"
+        ]
+      },
+      {
         "key": "WSC-1483",
         "url": "https://e2x.atlassian.net/browse/WSC-1483",
         "summary": "CSP - QA: Checkout & Critical Flow Validation after Enforcement",
-        "status": "IN UAT",
-        "statusCategory": "indeterminate",
+        "status": "Finalizada",
+        "statusCategory": "done",
         "assignee": "Gerardo Romero",
-        "updated": "2026-10-05T17:30:11.733+0100",
+        "updated": "2026-10-05T17:56:01.218+0100",
         "priority": "Not Set",
         "labels": [
           "CSP",
+          "Needs-QA"
+        ]
+      },
+      {
+        "key": "WSC-1780",
+        "url": "https://e2x.atlassian.net/browse/WSC-1780",
+        "summary": "Cloudflare 403 Challenge Blocking Checkout Automation on Desktop",
+        "status": "En curso",
+        "statusCategory": "indeterminate",
+        "assignee": "Jair Huaman",
+        "updated": "2026-10-05T17:55:03.612+0100",
+        "priority": "Importante",
+        "labels": [
           "Needs-QA"
         ]
       },
@@ -46,43 +122,6 @@
         "labels": []
       },
       {
-        "key": "WSC-1786",
-        "url": "https://e2x.atlassian.net/browse/WSC-1786",
-        "summary": "PDP - new mobile image layout",
-        "status": "Listo",
-        "statusCategory": "new",
-        "assignee": "Jair Huaman",
-        "updated": "2026-10-05T16:42:04.800+0100",
-        "priority": "Importante",
-        "labels": [
-          "Needs-QA"
-        ]
-      },
-      {
-        "key": "WSC-1796",
-        "url": "https://e2x.atlassian.net/browse/WSC-1796",
-        "summary": "Evaluate SSL certificate renewal approaches for SiteSpect domains (Auto vs Manual) \u2013 pros & cons",
-        "status": "Tech Review",
-        "statusCategory": "indeterminate",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-10-05T16:17:19.905+0100",
-        "priority": "Importante",
-        "labels": []
-      },
-      {
-        "key": "WSC-1780",
-        "url": "https://e2x.atlassian.net/browse/WSC-1780",
-        "summary": "Cloudflare 403 Challenge Blocking Checkout Automation on Desktop",
-        "status": "Tech Review",
-        "statusCategory": "indeterminate",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-10-05T15:35:04.369+0100",
-        "priority": "Importante",
-        "labels": [
-          "Needs-QA"
-        ]
-      },
-      {
         "key": "WSC-1785",
         "url": "https://e2x.atlassian.net/browse/WSC-1785",
         "summary": "MIDDLEWARE - for shop stock look up WSC-1670",
@@ -93,19 +132,6 @@
         "priority": "Supone un impedimento",
         "labels": [
           "NO_QA_REQUIRED"
-        ]
-      },
-      {
-        "key": "WSC-1769",
-        "url": "https://e2x.atlassian.net/browse/WSC-1769",
-        "summary": "CHECKOUT - collection address amendment",
-        "status": "IN QA",
-        "statusCategory": "indeterminate",
-        "assignee": "Gerardo Romero",
-        "updated": "2026-10-05T14:30:35.910+0100",
-        "priority": "Poco importante",
-        "labels": [
-          "Needs-QA"
         ]
       },
       {
@@ -155,19 +181,6 @@
         "updated": "2026-10-02T19:28:19.888+0100",
         "priority": "Importante",
         "labels": []
-      },
-      {
-        "key": "WSC-1755",
-        "url": "https://e2x.atlassian.net/browse/WSC-1755",
-        "summary": "Store Locator Content Sync fails when cleaning up stores removed from the sheet (orphan cleanup)",
-        "status": "En curso",
-        "statusCategory": "indeterminate",
-        "assignee": "Jair Huaman",
-        "updated": "2026-10-02T18:05:15.010+0100",
-        "priority": "Importante",
-        "labels": [
-          "NO_QA_REQUIRED"
-        ]
       },
       {
         "key": "WSC-1795",
@@ -246,19 +259,6 @@
         "priority": "Poco importante",
         "labels": [
           "Needs-QA"
-        ]
-      },
-      {
-        "key": "WSC-1772",
-        "url": "https://e2x.atlassian.net/browse/WSC-1772",
-        "summary": "CSP - UAT \u2013 Resolve Remaining Report-Only Violations Before Enforcement",
-        "status": "En curso",
-        "statusCategory": "indeterminate",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-10-02T17:04:01.029+0100",
-        "priority": "Not Set",
-        "labels": [
-          "NO_QA_REQUIRED"
         ]
       },
       {
