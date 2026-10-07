@@ -1,11 +1,11 @@
 {
-  "lastUpdated": "2026-10-06T23:37:54.769652+00:00",
+  "lastUpdated": "2026-10-07T04:48:59.245679+00:00",
   "jira": {
     "summary": {
       "total": 444,
       "byStatus": {
-        "En curso": 3,
         "Ready to QA": 2,
+        "En curso": 3,
         "Finalizada": 371,
         "Listo": 16,
         "Tech Review": 9,
@@ -21,6 +21,30 @@
     },
     "tickets": [
       {
+        "key": "WSC-1804",
+        "url": "https://e2x.atlassian.net/browse/WSC-1804",
+        "summary": "Enable content personalisation with Cloudflare HTML caching on UAT",
+        "status": "Ready to QA",
+        "statusCategory": "new",
+        "assignee": "Unassigned",
+        "updated": "2026-10-07T01:05:19.688+0100",
+        "priority": "Not Set",
+        "labels": []
+      },
+      {
+        "key": "WSC-1769",
+        "url": "https://e2x.atlassian.net/browse/WSC-1769",
+        "summary": "CHECKOUT - collection address amendment",
+        "status": "Ready to QA",
+        "statusCategory": "new",
+        "assignee": "Gerardo Romero",
+        "updated": "2026-10-07T01:02:34.216+0100",
+        "priority": "Poco importante",
+        "labels": [
+          "Needs-QA"
+        ]
+      },
+      {
         "key": "WSC-1786",
         "url": "https://e2x.atlassian.net/browse/WSC-1786",
         "summary": "PDP - new mobile image layout",
@@ -32,17 +56,6 @@
         "labels": [
           "Needs-QA"
         ]
-      },
-      {
-        "key": "WSC-1804",
-        "url": "https://e2x.atlassian.net/browse/WSC-1804",
-        "summary": "Enable content personalisation with Cloudflare HTML caching on UAT",
-        "status": "Ready to QA",
-        "statusCategory": "new",
-        "assignee": "Unassigned",
-        "updated": "2026-10-06T21:15:58.591+0100",
-        "priority": "Not Set",
-        "labels": []
       },
       {
         "key": "WSC-1770",
@@ -463,19 +476,6 @@
         "priority": "Not Set",
         "labels": [
           "CSP"
-        ]
-      },
-      {
-        "key": "WSC-1769",
-        "url": "https://e2x.atlassian.net/browse/WSC-1769",
-        "summary": "CHECKOUT - collection address amendment",
-        "status": "Ready to QA",
-        "statusCategory": "new",
-        "assignee": "Gerardo Romero",
-        "updated": "2026-10-06T20:30:53.726+0100",
-        "priority": "Poco importante",
-        "labels": [
-          "Needs-QA"
         ]
       },
       {
