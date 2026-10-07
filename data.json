@@ -1,14 +1,15 @@
 {
-  "lastUpdated": "2026-10-07T04:48:59.245679+00:00",
+  "lastUpdated": "2026-10-07T15:17:42.536785+00:00",
   "jira": {
     "summary": {
-      "total": 444,
+      "total": 445,
       "byStatus": {
-        "Ready to QA": 2,
+        "Finalizada": 372,
         "En curso": 3,
-        "Finalizada": 371,
-        "Listo": 16,
         "Tech Review": 9,
+        "IN QA": 1,
+        "Ready to QA": 2,
+        "Listo": 15,
         "Backlog": 16,
         "PENDING DEV DEPLOY": 2,
         "Blocked": 3,
@@ -21,41 +22,76 @@
     },
     "tickets": [
       {
-        "key": "WSC-1804",
-        "url": "https://e2x.atlassian.net/browse/WSC-1804",
-        "summary": "Enable content personalisation with Cloudflare HTML caching on UAT",
-        "status": "Ready to QA",
-        "statusCategory": "new",
-        "assignee": "Unassigned",
-        "updated": "2026-10-07T01:05:19.688+0100",
+        "key": "WSC-1772",
+        "url": "https://e2x.atlassian.net/browse/WSC-1772",
+        "summary": "CSP - UAT \u2013 Resolve Remaining Report-Only Violations Before Enforcement",
+        "status": "Finalizada",
+        "statusCategory": "done",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-10-07T16:13:29.797+0100",
         "priority": "Not Set",
+        "labels": [
+          "NO_QA_REQUIRED"
+        ]
+      },
+      {
+        "key": "WSC-1777",
+        "url": "https://e2x.atlassian.net/browse/WSC-1777",
+        "summary": "SLIM BANNER - URL restrictions",
+        "status": "En curso",
+        "statusCategory": "indeterminate",
+        "assignee": "Jair Huaman",
+        "updated": "2026-10-07T16:08:29.239+0100",
+        "priority": "Importante",
         "labels": []
+      },
+      {
+        "key": "WSC-1786",
+        "url": "https://e2x.atlassian.net/browse/WSC-1786",
+        "summary": "PDP - new mobile image layout",
+        "status": "Tech Review",
+        "statusCategory": "indeterminate",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-10-07T16:07:16.752+0100",
+        "priority": "Importante",
+        "labels": [
+          "Needs-QA"
+        ]
       },
       {
         "key": "WSC-1769",
         "url": "https://e2x.atlassian.net/browse/WSC-1769",
         "summary": "CHECKOUT - collection address amendment",
-        "status": "Ready to QA",
-        "statusCategory": "new",
+        "status": "IN QA",
+        "statusCategory": "indeterminate",
         "assignee": "Gerardo Romero",
-        "updated": "2026-10-07T01:02:34.216+0100",
+        "updated": "2026-10-07T15:46:18.152+0100",
         "priority": "Poco importante",
         "labels": [
           "Needs-QA"
         ]
       },
       {
-        "key": "WSC-1786",
-        "url": "https://e2x.atlassian.net/browse/WSC-1786",
-        "summary": "PDP - new mobile image layout",
-        "status": "En curso",
-        "statusCategory": "indeterminate",
-        "assignee": "Jair Huaman",
-        "updated": "2026-10-06T22:05:58.155+0100",
-        "priority": "Importante",
-        "labels": [
-          "Needs-QA"
-        ]
+        "key": "WSC-1794",
+        "url": "https://e2x.atlassian.net/browse/WSC-1794",
+        "summary": "PERSONALISED CONTENT - error page",
+        "status": "Ready to QA",
+        "statusCategory": "new",
+        "assignee": "Gerardo Romero",
+        "updated": "2026-10-07T14:09:48.595+0100",
+        "priority": "Cr\u00edtica",
+        "labels": []
+      },
+      {
+        "key": "WSC-1804",
+        "url": "https://e2x.atlassian.net/browse/WSC-1804",
+        "summary": "Enable content personalisation with Cloudflare HTML caching on UAT",
+        "status": "Ready to QA",
+        "statusCategory": "new",
+        "assignee": "Gerardo Romero",
+        "updated": "2026-10-07T14:09:27.792+0100",
+        "priority": "Not Set",
+        "labels": []
       },
       {
         "key": "WSC-1770",
@@ -453,19 +489,6 @@
         ]
       },
       {
-        "key": "WSC-1772",
-        "url": "https://e2x.atlassian.net/browse/WSC-1772",
-        "summary": "CSP - UAT \u2013 Resolve Remaining Report-Only Violations Before Enforcement",
-        "status": "Tech Review",
-        "statusCategory": "indeterminate",
-        "assignee": "Jair Huaman",
-        "updated": "2026-10-06T21:09:26.463+0100",
-        "priority": "Not Set",
-        "labels": [
-          "NO_QA_REQUIRED"
-        ]
-      },
-      {
         "key": "WSC-1481",
         "url": "https://e2x.atlassian.net/browse/WSC-1481",
         "summary": "Initial CSP Report-Only Rollout  (Production)",
@@ -490,17 +513,6 @@
         "labels": [
           "NO_QA_REQUIRED"
         ]
-      },
-      {
-        "key": "WSC-1777",
-        "url": "https://e2x.atlassian.net/browse/WSC-1777",
-        "summary": "SLIM BANNER - URL restrictions",
-        "status": "Listo",
-        "statusCategory": "new",
-        "assignee": "Jair Huaman",
-        "updated": "2026-10-05T16:42:21.726+0100",
-        "priority": "Importante",
-        "labels": []
       },
       {
         "key": "WSC-1785",
