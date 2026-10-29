@@ -1,18 +1,19 @@
 {
-  "lastUpdated": "2026-10-29T14:59:28.361894+00:00",
+  "lastUpdated": "2026-10-29T20:54:49.497366+00:00",
   "jira": {
     "summary": {
-      "total": 476,
+      "total": 478,
       "byStatus": {
+        "Tech Review": 5,
+        "QA Approved": 2,
+        "Ready to QA": 1,
+        "Backlog": 17,
         "Done": 405,
-        "Tech Review": 6,
+        "PENDING DEV DEPLOY": 2,
         "In Progress": 3,
-        "QA Approved": 1,
-        "Ready": 14,
+        "Ready": 13,
         "Ready for Refinement": 1,
         "To Do": 1,
-        "PENDING DEV DEPLOY": 1,
-        "Backlog": 16,
         "Deprecated": 23,
         "Pre-prioritized": 1,
         "Blocked": 2,
@@ -21,6 +22,100 @@
       }
     },
     "tickets": [
+      {
+        "key": "WSC-1795",
+        "url": "https://e2x.atlassian.net/browse/WSC-1795",
+        "summary": "[WS] Monthly vulnerability review (Snyk) Oct for Sep 2026 Maintain Report",
+        "status": "Tech Review",
+        "statusCategory": "indeterminate",
+        "assignee": "Rafael Paranagu\u00e1",
+        "updated": "2026-10-29T20:32:09.695+0000",
+        "priority": "Not Set",
+        "labels": []
+      },
+      {
+        "key": "WSC-1837",
+        "url": "https://e2x.atlassian.net/browse/WSC-1837",
+        "summary": "PDP - shop stock look up amends",
+        "status": "QA Approved",
+        "statusCategory": "indeterminate",
+        "assignee": "Gerardo Romero",
+        "updated": "2026-10-29T19:37:40.368+0000",
+        "priority": "Major",
+        "labels": []
+      },
+      {
+        "key": "WSC-1831",
+        "url": "https://e2x.atlassian.net/browse/WSC-1831",
+        "summary": "BAG - minor amend",
+        "status": "QA Approved",
+        "statusCategory": "indeterminate",
+        "assignee": "Gerardo Romero",
+        "updated": "2026-10-29T19:37:39.912+0000",
+        "priority": "Major",
+        "labels": [
+          "Needs-QA"
+        ]
+      },
+      {
+        "key": "WSC-1832",
+        "url": "https://e2x.atlassian.net/browse/WSC-1832",
+        "summary": "[WSSD-776] - CRO Support: JavaScript Errors when working via SiteSpect",
+        "status": "Ready to QA",
+        "statusCategory": "new",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-10-29T19:37:39.088+0000",
+        "priority": "Major",
+        "labels": [
+          "NO_QA_REQUIRED"
+        ]
+      },
+      {
+        "key": "WSC-1843",
+        "url": "https://e2x.atlassian.net/browse/WSC-1843",
+        "summary": "Enable content personalisation with Cloudflare HTML caching on PROD",
+        "status": "Backlog",
+        "statusCategory": "new",
+        "assignee": "Unassigned",
+        "updated": "2026-10-29T15:55:15.468+0000",
+        "priority": "Not Set",
+        "labels": []
+      },
+      {
+        "key": "WSC-1751",
+        "url": "https://e2x.atlassian.net/browse/WSC-1751",
+        "summary": "PDP - change where description is pulled from",
+        "status": "Tech Review",
+        "statusCategory": "indeterminate",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-10-29T15:33:14.731+0000",
+        "priority": "Minor",
+        "labels": []
+      },
+      {
+        "key": "WSC-1804",
+        "url": "https://e2x.atlassian.net/browse/WSC-1804",
+        "summary": "Enable content personalisation with Cloudflare HTML caching on UAT",
+        "status": "Done",
+        "statusCategory": "done",
+        "assignee": "Gerardo Romero",
+        "updated": "2026-10-29T15:21:47.988+0000",
+        "priority": "Not Set",
+        "labels": []
+      },
+      {
+        "key": "WSC-1812",
+        "url": "https://e2x.atlassian.net/browse/WSC-1812",
+        "summary": "PERSONALISED CONTENT - preview URL by segment",
+        "status": "PENDING DEV DEPLOY",
+        "statusCategory": "new",
+        "assignee": "Alexander Talavera",
+        "updated": "2026-10-29T15:12:02.986+0000",
+        "priority": "Major",
+        "labels": [
+          "Needs-QA"
+        ]
+      },
       {
         "key": "WSC-1828",
         "url": "https://e2x.atlassian.net/browse/WSC-1828",
@@ -335,19 +430,6 @@
         ]
       },
       {
-        "key": "WSC-1832",
-        "url": "https://e2x.atlassian.net/browse/WSC-1832",
-        "summary": "[WSSD-776] - CRO Support: JavaScript Errors when working via SiteSpect",
-        "status": "Tech Review",
-        "statusCategory": "indeterminate",
-        "assignee": "Alexander Talavera",
-        "updated": "2026-10-29T09:55:18.448+0000",
-        "priority": "Major",
-        "labels": [
-          "NO_QA_REQUIRED"
-        ]
-      },
-      {
         "key": "WSC-1833",
         "url": "https://e2x.atlassian.net/browse/WSC-1833",
         "summary": "[Automation] Run Playwright CI in the official Playwright Docker image and upgrade to Node 24",
@@ -357,19 +439,6 @@
         "updated": "2026-10-28T18:57:27.301+0000",
         "priority": "Not Set",
         "labels": []
-      },
-      {
-        "key": "WSC-1831",
-        "url": "https://e2x.atlassian.net/browse/WSC-1831",
-        "summary": "BAG - minor amend",
-        "status": "QA Approved",
-        "statusCategory": "indeterminate",
-        "assignee": "Gerardo Romero",
-        "updated": "2026-10-28T12:21:08.701+0000",
-        "priority": "Major",
-        "labels": [
-          "Needs-QA"
-        ]
       },
       {
         "key": "WSC-1835",
@@ -390,19 +459,6 @@
         "statusCategory": "indeterminate",
         "assignee": "enmanuel.ramirez",
         "updated": "2026-10-28T01:30:03.601+0000",
-        "priority": "Major",
-        "labels": [
-          "Needs-QA"
-        ]
-      },
-      {
-        "key": "WSC-1812",
-        "url": "https://e2x.atlassian.net/browse/WSC-1812",
-        "summary": "PERSONALISED CONTENT - preview URL by segment",
-        "status": "Tech Review",
-        "statusCategory": "indeterminate",
-        "assignee": "Alexander Talavera",
-        "updated": "2026-10-28T01:13:37.225+0000",
         "priority": "Major",
         "labels": [
           "Needs-QA"
@@ -483,17 +539,6 @@
         "labels": [
           "Needs-QA"
         ]
-      },
-      {
-        "key": "WSC-1795",
-        "url": "https://e2x.atlassian.net/browse/WSC-1795",
-        "summary": "[WS] Monthly vulnerability review (Snyk) Oct for Sep 2026 Maintain Report",
-        "status": "Tech Review",
-        "statusCategory": "indeterminate",
-        "assignee": "Rafael Paranagu\u00e1",
-        "updated": "2026-10-23T16:31:24.603+0100",
-        "priority": "Not Set",
-        "labels": []
       },
       {
         "key": "WSC-1776",
@@ -587,17 +632,6 @@
         "labels": [
           "Needs-QA"
         ]
-      },
-      {
-        "key": "WSC-1751",
-        "url": "https://e2x.atlassian.net/browse/WSC-1751",
-        "summary": "PDP - change where description is pulled from",
-        "status": "Ready",
-        "statusCategory": "new",
-        "assignee": "Chiara Davies",
-        "updated": "2026-10-23T15:03:48.901+0100",
-        "priority": "Minor",
-        "labels": []
       },
       {
         "key": "WSC-1791",
@@ -1174,17 +1208,6 @@
         "labels": [
           "Needs-QA"
         ]
-      },
-      {
-        "key": "WSC-1804",
-        "url": "https://e2x.atlassian.net/browse/WSC-1804",
-        "summary": "Enable content personalisation with Cloudflare HTML caching on UAT",
-        "status": "Done",
-        "statusCategory": "done",
-        "assignee": "Gerardo Romero",
-        "updated": "2026-10-14T13:27:05.199+0100",
-        "priority": "Not Set",
-        "labels": []
       },
       {
         "key": "WSC-1794",
