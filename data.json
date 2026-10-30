@@ -1,17 +1,17 @@
 {
-  "lastUpdated": "2026-10-30T04:46:43.271721+00:00",
+  "lastUpdated": "2026-10-30T14:52:57.932842+00:00",
   "jira": {
     "summary": {
       "total": 478,
       "byStatus": {
-        "Tech Review": 5,
         "QA Approved": 2,
-        "Ready to QA": 1,
-        "Backlog": 17,
-        "Done": 405,
-        "PENDING DEV DEPLOY": 2,
+        "Ready": 12,
         "In Progress": 3,
-        "Ready": 13,
+        "PENDING DEV DEPLOY": 2,
+        "Tech Review": 5,
+        "Ready to QA": 1,
+        "Done": 406,
+        "Backlog": 17,
         "Ready for Refinement": 1,
         "To Do": 1,
         "Deprecated": 23,
@@ -23,13 +23,151 @@
     },
     "tickets": [
       {
+        "key": "WSC-1831",
+        "url": "https://e2x.atlassian.net/browse/WSC-1831",
+        "summary": "BAG - minor amend",
+        "status": "QA Approved",
+        "statusCategory": "indeterminate",
+        "assignee": "Gerardo Romero",
+        "updated": "2026-10-30T14:42:13.673+0000",
+        "priority": "Major",
+        "labels": [
+          "Needs-QA"
+        ]
+      },
+      {
+        "key": "WSC-1789",
+        "url": "https://e2x.atlassian.net/browse/WSC-1789",
+        "summary": "Enable automation gate for PR merges on VSF repository",
+        "status": "Ready",
+        "statusCategory": "new",
+        "assignee": "Gerardo Romero",
+        "updated": "2026-10-30T14:41:50.414+0000",
+        "priority": "Not Set",
+        "labels": []
+      },
+      {
+        "key": "WSC-1790",
+        "url": "https://e2x.atlassian.net/browse/WSC-1790",
+        "summary": "SECURITY - block public access to DEV & UAT",
+        "status": "Ready",
+        "statusCategory": "new",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-10-30T14:41:49.571+0000",
+        "priority": "Major",
+        "labels": [
+          "Needs-QA"
+        ]
+      },
+      {
+        "key": "WSC-1811",
+        "url": "https://e2x.atlassian.net/browse/WSC-1811",
+        "summary": "PLP - Append Customer Facing Colour to Product Card Titles",
+        "status": "In Progress",
+        "statusCategory": "indeterminate",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-10-30T14:41:49.282+0000",
+        "priority": "Major",
+        "labels": [
+          "Needs-QA"
+        ]
+      },
+      {
+        "key": "WSC-1835",
+        "url": "https://e2x.atlassian.net/browse/WSC-1835",
+        "summary": "Review and Update Playwright Affected Testcases For Release 19.2",
+        "status": "In Progress",
+        "statusCategory": "indeterminate",
+        "assignee": "Gerardo Romero",
+        "updated": "2026-10-30T14:41:49.036+0000",
+        "priority": "Not Set",
+        "labels": []
+      },
+      {
+        "key": "WSC-1812",
+        "url": "https://e2x.atlassian.net/browse/WSC-1812",
+        "summary": "PERSONALISED CONTENT - preview URL by segment",
+        "status": "PENDING DEV DEPLOY",
+        "statusCategory": "new",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-10-30T14:41:48.981+0000",
+        "priority": "Major",
+        "labels": [
+          "Needs-QA"
+        ]
+      },
+      {
+        "key": "WSC-1776",
+        "url": "https://e2x.atlassian.net/browse/WSC-1776",
+        "summary": "SLIM BANNER - personalisation",
+        "status": "Ready",
+        "statusCategory": "new",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-10-30T14:41:48.719+0000",
+        "priority": "Major",
+        "labels": [
+          "Needs-QA"
+        ]
+      },
+      {
+        "key": "WSC-1694",
+        "url": "https://e2x.atlassian.net/browse/WSC-1694",
+        "summary": "SLIM BANNER - improve loading speed",
+        "status": "Tech Review",
+        "statusCategory": "indeterminate",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-10-30T14:41:48.440+0000",
+        "priority": "Major",
+        "labels": [
+          "Needs-QA",
+          "manualQA"
+        ]
+      },
+      {
         "key": "WSC-1795",
         "url": "https://e2x.atlassian.net/browse/WSC-1795",
         "summary": "[WS] Monthly vulnerability review (Snyk) Oct for Sep 2026 Maintain Report",
         "status": "Tech Review",
         "statusCategory": "indeterminate",
         "assignee": "Rafael Paranagu\u00e1",
-        "updated": "2026-10-29T20:32:09.695+0000",
+        "updated": "2026-10-30T14:41:48.437+0000",
+        "priority": "Not Set",
+        "labels": []
+      },
+      {
+        "key": "WSC-1832",
+        "url": "https://e2x.atlassian.net/browse/WSC-1832",
+        "summary": "[WSSD-776] - CRO Support: JavaScript Errors when working via SiteSpect",
+        "status": "Ready to QA",
+        "statusCategory": "new",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-10-30T14:41:48.427+0000",
+        "priority": "Major",
+        "labels": [
+          "NO_QA_REQUIRED"
+        ]
+      },
+      {
+        "key": "WSC-1696",
+        "url": "https://e2x.atlassian.net/browse/WSC-1696",
+        "summary": "SEO TEXT BLOCK - minor amendment",
+        "status": "PENDING DEV DEPLOY",
+        "statusCategory": "new",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-10-30T14:41:47.989+0000",
+        "priority": "Minor",
+        "labels": [
+          "Needs-QA"
+        ]
+      },
+      {
+        "key": "WSC-1833",
+        "url": "https://e2x.atlassian.net/browse/WSC-1833",
+        "summary": "[Automation] Switch to official Docker image for Playwright CI and upgrade to Node 24",
+        "status": "Done",
+        "statusCategory": "done",
+        "assignee": "Gerardo Romero",
+        "updated": "2026-10-30T12:50:15.505+0000",
         "priority": "Not Set",
         "labels": []
       },
@@ -43,32 +181,6 @@
         "updated": "2026-10-29T19:37:40.368+0000",
         "priority": "Major",
         "labels": []
-      },
-      {
-        "key": "WSC-1831",
-        "url": "https://e2x.atlassian.net/browse/WSC-1831",
-        "summary": "BAG - minor amend",
-        "status": "QA Approved",
-        "statusCategory": "indeterminate",
-        "assignee": "Gerardo Romero",
-        "updated": "2026-10-29T19:37:39.912+0000",
-        "priority": "Major",
-        "labels": [
-          "Needs-QA"
-        ]
-      },
-      {
-        "key": "WSC-1832",
-        "url": "https://e2x.atlassian.net/browse/WSC-1832",
-        "summary": "[WSSD-776] - CRO Support: JavaScript Errors when working via SiteSpect",
-        "status": "Ready to QA",
-        "statusCategory": "new",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-10-29T19:37:39.088+0000",
-        "priority": "Major",
-        "labels": [
-          "NO_QA_REQUIRED"
-        ]
       },
       {
         "key": "WSC-1843",
@@ -102,19 +214,6 @@
         "updated": "2026-10-29T15:21:47.988+0000",
         "priority": "Not Set",
         "labels": []
-      },
-      {
-        "key": "WSC-1812",
-        "url": "https://e2x.atlassian.net/browse/WSC-1812",
-        "summary": "PERSONALISED CONTENT - preview URL by segment",
-        "status": "PENDING DEV DEPLOY",
-        "statusCategory": "new",
-        "assignee": "Alexander Talavera",
-        "updated": "2026-10-29T15:12:02.986+0000",
-        "priority": "Major",
-        "labels": [
-          "Needs-QA"
-        ]
       },
       {
         "key": "WSC-1828",
@@ -416,55 +515,6 @@
         ]
       },
       {
-        "key": "WSC-1694",
-        "url": "https://e2x.atlassian.net/browse/WSC-1694",
-        "summary": "SLIM BANNER - improve loading speed",
-        "status": "Tech Review",
-        "statusCategory": "indeterminate",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-10-29T12:34:51.521+0000",
-        "priority": "Major",
-        "labels": [
-          "Needs-QA",
-          "manualQA"
-        ]
-      },
-      {
-        "key": "WSC-1833",
-        "url": "https://e2x.atlassian.net/browse/WSC-1833",
-        "summary": "[Automation] Run Playwright CI in the official Playwright Docker image and upgrade to Node 24",
-        "status": "In Progress",
-        "statusCategory": "indeterminate",
-        "assignee": "Gerardo Romero",
-        "updated": "2026-10-28T18:57:27.301+0000",
-        "priority": "Not Set",
-        "labels": []
-      },
-      {
-        "key": "WSC-1835",
-        "url": "https://e2x.atlassian.net/browse/WSC-1835",
-        "summary": "Review and Update Playwright Affected Testcases For Release 19.1",
-        "status": "Ready",
-        "statusCategory": "new",
-        "assignee": "Gerardo Romero",
-        "updated": "2026-10-28T12:20:36.067+0000",
-        "priority": "Not Set",
-        "labels": []
-      },
-      {
-        "key": "WSC-1811",
-        "url": "https://e2x.atlassian.net/browse/WSC-1811",
-        "summary": "PLP - Append Customer Facing Colour to Product Card Titles",
-        "status": "In Progress",
-        "statusCategory": "indeterminate",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-10-28T01:30:03.601+0000",
-        "priority": "Major",
-        "labels": [
-          "Needs-QA"
-        ]
-      },
-      {
         "key": "WSC-1711",
         "url": "https://e2x.atlassian.net/browse/WSC-1711",
         "summary": "Mobile: PDP - Stylitics - SHOP CTA appears grayed out or disappears / images shrink when interacting with item images on mobile",
@@ -526,56 +576,6 @@
         "updated": "2026-10-23T16:56:46.891+0100",
         "priority": "Major",
         "labels": []
-      },
-      {
-        "key": "WSC-1790",
-        "url": "https://e2x.atlassian.net/browse/WSC-1790",
-        "summary": "SECURITY - block public access to DEV & UAT",
-        "status": "Ready",
-        "statusCategory": "new",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-10-23T16:41:23.153+0100",
-        "priority": "Major",
-        "labels": [
-          "Needs-QA"
-        ]
-      },
-      {
-        "key": "WSC-1776",
-        "url": "https://e2x.atlassian.net/browse/WSC-1776",
-        "summary": "SLIM BANNER - personalisation",
-        "status": "Ready",
-        "statusCategory": "new",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-10-23T16:31:24.062+0100",
-        "priority": "Major",
-        "labels": [
-          "Needs-QA"
-        ]
-      },
-      {
-        "key": "WSC-1789",
-        "url": "https://e2x.atlassian.net/browse/WSC-1789",
-        "summary": "Enable automation gate for PR merges on VSF repository",
-        "status": "Ready",
-        "statusCategory": "new",
-        "assignee": "Gerardo Romero",
-        "updated": "2026-10-23T16:31:23.842+0100",
-        "priority": "Not Set",
-        "labels": []
-      },
-      {
-        "key": "WSC-1696",
-        "url": "https://e2x.atlassian.net/browse/WSC-1696",
-        "summary": "SEO TEXT BLOCK - minor amendment",
-        "status": "PENDING DEV DEPLOY",
-        "statusCategory": "new",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-10-23T16:31:23.816+0100",
-        "priority": "Minor",
-        "labels": [
-          "Needs-QA"
-        ]
       },
       {
         "key": "WSC-1527",
@@ -6063,15 +6063,83 @@
       ]
     },
     "runs": {
-      "total": 96,
-      "latestPassed": 119,
+      "total": 100,
+      "latestPassed": 0,
       "latestFailed": 0,
-      "latestPending": 0,
+      "latestPending": 120,
       "latestTotal": 120,
-      "latestRunName": "Regression 28/10/26",
-      "latestRunDate": "2026-10-28T18:59:41.682Z",
+      "latestRunName": "Regression 30/10/26",
+      "latestRunDate": "2026-10-30T14:08:00.485Z",
       "passRate": 99.9,
       "recent": [
+        {
+          "id": 2194,
+          "name": "Regression 30/10/26",
+          "source_id": null,
+          "milestone_id": 264,
+          "config_id": 14,
+          "status": null,
+          "is_completed": false,
+          "elapsed_ms": null,
+          "created_at": "2026-10-30T14:08:00.485Z",
+          "completed_at": null,
+          "passed": 0,
+          "failed": 0,
+          "pending": 120,
+          "completed": 0,
+          "total": 120
+        },
+        {
+          "id": 2193,
+          "name": "Regression 30/10/26",
+          "source_id": null,
+          "milestone_id": 264,
+          "config_id": 13,
+          "status": null,
+          "is_completed": false,
+          "elapsed_ms": null,
+          "created_at": "2026-10-30T14:08:00.474Z",
+          "completed_at": null,
+          "passed": 0,
+          "failed": 0,
+          "pending": 120,
+          "completed": 0,
+          "total": 120
+        },
+        {
+          "id": 2192,
+          "name": "Regression 30/10/26",
+          "source_id": null,
+          "milestone_id": 264,
+          "config_id": 10,
+          "status": null,
+          "is_completed": false,
+          "elapsed_ms": null,
+          "created_at": "2026-10-30T14:08:00.463Z",
+          "completed_at": null,
+          "passed": 0,
+          "failed": 0,
+          "pending": 120,
+          "completed": 0,
+          "total": 120
+        },
+        {
+          "id": 2191,
+          "name": "Regression 30/10/26",
+          "source_id": null,
+          "milestone_id": 264,
+          "config_id": 9,
+          "status": null,
+          "is_completed": false,
+          "elapsed_ms": null,
+          "created_at": "2026-10-30T14:08:00.447Z",
+          "completed_at": null,
+          "passed": 0,
+          "failed": 0,
+          "pending": 120,
+          "completed": 0,
+          "total": 120
+        },
         {
           "id": 2189,
           "name": "Regression 28/10/26",
@@ -6173,74 +6241,6 @@
           "pending": 0,
           "completed": 120,
           "total": 120
-        },
-        {
-          "id": 2182,
-          "name": "Regression 23/10/26",
-          "source_id": null,
-          "milestone_id": 262,
-          "config_id": 10,
-          "status": null,
-          "is_completed": false,
-          "elapsed_ms": null,
-          "created_at": "2026-10-23T17:26:04.480Z",
-          "completed_at": null,
-          "passed": 120,
-          "failed": 0,
-          "pending": 0,
-          "completed": 120,
-          "total": 120
-        },
-        {
-          "id": 2181,
-          "name": "Regression 23/10/26",
-          "source_id": null,
-          "milestone_id": 262,
-          "config_id": 9,
-          "status": null,
-          "is_completed": false,
-          "elapsed_ms": null,
-          "created_at": "2026-10-23T17:26:04.435Z",
-          "completed_at": null,
-          "passed": 120,
-          "failed": 0,
-          "pending": 0,
-          "completed": 120,
-          "total": 120
-        },
-        {
-          "id": 2170,
-          "name": "Regression 08/10/26",
-          "source_id": null,
-          "milestone_id": 259,
-          "config_id": 14,
-          "status": null,
-          "is_completed": false,
-          "elapsed_ms": null,
-          "created_at": "2026-10-09T04:50:58.670Z",
-          "completed_at": null,
-          "passed": 118,
-          "failed": 0,
-          "pending": 0,
-          "completed": 118,
-          "total": 118
-        },
-        {
-          "id": 2169,
-          "name": "Regression 08/10/26",
-          "source_id": null,
-          "milestone_id": 259,
-          "config_id": 13,
-          "status": null,
-          "is_completed": false,
-          "elapsed_ms": null,
-          "created_at": "2026-10-09T04:50:58.659Z",
-          "completed_at": null,
-          "passed": 118,
-          "failed": 0,
-          "pending": 0,
-          "completed": 118,
-          "total": 118
         }
       ]
     },
