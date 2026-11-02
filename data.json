@@ -1,26 +1,110 @@
 {
-  "lastUpdated": "2026-11-02T04:52:59.075038+00:00",
+  "lastUpdated": "2026-11-02T17:55:45.669257+00:00",
   "jira": {
     "summary": {
       "total": 478,
       "byStatus": {
+        "IN UAT": 4,
+        "In Progress": 2,
+        "PENDING DEV DEPLOY": 3,
+        "Done": 407,
+        "Blocked": 3,
+        "Ready for Refinement": 2,
+        "Backlog": 16,
         "To Do": 1,
-        "Ready": 12,
-        "In Progress": 3,
-        "Tech Review": 5,
-        "IN UAT": 3,
-        "Ready to QA": 1,
-        "PENDING DEV DEPLOY": 2,
-        "Done": 406,
-        "Backlog": 17,
-        "Ready for Refinement": 1,
+        "Ready": 11,
+        "Tech Review": 4,
         "Deprecated": 23,
         "Pre-prioritized": 1,
-        "Blocked": 2,
         "READY FOR RELEASE": 1
       }
     },
     "tickets": [
+      {
+        "key": "WSC-1832",
+        "url": "https://e2x.atlassian.net/browse/WSC-1832",
+        "summary": "[WSSD-776] - CRO Support: JavaScript Errors when working via SiteSpect",
+        "status": "IN UAT",
+        "statusCategory": "indeterminate",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-11-02T17:25:47.952+0000",
+        "priority": "Major",
+        "labels": [
+          "NO_QA_REQUIRED"
+        ]
+      },
+      {
+        "key": "WSC-1803",
+        "url": "https://e2x.atlassian.net/browse/WSC-1803",
+        "summary": "MINI BAG - minor adjustments",
+        "status": "In Progress",
+        "statusCategory": "indeterminate",
+        "assignee": "Chiara Davies",
+        "updated": "2026-11-02T15:04:08.469+0000",
+        "priority": "Minor",
+        "labels": [
+          "Needs-QA"
+        ]
+      },
+      {
+        "key": "WSC-1751",
+        "url": "https://e2x.atlassian.net/browse/WSC-1751",
+        "summary": "PDP - change where description is pulled from",
+        "status": "PENDING DEV DEPLOY",
+        "statusCategory": "new",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-11-02T13:38:41.953+0000",
+        "priority": "Minor",
+        "labels": []
+      },
+      {
+        "key": "WSC-1835",
+        "url": "https://e2x.atlassian.net/browse/WSC-1835",
+        "summary": "Review and Update Playwright Affected Testcases For Release 19.2",
+        "status": "Done",
+        "statusCategory": "done",
+        "assignee": "Gerardo Romero",
+        "updated": "2026-11-02T12:47:16.593+0000",
+        "priority": "Not Set",
+        "labels": []
+      },
+      {
+        "key": "WSC-1811",
+        "url": "https://e2x.atlassian.net/browse/WSC-1811",
+        "summary": "PLP - Append Customer Facing Colour to Product Card Titles",
+        "status": "Blocked",
+        "statusCategory": "new",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-11-02T12:43:52.635+0000",
+        "priority": "Major",
+        "labels": [
+          "Needs-QA"
+        ]
+      },
+      {
+        "key": "WSC-1629",
+        "url": "https://e2x.atlassian.net/browse/WSC-1629",
+        "summary": "SPIKE - product family for multi-item products (PLP/PDP)",
+        "status": "Ready for Refinement",
+        "statusCategory": "new",
+        "assignee": "Unassigned",
+        "updated": "2026-11-02T10:58:37.808+0000",
+        "priority": "Major",
+        "labels": []
+      },
+      {
+        "key": "WSC-173",
+        "url": "https://e2x.atlassian.net/browse/WSC-173",
+        "summary": "SEO - fix to product schema for PDP for reviews and ratings",
+        "status": "Backlog",
+        "statusCategory": "new",
+        "assignee": "Unassigned",
+        "updated": "2026-11-02T10:58:37.394+0000",
+        "priority": "Minor",
+        "labels": [
+          "Needs-QA"
+        ]
+      },
       {
         "key": "WSC-1749",
         "url": "https://e2x.atlassian.net/browse/WSC-1749",
@@ -149,17 +233,6 @@
         "labels": []
       },
       {
-        "key": "WSC-1751",
-        "url": "https://e2x.atlassian.net/browse/WSC-1751",
-        "summary": "PDP - change where description is pulled from",
-        "status": "Tech Review",
-        "statusCategory": "indeterminate",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-10-30T18:09:39.232+0000",
-        "priority": "Minor",
-        "labels": []
-      },
-      {
         "key": "WSC-1801",
         "url": "https://e2x.atlassian.net/browse/WSC-1801",
         "summary": "SHOP PAGE - SEO amendment",
@@ -187,19 +260,6 @@
         ]
       },
       {
-        "key": "WSC-1811",
-        "url": "https://e2x.atlassian.net/browse/WSC-1811",
-        "summary": "PLP - Append Customer Facing Colour to Product Card Titles",
-        "status": "In Progress",
-        "statusCategory": "indeterminate",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-10-30T17:59:17.006+0000",
-        "priority": "Major",
-        "labels": [
-          "Needs-QA"
-        ]
-      },
-      {
         "key": "WSC-1831",
         "url": "https://e2x.atlassian.net/browse/WSC-1831",
         "summary": "BAG - minor amend",
@@ -222,30 +282,6 @@
         "updated": "2026-10-30T17:43:11.046+0000",
         "priority": "Major",
         "labels": []
-      },
-      {
-        "key": "WSC-1835",
-        "url": "https://e2x.atlassian.net/browse/WSC-1835",
-        "summary": "Review and Update Playwright Affected Testcases For Release 19.2",
-        "status": "In Progress",
-        "statusCategory": "indeterminate",
-        "assignee": "Gerardo Romero",
-        "updated": "2026-10-30T17:38:23.928+0000",
-        "priority": "Not Set",
-        "labels": []
-      },
-      {
-        "key": "WSC-1832",
-        "url": "https://e2x.atlassian.net/browse/WSC-1832",
-        "summary": "[WSSD-776] - CRO Support: JavaScript Errors when working via SiteSpect",
-        "status": "Ready to QA",
-        "statusCategory": "new",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-10-30T17:32:40.848+0000",
-        "priority": "Major",
-        "labels": [
-          "NO_QA_REQUIRED"
-        ]
       },
       {
         "key": "WSC-1789",
@@ -641,19 +677,6 @@
         ]
       },
       {
-        "key": "WSC-1803",
-        "url": "https://e2x.atlassian.net/browse/WSC-1803",
-        "summary": "MINI BAG - minor adjustments",
-        "status": "Ready",
-        "statusCategory": "new",
-        "assignee": "Chiara Davies",
-        "updated": "2026-10-27T12:00:17.739+0000",
-        "priority": "Minor",
-        "labels": [
-          "Needs-QA"
-        ]
-      },
-      {
         "key": "WSC-1527",
         "url": "https://e2x.atlassian.net/browse/WSC-1527",
         "summary": "Apple Pay Express fails at checkout when Free Shipping campaign (Talon.One) is active",
@@ -683,30 +706,6 @@
         "labels": [
           "Needs-QA",
           "manualQA"
-        ]
-      },
-      {
-        "key": "WSC-1629",
-        "url": "https://e2x.atlassian.net/browse/WSC-1629",
-        "summary": "SPIKE - product family for multi-item products (PLP/PDP)",
-        "status": "Backlog",
-        "statusCategory": "new",
-        "assignee": "Unassigned",
-        "updated": "2026-10-23T15:05:38.451+0100",
-        "priority": "Major",
-        "labels": []
-      },
-      {
-        "key": "WSC-173",
-        "url": "https://e2x.atlassian.net/browse/WSC-173",
-        "summary": "SEO - fix to product schema for PDP for reviews and ratings",
-        "status": "Backlog",
-        "statusCategory": "new",
-        "assignee": "Unassigned",
-        "updated": "2026-10-23T15:05:38.008+0100",
-        "priority": "Minor",
-        "labels": [
-          "Needs-QA"
         ]
       },
       {
