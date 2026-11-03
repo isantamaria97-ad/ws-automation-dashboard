@@ -1,25 +1,98 @@
 {
-  "lastUpdated": "2026-11-03T11:41:14.873843+00:00",
+  "lastUpdated": "2026-11-03T19:12:07.939994+00:00",
   "jira": {
     "summary": {
-      "total": 478,
+      "total": 479,
       "byStatus": {
-        "Backlog": 16,
-        "IN UAT": 4,
-        "In Progress": 2,
-        "PENDING DEV DEPLOY": 3,
-        "Done": 407,
-        "Blocked": 3,
-        "Ready for Refinement": 2,
-        "To Do": 1,
-        "Ready": 11,
+        "Ready to QA": 2,
+        "Backlog": 17,
         "Tech Review": 4,
+        "In Progress": 3,
+        "Done": 408,
+        "IN UAT": 4,
+        "PENDING DEV DEPLOY": 1,
+        "Ready for Refinement": 2,
+        "Ready": 11,
         "Deprecated": 23,
         "Pre-prioritized": 1,
+        "Blocked": 2,
         "READY FOR RELEASE": 1
       }
     },
     "tickets": [
+      {
+        "key": "WSC-1812",
+        "url": "https://e2x.atlassian.net/browse/WSC-1812",
+        "summary": "PERSONALISED CONTENT - preview URL by segment",
+        "status": "Ready to QA",
+        "statusCategory": "new",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-11-03T19:11:03.538+0000",
+        "priority": "Major",
+        "labels": [
+          "Needs-QA",
+          "accelerated"
+        ]
+      },
+      {
+        "key": "WSC-1696",
+        "url": "https://e2x.atlassian.net/browse/WSC-1696",
+        "summary": "SEO TEXT BLOCK - minor amendment",
+        "status": "Ready to QA",
+        "statusCategory": "new",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-11-03T19:10:43.862+0000",
+        "priority": "Minor",
+        "labels": [
+          "Needs-QA"
+        ]
+      },
+      {
+        "key": "WSC-1846",
+        "url": "https://e2x.atlassian.net/browse/WSC-1846",
+        "summary": "[WSSD-777] - VSF promotion price issue",
+        "status": "Backlog",
+        "statusCategory": "new",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-11-03T19:02:54.017+0000",
+        "priority": "Trivial",
+        "labels": []
+      },
+      {
+        "key": "WSC-1811",
+        "url": "https://e2x.atlassian.net/browse/WSC-1811",
+        "summary": "PLP - Append Customer Facing Colour to Product Card Titles",
+        "status": "Tech Review",
+        "statusCategory": "indeterminate",
+        "assignee": "Alexander Talavera",
+        "updated": "2026-11-03T18:13:17.312+0000",
+        "priority": "Major",
+        "labels": [
+          "Needs-QA"
+        ]
+      },
+      {
+        "key": "WSC-1749",
+        "url": "https://e2x.atlassian.net/browse/WSC-1749",
+        "summary": "SPIKE> Passwordless Sign-In",
+        "status": "In Progress",
+        "statusCategory": "indeterminate",
+        "assignee": "Alexander Talavera",
+        "updated": "2026-11-03T12:42:55.689+0000",
+        "priority": "Major",
+        "labels": []
+      },
+      {
+        "key": "WSC-1795",
+        "url": "https://e2x.atlassian.net/browse/WSC-1795",
+        "summary": "[WS] Monthly vulnerability review (Snyk) Oct for Sep 2026 Maintain Report",
+        "status": "Done",
+        "statusCategory": "done",
+        "assignee": "Rafael Paranagu\u00e1",
+        "updated": "2026-11-03T12:38:15.355+0000",
+        "priority": "Not Set",
+        "labels": []
+      },
       {
         "key": "WSC-1843",
         "url": "https://e2x.atlassian.net/browse/WSC-1843",
@@ -80,19 +153,6 @@
         "labels": []
       },
       {
-        "key": "WSC-1811",
-        "url": "https://e2x.atlassian.net/browse/WSC-1811",
-        "summary": "PLP - Append Customer Facing Colour to Product Card Titles",
-        "status": "Blocked",
-        "statusCategory": "new",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-11-02T12:43:52.635+0000",
-        "priority": "Major",
-        "labels": [
-          "Needs-QA"
-        ]
-      },
-      {
         "key": "WSC-1629",
         "url": "https://e2x.atlassian.net/browse/WSC-1629",
         "summary": "SPIKE - product family for multi-item products (PLP/PDP)",
@@ -115,17 +175,6 @@
         "labels": [
           "Needs-QA"
         ]
-      },
-      {
-        "key": "WSC-1749",
-        "url": "https://e2x.atlassian.net/browse/WSC-1749",
-        "summary": "SPIKE> Passwordless Sign-In",
-        "status": "To Do",
-        "statusCategory": "new",
-        "assignee": "Alexander Talavera",
-        "updated": "2026-10-30T18:45:58.130+0000",
-        "priority": "Major",
-        "labels": []
       },
       {
         "key": "WSC-1790",
@@ -304,43 +353,6 @@
         "updated": "2026-10-30T14:41:50.414+0000",
         "priority": "Not Set",
         "labels": []
-      },
-      {
-        "key": "WSC-1812",
-        "url": "https://e2x.atlassian.net/browse/WSC-1812",
-        "summary": "PERSONALISED CONTENT - preview URL by segment",
-        "status": "PENDING DEV DEPLOY",
-        "statusCategory": "new",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-10-30T14:41:48.981+0000",
-        "priority": "Major",
-        "labels": [
-          "Needs-QA"
-        ]
-      },
-      {
-        "key": "WSC-1795",
-        "url": "https://e2x.atlassian.net/browse/WSC-1795",
-        "summary": "[WS] Monthly vulnerability review (Snyk) Oct for Sep 2026 Maintain Report",
-        "status": "Tech Review",
-        "statusCategory": "indeterminate",
-        "assignee": "Rafael Paranagu\u00e1",
-        "updated": "2026-10-30T14:41:48.437+0000",
-        "priority": "Not Set",
-        "labels": []
-      },
-      {
-        "key": "WSC-1696",
-        "url": "https://e2x.atlassian.net/browse/WSC-1696",
-        "summary": "SEO TEXT BLOCK - minor amendment",
-        "status": "PENDING DEV DEPLOY",
-        "statusCategory": "new",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-10-30T14:41:47.989+0000",
-        "priority": "Minor",
-        "labels": [
-          "Needs-QA"
-        ]
       },
       {
         "key": "WSC-1833",
