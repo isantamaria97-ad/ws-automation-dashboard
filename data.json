@@ -1,16 +1,16 @@
 {
-  "lastUpdated": "2026-11-02T17:55:45.669257+00:00",
+  "lastUpdated": "2026-11-03T02:02:19.834263+00:00",
   "jira": {
     "summary": {
       "total": 478,
       "byStatus": {
+        "Backlog": 16,
         "IN UAT": 4,
         "In Progress": 2,
         "PENDING DEV DEPLOY": 3,
         "Done": 407,
         "Blocked": 3,
         "Ready for Refinement": 2,
-        "Backlog": 16,
         "To Do": 1,
         "Ready": 11,
         "Tech Review": 4,
@@ -20,6 +20,17 @@
       }
     },
     "tickets": [
+      {
+        "key": "WSC-1843",
+        "url": "https://e2x.atlassian.net/browse/WSC-1843",
+        "summary": "Enable content personalisation with Cloudflare HTML caching on PROD",
+        "status": "Backlog",
+        "statusCategory": "new",
+        "assignee": "Unassigned",
+        "updated": "2026-11-02T23:02:03.351+0000",
+        "priority": "Not Set",
+        "labels": []
+      },
       {
         "key": "WSC-1832",
         "url": "https://e2x.atlassian.net/browse/WSC-1832",
@@ -339,17 +350,6 @@
         "statusCategory": "done",
         "assignee": "Gerardo Romero",
         "updated": "2026-10-30T12:50:15.505+0000",
-        "priority": "Not Set",
-        "labels": []
-      },
-      {
-        "key": "WSC-1843",
-        "url": "https://e2x.atlassian.net/browse/WSC-1843",
-        "summary": "Enable content personalisation with Cloudflare HTML caching on PROD",
-        "status": "Backlog",
-        "statusCategory": "new",
-        "assignee": "Unassigned",
-        "updated": "2026-10-29T15:55:15.468+0000",
         "priority": "Not Set",
         "labels": []
       },
