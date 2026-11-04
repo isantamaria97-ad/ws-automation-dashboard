@@ -1,18 +1,18 @@
 {
-  "lastUpdated": "2026-11-04T00:26:00.067554+00:00",
+  "lastUpdated": "2026-11-04T11:54:01.393781+00:00",
   "jira": {
     "summary": {
-      "total": 479,
+      "total": 478,
       "byStatus": {
+        "In Progress": 4,
         "Tech Review": 5,
         "Ready to QA": 2,
-        "Backlog": 17,
-        "In Progress": 3,
+        "Backlog": 16,
         "Done": 408,
         "IN UAT": 4,
         "PENDING DEV DEPLOY": 1,
         "Ready for Refinement": 2,
-        "Ready": 10,
+        "Ready": 9,
         "Deprecated": 23,
         "Pre-prioritized": 1,
         "Blocked": 2,
@@ -20,6 +20,32 @@
       }
     },
     "tickets": [
+      {
+        "key": "WSC-1790",
+        "url": "https://e2x.atlassian.net/browse/WSC-1790",
+        "summary": "SECURITY - block public access to DEV & UAT",
+        "status": "In Progress",
+        "statusCategory": "indeterminate",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-11-04T01:56:01.226+0000",
+        "priority": "Major",
+        "labels": [
+          "Needs-QA"
+        ]
+      },
+      {
+        "key": "WSC-1811",
+        "url": "https://e2x.atlassian.net/browse/WSC-1811",
+        "summary": "PLP - Append Customer Facing Colour to Product Card Titles",
+        "status": "Tech Review",
+        "statusCategory": "indeterminate",
+        "assignee": "Alexander Talavera",
+        "updated": "2026-11-04T01:46:50.910+0000",
+        "priority": "Major",
+        "labels": [
+          "Needs-QA"
+        ]
+      },
       {
         "key": "WSC-1401",
         "url": "https://e2x.atlassian.net/browse/WSC-1401",
@@ -70,19 +96,6 @@
         "labels": []
       },
       {
-        "key": "WSC-1811",
-        "url": "https://e2x.atlassian.net/browse/WSC-1811",
-        "summary": "PLP - Append Customer Facing Colour to Product Card Titles",
-        "status": "Tech Review",
-        "statusCategory": "indeterminate",
-        "assignee": "Alexander Talavera",
-        "updated": "2026-11-03T18:13:17.312+0000",
-        "priority": "Major",
-        "labels": [
-          "Needs-QA"
-        ]
-      },
-      {
         "key": "WSC-1749",
         "url": "https://e2x.atlassian.net/browse/WSC-1749",
         "summary": "SPIKE> Passwordless Sign-In",
@@ -101,17 +114,6 @@
         "statusCategory": "done",
         "assignee": "Rafael Paranagu\u00e1",
         "updated": "2026-11-03T12:38:15.355+0000",
-        "priority": "Not Set",
-        "labels": []
-      },
-      {
-        "key": "WSC-1843",
-        "url": "https://e2x.atlassian.net/browse/WSC-1843",
-        "summary": "Enable content personalisation with Cloudflare HTML caching on PROD",
-        "status": "Backlog",
-        "statusCategory": "new",
-        "assignee": "Unassigned",
-        "updated": "2026-11-02T23:02:03.351+0000",
         "priority": "Not Set",
         "labels": []
       },
@@ -183,19 +185,6 @@
         "assignee": "Unassigned",
         "updated": "2026-11-02T10:58:37.394+0000",
         "priority": "Minor",
-        "labels": [
-          "Needs-QA"
-        ]
-      },
-      {
-        "key": "WSC-1790",
-        "url": "https://e2x.atlassian.net/browse/WSC-1790",
-        "summary": "SECURITY - block public access to DEV & UAT",
-        "status": "Ready",
-        "statusCategory": "new",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-10-30T18:45:55.772+0000",
-        "priority": "Major",
         "labels": [
           "Needs-QA"
         ]
