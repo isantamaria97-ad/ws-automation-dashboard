@@ -1,18 +1,18 @@
 {
-  "lastUpdated": "2026-11-03T19:12:07.939994+00:00",
+  "lastUpdated": "2026-11-04T00:26:00.067554+00:00",
   "jira": {
     "summary": {
       "total": 479,
       "byStatus": {
+        "Tech Review": 5,
         "Ready to QA": 2,
         "Backlog": 17,
-        "Tech Review": 4,
         "In Progress": 3,
         "Done": 408,
         "IN UAT": 4,
         "PENDING DEV DEPLOY": 1,
         "Ready for Refinement": 2,
-        "Ready": 11,
+        "Ready": 10,
         "Deprecated": 23,
         "Pre-prioritized": 1,
         "Blocked": 2,
@@ -21,13 +21,24 @@
     },
     "tickets": [
       {
+        "key": "WSC-1401",
+        "url": "https://e2x.atlassian.net/browse/WSC-1401",
+        "summary": "PDP - Stylitics amendment",
+        "status": "Tech Review",
+        "statusCategory": "indeterminate",
+        "assignee": "Alexander Talavera",
+        "updated": "2026-11-03T22:35:19.486+0000",
+        "priority": "Trivial",
+        "labels": []
+      },
+      {
         "key": "WSC-1812",
         "url": "https://e2x.atlassian.net/browse/WSC-1812",
         "summary": "PERSONALISED CONTENT - preview URL by segment",
         "status": "Ready to QA",
         "statusCategory": "new",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-11-03T19:11:03.538+0000",
+        "assignee": "Gerardo Romero",
+        "updated": "2026-11-03T20:42:04.488+0000",
         "priority": "Major",
         "labels": [
           "Needs-QA",
@@ -40,8 +51,8 @@
         "summary": "SEO TEXT BLOCK - minor amendment",
         "status": "Ready to QA",
         "statusCategory": "new",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-11-03T19:10:43.862+0000",
+        "assignee": "Gerardo Romero",
+        "updated": "2026-11-03T20:42:01.461+0000",
         "priority": "Minor",
         "labels": [
           "Needs-QA"
@@ -280,17 +291,6 @@
         "labels": [
           "NO_QA_REQUIRED"
         ]
-      },
-      {
-        "key": "WSC-1401",
-        "url": "https://e2x.atlassian.net/browse/WSC-1401",
-        "summary": "PDP - Stylitics amendment",
-        "status": "Ready",
-        "statusCategory": "new",
-        "assignee": "Unassigned",
-        "updated": "2026-10-30T18:23:29.917+0000",
-        "priority": "Trivial",
-        "labels": []
       },
       {
         "key": "WSC-1801",
