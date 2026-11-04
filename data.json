@@ -1,15 +1,15 @@
 {
-  "lastUpdated": "2026-11-04T11:54:01.393781+00:00",
+  "lastUpdated": "2026-11-04T19:28:18.696653+00:00",
   "jira": {
     "summary": {
-      "total": 478,
+      "total": 479,
       "byStatus": {
+        "Ready to QA": 4,
+        "IN UAT": 5,
         "In Progress": 4,
-        "Tech Review": 5,
-        "Ready to QA": 2,
+        "Tech Review": 3,
         "Backlog": 16,
         "Done": 408,
-        "IN UAT": 4,
         "PENDING DEV DEPLOY": 1,
         "Ready for Refinement": 2,
         "Ready": 9,
@@ -20,6 +20,46 @@
       }
     },
     "tickets": [
+      {
+        "key": "WSC-1694",
+        "url": "https://e2x.atlassian.net/browse/WSC-1694",
+        "summary": "SLIM BANNER - improve loading speed",
+        "status": "Ready to QA",
+        "statusCategory": "new",
+        "assignee": "Unassigned",
+        "updated": "2026-11-04T18:24:19.905+0000",
+        "priority": "Major",
+        "labels": [
+          "Needs-QA",
+          "manualQA"
+        ]
+      },
+      {
+        "key": "WSC-1801",
+        "url": "https://e2x.atlassian.net/browse/WSC-1801",
+        "summary": "SHOP PAGE - SEO amendment",
+        "status": "Ready to QA",
+        "statusCategory": "new",
+        "assignee": "Unassigned",
+        "updated": "2026-11-04T18:23:46.368+0000",
+        "priority": "Minor",
+        "labels": [
+          "Needs-QA"
+        ]
+      },
+      {
+        "key": "WSC-1848",
+        "url": "https://e2x.atlassian.net/browse/WSC-1848",
+        "summary": "Mobile Category Nav - scrollable area fix",
+        "status": "IN UAT",
+        "statusCategory": "indeterminate",
+        "assignee": "Unassigned",
+        "updated": "2026-11-04T15:45:03.988+0000",
+        "priority": "Major",
+        "labels": [
+          "NO_QA_REQUIRED"
+        ]
+      },
       {
         "key": "WSC-1790",
         "url": "https://e2x.atlassian.net/browse/WSC-1790",
@@ -279,33 +319,6 @@
         "priority": "Minor",
         "labels": [
           "NO_QA_REQUIRED"
-        ]
-      },
-      {
-        "key": "WSC-1801",
-        "url": "https://e2x.atlassian.net/browse/WSC-1801",
-        "summary": "SHOP PAGE - SEO amendment",
-        "status": "Tech Review",
-        "statusCategory": "indeterminate",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-10-30T18:08:58.192+0000",
-        "priority": "Minor",
-        "labels": [
-          "Needs-QA"
-        ]
-      },
-      {
-        "key": "WSC-1694",
-        "url": "https://e2x.atlassian.net/browse/WSC-1694",
-        "summary": "SLIM BANNER - improve loading speed",
-        "status": "Tech Review",
-        "statusCategory": "indeterminate",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-10-30T18:08:31.602+0000",
-        "priority": "Major",
-        "labels": [
-          "Needs-QA",
-          "manualQA"
         ]
       },
       {
