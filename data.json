@@ -1,25 +1,75 @@
 {
-  "lastUpdated": "2026-11-04T19:28:18.696653+00:00",
+  "lastUpdated": "2026-11-05T00:45:41.922735+00:00",
   "jira": {
     "summary": {
       "total": 479,
       "byStatus": {
-        "Ready to QA": 4,
-        "IN UAT": 5,
         "In Progress": 4,
-        "Tech Review": 3,
+        "PENDING DEV DEPLOY": 3,
+        "IN QA": 1,
+        "Ready to QA": 3,
+        "IN UAT": 5,
         "Backlog": 16,
         "Done": 408,
-        "PENDING DEV DEPLOY": 1,
         "Ready for Refinement": 2,
         "Ready": 9,
         "Deprecated": 23,
         "Pre-prioritized": 1,
         "Blocked": 2,
+        "Tech Review": 1,
         "READY FOR RELEASE": 1
       }
     },
     "tickets": [
+      {
+        "key": "WSC-1749",
+        "url": "https://e2x.atlassian.net/browse/WSC-1749",
+        "summary": "SPIKE> Passwordless Sign-In",
+        "status": "In Progress",
+        "statusCategory": "indeterminate",
+        "assignee": "Alexander Talavera",
+        "updated": "2026-11-04T23:56:45.112+0000",
+        "priority": "Major",
+        "labels": []
+      },
+      {
+        "key": "WSC-1401",
+        "url": "https://e2x.atlassian.net/browse/WSC-1401",
+        "summary": "PDP - Stylitics amendment",
+        "status": "PENDING DEV DEPLOY",
+        "statusCategory": "new",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-11-04T23:49:43.329+0000",
+        "priority": "Trivial",
+        "labels": []
+      },
+      {
+        "key": "WSC-1811",
+        "url": "https://e2x.atlassian.net/browse/WSC-1811",
+        "summary": "PLP - Append Customer Facing Colour to Product Card Titles",
+        "status": "PENDING DEV DEPLOY",
+        "statusCategory": "new",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-11-04T23:47:20.896+0000",
+        "priority": "Major",
+        "labels": [
+          "Needs-QA"
+        ]
+      },
+      {
+        "key": "WSC-1812",
+        "url": "https://e2x.atlassian.net/browse/WSC-1812",
+        "summary": "PERSONALISED CONTENT - preview URL by segment",
+        "status": "IN QA",
+        "statusCategory": "indeterminate",
+        "assignee": "Gerardo Romero",
+        "updated": "2026-11-04T20:03:54.944+0000",
+        "priority": "Major",
+        "labels": [
+          "Needs-QA",
+          "accelerated"
+        ]
+      },
       {
         "key": "WSC-1694",
         "url": "https://e2x.atlassian.net/browse/WSC-1694",
@@ -74,44 +124,6 @@
         ]
       },
       {
-        "key": "WSC-1811",
-        "url": "https://e2x.atlassian.net/browse/WSC-1811",
-        "summary": "PLP - Append Customer Facing Colour to Product Card Titles",
-        "status": "Tech Review",
-        "statusCategory": "indeterminate",
-        "assignee": "Alexander Talavera",
-        "updated": "2026-11-04T01:46:50.910+0000",
-        "priority": "Major",
-        "labels": [
-          "Needs-QA"
-        ]
-      },
-      {
-        "key": "WSC-1401",
-        "url": "https://e2x.atlassian.net/browse/WSC-1401",
-        "summary": "PDP - Stylitics amendment",
-        "status": "Tech Review",
-        "statusCategory": "indeterminate",
-        "assignee": "Alexander Talavera",
-        "updated": "2026-11-03T22:35:19.486+0000",
-        "priority": "Trivial",
-        "labels": []
-      },
-      {
-        "key": "WSC-1812",
-        "url": "https://e2x.atlassian.net/browse/WSC-1812",
-        "summary": "PERSONALISED CONTENT - preview URL by segment",
-        "status": "Ready to QA",
-        "statusCategory": "new",
-        "assignee": "Gerardo Romero",
-        "updated": "2026-11-03T20:42:04.488+0000",
-        "priority": "Major",
-        "labels": [
-          "Needs-QA",
-          "accelerated"
-        ]
-      },
-      {
         "key": "WSC-1696",
         "url": "https://e2x.atlassian.net/browse/WSC-1696",
         "summary": "SEO TEXT BLOCK - minor amendment",
@@ -133,17 +145,6 @@
         "assignee": "enmanuel.ramirez",
         "updated": "2026-11-03T19:02:54.017+0000",
         "priority": "Trivial",
-        "labels": []
-      },
-      {
-        "key": "WSC-1749",
-        "url": "https://e2x.atlassian.net/browse/WSC-1749",
-        "summary": "SPIKE> Passwordless Sign-In",
-        "status": "In Progress",
-        "statusCategory": "indeterminate",
-        "assignee": "Alexander Talavera",
-        "updated": "2026-11-03T12:42:55.689+0000",
-        "priority": "Major",
         "labels": []
       },
       {
