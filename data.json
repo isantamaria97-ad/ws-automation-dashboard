@@ -1,10 +1,11 @@
 {
-  "lastUpdated": "2026-11-05T00:45:41.922735+00:00",
+  "lastUpdated": "2026-11-05T11:56:38.992465+00:00",
   "jira": {
     "summary": {
       "total": 479,
       "byStatus": {
-        "In Progress": 4,
+        "Tech Review": 2,
+        "In Progress": 3,
         "PENDING DEV DEPLOY": 3,
         "IN QA": 1,
         "Ready to QA": 3,
@@ -16,11 +17,23 @@
         "Deprecated": 23,
         "Pre-prioritized": 1,
         "Blocked": 2,
-        "Tech Review": 1,
         "READY FOR RELEASE": 1
       }
     },
     "tickets": [
+      {
+        "key": "WSC-1817",
+        "url": "https://e2x.atlassian.net/browse/WSC-1817",
+        "summary": "SALE BADGES - Amplience control",
+        "status": "Tech Review",
+        "statusCategory": "indeterminate",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-11-05T11:23:49.059+0000",
+        "priority": "Major",
+        "labels": [
+          "Needs-QA"
+        ]
+      },
       {
         "key": "WSC-1749",
         "url": "https://e2x.atlassian.net/browse/WSC-1749",
@@ -238,19 +251,6 @@
         "statusCategory": "new",
         "assignee": "enmanuel.ramirez",
         "updated": "2026-10-30T18:45:53.227+0000",
-        "priority": "Major",
-        "labels": [
-          "Needs-QA"
-        ]
-      },
-      {
-        "key": "WSC-1817",
-        "url": "https://e2x.atlassian.net/browse/WSC-1817",
-        "summary": "SALE BADGES - Amplience control",
-        "status": "In Progress",
-        "statusCategory": "indeterminate",
-        "assignee": "Chiara Davies",
-        "updated": "2026-10-30T18:45:09.197+0000",
         "priority": "Major",
         "labels": [
           "Needs-QA"
