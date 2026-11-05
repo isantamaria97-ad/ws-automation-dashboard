@@ -1,26 +1,199 @@
 {
-  "lastUpdated": "2026-11-05T11:56:38.992465+00:00",
+  "lastUpdated": "2026-11-05T19:44:35.115758+00:00",
   "jira": {
     "summary": {
-      "total": 479,
+      "total": 481,
       "byStatus": {
-        "Tech Review": 2,
+        "Tech Review": 3,
         "In Progress": 3,
-        "PENDING DEV DEPLOY": 3,
+        "Backlog": 17,
+        "Ready to QA": 5,
+        "Done": 412,
         "IN QA": 1,
-        "Ready to QA": 3,
-        "IN UAT": 5,
-        "Backlog": 16,
-        "Done": 408,
+        "PENDING DEV DEPLOY": 1,
         "Ready for Refinement": 2,
         "Ready": 9,
         "Deprecated": 23,
         "Pre-prioritized": 1,
         "Blocked": 2,
+        "IN UAT": 1,
         "READY FOR RELEASE": 1
       }
     },
     "tickets": [
+      {
+        "key": "WSC-1749",
+        "url": "https://e2x.atlassian.net/browse/WSC-1749",
+        "summary": "SPIKE> Passwordless Sign-In",
+        "status": "Tech Review",
+        "statusCategory": "indeterminate",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-11-05T19:38:32.245+0000",
+        "priority": "Major",
+        "labels": []
+      },
+      {
+        "key": "WSC-1803",
+        "url": "https://e2x.atlassian.net/browse/WSC-1803",
+        "summary": "MINI BAG - minor adjustments",
+        "status": "In Progress",
+        "statusCategory": "indeterminate",
+        "assignee": "Chiara Davies",
+        "updated": "2026-11-05T17:04:20.414+0000",
+        "priority": "Minor",
+        "labels": [
+          "Needs-QA"
+        ]
+      },
+      {
+        "key": "WSC-1854",
+        "url": "https://e2x.atlassian.net/browse/WSC-1854",
+        "summary": "TRUE FIT - in the bag and mini bag",
+        "status": "Backlog",
+        "statusCategory": "new",
+        "assignee": "Unassigned",
+        "updated": "2026-11-05T17:03:34.387+0000",
+        "priority": "Minor",
+        "labels": [
+          "Needs-QA"
+        ]
+      },
+      {
+        "key": "WSC-1811",
+        "url": "https://e2x.atlassian.net/browse/WSC-1811",
+        "summary": "PLP - Append Customer Facing Colour to Product Card Titles",
+        "status": "Ready to QA",
+        "statusCategory": "new",
+        "assignee": "Unassigned",
+        "updated": "2026-11-05T15:13:30.693+0000",
+        "priority": "Major",
+        "labels": [
+          "Needs-QA"
+        ]
+      },
+      {
+        "key": "WSC-1853",
+        "url": "https://e2x.atlassian.net/browse/WSC-1853",
+        "summary": "[WS] Monthly vulnerability review (Snyk) Nov for Oct 2026 Maintain Report",
+        "status": "In Progress",
+        "statusCategory": "indeterminate",
+        "assignee": "Rafael Paranagu\u00e1",
+        "updated": "2026-11-05T14:50:31.245+0000",
+        "priority": "Not Set",
+        "labels": []
+      },
+      {
+        "key": "WSC-1795",
+        "url": "https://e2x.atlassian.net/browse/WSC-1795",
+        "summary": "[WS] Monthly vulnerability review (Snyk) Oct for Sep 2026 Maintain Report",
+        "status": "Done",
+        "statusCategory": "done",
+        "assignee": "Rafael Paranagu\u00e1",
+        "updated": "2026-11-05T14:50:17.224+0000",
+        "priority": "Not Set",
+        "labels": []
+      },
+      {
+        "key": "WSC-1790",
+        "url": "https://e2x.atlassian.net/browse/WSC-1790",
+        "summary": "SECURITY - block public access to DEV & UAT",
+        "status": "In Progress",
+        "statusCategory": "indeterminate",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-11-05T14:31:48.737+0000",
+        "priority": "Major",
+        "labels": [
+          "Needs-QA"
+        ]
+      },
+      {
+        "key": "WSC-1401",
+        "url": "https://e2x.atlassian.net/browse/WSC-1401",
+        "summary": "PDP - Stylitics amendment",
+        "status": "Ready to QA",
+        "statusCategory": "new",
+        "assignee": "Unassigned",
+        "updated": "2026-11-05T14:16:42.265+0000",
+        "priority": "Trivial",
+        "labels": []
+      },
+      {
+        "key": "WSC-1848",
+        "url": "https://e2x.atlassian.net/browse/WSC-1848",
+        "summary": "Mobile Category Nav - scrollable area fix",
+        "status": "Done",
+        "statusCategory": "done",
+        "assignee": "Unassigned",
+        "updated": "2026-11-05T14:12:51.917+0000",
+        "priority": "Major",
+        "labels": [
+          "NO_QA_REQUIRED"
+        ]
+      },
+      {
+        "key": "WSC-1801",
+        "url": "https://e2x.atlassian.net/browse/WSC-1801",
+        "summary": "SHOP PAGE - SEO amendment",
+        "status": "Ready to QA",
+        "statusCategory": "new",
+        "assignee": "Gerardo Romero",
+        "updated": "2026-11-05T12:38:52.229+0000",
+        "priority": "Minor",
+        "labels": [
+          "Needs-QA"
+        ]
+      },
+      {
+        "key": "WSC-1694",
+        "url": "https://e2x.atlassian.net/browse/WSC-1694",
+        "summary": "SLIM BANNER - improve loading speed",
+        "status": "Ready to QA",
+        "statusCategory": "new",
+        "assignee": "Gerardo Romero",
+        "updated": "2026-11-05T12:38:48.219+0000",
+        "priority": "Major",
+        "labels": [
+          "Needs-QA",
+          "manualQA"
+        ]
+      },
+      {
+        "key": "WSC-1837",
+        "url": "https://e2x.atlassian.net/browse/WSC-1837",
+        "summary": "PDP - shop stock look up amends",
+        "status": "Done",
+        "statusCategory": "done",
+        "assignee": "Gerardo Romero",
+        "updated": "2026-11-05T12:02:54.432+0000",
+        "priority": "Major",
+        "labels": []
+      },
+      {
+        "key": "WSC-1832",
+        "url": "https://e2x.atlassian.net/browse/WSC-1832",
+        "summary": "[WSSD-776] - CRO Support: JavaScript Errors when working via SiteSpect",
+        "status": "Done",
+        "statusCategory": "done",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-11-05T12:02:53.562+0000",
+        "priority": "Major",
+        "labels": [
+          "NO_QA_REQUIRED"
+        ]
+      },
+      {
+        "key": "WSC-1831",
+        "url": "https://e2x.atlassian.net/browse/WSC-1831",
+        "summary": "BAG - minor amend",
+        "status": "Done",
+        "statusCategory": "done",
+        "assignee": "Gerardo Romero",
+        "updated": "2026-11-05T12:02:52.351+0000",
+        "priority": "Major",
+        "labels": [
+          "Needs-QA"
+        ]
+      },
       {
         "key": "WSC-1817",
         "url": "https://e2x.atlassian.net/browse/WSC-1817",
@@ -29,41 +202,6 @@
         "statusCategory": "indeterminate",
         "assignee": "enmanuel.ramirez",
         "updated": "2026-11-05T11:23:49.059+0000",
-        "priority": "Major",
-        "labels": [
-          "Needs-QA"
-        ]
-      },
-      {
-        "key": "WSC-1749",
-        "url": "https://e2x.atlassian.net/browse/WSC-1749",
-        "summary": "SPIKE> Passwordless Sign-In",
-        "status": "In Progress",
-        "statusCategory": "indeterminate",
-        "assignee": "Alexander Talavera",
-        "updated": "2026-11-04T23:56:45.112+0000",
-        "priority": "Major",
-        "labels": []
-      },
-      {
-        "key": "WSC-1401",
-        "url": "https://e2x.atlassian.net/browse/WSC-1401",
-        "summary": "PDP - Stylitics amendment",
-        "status": "PENDING DEV DEPLOY",
-        "statusCategory": "new",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-11-04T23:49:43.329+0000",
-        "priority": "Trivial",
-        "labels": []
-      },
-      {
-        "key": "WSC-1811",
-        "url": "https://e2x.atlassian.net/browse/WSC-1811",
-        "summary": "PLP - Append Customer Facing Colour to Product Card Titles",
-        "status": "PENDING DEV DEPLOY",
-        "statusCategory": "new",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-11-04T23:47:20.896+0000",
         "priority": "Major",
         "labels": [
           "Needs-QA"
@@ -81,59 +219,6 @@
         "labels": [
           "Needs-QA",
           "accelerated"
-        ]
-      },
-      {
-        "key": "WSC-1694",
-        "url": "https://e2x.atlassian.net/browse/WSC-1694",
-        "summary": "SLIM BANNER - improve loading speed",
-        "status": "Ready to QA",
-        "statusCategory": "new",
-        "assignee": "Unassigned",
-        "updated": "2026-11-04T18:24:19.905+0000",
-        "priority": "Major",
-        "labels": [
-          "Needs-QA",
-          "manualQA"
-        ]
-      },
-      {
-        "key": "WSC-1801",
-        "url": "https://e2x.atlassian.net/browse/WSC-1801",
-        "summary": "SHOP PAGE - SEO amendment",
-        "status": "Ready to QA",
-        "statusCategory": "new",
-        "assignee": "Unassigned",
-        "updated": "2026-11-04T18:23:46.368+0000",
-        "priority": "Minor",
-        "labels": [
-          "Needs-QA"
-        ]
-      },
-      {
-        "key": "WSC-1848",
-        "url": "https://e2x.atlassian.net/browse/WSC-1848",
-        "summary": "Mobile Category Nav - scrollable area fix",
-        "status": "IN UAT",
-        "statusCategory": "indeterminate",
-        "assignee": "Unassigned",
-        "updated": "2026-11-04T15:45:03.988+0000",
-        "priority": "Major",
-        "labels": [
-          "NO_QA_REQUIRED"
-        ]
-      },
-      {
-        "key": "WSC-1790",
-        "url": "https://e2x.atlassian.net/browse/WSC-1790",
-        "summary": "SECURITY - block public access to DEV & UAT",
-        "status": "In Progress",
-        "statusCategory": "indeterminate",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-11-04T01:56:01.226+0000",
-        "priority": "Major",
-        "labels": [
-          "Needs-QA"
         ]
       },
       {
@@ -159,43 +244,6 @@
         "updated": "2026-11-03T19:02:54.017+0000",
         "priority": "Trivial",
         "labels": []
-      },
-      {
-        "key": "WSC-1795",
-        "url": "https://e2x.atlassian.net/browse/WSC-1795",
-        "summary": "[WS] Monthly vulnerability review (Snyk) Oct for Sep 2026 Maintain Report",
-        "status": "Done",
-        "statusCategory": "done",
-        "assignee": "Rafael Paranagu\u00e1",
-        "updated": "2026-11-03T12:38:15.355+0000",
-        "priority": "Not Set",
-        "labels": []
-      },
-      {
-        "key": "WSC-1832",
-        "url": "https://e2x.atlassian.net/browse/WSC-1832",
-        "summary": "[WSSD-776] - CRO Support: JavaScript Errors when working via SiteSpect",
-        "status": "IN UAT",
-        "statusCategory": "indeterminate",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-11-02T17:25:47.952+0000",
-        "priority": "Major",
-        "labels": [
-          "NO_QA_REQUIRED"
-        ]
-      },
-      {
-        "key": "WSC-1803",
-        "url": "https://e2x.atlassian.net/browse/WSC-1803",
-        "summary": "MINI BAG - minor adjustments",
-        "status": "In Progress",
-        "statusCategory": "indeterminate",
-        "assignee": "Chiara Davies",
-        "updated": "2026-11-02T15:04:08.469+0000",
-        "priority": "Minor",
-        "labels": [
-          "Needs-QA"
-        ]
       },
       {
         "key": "WSC-1751",
@@ -321,30 +369,6 @@
         "labels": [
           "NO_QA_REQUIRED"
         ]
-      },
-      {
-        "key": "WSC-1831",
-        "url": "https://e2x.atlassian.net/browse/WSC-1831",
-        "summary": "BAG - minor amend",
-        "status": "IN UAT",
-        "statusCategory": "indeterminate",
-        "assignee": "Gerardo Romero",
-        "updated": "2026-10-30T17:47:03.176+0000",
-        "priority": "Major",
-        "labels": [
-          "Needs-QA"
-        ]
-      },
-      {
-        "key": "WSC-1837",
-        "url": "https://e2x.atlassian.net/browse/WSC-1837",
-        "summary": "PDP - shop stock look up amends",
-        "status": "IN UAT",
-        "statusCategory": "indeterminate",
-        "assignee": "Gerardo Romero",
-        "updated": "2026-10-30T17:43:11.046+0000",
-        "priority": "Major",
-        "labels": []
       },
       {
         "key": "WSC-1789",
