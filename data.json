@@ -1,17 +1,18 @@
 {
-  "lastUpdated": "2026-11-06T00:49:59.747583+00:00",
+  "lastUpdated": "2026-11-06T11:52:50.567422+00:00",
   "jira": {
     "summary": {
       "total": 481,
       "byStatus": {
-        "In Progress": 4,
-        "IN QA": 2,
-        "Tech Review": 2,
-        "Backlog": 17,
-        "Ready to QA": 4,
+        "Tech Review": 3,
+        "Ready for Refinement": 4,
+        "QA Approved": 2,
+        "Ready to QA": 3,
+        "In Progress": 3,
+        "IN QA": 1,
         "Done": 412,
         "PENDING DEV DEPLOY": 1,
-        "Ready for Refinement": 2,
+        "Backlog": 15,
         "Ready": 9,
         "Deprecated": 23,
         "Pre-prioritized": 1,
@@ -21,6 +22,94 @@
       }
     },
     "tickets": [
+      {
+        "key": "WSC-1803",
+        "url": "https://e2x.atlassian.net/browse/WSC-1803",
+        "summary": "MINI BAG - minor adjustments",
+        "status": "Tech Review",
+        "statusCategory": "indeterminate",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-11-06T11:41:17.534+0000",
+        "priority": "Minor",
+        "labels": [
+          "Needs-QA"
+        ]
+      },
+      {
+        "key": "WSC-1846",
+        "url": "https://e2x.atlassian.net/browse/WSC-1846",
+        "summary": "[WSSD-777] - VSF promotion price issue",
+        "status": "Ready for Refinement",
+        "statusCategory": "new",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-11-06T11:09:13.390+0000",
+        "priority": "Trivial",
+        "labels": []
+      },
+      {
+        "key": "WSC-1854",
+        "url": "https://e2x.atlassian.net/browse/WSC-1854",
+        "summary": "TRUE FIT - in the bag and mini bag",
+        "status": "Ready for Refinement",
+        "statusCategory": "new",
+        "assignee": "Unassigned",
+        "updated": "2026-11-06T10:30:47.115+0000",
+        "priority": "Minor",
+        "labels": [
+          "Needs-QA"
+        ]
+      },
+      {
+        "key": "WSC-1696",
+        "url": "https://e2x.atlassian.net/browse/WSC-1696",
+        "summary": "SEO TEXT BLOCK - minor amendment",
+        "status": "QA Approved",
+        "statusCategory": "indeterminate",
+        "assignee": "Gerardo Romero",
+        "updated": "2026-11-06T10:25:13.018+0000",
+        "priority": "Minor",
+        "labels": [
+          "Needs-QA"
+        ]
+      },
+      {
+        "key": "WSC-1694",
+        "url": "https://e2x.atlassian.net/browse/WSC-1694",
+        "summary": "SLIM BANNER - improve loading speed",
+        "status": "QA Approved",
+        "statusCategory": "indeterminate",
+        "assignee": "Gerardo Romero",
+        "updated": "2026-11-06T10:02:07.180+0000",
+        "priority": "Major",
+        "labels": [
+          "Needs-QA",
+          "manualQA"
+        ]
+      },
+      {
+        "key": "WSC-1811",
+        "url": "https://e2x.atlassian.net/browse/WSC-1811",
+        "summary": "PLP - Append Customer Facing Colour to Product Card Titles",
+        "status": "Ready to QA",
+        "statusCategory": "new",
+        "assignee": "Gerardo Romero",
+        "updated": "2026-11-06T04:24:01.848+0000",
+        "priority": "Major",
+        "labels": [
+          "Needs-QA"
+        ]
+      },
+      {
+        "key": "WSC-1401",
+        "url": "https://e2x.atlassian.net/browse/WSC-1401",
+        "summary": "PDP - Stylitics amendment",
+        "status": "Ready to QA",
+        "statusCategory": "new",
+        "assignee": "Gerardo Romero",
+        "updated": "2026-11-06T04:23:52.849+0000",
+        "priority": "Trivial",
+        "labels": []
+      },
       {
         "key": "WSC-1790",
         "url": "https://e2x.atlassian.net/browse/WSC-1790",
@@ -45,20 +134,6 @@
         "priority": "Major",
         "labels": [
           "Needs-QA"
-        ]
-      },
-      {
-        "key": "WSC-1694",
-        "url": "https://e2x.atlassian.net/browse/WSC-1694",
-        "summary": "SLIM BANNER - improve loading speed",
-        "status": "IN QA",
-        "statusCategory": "indeterminate",
-        "assignee": "Gerardo Romero",
-        "updated": "2026-11-05T21:14:19.094+0000",
-        "priority": "Major",
-        "labels": [
-          "Needs-QA",
-          "manualQA"
         ]
       },
       {
@@ -87,45 +162,6 @@
         "labels": []
       },
       {
-        "key": "WSC-1803",
-        "url": "https://e2x.atlassian.net/browse/WSC-1803",
-        "summary": "MINI BAG - minor adjustments",
-        "status": "In Progress",
-        "statusCategory": "indeterminate",
-        "assignee": "Chiara Davies",
-        "updated": "2026-11-05T17:04:20.414+0000",
-        "priority": "Minor",
-        "labels": [
-          "Needs-QA"
-        ]
-      },
-      {
-        "key": "WSC-1854",
-        "url": "https://e2x.atlassian.net/browse/WSC-1854",
-        "summary": "TRUE FIT - in the bag and mini bag",
-        "status": "Backlog",
-        "statusCategory": "new",
-        "assignee": "Unassigned",
-        "updated": "2026-11-05T17:03:34.387+0000",
-        "priority": "Minor",
-        "labels": [
-          "Needs-QA"
-        ]
-      },
-      {
-        "key": "WSC-1811",
-        "url": "https://e2x.atlassian.net/browse/WSC-1811",
-        "summary": "PLP - Append Customer Facing Colour to Product Card Titles",
-        "status": "Ready to QA",
-        "statusCategory": "new",
-        "assignee": "Unassigned",
-        "updated": "2026-11-05T15:13:30.693+0000",
-        "priority": "Major",
-        "labels": [
-          "Needs-QA"
-        ]
-      },
-      {
         "key": "WSC-1853",
         "url": "https://e2x.atlassian.net/browse/WSC-1853",
         "summary": "[WS] Monthly vulnerability review (Snyk) Nov for Oct 2026 Maintain Report",
@@ -145,17 +181,6 @@
         "assignee": "Rafael Paranagu\u00e1",
         "updated": "2026-11-05T14:50:17.224+0000",
         "priority": "Not Set",
-        "labels": []
-      },
-      {
-        "key": "WSC-1401",
-        "url": "https://e2x.atlassian.net/browse/WSC-1401",
-        "summary": "PDP - Stylitics amendment",
-        "status": "Ready to QA",
-        "statusCategory": "new",
-        "assignee": "Unassigned",
-        "updated": "2026-11-05T14:16:42.265+0000",
-        "priority": "Trivial",
         "labels": []
       },
       {
@@ -220,30 +245,6 @@
         "labels": [
           "Needs-QA"
         ]
-      },
-      {
-        "key": "WSC-1696",
-        "url": "https://e2x.atlassian.net/browse/WSC-1696",
-        "summary": "SEO TEXT BLOCK - minor amendment",
-        "status": "Ready to QA",
-        "statusCategory": "new",
-        "assignee": "Gerardo Romero",
-        "updated": "2026-11-03T20:42:01.461+0000",
-        "priority": "Minor",
-        "labels": [
-          "Needs-QA"
-        ]
-      },
-      {
-        "key": "WSC-1846",
-        "url": "https://e2x.atlassian.net/browse/WSC-1846",
-        "summary": "[WSSD-777] - VSF promotion price issue",
-        "status": "Backlog",
-        "statusCategory": "new",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-11-03T19:02:54.017+0000",
-        "priority": "Trivial",
-        "labels": []
       },
       {
         "key": "WSC-1751",
