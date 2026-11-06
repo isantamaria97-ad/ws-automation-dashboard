@@ -1,12 +1,12 @@
 {
-  "lastUpdated": "2026-11-06T18:59:29.655453+00:00",
+  "lastUpdated": "2026-11-06T23:58:30.071492+00:00",
   "jira": {
     "summary": {
       "total": 481,
       "byStatus": {
+        "Ready to QA": 4,
         "In Progress": 3,
         "Ready": 9,
-        "Ready to QA": 4,
         "QA Approved": 2,
         "Tech Review": 3,
         "IN QA": 1,
@@ -22,6 +22,19 @@
       }
     },
     "tickets": [
+      {
+        "key": "WSC-1803",
+        "url": "https://e2x.atlassian.net/browse/WSC-1803",
+        "summary": "MINI BAG - minor adjustments",
+        "status": "Ready to QA",
+        "statusCategory": "new",
+        "assignee": "Gerardo Romero",
+        "updated": "2026-11-06T20:48:45.726+0000",
+        "priority": "Minor",
+        "labels": [
+          "Needs-QA"
+        ]
+      },
       {
         "key": "WSC-1790",
         "url": "https://e2x.atlassian.net/browse/WSC-1790",
@@ -43,19 +56,6 @@
         "statusCategory": "new",
         "assignee": "enmanuel.ramirez",
         "updated": "2026-11-06T15:59:43.384+0000",
-        "priority": "Minor",
-        "labels": [
-          "Needs-QA"
-        ]
-      },
-      {
-        "key": "WSC-1803",
-        "url": "https://e2x.atlassian.net/browse/WSC-1803",
-        "summary": "MINI BAG - minor adjustments",
-        "status": "Ready to QA",
-        "statusCategory": "new",
-        "assignee": "Unassigned",
-        "updated": "2026-11-06T15:57:16.268+0000",
         "priority": "Minor",
         "labels": [
           "Needs-QA"
