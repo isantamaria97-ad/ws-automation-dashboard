@@ -1,15 +1,15 @@
 {
-  "lastUpdated": "2026-11-05T19:44:35.115758+00:00",
+  "lastUpdated": "2026-11-06T00:49:59.747583+00:00",
   "jira": {
     "summary": {
       "total": 481,
       "byStatus": {
-        "Tech Review": 3,
-        "In Progress": 3,
+        "In Progress": 4,
+        "IN QA": 2,
+        "Tech Review": 2,
         "Backlog": 17,
-        "Ready to QA": 5,
+        "Ready to QA": 4,
         "Done": 412,
-        "IN QA": 1,
         "PENDING DEV DEPLOY": 1,
         "Ready for Refinement": 2,
         "Ready": 9,
@@ -21,6 +21,60 @@
       }
     },
     "tickets": [
+      {
+        "key": "WSC-1790",
+        "url": "https://e2x.atlassian.net/browse/WSC-1790",
+        "summary": "SECURITY - block public access to DEV & UAT",
+        "status": "In Progress",
+        "statusCategory": "indeterminate",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-11-06T00:14:07.210+0000",
+        "priority": "Major",
+        "labels": [
+          "Needs-QA"
+        ]
+      },
+      {
+        "key": "WSC-1817",
+        "url": "https://e2x.atlassian.net/browse/WSC-1817",
+        "summary": "SALE BADGES - Amplience control",
+        "status": "In Progress",
+        "statusCategory": "indeterminate",
+        "assignee": "Chiara Davies",
+        "updated": "2026-11-05T23:57:14.364+0000",
+        "priority": "Major",
+        "labels": [
+          "Needs-QA"
+        ]
+      },
+      {
+        "key": "WSC-1694",
+        "url": "https://e2x.atlassian.net/browse/WSC-1694",
+        "summary": "SLIM BANNER - improve loading speed",
+        "status": "IN QA",
+        "statusCategory": "indeterminate",
+        "assignee": "Gerardo Romero",
+        "updated": "2026-11-05T21:14:19.094+0000",
+        "priority": "Major",
+        "labels": [
+          "Needs-QA",
+          "manualQA"
+        ]
+      },
+      {
+        "key": "WSC-1812",
+        "url": "https://e2x.atlassian.net/browse/WSC-1812",
+        "summary": "PERSONALISED CONTENT - preview URL by segment",
+        "status": "IN QA",
+        "statusCategory": "indeterminate",
+        "assignee": "Gerardo Romero",
+        "updated": "2026-11-05T21:11:23.965+0000",
+        "priority": "Major",
+        "labels": [
+          "Needs-QA",
+          "accelerated"
+        ]
+      },
       {
         "key": "WSC-1749",
         "url": "https://e2x.atlassian.net/browse/WSC-1749",
@@ -94,19 +148,6 @@
         "labels": []
       },
       {
-        "key": "WSC-1790",
-        "url": "https://e2x.atlassian.net/browse/WSC-1790",
-        "summary": "SECURITY - block public access to DEV & UAT",
-        "status": "In Progress",
-        "statusCategory": "indeterminate",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-11-05T14:31:48.737+0000",
-        "priority": "Major",
-        "labels": [
-          "Needs-QA"
-        ]
-      },
-      {
         "key": "WSC-1401",
         "url": "https://e2x.atlassian.net/browse/WSC-1401",
         "summary": "PDP - Stylitics amendment",
@@ -144,20 +185,6 @@
         ]
       },
       {
-        "key": "WSC-1694",
-        "url": "https://e2x.atlassian.net/browse/WSC-1694",
-        "summary": "SLIM BANNER - improve loading speed",
-        "status": "Ready to QA",
-        "statusCategory": "new",
-        "assignee": "Gerardo Romero",
-        "updated": "2026-11-05T12:38:48.219+0000",
-        "priority": "Major",
-        "labels": [
-          "Needs-QA",
-          "manualQA"
-        ]
-      },
-      {
         "key": "WSC-1837",
         "url": "https://e2x.atlassian.net/browse/WSC-1837",
         "summary": "PDP - shop stock look up amends",
@@ -192,33 +219,6 @@
         "priority": "Major",
         "labels": [
           "Needs-QA"
-        ]
-      },
-      {
-        "key": "WSC-1817",
-        "url": "https://e2x.atlassian.net/browse/WSC-1817",
-        "summary": "SALE BADGES - Amplience control",
-        "status": "Tech Review",
-        "statusCategory": "indeterminate",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-11-05T11:23:49.059+0000",
-        "priority": "Major",
-        "labels": [
-          "Needs-QA"
-        ]
-      },
-      {
-        "key": "WSC-1812",
-        "url": "https://e2x.atlassian.net/browse/WSC-1812",
-        "summary": "PERSONALISED CONTENT - preview URL by segment",
-        "status": "IN QA",
-        "statusCategory": "indeterminate",
-        "assignee": "Gerardo Romero",
-        "updated": "2026-11-04T20:03:54.944+0000",
-        "priority": "Major",
-        "labels": [
-          "Needs-QA",
-          "accelerated"
         ]
       },
       {
