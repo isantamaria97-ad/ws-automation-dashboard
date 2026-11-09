@@ -1,14 +1,14 @@
 {
-  "lastUpdated": "2026-11-08T20:15:00.459786+00:00",
+  "lastUpdated": "2026-11-09T05:03:19.692307+00:00",
   "jira": {
     "summary": {
       "total": 481,
       "byStatus": {
-        "Ready to QA": 4,
+        "Tech Review": 5,
         "In Progress": 3,
-        "Ready": 9,
+        "Ready to QA": 4,
         "QA Approved": 2,
-        "Tech Review": 3,
+        "Ready": 7,
         "IN QA": 1,
         "Ready for Refinement": 3,
         "Done": 412,
@@ -23,13 +23,13 @@
     },
     "tickets": [
       {
-        "key": "WSC-1803",
-        "url": "https://e2x.atlassian.net/browse/WSC-1803",
-        "summary": "MINI BAG - minor adjustments",
-        "status": "Ready to QA",
-        "statusCategory": "new",
-        "assignee": "Gerardo Romero",
-        "updated": "2026-11-06T20:48:45.726+0000",
+        "key": "WSC-1782",
+        "url": "https://e2x.atlassian.net/browse/WSC-1782",
+        "summary": "CHECKOUT - Only UK: Calling for collection locations",
+        "status": "Tech Review",
+        "statusCategory": "indeterminate",
+        "assignee": "Alexander Talavera",
+        "updated": "2026-11-08T23:41:51.075+0000",
         "priority": "Minor",
         "labels": [
           "Needs-QA"
@@ -42,21 +42,8 @@
         "status": "In Progress",
         "statusCategory": "indeterminate",
         "assignee": "enmanuel.ramirez",
-        "updated": "2026-11-06T16:03:51.228+0000",
+        "updated": "2026-11-08T23:02:17.692+0000",
         "priority": "Major",
-        "labels": [
-          "Needs-QA"
-        ]
-      },
-      {
-        "key": "WSC-1782",
-        "url": "https://e2x.atlassian.net/browse/WSC-1782",
-        "summary": "CHECKOUT - Only UK: Calling for collection locations",
-        "status": "Ready",
-        "statusCategory": "new",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-11-06T15:59:43.384+0000",
-        "priority": "Minor",
         "labels": [
           "Needs-QA"
         ]
@@ -65,11 +52,24 @@
         "key": "WSC-1776",
         "url": "https://e2x.atlassian.net/browse/WSC-1776",
         "summary": "SLIM BANNER - personalisation",
-        "status": "Ready",
-        "statusCategory": "new",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-11-06T15:52:56.455+0000",
+        "status": "Tech Review",
+        "statusCategory": "indeterminate",
+        "assignee": "Alexander Talavera",
+        "updated": "2026-11-08T22:18:24.522+0000",
         "priority": "Major",
+        "labels": [
+          "Needs-QA"
+        ]
+      },
+      {
+        "key": "WSC-1803",
+        "url": "https://e2x.atlassian.net/browse/WSC-1803",
+        "summary": "MINI BAG - minor adjustments",
+        "status": "Ready to QA",
+        "statusCategory": "new",
+        "assignee": "Gerardo Romero",
+        "updated": "2026-11-06T20:48:45.726+0000",
+        "priority": "Minor",
         "labels": [
           "Needs-QA"
         ]
