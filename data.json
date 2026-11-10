@@ -1,20 +1,18 @@
 {
-  "lastUpdated": "2026-11-10T12:14:30.306744+00:00",
+  "lastUpdated": "2026-11-10T21:40:38.674598+00:00",
   "jira": {
     "summary": {
       "total": 481,
       "byStatus": {
-        "IN QA": 1,
+        "Tech Review": 5,
+        "PENDING DEV DEPLOY": 3,
+        "In Progress": 4,
         "Ready for Refinement": 3,
         "QA Approved": 5,
-        "In Progress": 3,
-        "Ready": 7,
+        "Ready": 6,
         "Deprecated": 24,
         "Pre-prioritized": 1,
-        "RETURNED BY QA": 1,
-        "Tech Review": 5,
         "Done": 412,
-        "PENDING DEV DEPLOY": 1,
         "Backlog": 14,
         "Blocked": 2,
         "IN UAT": 1,
@@ -26,14 +24,67 @@
         "key": "WSC-1812",
         "url": "https://e2x.atlassian.net/browse/WSC-1812",
         "summary": "PERSONALISED CONTENT - preview URL by segment",
-        "status": "IN QA",
+        "status": "Tech Review",
         "statusCategory": "indeterminate",
-        "assignee": "Gerardo Romero",
-        "updated": "2026-11-10T12:12:04.115+0000",
+        "assignee": "Alexander Talavera",
+        "updated": "2026-11-10T20:36:19.083+0000",
         "priority": "Major",
         "labels": [
           "Needs-QA",
           "accelerated"
+        ]
+      },
+      {
+        "key": "WSC-1811",
+        "url": "https://e2x.atlassian.net/browse/WSC-1811",
+        "summary": "PLP - Append Customer Facing Colour to Product Card Titles",
+        "status": "Tech Review",
+        "statusCategory": "indeterminate",
+        "assignee": "Alexander Talavera",
+        "updated": "2026-11-10T20:05:28.411+0000",
+        "priority": "Major",
+        "labels": [
+          "Needs-QA"
+        ]
+      },
+      {
+        "key": "WSC-1782",
+        "url": "https://e2x.atlassian.net/browse/WSC-1782",
+        "summary": "CHECKOUT - Only UK: Calling for collection locations",
+        "status": "PENDING DEV DEPLOY",
+        "statusCategory": "new",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-11-10T20:01:02.160+0000",
+        "priority": "Minor",
+        "labels": [
+          "Needs-QA"
+        ]
+      },
+      {
+        "key": "WSC-1776",
+        "url": "https://e2x.atlassian.net/browse/WSC-1776",
+        "summary": "SLIM BANNER - personalisation",
+        "status": "PENDING DEV DEPLOY",
+        "statusCategory": "new",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-11-10T20:00:49.483+0000",
+        "priority": "Major",
+        "labels": [
+          "Needs-QA"
+        ]
+      },
+      {
+        "key": "WSC-1699",
+        "url": "https://e2x.atlassian.net/browse/WSC-1699",
+        "summary": "PLP - single image roll over issue",
+        "status": "In Progress",
+        "statusCategory": "indeterminate",
+        "assignee": "Alexander Talavera",
+        "updated": "2026-11-10T12:34:52.909+0000",
+        "priority": "Minor",
+        "labels": [
+          "Needs-QA",
+          "manualQA"
         ]
       },
       {
@@ -175,32 +226,6 @@
         ]
       },
       {
-        "key": "WSC-1811",
-        "url": "https://e2x.atlassian.net/browse/WSC-1811",
-        "summary": "PLP - Append Customer Facing Colour to Product Card Titles",
-        "status": "RETURNED BY QA",
-        "statusCategory": "indeterminate",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-11-09T13:06:52.522+0000",
-        "priority": "Major",
-        "labels": [
-          "Needs-QA"
-        ]
-      },
-      {
-        "key": "WSC-1782",
-        "url": "https://e2x.atlassian.net/browse/WSC-1782",
-        "summary": "CHECKOUT - Only UK: Calling for collection locations",
-        "status": "Tech Review",
-        "statusCategory": "indeterminate",
-        "assignee": "Alexander Talavera",
-        "updated": "2026-11-08T23:41:51.075+0000",
-        "priority": "Minor",
-        "labels": [
-          "Needs-QA"
-        ]
-      },
-      {
         "key": "WSC-1790",
         "url": "https://e2x.atlassian.net/browse/WSC-1790",
         "summary": "SECURITY - block public access to DEV & UAT",
@@ -208,19 +233,6 @@
         "statusCategory": "indeterminate",
         "assignee": "enmanuel.ramirez",
         "updated": "2026-11-08T23:02:17.692+0000",
-        "priority": "Major",
-        "labels": [
-          "Needs-QA"
-        ]
-      },
-      {
-        "key": "WSC-1776",
-        "url": "https://e2x.atlassian.net/browse/WSC-1776",
-        "summary": "SLIM BANNER - personalisation",
-        "status": "Tech Review",
-        "statusCategory": "indeterminate",
-        "assignee": "Alexander Talavera",
-        "updated": "2026-11-08T22:18:24.522+0000",
         "priority": "Major",
         "labels": [
           "Needs-QA"
@@ -286,20 +298,6 @@
         "priority": "Major",
         "labels": [
           "Needs-QA"
-        ]
-      },
-      {
-        "key": "WSC-1699",
-        "url": "https://e2x.atlassian.net/browse/WSC-1699",
-        "summary": "PLP - single image roll over issue",
-        "status": "Ready",
-        "statusCategory": "new",
-        "assignee": "Alexander Talavera",
-        "updated": "2026-11-06T15:27:50.700+0000",
-        "priority": "Minor",
-        "labels": [
-          "Needs-QA",
-          "manualQA"
         ]
       },
       {
