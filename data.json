@@ -1,15 +1,14 @@
 {
-  "lastUpdated": "2026-11-10T02:34:38.594174+00:00",
+  "lastUpdated": "2026-11-10T12:14:30.306744+00:00",
   "jira": {
     "summary": {
       "total": 481,
       "byStatus": {
-        "Ready to QA": 1,
-        "QA Approved": 4,
         "IN QA": 1,
+        "Ready for Refinement": 3,
+        "QA Approved": 5,
         "In Progress": 3,
         "Ready": 7,
-        "Ready for Refinement": 3,
         "Deprecated": 24,
         "Pre-prioritized": 1,
         "RETURNED BY QA": 1,
@@ -24,13 +23,40 @@
     },
     "tickets": [
       {
+        "key": "WSC-1812",
+        "url": "https://e2x.atlassian.net/browse/WSC-1812",
+        "summary": "PERSONALISED CONTENT - preview URL by segment",
+        "status": "IN QA",
+        "statusCategory": "indeterminate",
+        "assignee": "Gerardo Romero",
+        "updated": "2026-11-10T12:12:04.115+0000",
+        "priority": "Major",
+        "labels": [
+          "Needs-QA",
+          "accelerated"
+        ]
+      },
+      {
+        "key": "WSC-1854",
+        "url": "https://e2x.atlassian.net/browse/WSC-1854",
+        "summary": "TRUE FIT - in the mini bag",
+        "status": "Ready for Refinement",
+        "statusCategory": "new",
+        "assignee": "Unassigned",
+        "updated": "2026-11-10T08:35:03.783+0000",
+        "priority": "Minor",
+        "labels": [
+          "Needs-QA"
+        ]
+      },
+      {
         "key": "WSC-1803",
         "url": "https://e2x.atlassian.net/browse/WSC-1803",
         "summary": "MINI BAG - minor adjustments",
-        "status": "Ready to QA",
-        "statusCategory": "new",
+        "status": "QA Approved",
+        "statusCategory": "indeterminate",
         "assignee": "Gerardo Romero",
-        "updated": "2026-11-10T02:20:04.868+0000",
+        "updated": "2026-11-10T02:50:13.193+0000",
         "priority": "Minor",
         "labels": [
           "Needs-QA"
@@ -59,20 +85,6 @@
         "updated": "2026-11-09T21:41:03.015+0000",
         "priority": "Trivial",
         "labels": []
-      },
-      {
-        "key": "WSC-1812",
-        "url": "https://e2x.atlassian.net/browse/WSC-1812",
-        "summary": "PERSONALISED CONTENT - preview URL by segment",
-        "status": "IN QA",
-        "statusCategory": "indeterminate",
-        "assignee": "Gerardo Romero",
-        "updated": "2026-11-09T21:08:02.561+0000",
-        "priority": "Major",
-        "labels": [
-          "Needs-QA",
-          "accelerated"
-        ]
       },
       {
         "key": "WSC-1853",
@@ -160,19 +172,6 @@
         "labels": [
           "CSP",
           "NO_QA_REQUIRED"
-        ]
-      },
-      {
-        "key": "WSC-1854",
-        "url": "https://e2x.atlassian.net/browse/WSC-1854",
-        "summary": "TRUE FIT - in the bag and mini bag",
-        "status": "Ready for Refinement",
-        "statusCategory": "new",
-        "assignee": "Unassigned",
-        "updated": "2026-11-09T15:07:05.437+0000",
-        "priority": "Minor",
-        "labels": [
-          "Needs-QA"
         ]
       },
       {
