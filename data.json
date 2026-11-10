@@ -1,27 +1,193 @@
 {
-  "lastUpdated": "2026-11-09T05:03:19.692307+00:00",
+  "lastUpdated": "2026-11-10T02:34:38.594174+00:00",
   "jira": {
     "summary": {
       "total": 481,
       "byStatus": {
-        "Tech Review": 5,
-        "In Progress": 3,
-        "Ready to QA": 4,
-        "QA Approved": 2,
-        "Ready": 7,
+        "Ready to QA": 1,
+        "QA Approved": 4,
         "IN QA": 1,
+        "In Progress": 3,
+        "Ready": 7,
         "Ready for Refinement": 3,
+        "Deprecated": 24,
+        "Pre-prioritized": 1,
+        "RETURNED BY QA": 1,
+        "Tech Review": 5,
         "Done": 412,
         "PENDING DEV DEPLOY": 1,
-        "Backlog": 15,
-        "Deprecated": 23,
-        "Pre-prioritized": 1,
+        "Backlog": 14,
         "Blocked": 2,
         "IN UAT": 1,
         "READY FOR RELEASE": 1
       }
     },
     "tickets": [
+      {
+        "key": "WSC-1803",
+        "url": "https://e2x.atlassian.net/browse/WSC-1803",
+        "summary": "MINI BAG - minor adjustments",
+        "status": "Ready to QA",
+        "statusCategory": "new",
+        "assignee": "Gerardo Romero",
+        "updated": "2026-11-10T02:20:04.868+0000",
+        "priority": "Minor",
+        "labels": [
+          "Needs-QA"
+        ]
+      },
+      {
+        "key": "WSC-1801",
+        "url": "https://e2x.atlassian.net/browse/WSC-1801",
+        "summary": "SHOP PAGE - SEO amendment",
+        "status": "QA Approved",
+        "statusCategory": "indeterminate",
+        "assignee": "Gerardo Romero",
+        "updated": "2026-11-09T21:41:28.537+0000",
+        "priority": "Minor",
+        "labels": [
+          "Needs-QA"
+        ]
+      },
+      {
+        "key": "WSC-1401",
+        "url": "https://e2x.atlassian.net/browse/WSC-1401",
+        "summary": "PDP - Stylitics amendment",
+        "status": "QA Approved",
+        "statusCategory": "indeterminate",
+        "assignee": "Gerardo Romero",
+        "updated": "2026-11-09T21:41:03.015+0000",
+        "priority": "Trivial",
+        "labels": []
+      },
+      {
+        "key": "WSC-1812",
+        "url": "https://e2x.atlassian.net/browse/WSC-1812",
+        "summary": "PERSONALISED CONTENT - preview URL by segment",
+        "status": "IN QA",
+        "statusCategory": "indeterminate",
+        "assignee": "Gerardo Romero",
+        "updated": "2026-11-09T21:08:02.561+0000",
+        "priority": "Major",
+        "labels": [
+          "Needs-QA",
+          "accelerated"
+        ]
+      },
+      {
+        "key": "WSC-1853",
+        "url": "https://e2x.atlassian.net/browse/WSC-1853",
+        "summary": "[WS] Monthly vulnerability review (Snyk) Nov for Oct 2026 Maintain Report",
+        "status": "In Progress",
+        "statusCategory": "indeterminate",
+        "assignee": "Rafael Paranagu\u00e1",
+        "updated": "2026-11-09T18:21:46.707+0000",
+        "priority": "Not Set",
+        "labels": []
+      },
+      {
+        "key": "WSC-1791",
+        "url": "https://e2x.atlassian.net/browse/WSC-1791",
+        "summary": "API 404 error - https://www.whitestuff.com/api/ampl/getContent",
+        "status": "Ready",
+        "statusCategory": "new",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-11-09T15:35:41.957+0000",
+        "priority": "Minor",
+        "labels": [
+          "NO_QA_REQUIRED"
+        ]
+      },
+      {
+        "key": "WSC-1738",
+        "url": "https://e2x.atlassian.net/browse/WSC-1738",
+        "summary": "JS ERROR - ResizeObserver loop completed with undelivered notifications",
+        "status": "Ready",
+        "statusCategory": "new",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-11-09T15:35:36.065+0000",
+        "priority": "Minor",
+        "labels": [
+          "Needs-QA"
+        ]
+      },
+      {
+        "key": "WSC-173",
+        "url": "https://e2x.atlassian.net/browse/WSC-173",
+        "summary": "SEO - fix to product schema for PDP for reviews and ratings",
+        "status": "Ready for Refinement",
+        "statusCategory": "new",
+        "assignee": "Unassigned",
+        "updated": "2026-11-09T15:19:43.808+0000",
+        "priority": "Minor",
+        "labels": [
+          "Needs-QA"
+        ]
+      },
+      {
+        "key": "WSC-1711",
+        "url": "https://e2x.atlassian.net/browse/WSC-1711",
+        "summary": "Mobile: PDP - Stylitics - SHOP CTA appears grayed out or disappears / images shrink when interacting with item images on mobile",
+        "status": "Deprecated",
+        "statusCategory": "done",
+        "assignee": "Unassigned",
+        "updated": "2026-11-09T15:17:24.705+0000",
+        "priority": "Trivial",
+        "labels": [
+          "Needs-QA"
+        ]
+      },
+      {
+        "key": "WSC-1629",
+        "url": "https://e2x.atlassian.net/browse/WSC-1629",
+        "summary": "SPIKE - product family for multi-item products (PLP/PDP)",
+        "status": "Ready for Refinement",
+        "statusCategory": "new",
+        "assignee": "Unassigned",
+        "updated": "2026-11-09T15:15:34.045+0000",
+        "priority": "Major",
+        "labels": []
+      },
+      {
+        "key": "WSC-1484",
+        "url": "https://e2x.atlassian.net/browse/WSC-1484",
+        "summary": "CSP Enforcement Rollout & Hardening",
+        "status": "Pre-prioritized",
+        "statusCategory": "new",
+        "assignee": "Unassigned",
+        "updated": "2026-11-09T15:14:57.362+0000",
+        "priority": "Critical",
+        "labels": [
+          "CSP",
+          "NO_QA_REQUIRED"
+        ]
+      },
+      {
+        "key": "WSC-1854",
+        "url": "https://e2x.atlassian.net/browse/WSC-1854",
+        "summary": "TRUE FIT - in the bag and mini bag",
+        "status": "Ready for Refinement",
+        "statusCategory": "new",
+        "assignee": "Unassigned",
+        "updated": "2026-11-09T15:07:05.437+0000",
+        "priority": "Minor",
+        "labels": [
+          "Needs-QA"
+        ]
+      },
+      {
+        "key": "WSC-1811",
+        "url": "https://e2x.atlassian.net/browse/WSC-1811",
+        "summary": "PLP - Append Customer Facing Colour to Product Card Titles",
+        "status": "RETURNED BY QA",
+        "statusCategory": "indeterminate",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-11-09T13:06:52.522+0000",
+        "priority": "Major",
+        "labels": [
+          "Needs-QA"
+        ]
+      },
       {
         "key": "WSC-1782",
         "url": "https://e2x.atlassian.net/browse/WSC-1782",
@@ -62,19 +228,6 @@
         ]
       },
       {
-        "key": "WSC-1803",
-        "url": "https://e2x.atlassian.net/browse/WSC-1803",
-        "summary": "MINI BAG - minor adjustments",
-        "status": "Ready to QA",
-        "statusCategory": "new",
-        "assignee": "Gerardo Romero",
-        "updated": "2026-11-06T20:48:45.726+0000",
-        "priority": "Minor",
-        "labels": [
-          "Needs-QA"
-        ]
-      },
-      {
         "key": "WSC-1694",
         "url": "https://e2x.atlassian.net/browse/WSC-1694",
         "summary": "SLIM BANNER - improve loading speed",
@@ -102,19 +255,6 @@
         ]
       },
       {
-        "key": "WSC-1811",
-        "url": "https://e2x.atlassian.net/browse/WSC-1811",
-        "summary": "PLP - Append Customer Facing Colour to Product Card Titles",
-        "status": "Ready to QA",
-        "statusCategory": "new",
-        "assignee": "Gerardo Romero",
-        "updated": "2026-11-06T15:27:51.424+0000",
-        "priority": "Major",
-        "labels": [
-          "Needs-QA"
-        ]
-      },
-      {
         "key": "WSC-1846",
         "url": "https://e2x.atlassian.net/browse/WSC-1846",
         "summary": "[WSSD-777] - VSF promotion price issue",
@@ -133,31 +273,6 @@
         "statusCategory": "new",
         "assignee": "Gerardo Romero",
         "updated": "2026-11-06T15:27:51.163+0000",
-        "priority": "Not Set",
-        "labels": []
-      },
-      {
-        "key": "WSC-1812",
-        "url": "https://e2x.atlassian.net/browse/WSC-1812",
-        "summary": "PERSONALISED CONTENT - preview URL by segment",
-        "status": "IN QA",
-        "statusCategory": "indeterminate",
-        "assignee": "Gerardo Romero",
-        "updated": "2026-11-06T15:27:51.141+0000",
-        "priority": "Major",
-        "labels": [
-          "Needs-QA",
-          "accelerated"
-        ]
-      },
-      {
-        "key": "WSC-1853",
-        "url": "https://e2x.atlassian.net/browse/WSC-1853",
-        "summary": "[WS] Monthly vulnerability review (Snyk) Nov for Oct 2026 Maintain Report",
-        "status": "In Progress",
-        "statusCategory": "indeterminate",
-        "assignee": "Rafael Paranagu\u00e1",
-        "updated": "2026-11-06T15:27:51.132+0000",
         "priority": "Not Set",
         "labels": []
       },
@@ -189,19 +304,6 @@
         ]
       },
       {
-        "key": "WSC-1738",
-        "url": "https://e2x.atlassian.net/browse/WSC-1738",
-        "summary": "JS ERROR - ResizeObserver loop completed with undelivered notifications",
-        "status": "Ready",
-        "statusCategory": "new",
-        "assignee": "Unassigned",
-        "updated": "2026-11-06T15:27:50.484+0000",
-        "priority": "Minor",
-        "labels": [
-          "Needs-QA"
-        ]
-      },
-      {
         "key": "WSC-1749",
         "url": "https://e2x.atlassian.net/browse/WSC-1749",
         "summary": "SPIKE> Passwordless Sign-In",
@@ -211,32 +313,6 @@
         "updated": "2026-11-06T15:27:50.083+0000",
         "priority": "Major",
         "labels": []
-      },
-      {
-        "key": "WSC-1791",
-        "url": "https://e2x.atlassian.net/browse/WSC-1791",
-        "summary": "API 404 error - https://www.whitestuff.com/api/ampl/getContent",
-        "status": "Ready",
-        "statusCategory": "new",
-        "assignee": "Unassigned",
-        "updated": "2026-11-06T15:27:49.868+0000",
-        "priority": "Minor",
-        "labels": [
-          "NO_QA_REQUIRED"
-        ]
-      },
-      {
-        "key": "WSC-1801",
-        "url": "https://e2x.atlassian.net/browse/WSC-1801",
-        "summary": "SHOP PAGE - SEO amendment",
-        "status": "Ready to QA",
-        "statusCategory": "new",
-        "assignee": "Gerardo Romero",
-        "updated": "2026-11-06T15:27:49.640+0000",
-        "priority": "Minor",
-        "labels": [
-          "Needs-QA"
-        ]
       },
       {
         "key": "WSC-1800",
@@ -250,30 +326,6 @@
         "labels": [
           "Needs-QA"
         ]
-      },
-      {
-        "key": "WSC-1854",
-        "url": "https://e2x.atlassian.net/browse/WSC-1854",
-        "summary": "TRUE FIT - in the bag and mini bag",
-        "status": "Ready for Refinement",
-        "statusCategory": "new",
-        "assignee": "Unassigned",
-        "updated": "2026-11-06T10:30:47.115+0000",
-        "priority": "Minor",
-        "labels": [
-          "Needs-QA"
-        ]
-      },
-      {
-        "key": "WSC-1401",
-        "url": "https://e2x.atlassian.net/browse/WSC-1401",
-        "summary": "PDP - Stylitics amendment",
-        "status": "Ready to QA",
-        "statusCategory": "new",
-        "assignee": "Gerardo Romero",
-        "updated": "2026-11-06T04:23:52.849+0000",
-        "priority": "Trivial",
-        "labels": []
       },
       {
         "key": "WSC-1795",
@@ -357,30 +409,6 @@
         "updated": "2026-11-02T12:47:16.593+0000",
         "priority": "Not Set",
         "labels": []
-      },
-      {
-        "key": "WSC-1629",
-        "url": "https://e2x.atlassian.net/browse/WSC-1629",
-        "summary": "SPIKE - product family for multi-item products (PLP/PDP)",
-        "status": "Ready for Refinement",
-        "statusCategory": "new",
-        "assignee": "Unassigned",
-        "updated": "2026-11-02T10:58:37.808+0000",
-        "priority": "Major",
-        "labels": []
-      },
-      {
-        "key": "WSC-173",
-        "url": "https://e2x.atlassian.net/browse/WSC-173",
-        "summary": "SEO - fix to product schema for PDP for reviews and ratings",
-        "status": "Backlog",
-        "statusCategory": "new",
-        "assignee": "Unassigned",
-        "updated": "2026-11-02T10:58:37.394+0000",
-        "priority": "Minor",
-        "labels": [
-          "Needs-QA"
-        ]
       },
       {
         "key": "WSC-1833",
@@ -699,19 +727,6 @@
         "assignee": "Gerardo Romero",
         "updated": "2026-10-29T12:50:36.691+0000",
         "priority": "Major",
-        "labels": [
-          "Needs-QA"
-        ]
-      },
-      {
-        "key": "WSC-1711",
-        "url": "https://e2x.atlassian.net/browse/WSC-1711",
-        "summary": "Mobile: PDP - Stylitics - SHOP CTA appears grayed out or disappears / images shrink when interacting with item images on mobile",
-        "status": "Ready for Refinement",
-        "statusCategory": "new",
-        "assignee": "Stuart Young",
-        "updated": "2026-10-27T19:39:42.122+0000",
-        "priority": "Trivial",
         "labels": [
           "Needs-QA"
         ]
@@ -1308,20 +1323,6 @@
         "updated": "2026-10-14T13:27:02.832+0100",
         "priority": "Critical",
         "labels": []
-      },
-      {
-        "key": "WSC-1484",
-        "url": "https://e2x.atlassian.net/browse/WSC-1484",
-        "summary": "CSP Enforcement Rollout & Hardening",
-        "status": "Pre-prioritized",
-        "statusCategory": "new",
-        "assignee": "Unassigned",
-        "updated": "2026-10-13T17:34:35.633+0100",
-        "priority": "Critical",
-        "labels": [
-          "CSP",
-          "NO_QA_REQUIRED"
-        ]
       },
       {
         "key": "WSC-1382",
@@ -6028,30 +6029,21 @@
         },
         {
           "folderId": null,
+          "name": "Other",
+          "group": "Components",
+          "automated": 25,
+          "notAutomated": 3,
+          "unclassified": 0,
+          "total": 28
+        },
+        {
+          "folderId": null,
           "name": "PDP",
           "group": "Components",
           "automated": 20,
           "notAutomated": 6,
           "unclassified": 0,
           "total": 26
-        },
-        {
-          "folderId": null,
-          "name": "Other",
-          "group": "Components",
-          "automated": 16,
-          "notAutomated": 2,
-          "unclassified": 0,
-          "total": 18
-        },
-        {
-          "folderId": null,
-          "name": "Bag",
-          "group": "Components",
-          "automated": 10,
-          "notAutomated": 1,
-          "unclassified": 0,
-          "total": 11
         },
         {
           "folderId": null,
@@ -6092,6 +6084,15 @@
         {
           "folderId": null,
           "name": "Homepage",
+          "group": "Components",
+          "automated": 1,
+          "notAutomated": 0,
+          "unclassified": 0,
+          "total": 1
+        },
+        {
+          "folderId": null,
+          "name": "Bag",
           "group": "Components",
           "automated": 1,
           "notAutomated": 0,
