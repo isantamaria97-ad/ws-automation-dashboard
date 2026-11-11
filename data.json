@@ -1,18 +1,19 @@
 {
-  "lastUpdated": "2026-11-11T05:05:18.778396+00:00",
+  "lastUpdated": "2026-11-11T15:54:37.367120+00:00",
   "jira": {
     "summary": {
       "total": 481,
       "byStatus": {
-        "In Progress": 4,
-        "Tech Review": 5,
-        "PENDING DEV DEPLOY": 3,
+        "Ready to QA": 3,
+        "In Progress": 3,
+        "Tech Review": 6,
         "Ready for Refinement": 3,
         "QA Approved": 5,
-        "Ready": 6,
+        "Ready": 5,
         "Deprecated": 24,
         "Pre-prioritized": 1,
         "Done": 412,
+        "PENDING DEV DEPLOY": 1,
         "Backlog": 14,
         "Blocked": 2,
         "IN UAT": 1,
@@ -24,15 +25,52 @@
         "key": "WSC-1699",
         "url": "https://e2x.atlassian.net/browse/WSC-1699",
         "summary": "PLP - single image roll over issue",
-        "status": "In Progress",
-        "statusCategory": "indeterminate",
-        "assignee": "Alexander Talavera",
-        "updated": "2026-11-11T01:41:27.863+0000",
+        "status": "Ready to QA",
+        "statusCategory": "new",
+        "assignee": "Unassigned",
+        "updated": "2026-11-11T13:19:56.994+0000",
         "priority": "Minor",
         "labels": [
           "Needs-QA",
           "manualQA"
         ]
+      },
+      {
+        "key": "WSC-1782",
+        "url": "https://e2x.atlassian.net/browse/WSC-1782",
+        "summary": "CHECKOUT - Only UK: Calling for collection locations",
+        "status": "Ready to QA",
+        "statusCategory": "new",
+        "assignee": "Unassigned",
+        "updated": "2026-11-11T12:49:41.168+0000",
+        "priority": "Minor",
+        "labels": [
+          "Needs-QA"
+        ]
+      },
+      {
+        "key": "WSC-1776",
+        "url": "https://e2x.atlassian.net/browse/WSC-1776",
+        "summary": "SLIM BANNER - personalisation",
+        "status": "Ready to QA",
+        "statusCategory": "new",
+        "assignee": "Unassigned",
+        "updated": "2026-11-11T12:48:30.797+0000",
+        "priority": "Major",
+        "labels": [
+          "Needs-QA"
+        ]
+      },
+      {
+        "key": "WSC-1853",
+        "url": "https://e2x.atlassian.net/browse/WSC-1853",
+        "summary": "[WS] Monthly vulnerability review (Snyk) Nov for Oct 2026 Maintain Report",
+        "status": "In Progress",
+        "statusCategory": "indeterminate",
+        "assignee": "Rafael Paranagu\u00e1",
+        "updated": "2026-11-11T12:36:21.667+0000",
+        "priority": "Not Set",
+        "labels": []
       },
       {
         "key": "WSC-1812",
@@ -41,11 +79,37 @@
         "status": "Tech Review",
         "statusCategory": "indeterminate",
         "assignee": "Alexander Talavera",
-        "updated": "2026-11-10T20:36:19.083+0000",
+        "updated": "2026-11-11T11:43:16.964+0000",
         "priority": "Major",
         "labels": [
           "Needs-QA",
           "accelerated"
+        ]
+      },
+      {
+        "key": "WSC-1817",
+        "url": "https://e2x.atlassian.net/browse/WSC-1817",
+        "summary": "SALE BADGES - Amplience control",
+        "status": "Tech Review",
+        "statusCategory": "indeterminate",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-11-11T10:39:54.401+0000",
+        "priority": "Major",
+        "labels": [
+          "Needs-QA"
+        ]
+      },
+      {
+        "key": "WSC-1800",
+        "url": "https://e2x.atlassian.net/browse/WSC-1800",
+        "summary": "SHOP FINDER - SEO page enhancements",
+        "status": "In Progress",
+        "statusCategory": "indeterminate",
+        "assignee": "Chiara Davies",
+        "updated": "2026-11-11T09:21:38.712+0000",
+        "priority": "Minor",
+        "labels": [
+          "Needs-QA"
         ]
       },
       {
@@ -56,32 +120,6 @@
         "statusCategory": "indeterminate",
         "assignee": "Alexander Talavera",
         "updated": "2026-11-10T20:05:28.411+0000",
-        "priority": "Major",
-        "labels": [
-          "Needs-QA"
-        ]
-      },
-      {
-        "key": "WSC-1782",
-        "url": "https://e2x.atlassian.net/browse/WSC-1782",
-        "summary": "CHECKOUT - Only UK: Calling for collection locations",
-        "status": "PENDING DEV DEPLOY",
-        "statusCategory": "new",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-11-10T20:01:02.160+0000",
-        "priority": "Minor",
-        "labels": [
-          "Needs-QA"
-        ]
-      },
-      {
-        "key": "WSC-1776",
-        "url": "https://e2x.atlassian.net/browse/WSC-1776",
-        "summary": "SLIM BANNER - personalisation",
-        "status": "PENDING DEV DEPLOY",
-        "statusCategory": "new",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-11-10T20:00:49.483+0000",
         "priority": "Major",
         "labels": [
           "Needs-QA"
@@ -135,17 +173,6 @@
         "assignee": "Gerardo Romero",
         "updated": "2026-11-09T21:41:03.015+0000",
         "priority": "Trivial",
-        "labels": []
-      },
-      {
-        "key": "WSC-1853",
-        "url": "https://e2x.atlassian.net/browse/WSC-1853",
-        "summary": "[WS] Monthly vulnerability review (Snyk) Nov for Oct 2026 Maintain Report",
-        "status": "In Progress",
-        "statusCategory": "indeterminate",
-        "assignee": "Rafael Paranagu\u00e1",
-        "updated": "2026-11-09T18:21:46.707+0000",
-        "priority": "Not Set",
         "labels": []
       },
       {
@@ -288,19 +315,6 @@
         "labels": []
       },
       {
-        "key": "WSC-1817",
-        "url": "https://e2x.atlassian.net/browse/WSC-1817",
-        "summary": "SALE BADGES - Amplience control",
-        "status": "In Progress",
-        "statusCategory": "indeterminate",
-        "assignee": "Chiara Davies",
-        "updated": "2026-11-06T15:27:50.900+0000",
-        "priority": "Major",
-        "labels": [
-          "Needs-QA"
-        ]
-      },
-      {
         "key": "WSC-1749",
         "url": "https://e2x.atlassian.net/browse/WSC-1749",
         "summary": "SPIKE> Passwordless Sign-In",
@@ -310,19 +324,6 @@
         "updated": "2026-11-06T15:27:50.083+0000",
         "priority": "Major",
         "labels": []
-      },
-      {
-        "key": "WSC-1800",
-        "url": "https://e2x.atlassian.net/browse/WSC-1800",
-        "summary": "SHOP FINDER - SEO page enhancements",
-        "status": "Ready",
-        "statusCategory": "new",
-        "assignee": "Chiara Davies",
-        "updated": "2026-11-06T15:27:49.405+0000",
-        "priority": "Minor",
-        "labels": [
-          "Needs-QA"
-        ]
       },
       {
         "key": "WSC-1795",
