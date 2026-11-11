@@ -1,12 +1,12 @@
 {
-  "lastUpdated": "2026-11-10T21:40:38.674598+00:00",
+  "lastUpdated": "2026-11-11T05:05:18.778396+00:00",
   "jira": {
     "summary": {
       "total": 481,
       "byStatus": {
+        "In Progress": 4,
         "Tech Review": 5,
         "PENDING DEV DEPLOY": 3,
-        "In Progress": 4,
         "Ready for Refinement": 3,
         "QA Approved": 5,
         "Ready": 6,
@@ -20,6 +20,20 @@
       }
     },
     "tickets": [
+      {
+        "key": "WSC-1699",
+        "url": "https://e2x.atlassian.net/browse/WSC-1699",
+        "summary": "PLP - single image roll over issue",
+        "status": "In Progress",
+        "statusCategory": "indeterminate",
+        "assignee": "Alexander Talavera",
+        "updated": "2026-11-11T01:41:27.863+0000",
+        "priority": "Minor",
+        "labels": [
+          "Needs-QA",
+          "manualQA"
+        ]
+      },
       {
         "key": "WSC-1812",
         "url": "https://e2x.atlassian.net/browse/WSC-1812",
@@ -71,20 +85,6 @@
         "priority": "Major",
         "labels": [
           "Needs-QA"
-        ]
-      },
-      {
-        "key": "WSC-1699",
-        "url": "https://e2x.atlassian.net/browse/WSC-1699",
-        "summary": "PLP - single image roll over issue",
-        "status": "In Progress",
-        "statusCategory": "indeterminate",
-        "assignee": "Alexander Talavera",
-        "updated": "2026-11-10T12:34:52.909+0000",
-        "priority": "Minor",
-        "labels": [
-          "Needs-QA",
-          "manualQA"
         ]
       },
       {
