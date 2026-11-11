@@ -1,12 +1,13 @@
 {
-  "lastUpdated": "2026-11-11T15:54:37.367120+00:00",
+  "lastUpdated": "2026-11-11T22:30:52.328140+00:00",
   "jira": {
     "summary": {
       "total": 481,
       "byStatus": {
-        "Ready to QA": 3,
-        "In Progress": 3,
         "Tech Review": 6,
+        "IN QA": 2,
+        "Ready to QA": 1,
+        "In Progress": 3,
         "Ready for Refinement": 3,
         "QA Approved": 5,
         "Ready": 5,
@@ -22,13 +23,39 @@
     },
     "tickets": [
       {
+        "key": "WSC-1817",
+        "url": "https://e2x.atlassian.net/browse/WSC-1817",
+        "summary": "SALE BADGES - Amplience control",
+        "status": "Tech Review",
+        "statusCategory": "indeterminate",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-11-11T22:29:43.872+0000",
+        "priority": "Major",
+        "labels": [
+          "Needs-QA"
+        ]
+      },
+      {
+        "key": "WSC-1776",
+        "url": "https://e2x.atlassian.net/browse/WSC-1776",
+        "summary": "SLIM BANNER - personalisation",
+        "status": "IN QA",
+        "statusCategory": "indeterminate",
+        "assignee": "Gerardo Romero",
+        "updated": "2026-11-11T21:23:28.152+0000",
+        "priority": "Major",
+        "labels": [
+          "Needs-QA"
+        ]
+      },
+      {
         "key": "WSC-1699",
         "url": "https://e2x.atlassian.net/browse/WSC-1699",
         "summary": "PLP - single image roll over issue",
-        "status": "Ready to QA",
-        "statusCategory": "new",
-        "assignee": "Unassigned",
-        "updated": "2026-11-11T13:19:56.994+0000",
+        "status": "IN QA",
+        "statusCategory": "indeterminate",
+        "assignee": "Gerardo Romero",
+        "updated": "2026-11-11T20:01:14.527+0000",
         "priority": "Minor",
         "labels": [
           "Needs-QA",
@@ -41,22 +68,9 @@
         "summary": "CHECKOUT - Only UK: Calling for collection locations",
         "status": "Ready to QA",
         "statusCategory": "new",
-        "assignee": "Unassigned",
-        "updated": "2026-11-11T12:49:41.168+0000",
+        "assignee": "Juan Carlos Coello",
+        "updated": "2026-11-11T18:15:05.908+0000",
         "priority": "Minor",
-        "labels": [
-          "Needs-QA"
-        ]
-      },
-      {
-        "key": "WSC-1776",
-        "url": "https://e2x.atlassian.net/browse/WSC-1776",
-        "summary": "SLIM BANNER - personalisation",
-        "status": "Ready to QA",
-        "statusCategory": "new",
-        "assignee": "Unassigned",
-        "updated": "2026-11-11T12:48:30.797+0000",
-        "priority": "Major",
         "labels": [
           "Needs-QA"
         ]
@@ -84,19 +98,6 @@
         "labels": [
           "Needs-QA",
           "accelerated"
-        ]
-      },
-      {
-        "key": "WSC-1817",
-        "url": "https://e2x.atlassian.net/browse/WSC-1817",
-        "summary": "SALE BADGES - Amplience control",
-        "status": "Tech Review",
-        "statusCategory": "indeterminate",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-11-11T10:39:54.401+0000",
-        "priority": "Major",
-        "labels": [
-          "Needs-QA"
         ]
       },
       {
