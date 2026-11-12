@@ -1,20 +1,20 @@
 {
-  "lastUpdated": "2026-11-12T06:09:57.411372+00:00",
+  "lastUpdated": "2026-11-12T16:38:02.201240+00:00",
   "jira": {
     "summary": {
       "total": 481,
       "byStatus": {
-        "Ready to QA": 2,
-        "IN QA": 2,
-        "PENDING DEV DEPLOY": 3,
+        "IN QA": 3,
+        "Ready to QA": 3,
         "In Progress": 3,
-        "Ready for Refinement": 3,
-        "QA Approved": 5,
         "Ready": 5,
-        "Deprecated": 24,
-        "Pre-prioritized": 1,
+        "QA Approved": 5,
         "Tech Review": 3,
         "Done": 412,
+        "Ready for Refinement": 3,
+        "Deprecated": 24,
+        "Pre-prioritized": 1,
+        "PENDING DEV DEPLOY": 1,
         "Backlog": 14,
         "Blocked": 2,
         "IN UAT": 1,
@@ -23,17 +23,108 @@
     },
     "tickets": [
       {
-        "key": "WSC-1817",
-        "url": "https://e2x.atlassian.net/browse/WSC-1817",
-        "summary": "SALE BADGES - Amplience control",
+        "key": "WSC-1782",
+        "url": "https://e2x.atlassian.net/browse/WSC-1782",
+        "summary": "CHECKOUT - Only UK: Calling for collection locations",
+        "status": "IN QA",
+        "statusCategory": "indeterminate",
+        "assignee": "Juan Carlos Coello",
+        "updated": "2026-11-12T15:33:37.471+0000",
+        "priority": "Minor",
+        "labels": [
+          "Needs-QA"
+        ]
+      },
+      {
+        "key": "WSC-1812",
+        "url": "https://e2x.atlassian.net/browse/WSC-1812",
+        "summary": "PERSONALISED CONTENT - preview URL by segment",
         "status": "Ready to QA",
         "statusCategory": "new",
         "assignee": "Gerardo Romero",
-        "updated": "2026-11-12T03:38:35.367+0000",
+        "updated": "2026-11-12T14:49:21.544+0000",
+        "priority": "Major",
+        "labels": [
+          "Needs-QA",
+          "accelerated"
+        ]
+      },
+      {
+        "key": "WSC-1811",
+        "url": "https://e2x.atlassian.net/browse/WSC-1811",
+        "summary": "PLP - Append Customer Facing Colour to Product Card Titles",
+        "status": "Ready to QA",
+        "statusCategory": "new",
+        "assignee": "Juan Carlos Coello",
+        "updated": "2026-11-12T14:41:28.655+0000",
         "priority": "Major",
         "labels": [
           "Needs-QA"
         ]
+      },
+      {
+        "key": "WSC-1790",
+        "url": "https://e2x.atlassian.net/browse/WSC-1790",
+        "summary": "SECURITY - block public access to DEV & UAT",
+        "status": "In Progress",
+        "statusCategory": "indeterminate",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-11-12T12:59:24.449+0000",
+        "priority": "Major",
+        "labels": [
+          "Needs-QA"
+        ]
+      },
+      {
+        "key": "WSC-1791",
+        "url": "https://e2x.atlassian.net/browse/WSC-1791",
+        "summary": "API 404 error - https://www.whitestuff.com/api/ampl/getContent",
+        "status": "Ready",
+        "statusCategory": "new",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-11-12T12:59:23.975+0000",
+        "priority": "Minor",
+        "labels": [
+          "NO_QA_REQUIRED"
+        ]
+      },
+      {
+        "key": "WSC-1694",
+        "url": "https://e2x.atlassian.net/browse/WSC-1694",
+        "summary": "SLIM BANNER - improve loading speed",
+        "status": "QA Approved",
+        "statusCategory": "indeterminate",
+        "assignee": "Gerardo Romero",
+        "updated": "2026-11-12T12:59:23.042+0000",
+        "priority": "Major",
+        "labels": [
+          "Needs-QA",
+          "manualQA"
+        ]
+      },
+      {
+        "key": "WSC-1696",
+        "url": "https://e2x.atlassian.net/browse/WSC-1696",
+        "summary": "SEO TEXT BLOCK - minor amendment",
+        "status": "QA Approved",
+        "statusCategory": "indeterminate",
+        "assignee": "Gerardo Romero",
+        "updated": "2026-11-12T12:59:22.592+0000",
+        "priority": "Minor",
+        "labels": [
+          "Needs-QA"
+        ]
+      },
+      {
+        "key": "WSC-1401",
+        "url": "https://e2x.atlassian.net/browse/WSC-1401",
+        "summary": "PDP - Stylitics amendment",
+        "status": "QA Approved",
+        "statusCategory": "indeterminate",
+        "assignee": "Gerardo Romero",
+        "updated": "2026-11-12T12:59:22.170+0000",
+        "priority": "Trivial",
+        "labels": []
       },
       {
         "key": "WSC-1699",
@@ -42,7 +133,7 @@
         "status": "IN QA",
         "statusCategory": "indeterminate",
         "assignee": "Gerardo Romero",
-        "updated": "2026-11-12T03:34:07.740+0000",
+        "updated": "2026-11-12T12:59:21.664+0000",
         "priority": "Minor",
         "labels": [
           "Needs-QA",
@@ -56,20 +147,184 @@
         "status": "IN QA",
         "statusCategory": "indeterminate",
         "assignee": "Gerardo Romero",
-        "updated": "2026-11-12T03:30:47.795+0000",
+        "updated": "2026-11-12T12:59:21.236+0000",
         "priority": "Major",
         "labels": [
           "Needs-QA"
         ]
       },
       {
-        "key": "WSC-1812",
-        "url": "https://e2x.atlassian.net/browse/WSC-1812",
-        "summary": "PERSONALISED CONTENT - preview URL by segment",
-        "status": "PENDING DEV DEPLOY",
+        "key": "WSC-1800",
+        "url": "https://e2x.atlassian.net/browse/WSC-1800",
+        "summary": "SHOP FINDER - SEO page enhancements",
+        "status": "In Progress",
+        "statusCategory": "indeterminate",
+        "assignee": "Chiara Davies",
+        "updated": "2026-11-12T12:59:19.713+0000",
+        "priority": "Minor",
+        "labels": [
+          "Needs-QA"
+        ]
+      },
+      {
+        "key": "WSC-1801",
+        "url": "https://e2x.atlassian.net/browse/WSC-1801",
+        "summary": "SHOP PAGE - SEO amendment",
+        "status": "QA Approved",
+        "statusCategory": "indeterminate",
+        "assignee": "Gerardo Romero",
+        "updated": "2026-11-12T12:59:19.354+0000",
+        "priority": "Minor",
+        "labels": [
+          "Needs-QA"
+        ]
+      },
+      {
+        "key": "WSC-1803",
+        "url": "https://e2x.atlassian.net/browse/WSC-1803",
+        "summary": "MINI BAG - minor adjustments",
+        "status": "QA Approved",
+        "statusCategory": "indeterminate",
+        "assignee": "Gerardo Romero",
+        "updated": "2026-11-12T12:59:17.891+0000",
+        "priority": "Minor",
+        "labels": [
+          "Needs-QA"
+        ]
+      },
+      {
+        "key": "WSC-1738",
+        "url": "https://e2x.atlassian.net/browse/WSC-1738",
+        "summary": "JS ERROR - ResizeObserver loop completed with undelivered notifications",
+        "status": "Ready",
         "statusCategory": "new",
         "assignee": "enmanuel.ramirez",
-        "updated": "2026-11-12T03:24:31.699+0000",
+        "updated": "2026-11-12T12:59:17.412+0000",
+        "priority": "Minor",
+        "labels": [
+          "Needs-QA"
+        ]
+      },
+      {
+        "key": "WSC-1749",
+        "url": "https://e2x.atlassian.net/browse/WSC-1749",
+        "summary": "SPIKE> Passwordless Sign-In",
+        "status": "Tech Review",
+        "statusCategory": "indeterminate",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-11-12T12:59:16.906+0000",
+        "priority": "Major",
+        "labels": []
+      },
+      {
+        "key": "WSC-1817",
+        "url": "https://e2x.atlassian.net/browse/WSC-1817",
+        "summary": "SALE BADGES - Amplience control",
+        "status": "Ready to QA",
+        "statusCategory": "new",
+        "assignee": "Gerardo Romero",
+        "updated": "2026-11-12T12:59:16.006+0000",
+        "priority": "Major",
+        "labels": [
+          "Needs-QA"
+        ]
+      },
+      {
+        "key": "WSC-1690",
+        "url": "https://e2x.atlassian.net/browse/WSC-1690",
+        "summary": "SPIKE - PLP and PDP colour swatches",
+        "status": "Done",
+        "statusCategory": "done",
+        "assignee": "Unassigned",
+        "updated": "2026-11-12T12:59:15.470+0000",
+        "priority": "Major",
+        "labels": []
+      },
+      {
+        "key": "WSC-1670",
+        "url": "https://e2x.atlassian.net/browse/WSC-1670",
+        "summary": "WS-PR - PDP - shop stock look-up",
+        "status": "Done",
+        "statusCategory": "done",
+        "assignee": "Gerardo Romero",
+        "updated": "2026-11-12T12:59:14.966+0000",
+        "priority": "Critical",
+        "labels": [
+          "Needs-QA",
+          "automatable"
+        ]
+      },
+      {
+        "key": "WSC-1774",
+        "url": "https://e2x.atlassian.net/browse/WSC-1774",
+        "summary": "PDP - Mobile - collapse review <div> when product has 0 ratings",
+        "status": "Done",
+        "statusCategory": "done",
+        "assignee": "Gerardo Romero",
+        "updated": "2026-11-12T12:59:13.890+0000",
+        "priority": "Major",
+        "labels": [
+          "Needs-QA"
+        ]
+      },
+      {
+        "key": "WSC-1754",
+        "url": "https://e2x.atlassian.net/browse/WSC-1754",
+        "summary": "SEO - PLP/Search results - add colour to H2 product name",
+        "status": "Done",
+        "statusCategory": "done",
+        "assignee": "Unassigned",
+        "updated": "2026-11-12T12:59:13.354+0000",
+        "priority": "Major",
+        "labels": [
+          "Needs-QA"
+        ]
+      },
+      {
+        "key": "WSC-1777",
+        "url": "https://e2x.atlassian.net/browse/WSC-1777",
+        "summary": "SLIM BANNER - URL restrictions",
+        "status": "Done",
+        "statusCategory": "done",
+        "assignee": "Gerardo Romero",
+        "updated": "2026-11-12T12:59:12.767+0000",
+        "priority": "Major",
+        "labels": []
+      },
+      {
+        "key": "WSC-1755",
+        "url": "https://e2x.atlassian.net/browse/WSC-1755",
+        "summary": "Store Locator Content Sync fails when cleaning up stores removed from the sheet (orphan cleanup)",
+        "status": "Done",
+        "statusCategory": "done",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-11-12T12:59:12.266+0000",
+        "priority": "Major",
+        "labels": [
+          "NO_QA_REQUIRED"
+        ]
+      },
+      {
+        "key": "WSC-1658",
+        "url": "https://e2x.atlassian.net/browse/WSC-1658",
+        "summary": "BAG ORDER SUMMARY - redesign",
+        "status": "Done",
+        "statusCategory": "done",
+        "assignee": "Gerardo Romero",
+        "updated": "2026-11-12T12:59:11.802+0000",
+        "priority": "Major",
+        "labels": [
+          "Needs-QA"
+        ]
+      },
+      {
+        "key": "WSC-1659",
+        "url": "https://e2x.atlassian.net/browse/WSC-1659",
+        "summary": "BAG ORDER SUMMARY - sticky CTAs on tablet/mobile",
+        "status": "Done",
+        "statusCategory": "done",
+        "assignee": "Gerardo Romero",
+        "updated": "2026-11-12T12:59:11.344+0000",
         "priority": "Major",
         "labels": [
           "Needs-QA",
@@ -77,27 +332,220 @@
         ]
       },
       {
-        "key": "WSC-1811",
-        "url": "https://e2x.atlassian.net/browse/WSC-1811",
-        "summary": "PLP - Append Customer Facing Colour to Product Card Titles",
-        "status": "PENDING DEV DEPLOY",
-        "statusCategory": "new",
+        "key": "WSC-1736",
+        "url": "https://e2x.atlassian.net/browse/WSC-1736",
+        "summary": "Spike: PERSONALISED CONTENT - preview/visualiser on a Content Page",
+        "status": "Done",
+        "statusCategory": "done",
+        "assignee": "Unassigned",
+        "updated": "2026-11-12T12:59:10.865+0000",
+        "priority": "Critical",
+        "labels": []
+      },
+      {
+        "key": "WSC-1814",
+        "url": "https://e2x.atlassian.net/browse/WSC-1814",
+        "summary": "Fix Snyk high-severity vulnerabilities",
+        "status": "Done",
+        "statusCategory": "done",
         "assignee": "enmanuel.ramirez",
-        "updated": "2026-11-12T03:24:24.864+0000",
+        "updated": "2026-11-12T12:59:10.297+0000",
+        "priority": "Major",
+        "labels": [
+          "NO_QA_REQUIRED"
+        ]
+      },
+      {
+        "key": "WSC-1739",
+        "url": "https://e2x.atlassian.net/browse/WSC-1739",
+        "summary": "CHECKOUT - BC API CHANGE (1 of 2)",
+        "status": "Done",
+        "statusCategory": "done",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-11-12T12:59:09.741+0000",
+        "priority": "Critical",
+        "labels": [
+          "NO_QA_REQUIRED"
+        ]
+      },
+      {
+        "key": "WSC-1818",
+        "url": "https://e2x.atlassian.net/browse/WSC-1818",
+        "summary": "[WSSD-766] - [Snyk] Critical vulnerability: Improper Certificate Validation in undici@6.28.1 (ad-caas-whitestuff)",
+        "status": "Done",
+        "statusCategory": "done",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-11-12T12:59:09.276+0000",
+        "priority": "Blocker",
+        "labels": [
+          "NO_QA_REQUIRED"
+        ]
+      },
+      {
+        "key": "WSC-1781",
+        "url": "https://e2x.atlassian.net/browse/WSC-1781",
+        "summary": "REVERT WSC-1499 - CHECKOUT - Amplience - Managing the delivery/collection options",
+        "status": "Done",
+        "statusCategory": "done",
+        "assignee": "Gerardo Romero",
+        "updated": "2026-11-12T12:59:08.781+0000",
+        "priority": "Minor",
+        "labels": [
+          "Needs-QA"
+        ]
+      },
+      {
+        "key": "WSC-1661",
+        "url": "https://e2x.atlassian.net/browse/WSC-1661",
+        "summary": "BAG PRODUCT SECTION - redesign",
+        "status": "Done",
+        "statusCategory": "done",
+        "assignee": "Gerardo Romero",
+        "updated": "2026-11-12T12:59:08.331+0000",
+        "priority": "Major",
+        "labels": [
+          "FastFollow",
+          "accelerated"
+        ]
+      },
+      {
+        "key": "WSC-1740",
+        "url": "https://e2x.atlassian.net/browse/WSC-1740",
+        "summary": "CHECKOUT - BC API CHANGE (2 of 2)",
+        "status": "Done",
+        "statusCategory": "done",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-11-12T12:59:07.874+0000",
+        "priority": "Major",
+        "labels": [
+          "NO_QA_REQUIRED"
+        ]
+      },
+      {
+        "key": "WSC-1686",
+        "url": "https://e2x.atlassian.net/browse/WSC-1686",
+        "summary": "[White Stuff] High Vulnerabilities Report - July 2026",
+        "status": "Done",
+        "statusCategory": "done",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-11-12T12:59:07.363+0000",
+        "priority": "Major",
+        "labels": [
+          "NO_QA_REQUIRED"
+        ]
+      },
+      {
+        "key": "WSC-1785",
+        "url": "https://e2x.atlassian.net/browse/WSC-1785",
+        "summary": "MIDDLEWARE - for shop stock look up WSC-1670",
+        "status": "Done",
+        "statusCategory": "done",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-11-12T12:59:06.885+0000",
+        "priority": "Blocker",
+        "labels": [
+          "NO_QA_REQUIRED"
+        ]
+      },
+      {
+        "key": "WSC-1786",
+        "url": "https://e2x.atlassian.net/browse/WSC-1786",
+        "summary": "PDP - new mobile image layout",
+        "status": "Done",
+        "statusCategory": "done",
+        "assignee": "Gerardo Romero",
+        "updated": "2026-11-12T12:59:06.420+0000",
         "priority": "Major",
         "labels": [
           "Needs-QA"
         ]
       },
       {
-        "key": "WSC-1782",
-        "url": "https://e2x.atlassian.net/browse/WSC-1782",
-        "summary": "CHECKOUT - Only UK: Calling for collection locations",
-        "status": "Ready to QA",
-        "statusCategory": "new",
-        "assignee": "Juan Carlos Coello",
-        "updated": "2026-11-11T18:15:05.908+0000",
+        "key": "WSC-1820",
+        "url": "https://e2x.atlassian.net/browse/WSC-1820",
+        "summary": "[WSSD-769] - Bag: SFS class not applying consistently",
+        "status": "Done",
+        "statusCategory": "done",
+        "assignee": "Gerardo Romero",
+        "updated": "2026-11-12T12:59:06.003+0000",
         "priority": "Minor",
+        "labels": []
+      },
+      {
+        "key": "WSC-1822",
+        "url": "https://e2x.atlassian.net/browse/WSC-1822",
+        "summary": "DATALAYER - shop stock look up",
+        "status": "Done",
+        "statusCategory": "done",
+        "assignee": "Unassigned",
+        "updated": "2026-11-12T12:59:05.468+0000",
+        "priority": "Not Set",
+        "labels": [
+          "NO_QA_REQUIRED"
+        ]
+      },
+      {
+        "key": "WSC-1823",
+        "url": "https://e2x.atlassian.net/browse/WSC-1823",
+        "summary": "[WSSD-770] - EGIFT CARDS - 'Added to bag' overlay not firing",
+        "status": "Done",
+        "statusCategory": "done",
+        "assignee": "Gerardo Romero",
+        "updated": "2026-11-12T12:59:04.799+0000",
+        "priority": "Major",
+        "labels": [
+          "accelerated"
+        ]
+      },
+      {
+        "key": "WSC-1769",
+        "url": "https://e2x.atlassian.net/browse/WSC-1769",
+        "summary": "CHECKOUT - collection address amendment",
+        "status": "Done",
+        "statusCategory": "done",
+        "assignee": "Gerardo Romero",
+        "updated": "2026-11-12T12:59:04.321+0000",
+        "priority": "Minor",
+        "labels": [
+          "Needs-QA"
+        ]
+      },
+      {
+        "key": "WSC-1824",
+        "url": "https://e2x.atlassian.net/browse/WSC-1824",
+        "summary": "API prod set up - Shop stock look up",
+        "status": "Done",
+        "statusCategory": "done",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-11-12T12:59:03.828+0000",
+        "priority": "Not Set",
+        "labels": [
+          "NO_QA_REQUIRED"
+        ]
+      },
+      {
+        "key": "WSC-1707",
+        "url": "https://e2x.atlassian.net/browse/WSC-1707",
+        "summary": "BAG - Coupon section disappears after applying an invalid coupon and reloading the page",
+        "status": "Done",
+        "statusCategory": "done",
+        "assignee": "Gerardo Romero",
+        "updated": "2026-11-12T12:59:03.375+0000",
+        "priority": "Minor",
+        "labels": [
+          "Bug",
+          "Needs-QA"
+        ]
+      },
+      {
+        "key": "WSC-1807",
+        "url": "https://e2x.atlassian.net/browse/WSC-1807",
+        "summary": "US storefront pages return 500 on DEV",
+        "status": "Done",
+        "statusCategory": "done",
+        "assignee": "Gerardo Romero",
+        "updated": "2026-11-12T12:59:02.854+0000",
+        "priority": "Major",
         "labels": [
           "Needs-QA"
         ]
@@ -114,19 +562,6 @@
         "labels": []
       },
       {
-        "key": "WSC-1800",
-        "url": "https://e2x.atlassian.net/browse/WSC-1800",
-        "summary": "SHOP FINDER - SEO page enhancements",
-        "status": "In Progress",
-        "statusCategory": "indeterminate",
-        "assignee": "Chiara Davies",
-        "updated": "2026-11-11T09:21:38.712+0000",
-        "priority": "Minor",
-        "labels": [
-          "Needs-QA"
-        ]
-      },
-      {
         "key": "WSC-1854",
         "url": "https://e2x.atlassian.net/browse/WSC-1854",
         "summary": "TRUE FIT - in the mini bag",
@@ -134,69 +569,6 @@
         "statusCategory": "new",
         "assignee": "Unassigned",
         "updated": "2026-11-10T08:35:03.783+0000",
-        "priority": "Minor",
-        "labels": [
-          "Needs-QA"
-        ]
-      },
-      {
-        "key": "WSC-1803",
-        "url": "https://e2x.atlassian.net/browse/WSC-1803",
-        "summary": "MINI BAG - minor adjustments",
-        "status": "QA Approved",
-        "statusCategory": "indeterminate",
-        "assignee": "Gerardo Romero",
-        "updated": "2026-11-10T02:50:13.193+0000",
-        "priority": "Minor",
-        "labels": [
-          "Needs-QA"
-        ]
-      },
-      {
-        "key": "WSC-1801",
-        "url": "https://e2x.atlassian.net/browse/WSC-1801",
-        "summary": "SHOP PAGE - SEO amendment",
-        "status": "QA Approved",
-        "statusCategory": "indeterminate",
-        "assignee": "Gerardo Romero",
-        "updated": "2026-11-09T21:41:28.537+0000",
-        "priority": "Minor",
-        "labels": [
-          "Needs-QA"
-        ]
-      },
-      {
-        "key": "WSC-1401",
-        "url": "https://e2x.atlassian.net/browse/WSC-1401",
-        "summary": "PDP - Stylitics amendment",
-        "status": "QA Approved",
-        "statusCategory": "indeterminate",
-        "assignee": "Gerardo Romero",
-        "updated": "2026-11-09T21:41:03.015+0000",
-        "priority": "Trivial",
-        "labels": []
-      },
-      {
-        "key": "WSC-1791",
-        "url": "https://e2x.atlassian.net/browse/WSC-1791",
-        "summary": "API 404 error - https://www.whitestuff.com/api/ampl/getContent",
-        "status": "Ready",
-        "statusCategory": "new",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-11-09T15:35:41.957+0000",
-        "priority": "Minor",
-        "labels": [
-          "NO_QA_REQUIRED"
-        ]
-      },
-      {
-        "key": "WSC-1738",
-        "url": "https://e2x.atlassian.net/browse/WSC-1738",
-        "summary": "JS ERROR - ResizeObserver loop completed with undelivered notifications",
-        "status": "Ready",
-        "statusCategory": "new",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-11-09T15:35:36.065+0000",
         "priority": "Minor",
         "labels": [
           "Needs-QA"
@@ -254,46 +626,6 @@
         ]
       },
       {
-        "key": "WSC-1790",
-        "url": "https://e2x.atlassian.net/browse/WSC-1790",
-        "summary": "SECURITY - block public access to DEV & UAT",
-        "status": "In Progress",
-        "statusCategory": "indeterminate",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-11-08T23:02:17.692+0000",
-        "priority": "Major",
-        "labels": [
-          "Needs-QA"
-        ]
-      },
-      {
-        "key": "WSC-1694",
-        "url": "https://e2x.atlassian.net/browse/WSC-1694",
-        "summary": "SLIM BANNER - improve loading speed",
-        "status": "QA Approved",
-        "statusCategory": "indeterminate",
-        "assignee": "Gerardo Romero",
-        "updated": "2026-11-06T15:28:18.815+0000",
-        "priority": "Major",
-        "labels": [
-          "Needs-QA",
-          "manualQA"
-        ]
-      },
-      {
-        "key": "WSC-1696",
-        "url": "https://e2x.atlassian.net/browse/WSC-1696",
-        "summary": "SEO TEXT BLOCK - minor amendment",
-        "status": "QA Approved",
-        "statusCategory": "indeterminate",
-        "assignee": "Gerardo Romero",
-        "updated": "2026-11-06T15:28:18.472+0000",
-        "priority": "Minor",
-        "labels": [
-          "Needs-QA"
-        ]
-      },
-      {
         "key": "WSC-1846",
         "url": "https://e2x.atlassian.net/browse/WSC-1846",
         "summary": "[WSSD-777] - VSF promotion price issue",
@@ -313,17 +645,6 @@
         "assignee": "Gerardo Romero",
         "updated": "2026-11-06T15:27:51.163+0000",
         "priority": "Not Set",
-        "labels": []
-      },
-      {
-        "key": "WSC-1749",
-        "url": "https://e2x.atlassian.net/browse/WSC-1749",
-        "summary": "SPIKE> Passwordless Sign-In",
-        "status": "Tech Review",
-        "statusCategory": "indeterminate",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-11-06T15:27:50.083+0000",
-        "priority": "Major",
         "labels": []
       },
       {
@@ -445,292 +766,6 @@
         ]
       },
       {
-        "key": "WSC-1824",
-        "url": "https://e2x.atlassian.net/browse/WSC-1824",
-        "summary": "API prod set up - Shop stock look up",
-        "status": "Done",
-        "statusCategory": "done",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-10-29T12:50:51.138+0000",
-        "priority": "Not Set",
-        "labels": [
-          "NO_QA_REQUIRED"
-        ]
-      },
-      {
-        "key": "WSC-1823",
-        "url": "https://e2x.atlassian.net/browse/WSC-1823",
-        "summary": "[WSSD-770] - EGIFT CARDS - 'Added to bag' overlay not firing",
-        "status": "Done",
-        "statusCategory": "done",
-        "assignee": "Gerardo Romero",
-        "updated": "2026-10-29T12:50:50.481+0000",
-        "priority": "Major",
-        "labels": [
-          "accelerated"
-        ]
-      },
-      {
-        "key": "WSC-1822",
-        "url": "https://e2x.atlassian.net/browse/WSC-1822",
-        "summary": "DATALAYER - shop stock look up",
-        "status": "Done",
-        "statusCategory": "done",
-        "assignee": "Unassigned",
-        "updated": "2026-10-29T12:50:49.889+0000",
-        "priority": "Not Set",
-        "labels": [
-          "NO_QA_REQUIRED"
-        ]
-      },
-      {
-        "key": "WSC-1820",
-        "url": "https://e2x.atlassian.net/browse/WSC-1820",
-        "summary": "[WSSD-769] - Bag: SFS class not applying consistently",
-        "status": "Done",
-        "statusCategory": "done",
-        "assignee": "Gerardo Romero",
-        "updated": "2026-10-29T12:50:49.200+0000",
-        "priority": "Minor",
-        "labels": []
-      },
-      {
-        "key": "WSC-1818",
-        "url": "https://e2x.atlassian.net/browse/WSC-1818",
-        "summary": "[WSSD-766] - [Snyk] Critical vulnerability: Improper Certificate Validation in undici@6.28.1 (ad-caas-whitestuff)",
-        "status": "Done",
-        "statusCategory": "done",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-10-29T12:50:48.539+0000",
-        "priority": "Blocker",
-        "labels": [
-          "NO_QA_REQUIRED"
-        ]
-      },
-      {
-        "key": "WSC-1814",
-        "url": "https://e2x.atlassian.net/browse/WSC-1814",
-        "summary": "Fix Snyk high-severity vulnerabilities",
-        "status": "Done",
-        "statusCategory": "done",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-10-29T12:50:47.934+0000",
-        "priority": "Major",
-        "labels": [
-          "NO_QA_REQUIRED"
-        ]
-      },
-      {
-        "key": "WSC-1807",
-        "url": "https://e2x.atlassian.net/browse/WSC-1807",
-        "summary": "US storefront pages return 500 on DEV",
-        "status": "Done",
-        "statusCategory": "done",
-        "assignee": "Gerardo Romero",
-        "updated": "2026-10-29T12:50:47.329+0000",
-        "priority": "Major",
-        "labels": [
-          "Needs-QA"
-        ]
-      },
-      {
-        "key": "WSC-1786",
-        "url": "https://e2x.atlassian.net/browse/WSC-1786",
-        "summary": "PDP - new mobile image layout",
-        "status": "Done",
-        "statusCategory": "done",
-        "assignee": "Gerardo Romero",
-        "updated": "2026-10-29T12:50:46.625+0000",
-        "priority": "Major",
-        "labels": [
-          "Needs-QA"
-        ]
-      },
-      {
-        "key": "WSC-1785",
-        "url": "https://e2x.atlassian.net/browse/WSC-1785",
-        "summary": "MIDDLEWARE - for shop stock look up WSC-1670",
-        "status": "Done",
-        "statusCategory": "done",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-10-29T12:50:46.013+0000",
-        "priority": "Blocker",
-        "labels": [
-          "NO_QA_REQUIRED"
-        ]
-      },
-      {
-        "key": "WSC-1781",
-        "url": "https://e2x.atlassian.net/browse/WSC-1781",
-        "summary": "REVERT WSC-1499 - CHECKOUT - Amplience - Managing the delivery/collection options",
-        "status": "Done",
-        "statusCategory": "done",
-        "assignee": "Gerardo Romero",
-        "updated": "2026-10-29T12:50:45.352+0000",
-        "priority": "Minor",
-        "labels": [
-          "Needs-QA"
-        ]
-      },
-      {
-        "key": "WSC-1777",
-        "url": "https://e2x.atlassian.net/browse/WSC-1777",
-        "summary": "SLIM BANNER - URL restrictions",
-        "status": "Done",
-        "statusCategory": "done",
-        "assignee": "Gerardo Romero",
-        "updated": "2026-10-29T12:50:44.695+0000",
-        "priority": "Major",
-        "labels": []
-      },
-      {
-        "key": "WSC-1774",
-        "url": "https://e2x.atlassian.net/browse/WSC-1774",
-        "summary": "PDP - Mobile - collapse review <div> when product has 0 ratings",
-        "status": "Done",
-        "statusCategory": "done",
-        "assignee": "Gerardo Romero",
-        "updated": "2026-10-29T12:50:44.024+0000",
-        "priority": "Major",
-        "labels": [
-          "Needs-QA"
-        ]
-      },
-      {
-        "key": "WSC-1769",
-        "url": "https://e2x.atlassian.net/browse/WSC-1769",
-        "summary": "CHECKOUT - collection address amendment",
-        "status": "Done",
-        "statusCategory": "done",
-        "assignee": "Gerardo Romero",
-        "updated": "2026-10-29T12:50:43.320+0000",
-        "priority": "Minor",
-        "labels": [
-          "Needs-QA"
-        ]
-      },
-      {
-        "key": "WSC-1755",
-        "url": "https://e2x.atlassian.net/browse/WSC-1755",
-        "summary": "Store Locator Content Sync fails when cleaning up stores removed from the sheet (orphan cleanup)",
-        "status": "Done",
-        "statusCategory": "done",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-10-29T12:50:42.697+0000",
-        "priority": "Major",
-        "labels": [
-          "NO_QA_REQUIRED"
-        ]
-      },
-      {
-        "key": "WSC-1740",
-        "url": "https://e2x.atlassian.net/browse/WSC-1740",
-        "summary": "CHECKOUT - BC API CHANGE (2 of 2)",
-        "status": "Done",
-        "statusCategory": "done",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-10-29T12:50:42.015+0000",
-        "priority": "Major",
-        "labels": [
-          "NO_QA_REQUIRED"
-        ]
-      },
-      {
-        "key": "WSC-1739",
-        "url": "https://e2x.atlassian.net/browse/WSC-1739",
-        "summary": "CHECKOUT - BC API CHANGE (1 of 2)",
-        "status": "Done",
-        "statusCategory": "done",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-10-29T12:50:41.366+0000",
-        "priority": "Critical",
-        "labels": [
-          "NO_QA_REQUIRED"
-        ]
-      },
-      {
-        "key": "WSC-1707",
-        "url": "https://e2x.atlassian.net/browse/WSC-1707",
-        "summary": "BAG - Coupon section disappears after applying an invalid coupon and reloading the page",
-        "status": "Done",
-        "statusCategory": "done",
-        "assignee": "Gerardo Romero",
-        "updated": "2026-10-29T12:50:40.579+0000",
-        "priority": "Minor",
-        "labels": [
-          "Bug",
-          "Needs-QA"
-        ]
-      },
-      {
-        "key": "WSC-1686",
-        "url": "https://e2x.atlassian.net/browse/WSC-1686",
-        "summary": "[White Stuff] High Vulnerabilities Report - July 2026",
-        "status": "Done",
-        "statusCategory": "done",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-10-29T12:50:39.960+0000",
-        "priority": "Major",
-        "labels": [
-          "NO_QA_REQUIRED"
-        ]
-      },
-      {
-        "key": "WSC-1670",
-        "url": "https://e2x.atlassian.net/browse/WSC-1670",
-        "summary": "WS-PR - PDP - shop stock look-up",
-        "status": "Done",
-        "statusCategory": "done",
-        "assignee": "Gerardo Romero",
-        "updated": "2026-10-29T12:50:39.073+0000",
-        "priority": "Critical",
-        "labels": [
-          "Needs-QA",
-          "automatable"
-        ]
-      },
-      {
-        "key": "WSC-1661",
-        "url": "https://e2x.atlassian.net/browse/WSC-1661",
-        "summary": "BAG PRODUCT SECTION - redesign",
-        "status": "Done",
-        "statusCategory": "done",
-        "assignee": "Gerardo Romero",
-        "updated": "2026-10-29T12:50:38.376+0000",
-        "priority": "Major",
-        "labels": [
-          "FastFollow",
-          "accelerated"
-        ]
-      },
-      {
-        "key": "WSC-1659",
-        "url": "https://e2x.atlassian.net/browse/WSC-1659",
-        "summary": "BAG ORDER SUMMARY - sticky CTAs on tablet/mobile",
-        "status": "Done",
-        "statusCategory": "done",
-        "assignee": "Gerardo Romero",
-        "updated": "2026-10-29T12:50:37.608+0000",
-        "priority": "Major",
-        "labels": [
-          "Needs-QA",
-          "accelerated"
-        ]
-      },
-      {
-        "key": "WSC-1658",
-        "url": "https://e2x.atlassian.net/browse/WSC-1658",
-        "summary": "BAG ORDER SUMMARY - redesign",
-        "status": "Done",
-        "statusCategory": "done",
-        "assignee": "Gerardo Romero",
-        "updated": "2026-10-29T12:50:36.691+0000",
-        "priority": "Major",
-        "labels": [
-          "Needs-QA"
-        ]
-      },
-      {
         "key": "WSC-1527",
         "url": "https://e2x.atlassian.net/browse/WSC-1527",
         "summary": "Apple Pay Express fails at checkout when Free Shipping campaign (Talon.One) is active",
@@ -771,41 +806,6 @@
         "assignee": "Unassigned",
         "updated": "2026-10-22T10:38:10.310+0100",
         "priority": "Major",
-        "labels": []
-      },
-      {
-        "key": "WSC-1690",
-        "url": "https://e2x.atlassian.net/browse/WSC-1690",
-        "summary": "SPIKE - PLP and PDP colour swatches",
-        "status": "Done",
-        "statusCategory": "done",
-        "assignee": "Unassigned",
-        "updated": "2026-10-21T20:21:00.963+0100",
-        "priority": "Major",
-        "labels": []
-      },
-      {
-        "key": "WSC-1754",
-        "url": "https://e2x.atlassian.net/browse/WSC-1754",
-        "summary": "SEO - PLP/Search results - add colour to H2 product name",
-        "status": "Done",
-        "statusCategory": "done",
-        "assignee": "Unassigned",
-        "updated": "2026-10-21T20:20:56.219+0100",
-        "priority": "Major",
-        "labels": [
-          "Needs-QA"
-        ]
-      },
-      {
-        "key": "WSC-1736",
-        "url": "https://e2x.atlassian.net/browse/WSC-1736",
-        "summary": "Spike: PERSONALISED CONTENT - preview/visualiser on a Content Page",
-        "status": "Done",
-        "statusCategory": "done",
-        "assignee": "Unassigned",
-        "updated": "2026-10-21T20:20:54.480+0100",
-        "priority": "Critical",
         "labels": []
       },
       {
@@ -6101,15 +6101,83 @@
       ]
     },
     "runs": {
-      "total": 100,
-      "latestPassed": 120,
+      "total": 104,
+      "latestPassed": 0,
       "latestFailed": 0,
-      "latestPending": 0,
+      "latestPending": 120,
       "latestTotal": 120,
-      "latestRunName": "Regression 30/10/26",
-      "latestRunDate": "2026-10-30T14:08:00.485Z",
+      "latestRunName": "Regression 26/11/26",
+      "latestRunDate": "2026-11-12T13:14:34.195Z",
       "passRate": 99.9,
       "recent": [
+        {
+          "id": 2218,
+          "name": "Regression 26/11/26",
+          "source_id": null,
+          "milestone_id": 267,
+          "config_id": 14,
+          "status": null,
+          "is_completed": false,
+          "elapsed_ms": null,
+          "created_at": "2026-11-12T13:14:34.195Z",
+          "completed_at": null,
+          "passed": 0,
+          "failed": 0,
+          "pending": 120,
+          "completed": 0,
+          "total": 120
+        },
+        {
+          "id": 2217,
+          "name": "Regression 26/11/26",
+          "source_id": null,
+          "milestone_id": 267,
+          "config_id": 13,
+          "status": null,
+          "is_completed": false,
+          "elapsed_ms": null,
+          "created_at": "2026-11-12T13:14:34.187Z",
+          "completed_at": null,
+          "passed": 0,
+          "failed": 0,
+          "pending": 120,
+          "completed": 0,
+          "total": 120
+        },
+        {
+          "id": 2216,
+          "name": "Regression 26/11/26",
+          "source_id": null,
+          "milestone_id": 267,
+          "config_id": 10,
+          "status": null,
+          "is_completed": false,
+          "elapsed_ms": null,
+          "created_at": "2026-11-12T13:14:34.179Z",
+          "completed_at": null,
+          "passed": 0,
+          "failed": 0,
+          "pending": 120,
+          "completed": 0,
+          "total": 120
+        },
+        {
+          "id": 2215,
+          "name": "Regression 26/11/26",
+          "source_id": null,
+          "milestone_id": 267,
+          "config_id": 9,
+          "status": null,
+          "is_completed": false,
+          "elapsed_ms": null,
+          "created_at": "2026-11-12T13:14:34.138Z",
+          "completed_at": null,
+          "passed": 0,
+          "failed": 0,
+          "pending": 120,
+          "completed": 0,
+          "total": 120
+        },
         {
           "id": 2194,
           "name": "Regression 30/10/26",
@@ -6207,74 +6275,6 @@
           "created_at": "2026-10-28T18:59:41.674Z",
           "completed_at": null,
           "passed": 119,
-          "failed": 0,
-          "pending": 0,
-          "completed": 120,
-          "total": 120
-        },
-        {
-          "id": 2187,
-          "name": "Regression 28/10/26",
-          "source_id": null,
-          "milestone_id": 263,
-          "config_id": 10,
-          "status": null,
-          "is_completed": false,
-          "elapsed_ms": null,
-          "created_at": "2026-10-28T18:59:41.666Z",
-          "completed_at": null,
-          "passed": 119,
-          "failed": 0,
-          "pending": 0,
-          "completed": 120,
-          "total": 120
-        },
-        {
-          "id": 2186,
-          "name": "Regression 28/10/26",
-          "source_id": null,
-          "milestone_id": 263,
-          "config_id": 9,
-          "status": null,
-          "is_completed": false,
-          "elapsed_ms": null,
-          "created_at": "2026-10-28T18:59:41.624Z",
-          "completed_at": null,
-          "passed": 119,
-          "failed": 0,
-          "pending": 0,
-          "completed": 120,
-          "total": 120
-        },
-        {
-          "id": 2184,
-          "name": "Regression 23/10/26",
-          "source_id": null,
-          "milestone_id": 262,
-          "config_id": 14,
-          "status": null,
-          "is_completed": false,
-          "elapsed_ms": null,
-          "created_at": "2026-10-23T17:26:04.502Z",
-          "completed_at": null,
-          "passed": 120,
-          "failed": 0,
-          "pending": 0,
-          "completed": 120,
-          "total": 120
-        },
-        {
-          "id": 2183,
-          "name": "Regression 23/10/26",
-          "source_id": null,
-          "milestone_id": 262,
-          "config_id": 13,
-          "status": null,
-          "is_completed": false,
-          "elapsed_ms": null,
-          "created_at": "2026-10-23T17:26:04.491Z",
-          "completed_at": null,
-          "passed": 120,
           "failed": 0,
           "pending": 0,
           "completed": 120,
