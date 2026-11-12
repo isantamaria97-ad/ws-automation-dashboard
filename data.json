@@ -1,20 +1,20 @@
 {
-  "lastUpdated": "2026-11-11T22:30:52.328140+00:00",
+  "lastUpdated": "2026-11-12T06:09:57.411372+00:00",
   "jira": {
     "summary": {
       "total": 481,
       "byStatus": {
-        "Tech Review": 6,
+        "Ready to QA": 2,
         "IN QA": 2,
-        "Ready to QA": 1,
+        "PENDING DEV DEPLOY": 3,
         "In Progress": 3,
         "Ready for Refinement": 3,
         "QA Approved": 5,
         "Ready": 5,
         "Deprecated": 24,
         "Pre-prioritized": 1,
+        "Tech Review": 3,
         "Done": 412,
-        "PENDING DEV DEPLOY": 1,
         "Backlog": 14,
         "Blocked": 2,
         "IN UAT": 1,
@@ -26,23 +26,10 @@
         "key": "WSC-1817",
         "url": "https://e2x.atlassian.net/browse/WSC-1817",
         "summary": "SALE BADGES - Amplience control",
-        "status": "Tech Review",
-        "statusCategory": "indeterminate",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-11-11T22:29:43.872+0000",
-        "priority": "Major",
-        "labels": [
-          "Needs-QA"
-        ]
-      },
-      {
-        "key": "WSC-1776",
-        "url": "https://e2x.atlassian.net/browse/WSC-1776",
-        "summary": "SLIM BANNER - personalisation",
-        "status": "IN QA",
-        "statusCategory": "indeterminate",
+        "status": "Ready to QA",
+        "statusCategory": "new",
         "assignee": "Gerardo Romero",
-        "updated": "2026-11-11T21:23:28.152+0000",
+        "updated": "2026-11-12T03:38:35.367+0000",
         "priority": "Major",
         "labels": [
           "Needs-QA"
@@ -55,11 +42,51 @@
         "status": "IN QA",
         "statusCategory": "indeterminate",
         "assignee": "Gerardo Romero",
-        "updated": "2026-11-11T20:01:14.527+0000",
+        "updated": "2026-11-12T03:34:07.740+0000",
         "priority": "Minor",
         "labels": [
           "Needs-QA",
           "manualQA"
+        ]
+      },
+      {
+        "key": "WSC-1776",
+        "url": "https://e2x.atlassian.net/browse/WSC-1776",
+        "summary": "SLIM BANNER - personalisation",
+        "status": "IN QA",
+        "statusCategory": "indeterminate",
+        "assignee": "Gerardo Romero",
+        "updated": "2026-11-12T03:30:47.795+0000",
+        "priority": "Major",
+        "labels": [
+          "Needs-QA"
+        ]
+      },
+      {
+        "key": "WSC-1812",
+        "url": "https://e2x.atlassian.net/browse/WSC-1812",
+        "summary": "PERSONALISED CONTENT - preview URL by segment",
+        "status": "PENDING DEV DEPLOY",
+        "statusCategory": "new",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-11-12T03:24:31.699+0000",
+        "priority": "Major",
+        "labels": [
+          "Needs-QA",
+          "accelerated"
+        ]
+      },
+      {
+        "key": "WSC-1811",
+        "url": "https://e2x.atlassian.net/browse/WSC-1811",
+        "summary": "PLP - Append Customer Facing Colour to Product Card Titles",
+        "status": "PENDING DEV DEPLOY",
+        "statusCategory": "new",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-11-12T03:24:24.864+0000",
+        "priority": "Major",
+        "labels": [
+          "Needs-QA"
         ]
       },
       {
@@ -87,20 +114,6 @@
         "labels": []
       },
       {
-        "key": "WSC-1812",
-        "url": "https://e2x.atlassian.net/browse/WSC-1812",
-        "summary": "PERSONALISED CONTENT - preview URL by segment",
-        "status": "Tech Review",
-        "statusCategory": "indeterminate",
-        "assignee": "Alexander Talavera",
-        "updated": "2026-11-11T11:43:16.964+0000",
-        "priority": "Major",
-        "labels": [
-          "Needs-QA",
-          "accelerated"
-        ]
-      },
-      {
         "key": "WSC-1800",
         "url": "https://e2x.atlassian.net/browse/WSC-1800",
         "summary": "SHOP FINDER - SEO page enhancements",
@@ -109,19 +122,6 @@
         "assignee": "Chiara Davies",
         "updated": "2026-11-11T09:21:38.712+0000",
         "priority": "Minor",
-        "labels": [
-          "Needs-QA"
-        ]
-      },
-      {
-        "key": "WSC-1811",
-        "url": "https://e2x.atlassian.net/browse/WSC-1811",
-        "summary": "PLP - Append Customer Facing Colour to Product Card Titles",
-        "status": "Tech Review",
-        "statusCategory": "indeterminate",
-        "assignee": "Alexander Talavera",
-        "updated": "2026-11-10T20:05:28.411+0000",
-        "priority": "Major",
         "labels": [
           "Needs-QA"
         ]
