@@ -1,15 +1,14 @@
 {
-  "lastUpdated": "2026-11-13T00:55:45.387380+00:00",
+  "lastUpdated": "2026-11-13T11:55:36.654530+00:00",
   "jira": {
     "summary": {
       "total": 481,
       "byStatus": {
-        "IN QA": 3,
-        "Ready to QA": 1,
-        "QA Approved": 7,
+        "IN QA": 2,
+        "QA Approved": 9,
+        "Tech Review": 4,
         "In Progress": 3,
-        "Ready": 5,
-        "Tech Review": 3,
+        "Ready": 4,
         "Done": 412,
         "Ready for Refinement": 3,
         "Deprecated": 24,
@@ -23,6 +22,59 @@
     },
     "tickets": [
       {
+        "key": "WSC-1817",
+        "url": "https://e2x.atlassian.net/browse/WSC-1817",
+        "summary": "SALE BADGES - Amplience control",
+        "status": "IN QA",
+        "statusCategory": "indeterminate",
+        "assignee": "Gerardo Romero",
+        "updated": "2026-11-13T03:53:14.721+0000",
+        "priority": "Major",
+        "labels": [
+          "Needs-QA"
+        ]
+      },
+      {
+        "key": "WSC-1776",
+        "url": "https://e2x.atlassian.net/browse/WSC-1776",
+        "summary": "SLIM BANNER - personalisation",
+        "status": "QA Approved",
+        "statusCategory": "indeterminate",
+        "assignee": "Gerardo Romero",
+        "updated": "2026-11-13T03:52:54.385+0000",
+        "priority": "Major",
+        "labels": [
+          "Needs-QA"
+        ]
+      },
+      {
+        "key": "WSC-1699",
+        "url": "https://e2x.atlassian.net/browse/WSC-1699",
+        "summary": "PLP - single image roll over issue",
+        "status": "QA Approved",
+        "statusCategory": "indeterminate",
+        "assignee": "Gerardo Romero",
+        "updated": "2026-11-13T03:42:04.490+0000",
+        "priority": "Minor",
+        "labels": [
+          "Needs-QA",
+          "manualQA"
+        ]
+      },
+      {
+        "key": "WSC-1738",
+        "url": "https://e2x.atlassian.net/browse/WSC-1738",
+        "summary": "JS ERROR - ResizeObserver loop completed with undelivered notifications",
+        "status": "Tech Review",
+        "statusCategory": "indeterminate",
+        "assignee": "Alexander Talavera",
+        "updated": "2026-11-13T02:35:36.816+0000",
+        "priority": "Minor",
+        "labels": [
+          "Needs-QA"
+        ]
+      },
+      {
         "key": "WSC-1811",
         "url": "https://e2x.atlassian.net/browse/WSC-1811",
         "summary": "PLP - Append Customer Facing Colour to Product Card Titles",
@@ -33,33 +85,6 @@
         "priority": "Major",
         "labels": [
           "Needs-QA"
-        ]
-      },
-      {
-        "key": "WSC-1817",
-        "url": "https://e2x.atlassian.net/browse/WSC-1817",
-        "summary": "SALE BADGES - Amplience control",
-        "status": "Ready to QA",
-        "statusCategory": "new",
-        "assignee": "Gerardo Romero",
-        "updated": "2026-11-12T19:30:18.757+0000",
-        "priority": "Major",
-        "labels": [
-          "Needs-QA"
-        ]
-      },
-      {
-        "key": "WSC-1699",
-        "url": "https://e2x.atlassian.net/browse/WSC-1699",
-        "summary": "PLP - single image roll over issue",
-        "status": "IN QA",
-        "statusCategory": "indeterminate",
-        "assignee": "Gerardo Romero",
-        "updated": "2026-11-12T19:29:53.808+0000",
-        "priority": "Minor",
-        "labels": [
-          "Needs-QA",
-          "manualQA"
         ]
       },
       {
@@ -154,19 +179,6 @@
         "labels": []
       },
       {
-        "key": "WSC-1776",
-        "url": "https://e2x.atlassian.net/browse/WSC-1776",
-        "summary": "SLIM BANNER - personalisation",
-        "status": "IN QA",
-        "statusCategory": "indeterminate",
-        "assignee": "Gerardo Romero",
-        "updated": "2026-11-12T12:59:21.236+0000",
-        "priority": "Major",
-        "labels": [
-          "Needs-QA"
-        ]
-      },
-      {
         "key": "WSC-1800",
         "url": "https://e2x.atlassian.net/browse/WSC-1800",
         "summary": "SHOP FINDER - SEO page enhancements",
@@ -200,19 +212,6 @@
         "statusCategory": "indeterminate",
         "assignee": "Gerardo Romero",
         "updated": "2026-11-12T12:59:17.891+0000",
-        "priority": "Minor",
-        "labels": [
-          "Needs-QA"
-        ]
-      },
-      {
-        "key": "WSC-1738",
-        "url": "https://e2x.atlassian.net/browse/WSC-1738",
-        "summary": "JS ERROR - ResizeObserver loop completed with undelivered notifications",
-        "status": "Ready",
-        "statusCategory": "new",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-11-12T12:59:17.412+0000",
         "priority": "Minor",
         "labels": [
           "Needs-QA"
