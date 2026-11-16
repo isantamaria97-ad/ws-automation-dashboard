@@ -1,17 +1,19 @@
 {
-  "lastUpdated": "2026-11-16T05:15:57.138457+00:00",
+  "lastUpdated": "2026-11-16T18:01:17.174280+00:00",
   "jira": {
     "summary": {
-      "total": 481,
+      "total": 483,
       "byStatus": {
+        "Ready": 4,
+        "Ready to QA": 1,
+        "IN QA": 1,
         "QA Approved": 11,
-        "In Progress": 4,
+        "In Progress": 3,
         "Pre-prioritized": 1,
         "Tech Review": 4,
         "Done": 412,
         "Ready for Refinement": 3,
         "Deprecated": 24,
-        "Ready": 3,
         "PENDING DEV DEPLOY": 1,
         "Backlog": 14,
         "Blocked": 2,
@@ -20,6 +22,45 @@
       }
     },
     "tickets": [
+      {
+        "key": "WSC-1869",
+        "url": "https://e2x.atlassian.net/browse/WSC-1869",
+        "summary": "PDP - badge position issue",
+        "status": "Ready",
+        "statusCategory": "new",
+        "assignee": "Chiara Davies",
+        "updated": "2026-11-16T17:41:50.501+0000",
+        "priority": "Minor",
+        "labels": [
+          "NO_QA_REQUIRED"
+        ]
+      },
+      {
+        "key": "WSC-1847",
+        "url": "https://e2x.atlassian.net/browse/WSC-1847",
+        "summary": "Upgrade checkout-js build tooling from Node 14 to Node 22 LTS",
+        "status": "Ready to QA",
+        "statusCategory": "new",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-11-16T15:17:17.009+0000",
+        "priority": "Not Set",
+        "labels": [
+          "NO_QA_REQUIRED"
+        ]
+      },
+      {
+        "key": "WSC-1800",
+        "url": "https://e2x.atlassian.net/browse/WSC-1800",
+        "summary": "SHOP FINDER - SEO page enhancements",
+        "status": "IN QA",
+        "statusCategory": "indeterminate",
+        "assignee": "Juan Carlos Coello",
+        "updated": "2026-11-16T15:12:16.700+0000",
+        "priority": "Minor",
+        "labels": [
+          "Needs-QA"
+        ]
+      },
       {
         "key": "WSC-1811",
         "url": "https://e2x.atlassian.net/browse/WSC-1811",
@@ -190,19 +231,6 @@
         "updated": "2026-11-12T12:59:22.170+0000",
         "priority": "Trivial",
         "labels": []
-      },
-      {
-        "key": "WSC-1800",
-        "url": "https://e2x.atlassian.net/browse/WSC-1800",
-        "summary": "SHOP FINDER - SEO page enhancements",
-        "status": "In Progress",
-        "statusCategory": "indeterminate",
-        "assignee": "Chiara Davies",
-        "updated": "2026-11-12T12:59:19.713+0000",
-        "priority": "Minor",
-        "labels": [
-          "Needs-QA"
-        ]
       },
       {
         "key": "WSC-1801",
