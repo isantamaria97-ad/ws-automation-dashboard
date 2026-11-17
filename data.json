@@ -1,14 +1,13 @@
 {
-  "lastUpdated": "2026-11-16T18:01:17.174280+00:00",
+  "lastUpdated": "2026-11-17T02:47:50.494195+00:00",
   "jira": {
     "summary": {
       "total": 483,
       "byStatus": {
+        "QA Approved": 12,
+        "In Progress": 3,
         "Ready": 4,
         "Ready to QA": 1,
-        "IN QA": 1,
-        "QA Approved": 11,
-        "In Progress": 3,
         "Pre-prioritized": 1,
         "Tech Review": 4,
         "Done": 412,
@@ -22,6 +21,30 @@
       }
     },
     "tickets": [
+      {
+        "key": "WSC-1800",
+        "url": "https://e2x.atlassian.net/browse/WSC-1800",
+        "summary": "SHOP FINDER - SEO page enhancements",
+        "status": "QA Approved",
+        "statusCategory": "indeterminate",
+        "assignee": "Juan Carlos Coello",
+        "updated": "2026-11-16T20:01:58.947+0000",
+        "priority": "Minor",
+        "labels": [
+          "Needs-QA"
+        ]
+      },
+      {
+        "key": "WSC-1853",
+        "url": "https://e2x.atlassian.net/browse/WSC-1853",
+        "summary": "[WS] Monthly vulnerability review (Snyk) Nov for Oct 2026 Maintain Report",
+        "status": "In Progress",
+        "statusCategory": "indeterminate",
+        "assignee": "Rafael Paranagu\u00e1",
+        "updated": "2026-11-16T18:32:14.371+0000",
+        "priority": "Not Set",
+        "labels": []
+      },
       {
         "key": "WSC-1869",
         "url": "https://e2x.atlassian.net/browse/WSC-1869",
@@ -46,19 +69,6 @@
         "priority": "Not Set",
         "labels": [
           "NO_QA_REQUIRED"
-        ]
-      },
-      {
-        "key": "WSC-1800",
-        "url": "https://e2x.atlassian.net/browse/WSC-1800",
-        "summary": "SHOP FINDER - SEO page enhancements",
-        "status": "IN QA",
-        "statusCategory": "indeterminate",
-        "assignee": "Juan Carlos Coello",
-        "updated": "2026-11-16T15:12:16.700+0000",
-        "priority": "Minor",
-        "labels": [
-          "Needs-QA"
         ]
       },
       {
@@ -589,17 +599,6 @@
         "labels": [
           "Needs-QA"
         ]
-      },
-      {
-        "key": "WSC-1853",
-        "url": "https://e2x.atlassian.net/browse/WSC-1853",
-        "summary": "[WS] Monthly vulnerability review (Snyk) Nov for Oct 2026 Maintain Report",
-        "status": "In Progress",
-        "statusCategory": "indeterminate",
-        "assignee": "Rafael Paranagu\u00e1",
-        "updated": "2026-11-11T12:36:21.667+0000",
-        "priority": "Not Set",
-        "labels": []
       },
       {
         "key": "WSC-1854",
