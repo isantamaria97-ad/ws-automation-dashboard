@@ -1,19 +1,19 @@
 {
-  "lastUpdated": "2026-11-17T02:47:50.494195+00:00",
+  "lastUpdated": "2026-11-17T12:50:34.146569+00:00",
   "jira": {
     "summary": {
       "total": 483,
       "byStatus": {
+        "PENDING DEV DEPLOY": 2,
+        "Tech Review": 4,
         "QA Approved": 12,
         "In Progress": 3,
-        "Ready": 4,
         "Ready to QA": 1,
         "Pre-prioritized": 1,
-        "Tech Review": 4,
         "Done": 412,
         "Ready for Refinement": 3,
         "Deprecated": 24,
-        "PENDING DEV DEPLOY": 1,
+        "Ready": 3,
         "Backlog": 14,
         "Blocked": 2,
         "IN UAT": 1,
@@ -21,6 +21,32 @@
       }
     },
     "tickets": [
+      {
+        "key": "WSC-1738",
+        "url": "https://e2x.atlassian.net/browse/WSC-1738",
+        "summary": "JS ERROR - ResizeObserver loop completed with undelivered notifications",
+        "status": "PENDING DEV DEPLOY",
+        "statusCategory": "new",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-11-17T12:30:12.282+0000",
+        "priority": "Minor",
+        "labels": [
+          "Needs-QA"
+        ]
+      },
+      {
+        "key": "WSC-1869",
+        "url": "https://e2x.atlassian.net/browse/WSC-1869",
+        "summary": "PDP - badge position issue",
+        "status": "Tech Review",
+        "statusCategory": "indeterminate",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-11-17T10:03:07.983+0000",
+        "priority": "Minor",
+        "labels": [
+          "NO_QA_REQUIRED"
+        ]
+      },
       {
         "key": "WSC-1800",
         "url": "https://e2x.atlassian.net/browse/WSC-1800",
@@ -44,19 +70,6 @@
         "updated": "2026-11-16T18:32:14.371+0000",
         "priority": "Not Set",
         "labels": []
-      },
-      {
-        "key": "WSC-1869",
-        "url": "https://e2x.atlassian.net/browse/WSC-1869",
-        "summary": "PDP - badge position issue",
-        "status": "Ready",
-        "statusCategory": "new",
-        "assignee": "Chiara Davies",
-        "updated": "2026-11-16T17:41:50.501+0000",
-        "priority": "Minor",
-        "labels": [
-          "NO_QA_REQUIRED"
-        ]
       },
       {
         "key": "WSC-1847",
@@ -162,19 +175,6 @@
         "labels": [
           "Needs-QA",
           "manualQA"
-        ]
-      },
-      {
-        "key": "WSC-1738",
-        "url": "https://e2x.atlassian.net/browse/WSC-1738",
-        "summary": "JS ERROR - ResizeObserver loop completed with undelivered notifications",
-        "status": "Tech Review",
-        "statusCategory": "indeterminate",
-        "assignee": "Alexander Talavera",
-        "updated": "2026-11-13T02:35:36.816+0000",
-        "priority": "Minor",
-        "labels": [
-          "Needs-QA"
         ]
       },
       {
