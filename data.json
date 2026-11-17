@@ -1,22 +1,22 @@
 {
-  "lastUpdated": "2026-11-17T12:50:34.146569+00:00",
+  "lastUpdated": "2026-11-17T23:22:28.007399+00:00",
   "jira": {
     "summary": {
       "total": 483,
       "byStatus": {
-        "PENDING DEV DEPLOY": 2,
-        "Tech Review": 4,
-        "QA Approved": 12,
-        "In Progress": 3,
-        "Ready to QA": 1,
+        "Ready to QA": 2,
+        "Tech Review": 3,
+        "IN UAT": 2,
+        "QA Approved": 13,
+        "Ready": 3,
+        "In Progress": 2,
         "Pre-prioritized": 1,
         "Done": 412,
         "Ready for Refinement": 3,
         "Deprecated": 24,
-        "Ready": 3,
+        "PENDING DEV DEPLOY": 1,
         "Backlog": 14,
         "Blocked": 2,
-        "IN UAT": 1,
         "READY FOR RELEASE": 1
       }
     },
@@ -25,49 +25,84 @@
         "key": "WSC-1738",
         "url": "https://e2x.atlassian.net/browse/WSC-1738",
         "summary": "JS ERROR - ResizeObserver loop completed with undelivered notifications",
-        "status": "PENDING DEV DEPLOY",
+        "status": "Ready to QA",
         "statusCategory": "new",
         "assignee": "enmanuel.ramirez",
-        "updated": "2026-11-17T12:30:12.282+0000",
+        "updated": "2026-11-17T21:03:26.675+0000",
         "priority": "Minor",
         "labels": [
           "Needs-QA"
         ]
       },
       {
-        "key": "WSC-1869",
-        "url": "https://e2x.atlassian.net/browse/WSC-1869",
-        "summary": "PDP - badge position issue",
+        "key": "WSC-1791",
+        "url": "https://e2x.atlassian.net/browse/WSC-1791",
+        "summary": "API 404 error - https://www.whitestuff.com/api/ampl/getContent",
         "status": "Tech Review",
         "statusCategory": "indeterminate",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-11-17T10:03:07.983+0000",
+        "assignee": "Alexander Talavera",
+        "updated": "2026-11-17T20:50:15.108+0000",
         "priority": "Minor",
         "labels": [
           "NO_QA_REQUIRED"
         ]
       },
       {
-        "key": "WSC-1800",
-        "url": "https://e2x.atlassian.net/browse/WSC-1800",
-        "summary": "SHOP FINDER - SEO page enhancements",
+        "key": "WSC-1749",
+        "url": "https://e2x.atlassian.net/browse/WSC-1749",
+        "summary": "SPIKE> Passwordless Sign-In",
+        "status": "IN UAT",
+        "statusCategory": "indeterminate",
+        "assignee": "Stuart Young",
+        "updated": "2026-11-17T18:47:35.830+0000",
+        "priority": "Major",
+        "labels": []
+      },
+      {
+        "key": "WSC-1869",
+        "url": "https://e2x.atlassian.net/browse/WSC-1869",
+        "summary": "PDP - badge position issue",
+        "status": "QA Approved",
+        "statusCategory": "indeterminate",
+        "assignee": "Unassigned",
+        "updated": "2026-11-17T15:57:43.184+0000",
+        "priority": "Minor",
+        "labels": [
+          "NO_QA_REQUIRED"
+        ]
+      },
+      {
+        "key": "WSC-1401",
+        "url": "https://e2x.atlassian.net/browse/WSC-1401",
+        "summary": "PDP - Stylitics amendment",
+        "status": "QA Approved",
+        "statusCategory": "indeterminate",
+        "assignee": "Gerardo Romero",
+        "updated": "2026-11-17T14:47:05.706+0000",
+        "priority": "Trivial",
+        "labels": []
+      },
+      {
+        "key": "WSC-1782",
+        "url": "https://e2x.atlassian.net/browse/WSC-1782",
+        "summary": "CHECKOUT - Only UK: Calling for collection locations",
         "status": "QA Approved",
         "statusCategory": "indeterminate",
         "assignee": "Juan Carlos Coello",
-        "updated": "2026-11-16T20:01:58.947+0000",
+        "updated": "2026-11-17T14:47:05.428+0000",
         "priority": "Minor",
         "labels": [
           "Needs-QA"
         ]
       },
       {
-        "key": "WSC-1853",
-        "url": "https://e2x.atlassian.net/browse/WSC-1853",
-        "summary": "[WS] Monthly vulnerability review (Snyk) Nov for Oct 2026 Maintain Report",
-        "status": "In Progress",
-        "statusCategory": "indeterminate",
-        "assignee": "Rafael Paranagu\u00e1",
-        "updated": "2026-11-16T18:32:14.371+0000",
+        "key": "WSC-1789",
+        "url": "https://e2x.atlassian.net/browse/WSC-1789",
+        "summary": "Enable automation gate for PR merges on VSF repository",
+        "status": "Ready",
+        "statusCategory": "new",
+        "assignee": "Gerardo Romero",
+        "updated": "2026-11-17T14:47:05.420+0000",
         "priority": "Not Set",
         "labels": []
       },
@@ -78,7 +113,7 @@
         "status": "Ready to QA",
         "statusCategory": "new",
         "assignee": "enmanuel.ramirez",
-        "updated": "2026-11-16T15:17:17.009+0000",
+        "updated": "2026-11-17T14:47:05.305+0000",
         "priority": "Not Set",
         "labels": [
           "NO_QA_REQUIRED"
@@ -91,8 +126,84 @@
         "status": "QA Approved",
         "statusCategory": "indeterminate",
         "assignee": "Juan Carlos Coello",
-        "updated": "2026-11-13T22:50:32.390+0000",
+        "updated": "2026-11-17T14:47:05.138+0000",
         "priority": "Major",
+        "labels": [
+          "Needs-QA"
+        ]
+      },
+      {
+        "key": "WSC-1812",
+        "url": "https://e2x.atlassian.net/browse/WSC-1812",
+        "summary": "PERSONALISED CONTENT - preview URL by segment",
+        "status": "QA Approved",
+        "statusCategory": "indeterminate",
+        "assignee": "Gerardo Romero",
+        "updated": "2026-11-17T14:47:04.849+0000",
+        "priority": "Major",
+        "labels": [
+          "Needs-QA",
+          "accelerated"
+        ]
+      },
+      {
+        "key": "WSC-1817",
+        "url": "https://e2x.atlassian.net/browse/WSC-1817",
+        "summary": "SALE BADGES - Amplience control",
+        "status": "QA Approved",
+        "statusCategory": "indeterminate",
+        "assignee": "Gerardo Romero",
+        "updated": "2026-11-17T14:47:04.573+0000",
+        "priority": "Major",
+        "labels": [
+          "Needs-QA"
+        ]
+      },
+      {
+        "key": "WSC-1846",
+        "url": "https://e2x.atlassian.net/browse/WSC-1846",
+        "summary": "[WSSD-777] - VSF promotion price issue",
+        "status": "Tech Review",
+        "statusCategory": "indeterminate",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-11-17T14:47:04.473+0000",
+        "priority": "Trivial",
+        "labels": []
+      },
+      {
+        "key": "WSC-1699",
+        "url": "https://e2x.atlassian.net/browse/WSC-1699",
+        "summary": "PLP - single image roll over issue",
+        "status": "QA Approved",
+        "statusCategory": "indeterminate",
+        "assignee": "Gerardo Romero",
+        "updated": "2026-11-17T14:47:04.261+0000",
+        "priority": "Minor",
+        "labels": [
+          "Needs-QA",
+          "manualQA"
+        ]
+      },
+      {
+        "key": "WSC-1853",
+        "url": "https://e2x.atlassian.net/browse/WSC-1853",
+        "summary": "[WS] Monthly vulnerability review (Snyk) Nov for Oct 2026 Maintain Report",
+        "status": "In Progress",
+        "statusCategory": "indeterminate",
+        "assignee": "Rafael Paranagu\u00e1",
+        "updated": "2026-11-17T14:47:04.231+0000",
+        "priority": "Not Set",
+        "labels": []
+      },
+      {
+        "key": "WSC-1801",
+        "url": "https://e2x.atlassian.net/browse/WSC-1801",
+        "summary": "SHOP PAGE - SEO amendment",
+        "status": "QA Approved",
+        "statusCategory": "indeterminate",
+        "assignee": "Gerardo Romero",
+        "updated": "2026-11-17T14:47:03.617+0000",
+        "priority": "Minor",
         "labels": [
           "Needs-QA"
         ]
@@ -104,23 +215,49 @@
         "status": "In Progress",
         "statusCategory": "indeterminate",
         "assignee": "enmanuel.ramirez",
-        "updated": "2026-11-13T16:38:44.854+0000",
+        "updated": "2026-11-17T14:47:03.374+0000",
         "priority": "Major",
         "labels": [
           "Needs-QA"
         ]
       },
       {
-        "key": "WSC-1791",
-        "url": "https://e2x.atlassian.net/browse/WSC-1791",
-        "summary": "API 404 error - https://www.whitestuff.com/api/ampl/getContent",
-        "status": "In Progress",
+        "key": "WSC-1800",
+        "url": "https://e2x.atlassian.net/browse/WSC-1800",
+        "summary": "SHOP FINDER - SEO page enhancements",
+        "status": "QA Approved",
         "statusCategory": "indeterminate",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-11-13T16:32:54.280+0000",
+        "assignee": "Juan Carlos Coello",
+        "updated": "2026-11-17T14:47:03.344+0000",
         "priority": "Minor",
         "labels": [
-          "NO_QA_REQUIRED"
+          "Needs-QA"
+        ]
+      },
+      {
+        "key": "WSC-1776",
+        "url": "https://e2x.atlassian.net/browse/WSC-1776",
+        "summary": "SLIM BANNER - personalisation",
+        "status": "QA Approved",
+        "statusCategory": "indeterminate",
+        "assignee": "Gerardo Romero",
+        "updated": "2026-11-17T14:47:03.014+0000",
+        "priority": "Major",
+        "labels": [
+          "Needs-QA"
+        ]
+      },
+      {
+        "key": "WSC-1803",
+        "url": "https://e2x.atlassian.net/browse/WSC-1803",
+        "summary": "MINI BAG - minor adjustments",
+        "status": "QA Approved",
+        "statusCategory": "indeterminate",
+        "assignee": "Gerardo Romero",
+        "updated": "2026-11-17T14:47:03.009+0000",
+        "priority": "Minor",
+        "labels": [
+          "Needs-QA"
         ]
       },
       {
@@ -135,73 +272,6 @@
         "labels": [
           "CSP",
           "NO_QA_REQUIRED"
-        ]
-      },
-      {
-        "key": "WSC-1817",
-        "url": "https://e2x.atlassian.net/browse/WSC-1817",
-        "summary": "SALE BADGES - Amplience control",
-        "status": "QA Approved",
-        "statusCategory": "indeterminate",
-        "assignee": "Gerardo Romero",
-        "updated": "2026-11-13T14:53:46.954+0000",
-        "priority": "Major",
-        "labels": [
-          "Needs-QA"
-        ]
-      },
-      {
-        "key": "WSC-1776",
-        "url": "https://e2x.atlassian.net/browse/WSC-1776",
-        "summary": "SLIM BANNER - personalisation",
-        "status": "QA Approved",
-        "statusCategory": "indeterminate",
-        "assignee": "Gerardo Romero",
-        "updated": "2026-11-13T03:52:54.385+0000",
-        "priority": "Major",
-        "labels": [
-          "Needs-QA"
-        ]
-      },
-      {
-        "key": "WSC-1699",
-        "url": "https://e2x.atlassian.net/browse/WSC-1699",
-        "summary": "PLP - single image roll over issue",
-        "status": "QA Approved",
-        "statusCategory": "indeterminate",
-        "assignee": "Gerardo Romero",
-        "updated": "2026-11-13T03:42:04.490+0000",
-        "priority": "Minor",
-        "labels": [
-          "Needs-QA",
-          "manualQA"
-        ]
-      },
-      {
-        "key": "WSC-1812",
-        "url": "https://e2x.atlassian.net/browse/WSC-1812",
-        "summary": "PERSONALISED CONTENT - preview URL by segment",
-        "status": "QA Approved",
-        "statusCategory": "indeterminate",
-        "assignee": "Gerardo Romero",
-        "updated": "2026-11-12T19:29:18.573+0000",
-        "priority": "Major",
-        "labels": [
-          "Needs-QA",
-          "accelerated"
-        ]
-      },
-      {
-        "key": "WSC-1782",
-        "url": "https://e2x.atlassian.net/browse/WSC-1782",
-        "summary": "CHECKOUT - Only UK: Calling for collection locations",
-        "status": "QA Approved",
-        "statusCategory": "indeterminate",
-        "assignee": "Juan Carlos Coello",
-        "updated": "2026-11-12T19:22:01.084+0000",
-        "priority": "Minor",
-        "labels": [
-          "Needs-QA"
         ]
       },
       {
@@ -230,54 +300,6 @@
         "labels": [
           "Needs-QA"
         ]
-      },
-      {
-        "key": "WSC-1401",
-        "url": "https://e2x.atlassian.net/browse/WSC-1401",
-        "summary": "PDP - Stylitics amendment",
-        "status": "QA Approved",
-        "statusCategory": "indeterminate",
-        "assignee": "Gerardo Romero",
-        "updated": "2026-11-12T12:59:22.170+0000",
-        "priority": "Trivial",
-        "labels": []
-      },
-      {
-        "key": "WSC-1801",
-        "url": "https://e2x.atlassian.net/browse/WSC-1801",
-        "summary": "SHOP PAGE - SEO amendment",
-        "status": "QA Approved",
-        "statusCategory": "indeterminate",
-        "assignee": "Gerardo Romero",
-        "updated": "2026-11-12T12:59:19.354+0000",
-        "priority": "Minor",
-        "labels": [
-          "Needs-QA"
-        ]
-      },
-      {
-        "key": "WSC-1803",
-        "url": "https://e2x.atlassian.net/browse/WSC-1803",
-        "summary": "MINI BAG - minor adjustments",
-        "status": "QA Approved",
-        "statusCategory": "indeterminate",
-        "assignee": "Gerardo Romero",
-        "updated": "2026-11-12T12:59:17.891+0000",
-        "priority": "Minor",
-        "labels": [
-          "Needs-QA"
-        ]
-      },
-      {
-        "key": "WSC-1749",
-        "url": "https://e2x.atlassian.net/browse/WSC-1749",
-        "summary": "SPIKE> Passwordless Sign-In",
-        "status": "Tech Review",
-        "statusCategory": "indeterminate",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-11-12T12:59:16.906+0000",
-        "priority": "Major",
-        "labels": []
       },
       {
         "key": "WSC-1690",
@@ -648,28 +670,6 @@
         "assignee": "Unassigned",
         "updated": "2026-11-09T15:15:34.045+0000",
         "priority": "Major",
-        "labels": []
-      },
-      {
-        "key": "WSC-1846",
-        "url": "https://e2x.atlassian.net/browse/WSC-1846",
-        "summary": "[WSSD-777] - VSF promotion price issue",
-        "status": "Tech Review",
-        "statusCategory": "indeterminate",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-11-06T15:27:51.171+0000",
-        "priority": "Trivial",
-        "labels": []
-      },
-      {
-        "key": "WSC-1789",
-        "url": "https://e2x.atlassian.net/browse/WSC-1789",
-        "summary": "Enable automation gate for PR merges on VSF repository",
-        "status": "Ready",
-        "statusCategory": "new",
-        "assignee": "Gerardo Romero",
-        "updated": "2026-11-06T15:27:51.163+0000",
-        "priority": "Not Set",
         "labels": []
       },
       {
