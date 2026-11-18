@@ -1,17 +1,17 @@
 {
-  "lastUpdated": "2026-11-17T23:22:28.007399+00:00",
+  "lastUpdated": "2026-11-18T06:20:33.739492+00:00",
   "jira": {
     "summary": {
       "total": 483,
       "byStatus": {
+        "IN UAT": 2,
+        "Done": 412,
         "Ready to QA": 2,
         "Tech Review": 3,
-        "IN UAT": 2,
         "QA Approved": 13,
         "Ready": 3,
         "In Progress": 2,
         "Pre-prioritized": 1,
-        "Done": 412,
         "Ready for Refinement": 3,
         "Deprecated": 24,
         "PENDING DEV DEPLOY": 1,
@@ -21,6 +21,273 @@
       }
     },
     "tickets": [
+      {
+        "key": "WSC-1749",
+        "url": "https://e2x.atlassian.net/browse/WSC-1749",
+        "summary": "SPIKE> Passwordless Sign-In",
+        "status": "IN UAT",
+        "statusCategory": "indeterminate",
+        "assignee": "Stuart Young",
+        "updated": "2026-11-18T03:23:30.059+0000",
+        "priority": "Major",
+        "labels": []
+      },
+      {
+        "key": "WSC-1848",
+        "url": "https://e2x.atlassian.net/browse/WSC-1848",
+        "summary": "Mobile Category Nav - scrollable area fix",
+        "status": "Done",
+        "statusCategory": "done",
+        "assignee": "Unassigned",
+        "updated": "2026-11-18T03:11:26.629+0000",
+        "priority": "Major",
+        "labels": [
+          "NO_QA_REQUIRED",
+          "accelerated"
+        ]
+      },
+      {
+        "key": "WSC-1832",
+        "url": "https://e2x.atlassian.net/browse/WSC-1832",
+        "summary": "[WSSD-776] - CRO Support: JavaScript Errors when working via SiteSpect",
+        "status": "Done",
+        "statusCategory": "done",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-11-18T03:11:09.129+0000",
+        "priority": "Major",
+        "labels": [
+          "NO_QA_REQUIRED",
+          "accelerated"
+        ]
+      },
+      {
+        "key": "WSC-1828",
+        "url": "https://e2x.atlassian.net/browse/WSC-1828",
+        "summary": "[WSSD-773] - Reduce Datadog RUM session sample rate to 50% (White Stuff)",
+        "status": "Done",
+        "statusCategory": "done",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-11-18T03:05:23.920+0000",
+        "priority": "Trivial",
+        "labels": [
+          "NO_QA_REQUIRED",
+          "standard"
+        ]
+      },
+      {
+        "key": "WSC-1824",
+        "url": "https://e2x.atlassian.net/browse/WSC-1824",
+        "summary": "API prod set up - Shop stock look up",
+        "status": "Done",
+        "statusCategory": "done",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-11-18T03:04:53.050+0000",
+        "priority": "Not Set",
+        "labels": [
+          "NO_QA_REQUIRED",
+          "accelerated"
+        ]
+      },
+      {
+        "key": "WSC-1818",
+        "url": "https://e2x.atlassian.net/browse/WSC-1818",
+        "summary": "[WSSD-766] - [Snyk] Critical vulnerability: Improper Certificate Validation in undici@6.28.1 (ad-caas-whitestuff)",
+        "status": "Done",
+        "statusCategory": "done",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-11-18T03:03:55.015+0000",
+        "priority": "Blocker",
+        "labels": [
+          "NO_QA_REQUIRED",
+          "accelerated"
+        ]
+      },
+      {
+        "key": "WSC-1814",
+        "url": "https://e2x.atlassian.net/browse/WSC-1814",
+        "summary": "Fix Snyk high-severity vulnerabilities",
+        "status": "Done",
+        "statusCategory": "done",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-11-18T03:03:37.794+0000",
+        "priority": "Major",
+        "labels": [
+          "NO_QA_REQUIRED",
+          "co-build"
+        ]
+      },
+      {
+        "key": "WSC-1807",
+        "url": "https://e2x.atlassian.net/browse/WSC-1807",
+        "summary": "US storefront pages return 500 on DEV",
+        "status": "Done",
+        "statusCategory": "done",
+        "assignee": "Gerardo Romero",
+        "updated": "2026-11-18T03:03:07.121+0000",
+        "priority": "Major",
+        "labels": [
+          "Needs-QA",
+          "accelerated"
+        ]
+      },
+      {
+        "key": "WSC-1785",
+        "url": "https://e2x.atlassian.net/browse/WSC-1785",
+        "summary": "MIDDLEWARE - for shop stock look up WSC-1670",
+        "status": "Done",
+        "statusCategory": "done",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-11-18T03:02:20.805+0000",
+        "priority": "Blocker",
+        "labels": [
+          "NO_QA_REQUIRED",
+          "accelerated"
+        ]
+      },
+      {
+        "key": "WSC-1781",
+        "url": "https://e2x.atlassian.net/browse/WSC-1781",
+        "summary": "REVERT WSC-1499 - CHECKOUT - Amplience - Managing the delivery/collection options",
+        "status": "Done",
+        "statusCategory": "done",
+        "assignee": "Gerardo Romero",
+        "updated": "2026-11-18T03:01:54.063+0000",
+        "priority": "Minor",
+        "labels": [
+          "Needs-QA",
+          "accelerated"
+        ]
+      },
+      {
+        "key": "WSC-1772",
+        "url": "https://e2x.atlassian.net/browse/WSC-1772",
+        "summary": "CSP - UAT \u2013 Resolve Remaining Report-Only Violations Before Enforcement",
+        "status": "Done",
+        "statusCategory": "done",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-11-18T03:01:09.279+0000",
+        "priority": "Not Set",
+        "labels": [
+          "NO_QA_REQUIRED",
+          "standard"
+        ]
+      },
+      {
+        "key": "WSC-1707",
+        "url": "https://e2x.atlassian.net/browse/WSC-1707",
+        "summary": "BAG - Coupon section disappears after applying an invalid coupon and reloading the page",
+        "status": "Done",
+        "statusCategory": "done",
+        "assignee": "Gerardo Romero",
+        "updated": "2026-11-18T02:59:13.867+0000",
+        "priority": "Minor",
+        "labels": [
+          "Bug",
+          "Needs-QA",
+          "accelerated"
+        ]
+      },
+      {
+        "key": "WSC-1685",
+        "url": "https://e2x.atlassian.net/browse/WSC-1685",
+        "summary": "PDP - mobile sticky ADD TO BAG change to its behaviour",
+        "status": "Done",
+        "statusCategory": "done",
+        "assignee": "Gerardo Romero",
+        "updated": "2026-11-18T02:49:43.601+0000",
+        "priority": "Major",
+        "labels": [
+          "Needs-QA",
+          "accelerated",
+          "manualQA"
+        ]
+      },
+      {
+        "key": "WSC-1684",
+        "url": "https://e2x.atlassian.net/browse/WSC-1684",
+        "summary": "PDP - mobile sticky ADD TO BAG UX",
+        "status": "Done",
+        "statusCategory": "done",
+        "assignee": "Gerardo Romero",
+        "updated": "2026-11-18T02:49:28.719+0000",
+        "priority": "Major",
+        "labels": [
+          "Needs-QA",
+          "accelerated",
+          "automatable"
+        ]
+      },
+      {
+        "key": "WSC-1658",
+        "url": "https://e2x.atlassian.net/browse/WSC-1658",
+        "summary": "BAG ORDER SUMMARY - redesign",
+        "status": "Done",
+        "statusCategory": "done",
+        "assignee": "Gerardo Romero",
+        "updated": "2026-11-18T02:48:00.695+0000",
+        "priority": "Major",
+        "labels": [
+          "Needs-QA",
+          "accelerated"
+        ]
+      },
+      {
+        "key": "WSC-1643",
+        "url": "https://e2x.atlassian.net/browse/WSC-1643",
+        "summary": "Unmasking JS errors - vendor outreach",
+        "status": "Done",
+        "statusCategory": "done",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-11-18T02:47:25.766+0000",
+        "priority": "Major",
+        "labels": [
+          "NO_QA_REQUIRED",
+          "standard"
+        ]
+      },
+      {
+        "key": "WSC-1481",
+        "url": "https://e2x.atlassian.net/browse/WSC-1481",
+        "summary": "Initial CSP Report-Only Rollout  (Production)",
+        "status": "Done",
+        "statusCategory": "done",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-11-18T02:46:50.476+0000",
+        "priority": "Not Set",
+        "labels": [
+          "CSP",
+          "standard"
+        ]
+      },
+      {
+        "key": "WSC-1285",
+        "url": "https://e2x.atlassian.net/browse/WSC-1285",
+        "summary": "ACCESSIBILITY - Button Name - Quick Add close button must have discernible text",
+        "status": "Done",
+        "statusCategory": "done",
+        "assignee": "Rafael Paranagu\u00e1",
+        "updated": "2026-11-18T02:46:23.674+0000",
+        "priority": "Major",
+        "labels": [
+          "Needs-QA",
+          "accelerated",
+          "manualQA"
+        ]
+      },
+      {
+        "key": "WSC-1162",
+        "url": "https://e2x.atlassian.net/browse/WSC-1162",
+        "summary": "Set Up Automated Yearly Task for Security.txt Renewal",
+        "status": "Done",
+        "statusCategory": "done",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-11-18T02:46:10.766+0000",
+        "priority": "Minor",
+        "labels": [
+          "NO_QA_REQUIRED",
+          "accelerated"
+        ]
+      },
       {
         "key": "WSC-1738",
         "url": "https://e2x.atlassian.net/browse/WSC-1738",
@@ -46,17 +313,6 @@
         "labels": [
           "NO_QA_REQUIRED"
         ]
-      },
-      {
-        "key": "WSC-1749",
-        "url": "https://e2x.atlassian.net/browse/WSC-1749",
-        "summary": "SPIKE> Passwordless Sign-In",
-        "status": "IN UAT",
-        "statusCategory": "indeterminate",
-        "assignee": "Stuart Young",
-        "updated": "2026-11-17T18:47:35.830+0000",
-        "priority": "Major",
-        "labels": []
       },
       {
         "key": "WSC-1869",
@@ -377,19 +633,6 @@
         ]
       },
       {
-        "key": "WSC-1658",
-        "url": "https://e2x.atlassian.net/browse/WSC-1658",
-        "summary": "BAG ORDER SUMMARY - redesign",
-        "status": "Done",
-        "statusCategory": "done",
-        "assignee": "Gerardo Romero",
-        "updated": "2026-11-12T12:59:11.802+0000",
-        "priority": "Major",
-        "labels": [
-          "Needs-QA"
-        ]
-      },
-      {
         "key": "WSC-1659",
         "url": "https://e2x.atlassian.net/browse/WSC-1659",
         "summary": "BAG ORDER SUMMARY - sticky CTAs on tablet/mobile",
@@ -415,19 +658,6 @@
         "labels": []
       },
       {
-        "key": "WSC-1814",
-        "url": "https://e2x.atlassian.net/browse/WSC-1814",
-        "summary": "Fix Snyk high-severity vulnerabilities",
-        "status": "Done",
-        "statusCategory": "done",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-11-12T12:59:10.297+0000",
-        "priority": "Major",
-        "labels": [
-          "NO_QA_REQUIRED"
-        ]
-      },
-      {
         "key": "WSC-1739",
         "url": "https://e2x.atlassian.net/browse/WSC-1739",
         "summary": "CHECKOUT - BC API CHANGE (1 of 2)",
@@ -438,32 +668,6 @@
         "priority": "Critical",
         "labels": [
           "NO_QA_REQUIRED"
-        ]
-      },
-      {
-        "key": "WSC-1818",
-        "url": "https://e2x.atlassian.net/browse/WSC-1818",
-        "summary": "[WSSD-766] - [Snyk] Critical vulnerability: Improper Certificate Validation in undici@6.28.1 (ad-caas-whitestuff)",
-        "status": "Done",
-        "statusCategory": "done",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-11-12T12:59:09.276+0000",
-        "priority": "Blocker",
-        "labels": [
-          "NO_QA_REQUIRED"
-        ]
-      },
-      {
-        "key": "WSC-1781",
-        "url": "https://e2x.atlassian.net/browse/WSC-1781",
-        "summary": "REVERT WSC-1499 - CHECKOUT - Amplience - Managing the delivery/collection options",
-        "status": "Done",
-        "statusCategory": "done",
-        "assignee": "Gerardo Romero",
-        "updated": "2026-11-12T12:59:08.781+0000",
-        "priority": "Minor",
-        "labels": [
-          "Needs-QA"
         ]
       },
       {
@@ -502,19 +706,6 @@
         "assignee": "enmanuel.ramirez",
         "updated": "2026-11-12T12:59:07.363+0000",
         "priority": "Major",
-        "labels": [
-          "NO_QA_REQUIRED"
-        ]
-      },
-      {
-        "key": "WSC-1785",
-        "url": "https://e2x.atlassian.net/browse/WSC-1785",
-        "summary": "MIDDLEWARE - for shop stock look up WSC-1670",
-        "status": "Done",
-        "statusCategory": "done",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-11-12T12:59:06.885+0000",
-        "priority": "Blocker",
         "labels": [
           "NO_QA_REQUIRED"
         ]
@@ -583,46 +774,6 @@
         ]
       },
       {
-        "key": "WSC-1824",
-        "url": "https://e2x.atlassian.net/browse/WSC-1824",
-        "summary": "API prod set up - Shop stock look up",
-        "status": "Done",
-        "statusCategory": "done",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-11-12T12:59:03.828+0000",
-        "priority": "Not Set",
-        "labels": [
-          "NO_QA_REQUIRED"
-        ]
-      },
-      {
-        "key": "WSC-1707",
-        "url": "https://e2x.atlassian.net/browse/WSC-1707",
-        "summary": "BAG - Coupon section disappears after applying an invalid coupon and reloading the page",
-        "status": "Done",
-        "statusCategory": "done",
-        "assignee": "Gerardo Romero",
-        "updated": "2026-11-12T12:59:03.375+0000",
-        "priority": "Minor",
-        "labels": [
-          "Bug",
-          "Needs-QA"
-        ]
-      },
-      {
-        "key": "WSC-1807",
-        "url": "https://e2x.atlassian.net/browse/WSC-1807",
-        "summary": "US storefront pages return 500 on DEV",
-        "status": "Done",
-        "statusCategory": "done",
-        "assignee": "Gerardo Romero",
-        "updated": "2026-11-12T12:59:02.854+0000",
-        "priority": "Major",
-        "labels": [
-          "Needs-QA"
-        ]
-      },
-      {
         "key": "WSC-1854",
         "url": "https://e2x.atlassian.net/browse/WSC-1854",
         "summary": "TRUE FIT - in the mini bag",
@@ -684,19 +835,6 @@
         "labels": []
       },
       {
-        "key": "WSC-1848",
-        "url": "https://e2x.atlassian.net/browse/WSC-1848",
-        "summary": "Mobile Category Nav - scrollable area fix",
-        "status": "Done",
-        "statusCategory": "done",
-        "assignee": "Unassigned",
-        "updated": "2026-11-05T14:12:51.917+0000",
-        "priority": "Major",
-        "labels": [
-          "NO_QA_REQUIRED"
-        ]
-      },
-      {
         "key": "WSC-1837",
         "url": "https://e2x.atlassian.net/browse/WSC-1837",
         "summary": "PDP - shop stock look up amends",
@@ -706,19 +844,6 @@
         "updated": "2026-11-05T12:02:54.432+0000",
         "priority": "Major",
         "labels": []
-      },
-      {
-        "key": "WSC-1832",
-        "url": "https://e2x.atlassian.net/browse/WSC-1832",
-        "summary": "[WSSD-776] - CRO Support: JavaScript Errors when working via SiteSpect",
-        "status": "Done",
-        "statusCategory": "done",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-11-05T12:02:53.562+0000",
-        "priority": "Major",
-        "labels": [
-          "NO_QA_REQUIRED"
-        ]
       },
       {
         "key": "WSC-1831",
@@ -776,19 +901,6 @@
         "updated": "2026-10-29T15:21:47.988+0000",
         "priority": "Not Set",
         "labels": []
-      },
-      {
-        "key": "WSC-1828",
-        "url": "https://e2x.atlassian.net/browse/WSC-1828",
-        "summary": "[WSSD-773] - Reduce Datadog RUM session sample rate to 50% (White Stuff)",
-        "status": "Done",
-        "statusCategory": "done",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-10-29T12:50:51.823+0000",
-        "priority": "Trivial",
-        "labels": [
-          "NO_QA_REQUIRED"
-        ]
       },
       {
         "key": "WSC-1527",
@@ -883,19 +995,6 @@
           "Needs-QA",
           "automatable",
           "manualQA"
-        ]
-      },
-      {
-        "key": "WSC-1772",
-        "url": "https://e2x.atlassian.net/browse/WSC-1772",
-        "summary": "CSP - UAT \u2013 Resolve Remaining Report-Only Violations Before Enforcement",
-        "status": "Done",
-        "statusCategory": "done",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-10-21T20:20:49.189+0100",
-        "priority": "Not Set",
-        "labels": [
-          "NO_QA_REQUIRED"
         ]
       },
       {
@@ -1061,46 +1160,6 @@
         "labels": []
       },
       {
-        "key": "WSC-1162",
-        "url": "https://e2x.atlassian.net/browse/WSC-1162",
-        "summary": "Set Up Automated Yearly Task for Security.txt Renewal",
-        "status": "Done",
-        "statusCategory": "done",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-10-21T20:20:42.640+0100",
-        "priority": "Minor",
-        "labels": [
-          "NO_QA_REQUIRED"
-        ]
-      },
-      {
-        "key": "WSC-1481",
-        "url": "https://e2x.atlassian.net/browse/WSC-1481",
-        "summary": "Initial CSP Report-Only Rollout  (Production)",
-        "status": "Done",
-        "statusCategory": "done",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-10-21T20:20:42.166+0100",
-        "priority": "Not Set",
-        "labels": [
-          "CSP"
-        ]
-      },
-      {
-        "key": "WSC-1285",
-        "url": "https://e2x.atlassian.net/browse/WSC-1285",
-        "summary": "ACCESSIBILITY - Button Name - Quick Add close button must have discernible text",
-        "status": "Done",
-        "statusCategory": "done",
-        "assignee": "Rafael Paranagu\u00e1",
-        "updated": "2026-10-21T20:20:41.717+0100",
-        "priority": "Major",
-        "labels": [
-          "Needs-QA",
-          "manualQA"
-        ]
-      },
-      {
         "key": "WSC-1780",
         "url": "https://e2x.atlassian.net/browse/WSC-1780",
         "summary": "Cloudflare 403 Challenge Blocking Checkout Automation on Desktop",
@@ -1177,20 +1236,6 @@
         ]
       },
       {
-        "key": "WSC-1684",
-        "url": "https://e2x.atlassian.net/browse/WSC-1684",
-        "summary": "PDP - mobile sticky ADD TO BAG UX",
-        "status": "Done",
-        "statusCategory": "done",
-        "assignee": "Gerardo Romero",
-        "updated": "2026-10-21T20:20:38.246+0100",
-        "priority": "Major",
-        "labels": [
-          "Needs-QA",
-          "automatable"
-        ]
-      },
-      {
         "key": "WSC-1783",
         "url": "https://e2x.atlassian.net/browse/WSC-1783",
         "summary": "PDP - minor tweaks",
@@ -1201,20 +1246,6 @@
         "priority": "Minor",
         "labels": [
           "NO_QA_REQUIRED"
-        ]
-      },
-      {
-        "key": "WSC-1685",
-        "url": "https://e2x.atlassian.net/browse/WSC-1685",
-        "summary": "PDP - mobile sticky ADD TO BAG change to its behaviour",
-        "status": "Done",
-        "statusCategory": "done",
-        "assignee": "Gerardo Romero",
-        "updated": "2026-10-21T20:20:37.362+0100",
-        "priority": "Major",
-        "labels": [
-          "Needs-QA",
-          "manualQA"
         ]
       },
       {
@@ -1570,19 +1601,6 @@
         "priority": "Minor",
         "labels": [
           "Needs-QA"
-        ]
-      },
-      {
-        "key": "WSC-1643",
-        "url": "https://e2x.atlassian.net/browse/WSC-1643",
-        "summary": "Unmasking JS errors - vendor outreach",
-        "status": "Done",
-        "statusCategory": "done",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-09-30T19:58:16.559+0100",
-        "priority": "Major",
-        "labels": [
-          "NO_QA_REQUIRED"
         ]
       },
       {
