@@ -1,17 +1,16 @@
 {
-  "lastUpdated": "2026-11-18T06:20:33.739492+00:00",
+  "lastUpdated": "2026-11-18T16:59:05.115404+00:00",
   "jira": {
     "summary": {
-      "total": 483,
+      "total": 486,
       "byStatus": {
+        "Ready": 7,
+        "Ready to QA": 1,
+        "QA Approved": 14,
         "IN UAT": 2,
         "Done": 412,
-        "Ready to QA": 2,
         "Tech Review": 3,
-        "QA Approved": 13,
-        "Ready": 3,
         "In Progress": 2,
-        "Pre-prioritized": 1,
         "Ready for Refinement": 3,
         "Deprecated": 24,
         "PENDING DEV DEPLOY": 1,
@@ -21,6 +20,83 @@
       }
     },
     "tickets": [
+      {
+        "key": "WSC-1868",
+        "url": "https://e2x.atlassian.net/browse/WSC-1868",
+        "summary": "CONTENT - new Recently Viewed carousel",
+        "status": "Ready",
+        "statusCategory": "new",
+        "assignee": "Chiara Davies",
+        "updated": "2026-11-18T16:37:07.549+0000",
+        "priority": "Major",
+        "labels": []
+      },
+      {
+        "key": "WSC-1852",
+        "url": "https://e2x.atlassian.net/browse/WSC-1852",
+        "summary": "PRICING - Was/Was/Now for markdown/sale items with a discount appled",
+        "status": "Ready",
+        "statusCategory": "new",
+        "assignee": "Chiara Davies",
+        "updated": "2026-11-18T16:35:22.739+0000",
+        "priority": "Major",
+        "labels": [
+          "Needs-QA"
+        ]
+      },
+      {
+        "key": "WSC-1838",
+        "url": "https://e2x.atlassian.net/browse/WSC-1838",
+        "summary": "PDP - new source for image Alt Text",
+        "status": "Ready",
+        "statusCategory": "new",
+        "assignee": "Unassigned",
+        "updated": "2026-11-18T16:27:42.587+0000",
+        "priority": "Major",
+        "labels": [
+          "Needs-QA"
+        ]
+      },
+      {
+        "key": "WSC-1484",
+        "url": "https://e2x.atlassian.net/browse/WSC-1484",
+        "summary": "CSP Enforcement Rollout & Hardening",
+        "status": "Ready",
+        "statusCategory": "new",
+        "assignee": "Unassigned",
+        "updated": "2026-11-18T13:24:31.211+0000",
+        "priority": "Critical",
+        "labels": [
+          "CSP",
+          "NO_QA_REQUIRED"
+        ]
+      },
+      {
+        "key": "WSC-1738",
+        "url": "https://e2x.atlassian.net/browse/WSC-1738",
+        "summary": "JS ERROR - ResizeObserver loop completed with undelivered notifications",
+        "status": "Ready to QA",
+        "statusCategory": "new",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-11-18T12:42:49.955+0000",
+        "priority": "Minor",
+        "labels": [
+          "Needs-QA"
+        ]
+      },
+      {
+        "key": "WSC-1847",
+        "url": "https://e2x.atlassian.net/browse/WSC-1847",
+        "summary": "Upgrade checkout-js build tooling from Node 14 to Node 22 LTS",
+        "status": "QA Approved",
+        "statusCategory": "indeterminate",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-11-18T12:14:00.732+0000",
+        "priority": "Not Set",
+        "labels": [
+          "NO_QA_REQUIRED"
+        ]
+      },
       {
         "key": "WSC-1749",
         "url": "https://e2x.atlassian.net/browse/WSC-1749",
@@ -289,19 +365,6 @@
         ]
       },
       {
-        "key": "WSC-1738",
-        "url": "https://e2x.atlassian.net/browse/WSC-1738",
-        "summary": "JS ERROR - ResizeObserver loop completed with undelivered notifications",
-        "status": "Ready to QA",
-        "statusCategory": "new",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-11-17T21:03:26.675+0000",
-        "priority": "Minor",
-        "labels": [
-          "Needs-QA"
-        ]
-      },
-      {
         "key": "WSC-1791",
         "url": "https://e2x.atlassian.net/browse/WSC-1791",
         "summary": "API 404 error - https://www.whitestuff.com/api/ampl/getContent",
@@ -361,19 +424,6 @@
         "updated": "2026-11-17T14:47:05.420+0000",
         "priority": "Not Set",
         "labels": []
-      },
-      {
-        "key": "WSC-1847",
-        "url": "https://e2x.atlassian.net/browse/WSC-1847",
-        "summary": "Upgrade checkout-js build tooling from Node 14 to Node 22 LTS",
-        "status": "Ready to QA",
-        "statusCategory": "new",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-11-17T14:47:05.305+0000",
-        "priority": "Not Set",
-        "labels": [
-          "NO_QA_REQUIRED"
-        ]
       },
       {
         "key": "WSC-1811",
@@ -514,20 +564,6 @@
         "priority": "Minor",
         "labels": [
           "Needs-QA"
-        ]
-      },
-      {
-        "key": "WSC-1484",
-        "url": "https://e2x.atlassian.net/browse/WSC-1484",
-        "summary": "CSP Enforcement Rollout & Hardening",
-        "status": "Pre-prioritized",
-        "statusCategory": "new",
-        "assignee": "Unassigned",
-        "updated": "2026-11-13T16:02:42.233+0000",
-        "priority": "Critical",
-        "labels": [
-          "CSP",
-          "NO_QA_REQUIRED"
         ]
       },
       {
