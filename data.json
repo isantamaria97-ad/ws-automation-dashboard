@@ -1,17 +1,18 @@
 {
-  "lastUpdated": "2026-11-18T16:59:05.115404+00:00",
+  "lastUpdated": "2026-11-19T01:45:11.913793+00:00",
   "jira": {
     "summary": {
-      "total": 486,
+      "total": 487,
       "byStatus": {
-        "Ready": 7,
+        "In Progress": 2,
+        "To Do": 1,
+        "Ready": 8,
         "Ready to QA": 1,
         "QA Approved": 14,
         "IN UAT": 2,
         "Done": 412,
         "Tech Review": 3,
-        "In Progress": 2,
-        "Ready for Refinement": 3,
+        "Ready for Refinement": 2,
         "Deprecated": 24,
         "PENDING DEV DEPLOY": 1,
         "Backlog": 14,
@@ -20,6 +21,41 @@
       }
     },
     "tickets": [
+      {
+        "key": "WSC-1790",
+        "url": "https://e2x.atlassian.net/browse/WSC-1790",
+        "summary": "SECURITY - block public access to DEV & UAT",
+        "status": "In Progress",
+        "statusCategory": "indeterminate",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-11-19T01:19:54.537+0000",
+        "priority": "Major",
+        "labels": [
+          "Needs-QA"
+        ]
+      },
+      {
+        "key": "WSC-1629",
+        "url": "https://e2x.atlassian.net/browse/WSC-1629",
+        "summary": "SPIKE - product family for multi-item products (PLP/PDP)",
+        "status": "To Do",
+        "statusCategory": "new",
+        "assignee": "Unassigned",
+        "updated": "2026-11-18T18:41:44.870+0000",
+        "priority": "Major",
+        "labels": []
+      },
+      {
+        "key": "WSC-1864",
+        "url": "https://e2x.atlassian.net/browse/WSC-1864",
+        "summary": "SEO - Include Product Colour in PDP H1",
+        "status": "Ready",
+        "statusCategory": "new",
+        "assignee": "Unassigned",
+        "updated": "2026-11-18T18:41:03.131+0000",
+        "priority": "Major",
+        "labels": []
+      },
       {
         "key": "WSC-1868",
         "url": "https://e2x.atlassian.net/browse/WSC-1868",
@@ -515,19 +551,6 @@
         ]
       },
       {
-        "key": "WSC-1790",
-        "url": "https://e2x.atlassian.net/browse/WSC-1790",
-        "summary": "SECURITY - block public access to DEV & UAT",
-        "status": "In Progress",
-        "statusCategory": "indeterminate",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-11-17T14:47:03.374+0000",
-        "priority": "Major",
-        "labels": [
-          "Needs-QA"
-        ]
-      },
-      {
         "key": "WSC-1800",
         "url": "https://e2x.atlassian.net/browse/WSC-1800",
         "summary": "SHOP FINDER - SEO page enhancements",
@@ -847,17 +870,6 @@
         "labels": [
           "Needs-QA"
         ]
-      },
-      {
-        "key": "WSC-1629",
-        "url": "https://e2x.atlassian.net/browse/WSC-1629",
-        "summary": "SPIKE - product family for multi-item products (PLP/PDP)",
-        "status": "Ready for Refinement",
-        "statusCategory": "new",
-        "assignee": "Unassigned",
-        "updated": "2026-11-09T15:15:34.045+0000",
-        "priority": "Major",
-        "labels": []
       },
       {
         "key": "WSC-1795",
