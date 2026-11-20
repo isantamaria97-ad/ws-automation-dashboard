@@ -1,12 +1,12 @@
 {
-  "lastUpdated": "2026-11-20T06:06:59.541208+00:00",
+  "lastUpdated": "2026-11-20T16:45:51.285856+00:00",
   "jira": {
     "summary": {
       "total": 489,
       "byStatus": {
+        "In Progress": 3,
         "Tech Review": 3,
         "Ready": 8,
-        "In Progress": 3,
         "Ready to QA": 2,
         "To Do": 1,
         "QA Approved": 14,
@@ -21,6 +21,19 @@
       }
     },
     "tickets": [
+      {
+        "key": "WSC-1863",
+        "url": "https://e2x.atlassian.net/browse/WSC-1863",
+        "summary": "Allow orders with stock errors to move to Awaiting Fulfillment instead of blocking the Adyen webhook",
+        "status": "In Progress",
+        "statusCategory": "indeterminate",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-11-20T12:46:19.504+0000",
+        "priority": "Major",
+        "labels": [
+          "NO_QA_REQUIRED"
+        ]
+      },
       {
         "key": "WSC-1856",
         "url": "https://e2x.atlassian.net/browse/WSC-1856",
@@ -57,17 +70,6 @@
         "labels": [
           "Needs-QA"
         ]
-      },
-      {
-        "key": "WSC-1863",
-        "url": "https://e2x.atlassian.net/browse/WSC-1863",
-        "summary": "Allow orders with stock errors to move to Awaiting Fulfillment instead of blocking the Adyen webhook",
-        "status": "In Progress",
-        "statusCategory": "indeterminate",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-11-19T13:44:26.887+0000",
-        "priority": "Major",
-        "labels": []
       },
       {
         "key": "WSC-1791",
