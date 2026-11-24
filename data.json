@@ -1,16 +1,15 @@
 {
-  "lastUpdated": "2026-11-23T19:55:05.367732+00:00",
+  "lastUpdated": "2026-11-24T04:38:55.327946+00:00",
   "jira": {
     "summary": {
       "total": 489,
       "byStatus": {
-        "In Progress": 5,
+        "Blocked": 3,
+        "Tech Review": 5,
+        "QA Approved": 15,
         "To Do": 1,
-        "Ready": 7,
-        "Blocked": 2,
-        "Tech Review": 3,
-        "Ready to QA": 1,
-        "QA Approved": 14,
+        "Ready": 5,
+        "In Progress": 4,
         "IN UAT": 2,
         "Done": 412,
         "Ready for Refinement": 2,
@@ -22,16 +21,53 @@
     },
     "tickets": [
       {
+        "key": "WSC-1838",
+        "url": "https://e2x.atlassian.net/browse/WSC-1838",
+        "summary": "PDP - new source for image Alt Text",
+        "status": "Blocked",
+        "statusCategory": "new",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-11-23T23:44:22.902+0000",
+        "priority": "Major",
+        "labels": [
+          "Needs-QA"
+        ]
+      },
+      {
+        "key": "WSC-1864",
+        "url": "https://e2x.atlassian.net/browse/WSC-1864",
+        "summary": "SEO - Include Product Colour in PDP H1",
+        "status": "Tech Review",
+        "statusCategory": "indeterminate",
+        "assignee": "Se\u00e1n Gray",
+        "updated": "2026-11-23T22:21:46.310+0000",
+        "priority": "Major",
+        "labels": []
+      },
+      {
         "key": "WSC-1738",
         "url": "https://e2x.atlassian.net/browse/WSC-1738",
         "summary": "JS ERROR - ResizeObserver loop completed with undelivered notifications",
-        "status": "In Progress",
+        "status": "Tech Review",
         "statusCategory": "indeterminate",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-11-23T19:21:08.073+0000",
+        "assignee": "Se\u00e1n Gray",
+        "updated": "2026-11-23T22:11:43.909+0000",
         "priority": "Minor",
         "labels": [
           "Needs-QA"
+        ]
+      },
+      {
+        "key": "WSC-1791",
+        "url": "https://e2x.atlassian.net/browse/WSC-1791",
+        "summary": "API 404 error - https://www.whitestuff.com/api/ampl/getContent",
+        "status": "QA Approved",
+        "statusCategory": "indeterminate",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-11-23T22:10:40.042+0000",
+        "priority": "Minor",
+        "labels": [
+          "NO_QA_REQUIRED"
         ]
       },
       {
@@ -66,30 +102,6 @@
         "statusCategory": "new",
         "assignee": "enmanuel.ramirez",
         "updated": "2026-11-23T16:14:19.528+0000",
-        "priority": "Major",
-        "labels": []
-      },
-      {
-        "key": "WSC-1838",
-        "url": "https://e2x.atlassian.net/browse/WSC-1838",
-        "summary": "PDP - new source for image Alt Text",
-        "status": "Ready",
-        "statusCategory": "new",
-        "assignee": "Unassigned",
-        "updated": "2026-11-23T14:08:28.368+0000",
-        "priority": "Major",
-        "labels": [
-          "Needs-QA"
-        ]
-      },
-      {
-        "key": "WSC-1864",
-        "url": "https://e2x.atlassian.net/browse/WSC-1864",
-        "summary": "SEO - Include Product Colour in PDP H1",
-        "status": "Ready",
-        "statusCategory": "new",
-        "assignee": "Unassigned",
-        "updated": "2026-11-23T14:08:22.608+0000",
         "priority": "Major",
         "labels": []
       },
@@ -139,19 +151,6 @@
         "assignee": "enmanuel.ramirez",
         "updated": "2026-11-22T23:36:44.197+0000",
         "priority": "Major",
-        "labels": [
-          "NO_QA_REQUIRED"
-        ]
-      },
-      {
-        "key": "WSC-1791",
-        "url": "https://e2x.atlassian.net/browse/WSC-1791",
-        "summary": "API 404 error - https://www.whitestuff.com/api/ampl/getContent",
-        "status": "Ready to QA",
-        "statusCategory": "new",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-11-19T12:42:53.143+0000",
-        "priority": "Minor",
         "labels": [
           "NO_QA_REQUIRED"
         ]
