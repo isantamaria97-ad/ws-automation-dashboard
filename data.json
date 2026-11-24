@@ -1,25 +1,62 @@
 {
-  "lastUpdated": "2026-11-24T04:38:55.327946+00:00",
+  "lastUpdated": "2026-11-24T19:23:34.863695+00:00",
   "jira": {
     "summary": {
       "total": 489,
       "byStatus": {
-        "Blocked": 3,
-        "Tech Review": 5,
+        "IN QA": 1,
+        "Tech Review": 4,
+        "Ready to QA": 2,
+        "Blocked": 4,
         "QA Approved": 15,
-        "To Do": 1,
-        "Ready": 5,
+        "Ready for Refinement": 1,
         "In Progress": 4,
+        "Ready": 5,
         "IN UAT": 2,
         "Done": 412,
-        "Ready for Refinement": 2,
         "Deprecated": 24,
-        "PENDING DEV DEPLOY": 1,
         "Backlog": 14,
         "READY FOR RELEASE": 1
       }
     },
     "tickets": [
+      {
+        "key": "WSC-1751",
+        "url": "https://e2x.atlassian.net/browse/WSC-1751",
+        "summary": "PDP - change where description is pulled from",
+        "status": "IN QA",
+        "statusCategory": "indeterminate",
+        "assignee": "Juan Carlos Coello",
+        "updated": "2026-11-24T18:36:04.481+0000",
+        "priority": "Minor",
+        "labels": []
+      },
+      {
+        "key": "WSC-1863",
+        "url": "https://e2x.atlassian.net/browse/WSC-1863",
+        "summary": "Allow orders with stock errors to move to Awaiting Fulfillment instead of blocking the Adyen webhook",
+        "status": "Tech Review",
+        "statusCategory": "indeterminate",
+        "assignee": "Se\u00e1n Gray",
+        "updated": "2026-11-24T17:36:08.767+0000",
+        "priority": "Major",
+        "labels": [
+          "NO_QA_REQUIRED"
+        ]
+      },
+      {
+        "key": "WSC-1856",
+        "url": "https://e2x.atlassian.net/browse/WSC-1856",
+        "summary": "SECURITY - Scrub Cloudflare credentials from Playwright trace artifacts",
+        "status": "Ready to QA",
+        "statusCategory": "new",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-11-24T17:17:34.590+0000",
+        "priority": "Not Set",
+        "labels": [
+          "NO_QA_REQUIRED"
+        ]
+      },
       {
         "key": "WSC-1838",
         "url": "https://e2x.atlassian.net/browse/WSC-1838",
@@ -27,22 +64,112 @@
         "status": "Blocked",
         "statusCategory": "new",
         "assignee": "enmanuel.ramirez",
-        "updated": "2026-11-23T23:44:22.902+0000",
+        "updated": "2026-11-24T17:16:14.197+0000",
         "priority": "Major",
         "labels": [
           "Needs-QA"
         ]
       },
       {
+        "key": "WSC-1812",
+        "url": "https://e2x.atlassian.net/browse/WSC-1812",
+        "summary": "PERSONALISED CONTENT - preview URL by segment",
+        "status": "QA Approved",
+        "statusCategory": "indeterminate",
+        "assignee": "Gerardo Romero",
+        "updated": "2026-11-24T17:15:56.297+0000",
+        "priority": "Major",
+        "labels": [
+          "Needs-QA",
+          "accelerated"
+        ]
+      },
+      {
         "key": "WSC-1864",
         "url": "https://e2x.atlassian.net/browse/WSC-1864",
         "summary": "SEO - Include Product Colour in PDP H1",
-        "status": "Tech Review",
-        "statusCategory": "indeterminate",
-        "assignee": "Se\u00e1n Gray",
-        "updated": "2026-11-23T22:21:46.310+0000",
+        "status": "Ready to QA",
+        "statusCategory": "new",
+        "assignee": "Juan Carlos Coello",
+        "updated": "2026-11-24T17:03:04.319+0000",
         "priority": "Major",
         "labels": []
+      },
+      {
+        "key": "WSC-1854",
+        "url": "https://e2x.atlassian.net/browse/WSC-1854",
+        "summary": "TRUE FIT - in the mini bag",
+        "status": "Ready for Refinement",
+        "statusCategory": "new",
+        "assignee": "Unassigned",
+        "updated": "2026-11-24T16:24:21.145+0000",
+        "priority": "Minor",
+        "labels": [
+          "Needs-QA"
+        ]
+      },
+      {
+        "key": "WSC-1629",
+        "url": "https://e2x.atlassian.net/browse/WSC-1629",
+        "summary": "SPIKE - product family for multi-item products (PLP/PDP)",
+        "status": "In Progress",
+        "statusCategory": "indeterminate",
+        "assignee": "Se\u00e1n Gray",
+        "updated": "2026-11-24T14:50:53.232+0000",
+        "priority": "Major",
+        "labels": []
+      },
+      {
+        "key": "WSC-1868",
+        "url": "https://e2x.atlassian.net/browse/WSC-1868",
+        "summary": "CONTENT - new Recently Viewed carousel",
+        "status": "In Progress",
+        "statusCategory": "indeterminate",
+        "assignee": "Chiara Davies",
+        "updated": "2026-11-24T12:43:01.110+0000",
+        "priority": "Major",
+        "labels": [
+          "Needs-QA"
+        ]
+      },
+      {
+        "key": "WSC-1138",
+        "url": "https://e2x.atlassian.net/browse/WSC-1138",
+        "summary": "GOOD STUFF - add preferred shop to 'My Details'",
+        "status": "In Progress",
+        "statusCategory": "indeterminate",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-11-24T12:41:48.578+0000",
+        "priority": "Major",
+        "labels": [
+          "Needs-QA"
+        ]
+      },
+      {
+        "key": "WSC-1790",
+        "url": "https://e2x.atlassian.net/browse/WSC-1790",
+        "summary": "SECURITY - block public access to DEV & UAT",
+        "status": "Blocked",
+        "statusCategory": "new",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-11-24T12:34:45.463+0000",
+        "priority": "Major",
+        "labels": [
+          "Needs-QA"
+        ]
+      },
+      {
+        "key": "WSC-173",
+        "url": "https://e2x.atlassian.net/browse/WSC-173",
+        "summary": "SEO - fix to product schema for PDP for reviews and ratings",
+        "status": "Ready",
+        "statusCategory": "new",
+        "assignee": "Unassigned",
+        "updated": "2026-11-24T12:27:04.124+0000",
+        "priority": "Minor",
+        "labels": [
+          "Needs-QA"
+        ]
       },
       {
         "key": "WSC-1738",
@@ -71,30 +198,6 @@
         ]
       },
       {
-        "key": "WSC-1629",
-        "url": "https://e2x.atlassian.net/browse/WSC-1629",
-        "summary": "SPIKE - product family for multi-item products (PLP/PDP)",
-        "status": "To Do",
-        "statusCategory": "new",
-        "assignee": "Se\u00e1n Gray",
-        "updated": "2026-11-23T16:14:29.826+0000",
-        "priority": "Major",
-        "labels": []
-      },
-      {
-        "key": "WSC-1138",
-        "url": "https://e2x.atlassian.net/browse/WSC-1138",
-        "summary": "GOOD STUFF - add preferred shop to 'My Details'",
-        "status": "Ready",
-        "statusCategory": "new",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-11-23T16:14:25.420+0000",
-        "priority": "Major",
-        "labels": [
-          "Needs-QA"
-        ]
-      },
-      {
         "key": "WSC-1504",
         "url": "https://e2x.atlassian.net/browse/WSC-1504",
         "summary": "ACCOUNT CREATION - post purchase sign up bug",
@@ -104,56 +207,6 @@
         "updated": "2026-11-23T16:14:19.528+0000",
         "priority": "Major",
         "labels": []
-      },
-      {
-        "key": "WSC-1856",
-        "url": "https://e2x.atlassian.net/browse/WSC-1856",
-        "summary": "SECURITY - Scrub Cloudflare credentials from Playwright trace artifacts",
-        "status": "Tech Review",
-        "statusCategory": "indeterminate",
-        "assignee": "Se\u00e1n Gray",
-        "updated": "2026-11-23T12:34:37.405+0000",
-        "priority": "Not Set",
-        "labels": [
-          "NO_QA_REQUIRED"
-        ]
-      },
-      {
-        "key": "WSC-1868",
-        "url": "https://e2x.atlassian.net/browse/WSC-1868",
-        "summary": "CONTENT - new Recently Viewed carousel",
-        "status": "In Progress",
-        "statusCategory": "indeterminate",
-        "assignee": "Chiara Davies",
-        "updated": "2026-11-23T09:31:53.954+0000",
-        "priority": "Major",
-        "labels": []
-      },
-      {
-        "key": "WSC-1790",
-        "url": "https://e2x.atlassian.net/browse/WSC-1790",
-        "summary": "SECURITY - block public access to DEV & UAT",
-        "status": "In Progress",
-        "statusCategory": "indeterminate",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-11-22T23:48:29.526+0000",
-        "priority": "Major",
-        "labels": [
-          "Needs-QA"
-        ]
-      },
-      {
-        "key": "WSC-1863",
-        "url": "https://e2x.atlassian.net/browse/WSC-1863",
-        "summary": "Allow orders with stock errors to move to Awaiting Fulfillment instead of blocking the Adyen webhook",
-        "status": "In Progress",
-        "statusCategory": "indeterminate",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-11-22T23:36:44.197+0000",
-        "priority": "Major",
-        "labels": [
-          "NO_QA_REQUIRED"
-        ]
       },
       {
         "key": "WSC-1852",
@@ -524,20 +577,6 @@
         ]
       },
       {
-        "key": "WSC-1812",
-        "url": "https://e2x.atlassian.net/browse/WSC-1812",
-        "summary": "PERSONALISED CONTENT - preview URL by segment",
-        "status": "QA Approved",
-        "statusCategory": "indeterminate",
-        "assignee": "Gerardo Romero",
-        "updated": "2026-11-17T14:47:04.849+0000",
-        "priority": "Major",
-        "labels": [
-          "Needs-QA",
-          "accelerated"
-        ]
-      },
-      {
         "key": "WSC-1817",
         "url": "https://e2x.atlassian.net/browse/WSC-1817",
         "summary": "SALE BADGES - Amplience control",
@@ -882,32 +921,6 @@
         ]
       },
       {
-        "key": "WSC-1854",
-        "url": "https://e2x.atlassian.net/browse/WSC-1854",
-        "summary": "TRUE FIT - in the mini bag",
-        "status": "Ready for Refinement",
-        "statusCategory": "new",
-        "assignee": "Unassigned",
-        "updated": "2026-11-10T08:35:03.783+0000",
-        "priority": "Minor",
-        "labels": [
-          "Needs-QA"
-        ]
-      },
-      {
-        "key": "WSC-173",
-        "url": "https://e2x.atlassian.net/browse/WSC-173",
-        "summary": "SEO - fix to product schema for PDP for reviews and ratings",
-        "status": "Ready for Refinement",
-        "statusCategory": "new",
-        "assignee": "Unassigned",
-        "updated": "2026-11-09T15:19:43.808+0000",
-        "priority": "Minor",
-        "labels": [
-          "Needs-QA"
-        ]
-      },
-      {
         "key": "WSC-1711",
         "url": "https://e2x.atlassian.net/browse/WSC-1711",
         "summary": "Mobile: PDP - Stylitics - SHOP CTA appears grayed out or disappears / images shrink when interacting with item images on mobile",
@@ -954,17 +967,6 @@
         "labels": [
           "Needs-QA"
         ]
-      },
-      {
-        "key": "WSC-1751",
-        "url": "https://e2x.atlassian.net/browse/WSC-1751",
-        "summary": "PDP - change where description is pulled from",
-        "status": "PENDING DEV DEPLOY",
-        "statusCategory": "new",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-11-02T13:38:41.953+0000",
-        "priority": "Minor",
-        "labels": []
       },
       {
         "key": "WSC-1835",
