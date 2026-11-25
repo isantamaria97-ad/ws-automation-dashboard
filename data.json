@@ -1,14 +1,13 @@
 {
-  "lastUpdated": "2026-11-24T19:23:34.863695+00:00",
+  "lastUpdated": "2026-11-25T03:23:58.377325+00:00",
   "jira": {
     "summary": {
       "total": 489,
       "byStatus": {
-        "IN QA": 1,
-        "Tech Review": 4,
-        "Ready to QA": 2,
-        "Blocked": 4,
+        "Tech Review": 6,
         "QA Approved": 15,
+        "IN QA": 1,
+        "Blocked": 4,
         "Ready for Refinement": 1,
         "In Progress": 4,
         "Ready": 5,
@@ -21,13 +20,51 @@
     },
     "tickets": [
       {
+        "key": "WSC-1812",
+        "url": "https://e2x.atlassian.net/browse/WSC-1812",
+        "summary": "PERSONALISED CONTENT - preview URL by segment",
+        "status": "Tech Review",
+        "statusCategory": "indeterminate",
+        "assignee": "Se\u00e1n Gray",
+        "updated": "2026-11-24T23:01:15.831+0000",
+        "priority": "Major",
+        "labels": [
+          "Needs-QA",
+          "accelerated"
+        ]
+      },
+      {
+        "key": "WSC-1856",
+        "url": "https://e2x.atlassian.net/browse/WSC-1856",
+        "summary": "SECURITY - Scrub Cloudflare credentials from Playwright trace artifacts",
+        "status": "QA Approved",
+        "statusCategory": "indeterminate",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-11-24T22:18:10.145+0000",
+        "priority": "Not Set",
+        "labels": [
+          "NO_QA_REQUIRED"
+        ]
+      },
+      {
+        "key": "WSC-1864",
+        "url": "https://e2x.atlassian.net/browse/WSC-1864",
+        "summary": "SEO - Include Product Colour in PDP H1",
+        "status": "Tech Review",
+        "statusCategory": "indeterminate",
+        "assignee": "Se\u00e1n Gray",
+        "updated": "2026-11-24T21:11:11.767+0000",
+        "priority": "Major",
+        "labels": []
+      },
+      {
         "key": "WSC-1751",
         "url": "https://e2x.atlassian.net/browse/WSC-1751",
         "summary": "PDP - change where description is pulled from",
         "status": "IN QA",
         "statusCategory": "indeterminate",
         "assignee": "Juan Carlos Coello",
-        "updated": "2026-11-24T18:36:04.481+0000",
+        "updated": "2026-11-24T20:22:11.944+0000",
         "priority": "Minor",
         "labels": []
       },
@@ -45,19 +82,6 @@
         ]
       },
       {
-        "key": "WSC-1856",
-        "url": "https://e2x.atlassian.net/browse/WSC-1856",
-        "summary": "SECURITY - Scrub Cloudflare credentials from Playwright trace artifacts",
-        "status": "Ready to QA",
-        "statusCategory": "new",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-11-24T17:17:34.590+0000",
-        "priority": "Not Set",
-        "labels": [
-          "NO_QA_REQUIRED"
-        ]
-      },
-      {
         "key": "WSC-1838",
         "url": "https://e2x.atlassian.net/browse/WSC-1838",
         "summary": "PDP - new source for image Alt Text",
@@ -69,31 +93,6 @@
         "labels": [
           "Needs-QA"
         ]
-      },
-      {
-        "key": "WSC-1812",
-        "url": "https://e2x.atlassian.net/browse/WSC-1812",
-        "summary": "PERSONALISED CONTENT - preview URL by segment",
-        "status": "QA Approved",
-        "statusCategory": "indeterminate",
-        "assignee": "Gerardo Romero",
-        "updated": "2026-11-24T17:15:56.297+0000",
-        "priority": "Major",
-        "labels": [
-          "Needs-QA",
-          "accelerated"
-        ]
-      },
-      {
-        "key": "WSC-1864",
-        "url": "https://e2x.atlassian.net/browse/WSC-1864",
-        "summary": "SEO - Include Product Colour in PDP H1",
-        "status": "Ready to QA",
-        "statusCategory": "new",
-        "assignee": "Juan Carlos Coello",
-        "updated": "2026-11-24T17:03:04.319+0000",
-        "priority": "Major",
-        "labels": []
       },
       {
         "key": "WSC-1854",
