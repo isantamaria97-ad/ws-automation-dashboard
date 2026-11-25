@@ -1,18 +1,19 @@
 {
-  "lastUpdated": "2026-11-25T03:23:58.377325+00:00",
+  "lastUpdated": "2026-11-25T13:57:54.285595+00:00",
   "jira": {
     "summary": {
-      "total": 489,
+      "total": 500,
       "byStatus": {
-        "Tech Review": 6,
-        "QA Approved": 15,
-        "IN QA": 1,
+        "Ready for Refinement": 2,
+        "Ready": 12,
+        "To Do": 1,
+        "Tech Review": 4,
+        "Done": 413,
+        "PENDING DEV DEPLOY": 3,
+        "QA Approved": 17,
+        "In Progress": 3,
         "Blocked": 4,
-        "Ready for Refinement": 1,
-        "In Progress": 4,
-        "Ready": 5,
         "IN UAT": 2,
-        "Done": 412,
         "Deprecated": 24,
         "Backlog": 14,
         "READY FOR RELEASE": 1
@@ -20,17 +21,228 @@
     },
     "tickets": [
       {
+        "key": "WSC-1813",
+        "url": "https://e2x.atlassian.net/browse/WSC-1813",
+        "summary": "PLP & PDP - new colour swatch process",
+        "status": "Ready for Refinement",
+        "statusCategory": "new",
+        "assignee": "Unassigned",
+        "updated": "2026-11-25T13:53:14.380+0000",
+        "priority": "Major",
+        "labels": [
+          "Needs-QA"
+        ]
+      },
+      {
+        "key": "WSC-1876",
+        "url": "https://e2x.atlassian.net/browse/WSC-1876",
+        "summary": "PDP FINISHING TOUCHES - 3 OF 3",
+        "status": "Ready",
+        "statusCategory": "new",
+        "assignee": "Chiara Davies",
+        "updated": "2026-11-25T13:51:21.095+0000",
+        "priority": "Major",
+        "labels": [
+          "Needs-QA"
+        ]
+      },
+      {
+        "key": "WSC-1875",
+        "url": "https://e2x.atlassian.net/browse/WSC-1875",
+        "summary": "PDP FINISHING TOUCHES - 2 OF 3",
+        "status": "Ready",
+        "statusCategory": "new",
+        "assignee": "Chiara Davies",
+        "updated": "2026-11-25T13:48:06.561+0000",
+        "priority": "Major",
+        "labels": [
+          "Needs-QA"
+        ]
+      },
+      {
+        "key": "WSC-1872",
+        "url": "https://e2x.atlassian.net/browse/WSC-1872",
+        "summary": "PDP FINISHING TOUCHES - 1 OF 3",
+        "status": "Ready",
+        "statusCategory": "new",
+        "assignee": "Chiara Davies",
+        "updated": "2026-11-25T13:46:04.516+0000",
+        "priority": "Major",
+        "labels": [
+          "Needs-QA"
+        ]
+      },
+      {
+        "key": "WSC-1878",
+        "url": "https://e2x.atlassian.net/browse/WSC-1878",
+        "summary": "PDP - GIFT CARDS",
+        "status": "Ready",
+        "statusCategory": "new",
+        "assignee": "Chiara Davies",
+        "updated": "2026-11-25T13:43:26.903+0000",
+        "priority": "Minor",
+        "labels": [
+          "Needs-QA"
+        ]
+      },
+      {
+        "key": "WSC-1840",
+        "url": "https://e2x.atlassian.net/browse/WSC-1840",
+        "summary": "SEO - meta and OG changes on PDP",
+        "status": "Ready",
+        "statusCategory": "new",
+        "assignee": "Unassigned",
+        "updated": "2026-11-25T13:31:52.159+0000",
+        "priority": "Minor",
+        "labels": [
+          "Needs-QA"
+        ]
+      },
+      {
+        "key": "WSC-1865",
+        "url": "https://e2x.atlassian.net/browse/WSC-1865",
+        "summary": "[WSSD-787] - Implement Site-Wide Default Open Graph Image Fallback",
+        "status": "Ready",
+        "statusCategory": "new",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-11-25T13:29:58.911+0000",
+        "priority": "Minor",
+        "labels": []
+      },
+      {
+        "key": "WSC-1845",
+        "url": "https://e2x.atlassian.net/browse/WSC-1845",
+        "summary": "SPIKE - changing format of colour name in PDP URLs",
+        "status": "To Do",
+        "statusCategory": "new",
+        "assignee": "Unassigned",
+        "updated": "2026-11-25T13:25:16.808+0000",
+        "priority": "Minor",
+        "labels": []
+      },
+      {
+        "key": "WSC-1879",
+        "url": "https://e2x.atlassian.net/browse/WSC-1879",
+        "summary": "AMPLIENCE - PLP Content Bottom Slot",
+        "status": "Ready",
+        "statusCategory": "new",
+        "assignee": "Unassigned",
+        "updated": "2026-11-25T13:19:56.415+0000",
+        "priority": "Minor",
+        "labels": [
+          "Needs-QA"
+        ]
+      },
+      {
+        "key": "WSC-1854",
+        "url": "https://e2x.atlassian.net/browse/WSC-1854",
+        "summary": "TRUE FIT - in the mini bag",
+        "status": "Ready for Refinement",
+        "statusCategory": "new",
+        "assignee": "Unassigned",
+        "updated": "2026-11-25T13:18:33.258+0000",
+        "priority": "Minor",
+        "labels": [
+          "Needs-QA"
+        ]
+      },
+      {
+        "key": "WSC-1863",
+        "url": "https://e2x.atlassian.net/browse/WSC-1863",
+        "summary": "Allow orders with stock errors to move to Awaiting Fulfillment instead of blocking the Adyen webhook",
+        "status": "Tech Review",
+        "statusCategory": "indeterminate",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-11-25T12:44:10.013+0000",
+        "priority": "Major",
+        "labels": [
+          "NO_QA_REQUIRED"
+        ]
+      },
+      {
+        "key": "WSC-1853",
+        "url": "https://e2x.atlassian.net/browse/WSC-1853",
+        "summary": "[WS] Monthly vulnerability review (Snyk) Nov for Oct 2026 Maintain Report",
+        "status": "Done",
+        "statusCategory": "done",
+        "assignee": "Rafael Paranagu\u00e1",
+        "updated": "2026-11-25T12:44:02.756+0000",
+        "priority": "Not Set",
+        "labels": []
+      },
+      {
+        "key": "WSC-1864",
+        "url": "https://e2x.atlassian.net/browse/WSC-1864",
+        "summary": "SEO - Include Product Colour in PDP H1",
+        "status": "PENDING DEV DEPLOY",
+        "statusCategory": "new",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-11-25T12:40:47.397+0000",
+        "priority": "Major",
+        "labels": []
+      },
+      {
         "key": "WSC-1812",
         "url": "https://e2x.atlassian.net/browse/WSC-1812",
         "summary": "PERSONALISED CONTENT - preview URL by segment",
-        "status": "Tech Review",
-        "statusCategory": "indeterminate",
-        "assignee": "Se\u00e1n Gray",
-        "updated": "2026-11-24T23:01:15.831+0000",
+        "status": "PENDING DEV DEPLOY",
+        "statusCategory": "new",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-11-25T12:36:19.152+0000",
         "priority": "Major",
         "labels": [
           "Needs-QA",
           "accelerated"
+        ]
+      },
+      {
+        "key": "WSC-1751",
+        "url": "https://e2x.atlassian.net/browse/WSC-1751",
+        "summary": "PDP - change where description is pulled from",
+        "status": "QA Approved",
+        "statusCategory": "indeterminate",
+        "assignee": "Juan Carlos Coello",
+        "updated": "2026-11-25T12:27:40.495+0000",
+        "priority": "Minor",
+        "labels": []
+      },
+      {
+        "key": "WSC-1851",
+        "url": "https://e2x.atlassian.net/browse/WSC-1851",
+        "summary": "BAG - minor adjustments",
+        "status": "PENDING DEV DEPLOY",
+        "statusCategory": "new",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-11-25T12:02:31.550+0000",
+        "priority": "Minor",
+        "labels": [
+          "NO_QA_REQUIRED"
+        ]
+      },
+      {
+        "key": "WSC-1849",
+        "url": "https://e2x.atlassian.net/browse/WSC-1849",
+        "summary": "MOBILE CAT NAV - change to inactive categories",
+        "status": "QA Approved",
+        "statusCategory": "indeterminate",
+        "assignee": "Unassigned",
+        "updated": "2026-11-25T11:51:42.355+0000",
+        "priority": "Minor",
+        "labels": [
+          "NO_QA_REQUIRED"
+        ]
+      },
+      {
+        "key": "WSC-1868",
+        "url": "https://e2x.atlassian.net/browse/WSC-1868",
+        "summary": "CONTENT - new Recently Viewed carousel",
+        "status": "In Progress",
+        "statusCategory": "indeterminate",
+        "assignee": "Chiara Davies",
+        "updated": "2026-11-25T11:36:57.941+0000",
+        "priority": "Major",
+        "labels": [
+          "Needs-QA"
         ]
       },
       {
@@ -42,41 +254,6 @@
         "assignee": "enmanuel.ramirez",
         "updated": "2026-11-24T22:18:10.145+0000",
         "priority": "Not Set",
-        "labels": [
-          "NO_QA_REQUIRED"
-        ]
-      },
-      {
-        "key": "WSC-1864",
-        "url": "https://e2x.atlassian.net/browse/WSC-1864",
-        "summary": "SEO - Include Product Colour in PDP H1",
-        "status": "Tech Review",
-        "statusCategory": "indeterminate",
-        "assignee": "Se\u00e1n Gray",
-        "updated": "2026-11-24T21:11:11.767+0000",
-        "priority": "Major",
-        "labels": []
-      },
-      {
-        "key": "WSC-1751",
-        "url": "https://e2x.atlassian.net/browse/WSC-1751",
-        "summary": "PDP - change where description is pulled from",
-        "status": "IN QA",
-        "statusCategory": "indeterminate",
-        "assignee": "Juan Carlos Coello",
-        "updated": "2026-11-24T20:22:11.944+0000",
-        "priority": "Minor",
-        "labels": []
-      },
-      {
-        "key": "WSC-1863",
-        "url": "https://e2x.atlassian.net/browse/WSC-1863",
-        "summary": "Allow orders with stock errors to move to Awaiting Fulfillment instead of blocking the Adyen webhook",
-        "status": "Tech Review",
-        "statusCategory": "indeterminate",
-        "assignee": "Se\u00e1n Gray",
-        "updated": "2026-11-24T17:36:08.767+0000",
-        "priority": "Major",
         "labels": [
           "NO_QA_REQUIRED"
         ]
@@ -95,19 +272,6 @@
         ]
       },
       {
-        "key": "WSC-1854",
-        "url": "https://e2x.atlassian.net/browse/WSC-1854",
-        "summary": "TRUE FIT - in the mini bag",
-        "status": "Ready for Refinement",
-        "statusCategory": "new",
-        "assignee": "Unassigned",
-        "updated": "2026-11-24T16:24:21.145+0000",
-        "priority": "Minor",
-        "labels": [
-          "Needs-QA"
-        ]
-      },
-      {
         "key": "WSC-1629",
         "url": "https://e2x.atlassian.net/browse/WSC-1629",
         "summary": "SPIKE - product family for multi-item products (PLP/PDP)",
@@ -117,19 +281,6 @@
         "updated": "2026-11-24T14:50:53.232+0000",
         "priority": "Major",
         "labels": []
-      },
-      {
-        "key": "WSC-1868",
-        "url": "https://e2x.atlassian.net/browse/WSC-1868",
-        "summary": "CONTENT - new Recently Viewed carousel",
-        "status": "In Progress",
-        "statusCategory": "indeterminate",
-        "assignee": "Chiara Davies",
-        "updated": "2026-11-24T12:43:01.110+0000",
-        "priority": "Major",
-        "labels": [
-          "Needs-QA"
-        ]
       },
       {
         "key": "WSC-1138",
@@ -612,17 +763,6 @@
           "Needs-QA",
           "manualQA"
         ]
-      },
-      {
-        "key": "WSC-1853",
-        "url": "https://e2x.atlassian.net/browse/WSC-1853",
-        "summary": "[WS] Monthly vulnerability review (Snyk) Nov for Oct 2026 Maintain Report",
-        "status": "In Progress",
-        "statusCategory": "indeterminate",
-        "assignee": "Rafael Paranagu\u00e1",
-        "updated": "2026-11-17T14:47:04.231+0000",
-        "priority": "Not Set",
-        "labels": []
       },
       {
         "key": "WSC-1801",
