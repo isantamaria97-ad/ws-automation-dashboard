@@ -1,18 +1,19 @@
 {
-  "lastUpdated": "2026-11-25T13:57:54.285595+00:00",
+  "lastUpdated": "2026-11-26T00:01:12.563974+00:00",
   "jira": {
     "summary": {
       "total": 500,
       "byStatus": {
-        "Ready for Refinement": 2,
-        "Ready": 12,
-        "To Do": 1,
-        "Tech Review": 4,
-        "Done": 413,
-        "PENDING DEV DEPLOY": 3,
-        "QA Approved": 17,
-        "In Progress": 3,
+        "IN QA": 1,
+        "QA Approved": 18,
         "Blocked": 4,
+        "Tech Review": 4,
+        "PENDING DEV DEPLOY": 1,
+        "In Progress": 3,
+        "Ready": 12,
+        "Ready for Refinement": 2,
+        "To Do": 1,
+        "Done": 413,
         "IN UAT": 2,
         "Deprecated": 24,
         "Backlog": 14,
@@ -20,6 +21,116 @@
       }
     },
     "tickets": [
+      {
+        "key": "WSC-1864",
+        "url": "https://e2x.atlassian.net/browse/WSC-1864",
+        "summary": "SEO - Include Product Colour in PDP H1",
+        "status": "IN QA",
+        "statusCategory": "indeterminate",
+        "assignee": "Juan Carlos Coello",
+        "updated": "2026-11-25T19:20:14.857+0000",
+        "priority": "Major",
+        "labels": []
+      },
+      {
+        "key": "WSC-1812",
+        "url": "https://e2x.atlassian.net/browse/WSC-1812",
+        "summary": "PERSONALISED CONTENT - preview URL by segment",
+        "status": "QA Approved",
+        "statusCategory": "indeterminate",
+        "assignee": "Juan Carlos Coello",
+        "updated": "2026-11-25T19:05:28.220+0000",
+        "priority": "Major",
+        "labels": [
+          "Needs-QA",
+          "accelerated"
+        ]
+      },
+      {
+        "key": "WSC-1838",
+        "url": "https://e2x.atlassian.net/browse/WSC-1838",
+        "summary": "PDP - new source for image Alt Text",
+        "status": "Blocked",
+        "statusCategory": "new",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-11-25T18:10:48.823+0000",
+        "priority": "Major",
+        "labels": [
+          "Needs-QA"
+        ]
+      },
+      {
+        "key": "WSC-1856",
+        "url": "https://e2x.atlassian.net/browse/WSC-1856",
+        "summary": "SECURITY - Scrub Cloudflare credentials from Playwright trace artifacts",
+        "status": "QA Approved",
+        "statusCategory": "indeterminate",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-11-25T18:09:03.827+0000",
+        "priority": "Not Set",
+        "labels": [
+          "NO_QA_REQUIRED"
+        ]
+      },
+      {
+        "key": "WSC-1863",
+        "url": "https://e2x.atlassian.net/browse/WSC-1863",
+        "summary": "Allow orders with stock errors to move to Awaiting Fulfillment instead of blocking the Adyen webhook",
+        "status": "Tech Review",
+        "statusCategory": "indeterminate",
+        "assignee": "Se\u00e1n Gray",
+        "updated": "2026-11-25T18:00:08.660+0000",
+        "priority": "Major",
+        "labels": [
+          "NO_QA_REQUIRED"
+        ]
+      },
+      {
+        "key": "WSC-1751",
+        "url": "https://e2x.atlassian.net/browse/WSC-1751",
+        "summary": "PDP - change where description is pulled from",
+        "status": "QA Approved",
+        "statusCategory": "indeterminate",
+        "assignee": "Juan Carlos Coello",
+        "updated": "2026-11-25T16:02:56.454+0000",
+        "priority": "Minor",
+        "labels": []
+      },
+      {
+        "key": "WSC-1851",
+        "url": "https://e2x.atlassian.net/browse/WSC-1851",
+        "summary": "BAG - minor adjustments",
+        "status": "PENDING DEV DEPLOY",
+        "statusCategory": "new",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-11-25T15:09:11.955+0000",
+        "priority": "Minor",
+        "labels": [
+          "NO_QA_REQUIRED"
+        ]
+      },
+      {
+        "key": "WSC-1629",
+        "url": "https://e2x.atlassian.net/browse/WSC-1629",
+        "summary": "SPIKE - product family for multi-item products (PLP/PDP)",
+        "status": "In Progress",
+        "statusCategory": "indeterminate",
+        "assignee": "Se\u00e1n Gray",
+        "updated": "2026-11-25T14:40:17.319+0000",
+        "priority": "Major",
+        "labels": []
+      },
+      {
+        "key": "WSC-1865",
+        "url": "https://e2x.atlassian.net/browse/WSC-1865",
+        "summary": "[WSSD-787] - Implement Site-Wide Default Open Graph Image Fallback",
+        "status": "Ready",
+        "statusCategory": "new",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-11-25T14:10:17.204+0000",
+        "priority": "Minor",
+        "labels": []
+      },
       {
         "key": "WSC-1813",
         "url": "https://e2x.atlassian.net/browse/WSC-1813",
@@ -99,17 +210,6 @@
         ]
       },
       {
-        "key": "WSC-1865",
-        "url": "https://e2x.atlassian.net/browse/WSC-1865",
-        "summary": "[WSSD-787] - Implement Site-Wide Default Open Graph Image Fallback",
-        "status": "Ready",
-        "statusCategory": "new",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-11-25T13:29:58.911+0000",
-        "priority": "Minor",
-        "labels": []
-      },
-      {
         "key": "WSC-1845",
         "url": "https://e2x.atlassian.net/browse/WSC-1845",
         "summary": "SPIKE - changing format of colour name in PDP URLs",
@@ -147,19 +247,6 @@
         ]
       },
       {
-        "key": "WSC-1863",
-        "url": "https://e2x.atlassian.net/browse/WSC-1863",
-        "summary": "Allow orders with stock errors to move to Awaiting Fulfillment instead of blocking the Adyen webhook",
-        "status": "Tech Review",
-        "statusCategory": "indeterminate",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-11-25T12:44:10.013+0000",
-        "priority": "Major",
-        "labels": [
-          "NO_QA_REQUIRED"
-        ]
-      },
-      {
         "key": "WSC-1853",
         "url": "https://e2x.atlassian.net/browse/WSC-1853",
         "summary": "[WS] Monthly vulnerability review (Snyk) Nov for Oct 2026 Maintain Report",
@@ -169,55 +256,6 @@
         "updated": "2026-11-25T12:44:02.756+0000",
         "priority": "Not Set",
         "labels": []
-      },
-      {
-        "key": "WSC-1864",
-        "url": "https://e2x.atlassian.net/browse/WSC-1864",
-        "summary": "SEO - Include Product Colour in PDP H1",
-        "status": "PENDING DEV DEPLOY",
-        "statusCategory": "new",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-11-25T12:40:47.397+0000",
-        "priority": "Major",
-        "labels": []
-      },
-      {
-        "key": "WSC-1812",
-        "url": "https://e2x.atlassian.net/browse/WSC-1812",
-        "summary": "PERSONALISED CONTENT - preview URL by segment",
-        "status": "PENDING DEV DEPLOY",
-        "statusCategory": "new",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-11-25T12:36:19.152+0000",
-        "priority": "Major",
-        "labels": [
-          "Needs-QA",
-          "accelerated"
-        ]
-      },
-      {
-        "key": "WSC-1751",
-        "url": "https://e2x.atlassian.net/browse/WSC-1751",
-        "summary": "PDP - change where description is pulled from",
-        "status": "QA Approved",
-        "statusCategory": "indeterminate",
-        "assignee": "Juan Carlos Coello",
-        "updated": "2026-11-25T12:27:40.495+0000",
-        "priority": "Minor",
-        "labels": []
-      },
-      {
-        "key": "WSC-1851",
-        "url": "https://e2x.atlassian.net/browse/WSC-1851",
-        "summary": "BAG - minor adjustments",
-        "status": "PENDING DEV DEPLOY",
-        "statusCategory": "new",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-11-25T12:02:31.550+0000",
-        "priority": "Minor",
-        "labels": [
-          "NO_QA_REQUIRED"
-        ]
       },
       {
         "key": "WSC-1849",
@@ -244,43 +282,6 @@
         "labels": [
           "Needs-QA"
         ]
-      },
-      {
-        "key": "WSC-1856",
-        "url": "https://e2x.atlassian.net/browse/WSC-1856",
-        "summary": "SECURITY - Scrub Cloudflare credentials from Playwright trace artifacts",
-        "status": "QA Approved",
-        "statusCategory": "indeterminate",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-11-24T22:18:10.145+0000",
-        "priority": "Not Set",
-        "labels": [
-          "NO_QA_REQUIRED"
-        ]
-      },
-      {
-        "key": "WSC-1838",
-        "url": "https://e2x.atlassian.net/browse/WSC-1838",
-        "summary": "PDP - new source for image Alt Text",
-        "status": "Blocked",
-        "statusCategory": "new",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-11-24T17:16:14.197+0000",
-        "priority": "Major",
-        "labels": [
-          "Needs-QA"
-        ]
-      },
-      {
-        "key": "WSC-1629",
-        "url": "https://e2x.atlassian.net/browse/WSC-1629",
-        "summary": "SPIKE - product family for multi-item products (PLP/PDP)",
-        "status": "In Progress",
-        "statusCategory": "indeterminate",
-        "assignee": "Se\u00e1n Gray",
-        "updated": "2026-11-24T14:50:53.232+0000",
-        "priority": "Major",
-        "labels": []
       },
       {
         "key": "WSC-1138",
