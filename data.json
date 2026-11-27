@@ -1,25 +1,116 @@
 {
-  "lastUpdated": "2026-11-27T00:21:00.901999+00:00",
+  "lastUpdated": "2026-11-27T13:32:28.701214+00:00",
   "jira": {
     "summary": {
-      "total": 500,
+      "total": 502,
       "byStatus": {
-        "IN UAT": 20,
-        "Ready": 13,
         "Blocked": 4,
+        "Tech Review": 4,
+        "Ready": 15,
+        "READY FOR RELEASE": 3,
+        "IN UAT": 18,
         "QA Approved": 1,
-        "In Progress": 4,
         "IN QA": 1,
         "PENDING DEV DEPLOY": 2,
-        "Tech Review": 2,
+        "In Progress": 2,
         "To Do": 1,
         "Done": 413,
         "Deprecated": 24,
-        "Backlog": 14,
-        "READY FOR RELEASE": 1
+        "Backlog": 14
       }
     },
     "tickets": [
+      {
+        "key": "WSC-1838",
+        "url": "https://e2x.atlassian.net/browse/WSC-1838",
+        "summary": "PDP - new source for image Alt Text",
+        "status": "Blocked",
+        "statusCategory": "new",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-11-27T13:29:45.636+0000",
+        "priority": "Major",
+        "labels": [
+          "Needs-QA"
+        ]
+      },
+      {
+        "key": "WSC-173",
+        "url": "https://e2x.atlassian.net/browse/WSC-173",
+        "summary": "SEO - fix to product schema for PDP for reviews and ratings",
+        "status": "Tech Review",
+        "statusCategory": "indeterminate",
+        "assignee": "rakesh.kumar",
+        "updated": "2026-11-27T13:27:47.769+0000",
+        "priority": "Minor",
+        "labels": [
+          "Needs-QA"
+        ]
+      },
+      {
+        "key": "WSC-197",
+        "url": "https://e2x.atlassian.net/browse/WSC-197",
+        "summary": "CONTENT - component TwoColRow/TwoColTile - new mobile display option",
+        "status": "Ready",
+        "statusCategory": "new",
+        "assignee": "Unassigned",
+        "updated": "2026-11-27T13:26:07.784+0000",
+        "priority": "Minor",
+        "labels": [
+          "Needs-QA",
+          "manualQA"
+        ]
+      },
+      {
+        "key": "WSC-1841",
+        "url": "https://e2x.atlassian.net/browse/WSC-1841",
+        "summary": "MOBILE - category navigation",
+        "status": "Ready",
+        "statusCategory": "new",
+        "assignee": "Unassigned",
+        "updated": "2026-11-27T13:19:27.786+0000",
+        "priority": "Minor",
+        "labels": [
+          "Needs-QA",
+          "manualQA"
+        ]
+      },
+      {
+        "key": "WSC-1782",
+        "url": "https://e2x.atlassian.net/browse/WSC-1782",
+        "summary": "CHECKOUT - Only UK: Calling for collection locations",
+        "status": "READY FOR RELEASE",
+        "statusCategory": "new",
+        "assignee": "Juan Carlos Coello",
+        "updated": "2026-11-27T13:03:45.706+0000",
+        "priority": "Minor",
+        "labels": [
+          "Needs-QA"
+        ]
+      },
+      {
+        "key": "WSC-1800",
+        "url": "https://e2x.atlassian.net/browse/WSC-1800",
+        "summary": "SHOP FINDER - SEO page enhancements",
+        "status": "READY FOR RELEASE",
+        "statusCategory": "new",
+        "assignee": "Juan Carlos Coello",
+        "updated": "2026-11-27T12:57:56.495+0000",
+        "priority": "Minor",
+        "labels": [
+          "Needs-QA"
+        ]
+      },
+      {
+        "key": "WSC-1629",
+        "url": "https://e2x.atlassian.net/browse/WSC-1629",
+        "summary": "SPIKE - product family for multi-item products (PLP/PDP)",
+        "status": "Tech Review",
+        "statusCategory": "indeterminate",
+        "assignee": "enmanuel.ramirez",
+        "updated": "2026-11-27T12:41:00.172+0000",
+        "priority": "Major",
+        "labels": []
+      },
       {
         "key": "WSC-1864",
         "url": "https://e2x.atlassian.net/browse/WSC-1864",
@@ -32,19 +123,6 @@
         "labels": []
       },
       {
-        "key": "WSC-1782",
-        "url": "https://e2x.atlassian.net/browse/WSC-1782",
-        "summary": "CHECKOUT - Only UK: Calling for collection locations",
-        "status": "IN UAT",
-        "statusCategory": "indeterminate",
-        "assignee": "Juan Carlos Coello",
-        "updated": "2026-11-26T20:56:06.450+0000",
-        "priority": "Minor",
-        "labels": [
-          "Needs-QA"
-        ]
-      },
-      {
         "key": "WSC-1813",
         "url": "https://e2x.atlassian.net/browse/WSC-1813",
         "summary": "PLP & PDP - new colour swatch process",
@@ -52,19 +130,6 @@
         "statusCategory": "new",
         "assignee": "Unassigned",
         "updated": "2026-11-26T19:49:35.799+0000",
-        "priority": "Major",
-        "labels": [
-          "Needs-QA"
-        ]
-      },
-      {
-        "key": "WSC-1838",
-        "url": "https://e2x.atlassian.net/browse/WSC-1838",
-        "summary": "PDP - new source for image Alt Text",
-        "status": "Blocked",
-        "statusCategory": "new",
-        "assignee": "enmanuel.ramirez",
-        "updated": "2026-11-26T19:39:30.907+0000",
         "priority": "Major",
         "labels": [
           "Needs-QA"
@@ -128,19 +193,6 @@
         "statusCategory": "new",
         "assignee": "Unassigned",
         "updated": "2026-11-26T17:37:25.736+0000",
-        "priority": "Minor",
-        "labels": [
-          "Needs-QA"
-        ]
-      },
-      {
-        "key": "WSC-173",
-        "url": "https://e2x.atlassian.net/browse/WSC-173",
-        "summary": "SEO - fix to product schema for PDP for reviews and ratings",
-        "status": "In Progress",
-        "statusCategory": "indeterminate",
-        "assignee": "rakesh.kumar",
-        "updated": "2026-11-26T15:53:06.688+0000",
         "priority": "Minor",
         "labels": [
           "Needs-QA"
@@ -252,19 +304,6 @@
         ]
       },
       {
-        "key": "WSC-1800",
-        "url": "https://e2x.atlassian.net/browse/WSC-1800",
-        "summary": "SHOP FINDER - SEO page enhancements",
-        "status": "IN UAT",
-        "statusCategory": "indeterminate",
-        "assignee": "Juan Carlos Coello",
-        "updated": "2026-11-26T15:11:23.731+0000",
-        "priority": "Minor",
-        "labels": [
-          "Needs-QA"
-        ]
-      },
-      {
         "key": "WSC-1791",
         "url": "https://e2x.atlassian.net/browse/WSC-1791",
         "summary": "API 404 error - https://www.whitestuff.com/api/ampl/getContent",
@@ -365,17 +404,6 @@
         "labels": [
           "NO_QA_REQUIRED"
         ]
-      },
-      {
-        "key": "WSC-1629",
-        "url": "https://e2x.atlassian.net/browse/WSC-1629",
-        "summary": "SPIKE - product family for multi-item products (PLP/PDP)",
-        "status": "In Progress",
-        "statusCategory": "indeterminate",
-        "assignee": "Se\u00e1n Gray",
-        "updated": "2026-11-26T12:55:35.866+0000",
-        "priority": "Major",
-        "labels": []
       },
       {
         "key": "WSC-1868",
